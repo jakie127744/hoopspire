@@ -25,6 +25,7 @@
  *   ---
  */
 import { marked } from 'marked'
+import { decorateAffiliateLinks } from './affiliate.js'
 
 marked.setOptions({ gfm: true, breaks: false })
 
@@ -102,9 +103,16 @@ export function getOriginal(slug) {
   return all.find((a) => a.slug === slug) || null
 }
 
-/** Rendered HTML for an article body. Safe: the source is our own repo. */
+/**
+ * Rendered HTML for an article body. Safe: the source is our own repo.
+ *
+ * Affiliate links are rewritten here rather than in the page, so `rel` and
+ * tracking parameters are correct on first paint. The returned partner list
+ * drives the disclosure notice.
+ */
 export function renderBody(body) {
-  return marked.parse(body || '')
+  const raw = marked.parse(body || '')
+  return decorateAffiliateLinks(raw)
 }
 
 /** Other pieces worth reading after this one. */

@@ -40,6 +40,20 @@ lists, block quotes and tables are all styled to match the site:
 |---|---|
 | Tables | are styled too |
 
+## Affiliate links
+
+Link normally in Markdown. Any link pointing at a host listed in
+`SITE.affiliates` (`src/lib/site.js`) is handled for you:
+
+- your tracking parameter is appended,
+- `rel="sponsored nofollow noopener"` is added — Google requires paid links to
+  be marked, and unmarked ones risk a penalty on the whole site,
+- a disclosure notice appears at the top of the article, above the body.
+
+Do not write the disclosure yourself, and do not add `rel` by hand — both are
+generated so they cannot be forgotten. Only recommend things you would
+recommend unpaid; a commission must never change what you write.
+
 ## A note on images
 
 Do not screenshot broadcasts, other sites, or wire photos. Writing your own

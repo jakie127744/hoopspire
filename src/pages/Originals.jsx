@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { getOriginals } from '../lib/articles.js'
 import { LEAGUES } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
+import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
 
 export default function Originals() {
@@ -69,6 +70,10 @@ export default function Originals() {
           )}
         </>
       )}
+
+      <div className="mt-20">
+        <NewsletterSignup />
+      </div>
     </div>
   )
 }

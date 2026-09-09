@@ -42,6 +42,46 @@ export const SITE = {
    */
   adNetwork: null,
   adsensePublisherId: null,
+
+  /**
+   * Newsletter.
+   *
+   * The signup form renders nothing at all until `provider` and `endpoint`
+   * are both set, so the site never ships a form that silently fails.
+   *
+   *   'kit'        → Kit (formerly ConvertKit). endpoint = your form ID.
+   *                  Posts JSON and reads a real success/error response.
+   *   'buttondown' → endpoint = your Buttondown username.
+   *   'custom'     → endpoint = any URL accepting a POST with an `email` field.
+   *
+   * Kit is the one that gives proper inline error handling; the others submit
+   * natively and hand the reader to the provider's own confirmation page.
+   */
+  newsletter: {
+    provider: null,
+    endpoint: null,
+    title: 'The Asian basketball brief',
+    pitch:
+      'One email a week: what actually happened across the PBA, KBL, B.League, CBA and TPBL — with the numbers.',
+  },
+
+  /**
+   * Affiliate partners.
+   *
+   * Any link in an article pointing at one of these hosts is automatically
+   * tagged `rel="sponsored nofollow"`, given your tracking parameter, and
+   * triggers a visible disclosure on the article.
+   *
+   * Disclosure is not optional: the FTC (US), CMA/ASA (UK) and equivalents
+   * require it to be clear and unavoidable, not buried in a footer.
+   *
+   * `param`/`value` are appended to the URL when both are set — leave them
+   * null for partners whose tracking lives in the path.
+   */
+  affiliates: [
+    // { host: 'amazon.com', name: 'Amazon', param: 'tag', value: 'yourtag-20' },
+    // { host: 'amazon.co.jp', name: 'Amazon Japan', param: 'tag', value: 'yourtag-22' },
+  ],
 }
 
 /** True when a config value is still an unfilled placeholder. */

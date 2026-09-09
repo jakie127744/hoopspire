@@ -133,6 +133,49 @@ Always fill `imageCredit`. Both editors require it whenever an image is set.
 Related exposure: team crests and player headshots are currently hotlinked from
 league CDNs. Fine for a hobby site; riskier once ads are running.
 
+## Monetisation wiring
+
+Both features are configured in `src/lib/site.js` and render **nothing at all**
+until configured — no dead forms, no empty boxes.
+
+### Newsletter
+
+```js
+newsletter: { provider: 'kit', endpoint: 'YOUR_FORM_ID' }
+```
+
+`'kit'` (Kit/ConvertKit) posts JSON and shows real inline success and error
+states. `'buttondown'` (endpoint = your username) and `'custom'` (endpoint =
+any URL taking a POST with an `email` field) submit natively and hand the
+reader to the provider's own confirmation page.
+
+The form appears at the end of every article, on `/originals`, and in the
+footer. It will not submit without an explicit, unticked-by-default consent
+checkbox — an email address is personal data, and under GDPR the lawful basis
+here is consent, which has to be given rather than assumed.
+
+> The provider endpoints follow each service's documented form contract, but
+> they have not been exercised against a live account. Send yourself a test
+> signup before trusting it.
+
+### Affiliate links
+
+```js
+affiliates: [
+  { host: 'amazon.com', name: 'Amazon', param: 'tag', value: 'yourtag-20' },
+]
+```
+
+Write links normally in Markdown. Any link to a listed host automatically gets
+your tracking parameter, `rel="sponsored nofollow noopener"`, and triggers a
+disclosure notice **above the article body** — before the reader can click,
+which is what the FTC and CMA/ASA require. Subdomains match; lookalike domains
+(`notamazon.com`) do not.
+
+Never hand-write the disclosure or the `rel`: both are generated so they cannot
+be forgotten, and an unmarked affiliate link is a manual-action risk for the
+whole site.
+
 ## Before you publish
 
 Fill in `src/lib/site.js` — the legal entity, address, contact emails,

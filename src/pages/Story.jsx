@@ -1,6 +1,8 @@
 import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getOriginal, renderBody, relatedOriginals } from '../lib/articles.js'
+import { disclosureText } from '../lib/affiliate.js'
+import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { getLeague } from '../lib/leagues.js'
 import { Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import ArticleCard from '../components/ArticleCard.jsx'
@@ -38,6 +40,7 @@ export default function Story() {
   }
 
   const related = relatedOriginals(article)
+  const { html, partners } = renderBody(article.body)
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-14 md:px-8">
@@ -84,6 +87,17 @@ export default function Story() {
       )}
 
       {/*
+        Affiliate disclosure goes ABOVE the body on purpose. Regulators require
+        it to be clear and to come before the reader acts on a link — a note in
+        the footer is too late to count.
+      */}
+      {partners.length > 0 && (
+        <p className="mt-10 border-l-2 border-gold bg-paper px-5 py-4 text-sm text-ink/70">
+          {disclosureText(partners)}
+        </p>
+      )}
+
+      {/*
         The body is our own Markdown, compiled at build time from files in this
         repo — not remote or user-submitted content — so rendering it directly
         introduces no injection surface.
@@ -103,7 +117,7 @@ export default function Story() {
           [&_td]:border-b [&_td]:border-parchment [&_td]:py-2
           [&_th]:border-b [&_th]:border-ink [&_th]:py-2 [&_th]:text-left [&_th]:font-mono [&_th]:text-xs [&_th]:uppercase [&_th]:tracking-widest
           [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:pl-6"
-        dangerouslySetInnerHTML={{ __html: renderBody(article.body) }}
+        dangerouslySetInnerHTML={{ __html: html }}
       />
 
       <footer className="mt-14 border-t border-parchment pt-6">
@@ -115,6 +129,10 @@ export default function Story() {
           — corrections make the ledger better.
         </p>
       </footer>
+
+      <div className="mt-14">
+        <NewsletterSignup />
+      </div>
 
       {related.length > 0 && (
         <section className="mt-20">

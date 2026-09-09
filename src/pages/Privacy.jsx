@@ -47,7 +47,7 @@ export default function Privacy() {
     <LegalPage
       kicker="Legal"
       title="Privacy Policy"
-      intro={`This policy explains what ${SITE.name} does — and does not — do with your data. The short version: the site has no accounts, no server-side database of readers, and sets no cookie of any kind until you say yes.`}
+      intro={`This policy explains what ${SITE.name} does — and does not — do with your data. The short version: there are no accounts, nothing is tracked until you say yes, and the only personal data we ever hold is an email address you chose to give us.`}
     >
       <YourChoices />
 
@@ -64,9 +64,9 @@ export default function Privacy() {
 
       <Section title="What we collect">
         <p>
-          <strong>No account data.</strong> There is no sign-up, no login and no profile. We never
-          ask for your name, email address or payment details, and there is no form on this site
-          that collects them.
+          <strong>No accounts.</strong> There is no login and no profile. We never ask for your
+          name, payment details or date of birth, and no page on this site requests them. The only
+          personal data you can give us is an email address, and only by choosing to.
         </p>
         <p>
           <strong>Your consent choice.</strong> When you answer the cookie banner, the answer is
@@ -77,6 +77,13 @@ export default function Privacy() {
           <strong>Server logs.</strong> Whoever hosts this site will keep standard access logs (IP
           address, browser type, page requested, timestamp) as an ordinary part of serving the
           page. These are used for security and troubleshooting only.
+        </p>
+        <p>
+          <strong>Newsletter signups.</strong> If — and only if — you enter your email address
+          and tick the consent box, that address is sent to our email provider so we can send you
+          the newsletter. We ask for nothing else: no name, no location. Every issue carries an
+          unsubscribe link, and unsubscribing deletes you from the list. We do not sell, rent or
+          share the list.
         </p>
         <p>
           <strong>Optional analytics and advertising.</strong> Only if you allow them. See below.
@@ -142,6 +149,21 @@ export default function Privacy() {
         </p>
       </Section>
 
+      <Section title="Affiliate links">
+        <p>
+          Some articles link to retailers through affiliate programmes, which means we may earn a
+          commission if you buy something after following one. Those links are marked in the page
+          source as <code className="font-mono text-xs">sponsored</code>, and any article
+          containing one carries a visible disclosure at the top — before you reach the link, not
+          after.
+        </p>
+        <p>
+          Following such a link takes you to the retailer, who may set their own cookies under
+          their own privacy policy. A commission never changes what we write, and it never
+          changes a reported score or statistic.
+        </p>
+      </Section>
+
       <Section title="Your rights">
         <p>
           Depending on where you live, you may have the right to access, correct, delete, port or
@@ -155,7 +177,8 @@ export default function Privacy() {
           defined by the CCPA/CPRA, and we do not knowingly collect data from anyone under 16.
         </p>
         <p>
-          To exercise any right, email{' '}
+          For the newsletter specifically, the fastest route is the unsubscribe link in any
+          issue. Otherwise, email{' '}
           <a href={`mailto:${SITE.privacyEmail}`}>
             <Value of="privacyEmail" />
           </a>
