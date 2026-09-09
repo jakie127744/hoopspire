@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { LEAGUES, getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getLeaders, getStandings } from '../lib/api.js'
-import StandingsTable from '../components/StandingsTable.jsx'
+import StandingsPanel from '../components/StandingsPanel.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { shortName } from '../lib/format.js'
 
@@ -145,7 +145,7 @@ export default function Stats() {
             <Eyebrow className="text-ink/40">{standings.seasonLabel}</Eyebrow>
           )}
         </SectionHead>
-        <StandingsTable standings={standings} leagueKey={leagueKey} />
+        {league && <StandingsPanel league={league} />}
       </section>
     </div>
   )

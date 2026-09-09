@@ -237,6 +237,27 @@ each league's own published English club names. B.League roster entries written
 in katakana are romanized; Japanese players' kanji names keep their original
 form, because romanizing kanji without a name dictionary would be guessing.
 
+## Standings views
+
+Leagues whose feed exposes groupings (currently the ESPN-backed ones) get four
+views on both the league page and `/stats`:
+
+- **Conference** — seeded 1-15 using ESPN's `playoffSeed`, which is what
+  postseason seeding actually follows
+- **Division** — six compact tables, ordered by record
+- **League** — all 30, ordered by record
+- **If playoffs started today** — the bracket the current table would produce
+
+The playoff view predicts nothing. It seeds teams exactly as they sit and
+applies the format declared in `playoffFormat` (`src/lib/leagues.js`), which is
+only set for leagues whose format has been verified — the tab does not appear
+for the rest rather than guessing at one.
+
+Seeds 7-10 are drawn as a **play-in tournament**, not folded into the first
+round, and any first-round pairing depending on a play-in result is marked
+**provisional**. Presenting "2 v 7" as settled would assert something the
+standings do not support.
+
 ## Player statistics
 
 CBA, KBL and TPBL now carry full per-player season averages, which also fill
@@ -262,8 +283,23 @@ Two traps worth knowing, both of which produced wrong data before being fixed:
   text — and both "Kings" and "N.Taipei" are New Taipei clubs, so a near-miss
   would merge two different teams.
 
+**B.League** also draws averages from RealGM (427 players), on top of the
+rosters scraped from bleague.jp.
+
 Leaders require a minimum share of games played, so a one-game cameo cannot
 outrank a season-long leader.
+
+### Leagues without player statistics
+
+Honest gaps, not oversights:
+
+- **PBA** — rosters only (height, weight, position, college, from Wikipedia).
+  No public season-averages source found.
+- **EuroLeague** — games, standings, clubs and squads are real and live, but
+  its feeds carry no per-player averages.
+
+The Stats page labels its source as *Season averages* or *From recent box
+scores* so the sample behind a number is never ambiguous.
 
 ## Known source limitations
 

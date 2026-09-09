@@ -4,7 +4,7 @@ import { useAsync } from '../lib/useAsync.js'
 import { getNews, getGames, getStandings } from '../lib/api.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
-import StandingsTable from '../components/StandingsTable.jsx'
+import StandingsPanel from '../components/StandingsPanel.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
 
@@ -151,7 +151,7 @@ export default function League() {
             <span className="eyebrow text-ink/40">{standings.seasonLabel}</span>
           )}
         </SectionHead>
-        <StandingsTable standings={standings} leagueKey={league.key} />
+        <StandingsPanel league={league} />
       </section>
     </div>
   )

@@ -287,6 +287,28 @@ async function scrapeBLeague() {
   const news = await fetchLeagueNews('BLeague', NEWS_FEEDS.BLeague, NEWS_TERMS.BLeague)
   notes.push(...news.notes)
 
+  // Player statistics. bleague.jp publishes rosters but no English stats
+  // table, so averages come from RealGM. Rosters scraped above already carry
+  // jersey numbers and positions, so these only add the numbers.
+  let playerStats = []
+  let leaders = {}
+  try {
+    const st = await realgmPlayerStats('BLeague')
+    playerStats = st.players
+    notes.push(...st.notes)
+    for (const p of playerStats) {
+      const club = matchTeam(p.teamName || p.teamAbbr, teams)
+      if (club) p.teamId = club.id
+    }
+    const unmatched = playerStats.filter((p) => !p.teamId).length
+    if (unmatched) notes.push(`${unmatched} B.League players could not be matched to a club`)
+    const built = buildLeaders(playerStats)
+    leaders = built.leaders || {}
+    if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
+  } catch (err) {
+    notes.push(`player stats: ${err.message}`)
+  }
+
   return {
     league: 'BLeague',
     season: String(new Date().getFullYear()),
@@ -299,10 +321,11 @@ async function scrapeBLeague() {
     notes,
     teams,
     rosters,
+    playerStats,
     standings: { seasonLabel: '', rows: [] },
     games: fixtures.games,
     news: news.articles,
-    leaders: {},
+    leaders,
   }
 }
 

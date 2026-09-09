@@ -160,42 +160,101 @@ export async function fetchRecentAndUpcoming(league) {
   return [...live, ...finals, ...upcoming]
 }
 
+/** One standings row, normalised from an ESPN entry. */
+function standingRow(e) {
+  const stat = (name) => e.stats?.find((s) => s.name === name)
+  const num = (name) => {
+    const v = stat(name)?.value
+    return typeof v === 'number' ? v : null
+  }
+  return {
+    team: {
+      id: e.team?.id,
+      name: e.team?.displayName,
+      abbr: e.team?.abbreviation,
+      logo: e.team?.logos?.[0]?.href || null,
+    },
+    wins: num('wins') ?? 0,
+    losses: num('losses') ?? 0,
+    pct: stat('winPercent')?.displayValue || '—',
+    pointsFor: num('pointsFor'),
+    pointsAgainst: num('pointsAgainst'),
+    diff: stat('pointDifferential')?.displayValue || null,
+    streak: stat('streak')?.displayValue || null,
+    lastTen: e.stats?.find((s) => s.name === 'Last Ten Games')?.displayValue || null,
+    gamesBehind: stat('gamesBehind')?.displayValue || null,
+    /** Seed within the group ESPN returned it in — conference, for level 2. */
+    seed: num('playoffSeed'),
+    /** ESPN's clinch marker: z/y/x = clinched something, e = eliminated. */
+    clincher: stat('clincher')?.displayValue || null,
+  }
+}
+
+const byRecord = (a, b) => b.wins - a.wins || a.losses - b.losses
+
 /** League-wide standings (level=1 returns every team, ungrouped). */
 export async function fetchStandings(league) {
   const url = `${CORE}/${league.espnSlug}/standings?level=1`
   const data = await getJSON(url, 10 * 60_000)
-  const entries = data.standings?.entries || []
-
-  const rows = entries.map((e) => {
-    const stat = (name) => e.stats?.find((s) => s.name === name)
-    const num = (name) => {
-      const v = stat(name)?.value
-      return typeof v === 'number' ? v : null
-    }
-    return {
-      team: {
-        id: e.team?.id,
-        name: e.team?.displayName,
-        abbr: e.team?.abbreviation,
-        logo: e.team?.logos?.[0]?.href || null,
-      },
-      wins: num('wins') ?? 0,
-      losses: num('losses') ?? 0,
-      pct: stat('winPercent')?.displayValue || '—',
-      pointsFor: num('pointsFor'),
-      pointsAgainst: num('pointsAgainst'),
-      diff: stat('pointDifferential')?.displayValue || null,
-      streak: stat('streak')?.displayValue || null,
-      lastTen: e.stats?.find((s) => s.name === 'Last Ten Games')?.displayValue || null,
-      seed: num('playoffSeed'),
-    }
-  })
-
-  rows.sort((a, b) => b.wins - a.wins || a.losses - b.losses)
+  const rows = (data.standings?.entries || []).map(standingRow)
+  rows.sort(byRecord)
   return {
     seasonLabel: data.standings?.seasonDisplayName || data.season?.displayName || '',
     rows,
   }
+}
+
+/**
+ * Standings grouped by conference and by division.
+ *
+ * ESPN exposes the same table at three levels: 1 is flat, 2 splits by
+ * conference, 3 splits again by division. Conference is the one that matters
+ * for seeding, so the playoff picture is built from level 2.
+ *
+ * Entries arrive in no meaningful order — a 6-seed can come back second — so
+ * conference groups are sorted by `playoffSeed`, and divisions (which have no
+ * seed of their own) by record.
+ */
+export async function fetchStandingsGrouped(league) {
+  const [byConf, byDiv] = await Promise.all([
+    getJSON(`${CORE}/${league.espnSlug}/standings?level=2`, 10 * 60_000).catch(() => null),
+    getJSON(`${CORE}/${league.espnSlug}/standings?level=3`, 10 * 60_000).catch(() => null),
+  ])
+
+  // Label the season the TABLE describes, not `season.displayName` — that is
+  // the upcoming season (2026-27 while these are the completed 2025-26
+  // standings), so using it puts last season's table under next season's name.
+  // The real label lives on the group that actually holds the entries.
+  const seasonLabel =
+    byConf?.children?.[0]?.standings?.seasonDisplayName ||
+    byDiv?.children?.[0]?.children?.[0]?.standings?.seasonDisplayName ||
+    byConf?.standings?.seasonDisplayName ||
+    ''
+
+  const conferences = (byConf?.children || []).map((c) => {
+    const rows = (c.standings?.entries || []).map(standingRow)
+    // Seed order where ESPN provides it; record order otherwise.
+    rows.sort((a, b) =>
+      a.seed != null && b.seed != null ? a.seed - b.seed : byRecord(a, b)
+    )
+    return { name: c.name, abbrev: c.abbreviation || c.shortName || c.name, rows }
+  })
+
+  const divisions = []
+  for (const c of byDiv?.children || []) {
+    for (const d of c.children || []) {
+      const rows = (d.standings?.entries || []).map(standingRow)
+      rows.sort(byRecord)
+      divisions.push({
+        name: d.name,
+        conference: c.name,
+        conferenceAbbrev: c.abbreviation || c.shortName || c.name,
+        rows,
+      })
+    }
+  }
+
+  return { seasonLabel, conferences, divisions }
 }
 
 /** League news — real ESPN wire stories. */
@@ -351,23 +410,33 @@ export async function fetchGameSummary(league, gameId) {
 }
 
 /**
- * League scoring leaders.
+ * League scoring leaders, from ESPN's season-leaders feed.
  *
- * ESPN's season-leaders feed is the real source; when a season hasn't started
- * (or the league doesn't publish leaders) we return null and callers fall back
- * to per-game leaders pulled off the scoreboard.
+ * Note the category names: ESPN calls these `pointsPerGame`, not `avgPoints`.
+ * Matching on the wrong names silently returns nothing, and the caller then
+ * falls back to per-game leaders off recent box scores — which looks fine
+ * until you notice the "leader" played once and the real season leader is
+ * missing entirely.
  */
+const LEADER_CATEGORIES = {
+  pointsPerGame: 'avgPoints',
+  reboundsPerGame: 'avgRebounds',
+  assistsPerGame: 'avgAssists',
+  stealsPerGame: 'avgSteals',
+  blocksPerGame: 'avgBlocks',
+}
+
 export async function fetchLeaders(league) {
-  const url = `${CORE.replace('/apis/v2', '/apis/site/v3')}/${league.espnSlug}/leaders`
+  const url = `https://site.api.espn.com/apis/site/v3/sports/basketball/${league.espnSlug}/leaders`
   try {
     const data = await getJSON(url, 30 * 60_000)
-    const cats = data.leaders?.categories || []
-    const wanted = ['avgPoints', 'avgRebounds', 'avgAssists', 'avgSteals', 'avgBlocks']
+    const categories = data.leaders?.categories || []
+
     const out = {}
-    for (const name of wanted) {
-      const cat = cats.find((c) => c.name === name)
-      if (!cat) continue
-      out[name] = (cat.leaders || []).slice(0, 10).map((l) => ({
+    for (const [espnName, key] of Object.entries(LEADER_CATEGORIES)) {
+      const cat = categories.find((c) => c.name === espnName)
+      if (!cat?.leaders?.length) continue
+      out[key] = cat.leaders.slice(0, 10).map((l) => ({
         name: l.athlete?.displayName,
         headshot: l.athlete?.headshot?.href || null,
         team: l.team?.abbreviation || null,
@@ -375,6 +444,7 @@ export async function fetchLeaders(league) {
         value: l.displayValue,
       }))
     }
+
     return Object.keys(out).length ? out : null
   } catch {
     return null

@@ -39,6 +39,26 @@ export const LEAGUES = [
     espnSlug: 'nba',
     site: 'https://www.nba.com',
     tier: 'core',
+    /**
+     * Postseason format, used to build the "if the playoffs started today"
+     * view. Only declared for leagues whose format we have actually verified
+     * — the tab does not appear for the others rather than guessing.
+     *
+     *   berths  — seeds that qualify outright
+     *   playIn  — inclusive seed range entering the play-in tournament
+     *   bracket — first-round pairings by seed
+     */
+    playoffFormat: {
+      grouping: 'conference',
+      berths: 6,
+      playIn: [7, 10],
+      bracket: [
+        [1, 8],
+        [4, 5],
+        [3, 6],
+        [2, 7],
+      ],
+    },
   },
   {
     key: 'WNBA',

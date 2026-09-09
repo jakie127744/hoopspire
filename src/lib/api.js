@@ -46,6 +46,25 @@ export async function getStandings(leagueKey) {
 }
 
 /**
+ * Standings split by conference and division.
+ *
+ * Only the ESPN adapter publishes groupings; everything else returns empty
+ * arrays, and the UI then simply does not offer those tabs.
+ */
+export async function getStandingsGrouped(leagueKey) {
+  const league = getLeague(leagueKey)
+  const empty = { seasonLabel: '', conferences: [], divisions: [] }
+  if (!league) return empty
+  const a = adapterFor(league)
+  if (!a?.fetchStandingsGrouped) return empty
+  try {
+    return await a.fetchStandingsGrouped(league)
+  } catch {
+    return empty
+  }
+}
+
+/**
  * News.
  *
  * EuroLeague's own feeds carry no wire copy, so its stories come from ESPN's
