@@ -24,10 +24,26 @@ The filename becomes the URL — `my-article.md` publishes at `/story/my-article
   cross-league story.
 - **author** — your byline.
 - **published** — ISO date, `YYYY-MM-DD`. Controls ordering.
-- **tag** — `Analysis`, `Feature`, `Report`, `Explainer`, `Interview`…
+- **tag** — `Analysis`, `Data`, `Trends`, `Explainer`, `Feature`. The Margin is
+  stats-first, so most pieces are `Analysis` or `Data`.
 - **image** / **imageCredit** — optional hero. If you set an image, set the
   credit. See the note on rights below.
 - **draft** — `true` hides the file from the site completely.
+
+## What belongs in The Margin
+
+This section is basketball argued from the numbers. Before writing, check the
+claim is one the data actually supports:
+
+- Lead with a number that surprises, then explain it.
+- Say the sample size. "Averaging 24 over 9 games" and "over 60" are different
+  claims, and readers who care about stats will notice which one you made.
+- Separate what the numbers show from what you think they mean. The EuroLeague
+  starter piece does this explicitly in its closing section.
+- Cross-league comparisons are the angle nobody else has — you have thirteen
+  leagues in one shape. Use them.
+- Check your arithmetic before publishing. Quarter splits that do not sum to
+  the final score are the fastest way to lose a stats audience.
 
 ## Writing
 

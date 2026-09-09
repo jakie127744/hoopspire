@@ -32,8 +32,8 @@ export default function Story() {
     return (
       <div className="mx-auto max-w-3xl px-4 py-24 md:px-8">
         <h1 className="text-4xl">That story isn't in the ledger.</h1>
-        <Link to="/originals" className="eyebrow mt-6 inline-block text-crimson">
-          ← All originals
+        <Link to="/margin" className="eyebrow mt-6 inline-block text-crimson">
+          ← The Margin
         </Link>
       </div>
     )
@@ -44,8 +44,8 @@ export default function Story() {
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-14 md:px-8">
-      <Link to="/originals" className="eyebrow text-ink/45 hover:text-crimson">
-        ← Originals
+      <Link to="/margin" className="eyebrow text-ink/45 hover:text-crimson">
+        ← The Margin
       </Link>
 
       <header className="mt-6">
@@ -58,7 +58,7 @@ export default function Story() {
           {league && <span className="text-parchment">·</span>}
           <Eyebrow className="text-ink/50">{article.tag}</Eyebrow>
           <span className="border border-gold px-1.5 py-0.5 text-gold">
-            <Eyebrow className="font-bold">Original</Eyebrow>
+            <Eyebrow className="font-bold">The Margin</Eyebrow>
           </span>
         </div>
 
@@ -136,7 +136,7 @@ export default function Story() {
 
       {related.length > 0 && (
         <section className="mt-20">
-          <SectionHead title="More originals" />
+          <SectionHead title="More from The Margin" />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((a) => (
               <ArticleCard key={a.id} article={a} />

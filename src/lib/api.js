@@ -91,7 +91,7 @@ export async function getNews(leagueKey, limit = 12) {
 
 export async function getAllNews(perLeague = 6) {
   const lists = await Promise.all(LEAGUES.map((l) => getNews(l.key, perLeague)))
-  // Cross-league originals carry no league key, so they are added directly.
+  // Cross-league Margin pieces carry no league key, so they are added directly.
   lists.push(getOriginals(null).filter((a) => !a.league))
 
   // ESPN syndicates one story across several league feeds — a FIBA World Cup

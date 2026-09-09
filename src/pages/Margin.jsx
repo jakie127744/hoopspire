@@ -5,7 +5,14 @@ import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
 
-export default function Originals() {
+/**
+ * The Margin — the site's own writing.
+ *
+ * Named for both meanings: the margin of victory, and the notes written in the
+ * margin. Everything here is analysis built from the numbers the rest of the
+ * site collects, which is the one thing an aggregator cannot copy.
+ */
+export default function Margin() {
   const [league, setLeague] = useState('ALL')
   const all = getOriginals()
 
@@ -18,10 +25,11 @@ export default function Originals() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-gold">Written here</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">Originals</h1>
+      <h1 className="mt-3 text-6xl md:text-7xl">The Margin</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
-        Reporting and analysis written for Hoopspire. Everything else on the site indexes other
-        people's work — this is ours.
+        Basketball argued from the numbers. Every piece here is built on the box scores,
+        standings and season averages the ledger already keeps — across all thirteen leagues,
+        not just the one everybody covers.
       </p>
 
       {written.length > 1 && (
@@ -47,7 +55,7 @@ export default function Originals() {
         <div className="mt-12">
           <Empty
             title="Nothing published yet."
-            hint="Add a Markdown file to /content/articles and it appears here — see README."
+            hint="Add a Markdown file to /content/articles — or run `npm run cms`."
           />
         </div>
       ) : (

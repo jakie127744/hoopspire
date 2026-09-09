@@ -8,18 +8,19 @@ import { formatDate, relativeTime } from '../lib/format.js'
  *
  * Two kinds of item flow through here:
  *
- *   Originals — our own writing. These link to a route on this site and carry
- *   a badge, because the distinction between what we wrote and what we merely
- *   indexed should never be ambiguous to a reader.
+ *   The Margin — our own writing. These link to a route on this site and
+ *   carry a badge, because the distinction between what we wrote and what we
+ *   merely indexed should never be ambiguous to a reader.
  *
  *   Wire items — someone else's reporting. We show the headline, dek and
  *   byline and link to the publisher. The copy stays theirs.
  */
 
-function OriginalBadge() {
+/** Marks our own writing where it sits alongside wire items. */
+function MarginBadge() {
   return (
     <span className="border border-gold px-1.5 py-0.5 text-gold">
-      <Eyebrow className="font-bold">Original</Eyebrow>
+      <Eyebrow className="font-bold">The Margin</Eyebrow>
     </span>
   )
 }
@@ -32,7 +33,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
 
   const isOriginal = !!article.original
 
-  // Originals stay in the SPA. Wire items open in this tab on purpose, so the
+  // Our own pieces stay in the SPA. Wire items open in this tab on purpose, so the
   // browser's Back button returns the reader here — a _blank tab has no
   // history, which makes Back dead on arrival.
   const Wrapper = isOriginal ? Link : article.url ? 'a' : 'div'
@@ -53,7 +54,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
   const Kicker = () => (
     <div className="flex flex-wrap items-center gap-2">
       <LeagueTag league={article.league || 'Hoopspire'} tag={article.tag} />
-      {isOriginal && <OriginalBadge />}
+      {isOriginal && <MarginBadge />}
     </div>
   )
 

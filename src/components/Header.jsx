@@ -3,7 +3,7 @@ import { NavLink, Link, useLocation } from 'react-router-dom'
 import { leaguesByGroup } from '../lib/leagues.js'
 
 const SECTIONS = [
-  { to: '/originals', label: 'Originals' },
+  { to: '/margin', label: 'The Margin' },
   { to: '/scores', label: 'Scores' },
   { to: '/stats', label: 'Stats' },
   { to: '/teams', label: 'Teams' },

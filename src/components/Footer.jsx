@@ -47,7 +47,7 @@ export default function Footer() {
           <ul className="mt-4 space-y-2">
             {[
               ['/', 'Home'],
-              ['/originals', 'Originals'],
+              ['/margin', 'The Margin'],
               ['/scores', 'Live Scores'],
               ['/stats', 'Statistics'],
               ['/teams', 'Teams & Rosters'],

@@ -1,5 +1,11 @@
 /**
- * Original articles — the writing that is actually yours.
+ * The Margin — the writing that is actually yours.
+ *
+ * Named for both senses: the margin of victory, and the notes written in the
+ * margin. The section is stats-first by design — analysis built on the box
+ * scores, standings and season averages the rest of the site already collects.
+ * That is the one thing an aggregator cannot copy, and the reason this section
+ * exists.
  *
  * Posts live as Markdown files in /content/articles/*.md and are bundled at
  * build time by Vite, so there is no CMS, no database and no backend to run.
@@ -7,7 +13,7 @@
  *
  * This is the half of the site that makes it publishable. Aggregated
  * headlines are a service; original reporting and analysis is the thing ad
- * networks, search engines and readers actually value. Originals are ranked
+ * networks, search engines and readers actually value. These pieces rank
  * above wire items everywhere they appear together, and they open on this
  * site rather than linking away.
  *
@@ -18,7 +24,7 @@
  *   league: BLeague          # a key from leagues.js, or omit for cross-league
  *   author: Your Name
  *   published: 2026-09-09    # ISO date
- *   tag: Analysis            # Analysis | Feature | Report | Explainer …
+ *   tag: Analysis            # Analysis | Data | Trends | Explainer | Feature
  *   image: https://…         # optional hero
  *   imageCredit: Photo by …  # required whenever `image` is set
  *   draft: true              # hidden from the site until removed
@@ -86,7 +92,7 @@ const all = Object.entries(files)
       draft: data.draft === true,
       readingTime: readingTime(body),
       body,
-      /** Internal route — originals never link off-site. */
+      /** Internal route — our own pieces never link off-site. */
       href: `/story/${slug}`,
       url: null,
     }

@@ -46,11 +46,14 @@ CORS-open API, so
 `npm run data` scrapes their sources into `public/data/<League>.json`, which the
 app reads as static files.
 
-## Writing your own articles
+## The Margin — writing your own articles
 
-Original pieces live as Markdown in `content/articles/*.md`. Vite bundles them
-at build time, so there is no CMS, no database and no backend — add a file and
-it appears on the site.
+**The Margin** is the site's own writing: basketball argued from the numbers,
+built on the box scores and season averages the rest of the site collects. The
+name carries both senses — margin of victory, and notes in the margin.
+
+Pieces live as Markdown in `content/articles/*.md`. Vite bundles them at build
+time, so there is no database and no backend — add a file and it appears.
 
 ### Two editors, same files
 
@@ -85,13 +88,13 @@ is what ad networks, search engines and readers actually value — and it is the
 single thing standing between this site and an AdSense rejection for
 "scraped content". See *Monetisation* below.
 
-Originals are woven through the whole site, not siloed:
+The Margin is woven through the whole site, not siloed:
 
-- they appear on `/originals`, and on their league's page;
+- they appear at `/margin`, and on their league's page;
 - they are merged into the same feeds as wire items, and **outrank** any wire
   item published the same day;
-- they carry a gold **Original** badge, so a reader is never unclear about what
-  you wrote versus what you indexed;
+- they carry a gold **The Margin** badge, so a reader is never unclear about
+  what you wrote versus what you indexed;
 - they open on this site rather than linking away.
 
 Set `draft: true` to keep a file out of the build entirely.
@@ -149,7 +152,7 @@ states. `'buttondown'` (endpoint = your username) and `'custom'` (endpoint =
 any URL taking a POST with an `email` field) submit natively and hand the
 reader to the provider's own confirmation page.
 
-The form appears at the end of every article, on `/originals`, and in the
+The form appears at the end of every article, on `/margin`, and in the
 footer. It will not submit without an explicit, unticked-by-default consent
 checkbox — an email address is personal data, and under GDPR the lawful basis
 here is consent, which has to be given rather than assumed.
@@ -354,7 +357,7 @@ src/
     articles.js     loads and renders content/articles/*.md
   components/       Header, Ticker, ScoreCard, StandingsTable, ArticleCard…
   pages/            Home, League, Scores, Stats, Teams, Team, Game, About,
-                    Originals, Story, Privacy, Terms, Contact
+                    Margin, Story, Privacy, Terms, Contact
   lib/site.js       ⚠️ legal + ad config — fill this in before publishing
   lib/consent.js    the consent gate
 content/

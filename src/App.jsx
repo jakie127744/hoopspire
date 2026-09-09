@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation, Link } from 'react-router-dom'
+import { Routes, Route, useLocation, Link, Navigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
@@ -15,7 +15,7 @@ import Privacy from './pages/Privacy.jsx'
 import Terms from './pages/Terms.jsx'
 import Contact from './pages/Contact.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
-import Originals from './pages/Originals.jsx'
+import Margin from './pages/Margin.jsx'
 import Story from './pages/Story.jsx'
 
 function ScrollToTop() {
@@ -53,7 +53,10 @@ export default function App() {
           <Route path="/teams" element={<Teams />} />
           <Route path="/team/:leagueKey/:teamId" element={<Team />} />
           <Route path="/game/:leagueKey/:gameId" element={<Game />} />
-          <Route path="/originals" element={<Originals />} />
+          <Route path="/margin" element={<Margin />} />
+          {/* The section was called Originals before it had a name; keep old
+              links working rather than 404ing anyone who saved one. */}
+          <Route path="/originals" element={<Navigate to="/margin" replace />} />
           <Route path="/story/:slug" element={<Story />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
