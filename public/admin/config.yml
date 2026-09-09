@@ -1,0 +1,124 @@
+# Git-based CMS configuration (Sveltia CMS — Decap/Netlify CMS compatible).
+#
+# This is the *deployed* editor: it runs at https://your-site/admin/, signs you
+# in with GitHub, and commits Markdown straight to the repo. Every edit is a
+# real commit, so the content has the same history and rollback story as the
+# code.
+#
+# For local writing with no auth and no network, `npm run cms` is simpler.
+# Both edit exactly the same files, so you can move between them freely.
+#
+# ── Before this works ──────────────────────────────────────────────────────
+# 1. Push this repo to GitHub (already configured below).
+# 2. Deploy it — Netlify, Cloudflare Pages and Vercel all serve /admin fine.
+# 3. Give the CMS a way to sign in to GitHub. Pick one:
+#      · Netlify hosting  → enable Identity + Git Gateway, then set
+#                           `backend.name: git-gateway` below.
+#      · Anywhere else    → deploy Sveltia's OAuth worker (a ~5-minute
+#                           Cloudflare Worker) and set `base_url` to it.
+#    Sveltia's docs cover both: https://github.com/sveltia/sveltia-cms
+#
+# Without step 3 the page loads but cannot authenticate — that is expected,
+# not a broken config.
+
+backend:
+  name: github
+  repo: jakie127744/hoopspire
+  branch: main
+  # base_url: https://your-oauth-worker.workers.dev
+
+# Edits become commits with this message shape.
+site_url: https://hoopspire.com
+display_url: https://hoopspire.com
+
+# Editorial workflow turns saves into pull requests instead of direct commits.
+# Off by default so writing stays a single click; turn it on if you want a
+# review step before anything goes live.
+# publish_mode: editorial_workflow
+
+media_folder: public/uploads
+public_folder: /uploads
+
+collections:
+  - name: articles
+    label: Articles
+    label_singular: Article
+    folder: content/articles
+    create: true
+    slug: '{{slug}}'
+    extension: md
+    format: yaml-frontmatter
+    summary: '{{title}} — {{league}} · {{published}}'
+    sortable_fields: [published, title, league]
+    view_filters:
+      - label: Drafts
+        field: draft
+        pattern: true
+      - label: Published
+        field: draft
+        pattern: false
+    fields:
+      - { name: title, label: Title, widget: string }
+
+      - name: dek
+        label: Dek
+        widget: text
+        hint: One or two sentences. Shows on cards and as the search-result description.
+
+      - name: league
+        label: League
+        widget: select
+        required: false
+        hint: Leave blank for a cross-league piece.
+        options:
+          - FIBA
+          - NBA
+          - WNBA
+          - GLeague
+          - NCAAM
+          - NBB
+          - EuroLeague
+          - PBA
+          - KBL
+          - BLeague
+          - CBA
+          - TPBL
+          - NBL
+
+      - { name: author, label: Author, widget: string }
+
+      - name: published
+        label: Published
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: false
+        picker_utc: false
+
+      - name: tag
+        label: Tag
+        widget: select
+        default: Analysis
+        options: [Analysis, Feature, Report, Explainer, Interview, Preview]
+
+      - name: image
+        label: Hero image
+        widget: image
+        required: false
+        hint: >-
+          Only upload images you own or are licensed to use. Screenshots of
+          broadcasts, other websites or wire photos are not licensed by writing
+          your own article around them.
+
+      - name: imageCredit
+        label: Image credit
+        widget: string
+        required: false
+        hint: Required whenever a hero image is set. e.g. "Photo by Jane Doe / CC BY 2.0".
+
+      - name: draft
+        label: Draft
+        widget: boolean
+        default: true
+        hint: Drafts are excluded from the build entirely.
+
+      - { name: body, label: Body, widget: markdown }

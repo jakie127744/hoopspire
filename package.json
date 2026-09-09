@@ -1,0 +1,31 @@
+{
+  "name": "hoopspire",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Hoopspire — Heritage of the Hardwood. A global basketball ledger across five leagues.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "data": "node scripts/fetch-data.mjs",
+    "data:kbl": "node scripts/fetch-data.mjs kbl",
+    "data:bleague": "node scripts/fetch-data.mjs bleague",
+    "data:pba": "node scripts/fetch-data.mjs pba",
+    "cms": "node scripts/cms-server.mjs",
+    "new": "node scripts/new-article.mjs"
+  },
+  "dependencies": {
+    "marked": "^18.0.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cheerio": "^1.0.0",
+    "tailwindcss": "^4.0.0",
+    "vite": "^5.4.8"
+  }
+}

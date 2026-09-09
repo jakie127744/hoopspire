@@ -1,0 +1,307 @@
+{
+  "league": "KBL",
+  "season": "2026",
+  "fetchedAt": "2026-09-09T21:11:24.222Z",
+  "sources": [
+    {
+      "name": "kbl.or.kr",
+      "url": "https://www.kbl.or.kr"
+    },
+    {
+      "name": "asia-basket",
+      "url": "https://www.asia-basket.com/South-Korea/basketball.aspx"
+    },
+    {
+      "name": "Yonhap News",
+      "url": "https://en.yna.co.kr/RSS/sports.xml"
+    },
+    {
+      "name": "Chosun",
+      "url": "https://www.chosun.com/arc/outboundfeeds/rss/category/sports/?outputType=xml"
+    }
+  ],
+  "notes": [
+    "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 500",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260810&toDate=20261009&tcodeList=all — HTTP 500",
+    "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket"
+  ],
+  "teams": [
+    {
+      "id": "seoul-sk-knights",
+      "league": "KBL",
+      "name": "Seoul SK Knights",
+      "nameLocal": "서울SK나이츠",
+      "shortName": "Seoul SK Knights",
+      "abbr": "SSK",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "seoul-samsung-thunders",
+      "league": "KBL",
+      "name": "Seoul Samsung Thunders",
+      "nameLocal": "서울삼성썬더스",
+      "shortName": "Seoul Samsung Thunders",
+      "abbr": "SST",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "wonju-db-promy",
+      "league": "KBL",
+      "name": "Wonju DB Promy",
+      "nameLocal": "원주DB프로미",
+      "shortName": "Wonju DB Promy",
+      "abbr": "WDP",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "anyang-jung-kwan-jang",
+      "league": "KBL",
+      "name": "Anyang Jung Kwan Jang",
+      "nameLocal": "안양정관장",
+      "shortName": "Anyang Jung Kwan Jang",
+      "abbr": "AJKJ",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "changwon-lg-sakers",
+      "league": "KBL",
+      "name": "Changwon LG Sakers",
+      "nameLocal": "창원LG세이커스",
+      "shortName": "Changwon LG Sakers",
+      "abbr": "CLS",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "busan-kcc-egis",
+      "league": "KBL",
+      "name": "Busan KCC Egis",
+      "nameLocal": "부산KCC이지스",
+      "shortName": "Busan KCC Egis",
+      "abbr": "BKE",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "daegu-korea-gas-corporation",
+      "league": "KBL",
+      "name": "Daegu Korea Gas Corporation",
+      "nameLocal": "대구한국가스공사",
+      "shortName": "Daegu Korea Gas Corporation",
+      "abbr": "DKGC",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "goyang-sono-skygunners",
+      "league": "KBL",
+      "name": "Goyang Sono Skygunners",
+      "nameLocal": "고양소노스카이거너스",
+      "shortName": "Goyang Sono Skygunners",
+      "abbr": "GSS",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "ulsan-hyundai-mobis-phoebus",
+      "league": "KBL",
+      "name": "Ulsan Hyundai Mobis Phoebus",
+      "nameLocal": "울산현대모비스피버스",
+      "shortName": "Ulsan Hyundai Mobis Phoebus",
+      "abbr": "UHMP",
+      "city": null,
+      "logo": null
+    },
+    {
+      "id": "suwon-kt-sonicboom",
+      "league": "KBL",
+      "name": "Suwon KT Sonicboom",
+      "nameLocal": "수원KT소닉붐",
+      "shortName": "Suwon KT Sonicboom",
+      "abbr": "SKS",
+      "city": null,
+      "logo": null
+    }
+  ],
+  "rosters": {},
+  "standings": {
+    "seasonLabel": "",
+    "rows": []
+  },
+  "games": [
+    {
+      "id": "ab-KBL-2026-10-04-wonju-db-promy-goyang-sono-skygunners",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-04T10:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "wonju-db-promy",
+        "name": "Wonju DB Promy",
+        "abbr": "WDP",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "goyang-sono-skygunners",
+        "name": "Goyang Sono Skygunners",
+        "abbr": "GSS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-KBL-2026-10-04-suwon-kt-sonicboom-seoul-samsung-thunders",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-04T10:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "suwon-kt-sonicboom",
+        "name": "Suwon KT Sonicboom",
+        "abbr": "SKS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "seoul-samsung-thunders",
+        "name": "Seoul Samsung Thunders",
+        "abbr": "SST",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-KBL-2026-10-03-goyang-sono-skygunners-daegu-korea-gas-corporation",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-03T10:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "goyang-sono-skygunners",
+        "name": "Goyang Sono Skygunners",
+        "abbr": "GSS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "daegu-korea-gas-corporation",
+        "name": "Daegu Korea Gas Corporation",
+        "abbr": "DKGC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-KBL-2026-10-03-busan-kcc-egis-changwon-lg-sakers",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-03T10:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "busan-kcc-egis",
+        "name": "Busan KCC Egis",
+        "abbr": "BKE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "changwon-lg-sakers",
+        "name": "Changwon LG Sakers",
+        "abbr": "CLS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-KBL-2026-10-03-anyang-jung-kwan-jang-ulsan-hyundai-mobis-phoebus",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-03T10:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "anyang-jung-kwan-jang",
+        "name": "Anyang Jung Kwan Jang",
+        "abbr": "AJKJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "ulsan-hyundai-mobis-phoebus",
+        "name": "Ulsan Hyundai Mobis Phoebus",
+        "abbr": "UHMP",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "KBL-mensbasketballteamtakingonsaudiarabiatob",
+      "league": "KBL",
+      "title": "Men's basketball team taking on Saudi Arabia to begin Asian Games",
+      "description": "SEOUL, Sept. 9 (Yonhap) -- The men's basketball team will start its Asian Games ...",
+      "published": "2026-09-09T00:17:23.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/04/PYH2026090416090006100_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260909002700315"
+    },
+    {
+      "id": "KBL-skoreanparkjihyunjoinsnewintlbasketballl",
+      "league": "KBL",
+      "title": "S. Korean Park Ji-hyun joins new int'l basketball league",
+      "description": "SEOUL, Sept. 8 (Yonhap) -- South Korean national team fixture and current Women'...",
+      "published": "2026-09-07T21:00:09.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/etc/gt/2026/08/06/PGT20260806185501009_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260907008100315"
+    }
+  ],
+  "leaders": {}
+}

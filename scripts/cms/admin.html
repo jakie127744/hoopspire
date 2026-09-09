@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hoopspire CMS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --cream: #f3efe7;
+        --parchment: #e2dccf;
+        --ink: #1a1a1a;
+        --crimson: #8a0000;
+        --gold: #c89e56;
+        --paper: #fff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--cream);
+        color: var(--ink);
+        font-family: 'Hanken Grotesk', system-ui, sans-serif;
+        -webkit-font-smoothing: antialiased;
+      }
+      h1, h2, h3 { font-family: 'Instrument Serif', Georgia, serif; font-weight: 400; margin: 0; }
+      .eyebrow {
+        font-family: 'JetBrains Mono', monospace;
+        font-size: 10px;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+      header {
+        display: flex; align-items: center; gap: 16px;
+        padding: 14px 24px; border-bottom: 1px solid var(--parchment);
+        background: rgba(243,239,231,.95); position: sticky; top: 0; z-index: 10;
+      }
+      .wordmark { font-family: 'Instrument Serif', serif; font-size: 24px; }
+      .wordmark span { color: var(--crimson); }
+      main { display: grid; grid-template-columns: 320px 1fr; min-height: calc(100vh - 57px); }
+      aside { border-right: 1px solid var(--parchment); padding: 20px; overflow-y: auto; }
+      section { padding: 28px 32px; max-width: 900px; }
+      button {
+        font-family: 'JetBrains Mono', monospace; font-size: 10px;
+        letter-spacing: .18em; text-transform: uppercase;
+        border: 1px solid var(--ink); background: transparent; color: var(--ink);
+        padding: 9px 16px; cursor: pointer; transition: all .15s;
+      }
+      button:hover { background: var(--ink); color: var(--cream); }
+      button.primary { background: var(--ink); color: var(--cream); }
+      button.primary:hover { background: var(--crimson); border-color: var(--crimson); }
+      button.danger:hover { background: var(--crimson); border-color: var(--crimson); }
+      button.ghost { border-color: var(--parchment); }
+      .list-item {
+        display: block; width: 100%; text-align: left; border: 1px solid var(--parchment);
+        background: var(--paper); padding: 12px 14px; margin-bottom: 8px; cursor: pointer;
+        font-family: inherit; font-size: inherit; text-transform: none; letter-spacing: normal;
+      }
+      .list-item:hover { border-color: var(--ink); background: var(--paper); color: var(--ink); }
+      .list-item.active { border-color: var(--ink); box-shadow: 3px 3px 0 0 var(--parchment); }
+      .list-item .t { font-family: 'Instrument Serif', serif; font-size: 18px; line-height: 1.2; }
+      .list-item .m { margin-top: 6px; opacity: .5; }
+      .badge {
+        display: inline-block; border: 1px solid var(--gold); color: var(--gold);
+        padding: 1px 5px; margin-left: 6px;
+      }
+      .badge.draft { border-color: var(--crimson); color: var(--crimson); }
+      label { display: block; margin-bottom: 4px; opacity: .55; }
+      input, select, textarea {
+        width: 100%; padding: 10px 12px; border: 1px solid var(--parchment);
+        background: var(--paper); color: var(--ink); font-family: inherit; font-size: 15px;
+      }
+      input:focus, select:focus, textarea:focus { outline: 2px solid var(--gold); outline-offset: -1px; }
+      textarea { font-family: 'JetBrains Mono', monospace; font-size: 13.5px; line-height: 1.65; resize: vertical; }
+      .grid { display: grid; gap: 14px; grid-template-columns: repeat(2, 1fr); margin-bottom: 14px; }
+      .full { grid-column: 1 / -1; }
+      .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+      .toast {
+        position: fixed; bottom: 20px; right: 20px; background: var(--ink); color: var(--cream);
+        padding: 12px 18px; opacity: 0; transition: opacity .2s; pointer-events: none; z-index: 50;
+      }
+      .toast.show { opacity: 1; }
+      .toast.error { background: var(--crimson); }
+      .empty { border: 1px dashed var(--parchment); padding: 48px 24px; text-align: center; opacity: .5; }
+      .hint { opacity: .5; margin-top: 6px; font-size: 12.5px; }
+      .warn { border-left: 2px solid var(--crimson); background: var(--paper); padding: 12px 16px; margin-bottom: 18px; font-size: 13.5px; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span class="wordmark">Hoop<span>spire</span></span>
+      <span class="eyebrow" style="opacity:.4">CMS</span>
+      <div style="margin-left:auto" class="row">
+        <span class="eyebrow" style="opacity:.4">Local only</span>
+        <button class="ghost" onclick="newArticle()">New article</button>
+      </div>
+    </header>
+
+    <main>
+      <aside>
+        <p class="eyebrow" style="opacity:.5;margin:0 0 12px">Articles (<span id="count">0</span>)</p>
+        <div id="list"></div>
+      </aside>
+
+      <section id="editor">
+        <div class="empty">Select an article, or create a new one.</div>
+      </section>
+    </main>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+      let leagues = []
+      let current = null
+      let dirty = false
+
+      const $ = (id) => document.getElementById(id)
+      const api = async (url, opts) => {
+        const r = await fetch(url, opts)
+        const j = await r.json()
+        if (!r.ok) throw new Error(j.error || 'Request failed')
+        return j
+      }
+
+      function toast(msg, isError) {
+        const t = $('toast')
+        t.textContent = msg
+        t.className = 'toast show' + (isError ? ' error' : '')
+        setTimeout(() => (t.className = 'toast'), 2600)
+      }
+
+      const slugify = (s) =>
+        s.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70)
+
+      async function loadList(select) {
+        const items = await api('/api/articles')
+        $('count').textContent = items.length
+        $('list').innerHTML = items
+          .map(
+            (a) => `
+          <button class="list-item ${a.slug === current ? 'active' : ''}" onclick="open_('${a.slug}')">
+            <div class="t">${escapeHtml(a.title)}</div>
+            <div class="m eyebrow">
+              ${a.league || 'General'} · ${a.published || 'undated'} · ${a.words}w
+              ${a.draft ? '<span class="badge draft">Draft</span>' : ''}
+              ${a.template ? '<span class="badge">Template</span>' : ''}
+            </div>
+          </button>`
+          )
+          .join('')
+        if (select) open_(select)
+      }
+
+      const escapeHtml = (s) =>
+        String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]))
+
+      async function open_(slug) {
+        if (dirty && !confirm('Discard unsaved changes?')) return
+        const a = await api('/api/article/' + encodeURIComponent(slug))
+        current = slug
+        dirty = false
+        render(a.slug, a.data, a.body)
+        loadList()
+      }
+
+      function newArticle() {
+        if (dirty && !confirm('Discard unsaved changes?')) return
+        current = null
+        dirty = false
+        render('', { published: new Date().toISOString().slice(0, 10), tag: 'Analysis', draft: true }, '')
+      }
+
+      function render(slug, d, body) {
+        $('editor').innerHTML = `
+          ${slug.startsWith('_') ? '<div class="warn">This is the template file. Changes here affect the starting point for new articles, not the site.</div>' : ''}
+          <div class="grid">
+            <div class="full">
+              <label class="eyebrow">Title</label>
+              <input id="f-title" value="${escapeHtml(d.title || '')}" placeholder="Headline" />
+            </div>
+            <div class="full">
+              <label class="eyebrow">Dek — shows on cards and in search results</label>
+              <textarea id="f-dek" rows="2" style="font-family:inherit;font-size:15px">${escapeHtml(d.dek || '')}</textarea>
+            </div>
+            <div>
+              <label class="eyebrow">Filename / URL</label>
+              <input id="f-slug" value="${escapeHtml(slug)}" placeholder="auto from title" />
+              <div class="hint" id="slug-preview"></div>
+            </div>
+            <div>
+              <label class="eyebrow">League</label>
+              <select id="f-league">
+                <option value="">— cross-league —</option>
+                ${leagues.map((k) => `<option value="${k}" ${d.league === k ? 'selected' : ''}>${k}</option>`).join('')}
+              </select>
+            </div>
+            <div>
+              <label class="eyebrow">Author</label>
+              <input id="f-author" value="${escapeHtml(d.author || '')}" />
+            </div>
+            <div>
+              <label class="eyebrow">Published</label>
+              <input id="f-published" type="date" value="${escapeHtml(d.published || '')}" />
+            </div>
+            <div>
+              <label class="eyebrow">Tag</label>
+              <input id="f-tag" list="tags" value="${escapeHtml(d.tag || '')}" />
+              <datalist id="tags">
+                <option>Analysis</option><option>Feature</option><option>Report</option>
+                <option>Explainer</option><option>Interview</option><option>Preview</option>
+              </datalist>
+            </div>
+            <div class="row" style="align-items:flex-end;padding-bottom:2px">
+              <label style="display:flex;gap:8px;align-items:center;opacity:1;cursor:pointer">
+                <input type="checkbox" id="f-draft" ${d.draft === true ? 'checked' : ''} style="width:auto" />
+                <span class="eyebrow">Draft — hidden from the site</span>
+              </label>
+            </div>
+            <div>
+              <label class="eyebrow">Hero image URL</label>
+              <input id="f-image" value="${escapeHtml(d.image || '')}" placeholder="optional" />
+            </div>
+            <div>
+              <label class="eyebrow">Image credit — required if image is set</label>
+              <input id="f-imageCredit" value="${escapeHtml(d.imageCredit || '')}" placeholder="Photo by …" />
+            </div>
+          </div>
+
+          <label class="eyebrow">Body — Markdown</label>
+          <textarea id="f-body" rows="26">${escapeHtml(body)}</textarea>
+
+          <div class="row" style="margin-top:16px">
+            <button class="primary" onclick="save()">Save</button>
+            ${slug ? `<button class="ghost" onclick="window.open('http://localhost:5174/story/${slug}','_blank')">View on site</button>` : ''}
+            ${slug ? `<button class="danger" onclick="del('${slug}')">Delete</button>` : ''}
+            <span class="hint" id="status"></span>
+          </div>
+        `
+
+        for (const el of document.querySelectorAll('#editor input, #editor textarea, #editor select')) {
+          el.addEventListener('input', () => {
+            dirty = true
+            $('status').textContent = 'Unsaved changes'
+            updateSlugPreview()
+          })
+        }
+        updateSlugPreview()
+      }
+
+      function updateSlugPreview() {
+        const s = $('f-slug')
+        if (!s) return
+        const effective = s.value.trim() || slugify($('f-title').value || '')
+        $('slug-preview').textContent = effective ? `/story/${effective}` : 'set a title first'
+      }
+
+      async function save() {
+        const title = $('f-title').value.trim()
+        if (!title) return toast('A title is required', true)
+
+        const slug = ($('f-slug').value.trim() || slugify(title))
+        if (!/^[a-z0-9][a-z0-9-]*$/.test(slug)) {
+          return toast('Filename must be lowercase letters, numbers and hyphens', true)
+        }
+
+        const image = $('f-image').value.trim()
+        const credit = $('f-imageCredit').value.trim()
+        if (image && !credit) {
+          return toast('Set an image credit — see the licensing notes', true)
+        }
+
+        const data = {
+          title,
+          dek: $('f-dek').value.trim(),
+          league: $('f-league').value,
+          author: $('f-author').value.trim(),
+          published: $('f-published').value,
+          tag: $('f-tag').value.trim(),
+          image,
+          imageCredit: credit,
+          draft: $('f-draft').checked,
+        }
+
+        try {
+          const res = await api('/api/article/' + encodeURIComponent(current || slug), {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ data, body: $('f-body').value, renameTo: slug }),
+          })
+          current = res.slug
+          dirty = false
+          $('status').textContent = 'Saved'
+          toast('Saved — the dev server will hot-reload')
+          loadList()
+        } catch (e) {
+          toast(e.message, true)
+        }
+      }
+
+      async function del(slug) {
+        if (!confirm(`Move "${slug}" to .trash? It can be restored from content/articles/.trash.`)) return
+        await api('/api/article/' + encodeURIComponent(slug), { method: 'DELETE' })
+        current = null
+        dirty = false
+        $('editor').innerHTML = '<div class="empty">Moved to trash.</div>'
+        toast('Moved to .trash')
+        loadList()
+      }
+
+      window.addEventListener('beforeunload', (e) => {
+        if (dirty) e.preventDefault()
+      })
+
+      ;(async () => {
+        leagues = await api('/api/leagues')
+        await loadList()
+      })()
+    </script>
+  </body>
+</html>

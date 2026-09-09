@@ -1,0 +1,1825 @@
+{
+  "league": "TPBL",
+  "season": "2026",
+  "fetchedAt": "2026-09-09T21:12:21.035Z",
+  "sources": [
+    {
+      "name": "asia-basket",
+      "url": "https://www.asia-basket.com/Taiwan/basketball.aspx"
+    },
+    {
+      "name": "Taipei Times",
+      "url": "https://www.taipeitimes.com/xml/index.rss"
+    }
+  ],
+  "notes": [
+    "Clubs, results and fixtures parsed from the public asia-basket league table; its standings and player stats are subscriber-only and unused."
+  ],
+  "teams": [
+    {
+      "id": "dreamers",
+      "league": "TPBL",
+      "name": "Dreamers",
+      "shortName": "Dreamers",
+      "abbr": "DRE",
+      "logo": null
+    },
+    {
+      "id": "kaohsiung",
+      "league": "TPBL",
+      "name": "Kaohsiung",
+      "shortName": "Kaohsiung",
+      "abbr": "KAO",
+      "logo": null
+    },
+    {
+      "id": "kings",
+      "league": "TPBL",
+      "name": "Kings",
+      "shortName": "Kings",
+      "abbr": "KIN",
+      "logo": null
+    },
+    {
+      "id": "lioneers",
+      "league": "TPBL",
+      "name": "Lioneers",
+      "shortName": "Lioneers",
+      "abbr": "LIO",
+      "logo": null
+    },
+    {
+      "id": "n-taipei",
+      "league": "TPBL",
+      "name": "N.Taipei",
+      "shortName": "N.Taipei",
+      "abbr": "N.T",
+      "logo": null
+    },
+    {
+      "id": "taipei-tm",
+      "league": "TPBL",
+      "name": "Taipei TM",
+      "shortName": "Taipei TM",
+      "abbr": "TAI",
+      "logo": null
+    },
+    {
+      "id": "taiwan-b-",
+      "league": "TPBL",
+      "name": "Taiwan B.",
+      "shortName": "Taiwan B.",
+      "abbr": "TAI",
+      "logo": null
+    }
+  ],
+  "rosters": {},
+  "standings": {
+    "seasonLabel": "",
+    "rows": []
+  },
+  "games": [
+    {
+      "id": "ab-TPBL-2026-06-06-dreamers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-06-06T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-06-04-kings-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-06-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-06-02-dreamers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-06-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 69,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-31-kings-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-29-kings-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 109,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-26-dreamers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-24-dreamers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-17-kings-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 116,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-16-lioneers-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-16T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-15-kings-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-15T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-14-lioneers-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 106,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-13-taiwan-b--kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-13T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-12-dreamers-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 61,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-10-taiwan-b--kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-10T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 113,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-09-dreamers-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-09T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-06-n-taipei-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-06T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-05-kings-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-05T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-03-lioneers-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-03T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-03-kings-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-03T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-02-lioneers-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-05-02-kings-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-05-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-29-lioneers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-26-taiwan-b--dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-26-taipei-tm-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-25-taiwan-b--kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-25-taipei-tm-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-24-kings-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-19-dreamers-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-19-n-taipei-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 115,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-18-dreamers-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 66,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-18-n-taipei-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 107,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-12-kaohsiung-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-12-lioneers-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-11-kaohsiung-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 112,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-11-lioneers-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-08-lioneers-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-08T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 117,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-05-n-taipei-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-05T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-05-taiwan-b--taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-05T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 107,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-04-n-taipei-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 108,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-04-taiwan-b--kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-04-01-n-taipei-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-29-lioneers-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-29-taipei-tm-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 116,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-28-lioneers-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-28-taipei-tm-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 112,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-27-dreamers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 107,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-25-dreamers-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-22-n-taipei-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-22-taipei-tm-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 118,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-21-n-taipei-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 118,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-21-taipei-tm-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-15-dreamers-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-15T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-15-lioneers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-15T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 113,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-14-dreamers-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-14-lioneers-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 113,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-11-lioneers-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "taipei-tm",
+        "name": "Taipei TM",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-08-kaohsiung-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-08T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "n-taipei",
+        "name": "N.Taipei",
+        "abbr": "N.T",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-08-taiwan-b--kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-08T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "kings",
+        "name": "Kings",
+        "abbr": "KIN",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-07-kaohsiung-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-07T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "kaohsiung",
+        "name": "Kaohsiung",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "dreamers",
+        "name": "Dreamers",
+        "abbr": "DRE",
+        "logo": null,
+        "score": 107,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-07-taiwan-b--lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-07T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "taiwan-b-",
+        "name": "Taiwan B.",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "lioneers",
+        "name": "Lioneers",
+        "abbr": "LIO",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      }
+    }
+  ],
+  "news": [],
+  "leaders": {}
+}

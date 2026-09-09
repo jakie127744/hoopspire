@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# Local CMS trash — deleted drafts, recoverable but not worth versioning
+content/articles/.trash/
