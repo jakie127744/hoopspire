@@ -9,6 +9,7 @@ Rebuilt standalone from a base44 prototype — no base44 SDK, API or runtime.
 ```bash
 npm install
 npm run dev      # http://localhost:5173
+npm run cms      # article editor at http://127.0.0.1:5180
 npm run data     # refresh the scraped leagues (PBA, KBL, B.League, CBA, TPBL)
 npm run build    # production build to dist/
 ```
@@ -51,6 +52,26 @@ Original pieces live as Markdown in `content/articles/*.md`. Vite bundles them
 at build time, so there is no CMS, no database and no backend — add a file and
 it appears on the site.
 
+### Two editors, same files
+
+```bash
+npm run cms       # local editor at http://127.0.0.1:5180
+```
+
+A small Node app that reads and writes `content/articles/*.md` directly. No
+auth, no network, no database — it binds to `127.0.0.1` only, restricts slugs
+to safe characters, verifies every resolved path stays inside the content
+folder, and moves deletions to `content/articles/.trash` rather than unlinking
+them. Do not expose it on a public host.
+
+**`/admin` — git-based CMS** ([Sveltia](https://github.com/sveltia/sveltia-cms),
+Decap-compatible). This is the deployed editor: sign in with GitHub, and every
+save becomes a real commit, so content shares the code's history and rollback
+story. It needs the site deployed plus one auth step — see the comments at the
+top of `public/admin/config.yml`.
+
+Both edit the same Markdown, so you can move between them freely. Or just:
+
 ```bash
 cp content/articles/_TEMPLATE.md content/articles/my-piece.md
 # edit it, delete `draft: true`, done
@@ -90,11 +111,24 @@ Before applying to any network:
 
 ### Image rights
 
-Do not screenshot broadcasts, other websites, or wire photos. Writing your own
-article around someone else's image does not license the image, and running ads
-makes the fair-use argument weaker, not stronger. Use your own photography, a
-league press portal under its terms, properly attributed Creative Commons, or a
-stock library — and always set `imageCredit`.
+**Writing your own article around someone else's photo does not license the
+photo.** Running ads makes a fair-use argument weaker, not stronger, and Getty
+and the wire agencies actively pursue this. Safe sources, in rough order of
+practicality:
+
+| Source | Cost | Watch out for |
+|---|---|---|
+| Your own photography | free | Arena media policies for pitch-side access |
+| **Unsplash / Pexels / Pixabay** | free | Rarely has real game action |
+| **Wikimedia Commons** | free | Check each file's licence; most need attribution, some need ShareAlike |
+| **Flickr — filtered to CC** | free | Filter by licence explicitly; attribute exactly as the page states |
+| League/club **press portals** | free | Usually editorial use only; read the terms |
+| Getty / AP / Imagn / Reuters | paid | The only fully safe route for real game action |
+
+Never use: broadcast screenshots, frames from YouTube, images pulled from
+Google Images, other sites' photos, or AI-generated pictures of real players.
+
+Always fill `imageCredit`. Both editors require it whenever an image is set.
 
 Related exposure: team crests and player headshots are currently hotlinked from
 league CDNs. Fine for a hobby site; riskier once ads are running.
@@ -221,6 +255,8 @@ content/
     _TEMPLATE.md    copy this to start a new piece
 scripts/
   fetch-data.mjs    the snapshot builder
+  cms-server.mjs    the local article editor
+public/admin/       git-based CMS (Sveltia) for the deployed site
 public/data/        scraped snapshots
 ```
 
