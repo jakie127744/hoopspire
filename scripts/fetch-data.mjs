@@ -18,6 +18,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import * as cheerio from 'cheerio'
+import { realgmPlayerStats, tpblPlayerStats, buildLeaders } from './player-stats.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, '..', 'public', 'data')
@@ -418,6 +419,39 @@ async function asiaBasketFixtures(leagueKey, teams) {
 // list runs newest-first, and each time the month jumps forward as we descend
 // we have crossed a season boundary.
 // ───────────────────────────────────────────────────────────────────────────
+/**
+ * TPBL clubs.
+ *
+ * Two sources name the same seven clubs differently: asia-basket's results
+ * table uses short labels ("Taiwan B.", "N.Taipei"), while the league's own
+ * API returns Chinese names. Fuzzy matching cannot bridge that — and both
+ * "Kings" and "N.Taipei" are New Taipei clubs, so a near-miss would silently
+ * merge two different teams.
+ *
+ * So the mapping is written out explicitly, keyed by the asia-basket label
+ * and checked against the league's own club list (api.tpbl.basketball,
+ * /events/2/teams). Seven labels, seven clubs, one-to-one.
+ */
+const TPBL_CLUBS = {
+  Dreamers: { id: 3, name: 'Formosa Dreamers', local: '福爾摩沙夢想家' },
+  Kaohsiung: { id: 2, name: 'Kaohsiung Aquas', local: '高雄全家海神' },
+  Kings: { id: 7, name: 'New Taipei Kings', local: '新北國王' },
+  'N.Taipei': { id: 6, name: 'New Taipei CTBC DEA', local: '新北中信特攻' },
+  Lioneers: { id: 4, name: 'Hsinchu Lioneers', local: '新竹御嵿攻城獅' },
+  'Taipei TM': { id: 8, name: 'Taipei Taishin Mars', local: '臺北台新戰神' },
+  'Taiwan B.': { id: 5, name: 'Taiwan Beer Leopards', local: '桃園台啤永豐雲豹' },
+}
+
+/** Canonical club record for a TPBL side, from either source's label. */
+function tpblClub(label) {
+  const direct = TPBL_CLUBS[clean(label)]
+  if (direct) return direct
+  const byLocal = Object.values(TPBL_CLUBS).find((c) => c.local === clean(label))
+  if (byLocal) return byLocal
+  const lower = clean(label).toLowerCase()
+  return Object.values(TPBL_CLUBS).find((c) => c.name.toLowerCase().includes(lower)) || null
+}
+
 const ASIA_BASKET_LEAGUES = {
   CBA: {
     url: 'https://www.asia-basket.com/China/basketball-League-CBA.aspx',
@@ -494,24 +528,39 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
     prevMonth = md.month
     const date = new Date(Date.UTC(year, md.month, md.day, 11, 0, 0)).toISOString()
 
-    for (const name of [homeName, awayName]) {
-      const id = slug(name)
-      if (!teams.has(id)) {
-        teams.set(id, {
-          id,
+    // TPBL labels resolve through the explicit club table so both sources
+    // land on the same seven clubs; other leagues use the label as given.
+    const canon = (label) => {
+      if (leagueKey !== 'TPBL') return { id: slug(label), name: label, local: null }
+      const c = tpblClub(label)
+      if (!c) {
+        notes.push(`unmapped TPBL club label: "${label}"`)
+        return { id: slug(label), name: label, local: null }
+      }
+      return { id: String(c.id), name: c.name, local: c.local }
+    }
+
+    const homeClub = canon(homeName)
+    const awayClub = canon(awayName)
+
+    for (const club of [homeClub, awayClub]) {
+      if (!teams.has(club.id)) {
+        teams.set(club.id, {
+          id: club.id,
           league: leagueKey,
-          name,
-          shortName: name,
-          abbr: name.slice(0, 3).toUpperCase(),
+          name: club.name,
+          nameLocal: club.local,
+          shortName: club.name,
+          abbr: club.name.slice(0, 3).toUpperCase(),
           logo: null,
         })
       }
     }
 
-    const side = (name, score) => ({
-      id: slug(name),
-      name,
-      abbr: name.slice(0, 3).toUpperCase(),
+    const side = (club, score) => ({
+      id: club.id,
+      name: club.name,
+      abbr: club.name.slice(0, 3).toUpperCase(),
       logo: null,
       score,
       linescores: [],
@@ -519,7 +568,7 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
     })
 
     games.push({
-      id: `ab-${leagueKey}-${date.slice(0, 10)}-${slug(homeName)}-${slug(awayName)}`,
+      id: `ab-${leagueKey}-${date.slice(0, 10)}-${homeClub.id}-${awayClub.id}`,
       league: leagueKey,
       status: played ? 'final' : 'scheduled',
       statusDetail: played ? 'Final' : 'Scheduled',
@@ -528,8 +577,8 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
       date,
       venue: null,
       city: null,
-      home: side(homeName, homeScore),
-      away: side(awayName, awayScore),
+      home: side(homeClub, homeScore),
+      away: side(awayClub, awayScore),
     })
   }
 
@@ -544,6 +593,87 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
     : { articles: [], notes: [] }
   notes.push(...news.notes)
 
+  // Player statistics. TPBL publishes its own; CBA comes from RealGM.
+  let players = []
+  let rosters = {}
+  let leaders = {}
+  let statsTeams = []
+
+  try {
+    if (leagueKey === 'TPBL') {
+      const s = await tpblPlayerStats()
+      players = s.players
+      rosters = s.rosters
+      statsTeams = s.teams
+      notes.push(...s.notes)
+    } else {
+      const s = await realgmPlayerStats(leagueKey)
+      players = s.players
+      notes.push(...s.notes)
+      if (players.length) {
+        // RealGM identifies clubs by abbreviation; match them back to the
+        // clubs parsed from the results table so rosters land on real teams.
+        for (const p of players) {
+          const club = matchTeam(p.teamName || p.teamAbbr, [...teams.values()])
+          if (!club) continue
+          p.teamId = club.id
+          ;(rosters[club.id] ||= []).push({
+            id: `${club.id}-${p.name}`.replace(/\W+/g, '-').toLowerCase(),
+            name: p.name,
+            jersey: null,
+            position: null,
+            height: null,
+            weight: null,
+            age: null,
+            country: null,
+            headshot: null,
+          })
+        }
+        const unmatched = players.filter((p) => !p.teamId).length
+        if (unmatched) notes.push(`${unmatched} players could not be matched to a club`)
+      }
+    }
+
+    const built = buildLeaders(players)
+    leaders = built.leaders || {}
+    if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
+  } catch (err) {
+    notes.push(`player stats: ${err.message}`)
+  }
+
+  // TPBL's own API is a better club source than the results table: it has the
+  // full English names and real crests. But the games already reference the
+  // ids parsed from asia-basket ("dreamers"), so merge the richer record onto
+  // the existing club rather than adding a second copy of it — otherwise the
+  // league ends up with fourteen teams instead of seven.
+  if (statsTeams.length) {
+    for (const t of statsTeams) {
+      // TPBL ids are the league's own, so they line up exactly; other leagues
+      // still need a name match.
+      const existing = teams.get(t.id) || matchTeam(t.name, [...teams.values()])
+      if (existing) {
+        // Keep the canonical club name we already resolved — the API's
+        // `alt_name` is a short handle ("Aquas", "Dea"), not a full name —
+        // but take its crest, which is the real thing.
+        teams.set(existing.id, {
+          ...existing,
+          name: existing.name || t.name,
+          nameLocal: existing.nameLocal ?? t.nameLocal ?? null,
+          shortName: t.name || existing.shortName,
+          logo: t.logo || existing.logo,
+        })
+        // Move any roster captured under the API's id onto the club's real id.
+        if (t.id !== existing.id && rosters[t.id]) {
+          rosters[existing.id] = rosters[t.id]
+          delete rosters[t.id]
+          for (const p of players) if (p.teamId === t.id) p.teamId = existing.id
+        }
+      } else {
+        teams.set(t.id, { ...teams.get(t.id), ...t })
+      }
+    }
+  }
+
   return {
     league: leagueKey,
     season: String(year),
@@ -554,11 +684,12 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
     ],
     notes,
     teams: [...teams.values()].sort((a, b) => a.name.localeCompare(b.name)),
-    rosters: {},
+    rosters,
+    playerStats: players,
     standings: { seasonLabel: '', rows: [] },
     games,
     news: news.articles,
-    leaders: {},
+    leaders,
   }
 }
 
@@ -741,6 +872,41 @@ async function scrapeKBL() {
   const news = await fetchLeagueNews('KBL', NEWS_FEEDS.KBL, NEWS_TERMS.KBL)
   notes.push(...news.notes)
 
+  // Player statistics. KBL's own API has been down for the duration of this
+  // build, so averages come from RealGM, which publishes the full KBL table.
+  let playerStats = []
+  let leaders = {}
+  try {
+    const s = await realgmPlayerStats('KBL')
+    playerStats = s.players
+    notes.push(...s.notes)
+
+    for (const p of playerStats) {
+      const club = matchTeam(p.teamName || p.teamAbbr, teams)
+      if (!club) continue
+      p.teamId = club.id
+      ;(rosters[club.id] ||= []).push({
+        id: `${club.id}-${p.name}`.replace(/\W+/g, '-').toLowerCase(),
+        name: p.name,
+        jersey: null,
+        position: null,
+        height: null,
+        weight: null,
+        age: null,
+        country: null,
+        headshot: null,
+      })
+    }
+    const unmatched = playerStats.filter((p) => !p.teamId).length
+    if (unmatched) notes.push(`${unmatched} KBL players could not be matched to a club`)
+
+    const built = buildLeaders(playerStats)
+    leaders = built.leaders || {}
+    if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
+  } catch (err) {
+    notes.push(`player stats: ${err.message}`)
+  }
+
   if (!teams.length && !games.length) {
     throw new Error(`no KBL data available — ${notes.join('; ')}`)
   }
@@ -757,10 +923,11 @@ async function scrapeKBL() {
     notes,
     teams,
     rosters,
+    playerStats,
     standings,
     games,
     news: news.articles,
-    leaders: {},
+    leaders,
   }
 }
 

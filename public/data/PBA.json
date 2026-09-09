@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-09T21:12:18.777Z",
+  "fetchedAt": "2026-09-09T21:42:19.376Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -2802,6 +2802,17 @@
   "games": [],
   "news": [
     {
+      "id": "PBA-calvinoftanaloneholdoverfromchampionsqua",
+      "league": "PBA",
+      "title": "Calvin Oftana, lone holdover from champion squad, joins Gilas in Japan",
+      "description": "Coach Tim Cone weighed in on the pros and cons of tapping Calvin Oftana as a last-minute addition to Gilas Pilipinas for its defense of the gold in the Aichi-Nagoya Asian Games. While Cone can offer a lot of positives of having Oftana fill the final spot originally reserved for J",
+      "published": "2026-09-10T05:25:03.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/Sports1289128.png",
+      "url": "https://sports.inquirer.net/694338/calvin-oftana-lone-holdover-from-champion-squad-joins-gilas-in-japan"
+    },
+    {
       "id": "PBA-gilasstarsajedudwightramosputfriendshipa",
       "league": "PBA",
       "title": "Gilas stars AJ Edu, Dwight Ramos put friendship aside in B.League",
@@ -2932,17 +2943,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/08/IMG_0002_FIBA-Womens-Olympic-pre-qualifying-tournament-2026_Gilas-Womens.jpeg",
       "url": "https://sports.inquirer.net/694063/schedule-gilas-pilipinas-women-at-asian-games-2026-5x5-basketball"
-    },
-    {
-      "id": "PBA-luispablosayspassionfuelsbusyuaapasianga",
-      "league": "PBA",
-      "title": "Luis Pablo says passion fuels busy UAAP, Asian Games stretch",
-      "description": "MANILA, Philippines—La Salle forward Luis Pablo will have a bevy of responsibilities in a short window. After joining the Green Archers early in the UAAP Season 89 men’s basketball tournament campaign, Pablo will fly to Japan on September 19 to compete with Gilas Pilipinas 3×3 in",
-      "published": "2026-09-08T15:59:48.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/UAAP89-BB-PRESSCON_-Louis-Pablo-00462.jpg",
-      "url": "https://sports.inquirer.net/694036/luis-pablo-says-passion-fuels-busy-uaap-asian-games-stretch"
     },
     {
       "id": "PBA-timconeunfazedasgilaspilipinasheadstoasi",

@@ -26,10 +26,10 @@ npm run build    # production build to dist/
 | NBB | Brazil | ESPN public JSON | ✅ live |
 | EuroLeague | Europe | EuroLeague official feeds | ✅ live |
 | PBA | Philippines | Wikipedia + PH news desks | snapshot |
-| KBL | South Korea | asia-basket + Yonhap/Chosun | snapshot |
+| KBL | South Korea | RealGM stats + asia-basket + Yonhap | snapshot |
 | B.League | Japan | bleague.jp + Japan Times | snapshot |
-| CBA | China | asia-basket + SCMP | snapshot |
-| TPBL | Taiwan | asia-basket + Taipei Times | snapshot |
+| CBA | China | asia-basket + RealGM stats + SCMP | snapshot |
+| TPBL | Taiwan | TPBL official API + asia-basket | snapshot |
 | NBL | Australia | ESPN public JSON | ✅ live |
 
 ## How the data works
@@ -193,6 +193,34 @@ Korean and Japanese sources are converted to English during the scrape, using
 each league's own published English club names. B.League roster entries written
 in katakana are romanized; Japanese players' kanji names keep their original
 form, because romanizing kanji without a name dictionary would be guessing.
+
+## Player statistics
+
+CBA, KBL and TPBL now carry full per-player season averages, which also fill
+their rosters.
+
+- **TPBL** uses the league's own API (`api.tpbl.basketball`) — first-party,
+  CORS-open, with English names in `meta.alt_name`. The best source in the
+  project.
+- **CBA and KBL** come from RealGM's international section. Its robots.txt has
+  no Disallow rules and asks only for `crawl-delay: 2`, which
+  `scripts/player-stats.mjs` honours. Cloudflare there rejects Node's `fetch`
+  on TLS fingerprint while serving curl normally, so those requests shell out
+  to curl. If RealGM ever returns an actual challenge page, the parser treats
+  it as a failure and gives up rather than working around it.
+
+Two traps worth knowing, both of which produced wrong data before being fixed:
+
+- **Never match clubs by abbreviation.** RealGM's `SON` is Suwon KT Sonicboom,
+  and fuzzy matching cheerfully assigned those players to Goyang *Sono*. The
+  parser now reads the club link in the Team cell, which carries the full name.
+- **TPBL clubs are mapped explicitly** in `TPBL_CLUBS`, because asia-basket's
+  labels ("N.Taipei", "Taiwan B.") and the league's Chinese names share no
+  text — and both "Kings" and "N.Taipei" are New Taipei clubs, so a near-miss
+  would merge two different teams.
+
+Leaders require a minimum share of games played, so a one-game cameo cannot
+outrank a season-long leader.
 
 ## Known source limitations
 
