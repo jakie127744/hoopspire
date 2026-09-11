@@ -280,6 +280,20 @@ Joins between sources are exact and unique, never fuzzy. A EuroLeague roster
 row links to a profile only if exactly one 2025-26 RealGM line carries that
 name, so new signings do not link until they have played.
 
+## Deploying
+
+Deployed on Vercel from `main` — every push to GitHub redeploys production at
+**https://hoopspire.vercel.app**.
+
+`vercel.json` matters: this is a single-page app, so a path like
+`/player/NBA/3945274` only exists inside the browser. Without the rewrite,
+opening, refreshing or sharing any link other than the home page returns a 404
+(which also breaks the installed app's shortcuts). Vercel serves real files
+first, so the rewrite never shadows the service worker, icons or data; `/admin`
+and `/data/` are excluded so the CMS loads and a missing data file honestly
+404s instead of returning a web page. The service worker and manifest are sent
+uncached so app updates reach readers promptly.
+
 ## Installable app
 
 Hoopspire is a PWA: it installs to a phone's home screen and opens
