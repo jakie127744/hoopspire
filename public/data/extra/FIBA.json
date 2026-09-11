@@ -1,6 +1,6 @@
 {
   "league": "FIBA",
-  "fetchedAt": "2026-09-11T01:30:59.310Z",
+  "fetchedAt": "2026-09-11T10:59:21.703Z",
   "sources": [
     {
       "name": "ESPN box scores",
@@ -2961,7 +2961,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-09-11T01:30:59.310Z",
+    "news": "2026-09-11T10:59:21.703Z",
     "leaders": "2026-09-11T01:04:17.255Z",
     "playerStats": "2026-09-11T01:04:17.255Z"
   },

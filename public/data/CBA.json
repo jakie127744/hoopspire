@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-11T01:29:50.959Z",
+  "fetchedAt": "2026-09-11T10:58:48.010Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18496,6 +18496,19 @@
   ],
   "news": [
     {
+      "id": "CBA-asiangameschinabasketballstarspackedin3t",
+      "league": "CBA",
+      "title": "Asian Games: China basketball stars packed in 3 to a container in Japan’s athletes’ village",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "China’s men opened their Asian Games basketball campaign by routing Kazakhstan 99-61 on Friday, despite preparing in cramped container housing and having training disrupted by record-breaking rainfall in Japan. Pang Zhenglin led China with 19 points and four assists, while Li Hon",
+      "published": "2026-09-11T07:26:55.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/11/6e09c8a8-e40c-4301-8cf1-6c3cf7ac331e_040ea315.jpg?itok=8ASYp7UB&v=1789111610",
+      "url": "https://www.scmp.com/sport/china/article/3367178/asian-games-china-basketball-stars-packed-3-container-japans-athletes-village?utm_source=rss_feed"
+    },
+    {
       "id": "CBA-womensbasketballworldcupchinareachlast8b",
       "league": "CBA",
       "title": "Women’s Basketball World Cup: China reach last 8, but fans worry over squad depth, fatigue",
@@ -18598,19 +18611,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/06/01ab97f6-20c3-4566-a554-7c2fa6c7af64_c7943c54.jpg?itok=gb7CQWOX&v=1788697541",
       "url": "https://www.scmp.com/sport/hong-kong/article/3366554/lee-cheuk-yiu-hails-best-day-hong-kongs-badminton-history-despite-china-masters-loss?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-adultsplayingagainstchildrenchinaszhangz",
-      "league": "CBA",
-      "title": "‘Adults playing against children’: China’s Zhang Ziyu is a towering presence on World Cup debut",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "China’s teenage centre Zhang Ziyu sparked a social media frenzy after making her Fiba Women’s Basketball World Cup debut against the United States in Berlin on Friday. Viral images and clips of the 2.2-metre (7-foot-3) 19-year-old towering over WNBA superstars dominated online co",
-      "published": "2026-09-05T08:31:39.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/05/51fa1da7-5e55-48c5-b4ad-c1008123641d_8b4756e5.jpg?itok=w6E8fmqX&v=1788597091",
-      "url": "https://www.scmp.com/sport/basketball/article/3366474/chinas-zhang-ziyu-towering-presence-debut-us-win-world-cup-basketball-clash?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -19081,8 +19081,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-11T01:29:50.959Z",
-    "news": "2026-09-11T01:29:50.959Z"
+    "games": "2026-09-11T10:58:48.010Z",
+    "news": "2026-09-11T10:58:48.010Z"
   },
   "carriedOver": [
     "teams",

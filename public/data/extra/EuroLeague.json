@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-09-11T01:30:52.195Z",
+  "fetchedAt": "2026-09-11T10:59:14.566Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,6 +22,58 @@
   ],
   "news": [
     {
+      "id": "EuroLeague-markoguduricimisstheeuroleagueplayoffsth",
+      "league": "EuroLeague",
+      "title": "Marko Guduric: “I miss the EuroLeague playoffs—the real ones”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Olimpia Milano wing discusses the new project and his relationship with Peppe Poeta: “I like how the team was built.” L'articolo Marko Guduric: “I miss the EuroLeague playoffs—the real ones” proviene da Sportando .",
+      "published": "2026-09-11T09:57:28.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/marko-guduric-i-miss-the-euroleague-playoffs-the-real-ones/"
+    },
+    {
+      "id": "EuroLeague-baskoniareportedlytargetsformernbacenter",
+      "league": "EuroLeague",
+      "title": "Baskonia reportedly targets former NBA center Alex Len to bolster frontcourt",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Alex Len is reportedly negotiating a deal with Kosner Baskonia after his spell with Real Madrid The post Baskonia reportedly targets former NBA center Alex Len to bolster frontcourt appeared first on Eurohoops .",
+      "published": "2026-09-11T09:40:59.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/08/a168d39a-alex-len-real-madrid-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006697/alex-len-link-to-baskonia-euroleague/"
+    },
+    {
+      "id": "EuroLeague-dusanalimpijeviconbeiktaeuroleagueseason",
+      "league": "EuroLeague",
+      "title": "Dusan Alimpijevic on Beşiktaş’ EuroLeague season, Dusan Vlahovic and why fans shouldn’t calm down",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Dušan Alimpijević sits down with Eurohoops to discuss finally reaching the EuroLeague with Beşiktaş, why character will always come before talent, building a roster after entering the market late, David DeJulius, two possible additions, balancing Beşiktaş with Serbia — and why no",
+      "published": "2026-09-11T09:12:48.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/04/6dd1c4ca-dusan-alimpijevic-besiktas.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2006313/dusan-alimpijevic-on-besiktass-euroleague-season-two-more-transfers-dusan-vlahovic-and-why-fans-shouldnt-calm-down/"
+    },
+    {
+      "id": "EuroLeague-daquanjeffriesfromnbatobeiktawelookforwa",
+      "league": "EuroLeague",
+      "title": "DaQuan Jeffries from NBA to Beşiktaş: “We look forward to shocking a lot of teams”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "DaQuan Jeffries sits down with Eurohoops to discuss leaving the United States after one of the best seasons of his career, making the jump directly to the EuroLeague with Beşiktaş and why Kawhi Leonard is still his GOAT The post DaQuan Jeffries from NBA to Beşiktaş: “We look forw",
+      "published": "2026-09-11T04:23:34.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/e6d33d55-daquan-jeffries-besiktas.jpeg",
+      "url": "https://www.eurohoops.net/en/trademarks/2006309/daquan-jeffries-from-nba-and-g-league-to-besiktas-we-look-forward-to-shocking-a-lot-of-teams/"
+    },
+    {
       "id": "EuroLeague-barcelonatriumphsoverandorrahifiwinsitfo",
       "league": "EuroLeague",
       "title": "Barcelona triumphs over Andorra, Hifi wins it for Paris against Zalgiris",
@@ -33,19 +85,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/09/ead170c0-tyrese-martin.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2006629/barcelona-triumphs-over-andorra-paris-edges-past-zalgiris-in-a-thriller/"
-    },
-    {
-      "id": "EuroLeague-baskoniatargetalexlentobolsterfrontcourt",
-      "league": "EuroLeague",
-      "title": "Baskonia Target Alex Len to Bolster Frontcourt",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Len returned to Europe last year after spending 12 seasons in the NBA L'articolo Baskonia Target Alex Len to Bolster Frontcourt proviene da Sportando .",
-      "published": "2026-09-10T18:42:43.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/baskonia-target-alex-len-to-bolster-frontcourt/"
     },
     {
       "id": "EuroLeague-tyriquejonesoutforolympiacostriptocyprus",
@@ -87,19 +126,6 @@
       "url": "https://www.eurohoops.net/en/euroleague/2006471/francisco-on-working-with-obradovic-its-even-better-than-i-expected/"
     },
     {
-      "id": "EuroLeague-lorenzobrownbreakssilencewithcrypticfree",
-      "league": "EuroLeague",
-      "title": "Lorenzo Brown breaks silence with cryptic “Free me” post",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The point guard remains in the United States with Olimpia Milano’s agreement, but no return date has been established L'articolo Lorenzo Brown breaks silence with cryptic “Free me” post proviene da Sportando .",
-      "published": "2026-09-10T14:08:07.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/lorenzo-brown-breaks-silence-with-cryptic-free-me-post/"
-    },
-    {
       "id": "EuroLeague-amircoffeytradesnbaforeuroleaguearenasde",
       "league": "EuroLeague",
       "title": "Amir Coffey trades NBA for EuroLeague arenas: “Definitely excited”",
@@ -137,71 +163,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2022/05/be9e5eeb-partizan_1992-625x375.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2006360/fuenlabrada-becomes-partizan-de-fuenlabrada-euroleague/"
-    },
-    {
-      "id": "EuroLeague-patrickbeverleydisclosespathtoolympiacos",
-      "league": "EuroLeague",
-      "title": "Patrick Beverley discloses path to Olympiacos: “I didn’t understand the team”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Olympiacos alum Patrick Beverley reveals his unexpected European tryout path before launching a long, defensive-minded career in the NBA The post Patrick Beverley discloses path to Olympiacos: “I didn’t understand the team” appeared first on Eurohoops .",
-      "published": "2026-09-10T11:08:26.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2023/09/8164616b-beverley-olympiacos-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2006356/patrick-beverley-talks-olympiacos-euroleague/"
-    },
-    {
-      "id": "EuroLeague-moustaphafallsufferedahamstringstrain",
-      "league": "EuroLeague",
-      "title": "Moustapha Fall suffered a hamstring strain",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Another major blow for Panathinaikos ahead of the season start The post Moustapha Fall suffered a hamstring strain appeared first on Eurohoops .",
-      "published": "2026-09-09T17:00:42.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/f9195268-moustapha-fall-maroussi-panathinaikos-preseason.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2006180/moustapha-fall-suffered-a-hamstring-strain/"
-    },
-    {
-      "id": "EuroLeague-fenerbahcebourgmilanandvezenkovtaketheto",
-      "league": "EuroLeague",
-      "title": "Fenerbahce, Bourg, Milan and Vezenkov take the top honors at the 2025-26 One Team Awards",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The winners were revealed on Wednesday, September 9, on the closing day of the 16th One Team Annual Workshop The post Fenerbahce, Bourg, Milan and Vezenkov take the top honors at the 2025-26 One Team Awards appeared first on Eurohoops .",
-      "published": "2026-09-09T16:40:46.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/0ad9dbf6-one-team.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2006167/fenerbahce-bourg-milan-and-vezenkov-take-the-top-honors-at-the-2025-26-one-team-awards/"
-    },
-    {
-      "id": "EuroLeague-saricdominatesasanadoluefesbeatslokomoti",
-      "league": "EuroLeague",
-      "title": "Saric dominates as Anadolu Efes beats Lokomotiv Kuban, Bahcesehir defeats Dubai",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Two Turkish teams secured victories on Wednesday at the Gloria Cup The post Saric dominates as Anadolu Efes beats Lokomotiv Kuban, Bahcesehir defeats Dubai appeared first on Eurohoops .",
-      "published": "2026-09-09T16:34:54.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/82a13150-dario-saric-anadolu-efes-erokspor.jpeg",
-      "url": "https://www.eurohoops.net/en/euroleague/2006164/saric-dominates-as-anadolu-efes-defeats-lokomotiv-kuban/"
-    },
-    {
-      "id": "EuroLeague-olimpiamilanodefeatsstrasbourgaftertwolo",
-      "league": "EuroLeague",
-      "title": "Olimpia Milano defeats Strasbourg after two losses in Crete",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "After two losses against Crvena Zvezda and Fenerbahce, Olimpia bounces back with a victory The post Olimpia Milano defeats Strasbourg after two losses in Crete appeared first on Eurohoops .",
-      "published": "2026-09-09T14:15:59.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/db104aa3-gud.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2006096/olimpia-milano-defeats-strasbourg-after-two-losses-in-crete/"
     }
   ],
   "leaders": {
@@ -10587,7 +10548,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-09-11T01:30:52.195Z",
+    "news": "2026-09-11T10:59:14.566Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },

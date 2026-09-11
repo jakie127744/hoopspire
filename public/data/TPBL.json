@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-09-11T01:30:06.461Z",
+  "fetchedAt": "2026-09-11T10:58:55.445Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -7483,6 +7483,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-457",
+      "league": "TPBL",
+      "title": "The Fan Support Calendar is here! TPBL announces new season schedule and seven-team home opening match October 7th Season kickoff press conference will be broadcast live on official YouTube to reveal the season's main axis",
+      "originalTitle": "球迷應援行事曆出爐！TPBL公布新賽季賽程與七隊主場開幕戰 10月7日賽季啟動記者會將於官方YouTube直播 揭曉賽季主軸",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-11T04:02:56.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/457/PFiGY4bT0lAkej5uXDK1CdZfQctbPUuIpbwH2QdI.jpg?20260911120421",
+      "url": "https://tpbl.basketball/news/457"
+    },
+    {
       "id": "TPBL-447",
       "league": "TPBL",
       "title": "[100 reasons why you like basketball Vol. 038] Xiong Xiangtai: Watching the seeds that Dad planted by shooting a 3-point basketball in the bottom corner",
@@ -7624,19 +7637,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/428/9lB609P3Es3LnpVdEL1YrAk2bmoodkwiSza9HKti.jpg?20260607143548",
       "url": "https://tpbl.basketball/news/428"
-    },
-    {
-      "id": "TPBL-427",
-      "league": "TPBL",
-      "title": "2026.05.28 Alliance Announcement",
-      "originalTitle": "2026.05.28 聯盟公告",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-05-28T07:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/427/XZEg29DnJPxgJ2RMahNZWXmA0CIRXtoiKE0gUjT3.jpg?20260528150236",
-      "url": "https://tpbl.basketball/news/427"
     }
   ],
   "leaders": {
@@ -8102,12 +8102,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-09-11T01:30:06.461Z",
-    "rosters": "2026-09-11T01:30:06.461Z",
-    "playerStats": "2026-09-11T01:30:06.461Z",
-    "standings": "2026-09-11T01:30:06.461Z",
-    "games": "2026-09-11T01:30:06.461Z",
-    "news": "2026-09-11T01:30:06.461Z",
-    "leaders": "2026-09-11T01:30:06.461Z"
+    "teams": "2026-09-11T10:58:55.445Z",
+    "rosters": "2026-09-11T10:58:55.445Z",
+    "playerStats": "2026-09-11T10:58:55.445Z",
+    "standings": "2026-09-11T10:58:55.445Z",
+    "games": "2026-09-11T10:58:55.445Z",
+    "news": "2026-09-11T10:58:55.445Z",
+    "leaders": "2026-09-11T10:58:55.445Z"
   }
 }

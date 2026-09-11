@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-11T01:28:40.393Z",
+  "fetchedAt": "2026-09-11T10:57:55.512Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -8412,17 +8412,17 @@
   ],
   "news": [
     {
-      "id": "KBL-kblkbl",
+      "id": "KBL-asiadskoreahammersindonesiafor2ndstraigh",
       "league": "KBL",
-      "title": "KBL to Withdraw Laguna Player Registration Hold. Gas Corporation, Lagoona, and KBL Endless Bokma Warfare. It created a pointless controversy.",
-      "originalTitle": "KBL, 라건아 선수등록 보류 철회. 가스공사, 라건아, 그리고 KBL 끝없는 복마전. 쓸데없는 논란을 만들었다.",
-      "translatedFrom": "ko",
-      "description": "KBL has rescinded Laguna's (37) registration hold. Lagan A is officially registered as a foreign player belonging to Daegu Korea Gas Corporation in the 2026-2027 season. A KBL official said on the 10th that \"following the court ruling, we have decided to proceed with the registration of Lagonia's players as normal.\" Laguna will enter the country on the 11th and will be ready for the 2026-2027 season after completing the player registration process.",
-      "published": "2026-09-10T23:41:06.000Z",
-      "byline": "Chosun",
+      "title": "(Asiad) S. Korea hammers Indonesia for 2nd straight win in men's basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SEOUL, Sept. 11 (Yonhap) -- South Korea routed Indonesia 102-48 for its second s...",
+      "published": "2026-09-11T08:55:22.000Z",
+      "byline": "Yonhap News",
       "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/GMZWGN3EG4ZDANDFGBRGMZJYMM.jpg?auth=4552a7358223f104f921c475d7b74f260ee71a3811a4ad28ef02248b3edc54a8&smart=true&width=700&height=1049",
-      "url": "https://www.chosun.com/sports/basketball/2026/09/11/MQ4DOMZVGI2DQNJZMJSWCYRSHE/"
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091114890001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260911009300315"
     },
     {
       "id": "KBL-asiadskoreabeatssaudiarabiatoopenmensbas",
@@ -8932,8 +8932,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-11T01:28:40.393Z",
-    "news": "2026-09-11T01:28:40.393Z"
+    "games": "2026-09-11T10:57:55.512Z",
+    "news": "2026-09-11T10:57:55.512Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-11T01:28:14.819Z",
+  "fetchedAt": "2026-09-11T10:57:33.529Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -18030,7 +18030,7 @@
       "title": "AJ Edu, Dwight Ramos have faith all-PBA Gilas team will deliver",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "SCHEDULE: Gilas Pilipinas men at Asian Games 2026 5×5 basketball AJ Edu and Dwight Ramos battled from opposite sides on Wednesday night during the preseason feature of the Japan B.League at Mall of Asia Arena. Forty basketball minutes later, the long-time Gilas Pilipinas teammate",
+      "description": "LIVE: Gilas Pilipinas vs Bahrain – Asian Games 2026 men’s basketball AJ Edu and Dwight Ramos battled from opposite sides on Wednesday night during the preseason feature of the Japan B.League at Mall of Asia Arena. Forty basketball minutes later, the long-time Gilas Pilipinas team",
       "published": "2026-09-11T05:20:42.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
@@ -18101,45 +18101,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/09/0T1A9797.jpg",
       "url": "https://sports.inquirer.net/694424/dwight-ramos-big-piece-in-levangas-b-league-bid-says-tominaga"
-    },
-    {
-      "id": "BLeague-gunmabracesforlevangaresponseinbleaguema",
-      "league": "BLeague",
-      "title": "Gunma braces for Levanga response in B.League Manila rematch",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—Gunma Crane Thunders hope to repeat their strong performance against Levanga Hokkaido in the second game of the Japan B.League’s Manila preseason series. After dominating Levanga, 98-81, at Mall of Asia Arena on Wednesday night, Gunma coach Kyle Milling said t",
-      "published": "2026-09-09T23:35:12.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/MGS09822-scaled.jpg",
-      "url": "https://sports.inquirer.net/694377/gunma-braces-for-levanga-response-in-b-league-manila-rematch"
-    },
-    {
-      "id": "BLeague-gilasstarsajedudwightramosputfriendshipa",
-      "league": "BLeague",
-      "title": "Gilas stars AJ Edu, Dwight Ramos put friendship aside in B.League",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—AJ Edu and Dwight Ramos have built a solid bond as Gilas Pilipinas mainstays. That bond, however, is put aside for now as Levanga Hokkaido and Gunma Crane Thunders meet in a two-game Japan B.League preseason series at Mall of Asia Arena. READ: AJ Edu, Gunma cr",
-      "published": "2026-09-09T22:19:22.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/dwight-ramos-aj-edu-bleague-manila.jpg",
-      "url": "https://sports.inquirer.net/694348/gilas-stars-aj-edu-dwight-ramos-put-friendship-aside-in-b-league"
-    },
-    {
-      "id": "BLeague-ajedugunmacruisepastdwightramoslevangain",
-      "league": "BLeague",
-      "title": "AJ Edu, Gunma cruise past Dwight Ramos, Levanga in B.League Manila",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—Gunma Crane Thunders began the Manila leg of the Japan B.League preseason in rousing fashion, silencing Levanga Hokkaido, 98-81, at Mall of Asia Arena on Wednesday night. AJ Edu played sparingly for the Crane Thunders, finishing with three points, seven reboun",
-      "published": "2026-09-09T21:30:57.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/MGS09833-scaled.jpg",
-      "url": "https://sports.inquirer.net/694326/aj-edu-gunma-cruise-past-dwight-ramos-levanga-in-b-league-manila"
     }
   ],
   "leaders": {
@@ -18610,8 +18571,8 @@
     "playerStats": "2026-09-11T01:01:42.107Z",
     "leaders": "2026-09-11T01:01:42.107Z",
     "standings": "2026-09-11T01:01:42.107Z",
-    "games": "2026-09-11T01:28:14.819Z",
-    "news": "2026-09-11T01:28:14.819Z"
+    "games": "2026-09-11T10:57:33.529Z",
+    "news": "2026-09-11T10:57:33.529Z"
   },
   "carriedOver": [
     "teams",
