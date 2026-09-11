@@ -3,7 +3,8 @@ import StandingsTable from './StandingsTable.jsx'
 import PlayoffPicture from './PlayoffPicture.jsx'
 import { Eyebrow, Loading, Empty } from './Primitives.jsx'
 import { useAsync } from '../lib/useAsync.js'
-import { getStandings, getStandingsGrouped } from '../lib/api.js'
+import { getStandings, getStandingsGrouped, getSnapshotMeta } from '../lib/api.js'
+import { formatDate } from '../lib/format.js'
 import { buildPlayoffPicture } from '../lib/playoffs.js'
 
 /**
@@ -28,6 +29,12 @@ export default function StandingsPanel({ league, limit }) {
     null
   )
 
+  // Snapshot leagues: say when the table was captured. The daily refresh
+  // keeps the previous table if its source is unreachable, so this date can
+  // lag the rest of the page — and a table should never look newer than it is.
+  const { data: meta } = useAsync(() => getSnapshotMeta(league.key), [league.key], null)
+  const asOf = meta?.sectionsUpdatedAt?.standings || meta?.fetchedAt || null
+
   const conferences = grouped?.conferences || []
   const divisions = grouped?.divisions || []
   const picture = buildPlayoffPicture(league, conferences)
@@ -47,6 +54,11 @@ export default function StandingsPanel({ league, limit }) {
 
   return (
     <div>
+      {asOf && (
+        <p className="eyebrow mb-4 text-ink/40">
+          Table as of {formatDate(asOf, { month: 'long' })}
+        </p>
+      )}
       {views.length > 1 && (
         <div className="no-scrollbar mb-6 flex gap-2 overflow-x-auto">
           {views.map((v) => (

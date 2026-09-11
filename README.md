@@ -324,6 +324,30 @@ Guards, because nobody is watching a scheduled run:
 GitHub pauses scheduled workflows on public repos after 60 days without
 activity; the daily commits count as activity, so it keeps itself alive.
 
+### What refreshes from GitHub — and what does not
+
+The first scheduled-style run showed that two sources refuse GitHub's
+datacenter IPs outright:
+
+| From GitHub Actions | Refreshes? |
+|---|---|
+| Games & results (asia-basket, latinbasket) | ✅ |
+| News, incl. translation | ✅ |
+| TPBL — everything (its own API) | ✅ |
+| PBA and B.League rosters | ✅ |
+| **Standings & player stats** for CBA, KBL, B.League, PBA, NBB (RealGM) | ❌ bot-check page |
+| EuroLeague / NBL averages, player careers (RealGM) | ❌ bot-check page |
+| FIBA tournament leaders (ESPN, server-side) | ❌ HTTP 403 |
+
+Those sections are kept from the last run that could reach them — never
+wiped — and each snapshot league's standings show **"Table as of …"** so a
+carried-over table is never mistaken for today's. To refresh them, run
+`npm run data` from a normal connection (your own machine) and push. This
+project does not try to get around either block.
+
+Readers' live scores are unaffected: those requests come from each reader's
+own browser, not from GitHub.
+
 ## Installable app
 
 Hoopspire is a PWA: it installs to a phone's home screen and opens

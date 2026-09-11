@@ -72,7 +72,16 @@ export async function snapshotGame(league, gameId) {
 export async function snapshotMeta(league) {
   const s = await loadSnapshot(league)
   if (!s) return null
-  return { fetchedAt: s.fetchedAt, season: s.season, sources: s.sources || [], notes: s.notes || [] }
+  return {
+    fetchedAt: s.fetchedAt,
+    season: s.season,
+    sources: s.sources || [],
+    notes: s.notes || [],
+    // When each section was really captured. A daily run that could not
+    // reach a source keeps the previous section, so these can differ.
+    sectionsUpdatedAt: s.sectionsUpdatedAt || {},
+    carriedOver: s.carriedOver || [],
+  }
 }
 
 /**
