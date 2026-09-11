@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getRoster, getGames } from '../lib/api.js'
+import { rosterProfileIds, playerHref } from '../lib/players.js'
 import { TeamLogo, Loading, Empty, Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 
@@ -25,6 +26,13 @@ export default function Team() {
     null
   )
   const { data: games } = useAsync(() => getGames(leagueKey), [leagueKey], [])
+  const { data: profileIds } = useAsync(
+    () => (roster?.players ? rosterProfileIds(leagueKey, roster.players) : new Map()),
+    // Keyed on the roster object itself, not its length: two teams with the
+    // same squad size would otherwise reuse the previous team's links.
+    [leagueKey, teamId, roster],
+    new Map()
+  )
 
   const teamGames = (games || [])
     .filter(
@@ -112,7 +120,16 @@ export default function Team() {
                         ) : (
                           <span className="h-9 w-9 rounded-full bg-parchment" />
                         )}
-                        <span className="text-sm font-medium">{p.name}</span>
+                        {playerHref(leagueKey, profileIds?.get(String(p.id ?? p.name))) ? (
+                          <Link
+                            to={playerHref(leagueKey, profileIds.get(String(p.id ?? p.name)))}
+                            className="text-sm font-medium hover:text-crimson"
+                          >
+                            {p.name}
+                          </Link>
+                        ) : (
+                          <span className="text-sm font-medium">{p.name}</span>
+                        )}
                       </div>
                     </td>
                     <td className="py-2.5 text-right font-mono text-xs">{p.position || '—'}</td>

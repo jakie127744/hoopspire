@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-11T00:47:44.981Z",
+  "fetchedAt": "2026-09-11T01:01:42.107Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -4522,6 +4522,9 @@
       "fouls": 2,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "107965",
+      "realgmUrl": "https://basketball.realgm.com/player/Jarrett-Culver/Summary/107965",
+      "id": "rg-107965",
       "teamId": "692"
     },
     {
@@ -4549,6 +4552,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "52555",
+      "realgmUrl": "https://basketball.realgm.com/player/Trey-Kell/Summary/52555",
+      "id": "rg-52555",
       "teamId": "696"
     },
     {
@@ -4576,6 +4582,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "26756",
+      "realgmUrl": "https://basketball.realgm.com/player/Stanley-Johnson/Summary/26756",
+      "id": "rg-26756",
       "teamId": "2488"
     },
     {
@@ -4603,6 +4612,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "58185",
+      "realgmUrl": "https://basketball.realgm.com/player/David-Nwaba/Summary/58185",
+      "id": "rg-58185",
       "teamId": "697"
     },
     {
@@ -4630,6 +4642,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "70510",
+      "realgmUrl": "https://basketball.realgm.com/player/Matt-Bonds/Summary/70510",
+      "id": "rg-70510",
       "teamId": "700"
     },
     {
@@ -4657,6 +4672,9 @@
       "fouls": 2,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "81016",
+      "realgmUrl": "https://basketball.realgm.com/player/Yante-Maten/Summary/81016",
+      "id": "rg-81016",
       "teamId": "697"
     },
     {
@@ -4684,6 +4702,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "80937",
+      "realgmUrl": "https://basketball.realgm.com/player/Chris-Smith/Summary/80937",
+      "id": "rg-80937",
       "teamId": "721"
     },
     {
@@ -4711,6 +4732,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "8638",
+      "realgmUrl": "https://basketball.realgm.com/player/Angelo-Caloiaro/Summary/8638",
+      "id": "rg-8638",
       "teamId": "699"
     },
     {
@@ -4738,6 +4762,9 @@
       "fouls": 1.7,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "133958",
+      "realgmUrl": "https://basketball.realgm.com/player/Keisei-Tominaga/Summary/133958",
+      "id": "rg-133958",
       "teamId": "702"
     },
     {
@@ -4765,6 +4792,9 @@
       "fouls": 2,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "22883",
+      "realgmUrl": "https://basketball.realgm.com/player/DJ-Newbill/Summary/22883",
+      "id": "rg-22883",
       "teamId": "703"
     },
     {
@@ -4792,6 +4822,9 @@
       "fouls": 3,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "42388",
+      "realgmUrl": "https://basketball.realgm.com/player/Zach-Auguste/Summary/42388",
+      "id": "rg-42388",
       "teamId": "698"
     },
     {
@@ -4818,7 +4851,10 @@
       "turnovers": 2.4,
       "fouls": 1.8,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "98052",
+      "realgmUrl": "https://basketball.realgm.com/player/Sekou-Doumbouya/Summary/98052",
+      "id": "rg-98052"
     },
     {
       "name": "Tanner Groves",
@@ -4845,6 +4881,9 @@
       "fouls": 2.9,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "122038",
+      "realgmUrl": "https://basketball.realgm.com/player/Tanner-Groves/Summary/122038",
+      "id": "rg-122038",
       "teamId": "1638"
     },
     {
@@ -4872,6 +4911,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "108027",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyunjung-Lee/Summary/108027",
+      "id": "rg-108027",
       "teamId": "2488"
     },
     {
@@ -4899,6 +4941,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "117424",
+      "realgmUrl": "https://basketball.realgm.com/player/Kofi-Cockburn/Summary/117424",
+      "id": "rg-117424",
       "teamId": "721"
     },
     {
@@ -4926,6 +4971,9 @@
       "fouls": 2.4,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "22408",
+      "realgmUrl": "https://basketball.realgm.com/player/Davante-Gardner/Summary/22408",
+      "id": "rg-22408",
       "teamId": "728"
     },
     {
@@ -4953,6 +5001,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "84439",
+      "realgmUrl": "https://basketball.realgm.com/player/Robert-Franks/Summary/84439",
+      "id": "rg-84439",
       "teamId": "712"
     },
     {
@@ -4980,6 +5031,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "7001",
+      "realgmUrl": "https://basketball.realgm.com/player/Brock-Motum/Summary/7001",
+      "id": "rg-7001",
       "teamId": "696"
     },
     {
@@ -5007,6 +5061,9 @@
       "fouls": 2,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "120119",
+      "realgmUrl": "https://basketball.realgm.com/player/Aaron-Henry/Summary/120119",
+      "id": "rg-120119",
       "teamId": "729"
     },
     {
@@ -5034,6 +5091,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "104404",
+      "realgmUrl": "https://basketball.realgm.com/player/Nassir-Little/Summary/104404",
+      "id": "rg-104404",
       "teamId": "704"
     },
     {
@@ -5061,6 +5121,9 @@
       "fouls": 2.3,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "27699",
+      "realgmUrl": "https://basketball.realgm.com/player/Sebastian-Saiz/Summary/27699",
+      "id": "rg-27699",
       "teamId": "706"
     },
     {
@@ -5088,6 +5151,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "52054",
+      "realgmUrl": "https://basketball.realgm.com/player/Vic-Law/Summary/52054",
+      "id": "rg-52054",
       "teamId": "701"
     },
     {
@@ -5115,6 +5181,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "73143",
+      "realgmUrl": "https://basketball.realgm.com/player/DJ-Hogg/Summary/73143",
+      "id": "rg-73143",
       "teamId": "704"
     },
     {
@@ -5142,6 +5211,9 @@
       "fouls": 1.5,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "62189",
+      "realgmUrl": "https://basketball.realgm.com/player/Nick-Kay/Summary/62189",
+      "id": "rg-62189",
       "teamId": "720"
     },
     {
@@ -5169,6 +5241,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "52285",
+      "realgmUrl": "https://basketball.realgm.com/player/Keanu-Pinder/Summary/52285",
+      "id": "rg-52285",
       "teamId": "693"
     },
     {
@@ -5196,6 +5271,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "27710",
+      "realgmUrl": "https://basketball.realgm.com/player/Damien-Inglis/Summary/27710",
+      "id": "rg-27710",
       "teamId": "694"
     },
     {
@@ -5223,6 +5301,9 @@
       "fouls": 2.8,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "89301",
+      "realgmUrl": "https://basketball.realgm.com/player/Jarrell-Brantley/Summary/89301",
+      "id": "rg-89301",
       "teamId": "2488"
     },
     {
@@ -5250,6 +5331,9 @@
       "fouls": 2.7,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "83931",
+      "realgmUrl": "https://basketball.realgm.com/player/Kerry-Blackshear-Jr/Summary/83931",
+      "id": "rg-83931",
       "teamId": "713"
     },
     {
@@ -5277,6 +5361,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "80115",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryan-Luther/Summary/80115",
+      "id": "rg-80115",
       "teamId": "700"
     },
     {
@@ -5304,6 +5391,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "22525",
+      "realgmUrl": "https://basketball.realgm.com/player/Dwayne-Evans/Summary/22525",
+      "id": "rg-22525",
       "teamId": "721"
     },
     {
@@ -5331,6 +5421,9 @@
       "fouls": 2,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "59224",
+      "realgmUrl": "https://basketball.realgm.com/player/Marcus-Foster/Summary/59224",
+      "id": "rg-59224",
       "teamId": "706"
     },
     {
@@ -5358,6 +5451,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "99628",
+      "realgmUrl": "https://basketball.realgm.com/player/Yanni-Wetzell/Summary/99628",
+      "id": "rg-99628",
       "teamId": "693"
     },
     {
@@ -5385,6 +5481,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "48683",
+      "realgmUrl": "https://basketball.realgm.com/player/Thomas-Wimbush/Summary/48683",
+      "id": "rg-48683",
       "teamId": "698"
     },
     {
@@ -5412,6 +5511,9 @@
       "fouls": 2.3,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "41248",
+      "realgmUrl": "https://basketball.realgm.com/player/Jake-Layman/Summary/41248",
+      "id": "rg-41248",
       "teamId": "728"
     },
     {
@@ -5439,6 +5541,9 @@
       "fouls": 1.4,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "56854",
+      "realgmUrl": "https://basketball.realgm.com/player/Josh-Hawkinson/Summary/56854",
+      "id": "rg-56854",
       "teamId": "726"
     },
     {
@@ -5466,6 +5571,9 @@
       "fouls": 1.2,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "24685",
+      "realgmUrl": "https://basketball.realgm.com/player/Jahlil-Okafor/Summary/24685",
+      "id": "rg-24685",
       "teamId": "702"
     },
     {
@@ -5493,6 +5601,9 @@
       "fouls": 1.7,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "24276",
+      "realgmUrl": "https://basketball.realgm.com/player/Rosco-Allen/Summary/24276",
+      "id": "rg-24276",
       "teamId": "727"
     },
     {
@@ -5520,6 +5631,9 @@
       "fouls": 2.5,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "42336",
+      "realgmUrl": "https://basketball.realgm.com/player/Coty-Clarke/Summary/42336",
+      "id": "rg-42336",
       "teamId": "720"
     },
     {
@@ -5547,6 +5661,9 @@
       "fouls": 3.2,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "41202",
+      "realgmUrl": "https://basketball.realgm.com/player/Reynaldo-Garcia/Summary/41202",
+      "id": "rg-41202",
       "teamId": "1638"
     },
     {
@@ -5574,6 +5691,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "106945",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryan-Kriener/Summary/106945",
+      "id": "rg-106945",
       "teamId": "698"
     },
     {
@@ -5601,6 +5721,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "22834",
+      "realgmUrl": "https://basketball.realgm.com/player/Dave-Dudzinski/Summary/22834",
+      "id": "rg-22834",
       "teamId": "1638"
     },
     {
@@ -5628,6 +5751,9 @@
       "fouls": 2.3,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "145146",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuta-Okada/Summary/145146",
+      "id": "rg-145146",
       "teamId": "720"
     },
     {
@@ -5655,6 +5781,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "26797",
+      "realgmUrl": "https://basketball.realgm.com/player/Yannis-Morin/Summary/26797",
+      "id": "rg-26797",
       "teamId": "696"
     },
     {
@@ -5682,6 +5811,9 @@
       "fouls": 1.9,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "28767",
+      "realgmUrl": "https://basketball.realgm.com/player/Isaac-Fotu/Summary/28767",
+      "id": "rg-28767",
       "teamId": "703"
     },
     {
@@ -5709,6 +5841,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "85597",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Mooney/Summary/85597",
+      "id": "rg-85597",
       "teamId": "704"
     },
     {
@@ -5736,6 +5871,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "80306",
+      "realgmUrl": "https://basketball.realgm.com/player/Sean-OMara/Summary/80306",
+      "id": "rg-80306",
       "teamId": "729"
     },
     {
@@ -5762,7 +5900,10 @@
       "turnovers": 1.9,
       "fouls": 2.2,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "42315",
+      "realgmUrl": "https://basketball.realgm.com/player/Anthony-Clemmons/Summary/42315",
+      "id": "rg-42315"
     },
     {
       "name": "Seiya Ando",
@@ -5789,6 +5930,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "81768",
+      "realgmUrl": "https://basketball.realgm.com/player/Seiya-Ando/Summary/81768",
+      "id": "rg-81768",
       "teamId": "694"
     },
     {
@@ -5816,6 +5960,9 @@
       "fouls": 2.2,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "92177",
+      "realgmUrl": "https://basketball.realgm.com/player/Didi-Louzada/Summary/92177",
+      "id": "rg-92177",
       "teamId": "726"
     },
     {
@@ -5843,6 +5990,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "53707",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuta-Watanabe/Summary/53707",
+      "id": "rg-53707",
       "teamId": "704"
     },
     {
@@ -5869,7 +6019,10 @@
       "turnovers": 1.8,
       "fouls": 2.8,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "148841",
+      "realgmUrl": "https://basketball.realgm.com/player/Shun-Matsuyama/Summary/148841",
+      "id": "rg-148841"
     },
     {
       "name": "Trey McKinney Jones",
@@ -5896,6 +6049,9 @@
       "fouls": 2,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "13175",
+      "realgmUrl": "https://basketball.realgm.com/player/Trey-McKinney-Jones/Summary/13175",
+      "id": "rg-13175",
       "teamId": "713"
     },
     {
@@ -5922,7 +6078,10 @@
       "turnovers": 1.9,
       "fouls": 2,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "133946",
+      "realgmUrl": "https://basketball.realgm.com/player/Kai-Sotto/Summary/133946",
+      "id": "rg-133946"
     },
     {
       "name": "Jack Cooley",
@@ -5949,6 +6108,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "6196",
+      "realgmUrl": "https://basketball.realgm.com/player/Jack-Cooley/Summary/6196",
+      "id": "rg-6196",
       "teamId": "701"
     },
     {
@@ -5976,6 +6138,9 @@
       "fouls": 3.4,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "24247",
+      "realgmUrl": "https://basketball.realgm.com/player/Brandon-Ashley/Summary/24247",
+      "id": "rg-24247",
       "teamId": "2486"
     },
     {
@@ -6003,6 +6168,9 @@
       "fouls": 2.3,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "9749",
+      "realgmUrl": "https://basketball.realgm.com/player/Brandon-Davies/Summary/9749",
+      "id": "rg-9749",
       "teamId": "706"
     },
     {
@@ -6030,6 +6198,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "81208",
+      "realgmUrl": "https://basketball.realgm.com/player/Charles-Jackson/Summary/81208",
+      "id": "rg-81208",
       "teamId": "699"
     },
     {
@@ -6057,6 +6228,9 @@
       "fouls": 1.9,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "80054",
+      "realgmUrl": "https://basketball.realgm.com/player/Donte-Grantham/Summary/80054",
+      "id": "rg-80054",
       "teamId": "726"
     },
     {
@@ -6084,6 +6258,9 @@
       "fouls": 2,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "121486",
+      "realgmUrl": "https://basketball.realgm.com/player/Jamorko-Pickett/Summary/121486",
+      "id": "rg-121486",
       "teamId": "729"
     },
     {
@@ -6111,6 +6288,9 @@
       "fouls": 2.4,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "9304",
+      "realgmUrl": "https://basketball.realgm.com/player/James-McAdoo/Summary/9304",
+      "id": "rg-9304",
       "teamId": "720"
     },
     {
@@ -6138,6 +6318,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "42508",
+      "realgmUrl": "https://basketball.realgm.com/player/Eric-Jacobsen/Summary/42508",
+      "id": "rg-42508",
       "teamId": "712"
     },
     {
@@ -6165,6 +6348,9 @@
       "fouls": 1.8,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "27315",
+      "realgmUrl": "https://basketball.realgm.com/player/Dusan-Ristic/Summary/27315",
+      "id": "rg-27315",
       "teamId": "727"
     },
     {
@@ -6192,6 +6378,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "85940",
+      "realgmUrl": "https://basketball.realgm.com/player/Tyler-Cook/Summary/85940",
+      "id": "rg-85940",
       "teamId": "712"
     },
     {
@@ -6219,6 +6408,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "4783",
+      "realgmUrl": "https://basketball.realgm.com/player/Terrance-Woodbury/Summary/4783",
+      "id": "rg-4783",
       "teamId": "713"
     },
     {
@@ -6246,6 +6438,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "53302",
+      "realgmUrl": "https://basketball.realgm.com/player/Maik-Kotsar/Summary/53302",
+      "id": "rg-53302",
       "teamId": "694"
     },
     {
@@ -6273,6 +6468,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "120261",
+      "realgmUrl": "https://basketball.realgm.com/player/Darius-Days/Summary/120261",
+      "id": "rg-120261",
       "teamId": "697"
     },
     {
@@ -6300,6 +6498,9 @@
       "fouls": 1.8,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "24246",
+      "realgmUrl": "https://basketball.realgm.com/player/Grant-Jerrett/Summary/24246",
+      "id": "rg-24246",
       "teamId": "703"
     },
     {
@@ -6327,6 +6528,9 @@
       "fouls": 2.5,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "4353",
+      "realgmUrl": "https://basketball.realgm.com/player/Gavin-Edwards/Summary/4353",
+      "id": "rg-4353",
       "teamId": "703"
     },
     {
@@ -6354,6 +6558,9 @@
       "fouls": 2.3,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "22195",
+      "realgmUrl": "https://basketball.realgm.com/player/Scott-Eatherton/Summary/22195",
+      "id": "rg-22195",
       "teamId": "729"
     },
     {
@@ -6381,6 +6588,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "3612",
+      "realgmUrl": "https://basketball.realgm.com/player/Ray-Parks/Summary/3612",
+      "id": "rg-3612",
       "teamId": "700"
     },
     {
@@ -6408,6 +6618,9 @@
       "fouls": 2,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "79987",
+      "realgmUrl": "https://basketball.realgm.com/player/Gary-Clark/Summary/79987",
+      "id": "rg-79987",
       "teamId": "694"
     },
     {
@@ -6435,6 +6648,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "42954",
+      "realgmUrl": "https://basketball.realgm.com/player/Nathan-Boothe/Summary/42954",
+      "id": "rg-42954",
       "teamId": "692"
     },
     {
@@ -6462,6 +6678,9 @@
       "fouls": 1.6,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "121105",
+      "realgmUrl": "https://basketball.realgm.com/player/Takumi-Saito/Summary/121105",
+      "id": "rg-121105",
       "teamId": "729"
     },
     {
@@ -6489,6 +6708,9 @@
       "fouls": 2,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "90395",
+      "realgmUrl": "https://basketball.realgm.com/player/Dwight-Ramos/Summary/90395",
+      "id": "rg-90395",
       "teamId": "702"
     },
     {
@@ -6516,6 +6738,9 @@
       "fouls": 1.6,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "2370",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Jones/Summary/2370",
+      "id": "rg-2370",
       "teamId": "702"
     },
     {
@@ -6543,6 +6768,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "93409",
+      "realgmUrl": "https://basketball.realgm.com/player/Yudai-Baba/Summary/93409",
+      "id": "rg-93409",
       "teamId": "2488"
     },
     {
@@ -6570,6 +6798,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "84037",
+      "realgmUrl": "https://basketball.realgm.com/player/Dererk-Pardon/Summary/84037",
+      "id": "rg-84037",
       "teamId": "2486"
     },
     {
@@ -6597,6 +6828,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "108134",
+      "realgmUrl": "https://basketball.realgm.com/player/Kiefer-Isaac-Ravena/Summary/108134",
+      "id": "rg-108134",
       "teamId": "694"
     },
     {
@@ -6624,6 +6858,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "107573",
+      "realgmUrl": "https://basketball.realgm.com/player/Sergio-El-Darwich/Summary/107573",
+      "id": "rg-107573",
       "teamId": "692"
     },
     {
@@ -6651,6 +6888,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "29195",
+      "realgmUrl": "https://basketball.realgm.com/player/Damyean-Dotson/Summary/29195",
+      "id": "rg-29195",
       "teamId": "701"
     },
     {
@@ -6678,6 +6918,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "84615",
+      "realgmUrl": "https://basketball.realgm.com/player/Nick-Mayo/Summary/84615",
+      "id": "rg-84615",
       "teamId": "721"
     },
     {
@@ -6705,6 +6948,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "80358",
+      "realgmUrl": "https://basketball.realgm.com/player/Trey-Porter/Summary/80358",
+      "id": "rg-80358",
       "teamId": "2486"
     },
     {
@@ -6732,6 +6978,9 @@
       "fouls": 2.5,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "28436",
+      "realgmUrl": "https://basketball.realgm.com/player/Makoto-Hiejima/Summary/28436",
+      "id": "rg-28436",
       "teamId": "703"
     },
     {
@@ -6759,6 +7008,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "110484",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryuichi-Kishimoto/Summary/110484",
+      "id": "rg-110484",
       "teamId": "701"
     },
     {
@@ -6786,6 +7038,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "78827",
+      "realgmUrl": "https://basketball.realgm.com/player/Tim-Schneider/Summary/78827",
+      "id": "rg-78827",
       "teamId": "712"
     },
     {
@@ -6812,7 +7067,10 @@
       "turnovers": 1.7,
       "fouls": 2.6,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "41442",
+      "realgmUrl": "https://basketball.realgm.com/player/Jarell-Martin/Summary/41442",
+      "id": "rg-41442"
     },
     {
       "name": "Yudai Nishida",
@@ -6839,6 +7097,9 @@
       "fouls": 2,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "107227",
+      "realgmUrl": "https://basketball.realgm.com/player/Yudai-Nishida/Summary/107227",
+      "id": "rg-107227",
       "teamId": "728"
     },
     {
@@ -6866,6 +7127,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "118688",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryuto-Yasuoka/Summary/118688",
+      "id": "rg-118688",
       "teamId": "729"
     },
     {
@@ -6893,6 +7157,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "219375",
+      "realgmUrl": "https://basketball.realgm.com/player/Kotetsu-Kurokawa/Summary/219375",
+      "id": "rg-219375",
       "teamId": "2486"
     },
     {
@@ -6920,6 +7187,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "199637",
+      "realgmUrl": "https://basketball.realgm.com/player/Eijiro-Ogawa/Summary/199637",
+      "id": "rg-199637",
       "teamId": "693"
     },
     {
@@ -6947,6 +7217,9 @@
       "fouls": 2.2,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "121323",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Harrar/Summary/121323",
+      "id": "rg-121323",
       "teamId": "702"
     },
     {
@@ -6974,6 +7247,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "10884",
+      "realgmUrl": "https://basketball.realgm.com/player/Andrew-Randall/Summary/10884",
+      "id": "rg-10884",
       "teamId": "729"
     },
     {
@@ -7001,6 +7277,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "26697",
+      "realgmUrl": "https://basketball.realgm.com/player/Marial-Shayok/Summary/26697",
+      "id": "rg-26697",
       "teamId": "2486"
     },
     {
@@ -7028,6 +7307,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "32712",
+      "realgmUrl": "https://basketball.realgm.com/player/Johannes-Thiemann/Summary/32712",
+      "id": "rg-32712",
       "teamId": "713"
     },
     {
@@ -7055,6 +7337,9 @@
       "fouls": 2.2,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "222270",
+      "realgmUrl": "https://basketball.realgm.com/player/Taiki-Sumida/Summary/222270",
+      "id": "rg-222270",
       "teamId": "1638"
     },
     {
@@ -7082,6 +7367,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "122260",
+      "realgmUrl": "https://basketball.realgm.com/player/Keve-Aluma/Summary/122260",
+      "id": "rg-122260",
       "teamId": "701"
     },
     {
@@ -7109,6 +7397,9 @@
       "fouls": 1,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "10884",
+      "realgmUrl": "https://basketball.realgm.com/player/Andrew-Randall/Summary/10884",
+      "id": "rg-10884",
       "teamId": "701"
     },
     {
@@ -7136,6 +7427,9 @@
       "fouls": 1.8,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "84252",
+      "realgmUrl": "https://basketball.realgm.com/player/Emanuel-Terry/Summary/84252",
+      "id": "rg-84252",
       "teamId": "727"
     },
     {
@@ -7163,6 +7457,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "9391",
+      "realgmUrl": "https://basketball.realgm.com/player/Alex-Kirk/Summary/9391",
+      "id": "rg-9391",
       "teamId": "701"
     },
     {
@@ -7190,6 +7487,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "41448",
+      "realgmUrl": "https://basketball.realgm.com/player/Davon-Reed/Summary/41448",
+      "id": "rg-41448",
       "teamId": "1638"
     },
     {
@@ -7217,6 +7517,9 @@
       "fouls": 1,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "28435",
+      "realgmUrl": "https://basketball.realgm.com/player/Kosuke-Kanamaru/Summary/28435",
+      "id": "rg-28435",
       "teamId": "1638"
     },
     {
@@ -7244,6 +7547,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "81305",
+      "realgmUrl": "https://basketball.realgm.com/player/Cameron-Jackson/Summary/81305",
+      "id": "rg-81305",
       "teamId": "694"
     },
     {
@@ -7271,6 +7577,9 @@
       "fouls": 1.4,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "80680",
+      "realgmUrl": "https://basketball.realgm.com/player/Femi-Olujobi/Summary/80680",
+      "id": "rg-80680",
       "teamId": "720"
     },
     {
@@ -7298,6 +7607,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "147089",
+      "realgmUrl": "https://basketball.realgm.com/player/Noboru-Hasegawa/Summary/147089",
+      "id": "rg-147089",
       "teamId": "712"
     },
     {
@@ -7325,6 +7637,9 @@
       "fouls": 2.4,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "116526",
+      "realgmUrl": "https://basketball.realgm.com/player/Ando-Shuto/Summary/116526",
+      "id": "rg-116526",
       "teamId": "706"
     },
     {
@@ -7352,6 +7667,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "81305",
+      "realgmUrl": "https://basketball.realgm.com/player/Cameron-Jackson/Summary/81305",
+      "id": "rg-81305",
       "teamId": "697"
     },
     {
@@ -7378,7 +7696,10 @@
       "turnovers": 0.5,
       "fouls": 1.5,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "41448",
+      "realgmUrl": "https://basketball.realgm.com/player/Davon-Reed/Summary/41448",
+      "id": "rg-41448"
     },
     {
       "name": "Volodymyr Herun",
@@ -7405,6 +7726,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "26602",
+      "realgmUrl": "https://basketball.realgm.com/player/Volodymyr-Herun/Summary/26602",
+      "id": "rg-26602",
       "teamId": "700"
     },
     {
@@ -7432,6 +7756,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "73959",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuki-Togashi/Summary/73959",
+      "id": "rg-73959",
       "teamId": "704"
     },
     {
@@ -7459,6 +7786,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "133870",
+      "realgmUrl": "https://basketball.realgm.com/player/Takuto-Nakamura/Summary/133870",
+      "id": "rg-133870",
       "teamId": "713"
     },
     {
@@ -7486,6 +7816,9 @@
       "fouls": 1.6,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "80680",
+      "realgmUrl": "https://basketball.realgm.com/player/Femi-Olujobi/Summary/80680",
+      "id": "rg-80680",
       "teamId": "2486"
     },
     {
@@ -7513,6 +7846,9 @@
       "fouls": 1.7,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "28439",
+      "realgmUrl": "https://basketball.realgm.com/player/Daiki-Tanaka/Summary/28439",
+      "id": "rg-28439",
       "teamId": "726"
     },
     {
@@ -7540,6 +7876,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "87319",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeremy-Jones/Summary/87319",
+      "id": "rg-87319",
       "teamId": "729"
     },
     {
@@ -7567,6 +7906,9 @@
       "fouls": 1.3,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "72645",
+      "realgmUrl": "https://basketball.realgm.com/player/Shota-Tsuyama/Summary/72645",
+      "id": "rg-72645",
       "teamId": "727"
     },
     {
@@ -7594,6 +7936,9 @@
       "fouls": 3.2,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "30582",
+      "realgmUrl": "https://basketball.realgm.com/player/Steve-Zack/Summary/30582",
+      "id": "rg-30582",
       "teamId": "697"
     },
     {
@@ -7621,6 +7966,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "28429",
+      "realgmUrl": "https://basketball.realgm.com/player/Takatoshi-Furukawa/Summary/28429",
+      "id": "rg-28429",
       "teamId": "699"
     },
     {
@@ -7648,6 +7996,9 @@
       "fouls": 2.7,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "31153",
+      "realgmUrl": "https://basketball.realgm.com/player/Alan-Williams/Summary/31153",
+      "id": "rg-31153",
       "teamId": "729"
     },
     {
@@ -7675,6 +8026,9 @@
       "fouls": 1.7,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "127083",
+      "realgmUrl": "https://basketball.realgm.com/player/Keita-Imamura/Summary/127083",
+      "id": "rg-127083",
       "teamId": "729"
     },
     {
@@ -7702,6 +8056,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "24248",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaleb-Tarczewski/Summary/24248",
+      "id": "rg-24248",
       "teamId": "694"
     },
     {
@@ -7729,6 +8086,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "79971",
+      "realgmUrl": "https://basketball.realgm.com/player/Tanner-Leissner/Summary/79971",
+      "id": "rg-79971",
       "teamId": "693"
     },
     {
@@ -7756,6 +8116,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "117065",
+      "realgmUrl": "https://basketball.realgm.com/player/Takuya-Nakayama/Summary/117065",
+      "id": "rg-117065",
       "teamId": "693"
     },
     {
@@ -7783,6 +8146,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "76302",
+      "realgmUrl": "https://basketball.realgm.com/player/Satoru-Maeta/Summary/76302",
+      "id": "rg-76302",
       "teamId": "699"
     },
     {
@@ -7810,6 +8176,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "31407",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Heath/Summary/31407",
+      "id": "rg-31407",
       "teamId": "699"
     },
     {
@@ -7837,6 +8206,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "191832",
+      "realgmUrl": "https://basketball.realgm.com/player/Asato-Ogawa/Summary/191832",
+      "id": "rg-191832",
       "teamId": "699"
     },
     {
@@ -7864,6 +8236,9 @@
       "fouls": 2,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "148842",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryusei-Sasaki/Summary/148842",
+      "id": "rg-148842",
       "teamId": "697"
     },
     {
@@ -7891,6 +8266,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "52454",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuma-Fujii/Summary/52454",
+      "id": "rg-52454",
       "teamId": "713"
     },
     {
@@ -7918,6 +8296,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "16680",
+      "realgmUrl": "https://basketball.realgm.com/player/Nyika-Williams/Summary/16680",
+      "id": "rg-16680",
       "teamId": "696"
     },
     {
@@ -7945,6 +8326,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "69856",
+      "realgmUrl": "https://basketball.realgm.com/player/Luke-Evans/Summary/69856",
+      "id": "rg-69856",
       "teamId": "2486"
     },
     {
@@ -7972,6 +8356,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "81450",
+      "realgmUrl": "https://basketball.realgm.com/player/Boubacar-Toure/Summary/81450",
+      "id": "rg-81450",
       "teamId": "692"
     },
     {
@@ -7999,6 +8386,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "148660",
+      "realgmUrl": "https://basketball.realgm.com/player/Hirotaka-Yoshii/Summary/148660",
+      "id": "rg-148660",
       "teamId": "697"
     },
     {
@@ -8026,6 +8416,9 @@
       "fouls": 3,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "163864",
+      "realgmUrl": "https://basketball.realgm.com/player/Reo-Maeda/Summary/163864",
+      "id": "rg-163864",
       "teamId": "2486"
     },
     {
@@ -8053,6 +8446,9 @@
       "fouls": 0.9,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "202839",
+      "realgmUrl": "https://basketball.realgm.com/player/Rui-Todoroki/Summary/202839",
+      "id": "rg-202839",
       "teamId": "1638"
     },
     {
@@ -8080,6 +8476,9 @@
       "fouls": 2.1,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "93410",
+      "realgmUrl": "https://basketball.realgm.com/player/Leo-Vendrame/Summary/93410",
+      "id": "rg-93410",
       "teamId": "726"
     },
     {
@@ -8107,6 +8506,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "128040",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryo-Abe/Summary/128040",
+      "id": "rg-128040",
       "teamId": "1638"
     },
     {
@@ -8134,6 +8536,9 @@
       "fouls": 2.6,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "113566",
+      "realgmUrl": "https://basketball.realgm.com/player/Max-Hisatake/Summary/113566",
+      "id": "rg-113566",
       "teamId": "702"
     },
     {
@@ -8161,6 +8566,9 @@
       "fouls": 1.5,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "18410",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryan-Rossiter/Summary/18410",
+      "id": "rg-18410",
       "teamId": "706"
     },
     {
@@ -8188,6 +8596,9 @@
       "fouls": 1.6,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "251559",
+      "realgmUrl": "https://basketball.realgm.com/player/Takaaki-Kida/Summary/251559",
+      "id": "rg-251559",
       "teamId": "2486"
     },
     {
@@ -8215,6 +8626,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "133876",
+      "realgmUrl": "https://basketball.realgm.com/player/Keijiro-Mitani/Summary/133876",
+      "id": "rg-133876",
       "teamId": "721"
     },
     {
@@ -8242,6 +8656,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "23547",
+      "realgmUrl": "https://basketball.realgm.com/player/Akil-Mitchell/Summary/23547",
+      "id": "rg-23547",
       "teamId": "2488"
     },
     {
@@ -8269,6 +8686,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "61155",
+      "realgmUrl": "https://basketball.realgm.com/player/Narito-Namizato/Summary/61155",
+      "id": "rg-61155",
       "teamId": "729"
     },
     {
@@ -8296,6 +8716,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "43817",
+      "realgmUrl": "https://basketball.realgm.com/player/Naoto-Tsuji/Summary/43817",
+      "id": "rg-43817",
       "teamId": "713"
     },
     {
@@ -8323,6 +8746,9 @@
       "fouls": 1.7,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "15487",
+      "realgmUrl": "https://basketball.realgm.com/player/Thomas-Kennedy/Summary/15487",
+      "id": "rg-15487",
       "teamId": "728"
     },
     {
@@ -8350,6 +8776,9 @@
       "fouls": 1.4,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "64323",
+      "realgmUrl": "https://basketball.realgm.com/player/Thomas-Welsh/Summary/64323",
+      "id": "rg-64323",
       "teamId": "726"
     },
     {
@@ -8377,6 +8806,9 @@
       "fouls": 2.1,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "107229",
+      "realgmUrl": "https://basketball.realgm.com/player/Kai-Toews/Summary/107229",
+      "id": "rg-107229",
       "teamId": "706"
     },
     {
@@ -8404,6 +8836,9 @@
       "fouls": 2,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "163943",
+      "realgmUrl": "https://basketball.realgm.com/player/Sota-Oura/Summary/163943",
+      "id": "rg-163943",
       "teamId": "697"
     },
     {
@@ -8431,6 +8866,9 @@
       "fouls": 1.6,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "163863",
+      "realgmUrl": "https://basketball.realgm.com/player/Yoshiaki-Kubota/Summary/163863",
+      "id": "rg-163863",
       "teamId": "728"
     },
     {
@@ -8458,6 +8896,9 @@
       "fouls": 1,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "10884",
+      "realgmUrl": "https://basketball.realgm.com/player/Andrew-Randall/Summary/10884",
+      "id": "rg-10884",
       "teamId": "726"
     },
     {
@@ -8485,6 +8926,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "171596",
+      "realgmUrl": "https://basketball.realgm.com/player/Kazuki-Hosokawa/Summary/171596",
+      "id": "rg-171596",
       "teamId": "713"
     },
     {
@@ -8512,6 +8956,9 @@
       "fouls": 2.6,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "190609",
+      "realgmUrl": "https://basketball.realgm.com/player/Fumiya-Iio/Summary/190609",
+      "id": "rg-190609",
       "teamId": "720"
     },
     {
@@ -8539,6 +8986,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "8132",
+      "realgmUrl": "https://basketball.realgm.com/player/Jamel-McLean/Summary/8132",
+      "id": "rg-8132",
       "teamId": "693"
     },
     {
@@ -8566,6 +9016,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "107224",
+      "realgmUrl": "https://basketball.realgm.com/player/Kazuma-Tsuya/Summary/107224",
+      "id": "rg-107224",
       "teamId": "697"
     },
     {
@@ -8593,6 +9046,9 @@
       "fouls": 2,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "24206",
+      "realgmUrl": "https://basketball.realgm.com/player/Angelo-Chol/Summary/24206",
+      "id": "rg-24206",
       "teamId": "693"
     },
     {
@@ -8620,6 +9076,9 @@
       "fouls": 2.2,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "181916",
+      "realgmUrl": "https://basketball.realgm.com/player/Francis-Lopez/Summary/181916",
+      "id": "rg-181916",
       "teamId": "729"
     },
     {
@@ -8647,6 +9106,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "200287",
+      "realgmUrl": "https://basketball.realgm.com/player/AC-Yu/Summary/200287",
+      "id": "rg-200287",
       "teamId": "698"
     },
     {
@@ -8674,6 +9136,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "176151",
+      "realgmUrl": "https://basketball.realgm.com/player/Daichi-Nomoto/Summary/176151",
+      "id": "rg-176151",
       "teamId": "698"
     },
     {
@@ -8701,6 +9166,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "146232",
+      "realgmUrl": "https://basketball.realgm.com/player/Kohei-Nakamura/Summary/146232",
+      "id": "rg-146232",
       "teamId": "712"
     },
     {
@@ -8728,6 +9196,9 @@
       "fouls": 2.8,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "22609",
+      "realgmUrl": "https://basketball.realgm.com/player/Chase-Fieler/Summary/22609",
+      "id": "rg-22609",
       "teamId": "706"
     },
     {
@@ -8755,6 +9226,9 @@
       "fouls": 2.7,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "16622",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyle-Richardson/Summary/16622",
+      "id": "rg-16622",
       "teamId": "729"
     },
     {
@@ -8782,6 +9256,9 @@
       "fouls": 1.3,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "28751",
+      "realgmUrl": "https://basketball.realgm.com/player/Frank-Kaminsky/Summary/28751",
+      "id": "rg-28751",
       "teamId": "706"
     },
     {
@@ -8809,6 +9286,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "236397",
+      "realgmUrl": "https://basketball.realgm.com/player/Tsubasa-Kurihara/Summary/236397",
+      "id": "rg-236397",
       "teamId": "693"
     },
     {
@@ -8836,6 +9316,9 @@
       "fouls": 2.6,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "162003",
+      "realgmUrl": "https://basketball.realgm.com/player/Taiki-Osakabe/Summary/162003",
+      "id": "rg-162003",
       "teamId": "706"
     },
     {
@@ -8863,6 +9346,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "131568",
+      "realgmUrl": "https://basketball.realgm.com/player/AJ-Edu/Summary/131568",
+      "id": "rg-131568",
       "teamId": "713"
     },
     {
@@ -8890,6 +9376,9 @@
       "fouls": 1.8,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "265948",
+      "realgmUrl": "https://basketball.realgm.com/player/Shota-Arai/Summary/265948",
+      "id": "rg-265948",
       "teamId": "720"
     },
     {
@@ -8917,6 +9406,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "107221",
+      "realgmUrl": "https://basketball.realgm.com/player/Akaho-Raita/Summary/107221",
+      "id": "rg-107221",
       "teamId": "693"
     },
     {
@@ -8944,6 +9436,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "5715",
+      "realgmUrl": "https://basketball.realgm.com/player/Josh-Harrellson/Summary/5715",
+      "id": "rg-5715",
       "teamId": "1638"
     },
     {
@@ -8971,6 +9466,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "236396",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayate-Komasawa/Summary/236396",
+      "id": "rg-236396",
       "teamId": "712"
     },
     {
@@ -8998,6 +9496,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "104920",
+      "realgmUrl": "https://basketball.realgm.com/player/Garrison-Brooks/Summary/104920",
+      "id": "rg-104920",
       "teamId": "704"
     },
     {
@@ -9025,6 +9526,9 @@
       "fouls": 2.5,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "176633",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Harper/Summary/176633",
+      "id": "rg-176633",
       "teamId": "726"
     },
     {
@@ -9052,6 +9556,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "52446",
+      "realgmUrl": "https://basketball.realgm.com/player/Naoki-Uto/Summary/52446",
+      "id": "rg-52446",
       "teamId": "696"
     },
     {
@@ -9079,6 +9586,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "263248",
+      "realgmUrl": "https://basketball.realgm.com/player/Kento-Akama/Summary/263248",
+      "id": "rg-263248",
       "teamId": "712"
     },
     {
@@ -9106,6 +9616,9 @@
       "fouls": 2.5,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "131293",
+      "realgmUrl": "https://basketball.realgm.com/player/Taichi-Nakamura/Summary/131293",
+      "id": "rg-131293",
       "teamId": "720"
     },
     {
@@ -9133,6 +9646,9 @@
       "fouls": 1.7,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "76306",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuto-Nomi/Summary/76306",
+      "id": "rg-76306",
       "teamId": "720"
     },
     {
@@ -9160,6 +9676,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "200655",
+      "realgmUrl": "https://basketball.realgm.com/player/Taiki-Okada/Summary/200655",
+      "id": "rg-200655",
       "teamId": "698"
     },
     {
@@ -9187,6 +9706,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "122495",
+      "realgmUrl": "https://basketball.realgm.com/player/Watanabe-Shota/Summary/122495",
+      "id": "rg-122495",
       "teamId": "692"
     },
     {
@@ -9214,6 +9736,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "7131",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenny-Lawson-Jr/Summary/7131",
+      "id": "rg-7131",
       "teamId": "713"
     },
     {
@@ -9241,6 +9766,9 @@
       "fouls": 1.5,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "28759",
+      "realgmUrl": "https://basketball.realgm.com/player/Aaron-White/Summary/28759",
+      "id": "rg-28759",
       "teamId": "728"
     },
     {
@@ -9268,6 +9796,9 @@
       "fouls": 2.7,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "242781",
+      "realgmUrl": "https://basketball.realgm.com/player/Shuto-Ichiba/Summary/242781",
+      "id": "rg-242781",
       "teamId": "702"
     },
     {
@@ -9295,6 +9826,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "182911",
+      "realgmUrl": "https://basketball.realgm.com/player/Reon-Shibuta/Summary/182911",
+      "id": "rg-182911",
       "teamId": "699"
     },
     {
@@ -9322,6 +9856,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "254335",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuzo-Okada/Summary/254335",
+      "id": "rg-254335",
       "teamId": "696"
     },
     {
@@ -9349,6 +9886,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "93412",
+      "realgmUrl": "https://basketball.realgm.com/player/Shuta-Hara/Summary/93412",
+      "id": "rg-93412",
       "teamId": "704"
     },
     {
@@ -9376,6 +9916,9 @@
       "fouls": 2,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "251591",
+      "realgmUrl": "https://basketball.realgm.com/player/Tyrell-Taku-Sudo/Summary/251591",
+      "id": "rg-251591",
       "teamId": "729"
     },
     {
@@ -9403,6 +9946,9 @@
       "fouls": 2.2,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "177604",
+      "realgmUrl": "https://basketball.realgm.com/player/Shinji-Takashima/Summary/177604",
+      "id": "rg-177604",
       "teamId": "703"
     },
     {
@@ -9430,6 +9976,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "251560",
+      "realgmUrl": "https://basketball.realgm.com/player/Kei-Sugimoto/Summary/251560",
+      "id": "rg-251560",
       "teamId": "2486"
     },
     {
@@ -9456,7 +10005,10 @@
       "turnovers": 1.7,
       "fouls": 2.6,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "28271",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Ngatai/Summary/28271",
+      "id": "rg-28271"
     },
     {
       "name": "Nagano Satoshi",
@@ -9483,6 +10035,9 @@
       "fouls": 2.5,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "142821",
+      "realgmUrl": "https://basketball.realgm.com/player/Nagano-Satoshi/Summary/142821",
+      "id": "rg-142821",
       "teamId": "728"
     },
     {
@@ -9510,6 +10065,9 @@
       "fouls": 2.6,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "28434",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryusei-Shinoyama/Summary/28434",
+      "id": "rg-28434",
       "teamId": "727"
     },
     {
@@ -9537,6 +10095,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "149861",
+      "realgmUrl": "https://basketball.realgm.com/player/Makoto-Kinoshita/Summary/149861",
+      "id": "rg-149861",
       "teamId": "700"
     },
     {
@@ -9564,6 +10125,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "182842",
+      "realgmUrl": "https://basketball.realgm.com/player/Ren-Kanechika/Summary/182842",
+      "id": "rg-182842",
       "teamId": "704"
     },
     {
@@ -9591,6 +10155,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "175791",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryo-Sadohara/Summary/175791",
+      "id": "rg-175791",
       "teamId": "701"
     },
     {
@@ -9618,6 +10185,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "85637",
+      "realgmUrl": "https://basketball.realgm.com/player/Mitchell-Lightfoot/Summary/85637",
+      "id": "rg-85637",
       "teamId": "2488"
     },
     {
@@ -9645,6 +10215,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "72648",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayato-Maki/Summary/72648",
+      "id": "rg-72648",
       "teamId": "700"
     },
     {
@@ -9672,6 +10245,9 @@
       "fouls": 2,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "176850",
+      "realgmUrl": "https://basketball.realgm.com/player/Reoto-Yonesu/Summary/176850",
+      "id": "rg-176850",
       "teamId": "727"
     },
     {
@@ -9699,6 +10275,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "161628",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryo-Terashima/Summary/161628",
+      "id": "rg-161628",
       "teamId": "721"
     },
     {
@@ -9726,6 +10305,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "182843",
+      "realgmUrl": "https://basketball.realgm.com/player/Jumpei-Iwashita/Summary/182843",
+      "id": "rg-182843",
       "teamId": "698"
     },
     {
@@ -9753,6 +10335,9 @@
       "fouls": 4.5,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "28271",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Ngatai/Summary/28271",
+      "id": "rg-28271",
       "teamId": "702"
     },
     {
@@ -9780,6 +10365,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "110525",
+      "realgmUrl": "https://basketball.realgm.com/player/Shigehiro-Taguchi/Summary/110525",
+      "id": "rg-110525",
       "teamId": "693"
     },
     {
@@ -9807,6 +10395,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "119759",
+      "realgmUrl": "https://basketball.realgm.com/player/Tensho-Sugimoto/Summary/119759",
+      "id": "rg-119759",
       "teamId": "729"
     },
     {
@@ -9834,6 +10425,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "200784",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayato-Wakugawa/Summary/200784",
+      "id": "rg-200784",
       "teamId": "697"
     },
     {
@@ -9861,6 +10455,9 @@
       "fouls": 1.8,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "144666",
+      "realgmUrl": "https://basketball.realgm.com/player/Isaiah-Murphy/Summary/144666",
+      "id": "rg-144666",
       "teamId": "729"
     },
     {
@@ -9888,6 +10485,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "22609",
+      "realgmUrl": "https://basketball.realgm.com/player/Chase-Fieler/Summary/22609",
+      "id": "rg-22609",
       "teamId": "1638"
     },
     {
@@ -9915,6 +10515,9 @@
       "fouls": 2,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "93413",
+      "realgmUrl": "https://basketball.realgm.com/player/Takaya-Sasayama/Summary/93413",
+      "id": "rg-93413",
       "teamId": "729"
     },
     {
@@ -9942,6 +10545,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "169438",
+      "realgmUrl": "https://basketball.realgm.com/player/Koya-Sudo/Summary/169438",
+      "id": "rg-169438",
       "teamId": "694"
     },
     {
@@ -9969,6 +10575,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "248117",
+      "realgmUrl": "https://basketball.realgm.com/player/Dai-Nemoto/Summary/248117",
+      "id": "rg-248117",
       "teamId": "697"
     },
     {
@@ -9996,6 +10605,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "130934",
+      "realgmUrl": "https://basketball.realgm.com/player/Yasunori-Aoki/Summary/130934",
+      "id": "rg-130934",
       "teamId": "700"
     },
     {
@@ -10023,6 +10635,9 @@
       "fouls": 2.3,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "219379",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaheru-Yamauchi/Summary/219379",
+      "id": "rg-219379",
       "teamId": "727"
     },
     {
@@ -10050,6 +10665,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "165528",
+      "realgmUrl": "https://basketball.realgm.com/player/Yoshiyuki-Matsuwaki/Summary/165528",
+      "id": "rg-165528",
       "teamId": "701"
     },
     {
@@ -10077,6 +10695,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "22714",
+      "realgmUrl": "https://basketball.realgm.com/player/Chehales-Tapscott/Summary/22714",
+      "id": "rg-22714",
       "teamId": "699"
     },
     {
@@ -10104,6 +10725,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "219381",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryosei-Sato/Summary/219381",
+      "id": "rg-219381",
       "teamId": "721"
     },
     {
@@ -10131,6 +10755,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "98545",
+      "realgmUrl": "https://basketball.realgm.com/player/Seiya-Funyu/Summary/98545",
+      "id": "rg-98545",
       "teamId": "692"
     },
     {
@@ -10158,6 +10785,9 @@
       "fouls": 1.7,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "153551",
+      "realgmUrl": "https://basketball.realgm.com/player/Atsuya-Ogawa/Summary/153551",
+      "id": "rg-153551",
       "teamId": "703"
     },
     {
@@ -10185,6 +10815,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "176149",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayato-Yamaguchi/Summary/176149",
+      "id": "rg-176149",
       "teamId": "2488"
     },
     {
@@ -10212,6 +10845,9 @@
       "fouls": 3,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "147075",
+      "realgmUrl": "https://basketball.realgm.com/player/Kumagai-Ko/Summary/147075",
+      "id": "rg-147075",
       "teamId": "2488"
     },
     {
@@ -10239,6 +10875,9 @@
       "fouls": 1,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "64242",
+      "realgmUrl": "https://basketball.realgm.com/player/Ali-Mezher/Summary/64242",
+      "id": "rg-64242",
       "teamId": "693"
     },
     {
@@ -10266,6 +10905,9 @@
       "fouls": 1.9,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "141475",
+      "realgmUrl": "https://basketball.realgm.com/player/Omar-Jamaleddine/Summary/141475",
+      "id": "rg-141475",
       "teamId": "727"
     },
     {
@@ -10293,6 +10935,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "110549",
+      "realgmUrl": "https://basketball.realgm.com/player/Genki-Kojima/Summary/110549",
+      "id": "rg-110549",
       "teamId": "712"
     },
     {
@@ -10320,6 +10965,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "40179",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeff-Gibbs/Summary/40179",
+      "id": "rg-40179",
       "teamId": "704"
     },
     {
@@ -10347,6 +10995,9 @@
       "fouls": 1.4,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "110530",
+      "realgmUrl": "https://basketball.realgm.com/player/Yutaroh-Suda/Summary/110530",
+      "id": "rg-110530",
       "teamId": "728"
     },
     {
@@ -10374,6 +11025,9 @@
       "fouls": 2.6,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "210462",
+      "realgmUrl": "https://basketball.realgm.com/player/Ren-Shimatani/Summary/210462",
+      "id": "rg-210462",
       "teamId": "702"
     },
     {
@@ -10401,6 +11055,9 @@
       "fouls": 0.6,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "72643",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryogo-Sumino/Summary/72643",
+      "id": "rg-72643",
       "teamId": "728"
     },
     {
@@ -10428,6 +11085,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "265945",
+      "realgmUrl": "https://basketball.realgm.com/player/Yori-Iwaya/Summary/265945",
+      "id": "rg-265945",
       "teamId": "693"
     },
     {
@@ -10455,6 +11115,9 @@
       "fouls": 1.6,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "82262",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuseke-Endo/Summary/82262",
+      "id": "rg-82262",
       "teamId": "703"
     },
     {
@@ -10481,7 +11144,10 @@
       "turnovers": 0.4,
       "fouls": 1.3,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "161627",
+      "realgmUrl": "https://basketball.realgm.com/player/Takeru-Oba/Summary/161627",
+      "id": "rg-161627"
     },
     {
       "name": "Ryu Watanabe",
@@ -10508,6 +11174,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "176849",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryu-Watanabe/Summary/176849",
+      "id": "rg-176849",
       "teamId": "721"
     },
     {
@@ -10535,6 +11204,9 @@
       "fouls": 2.5,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "220237",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryo-IIda/Summary/220237",
+      "id": "rg-220237",
       "teamId": "727"
     },
     {
@@ -10562,6 +11234,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "265975",
+      "realgmUrl": "https://basketball.realgm.com/player/Naohide-Hotta/Summary/265975",
+      "id": "rg-265975",
       "teamId": "693"
     },
     {
@@ -10589,6 +11264,9 @@
       "fouls": 2.2,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "98546",
+      "realgmUrl": "https://basketball.realgm.com/player/Zack-Baranski/Summary/98546",
+      "id": "rg-98546",
       "teamId": "706"
     },
     {
@@ -10616,6 +11294,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "98367",
+      "realgmUrl": "https://basketball.realgm.com/player/Koh-Flippin/Summary/98367",
+      "id": "rg-98367",
       "teamId": "713"
     },
     {
@@ -10642,7 +11323,10 @@
       "turnovers": 1.5,
       "fouls": 2.4,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "110674",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuichi-Ikeda/Summary/110674",
+      "id": "rg-110674"
     },
     {
       "name": "Taito Nakahigashi",
@@ -10669,6 +11353,9 @@
       "fouls": 1.1,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "52448",
+      "realgmUrl": "https://basketball.realgm.com/player/Taito-Nakahigashi/Summary/52448",
+      "id": "rg-52448",
       "teamId": "729"
     },
     {
@@ -10696,6 +11383,9 @@
       "fouls": 1,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "264216",
+      "realgmUrl": "https://basketball.realgm.com/player/Gakuto-Arai/Summary/264216",
+      "id": "rg-264216",
       "teamId": "694"
     },
     {
@@ -10723,6 +11413,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "156123",
+      "realgmUrl": "https://basketball.realgm.com/player/Alex-Hall-Mone/Summary/156123",
+      "id": "rg-156123",
       "teamId": "699"
     },
     {
@@ -10750,6 +11443,9 @@
       "fouls": 1,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "137130",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuto-Otsuka/Summary/137130",
+      "id": "rg-137130",
       "teamId": "2486"
     },
     {
@@ -10777,6 +11473,9 @@
       "fouls": 1.8,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "8132",
+      "realgmUrl": "https://basketball.realgm.com/player/Jamel-McLean/Summary/8132",
+      "id": "rg-8132",
       "teamId": "703"
     },
     {
@@ -10804,6 +11503,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "110542",
+      "realgmUrl": "https://basketball.realgm.com/player/Tatsuya-Suzuki/Summary/110542",
+      "id": "rg-110542",
       "teamId": "700"
     },
     {
@@ -10831,6 +11533,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "175842",
+      "realgmUrl": "https://basketball.realgm.com/player/Hirohide-Araya/Summary/175842",
+      "id": "rg-175842",
       "teamId": "692"
     },
     {
@@ -10858,6 +11563,9 @@
       "fouls": 2,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "176152",
+      "realgmUrl": "https://basketball.realgm.com/player/Seiga-Sakamoto/Summary/176152",
+      "id": "rg-176152",
       "teamId": "700"
     },
     {
@@ -10885,6 +11593,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "153557",
+      "realgmUrl": "https://basketball.realgm.com/player/Masahiro-Waki/Summary/153557",
+      "id": "rg-153557",
       "teamId": "701"
     },
     {
@@ -10912,6 +11623,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "182839",
+      "realgmUrl": "https://basketball.realgm.com/player/Taiyo-Motoda/Summary/182839",
+      "id": "rg-182839",
       "teamId": "693"
     },
     {
@@ -10939,6 +11653,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "137619",
+      "realgmUrl": "https://basketball.realgm.com/player/Kai-King/Summary/137619",
+      "id": "rg-137619",
       "teamId": "694"
     },
     {
@@ -10966,6 +11683,9 @@
       "fouls": 2.2,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "161431",
+      "realgmUrl": "https://basketball.realgm.com/player/Sota-Okura/Summary/161431",
+      "id": "rg-161431",
       "teamId": "706"
     },
     {
@@ -10993,6 +11713,9 @@
       "fouls": 1.6,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "142704",
+      "realgmUrl": "https://basketball.realgm.com/player/Atsuki-Kishida/Summary/142704",
+      "id": "rg-142704",
       "teamId": "1638"
     },
     {
@@ -11020,6 +11743,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "242893",
+      "realgmUrl": "https://basketball.realgm.com/player/Haruki-Naito/Summary/242893",
+      "id": "rg-242893",
       "teamId": "693"
     },
     {
@@ -11047,6 +11773,9 @@
       "fouls": 2.1,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "228410",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiroto-Kikuchi/Summary/228410",
+      "id": "rg-228410",
       "teamId": "702"
     },
     {
@@ -11074,6 +11803,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "251710",
+      "realgmUrl": "https://basketball.realgm.com/player/Yosei-Nishida/Summary/251710",
+      "id": "rg-251710",
       "teamId": "698"
     },
     {
@@ -11101,6 +11833,9 @@
       "fouls": 1.6,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "202190",
+      "realgmUrl": "https://basketball.realgm.com/player/Taiga-Okada/Summary/202190",
+      "id": "rg-202190",
       "teamId": "727"
     },
     {
@@ -11128,6 +11863,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "229316",
+      "realgmUrl": "https://basketball.realgm.com/player/Riku-Segawa/Summary/229316",
+      "id": "rg-229316",
       "teamId": "704"
     },
     {
@@ -11154,7 +11892,10 @@
       "turnovers": 1.6,
       "fouls": 2,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "6301",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeff-Parmer/Summary/6301",
+      "id": "rg-6301"
     },
     {
       "name": "Kenny Lawson, Jr.",
@@ -11181,6 +11922,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "7131",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenny-Lawson-Jr/Summary/7131",
+      "id": "rg-7131",
       "teamId": "704"
     },
     {
@@ -11208,6 +11952,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "57378",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayato-Kawashima/Summary/57378",
+      "id": "rg-57378",
       "teamId": "699"
     },
     {
@@ -11235,6 +11982,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "165527",
+      "realgmUrl": "https://basketball.realgm.com/player/Teru-Sugawara/Summary/165527",
+      "id": "rg-165527",
       "teamId": "693"
     },
     {
@@ -11262,6 +12012,9 @@
       "fouls": 2,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "161432",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiromu-Nakamura/Summary/161432",
+      "id": "rg-161432",
       "teamId": "706"
     },
     {
@@ -11289,6 +12042,9 @@
       "fouls": 1.3,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "236398",
+      "realgmUrl": "https://basketball.realgm.com/player/Taketo-Kato/Summary/236398",
+      "id": "rg-236398",
       "teamId": "729"
     },
     {
@@ -11316,6 +12072,9 @@
       "fouls": 2,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "182905",
+      "realgmUrl": "https://basketball.realgm.com/player/Kohei-Fukuzawa/Summary/182905",
+      "id": "rg-182905",
       "teamId": "706"
     },
     {
@@ -11343,6 +12102,9 @@
       "fouls": 2,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "246865",
+      "realgmUrl": "https://basketball.realgm.com/player/Ruu-Jingaoka/Summary/246865",
+      "id": "rg-246865",
       "teamId": "712"
     },
     {
@@ -11370,6 +12132,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "254337",
+      "realgmUrl": "https://basketball.realgm.com/player/Kazuma-Okajima/Summary/254337",
+      "id": "rg-254337",
       "teamId": "692"
     },
     {
@@ -11397,6 +12162,9 @@
       "fouls": 2.4,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "248393",
+      "realgmUrl": "https://basketball.realgm.com/player/Anthony-Sukegawa/Summary/248393",
+      "id": "rg-248393",
       "teamId": "720"
     },
     {
@@ -11424,6 +12192,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "237243",
+      "realgmUrl": "https://basketball.realgm.com/player/Kanji-Takahira/Summary/237243",
+      "id": "rg-237243",
       "teamId": "693"
     },
     {
@@ -11451,6 +12222,9 @@
       "fouls": 1.6,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "200660",
+      "realgmUrl": "https://basketball.realgm.com/player/Reiya-Nozaki/Summary/200660",
+      "id": "rg-200660",
       "teamId": "726"
     },
     {
@@ -11478,6 +12252,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "139787",
+      "realgmUrl": "https://basketball.realgm.com/player/Quentin-Millora-Brown/Summary/139787",
+      "id": "rg-139787",
       "teamId": "704"
     },
     {
@@ -11505,6 +12282,9 @@
       "fouls": 2.7,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "227549",
+      "realgmUrl": "https://basketball.realgm.com/player/Sori-Uchio/Summary/227549",
+      "id": "rg-227549",
       "teamId": "1638"
     },
     {
@@ -11532,6 +12312,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "93411",
+      "realgmUrl": "https://basketball.realgm.com/player/Yusei-Sugiura/Summary/93411",
+      "id": "rg-93411",
       "teamId": "692"
     },
     {
@@ -11559,6 +12342,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "200659",
+      "realgmUrl": "https://basketball.realgm.com/player/Kazuki-Miyamoto/Summary/200659",
+      "id": "rg-200659",
       "teamId": "696"
     },
     {
@@ -11586,6 +12372,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "222271",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryota-Inoue/Summary/222271",
+      "id": "rg-222271",
       "teamId": "1638"
     },
     {
@@ -11613,6 +12402,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "264045",
+      "realgmUrl": "https://basketball.realgm.com/player/Shuma-Nishibe/Summary/264045",
+      "id": "rg-264045",
       "teamId": "699"
     },
     {
@@ -11640,6 +12432,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "110676",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryo-Yamazaki/Summary/110676",
+      "id": "rg-110676",
       "teamId": "721"
     },
     {
@@ -11667,6 +12462,9 @@
       "fouls": 1.7,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "169903",
+      "realgmUrl": "https://basketball.realgm.com/player/Troy-Murphy-Jr/Summary/169903",
+      "id": "rg-169903",
       "teamId": "726"
     },
     {
@@ -11694,6 +12492,9 @@
       "fouls": 1,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "202842",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiyuu-Ozawa/Summary/202842",
+      "id": "rg-202842",
       "teamId": "729"
     },
     {
@@ -11721,6 +12522,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "153575",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaine-Roberts/Summary/153575",
+      "id": "rg-153575",
       "teamId": "721"
     },
     {
@@ -11748,6 +12552,9 @@
       "fouls": 1.3,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "82616",
+      "realgmUrl": "https://basketball.realgm.com/player/Muusa-Dama/Summary/82616",
+      "id": "rg-82616",
       "teamId": "720"
     },
     {
@@ -11775,6 +12582,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "23398",
+      "realgmUrl": "https://basketball.realgm.com/player/Tshilidzi-Nephawe/Summary/23398",
+      "id": "rg-23398",
       "teamId": "697"
     },
     {
@@ -11802,6 +12612,9 @@
       "fouls": 2,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "2374",
+      "realgmUrl": "https://basketball.realgm.com/player/Joshua-Smith/Summary/2374",
+      "id": "rg-2374",
       "teamId": "700"
     },
     {
@@ -11829,6 +12642,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "122491",
+      "realgmUrl": "https://basketball.realgm.com/player/Ito-Tatsuya/Summary/122491",
+      "id": "rg-122491",
       "teamId": "721"
     },
     {
@@ -11856,6 +12672,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "25303",
+      "realgmUrl": "https://basketball.realgm.com/player/Joji-Takeuchi/Summary/25303",
+      "id": "rg-25303",
       "teamId": "700"
     },
     {
@@ -11883,6 +12702,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "254336",
+      "realgmUrl": "https://basketball.realgm.com/player/Haruaki-Tanaka/Summary/254336",
+      "id": "rg-254336",
       "teamId": "696"
     },
     {
@@ -11910,6 +12732,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "263247",
+      "realgmUrl": "https://basketball.realgm.com/player/Cyril-Nesmith/Summary/263247",
+      "id": "rg-263247",
       "teamId": "700"
     },
     {
@@ -11937,6 +12762,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "169455",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuta-Osaki/Summary/169455",
+      "id": "rg-169455",
       "teamId": "2486"
     },
     {
@@ -11964,6 +12792,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "177606",
+      "realgmUrl": "https://basketball.realgm.com/player/Toshiki-Kamisawa/Summary/177606",
+      "id": "rg-177606",
       "teamId": "721"
     },
     {
@@ -11991,6 +12822,9 @@
       "fouls": 1.1,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "202844",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaisei-Hoshikawa/Summary/202844",
+      "id": "rg-202844",
       "teamId": "703"
     },
     {
@@ -12018,6 +12852,9 @@
       "fouls": 0.8,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "121106",
+      "realgmUrl": "https://basketball.realgm.com/player/Takuma-Sato/Summary/121106",
+      "id": "rg-121106",
       "teamId": "729"
     },
     {
@@ -12045,6 +12882,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "58053",
+      "realgmUrl": "https://basketball.realgm.com/player/Naoya-Kumagae/Summary/58053",
+      "id": "rg-58053",
       "teamId": "2486"
     },
     {
@@ -12072,6 +12912,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "244316",
+      "realgmUrl": "https://basketball.realgm.com/player/Towa-Izumi/Summary/244316",
+      "id": "rg-244316",
       "teamId": "696"
     },
     {
@@ -12099,6 +12942,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "140219",
+      "realgmUrl": "https://basketball.realgm.com/player/Michael-Ou/Summary/140219",
+      "id": "rg-140219",
       "teamId": "704"
     },
     {
@@ -12126,6 +12972,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "177605",
+      "realgmUrl": "https://basketball.realgm.com/player/Kohei-Tsuneta/Summary/177605",
+      "id": "rg-177605",
       "teamId": "698"
     },
     {
@@ -12152,7 +13001,10 @@
       "turnovers": 0.6,
       "fouls": 2.4,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "186784",
+      "realgmUrl": "https://basketball.realgm.com/player/Joseph-Diawara/Summary/186784",
+      "id": "rg-186784"
     },
     {
       "name": "Isa Ehara",
@@ -12179,6 +13031,9 @@
       "fouls": 0,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "259498",
+      "realgmUrl": "https://basketball.realgm.com/player/Isa-Ehara/Summary/259498",
+      "id": "rg-259498",
       "teamId": "694"
     },
     {
@@ -12205,7 +13060,10 @@
       "turnovers": 0.4,
       "fouls": 1.3,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "40121",
+      "realgmUrl": "https://basketball.realgm.com/player/Shuhei-Kitagawa/Summary/40121",
+      "id": "rg-40121"
     },
     {
       "name": "Leon Watanabe",
@@ -12232,6 +13090,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "199641",
+      "realgmUrl": "https://basketball.realgm.com/player/Leon-Watanabe/Summary/199641",
+      "id": "rg-199641",
       "teamId": "2486"
     },
     {
@@ -12259,6 +13120,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "182910",
+      "realgmUrl": "https://basketball.realgm.com/player/Koy-Kawamata/Summary/182910",
+      "id": "rg-182910",
       "teamId": "2488"
     },
     {
@@ -12286,6 +13150,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "141470",
+      "realgmUrl": "https://basketball.realgm.com/player/Shota-Onodera/Summary/141470",
+      "id": "rg-141470",
       "teamId": "701"
     },
     {
@@ -12313,6 +13180,9 @@
       "fouls": 1,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "43815",
+      "realgmUrl": "https://basketball.realgm.com/player/Atsunobu-Hirao/Summary/43815",
+      "id": "rg-43815",
       "teamId": "712"
     },
     {
@@ -12340,6 +13210,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "108040",
+      "realgmUrl": "https://basketball.realgm.com/player/Jae-Min-Yang/Summary/108040",
+      "id": "rg-108040",
       "teamId": "712"
     },
     {
@@ -12367,6 +13240,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "132657",
+      "realgmUrl": "https://basketball.realgm.com/player/Alistair-Tokio-Tsuchiya/Summary/132657",
+      "id": "rg-132657",
       "teamId": "693"
     },
     {
@@ -12394,6 +13270,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "208913",
+      "realgmUrl": "https://basketball.realgm.com/player/Yoshiya-Uematsu/Summary/208913",
+      "id": "rg-208913",
       "teamId": "700"
     },
     {
@@ -12421,6 +13300,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "254418",
+      "realgmUrl": "https://basketball.realgm.com/player/Junior-Kodama/Summary/254418",
+      "id": "rg-254418",
       "teamId": "697"
     },
     {
@@ -12448,6 +13330,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "98486",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiroki-Taniguchi/Summary/98486",
+      "id": "rg-98486",
       "teamId": "694"
     },
     {
@@ -12475,6 +13360,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "204840",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayate-Arakawa/Summary/204840",
+      "id": "rg-204840",
       "teamId": "701"
     },
     {
@@ -12502,6 +13390,9 @@
       "fouls": 2.9,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "204880",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaisei-Takahashi/Summary/204880",
+      "id": "rg-204880",
       "teamId": "700"
     },
     {
@@ -12529,6 +13420,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "242892",
+      "realgmUrl": "https://basketball.realgm.com/player/Katsuki-Hiramatsu/Summary/242892",
+      "id": "rg-242892",
       "teamId": "729"
     },
     {
@@ -12556,6 +13450,9 @@
       "fouls": 1.2,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "64668",
+      "realgmUrl": "https://basketball.realgm.com/player/Kosuke-Ishii/Summary/64668",
+      "id": "rg-64668",
       "teamId": "728"
     },
     {
@@ -12583,6 +13480,9 @@
       "fouls": 1.6,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "111881",
+      "realgmUrl": "https://basketball.realgm.com/player/Mark-Burton-Jr/Summary/111881",
+      "id": "rg-111881",
       "teamId": "729"
     },
     {
@@ -12610,6 +13510,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "266143",
+      "realgmUrl": "https://basketball.realgm.com/player/Daichi-Harima/Summary/266143",
+      "id": "rg-266143",
       "teamId": "729"
     },
     {
@@ -12637,6 +13540,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "219377",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenny-Asano/Summary/219377",
+      "id": "rg-219377",
       "teamId": "713"
     },
     {
@@ -12664,6 +13570,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "110548",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Hareyama/Summary/110548",
+      "id": "rg-110548",
       "teamId": "721"
     },
     {
@@ -12691,6 +13600,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "110487",
+      "realgmUrl": "https://basketball.realgm.com/player/Naoki-Tashiro/Summary/110487",
+      "id": "rg-110487",
       "teamId": "704"
     },
     {
@@ -12718,6 +13630,9 @@
       "fouls": 1.2,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "52451",
+      "realgmUrl": "https://basketball.realgm.com/player/Seiji-Ikaruga/Summary/52451",
+      "id": "rg-52451",
       "teamId": "703"
     },
     {
@@ -12745,6 +13660,9 @@
       "fouls": 1.3,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "199634",
+      "realgmUrl": "https://basketball.realgm.com/player/Shuntaro-Buto/Summary/199634",
+      "id": "rg-199634",
       "teamId": "727"
     },
     {
@@ -12771,7 +13689,10 @@
       "turnovers": 1.6,
       "fouls": 1.6,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "4935",
+      "realgmUrl": "https://basketball.realgm.com/player/Gary-Hamilton/Summary/4935",
+      "id": "rg-4935"
     },
     {
       "name": "Daichi Taniguchi",
@@ -12798,6 +13719,9 @@
       "fouls": 1,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "55981",
+      "realgmUrl": "https://basketball.realgm.com/player/Daichi-Taniguchi/Summary/55981",
+      "id": "rg-55981",
       "teamId": "713"
     },
     {
@@ -12825,6 +13749,9 @@
       "fouls": 3.3,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "30582",
+      "realgmUrl": "https://basketball.realgm.com/player/Steve-Zack/Summary/30582",
+      "id": "rg-30582",
       "teamId": "706"
     },
     {
@@ -12851,7 +13778,10 @@
       "turnovers": 0.5,
       "fouls": 1.6,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "248061",
+      "realgmUrl": "https://basketball.realgm.com/player/Kai-Sugawara/Summary/248061",
+      "id": "rg-248061"
     },
     {
       "name": "Avi Schafer",
@@ -12878,6 +13808,9 @@
       "fouls": 0.8,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "121417",
+      "realgmUrl": "https://basketball.realgm.com/player/Avi-Schafer/Summary/121417",
+      "id": "rg-121417",
       "teamId": "728"
     },
     {
@@ -12905,6 +13838,9 @@
       "fouls": 1.1,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "182907",
+      "realgmUrl": "https://basketball.realgm.com/player/Kohei-Sekino/Summary/182907",
+      "id": "rg-182907",
       "teamId": "702"
     },
     {
@@ -12932,6 +13868,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "185745",
+      "realgmUrl": "https://basketball.realgm.com/player/Keita-Tsurumaki/Summary/185745",
+      "id": "rg-185745",
       "teamId": "712"
     },
     {
@@ -12959,6 +13898,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "8338",
+      "realgmUrl": "https://basketball.realgm.com/player/Ira-Brown/Summary/8338",
+      "id": "rg-8338",
       "teamId": "699"
     },
     {
@@ -12986,6 +13928,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "242959",
+      "realgmUrl": "https://basketball.realgm.com/player/Higen-Hasegawa/Summary/242959",
+      "id": "rg-242959",
       "teamId": "698"
     },
     {
@@ -13013,6 +13958,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "116605",
+      "realgmUrl": "https://basketball.realgm.com/player/Tahara-Takanori/Summary/116605",
+      "id": "rg-116605",
       "teamId": "698"
     },
     {
@@ -13040,6 +13988,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "133878",
+      "realgmUrl": "https://basketball.realgm.com/player/Shintaro-Ehara/Summary/133878",
+      "id": "rg-133878",
       "teamId": "698"
     },
     {
@@ -13067,6 +14018,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "182841",
+      "realgmUrl": "https://basketball.realgm.com/player/Hideya-Asai/Summary/182841",
+      "id": "rg-182841",
       "teamId": "697"
     },
     {
@@ -13094,6 +14048,9 @@
       "fouls": 1,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "161522",
+      "realgmUrl": "https://basketball.realgm.com/player/Jake-Holtz/Summary/161522",
+      "id": "rg-161522",
       "teamId": "729"
     },
     {
@@ -13121,6 +14078,9 @@
       "fouls": 0.8,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "25299",
+      "realgmUrl": "https://basketball.realgm.com/player/Kosuke-Takeuchi/Summary/25299",
+      "id": "rg-25299",
       "teamId": "703"
     },
     {
@@ -13148,6 +14108,9 @@
       "fouls": 1.1,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "28438",
+      "realgmUrl": "https://basketball.realgm.com/player/Tenketsu-Harimoto/Summary/28438",
+      "id": "rg-28438",
       "teamId": "729"
     },
     {
@@ -13175,6 +14138,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "176163",
+      "realgmUrl": "https://basketball.realgm.com/player/Soichiro-Inoue/Summary/176163",
+      "id": "rg-176163",
       "teamId": "692"
     },
     {
@@ -13202,6 +14168,9 @@
       "fouls": 2.3,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "119756",
+      "realgmUrl": "https://basketball.realgm.com/player/Kanta-Mizuno/Summary/119756",
+      "id": "rg-119756",
       "teamId": "727"
     },
     {
@@ -13229,6 +14198,9 @@
       "fouls": 1.4,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "194578",
+      "realgmUrl": "https://basketball.realgm.com/player/Shunsuke-Ueda/Summary/194578",
+      "id": "rg-194578",
       "teamId": "720"
     },
     {
@@ -13256,6 +14228,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "128519",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenta-Morii/Summary/128519",
+      "id": "rg-128519",
       "teamId": "694"
     },
     {
@@ -13283,6 +14258,9 @@
       "fouls": 0.9,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "227656",
+      "realgmUrl": "https://basketball.realgm.com/player/Roy-Igwe/Summary/227656",
+      "id": "rg-227656",
       "teamId": "727"
     },
     {
@@ -13310,6 +14288,9 @@
       "fouls": 0,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "264044",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayate-Kanayama/Summary/264044",
+      "id": "rg-264044",
       "teamId": "720"
     },
     {
@@ -13337,6 +14318,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "265949",
+      "realgmUrl": "https://basketball.realgm.com/player/Hikaru-Tsukioka/Summary/265949",
+      "id": "rg-265949",
       "teamId": "729"
     },
     {
@@ -13364,6 +14348,9 @@
       "fouls": 1.5,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "222260",
+      "realgmUrl": "https://basketball.realgm.com/player/Keitaro-Ohba/Summary/222260",
+      "id": "rg-222260",
       "teamId": "726"
     },
     {
@@ -13391,6 +14378,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "187761",
+      "realgmUrl": "https://basketball.realgm.com/player/Matthew-Aquino/Summary/187761",
+      "id": "rg-187761",
       "teamId": "696"
     },
     {
@@ -13418,6 +14408,9 @@
       "fouls": 1,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "222259",
+      "realgmUrl": "https://basketball.realgm.com/player/Kotaro-Hisaoka/Summary/222259",
+      "id": "rg-222259",
       "teamId": "712"
     },
     {
@@ -13445,6 +14438,9 @@
       "fouls": 2.7,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "66877",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryosuke-Shirahama/Summary/66877",
+      "id": "rg-66877",
       "teamId": "720"
     },
     {
@@ -13472,6 +14468,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "251595",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuji-Morita/Summary/251595",
+      "id": "rg-251595",
       "teamId": "2488"
     },
     {
@@ -13499,6 +14498,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "130214",
+      "realgmUrl": "https://basketball.realgm.com/player/Daichi-Kuzuhara/Summary/130214",
+      "id": "rg-130214",
       "teamId": "696"
     },
     {
@@ -13526,6 +14528,9 @@
       "fouls": 0.4,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "140219",
+      "realgmUrl": "https://basketball.realgm.com/player/Michael-Ou/Summary/140219",
+      "id": "rg-140219",
       "teamId": "706"
     },
     {
@@ -13553,6 +14558,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "199635",
+      "realgmUrl": "https://basketball.realgm.com/player/Shuto-Sakihama/Summary/199635",
+      "id": "rg-199635",
       "teamId": "701"
     },
     {
@@ -13580,6 +14588,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "110554",
+      "realgmUrl": "https://basketball.realgm.com/player/Masaya-Karimata/Summary/110554",
+      "id": "rg-110554",
       "teamId": "2488"
     },
     {
@@ -13607,6 +14618,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "222264",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenji-Matsumoto/Summary/222264",
+      "id": "rg-222264",
       "teamId": "2488"
     },
     {
@@ -13633,7 +14647,10 @@
       "turnovers": 0.5,
       "fouls": 1.8,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "202655",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaito-Shike/Summary/202655",
+      "id": "rg-202655"
     },
     {
       "name": "Seishin Yokochi",
@@ -13660,6 +14677,9 @@
       "fouls": 1,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "133879",
+      "realgmUrl": "https://basketball.realgm.com/player/Seishin-Yokochi/Summary/133879",
+      "id": "rg-133879",
       "teamId": "720"
     },
     {
@@ -13687,6 +14707,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "105472",
+      "realgmUrl": "https://basketball.realgm.com/player/Rei-Goda/Summary/105472",
+      "id": "rg-105472",
       "teamId": "700"
     },
     {
@@ -13714,6 +14737,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "133202",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiroki-Matsuzaki/Summary/133202",
+      "id": "rg-133202",
       "teamId": "694"
     },
     {
@@ -13741,6 +14767,9 @@
       "fouls": 0.6,
       "teamRealgmId": "2756",
       "teamName": "Altiri Chiba",
+      "realgmPlayerId": "98544",
+      "realgmUrl": "https://basketball.realgm.com/player/Tomoya-Hasegawa/Summary/98544",
+      "id": "rg-98544",
       "teamId": "2486"
     },
     {
@@ -13768,6 +14797,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "176628",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenshin-Hoshikawa/Summary/176628",
+      "id": "rg-176628",
       "teamId": "2488"
     },
     {
@@ -13795,6 +14827,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "84395",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Dallas/Summary/84395",
+      "id": "rg-84395",
       "teamId": "697"
     },
     {
@@ -13822,6 +14857,9 @@
       "fouls": 0,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "6301",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeff-Parmer/Summary/6301",
+      "id": "rg-6301",
       "teamId": "706"
     },
     {
@@ -13849,6 +14887,9 @@
       "fouls": 1,
       "teamRealgmId": "1164",
       "teamName": "Akita Northern Happinets",
+      "realgmPlayerId": "133196",
+      "realgmUrl": "https://basketball.realgm.com/player/Alexander-Gaku-Aihara/Summary/133196",
+      "id": "rg-133196",
       "teamId": "693"
     },
     {
@@ -13876,6 +14917,9 @@
       "fouls": 1,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "266096",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryusei-Sako/Summary/266096",
+      "id": "rg-266096",
       "teamId": "721"
     },
     {
@@ -13903,6 +14947,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "164654",
+      "realgmUrl": "https://basketball.realgm.com/player/Rashid-Faraz/Summary/164654",
+      "id": "rg-164654",
       "teamId": "699"
     },
     {
@@ -13930,6 +14977,9 @@
       "fouls": 1.1,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "52447",
+      "realgmUrl": "https://basketball.realgm.com/player/Kengo-Nomoto/Summary/52447",
+      "id": "rg-52447",
       "teamId": "727"
     },
     {
@@ -13957,6 +15007,9 @@
       "fouls": 1.3,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "153568",
+      "realgmUrl": "https://basketball.realgm.com/player/Yu-Kibayashi/Summary/153568",
+      "id": "rg-153568",
       "teamId": "702"
     },
     {
@@ -13984,6 +15037,9 @@
       "fouls": 1.4,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "110486",
+      "realgmUrl": "https://basketball.realgm.com/player/Morihisa-Yamuchi/Summary/110486",
+      "id": "rg-110486",
       "teamId": "726"
     },
     {
@@ -14011,6 +15067,9 @@
       "fouls": 1.4,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "82267",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiromu-Kitagawa/Summary/82267",
+      "id": "rg-82267",
       "teamId": "720"
     },
     {
@@ -14038,6 +15097,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "122072",
+      "realgmUrl": "https://basketball.realgm.com/player/Jamie-Orme/Summary/122072",
+      "id": "rg-122072",
       "teamId": "699"
     },
     {
@@ -14065,6 +15127,9 @@
       "fouls": 1.7,
       "teamRealgmId": "640",
       "teamName": "Kawasaki Brave Thunders",
+      "realgmPlayerId": "43816",
+      "realgmUrl": "https://basketball.realgm.com/player/Takumi-Hasegawa/Summary/43816",
+      "id": "rg-43816",
       "teamId": "727"
     },
     {
@@ -14092,6 +15157,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "176400",
+      "realgmUrl": "https://basketball.realgm.com/player/Tatsumi-Yu/Summary/176400",
+      "id": "rg-176400",
       "teamId": "694"
     },
     {
@@ -14119,6 +15187,9 @@
       "fouls": 1,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "10687",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Harper/Summary/10687",
+      "id": "rg-10687",
       "teamId": "703"
     },
     {
@@ -14146,6 +15217,9 @@
       "fouls": 1,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "110678",
+      "realgmUrl": "https://basketball.realgm.com/player/Takeshi-Mito/Summary/110678",
+      "id": "rg-110678",
       "teamId": "696"
     },
     {
@@ -14173,6 +15247,9 @@
       "fouls": 1,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "219378",
+      "realgmUrl": "https://basketball.realgm.com/player/Toshiki-Tomiyama/Summary/219378",
+      "id": "rg-219378",
       "teamId": "1638"
     },
     {
@@ -14200,6 +15277,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "40126",
+      "realgmUrl": "https://basketball.realgm.com/player/Fumio-Nishimura/Summary/40126",
+      "id": "rg-40126",
       "teamId": "704"
     },
     {
@@ -14226,7 +15306,10 @@
       "turnovers": 0.3,
       "fouls": 1.2,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "57408",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuya-Kamata/Summary/57408",
+      "id": "rg-57408"
     },
     {
       "name": "Hiroki Watanabe",
@@ -14253,6 +15336,9 @@
       "fouls": 0.5,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "28428",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiroki-Watanabe/Summary/28428",
+      "id": "rg-28428",
       "teamId": "703"
     },
     {
@@ -14280,6 +15366,9 @@
       "fouls": 2.3,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "8338",
+      "realgmUrl": "https://basketball.realgm.com/player/Ira-Brown/Summary/8338",
+      "id": "rg-8338",
       "teamId": "706"
     },
     {
@@ -14307,6 +15396,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "222265",
+      "realgmUrl": "https://basketball.realgm.com/player/Koya-Kobari/Summary/222265",
+      "id": "rg-222265",
       "teamId": "701"
     },
     {
@@ -14334,6 +15426,9 @@
       "fouls": 0.7,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "237992",
+      "realgmUrl": "https://basketball.realgm.com/player/Toshiya-Taira/Summary/237992",
+      "id": "rg-237992",
       "teamId": "728"
     },
     {
@@ -14361,6 +15456,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "110553",
+      "realgmUrl": "https://basketball.realgm.com/player/Yoshiaki-Fujinaga/Summary/110553",
+      "id": "rg-110553",
       "teamId": "696"
     },
     {
@@ -14388,6 +15486,9 @@
       "fouls": 1.1,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "163708",
+      "realgmUrl": "https://basketball.realgm.com/player/Toyo-Kano/Summary/163708",
+      "id": "rg-163708",
       "teamId": "726"
     },
     {
@@ -14415,6 +15516,9 @@
       "fouls": 0.3,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "251717",
+      "realgmUrl": "https://basketball.realgm.com/player/Makoto-Kamata/Summary/251717",
+      "id": "rg-251717",
       "teamId": "729"
     },
     {
@@ -14442,6 +15546,9 @@
       "fouls": 0.3,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "1064",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuta-Tabuse/Summary/1064",
+      "id": "rg-1064",
       "teamId": "703"
     },
     {
@@ -14469,6 +15576,9 @@
       "fouls": 0,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "40173",
+      "realgmUrl": "https://basketball.realgm.com/player/Yasuhiro-Yamashita/Summary/40173",
+      "id": "rg-40173",
       "teamId": "1638"
     },
     {
@@ -14496,6 +15606,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "110488",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryunosuke-Watanabe/Summary/110488",
+      "id": "rg-110488",
       "teamId": "699"
     },
     {
@@ -14523,6 +15636,9 @@
       "fouls": 0.5,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "141511",
+      "realgmUrl": "https://basketball.realgm.com/player/Shota-Kanno/Summary/141511",
+      "id": "rg-141511",
       "teamId": "2488"
     },
     {
@@ -14550,6 +15666,9 @@
       "fouls": 0.5,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "148312",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaito-Morizane/Summary/148312",
+      "id": "rg-148312",
       "teamId": "702"
     },
     {
@@ -14577,6 +15696,9 @@
       "fouls": 1.1,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "190504",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyosuke-Hoshino/Summary/190504",
+      "id": "rg-190504",
       "teamId": "702"
     },
     {
@@ -14604,6 +15726,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "249683",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Kato/Summary/249683",
+      "id": "rg-249683",
       "teamId": "704"
     },
     {
@@ -14631,6 +15756,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "265974",
+      "realgmUrl": "https://basketball.realgm.com/player/Kotaro-Fukami/Summary/265974",
+      "id": "rg-265974",
       "teamId": "704"
     },
     {
@@ -14658,6 +15786,9 @@
       "fouls": 1,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "222260",
+      "realgmUrl": "https://basketball.realgm.com/player/Keitaro-Ohba/Summary/222260",
+      "id": "rg-222260",
       "teamId": "698"
     },
     {
@@ -14684,7 +15815,10 @@
       "turnovers": 0.3,
       "fouls": 0.3,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "169457",
+      "realgmUrl": "https://basketball.realgm.com/player/Kazuya-Mitsui/Summary/169457",
+      "id": "rg-169457"
     },
     {
       "name": "Soichiro Kanda",
@@ -14711,6 +15845,9 @@
       "fouls": 0.5,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "236400",
+      "realgmUrl": "https://basketball.realgm.com/player/Soichiro-Kanda/Summary/236400",
+      "id": "rg-236400",
       "teamId": "729"
     },
     {
@@ -14738,6 +15875,9 @@
       "fouls": 0.3,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "236401",
+      "realgmUrl": "https://basketball.realgm.com/player/Koei-Omori/Summary/236401",
+      "id": "rg-236401",
       "teamId": "726"
     },
     {
@@ -14765,6 +15905,9 @@
       "fouls": 1.3,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "72650",
+      "realgmUrl": "https://basketball.realgm.com/player/Gen-Hiraiwa/Summary/72650",
+      "id": "rg-72650",
       "teamId": "706"
     },
     {
@@ -14792,6 +15935,9 @@
       "fouls": 0.4,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "190610",
+      "realgmUrl": "https://basketball.realgm.com/player/Hikaru-Futagami/Summary/190610",
+      "id": "rg-190610",
       "teamId": "704"
     },
     {
@@ -14819,6 +15965,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "40166",
+      "realgmUrl": "https://basketball.realgm.com/player/Sean-Hinkley/Summary/40166",
+      "id": "rg-40166",
       "teamId": "698"
     },
     {
@@ -14846,6 +15995,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "133207",
+      "realgmUrl": "https://basketball.realgm.com/player/Masato-Ichikawa/Summary/133207",
+      "id": "rg-133207",
       "teamId": "721"
     },
     {
@@ -14873,6 +16025,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "133197",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryota-Hanzawa/Summary/133197",
+      "id": "rg-133197",
       "teamId": "692"
     },
     {
@@ -14900,6 +16055,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "76303",
+      "realgmUrl": "https://basketball.realgm.com/player/Shogo-Taira/Summary/76303",
+      "id": "rg-76303",
       "teamId": "701"
     },
     {
@@ -14927,6 +16085,9 @@
       "fouls": 1,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "251593",
+      "realgmUrl": "https://basketball.realgm.com/player/Mylo-Murphy/Summary/251593",
+      "id": "rg-251593",
       "teamId": "729"
     },
     {
@@ -14954,6 +16115,9 @@
       "fouls": 0.6,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "52452",
+      "realgmUrl": "https://basketball.realgm.com/player/Kosuke-Hashimoto/Summary/52452",
+      "id": "rg-52452",
       "teamId": "1638"
     },
     {
@@ -14981,6 +16145,9 @@
       "fouls": 0.3,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "122508",
+      "realgmUrl": "https://basketball.realgm.com/player/Blake-Aoki/Summary/122508",
+      "id": "rg-122508",
       "teamId": "703"
     },
     {
@@ -15008,6 +16175,9 @@
       "fouls": 0.4,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "239867",
+      "realgmUrl": "https://basketball.realgm.com/player/Yudai-Ishikawa/Summary/239867",
+      "id": "rg-239867",
       "teamId": "703"
     },
     {
@@ -15035,6 +16205,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1777",
       "teamName": "Kyoto Hannaryz",
+      "realgmPlayerId": "28432",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryumo-Ono/Summary/28432",
+      "id": "rg-28432",
       "teamId": "699"
     },
     {
@@ -15062,6 +16235,9 @@
       "fouls": 0.1,
       "teamRealgmId": "421",
       "teamName": "Toyota Alvark",
+      "realgmPlayerId": "40169",
+      "realgmUrl": "https://basketball.realgm.com/player/Shohei-Kikuchi/Summary/40169",
+      "id": "rg-40169",
       "teamId": "706"
     },
     {
@@ -15089,6 +16265,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "243379",
+      "realgmUrl": "https://basketball.realgm.com/player/Kosei-Niinuma/Summary/243379",
+      "id": "rg-243379",
       "teamId": "692"
     },
     {
@@ -15116,6 +16295,9 @@
       "fouls": 0.7,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "199639",
+      "realgmUrl": "https://basketball.realgm.com/player/Teruchika-Naito/Summary/199639",
+      "id": "rg-199639",
       "teamId": "702"
     },
     {
@@ -15143,6 +16325,9 @@
       "fouls": 0.2,
       "teamRealgmId": "904",
       "teamName": "Nagoya Diamond Dolphins",
+      "realgmPlayerId": "209908",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuto-Imanishi/Summary/209908",
+      "id": "rg-209908",
       "teamId": "729"
     },
     {
@@ -15170,6 +16355,9 @@
       "fouls": 0.5,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "28437",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuya-Nagayoshi/Summary/28437",
+      "id": "rg-28437",
       "teamId": "726"
     },
     {
@@ -15197,6 +16385,9 @@
       "fouls": 0.4,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "233494",
+      "realgmUrl": "https://basketball.realgm.com/player/Shori-Tokagaeri/Summary/233494",
+      "id": "rg-233494",
       "teamId": "713"
     },
     {
@@ -15224,6 +16415,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "4935",
+      "realgmUrl": "https://basketball.realgm.com/player/Gary-Hamilton/Summary/4935",
+      "id": "rg-4935",
       "teamId": "721"
     },
     {
@@ -15251,6 +16445,9 @@
       "fouls": 0.3,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "251592",
+      "realgmUrl": "https://basketball.realgm.com/player/Haruki-Ito/Summary/251592",
+      "id": "rg-251592",
       "teamId": "729"
     },
     {
@@ -15278,6 +16475,9 @@
       "fouls": 0.8,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "219376",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Tanaka/Summary/219376",
+      "id": "rg-219376",
       "teamId": "2488"
     },
     {
@@ -15305,6 +16505,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "261285",
+      "realgmUrl": "https://basketball.realgm.com/player/Nagi-Sato/Summary/261285",
+      "id": "rg-261285",
       "teamId": "694"
     },
     {
@@ -15331,7 +16534,10 @@
       "turnovers": 0.2,
       "fouls": 0.9,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "264040",
+      "realgmUrl": "https://basketball.realgm.com/player/Haruki-Hori/Summary/264040",
+      "id": "rg-264040"
     },
     {
       "name": "Kanta Inada",
@@ -15357,7 +16563,10 @@
       "turnovers": 0.3,
       "fouls": 0,
       "teamRealgmId": "2682",
-      "teamName": "Koshigaya Alphas"
+      "teamName": "Koshigaya Alphas",
+      "realgmPlayerId": "261891",
+      "realgmUrl": "https://basketball.realgm.com/player/Kanta-Inada/Summary/261891",
+      "id": "rg-261891"
     },
     {
       "name": "Koyo Nishida",
@@ -15384,6 +16593,9 @@
       "fouls": 0.7,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "232741",
+      "realgmUrl": "https://basketball.realgm.com/player/Koyo-Nishida/Summary/232741",
+      "id": "rg-232741",
       "teamId": "728"
     },
     {
@@ -15411,6 +16623,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1775",
       "teamName": "Yokohama B Corsairs",
+      "realgmPlayerId": "248392",
+      "realgmUrl": "https://basketball.realgm.com/player/Kanta-Maeno/Summary/248392",
+      "id": "rg-248392",
       "teamId": "694"
     },
     {
@@ -15438,6 +16653,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "122505",
+      "realgmUrl": "https://basketball.realgm.com/player/Reo-Sakai/Summary/122505",
+      "id": "rg-122505",
       "teamId": "698"
     },
     {
@@ -15465,6 +16683,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1774",
       "teamName": "Toyama Grouses",
+      "realgmPlayerId": "254334",
+      "realgmUrl": "https://basketball.realgm.com/player/Hayato-Kamata/Summary/254334",
+      "id": "rg-254334",
       "teamId": "696"
     },
     {
@@ -15492,6 +16713,9 @@
       "fouls": 1.2,
       "teamRealgmId": "577",
       "teamName": "Shimane Susanoo Magic",
+      "realgmPlayerId": "122493",
+      "realgmUrl": "https://basketball.realgm.com/player/Hiryu-Okamoto/Summary/122493",
+      "id": "rg-122493",
       "teamId": "720"
     },
     {
@@ -15519,6 +16743,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "242545",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryunosuke-Satori/Summary/242545",
+      "id": "rg-242545",
       "teamId": "701"
     },
     {
@@ -15546,6 +16773,9 @@
       "fouls": 0.2,
       "teamRealgmId": "2446",
       "teamName": "Gunma Crane Thunders",
+      "realgmPlayerId": "251558",
+      "realgmUrl": "https://basketball.realgm.com/player/Makoto-Sato/Summary/251558",
+      "id": "rg-251558",
       "teamId": "713"
     },
     {
@@ -15573,6 +16803,9 @@
       "fouls": 0.1,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "226536",
+      "realgmUrl": "https://basketball.realgm.com/player/Masato-Abe/Summary/226536",
+      "id": "rg-226536",
       "teamId": "692"
     },
     {
@@ -15600,6 +16833,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1773",
       "teamName": "Sanen Neophoenix",
+      "realgmPlayerId": "220250",
+      "realgmUrl": "https://basketball.realgm.com/player/Yusuke-Suzuki/Summary/220250",
+      "id": "rg-220250",
       "teamId": "697"
     },
     {
@@ -15627,6 +16863,9 @@
       "fouls": 0.2,
       "teamRealgmId": "1412",
       "teamName": "Ibaraki Robots",
+      "realgmPlayerId": "220238",
+      "realgmUrl": "https://basketball.realgm.com/player/Keisuke-Murakoshi/Summary/220238",
+      "id": "rg-220238",
       "teamId": "712"
     },
     {
@@ -15654,6 +16893,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1411",
       "teamName": "Chiba Jets",
+      "realgmPlayerId": "40184",
+      "realgmUrl": "https://basketball.realgm.com/player/Gaku-Arao/Summary/40184",
+      "id": "rg-40184",
       "teamId": "704"
     },
     {
@@ -15681,6 +16923,9 @@
       "fouls": 0,
       "teamRealgmId": "584",
       "teamName": "Link Tochigi Brex",
+      "realgmPlayerId": "260017",
+      "realgmUrl": "https://basketball.realgm.com/player/Shin-Matsumoto/Summary/260017",
+      "id": "rg-260017",
       "teamId": "703"
     },
     {
@@ -15708,6 +16953,9 @@
       "fouls": 0.3,
       "teamRealgmId": "423",
       "teamName": "Aishin Sea Horses",
+      "realgmPlayerId": "237991",
+      "realgmUrl": "https://basketball.realgm.com/player/Sei-Motozawa/Summary/237991",
+      "id": "rg-237991",
       "teamId": "728"
     },
     {
@@ -15735,6 +16983,9 @@
       "fouls": 0.7,
       "teamRealgmId": "422",
       "teamName": "Levanga Hokkaido",
+      "realgmPlayerId": "255065",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuma-Nishimura/Summary/255065",
+      "id": "rg-255065",
       "teamId": "702"
     },
     {
@@ -15762,6 +17013,9 @@
       "fouls": 0,
       "teamRealgmId": "2611",
       "teamName": "Saga Ballooners",
+      "realgmPlayerId": "265978",
+      "realgmUrl": "https://basketball.realgm.com/player/Futa-Takedomi/Summary/265978",
+      "id": "rg-265978",
       "teamId": "1638"
     },
     {
@@ -15789,6 +17043,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1779",
       "teamName": "Ryukyu Golden Kings",
+      "realgmPlayerId": "248344",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenta-Whitaker/Summary/248344",
+      "id": "rg-248344",
       "teamId": "701"
     },
     {
@@ -15816,6 +17073,9 @@
       "fouls": 0,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "248993",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuma-Kajiwara/Summary/248993",
+      "id": "rg-248993",
       "teamId": "698"
     },
     {
@@ -15843,6 +17103,9 @@
       "fouls": 0,
       "teamRealgmId": "1778",
       "teamName": "Osaka Evessa",
+      "realgmPlayerId": "260015",
+      "realgmUrl": "https://basketball.realgm.com/player/Koshiro-Asai/Summary/260015",
+      "id": "rg-260015",
       "teamId": "700"
     },
     {
@@ -15870,6 +17133,9 @@
       "fouls": 0,
       "teamRealgmId": "226",
       "teamName": "Hitachi Sun Rockers",
+      "realgmPlayerId": "84395",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Dallas/Summary/84395",
+      "id": "rg-84395",
       "teamId": "726"
     },
     {
@@ -15897,6 +17163,9 @@
       "fouls": 2,
       "teamRealgmId": "2525",
       "teamName": "Nagoya Fighting Eagles",
+      "realgmPlayerId": "210471",
+      "realgmUrl": "https://basketball.realgm.com/player/Riku-Utsunomiya/Summary/210471",
+      "id": "rg-210471",
       "teamId": "729"
     },
     {
@@ -15924,6 +17193,9 @@
       "fouls": 0,
       "teamRealgmId": "1780",
       "teamName": "Shiga Lakestars",
+      "realgmPlayerId": "266438",
+      "realgmUrl": "https://basketball.realgm.com/player/Louieseandrey-Sato/Summary/266438",
+      "id": "rg-266438",
       "teamId": "698"
     },
     {
@@ -15951,6 +17223,9 @@
       "fouls": 0,
       "teamRealgmId": "2612",
       "teamName": "Nagasaki Velca",
+      "realgmPlayerId": "110526",
+      "realgmUrl": "https://basketball.realgm.com/player/Noriyuki-Sugasawa/Summary/110526",
+      "id": "rg-110526",
       "teamId": "2488"
     },
     {
@@ -15978,6 +17253,9 @@
       "fouls": 0,
       "teamRealgmId": "1776",
       "teamName": "Sendai 89ers",
+      "realgmPlayerId": "244346",
+      "realgmUrl": "https://basketball.realgm.com/player/Rowa-Tanno/Summary/244346",
+      "id": "rg-244346",
       "teamId": "692"
     },
     {
@@ -16005,6 +17283,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1528",
       "teamName": "Hiroshima Dragonflies",
+      "realgmPlayerId": "254376",
+      "realgmUrl": "https://basketball.realgm.com/player/Ryugo-Matsumura/Summary/254376",
+      "id": "rg-254376",
       "teamId": "721"
     }
   ],
@@ -16864,6 +18145,7 @@
     "avgPoints": [
       {
         "name": "Jarrett Culver",
+        "playerId": "rg-107965",
         "headshot": null,
         "team": "SEND",
         "teamId": "692",
@@ -16872,6 +18154,7 @@
       },
       {
         "name": "Trey Kell",
+        "playerId": "rg-52555",
         "headshot": null,
         "team": "TOY",
         "teamId": "696",
@@ -16880,6 +18163,7 @@
       },
       {
         "name": "Stanley Johnson",
+        "playerId": "rg-26756",
         "headshot": null,
         "team": "NAG",
         "teamId": "2488",
@@ -16888,6 +18172,7 @@
       },
       {
         "name": "David Nwaba",
+        "playerId": "rg-58185",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -16896,6 +18181,7 @@
       },
       {
         "name": "Matt Bonds",
+        "playerId": "rg-70510",
         "headshot": null,
         "team": "OSAK",
         "teamId": "700",
@@ -16904,6 +18190,7 @@
       },
       {
         "name": "Yante Maten",
+        "playerId": "rg-81016",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -16912,6 +18199,7 @@
       },
       {
         "name": "Chris Smith",
+        "playerId": "rg-80937",
         "headshot": null,
         "team": "HIR",
         "teamId": "721",
@@ -16920,6 +18208,7 @@
       },
       {
         "name": "Angelo Caloiaro",
+        "playerId": "rg-8638",
         "headshot": null,
         "team": "KYOT",
         "teamId": "699",
@@ -16928,6 +18217,7 @@
       },
       {
         "name": "Keisei Tominaga",
+        "playerId": "rg-133958",
         "headshot": null,
         "team": "LEV",
         "teamId": "702",
@@ -16936,6 +18226,7 @@
       },
       {
         "name": "D.J. Newbill",
+        "playerId": "rg-22883",
         "headshot": null,
         "team": "LIN",
         "teamId": "703",
@@ -16946,6 +18237,7 @@
     "avgRebounds": [
       {
         "name": "John Mooney",
+        "playerId": "rg-85597",
         "headshot": null,
         "team": "CHI",
         "teamId": "704",
@@ -16954,6 +18246,7 @@
       },
       {
         "name": "Ryan Rossiter",
+        "playerId": "rg-18410",
         "headshot": null,
         "team": "TOY",
         "teamId": "706",
@@ -16962,6 +18255,7 @@
       },
       {
         "name": "Sean O'Mara",
+        "playerId": "rg-80306",
         "headshot": null,
         "team": "NFF",
         "teamId": "729",
@@ -16970,6 +18264,7 @@
       },
       {
         "name": "Jack Cooley",
+        "playerId": "rg-6196",
         "headshot": null,
         "team": "RYUK",
         "teamId": "701",
@@ -16978,6 +18273,7 @@
       },
       {
         "name": "Kofi Cockburn",
+        "playerId": "rg-117424",
         "headshot": null,
         "team": "HIR",
         "teamId": "721",
@@ -16986,6 +18282,7 @@
       },
       {
         "name": "Kai Sotto",
+        "playerId": "rg-133946",
         "headshot": null,
         "team": "KOSH",
         "teamId": null,
@@ -16994,6 +18291,7 @@
       },
       {
         "name": "Dererk Pardon",
+        "playerId": "rg-84037",
         "headshot": null,
         "team": "ALT",
         "teamId": "2486",
@@ -17002,6 +18300,7 @@
       },
       {
         "name": "Charles Jackson",
+        "playerId": "rg-81208",
         "headshot": null,
         "team": "KYOT",
         "teamId": "699",
@@ -17010,6 +18309,7 @@
       },
       {
         "name": "Eric Jacobsen",
+        "playerId": "rg-42508",
         "headshot": null,
         "team": "IR",
         "teamId": "712",
@@ -17018,6 +18318,7 @@
       },
       {
         "name": "Nick Kay",
+        "playerId": "rg-62189",
         "headshot": null,
         "team": "SHIM",
         "teamId": "720",
@@ -17028,6 +18329,7 @@
     "avgAssists": [
       {
         "name": "AC Yu",
+        "playerId": "rg-200287",
         "headshot": null,
         "team": "SHIG",
         "teamId": "698",
@@ -17036,6 +18338,7 @@
       },
       {
         "name": "D.J. Newbill",
+        "playerId": "rg-22883",
         "headshot": null,
         "team": "LIN",
         "teamId": "703",
@@ -17044,6 +18347,7 @@
       },
       {
         "name": "Taiki Sumida",
+        "playerId": "rg-222270",
         "headshot": null,
         "team": "SAGA",
         "teamId": "1638",
@@ -17052,6 +18356,7 @@
       },
       {
         "name": "Sergio El Darwich",
+        "playerId": "rg-107573",
         "headshot": null,
         "team": "SEND",
         "teamId": "692",
@@ -17060,6 +18365,7 @@
       },
       {
         "name": "Ryan Rossiter",
+        "playerId": "rg-18410",
         "headshot": null,
         "team": "TOY",
         "teamId": "706",
@@ -17068,6 +18374,7 @@
       },
       {
         "name": "Sota Oura",
+        "playerId": "rg-163943",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -17076,6 +18383,7 @@
       },
       {
         "name": "Takumi Saito",
+        "playerId": "rg-121105",
         "headshot": null,
         "team": "NDD",
         "teamId": "729",
@@ -17084,6 +18392,7 @@
       },
       {
         "name": "Angelo Caloiaro",
+        "playerId": "rg-8638",
         "headshot": null,
         "team": "KYOT",
         "teamId": "699",
@@ -17092,6 +18401,7 @@
       },
       {
         "name": "Ryusei Sasaki",
+        "playerId": "rg-148842",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -17100,6 +18410,7 @@
       },
       {
         "name": "Narito Namizato",
+        "playerId": "rg-61155",
         "headshot": null,
         "team": "NFF",
         "teamId": "729",
@@ -17110,6 +18421,7 @@
     "avgSteals": [
       {
         "name": "Aaron Henry",
+        "playerId": "rg-120119",
         "headshot": null,
         "team": "NDD",
         "teamId": "729",
@@ -17118,6 +18430,7 @@
       },
       {
         "name": "Stanley Johnson",
+        "playerId": "rg-26756",
         "headshot": null,
         "team": "NAG",
         "teamId": "2488",
@@ -17126,6 +18439,7 @@
       },
       {
         "name": "David Nwaba",
+        "playerId": "rg-58185",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -17134,6 +18448,7 @@
       },
       {
         "name": "Reynaldo Garcia",
+        "playerId": "rg-41202",
         "headshot": null,
         "team": "SAGA",
         "teamId": "1638",
@@ -17142,6 +18457,7 @@
       },
       {
         "name": "Jarrett Culver",
+        "playerId": "rg-107965",
         "headshot": null,
         "team": "SEND",
         "teamId": "692",
@@ -17150,6 +18466,7 @@
       },
       {
         "name": "Keanu Pinder",
+        "playerId": "rg-52285",
         "headshot": null,
         "team": "AKIT",
         "teamId": "693",
@@ -17158,6 +18475,7 @@
       },
       {
         "name": "AC Yu",
+        "playerId": "rg-200287",
         "headshot": null,
         "team": "SHIG",
         "teamId": "698",
@@ -17166,6 +18484,7 @@
       },
       {
         "name": "Trey Kell",
+        "playerId": "rg-52555",
         "headshot": null,
         "team": "TOY",
         "teamId": "696",
@@ -17174,6 +18493,7 @@
       },
       {
         "name": "Jarrell Brantley",
+        "playerId": "rg-89301",
         "headshot": null,
         "team": "NAG",
         "teamId": "2488",
@@ -17182,6 +18502,7 @@
       },
       {
         "name": "Yudai Baba",
+        "playerId": "rg-93409",
         "headshot": null,
         "team": "NAG",
         "teamId": "2488",
@@ -17192,6 +18513,7 @@
     "avgBlocks": [
       {
         "name": "David Nwaba",
+        "playerId": "rg-58185",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -17200,6 +18522,7 @@
       },
       {
         "name": "Aaron Henry",
+        "playerId": "rg-120119",
         "headshot": null,
         "team": "NDD",
         "teamId": "729",
@@ -17208,6 +18531,7 @@
       },
       {
         "name": "Trey Porter",
+        "playerId": "rg-80358",
         "headshot": null,
         "team": "ALT",
         "teamId": "2486",
@@ -17216,6 +18540,7 @@
       },
       {
         "name": "Jordan Heath",
+        "playerId": "rg-31407",
         "headshot": null,
         "team": "KYOT",
         "teamId": "699",
@@ -17224,6 +18549,7 @@
       },
       {
         "name": "A.J. Edu",
+        "playerId": "rg-131568",
         "headshot": null,
         "team": "CCT",
         "teamId": "713",
@@ -17232,6 +18558,7 @@
       },
       {
         "name": "Yante Maten",
+        "playerId": "rg-81016",
         "headshot": null,
         "team": "SAN",
         "teamId": "697",
@@ -17240,6 +18567,7 @@
       },
       {
         "name": "Sebastian Saiz",
+        "playerId": "rg-27699",
         "headshot": null,
         "team": "TOY",
         "teamId": "706",
@@ -17248,6 +18576,7 @@
       },
       {
         "name": "D.J. Hogg",
+        "playerId": "rg-73143",
         "headshot": null,
         "team": "CHI",
         "teamId": "704",
@@ -17256,6 +18585,7 @@
       },
       {
         "name": "Kai Sotto",
+        "playerId": "rg-133946",
         "headshot": null,
         "team": "KOSH",
         "teamId": null,
@@ -17264,6 +18594,7 @@
       },
       {
         "name": "Nathan Boothe",
+        "playerId": "rg-42954",
         "headshot": null,
         "team": "SEND",
         "teamId": "692",

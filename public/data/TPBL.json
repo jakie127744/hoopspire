@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-09-11T00:49:49.268Z",
+  "fetchedAt": "2026-09-11T01:03:51.362Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -7643,6 +7643,7 @@
     "avgPoints": [
       {
         "name": "Jalen Harris",
+        "playerId": "13029",
         "headshot": "https://assets.tpbl.basketball/production/players/13029/HmpCtJd4cB6NUYymyj7PfFsLNJjL5FFtDDWV609Y.png?20260123104642",
         "team": "Kings",
         "teamId": "7",
@@ -7651,6 +7652,7 @@
       },
       {
         "name": "Kromah Lasannah V",
+        "playerId": "68",
         "headshot": "https://assets.tpbl.basketball/production/players/68/Fe3vY4XH2EAQZF6L9a3j67ofUjHWH1oasYIYIsEJ.png?20241025223641",
         "team": "Leopards",
         "teamId": "5",
@@ -7659,6 +7661,7 @@
       },
       {
         "name": "威力斯",
+        "playerId": "10867",
         "headshot": "https://assets.tpbl.basketball/production/players/10867/HJsb1V8vodgub5P2W18aoSSh9fyK56ciMlMDsiBb.png?20251003182222",
         "team": "Mars",
         "teamId": "8",
@@ -7667,6 +7670,7 @@
       },
       {
         "name": "Marko Todorovic",
+        "playerId": "8889",
         "headshot": "https://assets.tpbl.basketball/production/players/8889/8cLImuAHI0Q1140PKmmlse2RC9W0vHHnjiHV1N7V.png?20251015114835",
         "team": "Dea",
         "teamId": "6",
@@ -7675,6 +7679,7 @@
       },
       {
         "name": "基德",
+        "playerId": "10869",
         "headshot": "https://assets.tpbl.basketball/production/players/10869/tLEo0Yb08sDXxmBViAuWDoiIOF4temwBpjpxjPnz.png?20251003181407",
         "team": "Mars",
         "teamId": "8",
@@ -7683,6 +7688,7 @@
       },
       {
         "name": "內馬",
+        "playerId": "10880",
         "headshot": "https://assets.tpbl.basketball/production/players/10880/xHBYGAMYHFf2zpn1Lo73gPZAUIYbwxPOfHGqqLBG.png?20251015113711",
         "team": "Dea",
         "teamId": "6",
@@ -7691,6 +7697,7 @@
       },
       {
         "name": "迪亞洛",
+        "playerId": "10861",
         "headshot": "https://assets.tpbl.basketball/production/players/10861/PDY4cIz0yqAmntq37vpVLa8hhoncptcZndc5mmzS.png?20251006215254",
         "team": "Leopards",
         "teamId": "5",
@@ -7699,6 +7706,7 @@
       },
       {
         "name": "Benjamin Bentil",
+        "playerId": "13906",
         "headshot": "https://assets.tpbl.basketball/production/players/13906/bhjPUA4j49SYxeHUipM67NxAL5xcBvG05HluZvi7.png?20260326115559",
         "team": "Dreamers",
         "teamId": "3",
@@ -7707,6 +7715,7 @@
       },
       {
         "name": "德魯",
+        "playerId": "10887",
         "headshot": "https://assets.tpbl.basketball/production/players/10887/XYxYJ26GMNWHMIDopKNKyQADPuNVPeh9uuRilhLL.png?20251022123214",
         "team": "Lioneers",
         "teamId": "4",
@@ -7715,6 +7724,7 @@
       },
       {
         "name": "Olufemi Olujobi",
+        "playerId": "14038",
         "headshot": "https://assets.tpbl.basketball/production/players/14038/WqckybWbElxZqQkj5Oorpu2TTCmyqRtffTTylSEu.png?20260126124824",
         "team": "Kings",
         "teamId": "7",
@@ -7725,6 +7735,7 @@
     "avgRebounds": [
       {
         "name": "Marko Todorovic",
+        "playerId": "8889",
         "headshot": "https://assets.tpbl.basketball/production/players/8889/8cLImuAHI0Q1140PKmmlse2RC9W0vHHnjiHV1N7V.png?20251015114835",
         "team": "Dea",
         "teamId": "6",
@@ -7733,6 +7744,7 @@
       },
       {
         "name": "威力斯",
+        "playerId": "10867",
         "headshot": "https://assets.tpbl.basketball/production/players/10867/HJsb1V8vodgub5P2W18aoSSh9fyK56ciMlMDsiBb.png?20251003182222",
         "team": "Mars",
         "teamId": "8",
@@ -7741,6 +7753,7 @@
       },
       {
         "name": "Marin Marić",
+        "playerId": "14843",
         "headshot": "https://assets.tpbl.basketball/production/players/14843/70fnGK5vHmzc02wqKt8zVIK2wDqWNmAyr8FgFKWv.png?20260304222021",
         "team": "Lioneers",
         "teamId": "4",
@@ -7749,6 +7762,7 @@
       },
       {
         "name": "迪亞洛",
+        "playerId": "10861",
         "headshot": "https://assets.tpbl.basketball/production/players/10861/PDY4cIz0yqAmntq37vpVLa8hhoncptcZndc5mmzS.png?20251006215254",
         "team": "Leopards",
         "teamId": "5",
@@ -7757,6 +7771,7 @@
       },
       {
         "name": "德魯",
+        "playerId": "10887",
         "headshot": "https://assets.tpbl.basketball/production/players/10887/XYxYJ26GMNWHMIDopKNKyQADPuNVPeh9uuRilhLL.png?20251022123214",
         "team": "Lioneers",
         "teamId": "4",
@@ -7765,6 +7780,7 @@
       },
       {
         "name": "Aric Holman",
+        "playerId": "107",
         "headshot": "https://assets.tpbl.basketball/production/players/107/qgeF6MEG2m9ephBUaOL8oRBMUh5BNAlxw6IMQMFx.png?20251022144416",
         "team": "Dreamers",
         "teamId": "3",
@@ -7773,6 +7789,7 @@
       },
       {
         "name": "Benjamin Bentil",
+        "playerId": "13906",
         "headshot": "https://assets.tpbl.basketball/production/players/13906/bhjPUA4j49SYxeHUipM67NxAL5xcBvG05HluZvi7.png?20260326115559",
         "team": "Dreamers",
         "teamId": "3",
@@ -7781,6 +7798,7 @@
       },
       {
         "name": "Jason Colin Washburn",
+        "playerId": "34",
         "headshot": "https://assets.tpbl.basketball/production/players/34/jokhnGsTiDEolsr4el2w751R0aXBsbCdK49oZd3J.png?20241018144221",
         "team": "Kings",
         "teamId": "7",
@@ -7789,6 +7807,7 @@
       },
       {
         "name": "Kristijan Krajina",
+        "playerId": "51",
         "headshot": "https://assets.tpbl.basketball/production/players/51/PWMv2j5MhmAHz3DmlrRu07Ax6HmDhf7u1d2T3Cph.png?20251204215817",
         "team": "Aquas",
         "teamId": "2",
@@ -7797,6 +7816,7 @@
       },
       {
         "name": "麥卡洛",
+        "playerId": "10860",
         "headshot": "https://assets.tpbl.basketball/production/players/10860/aJmqVBpvadidBKFpGLhoEnQlGaIYyCnpi9Ga7DzH.png?20251006215057",
         "team": "Leopards",
         "teamId": "5",
@@ -7807,6 +7827,7 @@
     "avgAssists": [
       {
         "name": "Ting Sheng Ju",
+        "playerId": "1",
         "headshot": "https://assets.tpbl.basketball/production/players/1/eMcRtHoU8mJs351dyXkX7a2TiISFXZJx4vv4eUKE.png?20251003164229",
         "team": "Mars",
         "teamId": "8",
@@ -7815,6 +7836,7 @@
       },
       {
         "name": "Lin Shu-Wei",
+        "playerId": "29",
         "headshot": "https://assets.tpbl.basketball/production/players/29/Uz5nscMnjwBg0gF4GgD9rrOBlKqIqbXybPMtkYlZ.png?20260123110012",
         "team": "Kings",
         "teamId": "7",
@@ -7823,6 +7845,7 @@
       },
       {
         "name": "Kromah Lasannah V",
+        "playerId": "68",
         "headshot": "https://assets.tpbl.basketball/production/players/68/Fe3vY4XH2EAQZF6L9a3j67ofUjHWH1oasYIYIsEJ.png?20241025223641",
         "team": "Leopards",
         "teamId": "5",
@@ -7831,6 +7854,7 @@
       },
       {
         "name": "Tseng Po-Yu",
+        "playerId": "76",
         "headshot": "https://assets.tpbl.basketball/production/players/76/t4rrP4VNfl6SwF2gfFnVDBkn6ldmEG32Fty177X8.png?20251021181838",
         "team": "Lioneers",
         "teamId": "4",
@@ -7839,6 +7863,7 @@
       },
       {
         "name": "Lin Wei-Han",
+        "playerId": "43",
         "headshot": "https://assets.tpbl.basketball/production/players/43/oEZtCJmAOgVZ8z1KzawzDIbOkXi8wCo48Q5oyxLf.png?20251015114434",
         "team": "Dea",
         "teamId": "6",
@@ -7847,6 +7872,7 @@
       },
       {
         "name": "Jalen Harris",
+        "playerId": "13029",
         "headshot": "https://assets.tpbl.basketball/production/players/13029/HmpCtJd4cB6NUYymyj7PfFsLNJjL5FFtDDWV609Y.png?20260123104642",
         "team": "Kings",
         "teamId": "7",
@@ -7855,6 +7881,7 @@
       },
       {
         "name": "高錦瑋",
+        "playerId": "54",
         "headshot": "https://assets.tpbl.basketball/production/players/54/Q8LDGTRjNdlpWh8aceZfY9UTY7ugOQoGget1hlG4.png?20251006215753",
         "team": "Leopards",
         "teamId": "5",
@@ -7863,6 +7890,7 @@
       },
       {
         "name": "Hsieh Ya-Hsuan",
+        "playerId": "40",
         "headshot": "https://assets.tpbl.basketball/production/players/40/i2zlrXqiTWyvJU2F801cHN4CW9JLg5LFOd47OMS5.png?20251015113433",
         "team": "Dea",
         "teamId": "6",
@@ -7871,6 +7899,7 @@
       },
       {
         "name": "Chiang Yu-An",
+        "playerId": "89",
         "headshot": "https://assets.tpbl.basketball/production/players/89/Swn8HQ9HkmcAHyIMHW9fChfMqF50rGrVpisJM0GS.png?20251022144442",
         "team": "Dreamers",
         "teamId": "3",
@@ -7879,6 +7908,7 @@
       },
       {
         "name": "Lee Kai-Yan",
+        "playerId": "21",
         "headshot": "https://assets.tpbl.basketball/production/players/21/6roiByT3yTTvFdf9NbaxicGwtv9nK68Xg52XdyCY.png?20260123110449",
         "team": "Kings",
         "teamId": "7",
@@ -7889,6 +7919,7 @@
     "avgSteals": [
       {
         "name": "Kromah Lasannah V",
+        "playerId": "68",
         "headshot": "https://assets.tpbl.basketball/production/players/68/Fe3vY4XH2EAQZF6L9a3j67ofUjHWH1oasYIYIsEJ.png?20241025223641",
         "team": "Leopards",
         "teamId": "5",
@@ -7897,6 +7928,7 @@
       },
       {
         "name": "Marko Todorovic",
+        "playerId": "8889",
         "headshot": "https://assets.tpbl.basketball/production/players/8889/8cLImuAHI0Q1140PKmmlse2RC9W0vHHnjiHV1N7V.png?20251015114835",
         "team": "Dea",
         "teamId": "6",
@@ -7905,6 +7937,7 @@
       },
       {
         "name": "湯普金斯",
+        "playerId": "10890",
         "headshot": "https://assets.tpbl.basketball/production/players/10890/QDFRUn3bdqRYGTf2KxWRNZRkUqeiRh5vUu7YjOmo.png?20251022144117",
         "team": "Dreamers",
         "teamId": "3",
@@ -7913,6 +7946,7 @@
       },
       {
         "name": "麥卡洛",
+        "playerId": "10860",
         "headshot": "https://assets.tpbl.basketball/production/players/10860/aJmqVBpvadidBKFpGLhoEnQlGaIYyCnpi9Ga7DzH.png?20251006215057",
         "team": "Leopards",
         "teamId": "5",
@@ -7921,6 +7955,7 @@
       },
       {
         "name": "Lin Wei-Han",
+        "playerId": "43",
         "headshot": "https://assets.tpbl.basketball/production/players/43/oEZtCJmAOgVZ8z1KzawzDIbOkXi8wCo48Q5oyxLf.png?20251015114434",
         "team": "Dea",
         "teamId": "6",
@@ -7929,6 +7964,7 @@
       },
       {
         "name": "Hsieh Ya-Hsuan",
+        "playerId": "40",
         "headshot": "https://assets.tpbl.basketball/production/players/40/i2zlrXqiTWyvJU2F801cHN4CW9JLg5LFOd47OMS5.png?20251015113433",
         "team": "Dea",
         "teamId": "6",
@@ -7937,6 +7973,7 @@
       },
       {
         "name": "Marin Marić",
+        "playerId": "14843",
         "headshot": "https://assets.tpbl.basketball/production/players/14843/70fnGK5vHmzc02wqKt8zVIK2wDqWNmAyr8FgFKWv.png?20260304222021",
         "team": "Lioneers",
         "teamId": "4",
@@ -7945,6 +7982,7 @@
       },
       {
         "name": "Kao Kuo-Hao",
+        "playerId": "75",
         "headshot": "https://assets.tpbl.basketball/production/players/75/z0htR38k1TAoArBYVvOsf5M53F86woJ87Xp3PmFU.png?20251021175550",
         "team": "Lioneers",
         "teamId": "4",
@@ -7953,6 +7991,7 @@
       },
       {
         "name": "基德",
+        "playerId": "10869",
         "headshot": "https://assets.tpbl.basketball/production/players/10869/tLEo0Yb08sDXxmBViAuWDoiIOF4temwBpjpxjPnz.png?20251003181407",
         "team": "Mars",
         "teamId": "8",
@@ -7961,6 +8000,7 @@
       },
       {
         "name": "Lee Kai-Yan",
+        "playerId": "21",
         "headshot": "https://assets.tpbl.basketball/production/players/21/6roiByT3yTTvFdf9NbaxicGwtv9nK68Xg52XdyCY.png?20260123110449",
         "team": "Kings",
         "teamId": "7",
@@ -7971,6 +8011,7 @@
     "avgBlocks": [
       {
         "name": "Brandon Gilbeck",
+        "playerId": "106",
         "headshot": "https://assets.tpbl.basketball/production/players/106/IdUawtmB2Nbr66kI0iJBePFDXv2SYIK21djV3QHa.png?20251022144308",
         "team": "Dreamers",
         "teamId": "3",
@@ -7979,6 +8020,7 @@
       },
       {
         "name": "Aric Holman",
+        "playerId": "107",
         "headshot": "https://assets.tpbl.basketball/production/players/107/qgeF6MEG2m9ephBUaOL8oRBMUh5BNAlxw6IMQMFx.png?20251022144416",
         "team": "Dreamers",
         "teamId": "3",
@@ -7987,6 +8029,7 @@
       },
       {
         "name": "Malcolm Miller",
+        "playerId": "16",
         "headshot": "https://assets.tpbl.basketball/production/players/16/GnKUdCoodVvTQcjmcFWEIC0bfPCCFGI9czq7xtlU.png?20251006215125",
         "team": "Leopards",
         "teamId": "5",
@@ -7995,6 +8038,7 @@
       },
       {
         "name": "帕塞獅",
+        "playerId": "10888",
         "headshot": "https://assets.tpbl.basketball/production/players/10888/A68YYPlc99o9REGL5bLrK8pzyphY64Qyei3Pgm93.png?20251021184605",
         "team": "Lioneers",
         "teamId": "4",
@@ -8003,6 +8047,7 @@
       },
       {
         "name": "麥卡洛",
+        "playerId": "10860",
         "headshot": "https://assets.tpbl.basketball/production/players/10860/aJmqVBpvadidBKFpGLhoEnQlGaIYyCnpi9Ga7DzH.png?20251006215057",
         "team": "Leopards",
         "teamId": "5",
@@ -8011,6 +8056,7 @@
       },
       {
         "name": "德魯",
+        "playerId": "10887",
         "headshot": "https://assets.tpbl.basketball/production/players/10887/XYxYJ26GMNWHMIDopKNKyQADPuNVPeh9uuRilhLL.png?20251022123214",
         "team": "Lioneers",
         "teamId": "4",
@@ -8019,6 +8065,7 @@
       },
       {
         "name": "Jason Colin Washburn",
+        "playerId": "34",
         "headshot": "https://assets.tpbl.basketball/production/players/34/jokhnGsTiDEolsr4el2w751R0aXBsbCdK49oZd3J.png?20241018144221",
         "team": "Kings",
         "teamId": "7",
@@ -8027,6 +8074,7 @@
       },
       {
         "name": "迪亞洛",
+        "playerId": "10861",
         "headshot": "https://assets.tpbl.basketball/production/players/10861/PDY4cIz0yqAmntq37vpVLa8hhoncptcZndc5mmzS.png?20251006215254",
         "team": "Leopards",
         "teamId": "5",
@@ -8035,6 +8083,7 @@
       },
       {
         "name": "內馬",
+        "playerId": "10880",
         "headshot": "https://assets.tpbl.basketball/production/players/10880/xHBYGAMYHFf2zpn1Lo73gPZAUIYbwxPOfHGqqLBG.png?20251015113711",
         "team": "Dea",
         "teamId": "6",
@@ -8043,6 +8092,7 @@
       },
       {
         "name": "提傑",
+        "playerId": "10862",
         "headshot": "https://assets.tpbl.basketball/production/players/10862/GleAZpHG9P61dyyRIcJ2suotrTIlX9byqw7oowzI.png?20251008172615",
         "team": "Lioneers",
         "teamId": "4",

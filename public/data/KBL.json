@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-11T00:48:16.145Z",
+  "fetchedAt": "2026-09-11T01:02:09.580Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -131,7 +131,7 @@
   "rosters": {
     "seoul-sk-knights": [
       {
-        "id": "seoul-sk-knights-jameel-warney",
+        "id": "rg-28292",
         "name": "Jameel Warney",
         "jersey": null,
         "position": null,
@@ -142,7 +142,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-youngjun-an",
+        "id": "rg-41376",
         "name": "Youngjun An",
         "jersey": null,
         "position": null,
@@ -153,7 +153,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-arvin-tolentino",
+        "id": "rg-54864",
         "name": "Arvin Tolentino",
         "jersey": null,
         "position": null,
@@ -164,7 +164,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-nakhyeon-kim",
+        "id": "rg-41367",
         "name": "Nakhyeon Kim",
         "jersey": null,
         "position": null,
@@ -175,7 +175,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-daniel-edi",
+        "id": "rg-199653",
         "name": "Daniel Edi",
         "jersey": null,
         "position": null,
@@ -186,7 +186,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-jaehyun-oh",
+        "id": "rg-175505",
         "name": "Jaehyun Oh",
         "jersey": null,
         "position": null,
@@ -197,7 +197,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-hyung-bin-kim",
+        "id": "rg-175788",
         "name": "Hyung Bin Kim",
         "jersey": null,
         "position": null,
@@ -208,7 +208,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-sek-eun-oh",
+        "id": "rg-25276",
         "name": "Sek-Eun Oh",
         "jersey": null,
         "position": null,
@@ -219,7 +219,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-kaon-moon",
+        "id": "rg-203343",
         "name": "Kaon Moon",
         "jersey": null,
         "position": null,
@@ -230,7 +230,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-darryl-monroe",
+        "id": "rg-18595",
         "name": "Darryl Monroe",
         "jersey": null,
         "position": null,
@@ -241,7 +241,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-bukyung-choi",
+        "id": "rg-28377",
         "name": "Bukyung Choi",
         "jersey": null,
         "position": null,
@@ -252,7 +252,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-lee-min-seo",
+        "id": "rg-254361",
         "name": "Lee Min Seo",
         "jersey": null,
         "position": null,
@@ -263,7 +263,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-myung-jin-kim",
+        "id": "rg-44598",
         "name": "Myung-Jin Kim",
         "jersey": null,
         "position": null,
@@ -274,7 +274,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-jae-min-kang",
+        "id": "rg-182816",
         "name": "Jae Min Kang",
         "jersey": null,
         "position": null,
@@ -285,7 +285,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-seong-woo-ahn",
+        "id": "rg-257690",
         "name": "Seong-Woo Ahn",
         "jersey": null,
         "position": null,
@@ -296,7 +296,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-won-hyuk-choi",
+        "id": "rg-82496",
         "name": "Won-hyuk Choi",
         "jersey": null,
         "position": null,
@@ -307,7 +307,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-taehun-kim",
+        "id": "rg-182817",
         "name": "Taehun Kim",
         "jersey": null,
         "position": null,
@@ -318,7 +318,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-sk-knights-geonu-kim",
+        "id": "rg-254377",
         "name": "Geonu Kim",
         "jersey": null,
         "position": null,
@@ -331,7 +331,7 @@
     ],
     "wonju-db-promy": [
       {
-        "id": "wonju-db-promy-henry-ellenson",
+        "id": "rg-54842",
         "name": "Henry Ellenson",
         "jersey": null,
         "position": null,
@@ -342,7 +342,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-ethan-alvano",
+        "id": "rg-80742",
         "name": "Ethan Alvano",
         "jersey": null,
         "position": null,
@@ -353,7 +353,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-hyogeun-jeong",
+        "id": "rg-52465",
         "name": "Hyogeun Jeong",
         "jersey": null,
         "position": null,
@@ -364,7 +364,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-sangjae-kang",
+        "id": "rg-52290",
         "name": "Sangjae Kang",
         "jersey": null,
         "position": null,
@@ -375,7 +375,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-park-in-woong",
+        "id": "rg-205785",
         "name": "Park In-Woong",
         "jersey": null,
         "position": null,
@@ -386,7 +386,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-essam-mostafa",
+        "id": "rg-92760",
         "name": "Essam Mostafa",
         "jersey": null,
         "position": null,
@@ -397,7 +397,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-sung-won-choi",
+        "id": "rg-130509",
         "name": "Sung-Won Choi",
         "jersey": null,
         "position": null,
@@ -408,7 +408,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-bobae-kim",
+        "id": "rg-182812",
         "name": "Bobae Kim",
         "jersey": null,
         "position": null,
@@ -419,7 +419,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-yong-woo-lee",
+        "id": "rg-175452",
         "name": "Yong Woo Lee",
         "jersey": null,
         "position": null,
@@ -430,7 +430,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-yujin-lee",
+        "id": "rg-199649",
         "name": "Yujin Lee",
         "jersey": null,
         "position": null,
@@ -441,7 +441,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-junghyun-lee",
+        "id": "rg-28375",
         "name": "Junghyun Lee",
         "jersey": null,
         "position": null,
@@ -452,7 +452,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-jung-ho-young",
+        "id": "rg-205788",
         "name": "Jung Ho-Young",
         "jersey": null,
         "position": null,
@@ -463,7 +463,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-seo-min-su",
+        "id": "rg-102586",
         "name": "Seo Min Su",
         "jersey": null,
         "position": null,
@@ -474,7 +474,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-seungchan-in",
+        "id": "rg-208579",
         "name": "Seungchan In",
         "jersey": null,
         "position": null,
@@ -485,7 +485,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-hyubeom-kim",
+        "id": "rg-182815",
         "name": "Hyubeom Kim",
         "jersey": null,
         "position": null,
@@ -496,7 +496,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-seungbin-choi",
+        "id": "rg-226524",
         "name": "Seungbin Choi",
         "jersey": null,
         "position": null,
@@ -507,7 +507,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-youn-su-lee",
+        "id": "rg-92801",
         "name": "Youn Su Lee",
         "jersey": null,
         "position": null,
@@ -518,7 +518,7 @@
         "headshot": null
       },
       {
-        "id": "wonju-db-promy-seung-yeop-baek",
+        "id": "rg-242907",
         "name": "Seung-Yeop Baek",
         "jersey": null,
         "position": null,
@@ -531,7 +531,7 @@
     ],
     "ulsan-hyundai-mobis-phoebus": [
       {
-        "id": "ulsan-hyundai-mobis-phoebus-rayshaun-hammonds",
+        "id": "rg-104917",
         "name": "Rayshaun Hammonds",
         "jersey": null,
         "position": null,
@@ -542,7 +542,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-myeongjin-seo",
+        "id": "rg-108036",
         "name": "Myeongjin Seo",
         "jersey": null,
         "position": null,
@@ -553,7 +553,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-moobeen-park",
+        "id": "rg-133883",
         "name": "Moobeen Park",
         "jersey": null,
         "position": null,
@@ -564,7 +564,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-seounghyun-lee",
+        "id": "rg-24852",
         "name": "Seounghyun Lee",
         "jersey": null,
         "position": null,
@@ -575,7 +575,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-miguel-andre-oczon",
+        "id": "rg-151472",
         "name": "Miguel Andre Oczon",
         "jersey": null,
         "position": null,
@@ -586,7 +586,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-john-egbunu",
+        "id": "rg-57416",
         "name": "John Egbunu",
         "jersey": null,
         "position": null,
@@ -597,7 +597,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-han-jin-jo",
+        "id": "rg-250916",
         "name": "Han-jin Jo",
         "jersey": null,
         "position": null,
@@ -608,7 +608,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-eric-romero",
+        "id": "rg-168327",
         "name": "Eric Romero",
         "jersey": null,
         "position": null,
@@ -619,7 +619,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-ji-hoon-ham",
+        "id": "rg-40422",
         "name": "Ji-Hoon Ham",
         "jersey": null,
         "position": null,
@@ -630,7 +630,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-geon-ha-kim",
+        "id": "rg-257677",
         "name": "Geon-Ha Kim",
         "jersey": null,
         "position": null,
@@ -641,7 +641,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-john-figueroa",
+        "id": "rg-261225",
         "name": "John Figueroa",
         "jersey": null,
         "position": null,
@@ -652,7 +652,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-jeong-jun-won",
+        "id": "rg-123715",
         "name": "Jeong Jun Won",
         "jersey": null,
         "position": null,
@@ -663,7 +663,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-daeheon-lee",
+        "id": "rg-52468",
         "name": "Daeheon Lee",
         "jersey": null,
         "position": null,
@@ -674,7 +674,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-jeong-hwan-park",
+        "id": "rg-257139",
         "name": "Jeong-Hwan Park",
         "jersey": null,
         "position": null,
@@ -685,7 +685,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-kang-mim-choi",
+        "id": "rg-257678",
         "name": "Kang-Mim Choi",
         "jersey": null,
         "position": null,
@@ -696,7 +696,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-jun-eun-park",
+        "id": "rg-163236",
         "name": "Jun Eun Park",
         "jersey": null,
         "position": null,
@@ -707,7 +707,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-junbeom-jeon",
+        "id": "rg-59543",
         "name": "Junbeom Jeon",
         "jersey": null,
         "position": null,
@@ -718,7 +718,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-daegyun-lee",
+        "id": "rg-250534",
         "name": "Daegyun Lee",
         "jersey": null,
         "position": null,
@@ -729,7 +729,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-seungwoo-lee",
+        "id": "rg-133886",
         "name": "Seungwoo Lee",
         "jersey": null,
         "position": null,
@@ -740,7 +740,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-do-hoon-lee",
+        "id": "rg-197259",
         "name": "Do-Hoon Lee",
         "jersey": null,
         "position": null,
@@ -751,7 +751,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-dong-jun-kim",
+        "id": "rg-108029",
         "name": "Dong Jun Kim",
         "jersey": null,
         "position": null,
@@ -762,7 +762,7 @@
         "headshot": null
       },
       {
-        "id": "ulsan-hyundai-mobis-phoebus-tae-wan-kim",
+        "id": "rg-207649",
         "name": "Tae-Wan Kim",
         "jersey": null,
         "position": null,
@@ -775,7 +775,7 @@
     ],
     "busan-kcc-egis": [
       {
-        "id": "busan-kcc-egis-shawn-long",
+        "id": "rg-28798",
         "name": "Shawn Long",
         "jersey": null,
         "position": null,
@@ -786,7 +786,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-huh-hun",
+        "id": "rg-24855",
         "name": "Huh Hun",
         "jersey": null,
         "position": null,
@@ -797,7 +797,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-junyong-choi",
+        "id": "rg-52291",
         "name": "Junyong Choi",
         "jersey": null,
         "position": null,
@@ -808,7 +808,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-hoon-heo",
+        "id": "rg-41371",
         "name": "Hoon Heo",
         "jersey": null,
         "position": null,
@@ -819,7 +819,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-song-kyo-chang",
+        "id": "rg-92795",
         "name": "Song Kyo-Chang",
         "jersey": null,
         "position": null,
@@ -830,7 +830,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-dewan-hernandez",
+        "id": "rg-74082",
         "name": "Dewan Hernandez",
         "jersey": null,
         "position": null,
@@ -841,7 +841,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-jaeseok-jang",
+        "id": "rg-28369",
         "name": "Jaeseok Jang",
         "jersey": null,
         "position": null,
@@ -852,7 +852,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-ki-chan-yoon",
+        "id": "rg-257567",
         "name": "Ki-Chan Yoon",
         "jersey": null,
         "position": null,
@@ -863,7 +863,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-william-raniel-navarro",
+        "id": "rg-175008",
         "name": "William Raniel Navarro",
         "jersey": null,
         "position": null,
@@ -874,7 +874,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-donghyun-kim",
+        "id": "rg-182814",
         "name": "Donghyun Kim",
         "jersey": null,
         "position": null,
@@ -885,7 +885,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-jin-gwang-choi",
+        "id": "rg-163889",
         "name": "Jin Gwang Choi",
         "jersey": null,
         "position": null,
@@ -896,7 +896,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-jooyoung-lee",
+        "id": "rg-223438",
         "name": "Jooyoung Lee",
         "jersey": null,
         "position": null,
@@ -907,7 +907,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-hohyun-lee",
+        "id": "rg-220541",
         "name": "Hohyun Lee",
         "jersey": null,
         "position": null,
@@ -918,7 +918,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-yeo-jun-hyung",
+        "id": "rg-206131",
         "name": "Yeo Jun-Hyung",
         "jersey": null,
         "position": null,
@@ -929,7 +929,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-hun-kim",
+        "id": "rg-92798",
         "name": "Hun Kim",
         "jersey": null,
         "position": null,
@@ -940,7 +940,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-taehyun-kang",
+        "id": "rg-199642",
         "name": "Taehyun Kang",
         "jersey": null,
         "position": null,
@@ -951,7 +951,7 @@
         "headshot": null
       },
       {
-        "id": "busan-kcc-egis-yun-seong-kim",
+        "id": "rg-259351",
         "name": "Yun-Seong Kim",
         "jersey": null,
         "position": null,
@@ -964,7 +964,7 @@
     ],
     "goyang-sono-skygunners": [
       {
-        "id": "goyang-sono-skygunners-junghyun-lee",
+        "id": "rg-108030",
         "name": "Junghyun Lee",
         "jersey": null,
         "position": null,
@@ -975,7 +975,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-nathan-knight",
+        "id": "rg-107310",
         "name": "Nathan Knight",
         "jersey": null,
         "position": null,
@@ -986,7 +986,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-karl-kevin-quiambao",
+        "id": "rg-200302",
         "name": "Karl Kevin Quiambao",
         "jersey": null,
         "position": null,
@@ -997,7 +997,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-ji-hoon-kang",
+        "id": "rg-182818",
         "name": "Ji Hoon Kang",
         "jersey": null,
         "position": null,
@@ -1008,7 +1008,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-seungwook-choi",
+        "id": "rg-24858",
         "name": "Seungwook Choi",
         "jersey": null,
         "position": null,
@@ -1019,7 +1019,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-jaedo-lee",
+        "id": "rg-52470",
         "name": "Jaedo Lee",
         "jersey": null,
         "position": null,
@@ -1030,7 +1030,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-dong-seob-lim",
+        "id": "rg-44552",
         "name": "Dong-Seob Lim",
         "jersey": null,
         "position": null,
@@ -1041,7 +1041,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-egidijus-mockevicius",
+        "id": "rg-24784",
         "name": "Egidijus Mockevicius",
         "jersey": null,
         "position": null,
@@ -1052,7 +1052,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-jaylen-johnson",
+        "id": "rg-52553",
         "name": "Jaylen Johnson",
         "jersey": null,
         "position": null,
@@ -1063,7 +1063,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-gyeong-gi-hong",
+        "id": "rg-128638",
         "name": "Gyeong-Gi Hong",
         "jersey": null,
         "position": null,
@@ -1074,7 +1074,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-hee-jae-jeong",
+        "id": "rg-45254",
         "name": "Hee-Jae Jeong",
         "jersey": null,
         "position": null,
@@ -1085,7 +1085,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-jin-yu-kim",
+        "id": "rg-143210",
         "name": "Jin-Yu Kim",
         "jersey": null,
         "position": null,
@@ -1096,7 +1096,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-geun-jun-lee",
+        "id": "rg-242356",
         "name": "Geun-jun Lee",
         "jersey": null,
         "position": null,
@@ -1107,7 +1107,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-dong-yeop-lee",
+        "id": "rg-24853",
         "name": "Dong Yeop Lee",
         "jersey": null,
         "position": null,
@@ -1118,7 +1118,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-eun-hoo-jo",
+        "id": "rg-195667",
         "name": "Eun-Hoo Jo",
         "jersey": null,
         "position": null,
@@ -1129,7 +1129,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-jong-ha-park",
+        "id": "rg-223512",
         "name": "Jong Ha Park",
         "jersey": null,
         "position": null,
@@ -1140,7 +1140,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-jincheol-park",
+        "id": "rg-121131",
         "name": "Jincheol Park",
         "jersey": null,
         "position": null,
@@ -1151,7 +1151,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-ji-won-shin",
+        "id": "rg-257691",
         "name": "Ji-Won Shin",
         "jersey": null,
         "position": null,
@@ -1162,7 +1162,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-dong-won-seo",
+        "id": "rg-242443",
         "name": "Dong-won Seo",
         "jersey": null,
         "position": null,
@@ -1173,7 +1173,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-seong-jo-jeong",
+        "id": "rg-242710",
         "name": "Seong-Jo Jeong",
         "jersey": null,
         "position": null,
@@ -1184,7 +1184,7 @@
         "headshot": null
       },
       {
-        "id": "goyang-sono-skygunners-seokho-jo",
+        "id": "rg-153572",
         "name": "Seokho Jo",
         "jersey": null,
         "position": null,
@@ -1197,7 +1197,7 @@
     ],
     "suwon-kt-sonicboom": [
       {
-        "id": "suwon-kt-sonicboom-derrick-williams",
+        "id": "rg-6644",
         "name": "Derrick Williams",
         "jersey": null,
         "position": null,
@@ -1208,7 +1208,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-sungwook-kang",
+        "id": "rg-202848",
         "name": "Sungwook Kang",
         "jersey": null,
         "position": null,
@@ -1219,7 +1219,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-isaiah-hicks",
+        "id": "rg-24324",
         "name": "Isaiah Hicks",
         "jersey": null,
         "position": null,
@@ -1230,7 +1230,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-sun-hyung-kim",
+        "id": "rg-24928",
         "name": "Sun-Hyung Kim",
         "jersey": null,
         "position": null,
@@ -1241,7 +1241,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-yoongi-ha",
+        "id": "rg-206279",
         "name": "Yoongi Ha",
         "jersey": null,
         "position": null,
@@ -1252,7 +1252,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-jeonghyeon-moon",
+        "id": "rg-133887",
         "name": "Jeonghyeon Moon",
         "jersey": null,
         "position": null,
@@ -1263,7 +1263,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-j-d-cagulangan",
+        "id": "rg-243345",
         "name": "J.D. Cagulangan",
         "jersey": null,
         "position": null,
@@ -1274,7 +1274,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-johnathan-williams",
+        "id": "rg-26757",
         "name": "Johnathan Williams",
         "jersey": null,
         "position": null,
@@ -1285,7 +1285,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-jun-young-park",
+        "id": "rg-146234",
         "name": "Jun-Young Park",
         "jersey": null,
         "position": null,
@@ -1296,7 +1296,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-doowon-lee",
+        "id": "rg-108218",
         "name": "Doowon Lee",
         "jersey": null,
         "position": null,
@@ -1307,7 +1307,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-huiwon-han",
+        "id": "rg-24857",
         "name": "Huiwon Han",
         "jersey": null,
         "position": null,
@@ -1318,7 +1318,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-chang-young-jung",
+        "id": "rg-24926",
         "name": "Chang Young Jung",
         "jersey": null,
         "position": null,
@@ -1329,7 +1329,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-yun-ki-lee",
+        "id": "rg-175556",
         "name": "Yun Ki Lee",
         "jersey": null,
         "position": null,
@@ -1340,7 +1340,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-jiwon-park",
+        "id": "rg-119762",
         "name": "Jiwon Park",
         "jersey": null,
         "position": null,
@@ -1351,7 +1351,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-seonggon-moon",
+        "id": "rg-24859",
         "name": "Seonggon Moon",
         "jersey": null,
         "position": null,
@@ -1362,7 +1362,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-min-jae-park",
+        "id": "rg-257660",
         "name": "Min-Jae Park",
         "jersey": null,
         "position": null,
@@ -1373,7 +1373,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-sung-jae-park",
+        "id": "rg-242772",
         "name": "Sung-jae Park",
         "jersey": null,
         "position": null,
@@ -1384,7 +1384,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-hyeonseok-lee",
+        "id": "rg-52469",
         "name": "Hyeonseok Lee",
         "jersey": null,
         "position": null,
@@ -1395,7 +1395,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-junhwan-kim",
+        "id": "rg-190518",
         "name": "Junhwan Kim",
         "jersey": null,
         "position": null,
@@ -1406,7 +1406,7 @@
         "headshot": null
       },
       {
-        "id": "suwon-kt-sonicboom-go-chan-hyuk",
+        "id": "rg-206176",
         "name": "Go Chan-Hyuk",
         "jersey": null,
         "position": null,
@@ -1419,7 +1419,7 @@
     ],
     "seoul-samsung-thunders": [
       {
-        "id": "seoul-samsung-thunders-kerem-kanter",
+        "id": "rg-42177",
         "name": "Kerem Kanter",
         "jersey": null,
         "position": null,
@@ -1430,7 +1430,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-andrew-nicholson",
+        "id": "rg-10813",
         "name": "Andrew Nicholson",
         "jersey": null,
         "position": null,
@@ -1441,7 +1441,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-kwan-hee-lee",
+        "id": "rg-108425",
         "name": "Kwan Hee Lee",
         "jersey": null,
         "position": null,
@@ -1452,7 +1452,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-justin-gutang",
+        "id": "rg-206104",
         "name": "Justin Gutang",
         "jersey": null,
         "position": null,
@@ -1463,7 +1463,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-dae-sung-lee",
+        "id": "rg-48267",
         "name": "Dae Sung Lee",
         "jersey": null,
         "position": null,
@@ -1474,7 +1474,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-hobin-han",
+        "id": "rg-52471",
         "name": "Hobin Han",
         "jersey": null,
         "position": null,
@@ -1485,7 +1485,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-weon-seok-lee",
+        "id": "rg-203344",
         "name": "Weon Seok Lee",
         "jersey": null,
         "position": null,
@@ -1496,7 +1496,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-kyutae-lee",
+        "id": "rg-133890",
         "name": "Kyutae Lee",
         "jersey": null,
         "position": null,
@@ -1507,7 +1507,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-lee-geun-hwi",
+        "id": "rg-184143",
         "name": "Lee Geun-Hwi",
         "jersey": null,
         "position": null,
@@ -1518,7 +1518,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-hyun-min-choi",
+        "id": "rg-44401",
         "name": "Hyun-Min Choi",
         "jersey": null,
         "position": null,
@@ -1529,7 +1529,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-seongmo-choi",
+        "id": "rg-25844",
         "name": "Seongmo Choi",
         "jersey": null,
         "position": null,
@@ -1540,7 +1540,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-donghyuk-shin",
+        "id": "rg-205789",
         "name": "Donghyuk Shin",
         "jersey": null,
         "position": null,
@@ -1551,7 +1551,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-seungjae-park",
+        "id": "rg-224333",
         "name": "Seungjae Park",
         "jersey": null,
         "position": null,
@@ -1562,7 +1562,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-dong-eon-lim",
+        "id": "rg-242360",
         "name": "Dong-eon Lim",
         "jersey": null,
         "position": null,
@@ -1573,7 +1573,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-sung-won-yoon",
+        "id": "rg-143291",
         "name": "Sung-Won Yoon",
         "jersey": null,
         "position": null,
@@ -1584,7 +1584,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-seong-jo-jeong",
+        "id": "rg-242710",
         "name": "Seong-Jo Jeong",
         "jersey": null,
         "position": null,
@@ -1595,7 +1595,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-yeong-chan-hwang",
+        "id": "rg-242471",
         "name": "Yeong-Chan Hwang",
         "jersey": null,
         "position": null,
@@ -1606,7 +1606,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-dong-yeop-lee",
+        "id": "rg-24853",
         "name": "Dong Yeop Lee",
         "jersey": null,
         "position": null,
@@ -1617,7 +1617,7 @@
         "headshot": null
       },
       {
-        "id": "seoul-samsung-thunders-hansol-kim",
+        "id": "rg-146578",
         "name": "Hansol Kim",
         "jersey": null,
         "position": null,
@@ -1630,7 +1630,7 @@
     ],
     "changwon-lg-sakers": [
       {
-        "id": "changwon-lg-sakers-assem-marei",
+        "id": "rg-28587",
         "name": "Assem Marei",
         "jersey": null,
         "position": null,
@@ -1641,7 +1641,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-carl-vincent-tamayo",
+        "id": "rg-137851",
         "name": "Carl Vincent Tamayo",
         "jersey": null,
         "position": null,
@@ -1652,7 +1652,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-kisang-yu",
+        "id": "rg-223458",
         "name": "Kisang Yu",
         "jersey": null,
         "position": null,
@@ -1663,7 +1663,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-junseok-yang",
+        "id": "rg-133884",
         "name": "Junseok Yang",
         "jersey": null,
         "position": null,
@@ -1674,7 +1674,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-hongseok-yang",
+        "id": "rg-92799",
         "name": "Hongseok Yang",
         "jersey": null,
         "position": null,
@@ -1685,7 +1685,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-micheal-eric",
+        "id": "rg-10879",
         "name": "Micheal Eric",
         "jersey": null,
         "position": null,
@@ -1696,7 +1696,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-in-deok-jeong",
+        "id": "rg-117663",
         "name": "In-Deok Jeong",
         "jersey": null,
         "position": null,
@@ -1707,7 +1707,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-kyrin-galloway",
+        "id": "rg-107113",
         "name": "Kyrin Galloway",
         "jersey": null,
         "position": null,
@@ -1718,7 +1718,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-wonsang-yun",
+        "id": "rg-119764",
         "name": "Wonsang Yun",
         "jersey": null,
         "position": null,
@@ -1729,7 +1729,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-il-young-heo",
+        "id": "rg-40391",
         "name": "Il-Young Heo",
         "jersey": null,
         "position": null,
@@ -1740,7 +1740,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-hyung-chan-choi",
+        "id": "rg-242497",
         "name": "Hyung-Chan Choi",
         "jersey": null,
         "position": null,
@@ -1751,7 +1751,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-byeonghun-bae",
+        "id": "rg-82352",
         "name": "Byeonghun Bae",
         "jersey": null,
         "position": null,
@@ -1762,7 +1762,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-sanghyeok-han",
+        "id": "rg-24854",
         "name": "Sanghyeok Han",
         "jersey": null,
         "position": null,
@@ -1773,7 +1773,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-min-goo-jang",
+        "id": "rg-63060",
         "name": "Min-Goo Jang",
         "jersey": null,
         "position": null,
@@ -1784,7 +1784,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-seon-woo-kim",
+        "id": "rg-257566",
         "name": "Seon-Woo Kim",
         "jersey": null,
         "position": null,
@@ -1795,7 +1795,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-jeong-hyeon-lim",
+        "id": "rg-262636",
         "name": "Jeong-Hyeon Lim",
         "jersey": null,
         "position": null,
@@ -1806,7 +1806,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-seongho-na",
+        "id": "rg-224591",
         "name": "Seongho Na",
         "jersey": null,
         "position": null,
@@ -1817,7 +1817,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-junghyeon-park",
+        "id": "rg-52296",
         "name": "Junghyeon Park",
         "jersey": null,
         "position": null,
@@ -1828,7 +1828,7 @@
         "headshot": null
       },
       {
-        "id": "changwon-lg-sakers-jun-young-kim",
+        "id": "rg-259514",
         "name": "Jun-Young Kim",
         "jersey": null,
         "position": null,
@@ -1841,7 +1841,7 @@
     ],
     "anyang-jung-kwan-jang": [
       {
-        "id": "anyang-jung-kwan-jang-johnny-o-bryant",
+        "id": "rg-24170",
         "name": "Johnny O'Bryant",
         "jersey": null,
         "position": null,
@@ -1852,7 +1852,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-jihoon-park",
+        "id": "rg-121129",
         "name": "Jihoon Park",
         "jersey": null,
         "position": null,
@@ -1863,7 +1863,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-junhyeong-byeon",
+        "id": "rg-52293",
         "name": "Junhyeong Byeon",
         "jersey": null,
         "position": null,
@@ -1874,7 +1874,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-yuhyeon-moon",
+        "id": "rg-202850",
         "name": "Yuhyeon Moon",
         "jersey": null,
         "position": null,
@@ -1885,7 +1885,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-han-jun-song",
+        "id": "rg-266241",
         "name": "Han-Jun Song",
         "jersey": null,
         "position": null,
@@ -1896,7 +1896,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-rhenz-abando",
+        "id": "rg-200301",
         "name": "Rhenz Abando",
         "jersey": null,
         "position": null,
@@ -1907,7 +1907,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-seunghui-han",
+        "id": "rg-119766",
         "name": "Seunghui Han",
         "jersey": null,
         "position": null,
@@ -1918,7 +1918,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-bryce-washington",
+        "id": "rg-81432",
         "name": "Bryce Washington",
         "jersey": null,
         "position": null,
@@ -1929,7 +1929,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-chanho-park",
+        "id": "rg-121130",
         "name": "Chanho Park",
         "jersey": null,
         "position": null,
@@ -1940,7 +1940,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-hyunwoo-joo",
+        "id": "rg-192016",
         "name": "Hyunwoo Joo",
         "jersey": null,
         "position": null,
@@ -1951,7 +1951,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-jeong-woong-park",
+        "id": "rg-242465",
         "name": "Jeong-woong Park",
         "jersey": null,
         "position": null,
@@ -1962,7 +1962,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-se-chang-kim",
+        "id": "rg-158983",
         "name": "Se Chang Kim",
         "jersey": null,
         "position": null,
@@ -1973,7 +1973,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-younghyun-kim",
+        "id": "rg-175552",
         "name": "Younghyun Kim",
         "jersey": null,
         "position": null,
@@ -1984,7 +1984,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-kyungwon-kim",
+        "id": "rg-92800",
         "name": "Kyungwon Kim",
         "jersey": null,
         "position": null,
@@ -1995,7 +1995,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-jongkyu-kim",
+        "id": "rg-28878",
         "name": "Jongkyu Kim",
         "jersey": null,
         "position": null,
@@ -2006,7 +2006,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-seonghyen-jeon",
+        "id": "rg-52466",
         "name": "Seonghyen Jeon",
         "jersey": null,
         "position": null,
@@ -2017,7 +2017,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-kim-young-hyun",
+        "id": "rg-203967",
         "name": "Kim Young-Hyun",
         "jersey": null,
         "position": null,
@@ -2028,7 +2028,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-jun-hyeok-so",
+        "id": "rg-243003",
         "name": "Jun-Hyeok So",
         "jersey": null,
         "position": null,
@@ -2039,7 +2039,7 @@
         "headshot": null
       },
       {
-        "id": "anyang-jung-kwan-jang-seungbin-pyo",
+        "id": "rg-225189",
         "name": "Seungbin Pyo",
         "jersey": null,
         "position": null,
@@ -2052,7 +2052,7 @@
     ],
     "daegu-korea-gas-corporation": [
       {
-        "id": "daegu-korea-gas-corporation-samjosef-belangel",
+        "id": "rg-182444",
         "name": "Samjosef Belangel",
         "jersey": null,
         "position": null,
@@ -2063,7 +2063,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-guna-ra",
+        "id": "rg-23297",
         "name": "Guna Ra",
         "jersey": null,
         "position": null,
@@ -2074,7 +2074,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-nick-perkins",
+        "id": "rg-85074",
         "name": "Nick Perkins",
         "jersey": null,
         "position": null,
@@ -2085,7 +2085,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-bennie-boatwright",
+        "id": "rg-76229",
         "name": "Bennie Boatwright",
         "jersey": null,
         "position": null,
@@ -2096,7 +2096,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-seungmin-shin",
+        "id": "rg-186141",
         "name": "Seungmin Shin",
         "jersey": null,
         "position": null,
@@ -2107,7 +2107,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-seong-woo-jeong",
+        "id": "rg-99313",
         "name": "Seong-Woo Jeong",
         "jersey": null,
         "position": null,
@@ -2118,7 +2118,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-yl-jung-kim",
+        "id": "rg-40387",
         "name": "Yl-Jung Kim",
         "jersey": null,
         "position": null,
@@ -2129,7 +2129,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-mangok-mathiang",
+        "id": "rg-41959",
         "name": "Mangok Mathiang",
         "jersey": null,
         "position": null,
@@ -2140,7 +2140,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-woohyeok-yang",
+        "id": "rg-220846",
         "name": "Woohyeok Yang",
         "jersey": null,
         "position": null,
@@ -2151,7 +2151,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-gookchan-kim",
+        "id": "rg-41369",
         "name": "Gookchan Kim",
         "jersey": null,
         "position": null,
@@ -2162,7 +2162,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-min-gyu-kim",
+        "id": "rg-257565",
         "name": "Min-Gyu Kim",
         "jersey": null,
         "position": null,
@@ -2173,7 +2173,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-jin-soo-choi",
+        "id": "rg-3726",
         "name": "Jin-Soo Choi",
         "jersey": null,
         "position": null,
@@ -2184,7 +2184,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-hyunwoo-jeon",
+        "id": "rg-41372",
         "name": "Hyunwoo Jeon",
         "jersey": null,
         "position": null,
@@ -2195,7 +2195,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-juyoung-shin",
+        "id": "rg-182819",
         "name": "Juyoung Shin",
         "jersey": null,
         "position": null,
@@ -2206,7 +2206,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-jun-son",
+        "id": "rg-242482",
         "name": "Jun Son",
         "jersey": null,
         "position": null,
@@ -2217,7 +2217,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-dong-hyun-woo",
+        "id": "rg-146219",
         "name": "Dong-Hyun Woo",
         "jersey": null,
         "position": null,
@@ -2228,7 +2228,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-jae-hyuk-yang",
+        "id": "rg-92792",
         "name": "Jae Hyuk Yang",
         "jersey": null,
         "position": null,
@@ -2239,7 +2239,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-jihun-park",
+        "id": "rg-59892",
         "name": "Jihun Park",
         "jersey": null,
         "position": null,
@@ -2250,7 +2250,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-changjin-choi",
+        "id": "rg-25843",
         "name": "Changjin Choi",
         "jersey": null,
         "position": null,
@@ -2261,7 +2261,7 @@
         "headshot": null
       },
       {
-        "id": "daegu-korea-gas-corporation-bawee-cha",
+        "id": "rg-28371",
         "name": "Bawee Cha",
         "jersey": null,
         "position": null,
@@ -2299,6 +2299,9 @@
       "fouls": 1.5,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "28292",
+      "realgmUrl": "https://basketball.realgm.com/player/Jameel-Warney/Summary/28292",
+      "id": "rg-28292",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -2326,6 +2329,9 @@
       "fouls": 2,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "54842",
+      "realgmUrl": "https://basketball.realgm.com/player/Henry-Ellenson/Summary/54842",
+      "id": "rg-54842",
       "teamId": "wonju-db-promy"
     },
     {
@@ -2353,6 +2359,9 @@
       "fouls": 3.1,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "104917",
+      "realgmUrl": "https://basketball.realgm.com/player/Rayshaun-Hammonds/Summary/104917",
+      "id": "rg-104917",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -2380,6 +2389,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "28798",
+      "realgmUrl": "https://basketball.realgm.com/player/Shawn-Long/Summary/28798",
+      "id": "rg-28798",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -2407,6 +2419,9 @@
       "fouls": 2.5,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "108030",
+      "realgmUrl": "https://basketball.realgm.com/player/Junghyun-Lee/Summary/108030",
+      "id": "rg-108030",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -2434,6 +2449,9 @@
       "fouls": 1.4,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "6644",
+      "realgmUrl": "https://basketball.realgm.com/player/Derrick-Williams/Summary/6644",
+      "id": "rg-6644",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -2461,6 +2479,9 @@
       "fouls": 2.4,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "80742",
+      "realgmUrl": "https://basketball.realgm.com/player/Ethan-Alvano/Summary/80742",
+      "id": "rg-80742",
       "teamId": "wonju-db-promy"
     },
     {
@@ -2488,6 +2509,9 @@
       "fouls": 2.8,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "107310",
+      "realgmUrl": "https://basketball.realgm.com/player/Nathan-Knight/Summary/107310",
+      "id": "rg-107310",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -2515,6 +2539,9 @@
       "fouls": 2.1,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "42177",
+      "realgmUrl": "https://basketball.realgm.com/player/Kerem-Kanter/Summary/42177",
+      "id": "rg-42177",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -2542,6 +2569,9 @@
       "fouls": 1.6,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "10813",
+      "realgmUrl": "https://basketball.realgm.com/player/Andrew-Nicholson/Summary/10813",
+      "id": "rg-10813",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -2569,6 +2599,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "24855",
+      "realgmUrl": "https://basketball.realgm.com/player/Huh-Hun/Summary/24855",
+      "id": "rg-24855",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -2596,6 +2629,9 @@
       "fouls": 3.2,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "28587",
+      "realgmUrl": "https://basketball.realgm.com/player/Assem-Marei/Summary/28587",
+      "id": "rg-28587",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -2623,6 +2659,9 @@
       "fouls": 2.5,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "24170",
+      "realgmUrl": "https://basketball.realgm.com/player/Johnny-OBryant/Summary/24170",
+      "id": "rg-24170",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -2650,6 +2689,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "182444",
+      "realgmUrl": "https://basketball.realgm.com/player/Samjosef-Belangel/Summary/182444",
+      "id": "rg-182444",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -2677,6 +2719,9 @@
       "fouls": 2,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "23297",
+      "realgmUrl": "https://basketball.realgm.com/player/Guna-Ra/Summary/23297",
+      "id": "rg-23297",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -2704,6 +2749,9 @@
       "fouls": 1.4,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "200302",
+      "realgmUrl": "https://basketball.realgm.com/player/Karl-Kevin-Quiambao/Summary/200302",
+      "id": "rg-200302",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -2731,6 +2779,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "137851",
+      "realgmUrl": "https://basketball.realgm.com/player/Carl-Vincent-Tamayo/Summary/137851",
+      "id": "rg-137851",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -2758,6 +2809,9 @@
       "fouls": 2.5,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "41376",
+      "realgmUrl": "https://basketball.realgm.com/player/Youngjun-An/Summary/41376",
+      "id": "rg-41376",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -2785,6 +2839,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "85074",
+      "realgmUrl": "https://basketball.realgm.com/player/Nick-Perkins/Summary/85074",
+      "id": "rg-85074",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -2812,6 +2869,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "52291",
+      "realgmUrl": "https://basketball.realgm.com/player/Junyong-Choi/Summary/52291",
+      "id": "rg-52291",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -2839,6 +2899,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "41371",
+      "realgmUrl": "https://basketball.realgm.com/player/Hoon-Heo/Summary/41371",
+      "id": "rg-41371",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -2866,6 +2929,9 @@
       "fouls": 2.4,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "108036",
+      "realgmUrl": "https://basketball.realgm.com/player/Myeongjin-Seo/Summary/108036",
+      "id": "rg-108036",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -2893,6 +2959,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "223458",
+      "realgmUrl": "https://basketball.realgm.com/player/Kisang-Yu/Summary/223458",
+      "id": "rg-223458",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -2920,6 +2989,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "76229",
+      "realgmUrl": "https://basketball.realgm.com/player/Bennie-Boatwright/Summary/76229",
+      "id": "rg-76229",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -2947,6 +3019,9 @@
       "fouls": 2.1,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "202848",
+      "realgmUrl": "https://basketball.realgm.com/player/Sungwook-Kang/Summary/202848",
+      "id": "rg-202848",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -2974,6 +3049,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "92795",
+      "realgmUrl": "https://basketball.realgm.com/player/Song-Kyo-Chang/Summary/92795",
+      "id": "rg-92795",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -3001,6 +3079,9 @@
       "fouls": 2.5,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "121129",
+      "realgmUrl": "https://basketball.realgm.com/player/Jihoon-Park/Summary/121129",
+      "id": "rg-121129",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3028,6 +3109,9 @@
       "fouls": 1.6,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "54864",
+      "realgmUrl": "https://basketball.realgm.com/player/Arvin-Tolentino/Summary/54864",
+      "id": "rg-54864",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -3055,6 +3139,9 @@
       "fouls": 2.2,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "41367",
+      "realgmUrl": "https://basketball.realgm.com/player/Nakhyeon-Kim/Summary/41367",
+      "id": "rg-41367",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -3082,6 +3169,9 @@
       "fouls": 2,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "52293",
+      "realgmUrl": "https://basketball.realgm.com/player/Junhyeong-Byeon/Summary/52293",
+      "id": "rg-52293",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3109,6 +3199,9 @@
       "fouls": 2,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "24324",
+      "realgmUrl": "https://basketball.realgm.com/player/Isaiah-Hicks/Summary/24324",
+      "id": "rg-24324",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3136,6 +3229,9 @@
       "fouls": 1.6,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "108425",
+      "realgmUrl": "https://basketball.realgm.com/player/Kwan-Hee-Lee/Summary/108425",
+      "id": "rg-108425",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -3163,6 +3259,9 @@
       "fouls": 1.3,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "24928",
+      "realgmUrl": "https://basketball.realgm.com/player/Sun-Hyung-Kim/Summary/24928",
+      "id": "rg-24928",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3190,6 +3289,9 @@
       "fouls": 2.7,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "52465",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyogeun-Jeong/Summary/52465",
+      "id": "rg-52465",
       "teamId": "wonju-db-promy"
     },
     {
@@ -3217,6 +3319,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "133884",
+      "realgmUrl": "https://basketball.realgm.com/player/Junseok-Yang/Summary/133884",
+      "id": "rg-133884",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -3244,6 +3349,9 @@
       "fouls": 2.8,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "133883",
+      "realgmUrl": "https://basketball.realgm.com/player/Moobeen-Park/Summary/133883",
+      "id": "rg-133883",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -3271,6 +3379,9 @@
       "fouls": 2,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "202850",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuhyeon-Moon/Summary/202850",
+      "id": "rg-202850",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3298,6 +3409,9 @@
       "fouls": 2,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "266241",
+      "realgmUrl": "https://basketball.realgm.com/player/Han-Jun-Song/Summary/266241",
+      "id": "rg-266241",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3325,6 +3439,9 @@
       "fouls": 2.3,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "206279",
+      "realgmUrl": "https://basketball.realgm.com/player/Yoongi-Ha/Summary/206279",
+      "id": "rg-206279",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3352,6 +3469,9 @@
       "fouls": 2.6,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "206104",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Gutang/Summary/206104",
+      "id": "rg-206104",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -3379,6 +3499,9 @@
       "fouls": 1.7,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "52290",
+      "realgmUrl": "https://basketball.realgm.com/player/Sangjae-Kang/Summary/52290",
+      "id": "rg-52290",
       "teamId": "wonju-db-promy"
     },
     {
@@ -3406,6 +3529,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "186141",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungmin-Shin/Summary/186141",
+      "id": "rg-186141",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -3433,6 +3559,9 @@
       "fouls": 1.8,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "24852",
+      "realgmUrl": "https://basketball.realgm.com/player/Seounghyun-Lee/Summary/24852",
+      "id": "rg-24852",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -3460,6 +3589,9 @@
       "fouls": 2.6,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "133887",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeonghyeon-Moon/Summary/133887",
+      "id": "rg-133887",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3487,6 +3619,9 @@
       "fouls": 1.4,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "200301",
+      "realgmUrl": "https://basketball.realgm.com/player/Rhenz-Abando/Summary/200301",
+      "id": "rg-200301",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3514,6 +3649,9 @@
       "fouls": 1.8,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "243345",
+      "realgmUrl": "https://basketball.realgm.com/player/JD-Cagulangan/Summary/243345",
+      "id": "rg-243345",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3541,6 +3679,9 @@
       "fouls": 1.8,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "151472",
+      "realgmUrl": "https://basketball.realgm.com/player/Miguel-Andre-Oczon/Summary/151472",
+      "id": "rg-151472",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -3568,6 +3709,9 @@
       "fouls": 2.8,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "119766",
+      "realgmUrl": "https://basketball.realgm.com/player/Seunghui-Han/Summary/119766",
+      "id": "rg-119766",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3595,6 +3739,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "92799",
+      "realgmUrl": "https://basketball.realgm.com/player/Hongseok-Yang/Summary/92799",
+      "id": "rg-92799",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -3622,6 +3769,9 @@
       "fouls": 1.1,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "26757",
+      "realgmUrl": "https://basketball.realgm.com/player/Johnathan-Williams/Summary/26757",
+      "id": "rg-26757",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3649,6 +3799,9 @@
       "fouls": 2.9,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "199653",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Edi/Summary/199653",
+      "id": "rg-199653",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -3676,6 +3829,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "99313",
+      "realgmUrl": "https://basketball.realgm.com/player/Seong-Woo-Jeong/Summary/99313",
+      "id": "rg-99313",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -3703,6 +3859,9 @@
       "fouls": 1.9,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "146234",
+      "realgmUrl": "https://basketball.realgm.com/player/Jun-Young-Park/Summary/146234",
+      "id": "rg-146234",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -3730,6 +3889,9 @@
       "fouls": 2.3,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "175505",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaehyun-Oh/Summary/175505",
+      "id": "rg-175505",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -3757,6 +3919,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "40387",
+      "realgmUrl": "https://basketball.realgm.com/player/Yl-Jung-Kim/Summary/40387",
+      "id": "rg-40387",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -3784,6 +3949,9 @@
       "fouls": 1.3,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "182818",
+      "realgmUrl": "https://basketball.realgm.com/player/Ji-Hoon-Kang/Summary/182818",
+      "id": "rg-182818",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -3811,6 +3979,9 @@
       "fouls": 1.8,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "48267",
+      "realgmUrl": "https://basketball.realgm.com/player/Dae-Sung-Lee/Summary/48267",
+      "id": "rg-48267",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -3838,6 +4009,9 @@
       "fouls": 2.4,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "52471",
+      "realgmUrl": "https://basketball.realgm.com/player/Hobin-Han/Summary/52471",
+      "id": "rg-52471",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -3865,6 +4039,9 @@
       "fouls": 2.1,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "81432",
+      "realgmUrl": "https://basketball.realgm.com/player/Bryce-Washington/Summary/81432",
+      "id": "rg-81432",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -3892,6 +4069,9 @@
       "fouls": 1.5,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "57416",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Egbunu/Summary/57416",
+      "id": "rg-57416",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -3919,6 +4099,9 @@
       "fouls": 2.7,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "203344",
+      "realgmUrl": "https://basketball.realgm.com/player/Weon-Seok-Lee/Summary/203344",
+      "id": "rg-203344",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -3946,6 +4129,9 @@
       "fouls": 1.9,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "205785",
+      "realgmUrl": "https://basketball.realgm.com/player/Park-In-Woong/Summary/205785",
+      "id": "rg-205785",
       "teamId": "wonju-db-promy"
     },
     {
@@ -3973,6 +4159,9 @@
       "fouls": 2,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "121130",
+      "realgmUrl": "https://basketball.realgm.com/player/Chanho-Park/Summary/121130",
+      "id": "rg-121130",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -4000,6 +4189,9 @@
       "fouls": 4,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "192016",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyunwoo-Joo/Summary/192016",
+      "id": "rg-192016",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -4027,6 +4219,9 @@
       "fouls": 2.4,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "133890",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyutae-Lee/Summary/133890",
+      "id": "rg-133890",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -4054,6 +4249,9 @@
       "fouls": 1.5,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "92760",
+      "realgmUrl": "https://basketball.realgm.com/player/Essam-Mostafa/Summary/92760",
+      "id": "rg-92760",
       "teamId": "wonju-db-promy"
     },
     {
@@ -4081,6 +4279,9 @@
       "fouls": 2.9,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "250916",
+      "realgmUrl": "https://basketball.realgm.com/player/Han-jin-Jo/Summary/250916",
+      "id": "rg-250916",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -4108,6 +4309,9 @@
       "fouls": 1.5,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "108218",
+      "realgmUrl": "https://basketball.realgm.com/player/Doowon-Lee/Summary/108218",
+      "id": "rg-108218",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -4135,6 +4339,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "10879",
+      "realgmUrl": "https://basketball.realgm.com/player/Micheal-Eric/Summary/10879",
+      "id": "rg-10879",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -4162,6 +4369,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "74082",
+      "realgmUrl": "https://basketball.realgm.com/player/Dewan-Hernandez/Summary/74082",
+      "id": "rg-74082",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -4189,6 +4399,9 @@
       "fouls": 1.7,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "24858",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungwook-Choi/Summary/24858",
+      "id": "rg-24858",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -4216,6 +4429,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "117663",
+      "realgmUrl": "https://basketball.realgm.com/player/In-Deok-Jeong/Summary/117663",
+      "id": "rg-117663",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -4243,6 +4459,9 @@
       "fouls": 1.3,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "52470",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaedo-Lee/Summary/52470",
+      "id": "rg-52470",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -4270,6 +4489,9 @@
       "fouls": 1.9,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "44552",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-Seob-Lim/Summary/44552",
+      "id": "rg-44552",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -4297,6 +4519,9 @@
       "fouls": 0.8,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "184143",
+      "realgmUrl": "https://basketball.realgm.com/player/Lee-Geun-Hwi/Summary/184143",
+      "id": "rg-184143",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -4324,6 +4549,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "107113",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyrin-Galloway/Summary/107113",
+      "id": "rg-107113",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -4351,6 +4579,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "41959",
+      "realgmUrl": "https://basketball.realgm.com/player/Mangok-Mathiang/Summary/41959",
+      "id": "rg-41959",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -4378,6 +4609,9 @@
       "fouls": 1.7,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "175788",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyung-Bin-Kim/Summary/175788",
+      "id": "rg-175788",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -4405,6 +4639,9 @@
       "fouls": 1.6,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "168327",
+      "realgmUrl": "https://basketball.realgm.com/player/Eric-Romero/Summary/168327",
+      "id": "rg-168327",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -4432,6 +4669,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "28369",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaeseok-Jang/Summary/28369",
+      "id": "rg-28369",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -4459,6 +4699,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "257567",
+      "realgmUrl": "https://basketball.realgm.com/player/Ki-Chan-Yoon/Summary/257567",
+      "id": "rg-257567",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -4486,6 +4729,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "175008",
+      "realgmUrl": "https://basketball.realgm.com/player/William-Raniel-Navarro/Summary/175008",
+      "id": "rg-175008",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -4513,6 +4759,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "119764",
+      "realgmUrl": "https://basketball.realgm.com/player/Wonsang-Yun/Summary/119764",
+      "id": "rg-119764",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -4540,6 +4789,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "220846",
+      "realgmUrl": "https://basketball.realgm.com/player/Woohyeok-Yang/Summary/220846",
+      "id": "rg-220846",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -4567,6 +4819,9 @@
       "fouls": 1.9,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "242465",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeong-woong-Park/Summary/242465",
+      "id": "rg-242465",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -4594,6 +4849,9 @@
       "fouls": 1.3,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "130509",
+      "realgmUrl": "https://basketball.realgm.com/player/Sung-Won-Choi/Summary/130509",
+      "id": "rg-130509",
       "teamId": "wonju-db-promy"
     },
     {
@@ -4621,6 +4879,9 @@
       "fouls": 2.2,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "182812",
+      "realgmUrl": "https://basketball.realgm.com/player/Bobae-Kim/Summary/182812",
+      "id": "rg-182812",
       "teamId": "wonju-db-promy"
     },
     {
@@ -4648,6 +4909,9 @@
       "fouls": 3.5,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "158983",
+      "realgmUrl": "https://basketball.realgm.com/player/Se-Chang-Kim/Summary/158983",
+      "id": "rg-158983",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -4675,6 +4939,9 @@
       "fouls": 1.4,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "25276",
+      "realgmUrl": "https://basketball.realgm.com/player/Sek-Eun-Oh/Summary/25276",
+      "id": "rg-25276",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -4702,6 +4969,9 @@
       "fouls": 1.5,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "175452",
+      "realgmUrl": "https://basketball.realgm.com/player/Yong-Woo-Lee/Summary/175452",
+      "id": "rg-175452",
       "teamId": "wonju-db-promy"
     },
     {
@@ -4729,6 +4999,9 @@
       "fouls": 1.9,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "24857",
+      "realgmUrl": "https://basketball.realgm.com/player/Huiwon-Han/Summary/24857",
+      "id": "rg-24857",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -4756,6 +5029,9 @@
       "fouls": 1,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "40422",
+      "realgmUrl": "https://basketball.realgm.com/player/Ji-Hoon-Ham/Summary/40422",
+      "id": "rg-40422",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -4783,6 +5059,9 @@
       "fouls": 1.8,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "24784",
+      "realgmUrl": "https://basketball.realgm.com/player/Egidijus-Mockevicius/Summary/24784",
+      "id": "rg-24784",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -4810,6 +5089,9 @@
       "fouls": 1.6,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "52553",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaylen-Johnson/Summary/52553",
+      "id": "rg-52553",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -4837,6 +5119,9 @@
       "fouls": 1.9,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "44401",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyun-Min-Choi/Summary/44401",
+      "id": "rg-44401",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -4864,6 +5149,9 @@
       "fouls": 1.2,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "203343",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaon-Moon/Summary/203343",
+      "id": "rg-203343",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -4891,6 +5179,9 @@
       "fouls": 1.8,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "175552",
+      "realgmUrl": "https://basketball.realgm.com/player/Younghyun-Kim/Summary/175552",
+      "id": "rg-175552",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -4918,6 +5209,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "41369",
+      "realgmUrl": "https://basketball.realgm.com/player/Gookchan-Kim/Summary/41369",
+      "id": "rg-41369",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -4945,6 +5239,9 @@
       "fouls": 1.5,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "199649",
+      "realgmUrl": "https://basketball.realgm.com/player/Yujin-Lee/Summary/199649",
+      "id": "rg-199649",
       "teamId": "wonju-db-promy"
     },
     {
@@ -4972,6 +5269,9 @@
       "fouls": 1.4,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "92800",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyungwon-Kim/Summary/92800",
+      "id": "rg-92800",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -4999,6 +5299,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "40391",
+      "realgmUrl": "https://basketball.realgm.com/player/Il-Young-Heo/Summary/40391",
+      "id": "rg-40391",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -5026,6 +5329,9 @@
       "fouls": 1.4,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "257677",
+      "realgmUrl": "https://basketball.realgm.com/player/Geon-Ha-Kim/Summary/257677",
+      "id": "rg-257677",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5053,6 +5359,9 @@
       "fouls": 0.9,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "261225",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Figueroa/Summary/261225",
+      "id": "rg-261225",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5080,6 +5389,9 @@
       "fouls": 1.4,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "123715",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeong-Jun-Won/Summary/123715",
+      "id": "rg-123715",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5107,6 +5419,9 @@
       "fouls": 1.3,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "18595",
+      "realgmUrl": "https://basketball.realgm.com/player/Darryl-Monroe/Summary/18595",
+      "id": "rg-18595",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -5134,6 +5449,9 @@
       "fouls": 1.1,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "28878",
+      "realgmUrl": "https://basketball.realgm.com/player/Jongkyu-Kim/Summary/28878",
+      "id": "rg-28878",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -5161,6 +5479,9 @@
       "fouls": 1.6,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "24926",
+      "realgmUrl": "https://basketball.realgm.com/player/Chang-Young-Jung/Summary/24926",
+      "id": "rg-24926",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -5188,6 +5509,9 @@
       "fouls": 0.6,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "52466",
+      "realgmUrl": "https://basketball.realgm.com/player/Seonghyen-Jeon/Summary/52466",
+      "id": "rg-52466",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -5215,6 +5539,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "257565",
+      "realgmUrl": "https://basketball.realgm.com/player/Min-Gyu-Kim/Summary/257565",
+      "id": "rg-257565",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -5242,6 +5569,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "182814",
+      "realgmUrl": "https://basketball.realgm.com/player/Donghyun-Kim/Summary/182814",
+      "id": "rg-182814",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -5269,6 +5599,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "242497",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyung-Chan-Choi/Summary/242497",
+      "id": "rg-242497",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -5296,6 +5629,9 @@
       "fouls": 2,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "25844",
+      "realgmUrl": "https://basketball.realgm.com/player/Seongmo-Choi/Summary/25844",
+      "id": "rg-25844",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -5323,6 +5659,9 @@
       "fouls": 1,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "128638",
+      "realgmUrl": "https://basketball.realgm.com/player/Gyeong-Gi-Hong/Summary/128638",
+      "id": "rg-128638",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -5350,6 +5689,9 @@
       "fouls": 1.7,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "28377",
+      "realgmUrl": "https://basketball.realgm.com/player/Bukyung-Choi/Summary/28377",
+      "id": "rg-28377",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -5377,6 +5719,9 @@
       "fouls": 0.7,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "52468",
+      "realgmUrl": "https://basketball.realgm.com/player/Daeheon-Lee/Summary/52468",
+      "id": "rg-52468",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5404,6 +5749,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "163889",
+      "realgmUrl": "https://basketball.realgm.com/player/Jin-Gwang-Choi/Summary/163889",
+      "id": "rg-163889",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -5431,6 +5779,9 @@
       "fouls": 2,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "203967",
+      "realgmUrl": "https://basketball.realgm.com/player/Kim-Young-Hyun/Summary/203967",
+      "id": "rg-203967",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -5458,6 +5809,9 @@
       "fouls": 1.1,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "28375",
+      "realgmUrl": "https://basketball.realgm.com/player/Junghyun-Lee/Summary/28375",
+      "id": "rg-28375",
       "teamId": "wonju-db-promy"
     },
     {
@@ -5485,6 +5839,9 @@
       "fouls": 1.8,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "257139",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeong-Hwan-Park/Summary/257139",
+      "id": "rg-257139",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5512,6 +5869,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "223438",
+      "realgmUrl": "https://basketball.realgm.com/player/Jooyoung-Lee/Summary/223438",
+      "id": "rg-223438",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -5539,6 +5899,9 @@
       "fouls": 1.4,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "257678",
+      "realgmUrl": "https://basketball.realgm.com/player/Kang-Mim-Choi/Summary/257678",
+      "id": "rg-257678",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5566,6 +5929,9 @@
       "fouls": 2.2,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "45254",
+      "realgmUrl": "https://basketball.realgm.com/player/Hee-Jae-Jeong/Summary/45254",
+      "id": "rg-45254",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -5593,6 +5959,9 @@
       "fouls": 1.2,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "254361",
+      "realgmUrl": "https://basketball.realgm.com/player/Lee-Min-Seo/Summary/254361",
+      "id": "rg-254361",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -5620,6 +5989,9 @@
       "fouls": 1.2,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "205789",
+      "realgmUrl": "https://basketball.realgm.com/player/Donghyuk-Shin/Summary/205789",
+      "id": "rg-205789",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -5647,6 +6019,9 @@
       "fouls": 1.5,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "44598",
+      "realgmUrl": "https://basketball.realgm.com/player/Myung-Jin-Kim/Summary/44598",
+      "id": "rg-44598",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -5674,6 +6049,9 @@
       "fouls": 1.2,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "243003",
+      "realgmUrl": "https://basketball.realgm.com/player/Jun-Hyeok-So/Summary/243003",
+      "id": "rg-243003",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -5701,6 +6079,9 @@
       "fouls": 1.1,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "224333",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungjae-Park/Summary/224333",
+      "id": "rg-224333",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -5728,6 +6109,9 @@
       "fouls": 0.9,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "242360",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-eon-Lim/Summary/242360",
+      "id": "rg-242360",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -5755,6 +6139,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "82352",
+      "realgmUrl": "https://basketball.realgm.com/player/Byeonghun-Bae/Summary/82352",
+      "id": "rg-82352",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -5782,6 +6169,9 @@
       "fouls": 0.8,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "205788",
+      "realgmUrl": "https://basketball.realgm.com/player/Jung-Ho-Young/Summary/205788",
+      "id": "rg-205788",
       "teamId": "wonju-db-promy"
     },
     {
@@ -5809,6 +6199,9 @@
       "fouls": 1.5,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "102586",
+      "realgmUrl": "https://basketball.realgm.com/player/Seo-Min-Su/Summary/102586",
+      "id": "rg-102586",
       "teamId": "wonju-db-promy"
     },
     {
@@ -5836,6 +6229,9 @@
       "fouls": 0.8,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "163236",
+      "realgmUrl": "https://basketball.realgm.com/player/Jun-Eun-Park/Summary/163236",
+      "id": "rg-163236",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5863,6 +6259,9 @@
       "fouls": 1.5,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "143291",
+      "realgmUrl": "https://basketball.realgm.com/player/Sung-Won-Yoon/Summary/143291",
+      "id": "rg-143291",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -5890,6 +6289,9 @@
       "fouls": 2.2,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "143210",
+      "realgmUrl": "https://basketball.realgm.com/player/Jin-Yu-Kim/Summary/143210",
+      "id": "rg-143210",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -5917,6 +6319,9 @@
       "fouls": 1.4,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "59543",
+      "realgmUrl": "https://basketball.realgm.com/player/Junbeom-Jeon/Summary/59543",
+      "id": "rg-59543",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -5944,6 +6349,9 @@
       "fouls": 2,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "182816",
+      "realgmUrl": "https://basketball.realgm.com/player/Jae-Min-Kang/Summary/182816",
+      "id": "rg-182816",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -5971,6 +6379,9 @@
       "fouls": 1.1,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "175556",
+      "realgmUrl": "https://basketball.realgm.com/player/Yun-Ki-Lee/Summary/175556",
+      "id": "rg-175556",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -5998,6 +6409,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "24854",
+      "realgmUrl": "https://basketball.realgm.com/player/Sanghyeok-Han/Summary/24854",
+      "id": "rg-24854",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6025,6 +6439,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "3726",
+      "realgmUrl": "https://basketball.realgm.com/player/Jin-Soo-Choi/Summary/3726",
+      "id": "rg-3726",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6052,6 +6469,9 @@
       "fouls": 0.7,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "242356",
+      "realgmUrl": "https://basketball.realgm.com/player/Geun-jun-Lee/Summary/242356",
+      "id": "rg-242356",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -6079,6 +6499,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "63060",
+      "realgmUrl": "https://basketball.realgm.com/player/Min-Goo-Jang/Summary/63060",
+      "id": "rg-63060",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6106,6 +6529,9 @@
       "fouls": 1,
       "teamRealgmId": "426",
       "teamName": "Anyang Kwan Jang",
+      "realgmPlayerId": "225189",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungbin-Pyo/Summary/225189",
+      "id": "rg-225189",
       "teamId": "anyang-jung-kwan-jang"
     },
     {
@@ -6133,6 +6559,9 @@
       "fouls": 1,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "41372",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyunwoo-Jeon/Summary/41372",
+      "id": "rg-41372",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6160,6 +6589,9 @@
       "fouls": 1.3,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "257690",
+      "realgmUrl": "https://basketball.realgm.com/player/Seong-Woo-Ahn/Summary/257690",
+      "id": "rg-257690",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -6187,6 +6619,9 @@
       "fouls": 1,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "257566",
+      "realgmUrl": "https://basketball.realgm.com/player/Seon-Woo-Kim/Summary/257566",
+      "id": "rg-257566",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6214,6 +6649,9 @@
       "fouls": 1.5,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "82496",
+      "realgmUrl": "https://basketball.realgm.com/player/Won-hyuk-Choi/Summary/82496",
+      "id": "rg-82496",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -6241,6 +6679,9 @@
       "fouls": 0.4,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "250534",
+      "realgmUrl": "https://basketball.realgm.com/player/Daegyun-Lee/Summary/250534",
+      "id": "rg-250534",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -6268,6 +6709,9 @@
       "fouls": 1.1,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "119762",
+      "realgmUrl": "https://basketball.realgm.com/player/Jiwon-Park/Summary/119762",
+      "id": "rg-119762",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -6295,6 +6739,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "220541",
+      "realgmUrl": "https://basketball.realgm.com/player/Hohyun-Lee/Summary/220541",
+      "id": "rg-220541",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -6322,6 +6769,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "182819",
+      "realgmUrl": "https://basketball.realgm.com/player/Juyoung-Shin/Summary/182819",
+      "id": "rg-182819",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6349,6 +6799,9 @@
       "fouls": 1.9,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "242710",
+      "realgmUrl": "https://basketball.realgm.com/player/Seong-Jo-Jeong/Summary/242710",
+      "id": "rg-242710",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -6376,6 +6829,9 @@
       "fouls": 0.5,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "133886",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungwoo-Lee/Summary/133886",
+      "id": "rg-133886",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -6403,6 +6859,9 @@
       "fouls": 1.4,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "24859",
+      "realgmUrl": "https://basketball.realgm.com/player/Seonggon-Moon/Summary/24859",
+      "id": "rg-24859",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -6430,6 +6889,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "262636",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeong-Hyeon-Lim/Summary/262636",
+      "id": "rg-262636",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6457,6 +6919,9 @@
       "fouls": 2.3,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "242471",
+      "realgmUrl": "https://basketball.realgm.com/player/Yeong-Chan-Hwang/Summary/242471",
+      "id": "rg-242471",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -6484,6 +6949,9 @@
       "fouls": 1.1,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "197259",
+      "realgmUrl": "https://basketball.realgm.com/player/Do-Hoon-Lee/Summary/197259",
+      "id": "rg-197259",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -6511,6 +6979,9 @@
       "fouls": 0,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "108029",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-Jun-Kim/Summary/108029",
+      "id": "rg-108029",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -6538,6 +7009,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "224591",
+      "realgmUrl": "https://basketball.realgm.com/player/Seongho-Na/Summary/224591",
+      "id": "rg-224591",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6565,6 +7039,9 @@
       "fouls": 1,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "52296",
+      "realgmUrl": "https://basketball.realgm.com/player/Junghyeon-Park/Summary/52296",
+      "id": "rg-52296",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6592,6 +7069,9 @@
       "fouls": 0.4,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "257660",
+      "realgmUrl": "https://basketball.realgm.com/player/Min-Jae-Park/Summary/257660",
+      "id": "rg-257660",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -6619,6 +7099,9 @@
       "fouls": 0.9,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "182817",
+      "realgmUrl": "https://basketball.realgm.com/player/Taehun-Kim/Summary/182817",
+      "id": "rg-182817",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -6646,6 +7129,9 @@
       "fouls": 2,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "242482",
+      "realgmUrl": "https://basketball.realgm.com/player/Jun-Son/Summary/242482",
+      "id": "rg-242482",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6673,6 +7159,9 @@
       "fouls": 0.8,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "24853",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-Yeop-Lee/Summary/24853",
+      "id": "rg-24853",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -6700,6 +7189,9 @@
       "fouls": 0,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "206131",
+      "realgmUrl": "https://basketball.realgm.com/player/Yeo-Jun-Hyung/Summary/206131",
+      "id": "rg-206131",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -6727,6 +7219,9 @@
       "fouls": 1,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "208579",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungchan-In/Summary/208579",
+      "id": "rg-208579",
       "teamId": "wonju-db-promy"
     },
     {
@@ -6754,6 +7249,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "146219",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-Hyun-Woo/Summary/146219",
+      "id": "rg-146219",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6781,6 +7279,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "92792",
+      "realgmUrl": "https://basketball.realgm.com/player/Jae-Hyuk-Yang/Summary/92792",
+      "id": "rg-92792",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6808,6 +7309,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "92798",
+      "realgmUrl": "https://basketball.realgm.com/player/Hun-Kim/Summary/92798",
+      "id": "rg-92798",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -6835,6 +7339,9 @@
       "fouls": 0.5,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "242772",
+      "realgmUrl": "https://basketball.realgm.com/player/Sung-jae-Park/Summary/242772",
+      "id": "rg-242772",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -6862,6 +7369,9 @@
       "fouls": 1.2,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "195667",
+      "realgmUrl": "https://basketball.realgm.com/player/Eun-Hoo-Jo/Summary/195667",
+      "id": "rg-195667",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -6889,6 +7399,9 @@
       "fouls": 1,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "59892",
+      "realgmUrl": "https://basketball.realgm.com/player/Jihun-Park/Summary/59892",
+      "id": "rg-59892",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -6916,6 +7429,9 @@
       "fouls": 0.2,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "24853",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-Yeop-Lee/Summary/24853",
+      "id": "rg-24853",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -6943,6 +7459,9 @@
       "fouls": 0.2,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "223512",
+      "realgmUrl": "https://basketball.realgm.com/player/Jong-Ha-Park/Summary/223512",
+      "id": "rg-223512",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -6970,6 +7489,9 @@
       "fouls": 1,
       "teamRealgmId": "1119",
       "teamName": "Changwon LG Sakers",
+      "realgmPlayerId": "259514",
+      "realgmUrl": "https://basketball.realgm.com/player/Jun-Young-Kim/Summary/259514",
+      "id": "rg-259514",
       "teamId": "changwon-lg-sakers"
     },
     {
@@ -6997,6 +7519,9 @@
       "fouls": 0.7,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "121131",
+      "realgmUrl": "https://basketball.realgm.com/player/Jincheol-Park/Summary/121131",
+      "id": "rg-121131",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -7024,6 +7549,9 @@
       "fouls": 0.2,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "25843",
+      "realgmUrl": "https://basketball.realgm.com/player/Changjin-Choi/Summary/25843",
+      "id": "rg-25843",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -7051,6 +7579,9 @@
       "fouls": 0.3,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "182815",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyubeom-Kim/Summary/182815",
+      "id": "rg-182815",
       "teamId": "wonju-db-promy"
     },
     {
@@ -7078,6 +7609,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1120",
       "teamName": "Korea Gas Corporation",
+      "realgmPlayerId": "28371",
+      "realgmUrl": "https://basketball.realgm.com/player/Bawee-Cha/Summary/28371",
+      "id": "rg-28371",
       "teamId": "daegu-korea-gas-corporation"
     },
     {
@@ -7105,6 +7639,9 @@
       "fouls": 1,
       "teamRealgmId": "579",
       "teamName": "Ulsan Mobis Phoebus",
+      "realgmPlayerId": "207649",
+      "realgmUrl": "https://basketball.realgm.com/player/Tae-Wan-Kim/Summary/207649",
+      "id": "rg-207649",
       "teamId": "ulsan-hyundai-mobis-phoebus"
     },
     {
@@ -7132,6 +7669,9 @@
       "fouls": 2,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "226524",
+      "realgmUrl": "https://basketball.realgm.com/player/Seungbin-Choi/Summary/226524",
+      "id": "rg-226524",
       "teamId": "wonju-db-promy"
     },
     {
@@ -7159,6 +7699,9 @@
       "fouls": 0,
       "teamRealgmId": "425",
       "teamName": "Seoul Samsung Thunders",
+      "realgmPlayerId": "146578",
+      "realgmUrl": "https://basketball.realgm.com/player/Hansol-Kim/Summary/146578",
+      "id": "rg-146578",
       "teamId": "seoul-samsung-thunders"
     },
     {
@@ -7186,6 +7729,9 @@
       "fouls": 1.5,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "257691",
+      "realgmUrl": "https://basketball.realgm.com/player/Ji-Won-Shin/Summary/257691",
+      "id": "rg-257691",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -7213,6 +7759,9 @@
       "fouls": 0,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "242443",
+      "realgmUrl": "https://basketball.realgm.com/player/Dong-won-Seo/Summary/242443",
+      "id": "rg-242443",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -7240,6 +7789,9 @@
       "fouls": 0,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "52469",
+      "realgmUrl": "https://basketball.realgm.com/player/Hyeonseok-Lee/Summary/52469",
+      "id": "rg-52469",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -7267,6 +7819,9 @@
       "fouls": 0.3,
       "teamRealgmId": "151",
       "teamName": "Seoul SK",
+      "realgmPlayerId": "254377",
+      "realgmUrl": "https://basketball.realgm.com/player/Geonu-Kim/Summary/254377",
+      "id": "rg-254377",
       "teamId": "seoul-sk-knights"
     },
     {
@@ -7294,6 +7849,9 @@
       "fouls": 0,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "92801",
+      "realgmUrl": "https://basketball.realgm.com/player/Youn-Su-Lee/Summary/92801",
+      "id": "rg-92801",
       "teamId": "wonju-db-promy"
     },
     {
@@ -7321,6 +7879,9 @@
       "fouls": 1,
       "teamRealgmId": "581",
       "teamName": "Wonju Dongbu Promy",
+      "realgmPlayerId": "242907",
+      "realgmUrl": "https://basketball.realgm.com/player/Seung-Yeop-Baek/Summary/242907",
+      "id": "rg-242907",
       "teamId": "wonju-db-promy"
     },
     {
@@ -7348,6 +7909,9 @@
       "fouls": 0,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "199642",
+      "realgmUrl": "https://basketball.realgm.com/player/Taehyun-Kang/Summary/199642",
+      "id": "rg-199642",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -7375,6 +7939,9 @@
       "fouls": 0,
       "teamRealgmId": "1118",
       "teamName": "Jeonju KCC Egis",
+      "realgmPlayerId": "259351",
+      "realgmUrl": "https://basketball.realgm.com/player/Yun-Seong-Kim/Summary/259351",
+      "id": "rg-259351",
       "teamId": "busan-kcc-egis"
     },
     {
@@ -7402,6 +7969,9 @@
       "fouls": 0,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "190518",
+      "realgmUrl": "https://basketball.realgm.com/player/Junhwan-Kim/Summary/190518",
+      "id": "rg-190518",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -7429,6 +7999,9 @@
       "fouls": 0.4,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "242710",
+      "realgmUrl": "https://basketball.realgm.com/player/Seong-Jo-Jeong/Summary/242710",
+      "id": "rg-242710",
       "teamId": "goyang-sono-skygunners"
     },
     {
@@ -7456,6 +8029,9 @@
       "fouls": 0.5,
       "teamRealgmId": "580",
       "teamName": "Suwon KT Sonicboom",
+      "realgmPlayerId": "206176",
+      "realgmUrl": "https://basketball.realgm.com/player/Go-Chan-Hyuk/Summary/206176",
+      "id": "rg-206176",
       "teamId": "suwon-kt-sonicboom"
     },
     {
@@ -7483,6 +8059,9 @@
       "fouls": 0.5,
       "teamRealgmId": "992",
       "teamName": "Goyang Sono Skygunners",
+      "realgmPlayerId": "153572",
+      "realgmUrl": "https://basketball.realgm.com/player/Seokho-Jo/Summary/153572",
+      "id": "rg-153572",
       "teamId": "goyang-sono-skygunners"
     }
   ],
@@ -7886,6 +8465,7 @@
     "avgPoints": [
       {
         "name": "Jameel Warney",
+        "playerId": "rg-28292",
         "headshot": null,
         "team": "SKK",
         "teamId": "seoul-sk-knights",
@@ -7894,6 +8474,7 @@
       },
       {
         "name": "Henry Ellenson",
+        "playerId": "rg-54842",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -7902,6 +8483,7 @@
       },
       {
         "name": "Rayshaun Hammonds",
+        "playerId": "rg-104917",
         "headshot": null,
         "team": "MOB",
         "teamId": "ulsan-hyundai-mobis-phoebus",
@@ -7910,6 +8492,7 @@
       },
       {
         "name": "Shawn Long",
+        "playerId": "rg-28798",
         "headshot": null,
         "team": "KCC",
         "teamId": "busan-kcc-egis",
@@ -7918,6 +8501,7 @@
       },
       {
         "name": "Junghyun Lee",
+        "playerId": "rg-108030",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -7926,6 +8510,7 @@
       },
       {
         "name": "Derrick Williams",
+        "playerId": "rg-6644",
         "headshot": null,
         "team": "SON",
         "teamId": "suwon-kt-sonicboom",
@@ -7934,6 +8519,7 @@
       },
       {
         "name": "Ethan Alvano",
+        "playerId": "rg-80742",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -7942,6 +8528,7 @@
       },
       {
         "name": "Nathan Knight",
+        "playerId": "rg-107310",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -7950,6 +8537,7 @@
       },
       {
         "name": "Kerem Kanter",
+        "playerId": "rg-42177",
         "headshot": null,
         "team": "SAM",
         "teamId": "seoul-samsung-thunders",
@@ -7958,6 +8546,7 @@
       },
       {
         "name": "Andrew Nicholson",
+        "playerId": "rg-10813",
         "headshot": null,
         "team": "SAM",
         "teamId": "seoul-samsung-thunders",
@@ -7968,6 +8557,7 @@
     "avgRebounds": [
       {
         "name": "Assem Marei",
+        "playerId": "rg-28587",
         "headshot": null,
         "team": "CHA",
         "teamId": "changwon-lg-sakers",
@@ -7976,6 +8566,7 @@
       },
       {
         "name": "Shawn Long",
+        "playerId": "rg-28798",
         "headshot": null,
         "team": "KCC",
         "teamId": "busan-kcc-egis",
@@ -7984,6 +8575,7 @@
       },
       {
         "name": "Jameel Warney",
+        "playerId": "rg-28292",
         "headshot": null,
         "team": "SKK",
         "teamId": "seoul-sk-knights",
@@ -7992,6 +8584,7 @@
       },
       {
         "name": "Nathan Knight",
+        "playerId": "rg-107310",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -8000,6 +8593,7 @@
       },
       {
         "name": "Guna Ra",
+        "playerId": "rg-23297",
         "headshot": null,
         "team": "ETLAND",
         "teamId": "daegu-korea-gas-corporation",
@@ -8008,6 +8602,7 @@
       },
       {
         "name": "Henry Ellenson",
+        "playerId": "rg-54842",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -8016,6 +8611,7 @@
       },
       {
         "name": "Kerem Kanter",
+        "playerId": "rg-42177",
         "headshot": null,
         "team": "SAM",
         "teamId": "seoul-samsung-thunders",
@@ -8024,6 +8620,7 @@
       },
       {
         "name": "Rayshaun Hammonds",
+        "playerId": "rg-104917",
         "headshot": null,
         "team": "MOB",
         "teamId": "ulsan-hyundai-mobis-phoebus",
@@ -8032,6 +8629,7 @@
       },
       {
         "name": "Johnny O'Bryant",
+        "playerId": "rg-24170",
         "headshot": null,
         "team": "ANY",
         "teamId": "anyang-jung-kwan-jang",
@@ -8040,6 +8638,7 @@
       },
       {
         "name": "Karl Kevin Quiambao",
+        "playerId": "rg-200302",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -8050,6 +8649,7 @@
     "avgAssists": [
       {
         "name": "Hoon Heo",
+        "playerId": "rg-41371",
         "headshot": null,
         "team": "KCC",
         "teamId": "busan-kcc-egis",
@@ -8058,6 +8658,7 @@
       },
       {
         "name": "Ethan Alvano",
+        "playerId": "rg-80742",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -8066,6 +8667,7 @@
       },
       {
         "name": "Moobeen Park",
+        "playerId": "rg-133883",
         "headshot": null,
         "team": "MOB",
         "teamId": "ulsan-hyundai-mobis-phoebus",
@@ -8074,6 +8676,7 @@
       },
       {
         "name": "Junseok Yang",
+        "playerId": "rg-133884",
         "headshot": null,
         "team": "CHA",
         "teamId": "changwon-lg-sakers",
@@ -8082,6 +8685,7 @@
       },
       {
         "name": "Assem Marei",
+        "playerId": "rg-28587",
         "headshot": null,
         "team": "CHA",
         "teamId": "changwon-lg-sakers",
@@ -8090,6 +8694,7 @@
       },
       {
         "name": "Junghyun Lee",
+        "playerId": "rg-108030",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -8098,6 +8703,7 @@
       },
       {
         "name": "Myeongjin Seo",
+        "playerId": "rg-108036",
         "headshot": null,
         "team": "MOB",
         "teamId": "ulsan-hyundai-mobis-phoebus",
@@ -8106,6 +8712,7 @@
       },
       {
         "name": "Jameel Warney",
+        "playerId": "rg-28292",
         "headshot": null,
         "team": "SKK",
         "teamId": "seoul-sk-knights",
@@ -8114,6 +8721,7 @@
       },
       {
         "name": "Samjosef Belangel",
+        "playerId": "rg-182444",
         "headshot": null,
         "team": "ETLAND",
         "teamId": "daegu-korea-gas-corporation",
@@ -8122,6 +8730,7 @@
       },
       {
         "name": "Jihoon Park",
+        "playerId": "rg-121129",
         "headshot": null,
         "team": "ANY",
         "teamId": "anyang-jung-kwan-jang",
@@ -8132,6 +8741,7 @@
     "avgSteals": [
       {
         "name": "Assem Marei",
+        "playerId": "rg-28587",
         "headshot": null,
         "team": "CHA",
         "teamId": "changwon-lg-sakers",
@@ -8140,6 +8750,7 @@
       },
       {
         "name": "Ethan Alvano",
+        "playerId": "rg-80742",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -8148,6 +8759,7 @@
       },
       {
         "name": "Sungwook Kang",
+        "playerId": "rg-202848",
         "headshot": null,
         "team": "SON",
         "teamId": "suwon-kt-sonicboom",
@@ -8156,6 +8768,7 @@
       },
       {
         "name": "Yuhyeon Moon",
+        "playerId": "rg-202850",
         "headshot": null,
         "team": "ANY",
         "teamId": "anyang-jung-kwan-jang",
@@ -8164,6 +8777,7 @@
       },
       {
         "name": "Rayshaun Hammonds",
+        "playerId": "rg-104917",
         "headshot": null,
         "team": "MOB",
         "teamId": "ulsan-hyundai-mobis-phoebus",
@@ -8172,6 +8786,7 @@
       },
       {
         "name": "Junghyun Lee",
+        "playerId": "rg-108030",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -8180,6 +8795,7 @@
       },
       {
         "name": "Youngjun An",
+        "playerId": "rg-41376",
         "headshot": null,
         "team": "SKK",
         "teamId": "seoul-sk-knights",
@@ -8188,6 +8804,7 @@
       },
       {
         "name": "Justin Gutang",
+        "playerId": "rg-206104",
         "headshot": null,
         "team": "SAM",
         "teamId": "seoul-samsung-thunders",
@@ -8196,6 +8813,7 @@
       },
       {
         "name": "Jameel Warney",
+        "playerId": "rg-28292",
         "headshot": null,
         "team": "SKK",
         "teamId": "seoul-sk-knights",
@@ -8204,6 +8822,7 @@
       },
       {
         "name": "Derrick Williams",
+        "playerId": "rg-6644",
         "headshot": null,
         "team": "SON",
         "teamId": "suwon-kt-sonicboom",
@@ -8214,6 +8833,7 @@
     "avgBlocks": [
       {
         "name": "Jameel Warney",
+        "playerId": "rg-28292",
         "headshot": null,
         "team": "SKK",
         "teamId": "seoul-sk-knights",
@@ -8222,6 +8842,7 @@
       },
       {
         "name": "Nathan Knight",
+        "playerId": "rg-107310",
         "headshot": null,
         "team": "GOY",
         "teamId": "goyang-sono-skygunners",
@@ -8230,6 +8851,7 @@
       },
       {
         "name": "Junyong Choi",
+        "playerId": "rg-52291",
         "headshot": null,
         "team": "KCC",
         "teamId": "busan-kcc-egis",
@@ -8238,6 +8860,7 @@
       },
       {
         "name": "Hyogeun Jeong",
+        "playerId": "rg-52465",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -8246,6 +8869,7 @@
       },
       {
         "name": "Rhenz Abando",
+        "playerId": "rg-200301",
         "headshot": null,
         "team": "ANY",
         "teamId": "anyang-jung-kwan-jang",
@@ -8254,6 +8878,7 @@
       },
       {
         "name": "Henry Ellenson",
+        "playerId": "rg-54842",
         "headshot": null,
         "team": "DON",
         "teamId": "wonju-db-promy",
@@ -8262,6 +8887,7 @@
       },
       {
         "name": "Shawn Long",
+        "playerId": "rg-28798",
         "headshot": null,
         "team": "KCC",
         "teamId": "busan-kcc-egis",
@@ -8270,6 +8896,7 @@
       },
       {
         "name": "Rayshaun Hammonds",
+        "playerId": "rg-104917",
         "headshot": null,
         "team": "MOB",
         "teamId": "ulsan-hyundai-mobis-phoebus",
@@ -8278,6 +8905,7 @@
       },
       {
         "name": "Yoongi Ha",
+        "playerId": "rg-206279",
         "headshot": null,
         "team": "SON",
         "teamId": "suwon-kt-sonicboom",
@@ -8286,6 +8914,7 @@
       },
       {
         "name": "Weon Seok Lee",
+        "playerId": "rg-203344",
         "headshot": null,
         "team": "SAM",
         "teamId": "seoul-samsung-thunders",

@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2025-2026",
-  "fetchedAt": "2026-09-11T00:49:59.405Z",
+  "fetchedAt": "2026-09-11T01:04:01.361Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -204,7 +204,7 @@
   "rosters": {
     "rg-2204": [
       {
-        "id": "rg-2204-anthony-harris",
+        "id": "rg-122386",
         "name": "Anthony Harris",
         "jersey": null,
         "position": null,
@@ -215,7 +215,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-alejo-britos",
+        "id": "rg-255082",
         "name": "Alejo Britos",
         "jersey": null,
         "position": null,
@@ -226,7 +226,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-eddy-carvalho",
+        "id": "rg-40973",
         "name": "Eddy Carvalho",
         "jersey": null,
         "position": null,
@@ -237,7 +237,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-alejandro-grant",
+        "id": "rg-131092",
         "name": "Alejandro Grant",
         "jersey": null,
         "position": null,
@@ -248,7 +248,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-vinicius-malachias",
+        "id": "rg-144419",
         "name": "Vinicius Malachias",
         "jersey": null,
         "position": null,
@@ -259,7 +259,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-matheus-weber-barcelos",
+        "id": "rg-223406",
         "name": "Matheus Weber Barcelos",
         "jersey": null,
         "position": null,
@@ -270,7 +270,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-tarek-santana",
+        "id": "rg-223409",
         "name": "Tarek Santana",
         "jersey": null,
         "position": null,
@@ -281,7 +281,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-bruno-caribaux",
+        "id": "rg-260913",
         "name": "Bruno Caribaux",
         "jersey": null,
         "position": null,
@@ -292,7 +292,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-felipe-dalaqua-almentra",
+        "id": "rg-157688",
         "name": "Felipe Dalaqua Almentra",
         "jersey": null,
         "position": null,
@@ -303,7 +303,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-hatila-passos",
+        "id": "rg-9090",
         "name": "Hatila Passos",
         "jersey": null,
         "position": null,
@@ -314,7 +314,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-breno-leoterio-dos-santos",
+        "id": "rg-208556",
         "name": "Breno Leoterio dos Santos",
         "jersey": null,
         "position": null,
@@ -325,7 +325,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-myles-thomas",
+        "id": "rg-110871",
         "name": "Myles Thomas",
         "jersey": null,
         "position": null,
@@ -336,7 +336,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-matheus-leoni-oliveira",
+        "id": "rg-151206",
         "name": "Matheus Leoni Oliveira",
         "jersey": null,
         "position": null,
@@ -347,7 +347,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-julio-ramos",
+        "id": "rg-266127",
         "name": "Julio Ramos",
         "jersey": null,
         "position": null,
@@ -358,7 +358,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2204-carlos-farias-paiva",
+        "id": "rg-254583",
         "name": "Carlos Farias Paiva",
         "jersey": null,
         "position": null,
@@ -371,7 +371,7 @@
     ],
     "rg-1289": [
       {
-        "id": "rg-1289-alex-mudronja",
+        "id": "rg-107899",
         "name": "Alex Mudronja",
         "jersey": null,
         "position": null,
@@ -382,7 +382,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-michael-dupree",
+        "id": "rg-113595",
         "name": "Michael Dupree",
         "jersey": null,
         "position": null,
@@ -393,7 +393,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-bernardo-da-silva",
+        "id": "rg-108571",
         "name": "Bernardo Da Silva",
         "jersey": null,
         "position": null,
@@ -404,7 +404,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-gabriel-fernandes",
+        "id": "rg-130422",
         "name": "Gabriel Fernandes",
         "jersey": null,
         "position": null,
@@ -415,7 +415,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-fernando-salsamendi",
+        "id": "rg-111642",
         "name": "Fernando Salsamendi",
         "jersey": null,
         "position": null,
@@ -426,7 +426,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-aleksa-popovic",
+        "id": "rg-97376",
         "name": "Aleksa Popovic",
         "jersey": null,
         "position": null,
@@ -437,7 +437,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-jack-gohlke",
+        "id": "rg-140540",
         "name": "Jack Gohlke",
         "jersey": null,
         "position": null,
@@ -448,7 +448,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-rafael-alberton-rodrigues",
+        "id": "rg-150738",
         "name": "Rafael Alberton Rodrigues",
         "jersey": null,
         "position": null,
@@ -459,7 +459,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-jean-cardoso",
+        "id": "rg-150734",
         "name": "Jean Cardoso",
         "jersey": null,
         "position": null,
@@ -470,7 +470,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-augusto-vieira-costa",
+        "id": "rg-254593",
         "name": "Augusto Vieira Costa",
         "jersey": null,
         "position": null,
@@ -481,7 +481,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-samuel-amorim-oliveira",
+        "id": "rg-187752",
         "name": "Samuel Amorim Oliveira",
         "jersey": null,
         "position": null,
@@ -492,7 +492,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-wilton-caua-de-paula-silva",
+        "id": "rg-228096",
         "name": "Wilton Caua de Paula Silva",
         "jersey": null,
         "position": null,
@@ -503,7 +503,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1289-jelliel-mayan-ferreira-marcolino",
+        "id": "rg-239907",
         "name": "Jelliel Mayan Ferreira Marcolino",
         "jersey": null,
         "position": null,
@@ -516,7 +516,7 @@
     ],
     "rg-69": [
       {
-        "id": "rg-69-dontrell-brite",
+        "id": "rg-55460",
         "name": "Dontrell Brite",
         "jersey": null,
         "position": null,
@@ -527,7 +527,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-andre-barbosa",
+        "id": "rg-142713",
         "name": "Andre Barbosa",
         "jersey": null,
         "position": null,
@@ -538,7 +538,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-alex-garcia",
+        "id": "rg-1115",
         "name": "Alex Garcia",
         "jersey": null,
         "position": null,
@@ -549,7 +549,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-matheus-silva",
+        "id": "rg-148001",
         "name": "Matheus Silva",
         "jersey": null,
         "position": null,
@@ -560,7 +560,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-jose-materan",
+        "id": "rg-103369",
         "name": "Jose Materan",
         "jersey": null,
         "position": null,
@@ -571,7 +571,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-gemerson-barbosa",
+        "id": "rg-49156",
         "name": "Gemerson Barbosa",
         "jersey": null,
         "position": null,
@@ -582,7 +582,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-gustavo-godoy",
+        "id": "rg-253123",
         "name": "Gustavo Godoy",
         "jersey": null,
         "position": null,
@@ -593,7 +593,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-pedro-eduardo-infante-pereira",
+        "id": "rg-205073",
         "name": "Pedro Eduardo Infante Pereira",
         "jersey": null,
         "position": null,
@@ -604,7 +604,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-gustavo-santana",
+        "id": "rg-222637",
         "name": "Gustavo Santana",
         "jersey": null,
         "position": null,
@@ -615,7 +615,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-vithor-lersch",
+        "id": "rg-62268",
         "name": "Vithor Lersch",
         "jersey": null,
         "position": null,
@@ -626,7 +626,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-daniel-lima",
+        "id": "rg-186787",
         "name": "Daniel Lima",
         "jersey": null,
         "position": null,
@@ -637,7 +637,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-augusto-esdras",
+        "id": "rg-253122",
         "name": "Augusto Esdras",
         "jersey": null,
         "position": null,
@@ -648,7 +648,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-mogi-alves",
+        "id": "rg-72663",
         "name": "Mogi Alves",
         "jersey": null,
         "position": null,
@@ -659,7 +659,7 @@
         "headshot": null
       },
       {
-        "id": "rg-69-matheus-michelini-pedroso",
+        "id": "rg-253124",
         "name": "Matheus Michelini Pedroso",
         "jersey": null,
         "position": null,
@@ -672,7 +672,7 @@
     ],
     "rg-2784": [
       {
-        "id": "rg-2784-tulio-da-silva",
+        "id": "rg-72028",
         "name": "Tulio Da Silva",
         "jersey": null,
         "position": null,
@@ -683,7 +683,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-isaac-thornton",
+        "id": "rg-48675",
         "name": "Isaac Thornton",
         "jersey": null,
         "position": null,
@@ -694,7 +694,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-ralfi-ansaloni",
+        "id": "rg-2617",
         "name": "Ralfi Ansaloni",
         "jersey": null,
         "position": null,
@@ -705,7 +705,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-dominique-coleman",
+        "id": "rg-57124",
         "name": "Dominique Coleman",
         "jersey": null,
         "position": null,
@@ -716,7 +716,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-jamison-costa",
+        "id": "rg-172453",
         "name": "Jamison Costa",
         "jersey": null,
         "position": null,
@@ -727,7 +727,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-yosani-clay",
+        "id": "rg-138014",
         "name": "Yosani Clay",
         "jersey": null,
         "position": null,
@@ -738,7 +738,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-wesley-sena",
+        "id": "rg-72031",
         "name": "Wesley Sena",
         "jersey": null,
         "position": null,
@@ -749,7 +749,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-gerald-gittens",
+        "id": "rg-182552",
         "name": "Gerald Gittens",
         "jersey": null,
         "position": null,
@@ -760,7 +760,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-cassiano-bueno",
+        "id": "rg-102574",
         "name": "Cassiano Bueno",
         "jersey": null,
         "position": null,
@@ -771,7 +771,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-leonardo-braga",
+        "id": "rg-179508",
         "name": "Leonardo Braga",
         "jersey": null,
         "position": null,
@@ -782,7 +782,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-felipe-da-cruz-cardoso",
+        "id": "rg-162524",
         "name": "Felipe da Cruz Cardoso",
         "jersey": null,
         "position": null,
@@ -793,7 +793,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-tulio-souza",
+        "id": "rg-254590",
         "name": "Tulio Souza",
         "jersey": null,
         "position": null,
@@ -804,7 +804,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-alexandre-ludwig",
+        "id": "rg-204976",
         "name": "Alexandre Ludwig",
         "jersey": null,
         "position": null,
@@ -815,7 +815,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-eduardo-sommer",
+        "id": "rg-41056",
         "name": "Eduardo Sommer",
         "jersey": null,
         "position": null,
@@ -826,7 +826,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-emerson-nogueira",
+        "id": "rg-254591",
         "name": "Emerson Nogueira",
         "jersey": null,
         "position": null,
@@ -837,7 +837,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2784-bruno-tasso-resende-silva",
+        "id": "rg-255069",
         "name": "Bruno Tasso Resende Silva",
         "jersey": null,
         "position": null,
@@ -850,7 +850,7 @@
     ],
     "rg-282": [
       {
-        "id": "rg-282-georginho-de-paula",
+        "id": "rg-62213",
         "name": "Georginho de Paula",
         "jersey": null,
         "position": null,
@@ -861,7 +861,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-lucas-dias",
+        "id": "rg-26688",
         "name": "Lucas Dias",
         "jersey": null,
         "position": null,
@@ -872,7 +872,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-mooch-jackson",
+        "id": "rg-4501",
         "name": "Mooch Jackson",
         "jersey": null,
         "position": null,
@@ -883,7 +883,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-corderro-bennett",
+        "id": "rg-49687",
         "name": "Corderro Bennett",
         "jersey": null,
         "position": null,
@@ -894,7 +894,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-luis-rodriguez",
+        "id": "rg-132346",
         "name": "Luis Rodriguez",
         "jersey": null,
         "position": null,
@@ -905,7 +905,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-paulo-barbosa",
+        "id": "rg-186789",
         "name": "Paulo Barbosa",
         "jersey": null,
         "position": null,
@@ -916,7 +916,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-cristiano-felicio",
+        "id": "rg-24840",
         "name": "Cristiano Felicio",
         "jersey": null,
         "position": null,
@@ -927,7 +927,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-rafael-mineiro",
+        "id": "rg-24997",
         "name": "Rafael Mineiro",
         "jersey": null,
         "position": null,
@@ -938,7 +938,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-juan-laterza",
+        "id": "rg-151695",
         "name": "Juan Laterza",
         "jersey": null,
         "position": null,
@@ -949,7 +949,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-vinicius-santos",
+        "id": "rg-205035",
         "name": "Vinicius Santos",
         "jersey": null,
         "position": null,
@@ -960,7 +960,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-david-chaves",
+        "id": "rg-238600",
         "name": "David Chaves",
         "jersey": null,
         "position": null,
@@ -971,7 +971,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-kelwin-miguel-da-silva-de-abreu",
+        "id": "rg-251907",
         "name": "Kelwin Miguel Da Silva De Abreu",
         "jersey": null,
         "position": null,
@@ -982,7 +982,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-thaylor-gabriel-dos-santos-fagundes",
+        "id": "rg-224332",
         "name": "Thaylor Gabriel dos Santos Fagundes",
         "jersey": null,
         "position": null,
@@ -993,7 +993,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-luis-colinski",
+        "id": "rg-205037",
         "name": "Luis Colinski",
         "jersey": null,
         "position": null,
@@ -1004,7 +1004,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-hugo-antunes-nicolini",
+        "id": "rg-253137",
         "name": "Hugo Antunes Nicolini",
         "jersey": null,
         "position": null,
@@ -1015,7 +1015,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-murilo-felizatti-nunes",
+        "id": "rg-251902",
         "name": "Murilo Felizatti Nunes",
         "jersey": null,
         "position": null,
@@ -1026,7 +1026,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-lucas-pires",
+        "id": "rg-238561",
         "name": "Lucas Pires",
         "jersey": null,
         "position": null,
@@ -1037,7 +1037,7 @@
         "headshot": null
       },
       {
-        "id": "rg-282-pedro-cintra",
+        "id": "rg-238564",
         "name": "Pedro Cintra",
         "jersey": null,
         "position": null,
@@ -1050,7 +1050,7 @@
     ],
     "rg-554": [
       {
-        "id": "rg-554-kaleb-hunter",
+        "id": "rg-89342",
         "name": "Kaleb Hunter",
         "jersey": null,
         "position": null,
@@ -1061,7 +1061,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-lucas-siewert",
+        "id": "rg-54879",
         "name": "Lucas Siewert",
         "jersey": null,
         "position": null,
@@ -1072,7 +1072,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-guilherme-abreu",
+        "id": "rg-92184",
         "name": "Guilherme Abreu",
         "jersey": null,
         "position": null,
@@ -1083,7 +1083,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-vitor-da-silva-brandao",
+        "id": "rg-188769",
         "name": "Vitor da Silva Brandao",
         "jersey": null,
         "position": null,
@@ -1094,7 +1094,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-edson-tovar",
+        "id": "rg-201058",
         "name": "Edson Tovar",
         "jersey": null,
         "position": null,
@@ -1105,7 +1105,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-henrique-seixas",
+        "id": "rg-205059",
         "name": "Henrique Seixas",
         "jersey": null,
         "position": null,
@@ -1116,7 +1116,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-gabriel-landeira",
+        "id": "rg-196080",
         "name": "Gabriel Landeira",
         "jersey": null,
         "position": null,
@@ -1127,7 +1127,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-leonardo-demetrio",
+        "id": "rg-28287",
         "name": "Leonardo Demetrio",
         "jersey": null,
         "position": null,
@@ -1138,7 +1138,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-gabriel-macedo",
+        "id": "rg-253114",
         "name": "Gabriel Macedo",
         "jersey": null,
         "position": null,
@@ -1149,7 +1149,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-leandro-cardoso-inacio",
+        "id": "rg-196081",
         "name": "Leandro Cardoso Inacio",
         "jersey": null,
         "position": null,
@@ -1160,7 +1160,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-silvio-nicoliello-neto",
+        "id": "rg-253117",
         "name": "Silvio Nicoliello Neto",
         "jersey": null,
         "position": null,
@@ -1171,7 +1171,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-joao-henrique-steuer-de-aragao",
+        "id": "rg-251908",
         "name": "Joao Henrique Steuer De Aragao",
         "jersey": null,
         "position": null,
@@ -1182,7 +1182,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-silvio-nicoliello-neto",
+        "id": "rg-186605",
         "name": "Silvio Nicoliello Neto",
         "jersey": null,
         "position": null,
@@ -1193,7 +1193,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-rafael-amador-costa-martins",
+        "id": "rg-255072",
         "name": "Rafael Amador Costa Martins",
         "jersey": null,
         "position": null,
@@ -1204,7 +1204,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-henrique-lucio-da-silva",
+        "id": "rg-184233",
         "name": "Henrique Lucio Da Silva",
         "jersey": null,
         "position": null,
@@ -1215,7 +1215,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-gabriel-gonzaga",
+        "id": "rg-253111",
         "name": "Gabriel Gonzaga",
         "jersey": null,
         "position": null,
@@ -1226,7 +1226,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-pietro-martins",
+        "id": "rg-253115",
         "name": "Pietro Martins",
         "jersey": null,
         "position": null,
@@ -1237,7 +1237,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-enrico-bianchi",
+        "id": "rg-184232",
         "name": "Enrico Bianchi",
         "jersey": null,
         "position": null,
@@ -1248,7 +1248,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-luiz-guilherme-martins-alves",
+        "id": "rg-191790",
         "name": "Luiz Guilherme Martins Alves",
         "jersey": null,
         "position": null,
@@ -1259,7 +1259,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-pietro-fonseca-melo",
+        "id": "rg-238649",
         "name": "Pietro Fonseca Melo",
         "jersey": null,
         "position": null,
@@ -1270,7 +1270,7 @@
         "headshot": null
       },
       {
-        "id": "rg-554-caio-de-aguilar-mathias",
+        "id": "rg-251905",
         "name": "Caio de Aguilar Mathias",
         "jersey": null,
         "position": null,
@@ -1283,7 +1283,7 @@
     ],
     "rg-92": [
       {
-        "id": "rg-92-adyel-borges",
+        "id": "rg-150473",
         "name": "Adyel Borges",
         "jersey": null,
         "position": null,
@@ -1294,7 +1294,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-dexter-mcclanahan",
+        "id": "rg-98973",
         "name": "Dexter McClanahan",
         "jersey": null,
         "position": null,
@@ -1305,7 +1305,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-douglas-silva",
+        "id": "rg-253105",
         "name": "Douglas Silva",
         "jersey": null,
         "position": null,
@@ -1316,7 +1316,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-malcolm-miller",
+        "id": "rg-45533",
         "name": "Malcolm Miller",
         "jersey": null,
         "position": null,
@@ -1327,7 +1327,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-anderson-rodrigues",
+        "id": "rg-155130",
         "name": "Anderson Rodrigues",
         "jersey": null,
         "position": null,
@@ -1338,7 +1338,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-maique-tavares",
+        "id": "rg-47780",
         "name": "Maique Tavares",
         "jersey": null,
         "position": null,
@@ -1349,7 +1349,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-guilherme-lessa",
+        "id": "rg-98180",
         "name": "Guilherme Lessa",
         "jersey": null,
         "position": null,
@@ -1360,7 +1360,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-luis-dos-santos-salvador",
+        "id": "rg-247739",
         "name": "Luis dos Santos Salvador",
         "jersey": null,
         "position": null,
@@ -1371,7 +1371,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-leonardo-henrique-cravero",
+        "id": "rg-223604",
         "name": "Leonardo Henrique Cravero",
         "jersey": null,
         "position": null,
@@ -1382,7 +1382,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-caue-de-freitas",
+        "id": "rg-24989",
         "name": "Caue de Freitas",
         "jersey": null,
         "position": null,
@@ -1393,7 +1393,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-joao-victor-nickel-alves-dos-santos",
+        "id": "rg-226527",
         "name": "Joao Victor Nickel Alves dos Santos",
         "jersey": null,
         "position": null,
@@ -1404,7 +1404,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-gabriel-pessoa",
+        "id": "rg-253107",
         "name": "Gabriel Pessoa",
         "jersey": null,
         "position": null,
@@ -1415,7 +1415,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-isaque-duarte",
+        "id": "rg-227907",
         "name": "Isaque Duarte",
         "jersey": null,
         "position": null,
@@ -1426,7 +1426,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-bruno-ribeiro-foresti",
+        "id": "rg-239647",
         "name": "Bruno Ribeiro Foresti",
         "jersey": null,
         "position": null,
@@ -1437,7 +1437,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-joao-guimaraes",
+        "id": "rg-53129",
         "name": "Joao Guimaraes",
         "jersey": null,
         "position": null,
@@ -1448,7 +1448,7 @@
         "headshot": null
       },
       {
-        "id": "rg-92-nata-freitas",
+        "id": "rg-253106",
         "name": "Nata Freitas",
         "jersey": null,
         "position": null,
@@ -1461,7 +1461,7 @@
     ],
     "rg-1884": [
       {
-        "id": "rg-1884-matheus-brito",
+        "id": "rg-143363",
         "name": "Matheus Brito",
         "jersey": null,
         "position": null,
@@ -1472,7 +1472,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-derick-machado-goncalves",
+        "id": "rg-155136",
         "name": "Derick Machado Goncalves",
         "jersey": null,
         "position": null,
@@ -1483,7 +1483,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-decensae-white",
+        "id": "rg-4576",
         "name": "Decensae White",
         "jersey": null,
         "position": null,
@@ -1494,7 +1494,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-paulo-henrique-scheuer",
+        "id": "rg-156639",
         "name": "Paulo Henrique Scheuer",
         "jersey": null,
         "position": null,
@@ -1505,7 +1505,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-scott-machado",
+        "id": "rg-18146",
         "name": "Scott Machado",
         "jersey": null,
         "position": null,
@@ -1516,7 +1516,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-augusto-rosa",
+        "id": "rg-142519",
         "name": "Augusto Rosa",
         "jersey": null,
         "position": null,
@@ -1527,7 +1527,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-emanuel-matias",
+        "id": "rg-143383",
         "name": "Emanuel Matias",
         "jersey": null,
         "position": null,
@@ -1538,7 +1538,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-blake-marquardt",
+        "id": "rg-99269",
         "name": "Blake Marquardt",
         "jersey": null,
         "position": null,
@@ -1549,7 +1549,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-alef-pereira",
+        "id": "rg-78709",
         "name": "Alef Pereira",
         "jersey": null,
         "position": null,
@@ -1560,7 +1560,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-luiz-mauro-machado-jr-",
+        "id": "rg-166316",
         "name": "Luiz Mauro Machado, Jr.",
         "jersey": null,
         "position": null,
@@ -1571,7 +1571,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-felipe-da-silva-nunes-paulino",
+        "id": "rg-223466",
         "name": "Felipe da Silva Nunes Paulino",
         "jersey": null,
         "position": null,
@@ -1582,7 +1582,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-lele-moura",
+        "id": "rg-186746",
         "name": "Lele Moura",
         "jersey": null,
         "position": null,
@@ -1593,7 +1593,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-lucas-andrade",
+        "id": "rg-223398",
         "name": "Lucas Andrade",
         "jersey": null,
         "position": null,
@@ -1604,7 +1604,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-nata-freitas",
+        "id": "rg-253106",
         "name": "Nata Freitas",
         "jersey": null,
         "position": null,
@@ -1615,7 +1615,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-kenny-dawkins",
+        "id": "rg-21555",
         "name": "Kenny Dawkins",
         "jersey": null,
         "position": null,
@@ -1626,7 +1626,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-abner-moreira",
+        "id": "rg-22676",
         "name": "Abner Moreira",
         "jersey": null,
         "position": null,
@@ -1637,7 +1637,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-kleber-barbosa-sales",
+        "id": "rg-255073",
         "name": "Kleber Barbosa Sales",
         "jersey": null,
         "position": null,
@@ -1648,7 +1648,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-jhonatan-godoi",
+        "id": "rg-226683",
         "name": "Jhonatan Godoi",
         "jersey": null,
         "position": null,
@@ -1659,7 +1659,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-daniel-santos-frederico",
+        "id": "rg-151149",
         "name": "Daniel Santos Frederico",
         "jersey": null,
         "position": null,
@@ -1670,7 +1670,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-joao-davi-peracio-camillozzi-monteiro-alves",
+        "id": "rg-255074",
         "name": "Joao Davi Peracio Camillozzi Monteiro Alves",
         "jersey": null,
         "position": null,
@@ -1681,7 +1681,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1884-vitor-rocha-ibiapina",
+        "id": "rg-151156",
         "name": "Vitor Rocha Ibiapina",
         "jersey": null,
         "position": null,
@@ -1694,7 +1694,7 @@
     ],
     "rg-2027": [
       {
-        "id": "rg-2027-elyjah-clark",
+        "id": "rg-110294",
         "name": "Elyjah Clark",
         "jersey": null,
         "position": null,
@@ -1705,7 +1705,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-davaunta-thomas",
+        "id": "rg-62421",
         "name": "DaVaunta Thomas",
         "jersey": null,
         "position": null,
@@ -1716,7 +1716,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-victor-da-silva",
+        "id": "rg-72665",
         "name": "Victor da Silva",
         "jersey": null,
         "position": null,
@@ -1727,7 +1727,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-elinho-neto",
+        "id": "rg-40974",
         "name": "Elinho Neto",
         "jersey": null,
         "position": null,
@@ -1738,7 +1738,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-rafael-munford",
+        "id": "rg-108466",
         "name": "Rafael Munford",
         "jersey": null,
         "position": null,
@@ -1749,7 +1749,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-lucas-pereira",
+        "id": "rg-89201",
         "name": "Lucas Pereira",
         "jersey": null,
         "position": null,
@@ -1760,7 +1760,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-gabriel-novaes-souza",
+        "id": "rg-162966",
         "name": "Gabriel Novaes Souza",
         "jersey": null,
         "position": null,
@@ -1771,7 +1771,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-kauan-nascimento-raymundo",
+        "id": "rg-175776",
         "name": "Kauan Nascimento Raymundo",
         "jersey": null,
         "position": null,
@@ -1782,7 +1782,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-caue-dos-santos",
+        "id": "rg-40968",
         "name": "Caue dos Santos",
         "jersey": null,
         "position": null,
@@ -1793,7 +1793,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-tiago-aguiar-faria",
+        "id": "rg-151155",
         "name": "Tiago Aguiar Faria",
         "jersey": null,
         "position": null,
@@ -1804,7 +1804,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-lucas-eduardo-cardoso",
+        "id": "rg-231903",
         "name": "Lucas Eduardo Cardoso",
         "jersey": null,
         "position": null,
@@ -1815,7 +1815,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-kaique-pereira",
+        "id": "rg-204960",
         "name": "Kaique Pereira",
         "jersey": null,
         "position": null,
@@ -1826,7 +1826,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-alisson-venancio-do-nascimento",
+        "id": "rg-184235",
         "name": "Alisson Venancio Do Nascimento",
         "jersey": null,
         "position": null,
@@ -1837,7 +1837,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2027-matheus-santos-monteiro",
+        "id": "rg-214449",
         "name": "Matheus Santos Monteiro",
         "jersey": null,
         "position": null,
@@ -1850,7 +1850,7 @@
     ],
     "rg-283": [
       {
-        "id": "rg-283-jeremy-hollowell",
+        "id": "rg-24278",
         "name": "Jeremy Hollowell",
         "jersey": null,
         "position": null,
@@ -1861,7 +1861,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-devon-scott",
+        "id": "rg-27991",
         "name": "Devon Scott",
         "jersey": null,
         "position": null,
@@ -1872,7 +1872,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-nate-barnes",
+        "id": "rg-33563",
         "name": "Nate Barnes",
         "jersey": null,
         "position": null,
@@ -1883,7 +1883,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-fabricio-verissimo",
+        "id": "rg-124092",
         "name": "Fabricio Verissimo",
         "jersey": null,
         "position": null,
@@ -1894,7 +1894,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-juan-cardenas",
+        "id": "rg-140292",
         "name": "Juan Cardenas",
         "jersey": null,
         "position": null,
@@ -1905,7 +1905,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-andre-bresolin",
+        "id": "rg-40909",
         "name": "Andre Bresolin",
         "jersey": null,
         "position": null,
@@ -1916,7 +1916,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-rafael-hettsheimeir",
+        "id": "rg-2435",
         "name": "Rafael Hettsheimeir",
         "jersey": null,
         "position": null,
@@ -1927,7 +1927,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-carlton-guyton",
+        "id": "rg-9336",
         "name": "Carlton Guyton",
         "jersey": null,
         "position": null,
@@ -1938,7 +1938,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-isaac-goncalves",
+        "id": "rg-28390",
         "name": "Isaac Goncalves",
         "jersey": null,
         "position": null,
@@ -1949,7 +1949,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-jonatan-oliveira",
+        "id": "rg-123610",
         "name": "Jonatan Oliveira",
         "jersey": null,
         "position": null,
@@ -1960,7 +1960,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-davi-de-oliveira",
+        "id": "rg-24834",
         "name": "Davi De Oliveira",
         "jersey": null,
         "position": null,
@@ -1971,7 +1971,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-lucas-alberto-soares-brandao",
+        "id": "rg-186208",
         "name": "Lucas Alberto Soares Brandao",
         "jersey": null,
         "position": null,
@@ -1982,7 +1982,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-renan-silveira-pereira",
+        "id": "rg-240964",
         "name": "Renan Silveira Pereira",
         "jersey": null,
         "position": null,
@@ -1993,7 +1993,7 @@
         "headshot": null
       },
       {
-        "id": "rg-283-gabriel-coelho",
+        "id": "rg-256252",
         "name": "Gabriel Coelho",
         "jersey": null,
         "position": null,
@@ -2006,7 +2006,7 @@
     ],
     "rg-211": [
       {
-        "id": "rg-211-david-sloan",
+        "id": "rg-81699",
         "name": "David Sloan",
         "jersey": null,
         "position": null,
@@ -2017,7 +2017,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-yan-djalo-barbosa-te",
+        "id": "rg-222634",
         "name": "Yan Djalo Barbosa Te",
         "jersey": null,
         "position": null,
@@ -2028,7 +2028,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-caua-de-souza-pacheco",
+        "id": "rg-184227",
         "name": "Caua De Souza Pacheco",
         "jersey": null,
         "position": null,
@@ -2039,7 +2039,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-betinho-duarte",
+        "id": "rg-24993",
         "name": "Betinho Duarte",
         "jersey": null,
         "position": null,
@@ -2050,7 +2050,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-felipe-gregate-pontara-borges",
+        "id": "rg-222641",
         "name": "Felipe Gregate Pontara Borges",
         "jersey": null,
         "position": null,
@@ -2061,7 +2061,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-mathias-alessanco",
+        "id": "rg-217128",
         "name": "Mathias Alessanco",
         "jersey": null,
         "position": null,
@@ -2072,7 +2072,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-c-j-penha-jr-",
+        "id": "rg-164780",
         "name": "C.J. Penha, Jr.",
         "jersey": null,
         "position": null,
@@ -2083,7 +2083,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-agapy-santos",
+        "id": "rg-186627",
         "name": "Agapy Santos",
         "jersey": null,
         "position": null,
@@ -2094,7 +2094,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-pedro-pastre",
+        "id": "rg-217120",
         "name": "Pedro Pastre",
         "jersey": null,
         "position": null,
@@ -2105,7 +2105,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-eduardo-santos",
+        "id": "rg-240443",
         "name": "Eduardo Santos",
         "jersey": null,
         "position": null,
@@ -2116,7 +2116,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-afonso-campos-pacheco",
+        "id": "rg-222642",
         "name": "Afonso Campos Pacheco",
         "jersey": null,
         "position": null,
@@ -2127,7 +2127,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-matheus-maciel",
+        "id": "rg-129054",
         "name": "Matheus Maciel",
         "jersey": null,
         "position": null,
@@ -2138,7 +2138,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-lucca-marcato-boracina",
+        "id": "rg-217119",
         "name": "Lucca Marcato Boracina",
         "jersey": null,
         "position": null,
@@ -2149,7 +2149,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-brayan-henri-boff-ramao",
+        "id": "rg-206722",
         "name": "Brayan Henri Boff Ramao",
         "jersey": null,
         "position": null,
@@ -2160,7 +2160,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-jonas-matheus-buffat",
+        "id": "rg-156608",
         "name": "Jonas Matheus Buffat",
         "jersey": null,
         "position": null,
@@ -2171,7 +2171,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-francisco-farabello",
+        "id": "rg-107882",
         "name": "Francisco Farabello",
         "jersey": null,
         "position": null,
@@ -2182,7 +2182,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-vitor-nedel-hermes-meili",
+        "id": "rg-238602",
         "name": "Vitor Nedel Hermes Meili",
         "jersey": null,
         "position": null,
@@ -2193,7 +2193,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-matheus-nascimento",
+        "id": "rg-115294",
         "name": "Matheus Nascimento",
         "jersey": null,
         "position": null,
@@ -2204,7 +2204,7 @@
         "headshot": null
       },
       {
-        "id": "rg-211-anthony-soares-goerino",
+        "id": "rg-235038",
         "name": "Anthony Soares Goerino",
         "jersey": null,
         "position": null,
@@ -2217,7 +2217,7 @@
     ],
     "rg-562": [
       {
-        "id": "rg-562-luis-sacco",
+        "id": "rg-111314",
         "name": "Luis Sacco",
         "jersey": null,
         "position": null,
@@ -2228,7 +2228,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-marko-rikalo",
+        "id": "rg-38397",
         "name": "Marko Rikalo",
         "jersey": null,
         "position": null,
@@ -2239,7 +2239,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-stan-scott",
+        "id": "rg-121676",
         "name": "Stan Scott",
         "jersey": null,
         "position": null,
@@ -2250,7 +2250,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-fermin-thygesen",
+        "id": "rg-111160",
         "name": "Fermin Thygesen",
         "jersey": null,
         "position": null,
@@ -2261,7 +2261,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-matheus-custodio",
+        "id": "rg-188795",
         "name": "Matheus Custodio",
         "jersey": null,
         "position": null,
@@ -2272,7 +2272,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-demarco-owens",
+        "id": "rg-117770",
         "name": "DeMarco Owens",
         "jersey": null,
         "position": null,
@@ -2283,7 +2283,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-guilherme-santos",
+        "id": "rg-88429",
         "name": "Guilherme Santos",
         "jersey": null,
         "position": null,
@@ -2294,7 +2294,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-vitor-silverio-narcizio",
+        "id": "rg-175287",
         "name": "Vitor Silverio Narcizio",
         "jersey": null,
         "position": null,
@@ -2305,7 +2305,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-jon-dos-anjos",
+        "id": "rg-98453",
         "name": "Jon Dos Anjos",
         "jersey": null,
         "position": null,
@@ -2316,7 +2316,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-murilo-alves-souza",
+        "id": "rg-172450",
         "name": "Murilo Alves Souza",
         "jersey": null,
         "position": null,
@@ -2327,7 +2327,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-caio-henrique-oliveira-rocha",
+        "id": "rg-205076",
         "name": "Caio Henrique Oliveira Rocha",
         "jersey": null,
         "position": null,
@@ -2338,7 +2338,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-arthur-costa",
+        "id": "rg-174127",
         "name": "Arthur Costa",
         "jersey": null,
         "position": null,
@@ -2349,7 +2349,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-akin-irae-cortez-de-souza",
+        "id": "rg-205068",
         "name": "Akin Irae Cortez de Souza",
         "jersey": null,
         "position": null,
@@ -2360,7 +2360,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-jose-carlos-junior",
+        "id": "rg-113107",
         "name": "Jose Carlos Junior",
         "jersey": null,
         "position": null,
@@ -2371,7 +2371,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-vinicius-pastor",
+        "id": "rg-47820",
         "name": "Vinicius Pastor",
         "jersey": null,
         "position": null,
@@ -2382,7 +2382,7 @@
         "headshot": null
       },
       {
-        "id": "rg-562-enzo-cruz",
+        "id": "rg-266321",
         "name": "Enzo Cruz",
         "jersey": null,
         "position": null,
@@ -2395,7 +2395,7 @@
     ],
     "rg-408": [
       {
-        "id": "rg-408-alex-negrete",
+        "id": "rg-206215",
         "name": "Alex Negrete",
         "jersey": null,
         "position": null,
@@ -2406,7 +2406,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-gui-pereira",
+        "id": "rg-40945",
         "name": "Gui Pereira",
         "jersey": null,
         "position": null,
@@ -2417,7 +2417,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-shaquille-johnson",
+        "id": "rg-7821",
         "name": "Shaquille Johnson",
         "jersey": null,
         "position": null,
@@ -2428,7 +2428,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-alexey-thiago-borges",
+        "id": "rg-102308",
         "name": "Alexey Thiago Borges",
         "jersey": null,
         "position": null,
@@ -2439,7 +2439,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-franco-andres-baralle",
+        "id": "rg-92173",
         "name": "Franco Andres Baralle",
         "jersey": null,
         "position": null,
@@ -2450,7 +2450,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-wesley-ferreira",
+        "id": "rg-110632",
         "name": "Wesley Ferreira",
         "jersey": null,
         "position": null,
@@ -2461,7 +2461,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-markeith-cummings",
+        "id": "rg-14389",
         "name": "Markeith Cummings",
         "jersey": null,
         "position": null,
@@ -2472,7 +2472,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-dee-bost",
+        "id": "rg-4806",
         "name": "Dee Bost",
         "jersey": null,
         "position": null,
@@ -2483,7 +2483,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-kayo-goncalves",
+        "id": "rg-92176",
         "name": "Kayo Goncalves",
         "jersey": null,
         "position": null,
@@ -2494,7 +2494,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-jhonatan-dos-santos",
+        "id": "rg-41060",
         "name": "Jhonatan dos Santos",
         "jersey": null,
         "position": null,
@@ -2505,7 +2505,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-daniel-ifedi-ferreira-onwenu",
+        "id": "rg-151760",
         "name": "Daniel Ifedi Ferreira Onwenu",
         "jersey": null,
         "position": null,
@@ -2516,7 +2516,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-emanuel-fernandes-de-lima",
+        "id": "rg-151157",
         "name": "Emanuel Fernandes de Lima",
         "jersey": null,
         "position": null,
@@ -2527,7 +2527,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-lucas-robinson",
+        "id": "rg-99622",
         "name": "Lucas Robinson",
         "jersey": null,
         "position": null,
@@ -2538,7 +2538,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-matheus-gueiros",
+        "id": "rg-210830",
         "name": "Matheus Gueiros",
         "jersey": null,
         "position": null,
@@ -2549,7 +2549,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-igor-de-jesus-andrade",
+        "id": "rg-184234",
         "name": "Igor De Jesus Andrade",
         "jersey": null,
         "position": null,
@@ -2560,7 +2560,7 @@
         "headshot": null
       },
       {
-        "id": "rg-408-vitor-carvalho",
+        "id": "rg-186606",
         "name": "Vitor Carvalho",
         "jersey": null,
         "position": null,
@@ -2573,7 +2573,7 @@
     ],
     "rg-1288": [
       {
-        "id": "rg-1288-charles-hinkle",
+        "id": "rg-5958",
         "name": "Charles Hinkle",
         "jersey": null,
         "position": null,
@@ -2584,7 +2584,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-gabriel-campos",
+        "id": "rg-150292",
         "name": "Gabriel Campos",
         "jersey": null,
         "position": null,
@@ -2595,7 +2595,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-raffael-mencarini",
+        "id": "rg-239861",
         "name": "Raffael Mencarini",
         "jersey": null,
         "position": null,
@@ -2606,7 +2606,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-paulo-da-costa",
+        "id": "rg-104449",
         "name": "Paulo Da Costa",
         "jersey": null,
         "position": null,
@@ -2617,7 +2617,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-felipe-ruivo",
+        "id": "rg-108465",
         "name": "Felipe Ruivo",
         "jersey": null,
         "position": null,
@@ -2628,7 +2628,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-andre-dikembe",
+        "id": "rg-129736",
         "name": "Andre Dikembe",
         "jersey": null,
         "position": null,
@@ -2639,7 +2639,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-duane-johnson",
+        "id": "rg-61151",
         "name": "Duane Johnson",
         "jersey": null,
         "position": null,
@@ -2650,7 +2650,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-igor-domingos-botelho",
+        "id": "rg-266332",
         "name": "Igor Domingos Botelho",
         "jersey": null,
         "position": null,
@@ -2661,7 +2661,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-barbosa-santana",
+        "id": "rg-156641",
         "name": "Barbosa Santana",
         "jersey": null,
         "position": null,
@@ -2672,7 +2672,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-vinicius-nascimento-chagas",
+        "id": "rg-223603",
         "name": "Vinicius Nascimento Chagas",
         "jersey": null,
         "position": null,
@@ -2683,7 +2683,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-gabriel-silva-bavoso",
+        "id": "rg-266320",
         "name": "Gabriel Silva Bavoso",
         "jersey": null,
         "position": null,
@@ -2694,7 +2694,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-gabriel-caldeira-oliveira",
+        "id": "rg-199538",
         "name": "Gabriel Caldeira Oliveira",
         "jersey": null,
         "position": null,
@@ -2705,7 +2705,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-maicon-waldemar",
+        "id": "rg-145554",
         "name": "Maicon Waldemar",
         "jersey": null,
         "position": null,
@@ -2716,7 +2716,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-iago-barry-mendes-de-morais-gomes",
+        "id": "rg-222909",
         "name": "Iago Barry Mendes de Morais Gomes",
         "jersey": null,
         "position": null,
@@ -2727,7 +2727,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-gabriel-vitoriano",
+        "id": "rg-238565",
         "name": "Gabriel Vitoriano",
         "jersey": null,
         "position": null,
@@ -2738,7 +2738,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-gabriel-antonievicz-pedroso",
+        "id": "rg-239599",
         "name": "Gabriel Antonievicz Pedroso",
         "jersey": null,
         "position": null,
@@ -2749,7 +2749,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1288-raul-reimerink",
+        "id": "rg-253121",
         "name": "Raul Reimerink",
         "jersey": null,
         "position": null,
@@ -2762,7 +2762,7 @@
     ],
     "rg-941": [
       {
-        "id": "rg-941-facundo-corvalan",
+        "id": "rg-81994",
         "name": "Facundo Corvalan",
         "jersey": null,
         "position": null,
@@ -2773,7 +2773,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-daniel-von-haydin",
+        "id": "rg-148684",
         "name": "Daniel Von Haydin",
         "jersey": null,
         "position": null,
@@ -2784,7 +2784,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-rafael-paulichi",
+        "id": "rg-142350",
         "name": "Rafael Paulichi",
         "jersey": null,
         "position": null,
@@ -2795,7 +2795,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-bruno-cardoso",
+        "id": "rg-151549",
         "name": "Bruno Cardoso",
         "jersey": null,
         "position": null,
@@ -2806,7 +2806,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-kevin-crescenzi",
+        "id": "rg-43226",
         "name": "Kevin Crescenzi",
         "jersey": null,
         "position": null,
@@ -2817,7 +2817,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-matheus-santos-neves-da-silva",
+        "id": "rg-158585",
         "name": "Matheus Santos Neves da Silva",
         "jersey": null,
         "position": null,
@@ -2828,7 +2828,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-lucas-santana",
+        "id": "rg-148771",
         "name": "Lucas Santana",
         "jersey": null,
         "position": null,
@@ -2839,7 +2839,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-pedro-da-silva",
+        "id": "rg-26680",
         "name": "Pedro da Silva",
         "jersey": null,
         "position": null,
@@ -2850,7 +2850,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-renato-carbonari",
+        "id": "rg-40970",
         "name": "Renato Carbonari",
         "jersey": null,
         "position": null,
@@ -2861,7 +2861,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-allan-araujo",
+        "id": "rg-205145",
         "name": "Allan Araujo",
         "jersey": null,
         "position": null,
@@ -2872,7 +2872,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-davi-rodrigues-santana-lopes-de-oliveira",
+        "id": "rg-251904",
         "name": "Davi Rodrigues Santana Lopes De Oliveira",
         "jersey": null,
         "position": null,
@@ -2883,7 +2883,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-gustavo-jesus",
+        "id": "rg-242474",
         "name": "Gustavo Jesus",
         "jersey": null,
         "position": null,
@@ -2894,7 +2894,7 @@
         "headshot": null
       },
       {
-        "id": "rg-941-luiz-zago-belem",
+        "id": "rg-254589",
         "name": "Luiz Zago Belem",
         "jersey": null,
         "position": null,
@@ -2907,7 +2907,7 @@
     ],
     "rg-209": [
       {
-        "id": "rg-209-jordan-williams",
+        "id": "rg-31703",
         "name": "Jordan Williams",
         "jersey": null,
         "position": null,
@@ -2918,7 +2918,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-erik-mccree",
+        "id": "rg-43118",
         "name": "Erik McCree",
         "jersey": null,
         "position": null,
@@ -2929,7 +2929,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-winicius-silva-braga",
+        "id": "rg-198729",
         "name": "Winicius Silva Braga",
         "jersey": null,
         "position": null,
@@ -2940,7 +2940,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-alexandre-paranhos",
+        "id": "rg-40939",
         "name": "Alexandre Paranhos",
         "jersey": null,
         "position": null,
@@ -2951,7 +2951,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-juan-arengo",
+        "id": "rg-40818",
         "name": "Juan Arengo",
         "jersey": null,
         "position": null,
@@ -2962,7 +2962,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-rafael-silva",
+        "id": "rg-47724",
         "name": "Rafael Silva",
         "jersey": null,
         "position": null,
@@ -2973,7 +2973,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-ricardo-fischer",
+        "id": "rg-40994",
         "name": "Ricardo Fischer",
         "jersey": null,
         "position": null,
@@ -2984,7 +2984,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-tim-frazier",
+        "id": "rg-3977",
         "name": "Tim Frazier",
         "jersey": null,
         "position": null,
@@ -2995,7 +2995,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-danilo-siqueira",
+        "id": "rg-47718",
         "name": "Danilo Siqueira",
         "jersey": null,
         "position": null,
@@ -3006,7 +3006,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-yuri-elias",
+        "id": "rg-208369",
         "name": "Yuri Elias",
         "jersey": null,
         "position": null,
@@ -3017,7 +3017,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-darrell-davis",
+        "id": "rg-80317",
         "name": "Darrell Davis",
         "jersey": null,
         "position": null,
@@ -3028,7 +3028,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-lucas-rodriguez",
+        "id": "rg-222915",
         "name": "Lucas Rodriguez",
         "jersey": null,
         "position": null,
@@ -3039,7 +3039,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-murilo-kuehne",
+        "id": "rg-235035",
         "name": "Murilo Kuehne",
         "jersey": null,
         "position": null,
@@ -3050,7 +3050,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-fernando-filho",
+        "id": "rg-239870",
         "name": "Fernando Filho",
         "jersey": null,
         "position": null,
@@ -3061,7 +3061,7 @@
         "headshot": null
       },
       {
-        "id": "rg-209-vinci-oliveira-de-paula",
+        "id": "rg-217134",
         "name": "Vinci Oliveira De Paula",
         "jersey": null,
         "position": null,
@@ -3074,7 +3074,7 @@
     ],
     "rg-2135": [
       {
-        "id": "rg-2135-tradavis-thompson",
+        "id": "rg-134711",
         "name": "Tradavis Thompson",
         "jersey": null,
         "position": null,
@@ -3085,7 +3085,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-raekwon-horton",
+        "id": "rg-135515",
         "name": "Raekwon Horton",
         "jersey": null,
         "position": null,
@@ -3096,7 +3096,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-michel-de-souza",
+        "id": "rg-205058",
         "name": "Michel de Souza",
         "jersey": null,
         "position": null,
@@ -3107,7 +3107,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-danilo-penteado",
+        "id": "rg-92183",
         "name": "Danilo Penteado",
         "jersey": null,
         "position": null,
@@ -3118,7 +3118,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-c-j-crews",
+        "id": "rg-184692",
         "name": "C.J. Crews",
         "jersey": null,
         "position": null,
@@ -3129,7 +3129,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-joao-victor-fidelis-moda",
+        "id": "rg-205072",
         "name": "Joao Victor Fidelis Moda",
         "jersey": null,
         "position": null,
@@ -3140,7 +3140,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-eduardo-franca-elevi",
+        "id": "rg-155153",
         "name": "Eduardo Franca Elevi",
         "jersey": null,
         "position": null,
@@ -3151,7 +3151,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-grigor-batista-vieira",
+        "id": "rg-239648",
         "name": "Grigor Batista Vieira",
         "jersey": null,
         "position": null,
@@ -3162,7 +3162,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-lucas-nakazawa",
+        "id": "rg-249224",
         "name": "Lucas Nakazawa",
         "jersey": null,
         "position": null,
@@ -3173,7 +3173,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-caua-euler-santos-queiroz",
+        "id": "rg-223407",
         "name": "Caua Euler Santos Queiroz",
         "jersey": null,
         "position": null,
@@ -3184,7 +3184,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-nathan-gomes-gonalves",
+        "id": "rg-254596",
         "name": "Nathan Gomes Gonalves",
         "jersey": null,
         "position": null,
@@ -3195,7 +3195,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-mateus-oliveira-gomes",
+        "id": "rg-239865",
         "name": "Mateus Oliveira Gomes",
         "jersey": null,
         "position": null,
@@ -3206,7 +3206,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-gustavo-ribeiro",
+        "id": "rg-242906",
         "name": "Gustavo Ribeiro",
         "jersey": null,
         "position": null,
@@ -3217,7 +3217,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-nycolas-carvalho-franco-de-jesus",
+        "id": "rg-255076",
         "name": "Nycolas Carvalho Franco de Jesus",
         "jersey": null,
         "position": null,
@@ -3228,7 +3228,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-willker-zonzini",
+        "id": "rg-253709",
         "name": "Willker Zonzini",
         "jersey": null,
         "position": null,
@@ -3239,7 +3239,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2135-lucas-lenhart-siqueira",
+        "id": "rg-222645",
         "name": "Lucas Lenhart Siqueira",
         "jersey": null,
         "position": null,
@@ -3252,7 +3252,7 @@
     ],
     "rg-2136": [
       {
-        "id": "rg-2136-melvin-johnson",
+        "id": "rg-29858",
         "name": "Melvin Johnson",
         "jersey": null,
         "position": null,
@@ -3263,7 +3263,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-yohanner-sifontes",
+        "id": "rg-98908",
         "name": "Yohanner Sifontes",
         "jersey": null,
         "position": null,
@@ -3274,7 +3274,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-henrique-coelho",
+        "id": "rg-27044",
         "name": "Henrique Coelho",
         "jersey": null,
         "position": null,
@@ -3285,7 +3285,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-fermin-thygesen",
+        "id": "rg-111160",
         "name": "Fermin Thygesen",
         "jersey": null,
         "position": null,
@@ -3296,7 +3296,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-antonio-ferreira",
+        "id": "rg-47779",
         "name": "Antonio Ferreira",
         "jersey": null,
         "position": null,
@@ -3307,7 +3307,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-kendall-anthony",
+        "id": "rg-30591",
         "name": "Kendall Anthony",
         "jersey": null,
         "position": null,
@@ -3318,7 +3318,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-jimmy-de-oliveira",
+        "id": "rg-40999",
         "name": "Jimmy de Oliveira",
         "jersey": null,
         "position": null,
@@ -3329,7 +3329,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-phil-carr",
+        "id": "rg-89991",
         "name": "Phil Carr",
         "jersey": null,
         "position": null,
@@ -3340,7 +3340,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-makhtar-gueye",
+        "id": "rg-105369",
         "name": "Makhtar Gueye",
         "jersey": null,
         "position": null,
@@ -3351,7 +3351,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-victor-leal",
+        "id": "rg-72234",
         "name": "Victor Leal",
         "jersey": null,
         "position": null,
@@ -3362,7 +3362,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-joao-paulo-de-almeida",
+        "id": "rg-186791",
         "name": "Joao Paulo de Almeida",
         "jersey": null,
         "position": null,
@@ -3373,7 +3373,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-gerson-santo",
+        "id": "rg-42625",
         "name": "Gerson Santo",
         "jersey": null,
         "position": null,
@@ -3384,7 +3384,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-vinicius-flores",
+        "id": "rg-225182",
         "name": "Vinicius Flores",
         "jersey": null,
         "position": null,
@@ -3395,7 +3395,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-igor-felinto",
+        "id": "rg-186833",
         "name": "Igor Felinto",
         "jersey": null,
         "position": null,
@@ -3406,7 +3406,7 @@
         "headshot": null
       },
       {
-        "id": "rg-2136-lucas-ranyere-de-silva-marques",
+        "id": "rg-258232",
         "name": "Lucas Ranyere de Silva Marques",
         "jersey": null,
         "position": null,
@@ -3419,7 +3419,7 @@
     ],
     "rg-1711": [
       {
-        "id": "rg-1711-shamell-stallworth",
+        "id": "rg-8685",
         "name": "Shamell Stallworth",
         "jersey": null,
         "position": null,
@@ -3430,7 +3430,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-humberto-gomes",
+        "id": "rg-26683",
         "name": "Humberto Gomes",
         "jersey": null,
         "position": null,
@@ -3441,7 +3441,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-felipe-vezaro",
+        "id": "rg-24836",
         "name": "Felipe Vezaro",
         "jersey": null,
         "position": null,
@@ -3452,7 +3452,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-fabrizzio-ruiz",
+        "id": "rg-119577",
         "name": "Fabrizzio Ruiz",
         "jersey": null,
         "position": null,
@@ -3463,7 +3463,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-augusto-leao",
+        "id": "rg-125807",
         "name": "Augusto Leao",
         "jersey": null,
         "position": null,
@@ -3474,7 +3474,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-rafa-oliveira",
+        "id": "rg-97751",
         "name": "Rafa Oliveira",
         "jersey": null,
         "position": null,
@@ -3485,7 +3485,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-william-omena",
+        "id": "rg-186604",
         "name": "William Omena",
         "jersey": null,
         "position": null,
@@ -3496,7 +3496,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-everton-oliveira",
+        "id": "rg-77967",
         "name": "Everton Oliveira",
         "jersey": null,
         "position": null,
@@ -3507,7 +3507,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-tiago-grillo-schiavetto-marques",
+        "id": "rg-205070",
         "name": "Tiago Grillo Schiavetto Marques",
         "jersey": null,
         "position": null,
@@ -3518,7 +3518,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-luan-ribeiro-pinto",
+        "id": "rg-205096",
         "name": "Luan Ribeiro Pinto",
         "jersey": null,
         "position": null,
@@ -3529,7 +3529,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-miguel-melo-santos",
+        "id": "rg-226466",
         "name": "Miguel Melo Santos",
         "jersey": null,
         "position": null,
@@ -3540,7 +3540,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-joao-paulo-machini-costa",
+        "id": "rg-205036",
         "name": "Joao Paulo Machini Costa",
         "jersey": null,
         "position": null,
@@ -3551,7 +3551,7 @@
         "headshot": null
       },
       {
-        "id": "rg-1711-joao-borges",
+        "id": "rg-254592",
         "name": "Joao Borges",
         "jersey": null,
         "position": null,
@@ -3564,7 +3564,7 @@
     ],
     "rg-77": [
       {
-        "id": "rg-77-lamonte-bearden",
+        "id": "rg-80746",
         "name": "Lamonte Bearden",
         "jersey": null,
         "position": null,
@@ -3575,7 +3575,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-sergio-sillas-da-conceicao",
+        "id": "rg-143164",
         "name": "Sergio Sillas da Conceicao",
         "jersey": null,
         "position": null,
@@ -3586,7 +3586,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-lamar-morgan",
+        "id": "rg-108099",
         "name": "Lamar Morgan",
         "jersey": null,
         "position": null,
@@ -3597,7 +3597,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-gustavo-de-de-oliveira",
+        "id": "rg-59774",
         "name": "Gustavo de de Oliveira",
         "jersey": null,
         "position": null,
@@ -3608,7 +3608,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-alexsander-kevin-vernizzi-dos-santos",
+        "id": "rg-241202",
         "name": "Alexsander Kevin Vernizzi dos Santos",
         "jersey": null,
         "position": null,
@@ -3619,7 +3619,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-thiago-mathias",
+        "id": "rg-47771",
         "name": "Thiago Mathias",
         "jersey": null,
         "position": null,
@@ -3630,7 +3630,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-guillherme-silva",
+        "id": "rg-172442",
         "name": "Guillherme Silva",
         "jersey": null,
         "position": null,
@@ -3641,7 +3641,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-pedro-nunes",
+        "id": "rg-92181",
         "name": "Pedro Nunes",
         "jersey": null,
         "position": null,
@@ -3652,7 +3652,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-elias-oliveira-goulart-conceicao",
+        "id": "rg-255070",
         "name": "Elias Oliveira Goulart Conceicao",
         "jersey": null,
         "position": null,
@@ -3663,7 +3663,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-lucas-zibecchi",
+        "id": "rg-120117",
         "name": "Lucas Zibecchi",
         "jersey": null,
         "position": null,
@@ -3674,7 +3674,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-italo-bonizioli-honorato",
+        "id": "rg-156673",
         "name": "Italo Bonizioli Honorato",
         "jersey": null,
         "position": null,
@@ -3685,7 +3685,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-juan-fortunato-silva-nascimento",
+        "id": "rg-239649",
         "name": "Juan Fortunato Silva Nascimento",
         "jersey": null,
         "position": null,
@@ -3696,7 +3696,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-jonathan-santana-dos-santos-ferreira",
+        "id": "rg-255071",
         "name": "Jonathan Santana dos Santos Ferreira",
         "jersey": null,
         "position": null,
@@ -3707,7 +3707,7 @@
         "headshot": null
       },
       {
-        "id": "rg-77-icaro-martins-almeida-silva",
+        "id": "rg-241506",
         "name": "Icaro Martins Almeida Silva",
         "jersey": null,
         "position": null,
@@ -3745,6 +3745,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "122386",
+      "realgmUrl": "https://basketball.realgm.com/player/Anthony-Harris/Summary/122386",
+      "id": "rg-122386",
       "teamId": "rg-2204"
     },
     {
@@ -3772,6 +3775,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "107899",
+      "realgmUrl": "https://basketball.realgm.com/player/Alex-Mudronja/Summary/107899",
+      "id": "rg-107899",
       "teamId": "rg-1289"
     },
     {
@@ -3799,6 +3805,9 @@
       "fouls": 2.6,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "55460",
+      "realgmUrl": "https://basketball.realgm.com/player/Dontrell-Brite/Summary/55460",
+      "id": "rg-55460",
       "teamId": "rg-69"
     },
     {
@@ -3826,6 +3835,9 @@
       "fouls": 2.4,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "142713",
+      "realgmUrl": "https://basketball.realgm.com/player/Andre-Barbosa/Summary/142713",
+      "id": "rg-142713",
       "teamId": "rg-69"
     },
     {
@@ -3853,6 +3865,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "72028",
+      "realgmUrl": "https://basketball.realgm.com/player/Tulio-Da-Silva/Summary/72028",
+      "id": "rg-72028",
       "teamId": "rg-2784"
     },
     {
@@ -3880,6 +3895,9 @@
       "fouls": 1.5,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "62213",
+      "realgmUrl": "https://basketball.realgm.com/player/Georginho-de-Paula/Summary/62213",
+      "id": "rg-62213",
       "teamId": "rg-282"
     },
     {
@@ -3907,6 +3925,9 @@
       "fouls": 2.4,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "89342",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaleb-Hunter/Summary/89342",
+      "id": "rg-89342",
       "teamId": "rg-554"
     },
     {
@@ -3934,6 +3955,9 @@
       "fouls": 2.5,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "150473",
+      "realgmUrl": "https://basketball.realgm.com/player/Adyel-Borges/Summary/150473",
+      "id": "rg-150473",
       "teamId": "rg-92"
     },
     {
@@ -3961,6 +3985,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "143363",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Brito/Summary/143363",
+      "id": "rg-143363",
       "teamId": "rg-1884"
     },
     {
@@ -3988,6 +4015,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "110294",
+      "realgmUrl": "https://basketball.realgm.com/player/Elyjah-Clark/Summary/110294",
+      "id": "rg-110294",
       "teamId": "rg-2027"
     },
     {
@@ -4015,6 +4045,9 @@
       "fouls": 2.8,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "24278",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeremy-Hollowell/Summary/24278",
+      "id": "rg-24278",
       "teamId": "rg-283"
     },
     {
@@ -4042,6 +4075,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "113595",
+      "realgmUrl": "https://basketball.realgm.com/player/Michael-Dupree/Summary/113595",
+      "id": "rg-113595",
       "teamId": "rg-1289"
     },
     {
@@ -4069,6 +4105,9 @@
       "fouls": 2,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "62421",
+      "realgmUrl": "https://basketball.realgm.com/player/DaVaunta-Thomas/Summary/62421",
+      "id": "rg-62421",
       "teamId": "rg-2027"
     },
     {
@@ -4096,6 +4135,9 @@
       "fouls": 2.1,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "26688",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Dias/Summary/26688",
+      "id": "rg-26688",
       "teamId": "rg-282"
     },
     {
@@ -4123,6 +4165,9 @@
       "fouls": 1.7,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "81699",
+      "realgmUrl": "https://basketball.realgm.com/player/David-Sloan/Summary/81699",
+      "id": "rg-81699",
       "teamId": "rg-211"
     },
     {
@@ -4150,6 +4195,9 @@
       "fouls": 2,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "98973",
+      "realgmUrl": "https://basketball.realgm.com/player/Dexter-McClanahan/Summary/98973",
+      "id": "rg-98973",
       "teamId": "rg-92"
     },
     {
@@ -4177,6 +4225,9 @@
       "fouls": 3.1,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "27991",
+      "realgmUrl": "https://basketball.realgm.com/player/Devon-Scott/Summary/27991",
+      "id": "rg-27991",
       "teamId": "rg-283"
     },
     {
@@ -4204,6 +4255,9 @@
       "fouls": 3.1,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "111314",
+      "realgmUrl": "https://basketball.realgm.com/player/Luis-Sacco/Summary/111314",
+      "id": "rg-111314",
       "teamId": "rg-562"
     },
     {
@@ -4231,6 +4285,9 @@
       "fouls": 1.5,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "206215",
+      "realgmUrl": "https://basketball.realgm.com/player/Alex-Negrete/Summary/206215",
+      "id": "rg-206215",
       "teamId": "rg-408"
     },
     {
@@ -4258,6 +4315,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "5958",
+      "realgmUrl": "https://basketball.realgm.com/player/Charles-Hinkle/Summary/5958",
+      "id": "rg-5958",
       "teamId": "rg-1288"
     },
     {
@@ -4285,6 +4345,9 @@
       "fouls": 2.2,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "33563",
+      "realgmUrl": "https://basketball.realgm.com/player/Nate-Barnes/Summary/33563",
+      "id": "rg-33563",
       "teamId": "rg-283"
     },
     {
@@ -4312,6 +4375,9 @@
       "fouls": 2.2,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "81994",
+      "realgmUrl": "https://basketball.realgm.com/player/Facundo-Corvalan/Summary/81994",
+      "id": "rg-81994",
       "teamId": "rg-941"
     },
     {
@@ -4339,6 +4405,9 @@
       "fouls": 1.4,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "31703",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Williams/Summary/31703",
+      "id": "rg-31703",
       "teamId": "rg-209"
     },
     {
@@ -4366,6 +4435,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "108571",
+      "realgmUrl": "https://basketball.realgm.com/player/Bernardo-Da-Silva/Summary/108571",
+      "id": "rg-108571",
       "teamId": "rg-1289"
     },
     {
@@ -4393,6 +4465,9 @@
       "fouls": 1.8,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "54879",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Siewert/Summary/54879",
+      "id": "rg-54879",
       "teamId": "rg-554"
     },
     {
@@ -4420,6 +4495,9 @@
       "fouls": 1.9,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "4501",
+      "realgmUrl": "https://basketball.realgm.com/player/Mooch-Jackson/Summary/4501",
+      "id": "rg-4501",
       "teamId": "rg-282"
     },
     {
@@ -4447,6 +4525,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "134711",
+      "realgmUrl": "https://basketball.realgm.com/player/Tradavis-Thompson/Summary/134711",
+      "id": "rg-134711",
       "teamId": "rg-2135"
     },
     {
@@ -4474,6 +4555,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "29858",
+      "realgmUrl": "https://basketball.realgm.com/player/Melvin-Johnson/Summary/29858",
+      "id": "rg-29858",
       "teamId": "rg-2136"
     },
     {
@@ -4501,6 +4585,9 @@
       "fouls": 2.4,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "92184",
+      "realgmUrl": "https://basketball.realgm.com/player/Guilherme-Abreu/Summary/92184",
+      "id": "rg-92184",
       "teamId": "rg-554"
     },
     {
@@ -4528,6 +4615,9 @@
       "fouls": 3.2,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "38397",
+      "realgmUrl": "https://basketball.realgm.com/player/Marko-Rikalo/Summary/38397",
+      "id": "rg-38397",
       "teamId": "rg-562"
     },
     {
@@ -4555,6 +4645,9 @@
       "fouls": 1.8,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "40945",
+      "realgmUrl": "https://basketball.realgm.com/player/Gui-Pereira/Summary/40945",
+      "id": "rg-40945",
       "teamId": "rg-408"
     },
     {
@@ -4582,6 +4675,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "8685",
+      "realgmUrl": "https://basketball.realgm.com/player/Shamell-Stallworth/Summary/8685",
+      "id": "rg-8685",
       "teamId": "rg-1711"
     },
     {
@@ -4609,6 +4705,9 @@
       "fouls": 2,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "43118",
+      "realgmUrl": "https://basketball.realgm.com/player/Erik-McCree/Summary/43118",
+      "id": "rg-43118",
       "teamId": "rg-209"
     },
     {
@@ -4636,6 +4735,9 @@
       "fouls": 3.1,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "1115",
+      "realgmUrl": "https://basketball.realgm.com/player/Alex-Garcia/Summary/1115",
+      "id": "rg-1115",
       "teamId": "rg-69"
     },
     {
@@ -4663,6 +4765,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "155136",
+      "realgmUrl": "https://basketball.realgm.com/player/Derick-Machado-Goncalves/Summary/155136",
+      "id": "rg-155136",
       "teamId": "rg-1884"
     },
     {
@@ -4690,6 +4795,9 @@
       "fouls": 2.3,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "121676",
+      "realgmUrl": "https://basketball.realgm.com/player/Stan-Scott/Summary/121676",
+      "id": "rg-121676",
       "teamId": "rg-562"
     },
     {
@@ -4717,6 +4825,9 @@
       "fouls": 3.3,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "111160",
+      "realgmUrl": "https://basketball.realgm.com/player/Fermin-Thygesen/Summary/111160",
+      "id": "rg-111160",
       "teamId": "rg-562"
     },
     {
@@ -4744,6 +4855,9 @@
       "fouls": 3,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "253105",
+      "realgmUrl": "https://basketball.realgm.com/player/Douglas-Silva/Summary/253105",
+      "id": "rg-253105",
       "teamId": "rg-92"
     },
     {
@@ -4771,6 +4885,9 @@
       "fouls": 2.3,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "80746",
+      "realgmUrl": "https://basketball.realgm.com/player/Lamonte-Bearden/Summary/80746",
+      "id": "rg-80746",
       "teamId": "rg-77"
     },
     {
@@ -4798,6 +4915,9 @@
       "fouls": 2,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "148684",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Von-Haydin/Summary/148684",
+      "id": "rg-148684",
       "teamId": "rg-941"
     },
     {
@@ -4825,6 +4945,9 @@
       "fouls": 1.5,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "188769",
+      "realgmUrl": "https://basketball.realgm.com/player/Vitor-da-Silva-Brandao/Summary/188769",
+      "id": "rg-188769",
       "teamId": "rg-554"
     },
     {
@@ -4852,6 +4975,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "4576",
+      "realgmUrl": "https://basketball.realgm.com/player/Decensae-White/Summary/4576",
+      "id": "rg-4576",
       "teamId": "rg-1884"
     },
     {
@@ -4879,6 +5005,9 @@
       "fouls": 2,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "48675",
+      "realgmUrl": "https://basketball.realgm.com/player/Isaac-Thornton/Summary/48675",
+      "id": "rg-48675",
       "teamId": "rg-2784"
     },
     {
@@ -4906,6 +5035,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "156639",
+      "realgmUrl": "https://basketball.realgm.com/player/Paulo-Henrique-Scheuer/Summary/156639",
+      "id": "rg-156639",
       "teamId": "rg-1884"
     },
     {
@@ -4933,6 +5065,9 @@
       "fouls": 2.4,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "7821",
+      "realgmUrl": "https://basketball.realgm.com/player/Shaquille-Johnson/Summary/7821",
+      "id": "rg-7821",
       "teamId": "rg-408"
     },
     {
@@ -4960,6 +5095,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "130422",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Fernandes/Summary/130422",
+      "id": "rg-130422",
       "teamId": "rg-1289"
     },
     {
@@ -4987,6 +5125,9 @@
       "fouls": 3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "142350",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Paulichi/Summary/142350",
+      "id": "rg-142350",
       "teamId": "rg-941"
     },
     {
@@ -5014,6 +5155,9 @@
       "fouls": 1.8,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "45533",
+      "realgmUrl": "https://basketball.realgm.com/player/Malcolm-Miller/Summary/45533",
+      "id": "rg-45533",
       "teamId": "rg-92"
     },
     {
@@ -5041,6 +5185,9 @@
       "fouls": 1.5,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "102308",
+      "realgmUrl": "https://basketball.realgm.com/player/Alexey-Thiago-Borges/Summary/102308",
+      "id": "rg-102308",
       "teamId": "rg-408"
     },
     {
@@ -5068,6 +5215,9 @@
       "fouls": 3.3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "151549",
+      "realgmUrl": "https://basketball.realgm.com/player/Bruno-Cardoso/Summary/151549",
+      "id": "rg-151549",
       "teamId": "rg-941"
     },
     {
@@ -5095,6 +5245,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "98908",
+      "realgmUrl": "https://basketball.realgm.com/player/Yohanner-Sifontes/Summary/98908",
+      "id": "rg-98908",
       "teamId": "rg-2136"
     },
     {
@@ -5122,6 +5275,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "72665",
+      "realgmUrl": "https://basketball.realgm.com/player/Victor-da-Silva/Summary/72665",
+      "id": "rg-72665",
       "teamId": "rg-2027"
     },
     {
@@ -5149,6 +5305,9 @@
       "fouls": 2.6,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "143164",
+      "realgmUrl": "https://basketball.realgm.com/player/Sergio-Sillas-da-Conceicao/Summary/143164",
+      "id": "rg-143164",
       "teamId": "rg-77"
     },
     {
@@ -5176,6 +5335,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "255082",
+      "realgmUrl": "https://basketball.realgm.com/player/Alejo-Britos/Summary/255082",
+      "id": "rg-255082",
       "teamId": "rg-2204"
     },
     {
@@ -5203,6 +5365,9 @@
       "fouls": 2.2,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "108099",
+      "realgmUrl": "https://basketball.realgm.com/player/Lamar-Morgan/Summary/108099",
+      "id": "rg-108099",
       "teamId": "rg-77"
     },
     {
@@ -5230,6 +5395,9 @@
       "fouls": 2.8,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "2617",
+      "realgmUrl": "https://basketball.realgm.com/player/Ralfi-Ansaloni/Summary/2617",
+      "id": "rg-2617",
       "teamId": "rg-2784"
     },
     {
@@ -5257,6 +5425,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "57124",
+      "realgmUrl": "https://basketball.realgm.com/player/Dominique-Coleman/Summary/57124",
+      "id": "rg-57124",
       "teamId": "rg-2784"
     },
     {
@@ -5284,6 +5455,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "26683",
+      "realgmUrl": "https://basketball.realgm.com/player/Humberto-Gomes/Summary/26683",
+      "id": "rg-26683",
       "teamId": "rg-1711"
     },
     {
@@ -5311,6 +5485,9 @@
       "fouls": 2.5,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "59774",
+      "realgmUrl": "https://basketball.realgm.com/player/Gustavo-de-de-Oliveira/Summary/59774",
+      "id": "rg-59774",
       "teamId": "rg-77"
     },
     {
@@ -5338,6 +5515,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "135515",
+      "realgmUrl": "https://basketball.realgm.com/player/Raekwon-Horton/Summary/135515",
+      "id": "rg-135515",
       "teamId": "rg-2135"
     },
     {
@@ -5365,6 +5545,9 @@
       "fouls": 2.2,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "241202",
+      "realgmUrl": "https://basketball.realgm.com/player/Alexsander-Kevin-Vernizzi-dos-Santos/Summary/241202",
+      "id": "rg-241202",
       "teamId": "rg-77"
     },
     {
@@ -5392,6 +5575,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "150292",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Campos/Summary/150292",
+      "id": "rg-150292",
       "teamId": "rg-1288"
     },
     {
@@ -5419,6 +5605,9 @@
       "fouls": 2.4,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "222634",
+      "realgmUrl": "https://basketball.realgm.com/player/Yan-Djalo-Barbosa-Te/Summary/222634",
+      "id": "rg-222634",
       "teamId": "rg-211"
     },
     {
@@ -5446,6 +5635,9 @@
       "fouls": 2,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "184227",
+      "realgmUrl": "https://basketball.realgm.com/player/Caua-De-Souza-Pacheco/Summary/184227",
+      "id": "rg-184227",
       "teamId": "rg-211"
     },
     {
@@ -5473,6 +5665,9 @@
       "fouls": 2.5,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "198729",
+      "realgmUrl": "https://basketball.realgm.com/player/Winicius-Silva-Braga/Summary/198729",
+      "id": "rg-198729",
       "teamId": "rg-209"
     },
     {
@@ -5500,6 +5695,9 @@
       "fouls": 2,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "40973",
+      "realgmUrl": "https://basketball.realgm.com/player/Eddy-Carvalho/Summary/40973",
+      "id": "rg-40973",
       "teamId": "rg-2204"
     },
     {
@@ -5527,6 +5725,9 @@
       "fouls": 2.3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "43226",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Crescenzi/Summary/43226",
+      "id": "rg-43226",
       "teamId": "rg-941"
     },
     {
@@ -5554,6 +5755,9 @@
       "fouls": 2.6,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "155130",
+      "realgmUrl": "https://basketball.realgm.com/player/Anderson-Rodrigues/Summary/155130",
+      "id": "rg-155130",
       "teamId": "rg-92"
     },
     {
@@ -5581,6 +5785,9 @@
       "fouls": 2.5,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "124092",
+      "realgmUrl": "https://basketball.realgm.com/player/Fabricio-Verissimo/Summary/124092",
+      "id": "rg-124092",
       "teamId": "rg-283"
     },
     {
@@ -5608,6 +5815,9 @@
       "fouls": 2.3,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "40939",
+      "realgmUrl": "https://basketball.realgm.com/player/Alexandre-Paranhos/Summary/40939",
+      "id": "rg-40939",
       "teamId": "rg-209"
     },
     {
@@ -5635,6 +5845,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "111642",
+      "realgmUrl": "https://basketball.realgm.com/player/Fernando-Salsamendi/Summary/111642",
+      "id": "rg-111642",
       "teamId": "rg-1289"
     },
     {
@@ -5662,6 +5875,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "27044",
+      "realgmUrl": "https://basketball.realgm.com/player/Henrique-Coelho/Summary/27044",
+      "id": "rg-27044",
       "teamId": "rg-2136"
     },
     {
@@ -5689,6 +5905,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "239861",
+      "realgmUrl": "https://basketball.realgm.com/player/Raffael-Mencarini/Summary/239861",
+      "id": "rg-239861",
       "teamId": "rg-1288"
     },
     {
@@ -5716,6 +5935,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "111160",
+      "realgmUrl": "https://basketball.realgm.com/player/Fermin-Thygesen/Summary/111160",
+      "id": "rg-111160",
       "teamId": "rg-2136"
     },
     {
@@ -5743,6 +5965,9 @@
       "fouls": 3.3,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "47771",
+      "realgmUrl": "https://basketball.realgm.com/player/Thiago-Mathias/Summary/47771",
+      "id": "rg-47771",
       "teamId": "rg-77"
     },
     {
@@ -5770,6 +5995,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "40974",
+      "realgmUrl": "https://basketball.realgm.com/player/Elinho-Neto/Summary/40974",
+      "id": "rg-40974",
       "teamId": "rg-2027"
     },
     {
@@ -5797,6 +6025,9 @@
       "fouls": 1.6,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "40818",
+      "realgmUrl": "https://basketball.realgm.com/player/Juan-Arengo/Summary/40818",
+      "id": "rg-40818",
       "teamId": "rg-209"
     },
     {
@@ -5824,6 +6055,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "18146",
+      "realgmUrl": "https://basketball.realgm.com/player/Scott-Machado/Summary/18146",
+      "id": "rg-18146",
       "teamId": "rg-1884"
     },
     {
@@ -5851,6 +6085,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "47779",
+      "realgmUrl": "https://basketball.realgm.com/player/Antonio-Ferreira/Summary/47779",
+      "id": "rg-47779",
       "teamId": "rg-2136"
     },
     {
@@ -5878,6 +6115,9 @@
       "fouls": 2.9,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "131092",
+      "realgmUrl": "https://basketball.realgm.com/player/Alejandro-Grant/Summary/131092",
+      "id": "rg-131092",
       "teamId": "rg-2204"
     },
     {
@@ -5905,6 +6145,9 @@
       "fouls": 2.8,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "140292",
+      "realgmUrl": "https://basketball.realgm.com/player/Juan-Cardenas/Summary/140292",
+      "id": "rg-140292",
       "teamId": "rg-283"
     },
     {
@@ -5932,6 +6175,9 @@
       "fouls": 2.3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "158585",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Santos-Neves-da-Silva/Summary/158585",
+      "id": "rg-158585",
       "teamId": "rg-941"
     },
     {
@@ -5959,6 +6205,9 @@
       "fouls": 2,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "49687",
+      "realgmUrl": "https://basketball.realgm.com/player/Corderro-Bennett/Summary/49687",
+      "id": "rg-49687",
       "teamId": "rg-282"
     },
     {
@@ -5986,6 +6235,9 @@
       "fouls": 1.8,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "92173",
+      "realgmUrl": "https://basketball.realgm.com/player/Franco-Andres-Baralle/Summary/92173",
+      "id": "rg-92173",
       "teamId": "rg-408"
     },
     {
@@ -6013,6 +6265,9 @@
       "fouls": 2,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "142519",
+      "realgmUrl": "https://basketball.realgm.com/player/Augusto-Rosa/Summary/142519",
+      "id": "rg-142519",
       "teamId": "rg-1884"
     },
     {
@@ -6040,6 +6295,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "104449",
+      "realgmUrl": "https://basketball.realgm.com/player/Paulo-Da-Costa/Summary/104449",
+      "id": "rg-104449",
       "teamId": "rg-1288"
     },
     {
@@ -6067,6 +6325,9 @@
       "fouls": 2.9,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "110632",
+      "realgmUrl": "https://basketball.realgm.com/player/Wesley-Ferreira/Summary/110632",
+      "id": "rg-110632",
       "teamId": "rg-408"
     },
     {
@@ -6094,6 +6355,9 @@
       "fouls": 2.8,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "132346",
+      "realgmUrl": "https://basketball.realgm.com/player/Luis-Rodriguez/Summary/132346",
+      "id": "rg-132346",
       "teamId": "rg-282"
     },
     {
@@ -6121,6 +6385,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "24836",
+      "realgmUrl": "https://basketball.realgm.com/player/Felipe-Vezaro/Summary/24836",
+      "id": "rg-24836",
       "teamId": "rg-1711"
     },
     {
@@ -6148,6 +6415,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "119577",
+      "realgmUrl": "https://basketball.realgm.com/player/Fabrizzio-Ruiz/Summary/119577",
+      "id": "rg-119577",
       "teamId": "rg-1711"
     },
     {
@@ -6175,6 +6445,9 @@
       "fouls": 1.1,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "186789",
+      "realgmUrl": "https://basketball.realgm.com/player/Paulo-Barbosa/Summary/186789",
+      "id": "rg-186789",
       "teamId": "rg-282"
     },
     {
@@ -6202,6 +6475,9 @@
       "fouls": 2,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "108466",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Munford/Summary/108466",
+      "id": "rg-108466",
       "teamId": "rg-2027"
     },
     {
@@ -6229,6 +6505,9 @@
       "fouls": 3.4,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "148001",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Silva/Summary/148001",
+      "id": "rg-148001",
       "teamId": "rg-69"
     },
     {
@@ -6256,6 +6535,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "108465",
+      "realgmUrl": "https://basketball.realgm.com/player/Felipe-Ruivo/Summary/108465",
+      "id": "rg-108465",
       "teamId": "rg-1288"
     },
     {
@@ -6283,6 +6565,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "30591",
+      "realgmUrl": "https://basketball.realgm.com/player/Kendall-Anthony/Summary/30591",
+      "id": "rg-30591",
       "teamId": "rg-2136"
     },
     {
@@ -6310,6 +6595,9 @@
       "fouls": 2.9,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "188795",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Custodio/Summary/188795",
+      "id": "rg-188795",
       "teamId": "rg-562"
     },
     {
@@ -6337,6 +6625,9 @@
       "fouls": 2.2,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "144419",
+      "realgmUrl": "https://basketball.realgm.com/player/Vinicius-Malachias/Summary/144419",
+      "id": "rg-144419",
       "teamId": "rg-2204"
     },
     {
@@ -6364,6 +6655,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "129736",
+      "realgmUrl": "https://basketball.realgm.com/player/Andre-Dikembe/Summary/129736",
+      "id": "rg-129736",
       "teamId": "rg-1288"
     },
     {
@@ -6391,6 +6685,9 @@
       "fouls": 2.2,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "14389",
+      "realgmUrl": "https://basketball.realgm.com/player/Markeith-Cummings/Summary/14389",
+      "id": "rg-14389",
       "teamId": "rg-408"
     },
     {
@@ -6418,6 +6715,9 @@
       "fouls": 1.7,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "117770",
+      "realgmUrl": "https://basketball.realgm.com/player/DeMarco-Owens/Summary/117770",
+      "id": "rg-117770",
       "teamId": "rg-562"
     },
     {
@@ -6445,6 +6745,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "97376",
+      "realgmUrl": "https://basketball.realgm.com/player/Aleksa-Popovic/Summary/97376",
+      "id": "rg-97376",
       "teamId": "rg-1289"
     },
     {
@@ -6472,6 +6775,9 @@
       "fouls": 2.1,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "24993",
+      "realgmUrl": "https://basketball.realgm.com/player/Betinho-Duarte/Summary/24993",
+      "id": "rg-24993",
       "teamId": "rg-211"
     },
     {
@@ -6499,6 +6805,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "140540",
+      "realgmUrl": "https://basketball.realgm.com/player/Jack-Gohlke/Summary/140540",
+      "id": "rg-140540",
       "teamId": "rg-1289"
     },
     {
@@ -6526,6 +6835,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "143383",
+      "realgmUrl": "https://basketball.realgm.com/player/Emanuel-Matias/Summary/143383",
+      "id": "rg-143383",
       "teamId": "rg-1884"
     },
     {
@@ -6553,6 +6865,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "61151",
+      "realgmUrl": "https://basketball.realgm.com/player/Duane-Johnson/Summary/61151",
+      "id": "rg-61151",
       "teamId": "rg-1288"
     },
     {
@@ -6580,6 +6895,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "125807",
+      "realgmUrl": "https://basketball.realgm.com/player/Augusto-Leao/Summary/125807",
+      "id": "rg-125807",
       "teamId": "rg-1711"
     },
     {
@@ -6607,6 +6925,9 @@
       "fouls": 2.2,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "4806",
+      "realgmUrl": "https://basketball.realgm.com/player/Dee-Bost/Summary/4806",
+      "id": "rg-4806",
       "teamId": "rg-408"
     },
     {
@@ -6634,6 +6955,9 @@
       "fouls": 2.1,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "88429",
+      "realgmUrl": "https://basketball.realgm.com/player/Guilherme-Santos/Summary/88429",
+      "id": "rg-88429",
       "teamId": "rg-562"
     },
     {
@@ -6661,6 +6985,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "205058",
+      "realgmUrl": "https://basketball.realgm.com/player/Michel-de-Souza/Summary/205058",
+      "id": "rg-205058",
       "teamId": "rg-2135"
     },
     {
@@ -6688,6 +7015,9 @@
       "fouls": 2.4,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "47724",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Silva/Summary/47724",
+      "id": "rg-47724",
       "teamId": "rg-209"
     },
     {
@@ -6715,6 +7045,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "92183",
+      "realgmUrl": "https://basketball.realgm.com/player/Danilo-Penteado/Summary/92183",
+      "id": "rg-92183",
       "teamId": "rg-2135"
     },
     {
@@ -6742,6 +7075,9 @@
       "fouls": 2.6,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "47780",
+      "realgmUrl": "https://basketball.realgm.com/player/Maique-Tavares/Summary/47780",
+      "id": "rg-47780",
       "teamId": "rg-92"
     },
     {
@@ -6769,6 +7105,9 @@
       "fouls": 2.5,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "222641",
+      "realgmUrl": "https://basketball.realgm.com/player/Felipe-Gregate-Pontara-Borges/Summary/222641",
+      "id": "rg-222641",
       "teamId": "rg-211"
     },
     {
@@ -6796,6 +7135,9 @@
       "fouls": 2.1,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "40994",
+      "realgmUrl": "https://basketball.realgm.com/player/Ricardo-Fischer/Summary/40994",
+      "id": "rg-40994",
       "teamId": "rg-209"
     },
     {
@@ -6823,6 +7165,9 @@
       "fouls": 2.6,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "103369",
+      "realgmUrl": "https://basketball.realgm.com/player/Jose-Materan/Summary/103369",
+      "id": "rg-103369",
       "teamId": "rg-69"
     },
     {
@@ -6850,6 +7195,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "40999",
+      "realgmUrl": "https://basketball.realgm.com/player/Jimmy-de-Oliveira/Summary/40999",
+      "id": "rg-40999",
       "teamId": "rg-2136"
     },
     {
@@ -6877,6 +7225,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "223406",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Weber-Barcelos/Summary/223406",
+      "id": "rg-223406",
       "teamId": "rg-2204"
     },
     {
@@ -6904,6 +7255,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "172453",
+      "realgmUrl": "https://basketball.realgm.com/player/Jamison-Costa/Summary/172453",
+      "id": "rg-172453",
       "teamId": "rg-2784"
     },
     {
@@ -6931,6 +7285,9 @@
       "fouls": 1.6,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "148771",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Santana/Summary/148771",
+      "id": "rg-148771",
       "teamId": "rg-941"
     },
     {
@@ -6958,6 +7315,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "99269",
+      "realgmUrl": "https://basketball.realgm.com/player/Blake-Marquardt/Summary/99269",
+      "id": "rg-99269",
       "teamId": "rg-1884"
     },
     {
@@ -6985,6 +7345,9 @@
       "fouls": 1.8,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "98180",
+      "realgmUrl": "https://basketball.realgm.com/player/Guilherme-Lessa/Summary/98180",
+      "id": "rg-98180",
       "teamId": "rg-92"
     },
     {
@@ -7012,6 +7375,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "89201",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Pereira/Summary/89201",
+      "id": "rg-89201",
       "teamId": "rg-2027"
     },
     {
@@ -7039,6 +7405,9 @@
       "fouls": 2.2,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "24840",
+      "realgmUrl": "https://basketball.realgm.com/player/Cristiano-Felicio/Summary/24840",
+      "id": "rg-24840",
       "teamId": "rg-282"
     },
     {
@@ -7066,6 +7435,9 @@
       "fouls": 2.3,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "175287",
+      "realgmUrl": "https://basketball.realgm.com/player/Vitor-Silverio-Narcizio/Summary/175287",
+      "id": "rg-175287",
       "teamId": "rg-562"
     },
     {
@@ -7093,6 +7465,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "184692",
+      "realgmUrl": "https://basketball.realgm.com/player/CJ-Crews/Summary/184692",
+      "id": "rg-184692",
       "teamId": "rg-2135"
     },
     {
@@ -7120,6 +7495,9 @@
       "fouls": 1,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "217128",
+      "realgmUrl": "https://basketball.realgm.com/player/Mathias-Alessanco/Summary/217128",
+      "id": "rg-217128",
       "teamId": "rg-211"
     },
     {
@@ -7147,6 +7525,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "97751",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafa-Oliveira/Summary/97751",
+      "id": "rg-97751",
       "teamId": "rg-1711"
     },
     {
@@ -7174,6 +7555,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "138014",
+      "realgmUrl": "https://basketball.realgm.com/player/Yosani-Clay/Summary/138014",
+      "id": "rg-138014",
       "teamId": "rg-2784"
     },
     {
@@ -7201,6 +7585,9 @@
       "fouls": 1.6,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "3977",
+      "realgmUrl": "https://basketball.realgm.com/player/Tim-Frazier/Summary/3977",
+      "id": "rg-3977",
       "teamId": "rg-209"
     },
     {
@@ -7228,6 +7615,9 @@
       "fouls": 1.4,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "201058",
+      "realgmUrl": "https://basketball.realgm.com/player/Edson-Tovar/Summary/201058",
+      "id": "rg-201058",
       "teamId": "rg-554"
     },
     {
@@ -7255,6 +7645,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "205072",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Victor-Fidelis-Moda/Summary/205072",
+      "id": "rg-205072",
       "teamId": "rg-2135"
     },
     {
@@ -7282,6 +7675,9 @@
       "fouls": 1.1,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "164780",
+      "realgmUrl": "https://basketball.realgm.com/player/CJ-Penha-Jr/Summary/164780",
+      "id": "rg-164780",
       "teamId": "rg-211"
     },
     {
@@ -7309,6 +7705,9 @@
       "fouls": 1.7,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "24997",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Mineiro/Summary/24997",
+      "id": "rg-24997",
       "teamId": "rg-282"
     },
     {
@@ -7336,6 +7735,9 @@
       "fouls": 2.5,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "49156",
+      "realgmUrl": "https://basketball.realgm.com/player/Gemerson-Barbosa/Summary/49156",
+      "id": "rg-49156",
       "teamId": "rg-69"
     },
     {
@@ -7363,6 +7765,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "89991",
+      "realgmUrl": "https://basketball.realgm.com/player/Phil-Carr/Summary/89991",
+      "id": "rg-89991",
       "teamId": "rg-2136"
     },
     {
@@ -7390,6 +7795,9 @@
       "fouls": 2.6,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "151695",
+      "realgmUrl": "https://basketball.realgm.com/player/Juan-Laterza/Summary/151695",
+      "id": "rg-151695",
       "teamId": "rg-282"
     },
     {
@@ -7417,6 +7825,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "78709",
+      "realgmUrl": "https://basketball.realgm.com/player/Alef-Pereira/Summary/78709",
+      "id": "rg-78709",
       "teamId": "rg-1884"
     },
     {
@@ -7444,6 +7855,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "105369",
+      "realgmUrl": "https://basketball.realgm.com/player/Makhtar-Gueye/Summary/105369",
+      "id": "rg-105369",
       "teamId": "rg-2136"
     },
     {
@@ -7471,6 +7885,9 @@
       "fouls": 3.2,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "155153",
+      "realgmUrl": "https://basketball.realgm.com/player/Eduardo-Franca-Elevi/Summary/155153",
+      "id": "rg-155153",
       "teamId": "rg-2135"
     },
     {
@@ -7498,6 +7915,9 @@
       "fouls": 1.9,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "172442",
+      "realgmUrl": "https://basketball.realgm.com/player/Guillherme-Silva/Summary/172442",
+      "id": "rg-172442",
       "teamId": "rg-77"
     },
     {
@@ -7525,6 +7945,9 @@
       "fouls": 2.5,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "186627",
+      "realgmUrl": "https://basketball.realgm.com/player/Agapy-Santos/Summary/186627",
+      "id": "rg-186627",
       "teamId": "rg-211"
     },
     {
@@ -7552,6 +7975,9 @@
       "fouls": 1.9,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "205059",
+      "realgmUrl": "https://basketball.realgm.com/player/Henrique-Seixas/Summary/205059",
+      "id": "rg-205059",
       "teamId": "rg-554"
     },
     {
@@ -7579,6 +8005,9 @@
       "fouls": 3.2,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "150738",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Alberton-Rodrigues/Summary/150738",
+      "id": "rg-150738",
       "teamId": "rg-1289"
     },
     {
@@ -7606,6 +8035,9 @@
       "fouls": 3.3,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "196080",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Landeira/Summary/196080",
+      "id": "rg-196080",
       "teamId": "rg-554"
     },
     {
@@ -7633,6 +8065,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "72234",
+      "realgmUrl": "https://basketball.realgm.com/player/Victor-Leal/Summary/72234",
+      "id": "rg-72234",
       "teamId": "rg-2136"
     },
     {
@@ -7660,6 +8095,9 @@
       "fouls": 0.4,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "253123",
+      "realgmUrl": "https://basketball.realgm.com/player/Gustavo-Godoy/Summary/253123",
+      "id": "rg-253123",
       "teamId": "rg-69"
     },
     {
@@ -7687,6 +8125,9 @@
       "fouls": 2.3,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "247739",
+      "realgmUrl": "https://basketball.realgm.com/player/Luis-dos-Santos-Salvador/Summary/247739",
+      "id": "rg-247739",
       "teamId": "rg-92"
     },
     {
@@ -7714,6 +8155,9 @@
       "fouls": 2.3,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "217120",
+      "realgmUrl": "https://basketball.realgm.com/player/Pedro-Pastre/Summary/217120",
+      "id": "rg-217120",
       "teamId": "rg-211"
     },
     {
@@ -7741,6 +8185,9 @@
       "fouls": 1,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "266332",
+      "realgmUrl": "https://basketball.realgm.com/player/Igor-Domingos-Botelho/Summary/266332",
+      "id": "rg-266332",
       "teamId": "rg-1288"
     },
     {
@@ -7768,6 +8215,9 @@
       "fouls": 2,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "223604",
+      "realgmUrl": "https://basketball.realgm.com/player/Leonardo-Henrique-Cravero/Summary/223604",
+      "id": "rg-223604",
       "teamId": "rg-92"
     },
     {
@@ -7795,6 +8245,9 @@
       "fouls": 2.8,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "239648",
+      "realgmUrl": "https://basketball.realgm.com/player/Grigor-Batista-Vieira/Summary/239648",
+      "id": "rg-239648",
       "teamId": "rg-2135"
     },
     {
@@ -7822,6 +8275,9 @@
       "fouls": 2.2,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "47718",
+      "realgmUrl": "https://basketball.realgm.com/player/Danilo-Siqueira/Summary/47718",
+      "id": "rg-47718",
       "teamId": "rg-209"
     },
     {
@@ -7849,6 +8305,9 @@
       "fouls": 1.4,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "240443",
+      "realgmUrl": "https://basketball.realgm.com/player/Eduardo-Santos/Summary/240443",
+      "id": "rg-240443",
       "teamId": "rg-211"
     },
     {
@@ -7876,6 +8335,9 @@
       "fouls": 1.8,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "92181",
+      "realgmUrl": "https://basketball.realgm.com/player/Pedro-Nunes/Summary/92181",
+      "id": "rg-92181",
       "teamId": "rg-77"
     },
     {
@@ -7903,6 +8365,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "166316",
+      "realgmUrl": "https://basketball.realgm.com/player/Luiz-Mauro-Machado-Jr/Summary/166316",
+      "id": "rg-166316",
       "teamId": "rg-1884"
     },
     {
@@ -7930,6 +8395,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "223409",
+      "realgmUrl": "https://basketball.realgm.com/player/Tarek-Santana/Summary/223409",
+      "id": "rg-223409",
       "teamId": "rg-2204"
     },
     {
@@ -7957,6 +8425,9 @@
       "fouls": 1.8,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "92176",
+      "realgmUrl": "https://basketball.realgm.com/player/Kayo-Goncalves/Summary/92176",
+      "id": "rg-92176",
       "teamId": "rg-408"
     },
     {
@@ -7984,6 +8455,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "72031",
+      "realgmUrl": "https://basketball.realgm.com/player/Wesley-Sena/Summary/72031",
+      "id": "rg-72031",
       "teamId": "rg-2784"
     },
     {
@@ -8011,6 +8485,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "182552",
+      "realgmUrl": "https://basketball.realgm.com/player/Gerald-Gittens/Summary/182552",
+      "id": "rg-182552",
       "teamId": "rg-2784"
     },
     {
@@ -8038,6 +8515,9 @@
       "fouls": 2,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "249224",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Nakazawa/Summary/249224",
+      "id": "rg-249224",
       "teamId": "rg-2135"
     },
     {
@@ -8065,6 +8545,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "162966",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Novaes-Souza/Summary/162966",
+      "id": "rg-162966",
       "teamId": "rg-2027"
     },
     {
@@ -8092,6 +8575,9 @@
       "fouls": 2.4,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "175776",
+      "realgmUrl": "https://basketball.realgm.com/player/Kauan-Nascimento-Raymundo/Summary/175776",
+      "id": "rg-175776",
       "teamId": "rg-2027"
     },
     {
@@ -8119,6 +8605,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "156641",
+      "realgmUrl": "https://basketball.realgm.com/player/Barbosa-Santana/Summary/156641",
+      "id": "rg-156641",
       "teamId": "rg-1288"
     },
     {
@@ -8146,6 +8635,9 @@
       "fouls": 2.6,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "255070",
+      "realgmUrl": "https://basketball.realgm.com/player/Elias-Oliveira-Goulart-Conceicao/Summary/255070",
+      "id": "rg-255070",
       "teamId": "rg-77"
     },
     {
@@ -8173,6 +8665,9 @@
       "fouls": 2.8,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "98453",
+      "realgmUrl": "https://basketball.realgm.com/player/Jon-Dos-Anjos/Summary/98453",
+      "id": "rg-98453",
       "teamId": "rg-562"
     },
     {
@@ -8200,6 +8695,9 @@
       "fouls": 1.8,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "40909",
+      "realgmUrl": "https://basketball.realgm.com/player/Andre-Bresolin/Summary/40909",
+      "id": "rg-40909",
       "teamId": "rg-283"
     },
     {
@@ -8227,6 +8725,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "40968",
+      "realgmUrl": "https://basketball.realgm.com/player/Caue-dos-Santos/Summary/40968",
+      "id": "rg-40968",
       "teamId": "rg-2027"
     },
     {
@@ -8254,6 +8755,9 @@
       "fouls": 2,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "102574",
+      "realgmUrl": "https://basketball.realgm.com/player/Cassiano-Bueno/Summary/102574",
+      "id": "rg-102574",
       "teamId": "rg-2784"
     },
     {
@@ -8281,6 +8785,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "260913",
+      "realgmUrl": "https://basketball.realgm.com/player/Bruno-Caribaux/Summary/260913",
+      "id": "rg-260913",
       "teamId": "rg-2204"
     },
     {
@@ -8308,6 +8815,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "157688",
+      "realgmUrl": "https://basketball.realgm.com/player/Felipe-Dalaqua-Almentra/Summary/157688",
+      "id": "rg-157688",
       "teamId": "rg-2204"
     },
     {
@@ -8335,6 +8845,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "186791",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Paulo-de-Almeida/Summary/186791",
+      "id": "rg-186791",
       "teamId": "rg-2136"
     },
     {
@@ -8362,6 +8875,9 @@
       "fouls": 1.6,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "28287",
+      "realgmUrl": "https://basketball.realgm.com/player/Leonardo-Demetrio/Summary/28287",
+      "id": "rg-28287",
       "teamId": "rg-554"
     },
     {
@@ -8389,6 +8905,9 @@
       "fouls": 1.1,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "2435",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Hettsheimeir/Summary/2435",
+      "id": "rg-2435",
       "teamId": "rg-283"
     },
     {
@@ -8416,6 +8935,9 @@
       "fouls": 2.1,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "208369",
+      "realgmUrl": "https://basketball.realgm.com/player/Yuri-Elias/Summary/208369",
+      "id": "rg-208369",
       "teamId": "rg-209"
     },
     {
@@ -8443,6 +8965,9 @@
       "fouls": 1.3,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "9336",
+      "realgmUrl": "https://basketball.realgm.com/player/Carlton-Guyton/Summary/9336",
+      "id": "rg-9336",
       "teamId": "rg-283"
     },
     {
@@ -8470,6 +8995,9 @@
       "fouls": 2,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "223603",
+      "realgmUrl": "https://basketball.realgm.com/player/Vinicius-Nascimento-Chagas/Summary/223603",
+      "id": "rg-223603",
       "teamId": "rg-1288"
     },
     {
@@ -8497,6 +9025,9 @@
       "fouls": 2,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "186604",
+      "realgmUrl": "https://basketball.realgm.com/player/William-Omena/Summary/186604",
+      "id": "rg-186604",
       "teamId": "rg-1711"
     },
     {
@@ -8524,6 +9055,9 @@
       "fouls": 2.4,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "24989",
+      "realgmUrl": "https://basketball.realgm.com/player/Caue-de-Freitas/Summary/24989",
+      "id": "rg-24989",
       "teamId": "rg-92"
     },
     {
@@ -8551,6 +9085,9 @@
       "fouls": 1.7,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "205073",
+      "realgmUrl": "https://basketball.realgm.com/player/Pedro-Eduardo-Infante-Pereira/Summary/205073",
+      "id": "rg-205073",
       "teamId": "rg-69"
     },
     {
@@ -8578,6 +9115,9 @@
       "fouls": 1.6,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "172450",
+      "realgmUrl": "https://basketball.realgm.com/player/Murilo-Alves-Souza/Summary/172450",
+      "id": "rg-172450",
       "teamId": "rg-562"
     },
     {
@@ -8605,6 +9145,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "42625",
+      "realgmUrl": "https://basketball.realgm.com/player/Gerson-Santo/Summary/42625",
+      "id": "rg-42625",
       "teamId": "rg-2136"
     },
     {
@@ -8632,6 +9175,9 @@
       "fouls": 2,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "9090",
+      "realgmUrl": "https://basketball.realgm.com/player/Hatila-Passos/Summary/9090",
+      "id": "rg-9090",
       "teamId": "rg-2204"
     },
     {
@@ -8659,6 +9205,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "223466",
+      "realgmUrl": "https://basketball.realgm.com/player/Felipe-da-Silva-Nunes-Paulino/Summary/223466",
+      "id": "rg-223466",
       "teamId": "rg-1884"
     },
     {
@@ -8686,6 +9235,9 @@
       "fouls": 1.9,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "41060",
+      "realgmUrl": "https://basketball.realgm.com/player/Jhonatan-dos-Santos/Summary/41060",
+      "id": "rg-41060",
       "teamId": "rg-408"
     },
     {
@@ -8713,6 +9265,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "223407",
+      "realgmUrl": "https://basketball.realgm.com/player/Caua-Euler-Santos-Queiroz/Summary/223407",
+      "id": "rg-223407",
       "teamId": "rg-2135"
     },
     {
@@ -8740,6 +9295,9 @@
       "fouls": 1.9,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "253114",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Macedo/Summary/253114",
+      "id": "rg-253114",
       "teamId": "rg-554"
     },
     {
@@ -8767,6 +9325,9 @@
       "fouls": 2.1,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "222637",
+      "realgmUrl": "https://basketball.realgm.com/player/Gustavo-Santana/Summary/222637",
+      "id": "rg-222637",
       "teamId": "rg-69"
     },
     {
@@ -8794,6 +9355,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "179508",
+      "realgmUrl": "https://basketball.realgm.com/player/Leonardo-Braga/Summary/179508",
+      "id": "rg-179508",
       "teamId": "rg-2784"
     },
     {
@@ -8821,6 +9385,9 @@
       "fouls": 0.8,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "151155",
+      "realgmUrl": "https://basketball.realgm.com/player/Tiago-Aguiar-Faria/Summary/151155",
+      "id": "rg-151155",
       "teamId": "rg-2027"
     },
     {
@@ -8848,6 +9415,9 @@
       "fouls": 1.8,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "80317",
+      "realgmUrl": "https://basketball.realgm.com/player/Darrell-Davis/Summary/80317",
+      "id": "rg-80317",
       "teamId": "rg-209"
     },
     {
@@ -8875,6 +9445,9 @@
       "fouls": 2.2,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "222642",
+      "realgmUrl": "https://basketball.realgm.com/player/Afonso-Campos-Pacheco/Summary/222642",
+      "id": "rg-222642",
       "teamId": "rg-211"
     },
     {
@@ -8902,6 +9475,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "150734",
+      "realgmUrl": "https://basketball.realgm.com/player/Jean-Cardoso/Summary/150734",
+      "id": "rg-150734",
       "teamId": "rg-1289"
     },
     {
@@ -8929,6 +9505,9 @@
       "fouls": 1.6,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "26680",
+      "realgmUrl": "https://basketball.realgm.com/player/Pedro-da-Silva/Summary/26680",
+      "id": "rg-26680",
       "teamId": "rg-941"
     },
     {
@@ -8956,6 +9535,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "208556",
+      "realgmUrl": "https://basketball.realgm.com/player/Breno-Leoterio-dos-Santos/Summary/208556",
+      "id": "rg-208556",
       "teamId": "rg-2204"
     },
     {
@@ -8983,6 +9565,9 @@
       "fouls": 1.2,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "151760",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Ifedi-Ferreira-Onwenu/Summary/151760",
+      "id": "rg-151760",
       "teamId": "rg-408"
     },
     {
@@ -9010,6 +9595,9 @@
       "fouls": 1.4,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "129054",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Maciel/Summary/129054",
+      "id": "rg-129054",
       "teamId": "rg-211"
     },
     {
@@ -9037,6 +9625,9 @@
       "fouls": 1.5,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "28390",
+      "realgmUrl": "https://basketball.realgm.com/player/Isaac-Goncalves/Summary/28390",
+      "id": "rg-28390",
       "teamId": "rg-283"
     },
     {
@@ -9064,6 +9655,9 @@
       "fouls": 2.7,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "196081",
+      "realgmUrl": "https://basketball.realgm.com/player/Leandro-Cardoso-Inacio/Summary/196081",
+      "id": "rg-196081",
       "teamId": "rg-554"
     },
     {
@@ -9091,6 +9685,9 @@
       "fouls": 1.2,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "226527",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Victor-Nickel-Alves-dos-Santos/Summary/226527",
+      "id": "rg-226527",
       "teamId": "rg-92"
     },
     {
@@ -9118,6 +9715,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "266320",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Silva-Bavoso/Summary/266320",
+      "id": "rg-266320",
       "teamId": "rg-1288"
     },
     {
@@ -9145,6 +9745,9 @@
       "fouls": 0.8,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "205076",
+      "realgmUrl": "https://basketball.realgm.com/player/Caio-Henrique-Oliveira-Rocha/Summary/205076",
+      "id": "rg-205076",
       "teamId": "rg-562"
     },
     {
@@ -9172,6 +9775,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "110871",
+      "realgmUrl": "https://basketball.realgm.com/player/Myles-Thomas/Summary/110871",
+      "id": "rg-110871",
       "teamId": "rg-2204"
     },
     {
@@ -9199,6 +9805,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "77967",
+      "realgmUrl": "https://basketball.realgm.com/player/Everton-Oliveira/Summary/77967",
+      "id": "rg-77967",
       "teamId": "rg-1711"
     },
     {
@@ -9226,6 +9835,9 @@
       "fouls": 1.6,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "40970",
+      "realgmUrl": "https://basketball.realgm.com/player/Renato-Carbonari/Summary/40970",
+      "id": "rg-40970",
       "teamId": "rg-941"
     },
     {
@@ -9253,6 +9865,9 @@
       "fouls": 1,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "151206",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Leoni-Oliveira/Summary/151206",
+      "id": "rg-151206",
       "teamId": "rg-2204"
     },
     {
@@ -9280,6 +9895,9 @@
       "fouls": 1.6,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "254596",
+      "realgmUrl": "https://basketball.realgm.com/player/Nathan-Gomes-Gonalves/Summary/254596",
+      "id": "rg-254596",
       "teamId": "rg-2135"
     },
     {
@@ -9307,6 +9925,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "186746",
+      "realgmUrl": "https://basketball.realgm.com/player/Lele-Moura/Summary/186746",
+      "id": "rg-186746",
       "teamId": "rg-1884"
     },
     {
@@ -9334,6 +9955,9 @@
       "fouls": 0.8,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "120117",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Zibecchi/Summary/120117",
+      "id": "rg-120117",
       "teamId": "rg-77"
     },
     {
@@ -9361,6 +9985,9 @@
       "fouls": 1.4,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "151157",
+      "realgmUrl": "https://basketball.realgm.com/player/Emanuel-Fernandes-de-Lima/Summary/151157",
+      "id": "rg-151157",
       "teamId": "rg-408"
     },
     {
@@ -9388,6 +10015,9 @@
       "fouls": 1.9,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "99622",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Robinson/Summary/99622",
+      "id": "rg-99622",
       "teamId": "rg-408"
     },
     {
@@ -9415,6 +10045,9 @@
       "fouls": 1,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "253117",
+      "realgmUrl": "https://basketball.realgm.com/player/Silvio-Nicoliello-Neto/Summary/253117",
+      "id": "rg-253117",
       "teamId": "rg-554"
     },
     {
@@ -9442,6 +10075,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "266127",
+      "realgmUrl": "https://basketball.realgm.com/player/Julio-Ramos/Summary/266127",
+      "id": "rg-266127",
       "teamId": "rg-2204"
     },
     {
@@ -9469,6 +10105,9 @@
       "fouls": 1.5,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "62268",
+      "realgmUrl": "https://basketball.realgm.com/player/Vithor-Lersch/Summary/62268",
+      "id": "rg-62268",
       "teamId": "rg-69"
     },
     {
@@ -9496,6 +10135,9 @@
       "fouls": 1.1,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "210830",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Gueiros/Summary/210830",
+      "id": "rg-210830",
       "teamId": "rg-408"
     },
     {
@@ -9523,6 +10165,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "254593",
+      "realgmUrl": "https://basketball.realgm.com/player/Augusto-Vieira-Costa/Summary/254593",
+      "id": "rg-254593",
       "teamId": "rg-1289"
     },
     {
@@ -9550,6 +10195,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "223398",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Andrade/Summary/223398",
+      "id": "rg-223398",
       "teamId": "rg-1884"
     },
     {
@@ -9577,6 +10225,9 @@
       "fouls": 1.2,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "123610",
+      "realgmUrl": "https://basketball.realgm.com/player/Jonatan-Oliveira/Summary/123610",
+      "id": "rg-123610",
       "teamId": "rg-283"
     },
     {
@@ -9604,6 +10255,9 @@
       "fouls": 2.1,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "174127",
+      "realgmUrl": "https://basketball.realgm.com/player/Arthur-Costa/Summary/174127",
+      "id": "rg-174127",
       "teamId": "rg-562"
     },
     {
@@ -9631,6 +10285,9 @@
       "fouls": 1.1,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "205035",
+      "realgmUrl": "https://basketball.realgm.com/player/Vinicius-Santos/Summary/205035",
+      "id": "rg-205035",
       "teamId": "rg-282"
     },
     {
@@ -9658,6 +10315,9 @@
       "fouls": 0.8,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "162524",
+      "realgmUrl": "https://basketball.realgm.com/player/Felipe-da-Cruz-Cardoso/Summary/162524",
+      "id": "rg-162524",
       "teamId": "rg-2784"
     },
     {
@@ -9685,6 +10345,9 @@
       "fouls": 2.3,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "186787",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Lima/Summary/186787",
+      "id": "rg-186787",
       "teamId": "rg-69"
     },
     {
@@ -9712,6 +10375,9 @@
       "fouls": 1,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "205070",
+      "realgmUrl": "https://basketball.realgm.com/player/Tiago-Grillo-Schiavetto-Marques/Summary/205070",
+      "id": "rg-205070",
       "teamId": "rg-1711"
     },
     {
@@ -9739,6 +10405,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "205096",
+      "realgmUrl": "https://basketball.realgm.com/player/Luan-Ribeiro-Pinto/Summary/205096",
+      "id": "rg-205096",
       "teamId": "rg-1711"
     },
     {
@@ -9766,6 +10435,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "253106",
+      "realgmUrl": "https://basketball.realgm.com/player/Nata-Freitas/Summary/253106",
+      "id": "rg-253106",
       "teamId": "rg-1884"
     },
     {
@@ -9793,6 +10465,9 @@
       "fouls": 2,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "24834",
+      "realgmUrl": "https://basketball.realgm.com/player/Davi-De-Oliveira/Summary/24834",
+      "id": "rg-24834",
       "teamId": "rg-283"
     },
     {
@@ -9820,6 +10495,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "226466",
+      "realgmUrl": "https://basketball.realgm.com/player/Miguel-Melo-Santos/Summary/226466",
+      "id": "rg-226466",
       "teamId": "rg-1711"
     },
     {
@@ -9847,6 +10525,9 @@
       "fouls": 0.6,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "238600",
+      "realgmUrl": "https://basketball.realgm.com/player/David-Chaves/Summary/238600",
+      "id": "rg-238600",
       "teamId": "rg-282"
     },
     {
@@ -9874,6 +10555,9 @@
       "fouls": 1.3,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "251907",
+      "realgmUrl": "https://basketball.realgm.com/player/Kelwin-Miguel-Da-Silva-De-Abreu/Summary/251907",
+      "id": "rg-251907",
       "teamId": "rg-282"
     },
     {
@@ -9901,6 +10585,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "199538",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Caldeira-Oliveira/Summary/199538",
+      "id": "rg-199538",
       "teamId": "rg-1288"
     },
     {
@@ -9928,6 +10615,9 @@
       "fouls": 1.2,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "222915",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Rodriguez/Summary/222915",
+      "id": "rg-222915",
       "teamId": "rg-209"
     },
     {
@@ -9955,6 +10645,9 @@
       "fouls": 0.9,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "253122",
+      "realgmUrl": "https://basketball.realgm.com/player/Augusto-Esdras/Summary/253122",
+      "id": "rg-253122",
       "teamId": "rg-69"
     },
     {
@@ -9982,6 +10675,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "254590",
+      "realgmUrl": "https://basketball.realgm.com/player/Tulio-Souza/Summary/254590",
+      "id": "rg-254590",
       "teamId": "rg-2784"
     },
     {
@@ -10009,6 +10705,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2204",
       "teamName": "Osasco Basquete",
+      "realgmPlayerId": "254583",
+      "realgmUrl": "https://basketball.realgm.com/player/Carlos-Farias-Paiva/Summary/254583",
+      "id": "rg-254583",
       "teamId": "rg-2204"
     },
     {
@@ -10036,6 +10735,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "145554",
+      "realgmUrl": "https://basketball.realgm.com/player/Maicon-Waldemar/Summary/145554",
+      "id": "rg-145554",
       "teamId": "rg-1288"
     },
     {
@@ -10063,6 +10765,9 @@
       "fouls": 0.5,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "217119",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucca-Marcato-Boracina/Summary/217119",
+      "id": "rg-217119",
       "teamId": "rg-211"
     },
     {
@@ -10090,6 +10795,9 @@
       "fouls": 0.5,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "235035",
+      "realgmUrl": "https://basketball.realgm.com/player/Murilo-Kuehne/Summary/235035",
+      "id": "rg-235035",
       "teamId": "rg-209"
     },
     {
@@ -10117,6 +10825,9 @@
       "fouls": 1,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "239870",
+      "realgmUrl": "https://basketball.realgm.com/player/Fernando-Filho/Summary/239870",
+      "id": "rg-239870",
       "teamId": "rg-209"
     },
     {
@@ -10144,6 +10855,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "204976",
+      "realgmUrl": "https://basketball.realgm.com/player/Alexandre-Ludwig/Summary/204976",
+      "id": "rg-204976",
       "teamId": "rg-2784"
     },
     {
@@ -10171,6 +10885,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "21555",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenny-Dawkins/Summary/21555",
+      "id": "rg-21555",
       "teamId": "rg-1884"
     },
     {
@@ -10198,6 +10915,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "187752",
+      "realgmUrl": "https://basketball.realgm.com/player/Samuel-Amorim-Oliveira/Summary/187752",
+      "id": "rg-187752",
       "teamId": "rg-1289"
     },
     {
@@ -10225,6 +10945,9 @@
       "fouls": 1,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "251908",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Henrique-Steuer-De-Aragao/Summary/251908",
+      "id": "rg-251908",
       "teamId": "rg-554"
     },
     {
@@ -10252,6 +10975,9 @@
       "fouls": 1,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "184234",
+      "realgmUrl": "https://basketball.realgm.com/player/Igor-De-Jesus-Andrade/Summary/184234",
+      "id": "rg-184234",
       "teamId": "rg-408"
     },
     {
@@ -10279,6 +11005,9 @@
       "fouls": 0.9,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "206722",
+      "realgmUrl": "https://basketball.realgm.com/player/Brayan-Henri-Boff-Ramao/Summary/206722",
+      "id": "rg-206722",
       "teamId": "rg-211"
     },
     {
@@ -10306,6 +11035,9 @@
       "fouls": 0.9,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "72663",
+      "realgmUrl": "https://basketball.realgm.com/player/Mogi-Alves/Summary/72663",
+      "id": "rg-72663",
       "teamId": "rg-69"
     },
     {
@@ -10333,6 +11065,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "225182",
+      "realgmUrl": "https://basketball.realgm.com/player/Vinicius-Flores/Summary/225182",
+      "id": "rg-225182",
       "teamId": "rg-2136"
     },
     {
@@ -10360,6 +11095,9 @@
       "fouls": 1.7,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "186605",
+      "realgmUrl": "https://basketball.realgm.com/player/Silvio-Nicoliello-Neto/Summary/186605",
+      "id": "rg-186605",
       "teamId": "rg-554"
     },
     {
@@ -10387,6 +11125,9 @@
       "fouls": 0.8,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "224332",
+      "realgmUrl": "https://basketball.realgm.com/player/Thaylor-Gabriel-dos-Santos-Fagundes/Summary/224332",
+      "id": "rg-224332",
       "teamId": "rg-282"
     },
     {
@@ -10414,6 +11155,9 @@
       "fouls": 0.4,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "231903",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Eduardo-Cardoso/Summary/231903",
+      "id": "rg-231903",
       "teamId": "rg-2027"
     },
     {
@@ -10441,6 +11185,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "22676",
+      "realgmUrl": "https://basketball.realgm.com/player/Abner-Moreira/Summary/22676",
+      "id": "rg-22676",
       "teamId": "rg-1884"
     },
     {
@@ -10468,6 +11215,9 @@
       "fouls": 0.8,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "156673",
+      "realgmUrl": "https://basketball.realgm.com/player/Italo-Bonizioli-Honorato/Summary/156673",
+      "id": "rg-156673",
       "teamId": "rg-77"
     },
     {
@@ -10495,6 +11245,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "239865",
+      "realgmUrl": "https://basketball.realgm.com/player/Mateus-Oliveira-Gomes/Summary/239865",
+      "id": "rg-239865",
       "teamId": "rg-2135"
     },
     {
@@ -10522,6 +11275,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "222909",
+      "realgmUrl": "https://basketball.realgm.com/player/Iago-Barry-Mendes-de-Morais-Gomes/Summary/222909",
+      "id": "rg-222909",
       "teamId": "rg-1288"
     },
     {
@@ -10549,6 +11305,9 @@
       "fouls": 0.3,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "255072",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafael-Amador-Costa-Martins/Summary/255072",
+      "id": "rg-255072",
       "teamId": "rg-554"
     },
     {
@@ -10576,6 +11335,9 @@
       "fouls": 0.8,
       "teamRealgmId": "408",
       "teamName": "Flamengo",
+      "realgmPlayerId": "186606",
+      "realgmUrl": "https://basketball.realgm.com/player/Vitor-Carvalho/Summary/186606",
+      "id": "rg-186606",
       "teamId": "rg-408"
     },
     {
@@ -10603,6 +11365,9 @@
       "fouls": 0.3,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "242906",
+      "realgmUrl": "https://basketball.realgm.com/player/Gustavo-Ribeiro/Summary/242906",
+      "id": "rg-242906",
       "teamId": "rg-2135"
     },
     {
@@ -10630,6 +11395,9 @@
       "fouls": 1.1,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "205068",
+      "realgmUrl": "https://basketball.realgm.com/player/Akin-Irae-Cortez-de-Souza/Summary/205068",
+      "id": "rg-205068",
       "teamId": "rg-562"
     },
     {
@@ -10657,6 +11425,9 @@
       "fouls": 0.3,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "184233",
+      "realgmUrl": "https://basketball.realgm.com/player/Henrique-Lucio-Da-Silva/Summary/184233",
+      "id": "rg-184233",
       "teamId": "rg-554"
     },
     {
@@ -10684,6 +11455,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "255073",
+      "realgmUrl": "https://basketball.realgm.com/player/Kleber-Barbosa-Sales/Summary/255073",
+      "id": "rg-255073",
       "teamId": "rg-1884"
     },
     {
@@ -10711,6 +11485,9 @@
       "fouls": 0.6,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "239649",
+      "realgmUrl": "https://basketball.realgm.com/player/Juan-Fortunato-Silva-Nascimento/Summary/239649",
+      "id": "rg-239649",
       "teamId": "rg-77"
     },
     {
@@ -10738,6 +11515,9 @@
       "fouls": 0.3,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "156608",
+      "realgmUrl": "https://basketball.realgm.com/player/Jonas-Matheus-Buffat/Summary/156608",
+      "id": "rg-156608",
       "teamId": "rg-211"
     },
     {
@@ -10765,6 +11545,9 @@
       "fouls": 0.3,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "255076",
+      "realgmUrl": "https://basketball.realgm.com/player/Nycolas-Carvalho-Franco-de-Jesus/Summary/255076",
+      "id": "rg-255076",
       "teamId": "rg-2135"
     },
     {
@@ -10792,6 +11575,9 @@
       "fouls": 1.2,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "253111",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Gonzaga/Summary/253111",
+      "id": "rg-253111",
       "teamId": "rg-554"
     },
     {
@@ -10819,6 +11605,9 @@
       "fouls": 0.6,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "107882",
+      "realgmUrl": "https://basketball.realgm.com/player/Francisco-Farabello/Summary/107882",
+      "id": "rg-107882",
       "teamId": "rg-211"
     },
     {
@@ -10846,6 +11635,9 @@
       "fouls": 1.6,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "253709",
+      "realgmUrl": "https://basketball.realgm.com/player/Willker-Zonzini/Summary/253709",
+      "id": "rg-253709",
       "teamId": "rg-2135"
     },
     {
@@ -10873,6 +11665,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "238565",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Vitoriano/Summary/238565",
+      "id": "rg-238565",
       "teamId": "rg-1288"
     },
     {
@@ -10900,6 +11695,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "205036",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Paulo-Machini-Costa/Summary/205036",
+      "id": "rg-205036",
       "teamId": "rg-1711"
     },
     {
@@ -10927,6 +11725,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "239599",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Antonievicz-Pedroso/Summary/239599",
+      "id": "rg-239599",
       "teamId": "rg-1288"
     },
     {
@@ -10954,6 +11755,9 @@
       "fouls": 1.2,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "253115",
+      "realgmUrl": "https://basketball.realgm.com/player/Pietro-Martins/Summary/253115",
+      "id": "rg-253115",
       "teamId": "rg-554"
     },
     {
@@ -10981,6 +11785,9 @@
       "fouls": 1.3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "205145",
+      "realgmUrl": "https://basketball.realgm.com/player/Allan-Araujo/Summary/205145",
+      "id": "rg-205145",
       "teamId": "rg-941"
     },
     {
@@ -11008,6 +11815,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "41056",
+      "realgmUrl": "https://basketball.realgm.com/player/Eduardo-Sommer/Summary/41056",
+      "id": "rg-41056",
       "teamId": "rg-2784"
     },
     {
@@ -11035,6 +11845,9 @@
       "fouls": 2.3,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "113107",
+      "realgmUrl": "https://basketball.realgm.com/player/Jose-Carlos-Junior/Summary/113107",
+      "id": "rg-113107",
       "teamId": "rg-562"
     },
     {
@@ -11062,6 +11875,9 @@
       "fouls": 0.6,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "205037",
+      "realgmUrl": "https://basketball.realgm.com/player/Luis-Colinski/Summary/205037",
+      "id": "rg-205037",
       "teamId": "rg-282"
     },
     {
@@ -11089,6 +11905,9 @@
       "fouls": 0.7,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "253137",
+      "realgmUrl": "https://basketball.realgm.com/player/Hugo-Antunes-Nicolini/Summary/253137",
+      "id": "rg-253137",
       "teamId": "rg-282"
     },
     {
@@ -11116,6 +11935,9 @@
       "fouls": 0.8,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "47820",
+      "realgmUrl": "https://basketball.realgm.com/player/Vinicius-Pastor/Summary/47820",
+      "id": "rg-47820",
       "teamId": "rg-562"
     },
     {
@@ -11143,6 +11965,9 @@
       "fouls": 1.2,
       "teamRealgmId": "209",
       "teamName": "Minas",
+      "realgmPlayerId": "217134",
+      "realgmUrl": "https://basketball.realgm.com/player/Vinci-Oliveira-De-Paula/Summary/217134",
+      "id": "rg-217134",
       "teamId": "rg-209"
     },
     {
@@ -11170,6 +11995,9 @@
       "fouls": 0.4,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "238602",
+      "realgmUrl": "https://basketball.realgm.com/player/Vitor-Nedel-Hermes-Meili/Summary/238602",
+      "id": "rg-238602",
       "teamId": "rg-211"
     },
     {
@@ -11197,6 +12025,9 @@
       "fouls": 0.6,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "204960",
+      "realgmUrl": "https://basketball.realgm.com/player/Kaique-Pereira/Summary/204960",
+      "id": "rg-204960",
       "teamId": "rg-2027"
     },
     {
@@ -11224,6 +12055,9 @@
       "fouls": 1.3,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "255071",
+      "realgmUrl": "https://basketball.realgm.com/player/Jonathan-Santana-dos-Santos-Ferreira/Summary/255071",
+      "id": "rg-255071",
       "teamId": "rg-77"
     },
     {
@@ -11251,6 +12085,9 @@
       "fouls": 1.4,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "184232",
+      "realgmUrl": "https://basketball.realgm.com/player/Enrico-Bianchi/Summary/184232",
+      "id": "rg-184232",
       "teamId": "rg-554"
     },
     {
@@ -11278,6 +12115,9 @@
       "fouls": 0.6,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "253107",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Pessoa/Summary/253107",
+      "id": "rg-253107",
       "teamId": "rg-92"
     },
     {
@@ -11305,6 +12145,9 @@
       "fouls": 0.9,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "186208",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Alberto-Soares-Brandao/Summary/186208",
+      "id": "rg-186208",
       "teamId": "rg-283"
     },
     {
@@ -11332,6 +12175,9 @@
       "fouls": 0.5,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "184235",
+      "realgmUrl": "https://basketball.realgm.com/player/Alisson-Venancio-Do-Nascimento/Summary/184235",
+      "id": "rg-184235",
       "teamId": "rg-2027"
     },
     {
@@ -11359,6 +12205,9 @@
       "fouls": 0,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "251902",
+      "realgmUrl": "https://basketball.realgm.com/player/Murilo-Felizatti-Nunes/Summary/251902",
+      "id": "rg-251902",
       "teamId": "rg-282"
     },
     {
@@ -11386,6 +12235,9 @@
       "fouls": 0.7,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "254591",
+      "realgmUrl": "https://basketball.realgm.com/player/Emerson-Nogueira/Summary/254591",
+      "id": "rg-254591",
       "teamId": "rg-2784"
     },
     {
@@ -11413,6 +12265,9 @@
       "fouls": 0,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "227907",
+      "realgmUrl": "https://basketball.realgm.com/player/Isaque-Duarte/Summary/227907",
+      "id": "rg-227907",
       "teamId": "rg-92"
     },
     {
@@ -11440,6 +12295,9 @@
       "fouls": 0.5,
       "teamRealgmId": "77",
       "teamName": "Vasco da Gama",
+      "realgmPlayerId": "241506",
+      "realgmUrl": "https://basketball.realgm.com/player/Icaro-Martins-Almeida-Silva/Summary/241506",
+      "id": "rg-241506",
       "teamId": "rg-77"
     },
     {
@@ -11467,6 +12325,9 @@
       "fouls": 0.6,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "191790",
+      "realgmUrl": "https://basketball.realgm.com/player/Luiz-Guilherme-Martins-Alves/Summary/191790",
+      "id": "rg-191790",
       "teamId": "rg-554"
     },
     {
@@ -11494,6 +12355,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "228096",
+      "realgmUrl": "https://basketball.realgm.com/player/Wilton-Caua-de-Paula-Silva/Summary/228096",
+      "id": "rg-228096",
       "teamId": "rg-1289"
     },
     {
@@ -11521,6 +12385,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "226683",
+      "realgmUrl": "https://basketball.realgm.com/player/Jhonatan-Godoi/Summary/226683",
+      "id": "rg-226683",
       "teamId": "rg-1884"
     },
     {
@@ -11548,6 +12415,9 @@
       "fouls": 0.3,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "240964",
+      "realgmUrl": "https://basketball.realgm.com/player/Renan-Silveira-Pereira/Summary/240964",
+      "id": "rg-240964",
       "teamId": "rg-283"
     },
     {
@@ -11575,6 +12445,9 @@
       "fouls": 0.7,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "238649",
+      "realgmUrl": "https://basketball.realgm.com/player/Pietro-Fonseca-Melo/Summary/238649",
+      "id": "rg-238649",
       "teamId": "rg-554"
     },
     {
@@ -11602,6 +12475,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1288",
       "teamName": "Mogi das Cruzes",
+      "realgmPlayerId": "253121",
+      "realgmUrl": "https://basketball.realgm.com/player/Raul-Reimerink/Summary/253121",
+      "id": "rg-253121",
       "teamId": "rg-1288"
     },
     {
@@ -11629,6 +12505,9 @@
       "fouls": 0.5,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "239647",
+      "realgmUrl": "https://basketball.realgm.com/player/Bruno-Ribeiro-Foresti/Summary/239647",
+      "id": "rg-239647",
       "teamId": "rg-92"
     },
     {
@@ -11656,6 +12535,9 @@
       "fouls": 0.2,
       "teamRealgmId": "283",
       "teamName": "Uniao Corinthians",
+      "realgmPlayerId": "256252",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabriel-Coelho/Summary/256252",
+      "id": "rg-256252",
       "teamId": "rg-283"
     },
     {
@@ -11683,6 +12565,9 @@
       "fouls": 0.5,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "251904",
+      "realgmUrl": "https://basketball.realgm.com/player/Davi-Rodrigues-Santana-Lopes-De-Oliveira/Summary/251904",
+      "id": "rg-251904",
       "teamId": "rg-941"
     },
     {
@@ -11710,6 +12595,9 @@
       "fouls": 0,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "53129",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Guimaraes/Summary/53129",
+      "id": "rg-53129",
       "teamId": "rg-92"
     },
     {
@@ -11737,6 +12625,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "151149",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Santos-Frederico/Summary/151149",
+      "id": "rg-151149",
       "teamId": "rg-1884"
     },
     {
@@ -11764,6 +12655,9 @@
       "fouls": 0.3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "242474",
+      "realgmUrl": "https://basketball.realgm.com/player/Gustavo-Jesus/Summary/242474",
+      "id": "rg-242474",
       "teamId": "rg-941"
     },
     {
@@ -11791,6 +12685,9 @@
       "fouls": 1,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "115294",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Nascimento/Summary/115294",
+      "id": "rg-115294",
       "teamId": "rg-211"
     },
     {
@@ -11818,6 +12715,9 @@
       "fouls": 0,
       "teamRealgmId": "2027",
       "teamName": "Corinthians",
+      "realgmPlayerId": "214449",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Santos-Monteiro/Summary/214449",
+      "id": "rg-214449",
       "teamId": "rg-2027"
     },
     {
@@ -11845,6 +12745,9 @@
       "fouls": 0.3,
       "teamRealgmId": "941",
       "teamName": "Uniceub BRB Brasilia",
+      "realgmPlayerId": "254589",
+      "realgmUrl": "https://basketball.realgm.com/player/Luiz-Zago-Belem/Summary/254589",
+      "id": "rg-254589",
       "teamId": "rg-941"
     },
     {
@@ -11872,6 +12775,9 @@
       "fouls": 0.4,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "255074",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Davi-Peracio-Camillozzi-Monteiro-Alves/Summary/255074",
+      "id": "rg-255074",
       "teamId": "rg-1884"
     },
     {
@@ -11899,6 +12805,9 @@
       "fouls": 0.6,
       "teamRealgmId": "554",
       "teamName": "Paulistano",
+      "realgmPlayerId": "251905",
+      "realgmUrl": "https://basketball.realgm.com/player/Caio-de-Aguilar-Mathias/Summary/251905",
+      "id": "rg-251905",
       "teamId": "rg-554"
     },
     {
@@ -11926,6 +12835,9 @@
       "fouls": 0,
       "teamRealgmId": "1884",
       "teamName": "Botafogo FR",
+      "realgmPlayerId": "151156",
+      "realgmUrl": "https://basketball.realgm.com/player/Vitor-Rocha-Ibiapina/Summary/151156",
+      "id": "rg-151156",
       "teamId": "rg-1884"
     },
     {
@@ -11953,6 +12865,9 @@
       "fouls": 0,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "186833",
+      "realgmUrl": "https://basketball.realgm.com/player/Igor-Felinto/Summary/186833",
+      "id": "rg-186833",
       "teamId": "rg-2136"
     },
     {
@@ -11980,6 +12895,9 @@
       "fouls": 0,
       "teamRealgmId": "2784",
       "teamName": "Cruzeiro",
+      "realgmPlayerId": "255069",
+      "realgmUrl": "https://basketball.realgm.com/player/Bruno-Tasso-Resende-Silva/Summary/255069",
+      "id": "rg-255069",
       "teamId": "rg-2784"
     },
     {
@@ -12007,6 +12925,9 @@
       "fouls": 0,
       "teamRealgmId": "69",
       "teamName": "Bauru",
+      "realgmPlayerId": "253124",
+      "realgmUrl": "https://basketball.realgm.com/player/Matheus-Michelini-Pedroso/Summary/253124",
+      "id": "rg-253124",
       "teamId": "rg-69"
     },
     {
@@ -12034,6 +12955,9 @@
       "fouls": 2,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "238561",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Pires/Summary/238561",
+      "id": "rg-238561",
       "teamId": "rg-282"
     },
     {
@@ -12061,6 +12985,9 @@
       "fouls": 0.5,
       "teamRealgmId": "92",
       "teamName": "Sao Jose Unimed Vinac",
+      "realgmPlayerId": "253106",
+      "realgmUrl": "https://basketball.realgm.com/player/Nata-Freitas/Summary/253106",
+      "id": "rg-253106",
       "teamId": "rg-92"
     },
     {
@@ -12088,6 +13015,9 @@
       "fouls": 0,
       "teamRealgmId": "211",
       "teamName": "Pinheiros Sky",
+      "realgmPlayerId": "235038",
+      "realgmUrl": "https://basketball.realgm.com/player/Anthony-Soares-Goerino/Summary/235038",
+      "id": "rg-235038",
       "teamId": "rg-211"
     },
     {
@@ -12115,6 +13045,9 @@
       "fouls": 0,
       "teamRealgmId": "1289",
       "teamName": "Basquete Cearense",
+      "realgmPlayerId": "239907",
+      "realgmUrl": "https://basketball.realgm.com/player/Jelliel-Mayan-Ferreira-Marcolino/Summary/239907",
+      "id": "rg-239907",
       "teamId": "rg-1289"
     },
     {
@@ -12142,6 +13075,9 @@
       "fouls": 0,
       "teamRealgmId": "2135",
       "teamName": "Pato Basquete",
+      "realgmPlayerId": "222645",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Lenhart-Siqueira/Summary/222645",
+      "id": "rg-222645",
       "teamId": "rg-2135"
     },
     {
@@ -12169,6 +13105,9 @@
       "fouls": 1,
       "teamRealgmId": "562",
       "teamName": "Rio Claro Basquete",
+      "realgmPlayerId": "266321",
+      "realgmUrl": "https://basketball.realgm.com/player/Enzo-Cruz/Summary/266321",
+      "id": "rg-266321",
       "teamId": "rg-562"
     },
     {
@@ -12196,6 +13135,9 @@
       "fouls": 0,
       "teamRealgmId": "282",
       "teamName": "Franca",
+      "realgmPlayerId": "238564",
+      "realgmUrl": "https://basketball.realgm.com/player/Pedro-Cintra/Summary/238564",
+      "id": "rg-238564",
       "teamId": "rg-282"
     },
     {
@@ -12223,6 +13165,9 @@
       "fouls": 0,
       "teamRealgmId": "2136",
       "teamName": "Unifacisa Paraiba",
+      "realgmPlayerId": "258232",
+      "realgmUrl": "https://basketball.realgm.com/player/Lucas-Ranyere-de-Silva-Marques/Summary/258232",
+      "id": "rg-258232",
       "teamId": "rg-2136"
     },
     {
@@ -12250,6 +13195,9 @@
       "fouls": 0,
       "teamRealgmId": "1711",
       "teamName": "Caxias Do Sul Basquetetriches",
+      "realgmPlayerId": "254592",
+      "realgmUrl": "https://basketball.realgm.com/player/Joao-Borges/Summary/254592",
+      "id": "rg-254592",
       "teamId": "rg-1711"
     }
   ],
@@ -15161,6 +16109,7 @@
     "avgPoints": [
       {
         "name": "Anthony Harris",
+        "playerId": "rg-122386",
         "headshot": null,
         "team": "OSA",
         "teamId": "rg-2204",
@@ -15169,6 +16118,7 @@
       },
       {
         "name": "Dontrell Brite",
+        "playerId": "rg-55460",
         "headshot": null,
         "team": "BAU",
         "teamId": "rg-69",
@@ -15177,6 +16127,7 @@
       },
       {
         "name": "Andre Barbosa",
+        "playerId": "rg-142713",
         "headshot": null,
         "team": "BAU",
         "teamId": "rg-69",
@@ -15185,6 +16136,7 @@
       },
       {
         "name": "Tulio Da Silva",
+        "playerId": "rg-72028",
         "headshot": null,
         "team": "CRUZ",
         "teamId": "rg-2784",
@@ -15193,6 +16145,7 @@
       },
       {
         "name": "Georginho de Paula",
+        "playerId": "rg-62213",
         "headshot": null,
         "team": "FRA",
         "teamId": "rg-282",
@@ -15201,6 +16154,7 @@
       },
       {
         "name": "Kaleb Hunter",
+        "playerId": "rg-89342",
         "headshot": null,
         "team": "PAU",
         "teamId": "rg-554",
@@ -15209,6 +16163,7 @@
       },
       {
         "name": "Adyel Borges",
+        "playerId": "rg-150473",
         "headshot": null,
         "team": "SAO",
         "teamId": "rg-92",
@@ -15217,6 +16172,7 @@
       },
       {
         "name": "Matheus Brito",
+        "playerId": "rg-143363",
         "headshot": null,
         "team": "BOT",
         "teamId": "rg-1884",
@@ -15225,6 +16181,7 @@
       },
       {
         "name": "Elyjah Clark",
+        "playerId": "rg-110294",
         "headshot": null,
         "team": "CORI",
         "teamId": "rg-2027",
@@ -15233,6 +16190,7 @@
       },
       {
         "name": "Jeremy Hollowell",
+        "playerId": "rg-24278",
         "headshot": null,
         "team": "UNIA",
         "teamId": "rg-283",
@@ -15243,6 +16201,7 @@
     "avgRebounds": [
       {
         "name": "Andre Barbosa",
+        "playerId": "rg-142713",
         "headshot": null,
         "team": "BAU",
         "teamId": "rg-69",
@@ -15251,6 +16210,7 @@
       },
       {
         "name": "Tulio Da Silva",
+        "playerId": "rg-72028",
         "headshot": null,
         "team": "CRUZ",
         "teamId": "rg-2784",
@@ -15259,6 +16219,7 @@
       },
       {
         "name": "Georginho de Paula",
+        "playerId": "rg-62213",
         "headshot": null,
         "team": "FRA",
         "teamId": "rg-282",
@@ -15267,6 +16228,7 @@
       },
       {
         "name": "Andre Dikembe",
+        "playerId": "rg-129736",
         "headshot": null,
         "team": "MOG",
         "teamId": "rg-1288",
@@ -15275,6 +16237,7 @@
       },
       {
         "name": "Jeremy Hollowell",
+        "playerId": "rg-24278",
         "headshot": null,
         "team": "UNIA",
         "teamId": "rg-283",
@@ -15283,6 +16246,7 @@
       },
       {
         "name": "Devon Scott",
+        "playerId": "rg-27991",
         "headshot": null,
         "team": "UNIA",
         "teamId": "rg-283",
@@ -15291,6 +16255,7 @@
       },
       {
         "name": "Bruno Cardoso",
+        "playerId": "rg-151549",
         "headshot": null,
         "team": "BRA",
         "teamId": "rg-941",
@@ -15299,6 +16264,7 @@
       },
       {
         "name": "Guilherme Abreu",
+        "playerId": "rg-92184",
         "headshot": null,
         "team": "PAU",
         "teamId": "rg-554",
@@ -15307,6 +16273,7 @@
       },
       {
         "name": "Hatila Passos",
+        "playerId": "rg-9090",
         "headshot": null,
         "team": "OSA",
         "teamId": "rg-2204",
@@ -15315,6 +16282,7 @@
       },
       {
         "name": "Barbosa Santana",
+        "playerId": "rg-156641",
         "headshot": null,
         "team": "MOG",
         "teamId": "rg-1288",
@@ -15325,6 +16293,7 @@
     "avgAssists": [
       {
         "name": "Elinho Neto",
+        "playerId": "rg-40974",
         "headshot": null,
         "team": "CORI",
         "teamId": "rg-2027",
@@ -15333,6 +16302,7 @@
       },
       {
         "name": "Matheus Brito",
+        "playerId": "rg-143363",
         "headshot": null,
         "team": "BOT",
         "teamId": "rg-1884",
@@ -15341,6 +16311,7 @@
       },
       {
         "name": "Ricardo Fischer",
+        "playerId": "rg-40994",
         "headshot": null,
         "team": "MIN",
         "teamId": "rg-209",
@@ -15349,6 +16320,7 @@
       },
       {
         "name": "Dontrell Brite",
+        "playerId": "rg-55460",
         "headshot": null,
         "team": "BAU",
         "teamId": "rg-69",
@@ -15357,6 +16329,7 @@
       },
       {
         "name": "David Sloan",
+        "playerId": "rg-81699",
         "headshot": null,
         "team": "PIN",
         "teamId": "rg-211",
@@ -15365,6 +16338,7 @@
       },
       {
         "name": "Georginho de Paula",
+        "playerId": "rg-62213",
         "headshot": null,
         "team": "FRA",
         "teamId": "rg-282",
@@ -15373,6 +16347,7 @@
       },
       {
         "name": "Alex Garcia",
+        "playerId": "rg-1115",
         "headshot": null,
         "team": "BAU",
         "teamId": "rg-69",
@@ -15381,6 +16356,7 @@
       },
       {
         "name": "Alexsander Kevin Vernizzi dos Santos",
+        "playerId": "rg-241202",
         "headshot": null,
         "team": "VAS",
         "teamId": "rg-77",
@@ -15389,6 +16365,7 @@
       },
       {
         "name": "Adyel Borges",
+        "playerId": "rg-150473",
         "headshot": null,
         "team": "SAO",
         "teamId": "rg-92",
@@ -15397,6 +16374,7 @@
       },
       {
         "name": "Facundo Corvalan",
+        "playerId": "rg-81994",
         "headshot": null,
         "team": "BRA",
         "teamId": "rg-941",
@@ -15407,6 +16385,7 @@
     "avgSteals": [
       {
         "name": "Dontrell Brite",
+        "playerId": "rg-55460",
         "headshot": null,
         "team": "BAU",
         "teamId": "rg-69",
@@ -15415,6 +16394,7 @@
       },
       {
         "name": "Adyel Borges",
+        "playerId": "rg-150473",
         "headshot": null,
         "team": "SAO",
         "teamId": "rg-92",
@@ -15423,6 +16403,7 @@
       },
       {
         "name": "Fernando Salsamendi",
+        "playerId": "rg-111642",
         "headshot": null,
         "team": "CEA",
         "teamId": "rg-1289",
@@ -15431,6 +16412,7 @@
       },
       {
         "name": "Elyjah Clark",
+        "playerId": "rg-110294",
         "headshot": null,
         "team": "CORI",
         "teamId": "rg-2027",
@@ -15439,6 +16421,7 @@
       },
       {
         "name": "Alexsander Kevin Vernizzi dos Santos",
+        "playerId": "rg-241202",
         "headshot": null,
         "team": "VAS",
         "teamId": "rg-77",
@@ -15447,6 +16430,7 @@
       },
       {
         "name": "Michel de Souza",
+        "playerId": "rg-205058",
         "headshot": null,
         "team": "PATO",
         "teamId": "rg-2135",
@@ -15455,6 +16439,7 @@
       },
       {
         "name": "Anthony Harris",
+        "playerId": "rg-122386",
         "headshot": null,
         "team": "OSA",
         "teamId": "rg-2204",
@@ -15463,6 +16448,7 @@
       },
       {
         "name": "Michael Dupree",
+        "playerId": "rg-113595",
         "headshot": null,
         "team": "CEA",
         "teamId": "rg-1289",
@@ -15471,6 +16457,7 @@
       },
       {
         "name": "Raekwon Horton",
+        "playerId": "rg-135515",
         "headshot": null,
         "team": "PATO",
         "teamId": "rg-2135",
@@ -15479,6 +16466,7 @@
       },
       {
         "name": "Edson Tovar",
+        "playerId": "rg-201058",
         "headshot": null,
         "team": "PAU",
         "teamId": "rg-554",
@@ -15489,6 +16477,7 @@
     "avgBlocks": [
       {
         "name": "Matheus Custodio",
+        "playerId": "rg-188795",
         "headshot": null,
         "team": "RIO",
         "teamId": "rg-562",
@@ -15497,6 +16486,7 @@
       },
       {
         "name": "Bruno Cardoso",
+        "playerId": "rg-151549",
         "headshot": null,
         "team": "BRA",
         "teamId": "rg-941",
@@ -15505,6 +16495,7 @@
       },
       {
         "name": "Winicius Silva Braga",
+        "playerId": "rg-198729",
         "headshot": null,
         "team": "MIN",
         "teamId": "rg-209",
@@ -15513,6 +16504,7 @@
       },
       {
         "name": "Eduardo Franca Elevi",
+        "playerId": "rg-155153",
         "headshot": null,
         "team": "PATO",
         "teamId": "rg-2135",
@@ -15521,6 +16513,7 @@
       },
       {
         "name": "Juan Cardenas",
+        "playerId": "rg-140292",
         "headshot": null,
         "team": "UNIA",
         "teamId": "rg-283",
@@ -15529,6 +16522,7 @@
       },
       {
         "name": "Grigor Batista Vieira",
+        "playerId": "rg-239648",
         "headshot": null,
         "team": "PATO",
         "teamId": "rg-2135",
@@ -15537,6 +16531,7 @@
       },
       {
         "name": "Kauan Nascimento Raymundo",
+        "playerId": "rg-175776",
         "headshot": null,
         "team": "CORI",
         "teamId": "rg-2027",
@@ -15545,6 +16540,7 @@
       },
       {
         "name": "Jeremy Hollowell",
+        "playerId": "rg-24278",
         "headshot": null,
         "team": "UNIA",
         "teamId": "rg-283",
@@ -15553,6 +16549,7 @@
       },
       {
         "name": "Agapy Santos",
+        "playerId": "rg-186627",
         "headshot": null,
         "team": "PIN",
         "teamId": "rg-211",
@@ -15561,6 +16558,7 @@
       },
       {
         "name": "Murilo Alves Souza",
+        "playerId": "rg-172450",
         "headshot": null,
         "team": "RIO",
         "teamId": "rg-562",

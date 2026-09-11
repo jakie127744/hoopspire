@@ -29,6 +29,7 @@ import {
   combineConferenceStats,
 } from './player-stats.mjs'
 import { translate, saveTranslationCache } from './translate.mjs'
+import { buildCareers } from './careers.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, '..', 'public', 'data')
@@ -876,7 +877,7 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 80) {
         p.teamId = club.id
         if (!rosters[club.id]) rosters[club.id] = []
         rosters[club.id].push({
-          id: `${club.id}-${slug(p.name)}`,
+          id: p.id || `${club.id}-${slug(p.name)}`,
           name: p.name,
           jersey: null,
           position: null,
@@ -1182,7 +1183,7 @@ async function scrapeKBL() {
       if (!club) continue
       p.teamId = club.id
       ;(rosters[club.id] ||= []).push({
-        id: `${club.id}-${p.name}`.replace(/\W+/g, '-').toLowerCase(),
+        id: p.id || `${club.id}-${p.name}`.replace(/\W+/g, '-').toLowerCase(),
         name: p.name,
         jersey: null,
         position: null,
@@ -1810,7 +1811,8 @@ async function fibaLeaders(notes) {
     }
   }
 
-  const players = [...totals.values()].map((p) => ({
+  const players = [...totals.entries()].map(([athleteId, p]) => ({
+    id: String(athleteId),
     name: p.name,
     headshot: p.headshot,
     teamAbbr: p.teamAbbr,
@@ -1825,7 +1827,7 @@ async function fibaLeaders(notes) {
 
   const built = buildLeaders(players)
   notes.push(`FIBA leaders from ${finals.length} box scores, ${players.length} players.`)
-  return { leaders: built.leaders || {}, label: `${eventName} tournament averages` }
+  return { leaders: built.leaders || {}, players, label: `${eventName} tournament averages` }
 }
 
 async function buildExtras() {
@@ -1834,12 +1836,14 @@ async function buildExtras() {
   // EuroLeague: news + leaders.
   {
     const notes = []
+    let playerStats = []
     const news = await fetchLeagueNews('EuroLeague', EUROLEAGUE_FEEDS, EUROLEAGUE_TERMS)
     notes.push(...news.notes)
     let leaders = {}
     try {
       const st = await realgmPlayerStats('EuroLeague')
       notes.push(...st.notes)
+      playerStats = st.players
       const built = buildLeaders(st.players)
       leaders = built.leaders || {}
     } catch (err) {
@@ -1854,6 +1858,7 @@ async function buildExtras() {
         notes,
         news: news.articles,
         leaders,
+        playerStats,
       },
     })
   }
@@ -1862,9 +1867,11 @@ async function buildExtras() {
   {
     const notes = []
     let leaders = {}
+    let playerStats = []
     try {
       const st = await realgmPlayerStats('NBL')
       notes.push(...st.notes)
+      playerStats = st.players
       leaders = buildLeaders(st.players).leaders || {}
     } catch (err) {
       notes.push(`leaders: ${err.message}`)
@@ -1878,6 +1885,7 @@ async function buildExtras() {
         notes,
         news: [],
         leaders,
+        playerStats,
       },
     })
   }
@@ -1901,6 +1909,7 @@ async function buildExtras() {
         news: [],
         leaders: result.leaders,
         leadersLabel: result.label,
+        playerStats: result.players || [],
       },
     })
   }
@@ -1932,13 +1941,31 @@ const SCRAPERS = {
   tpbl: { key: 'TPBL', run: scrapeTPBL },
   nbb: { key: 'NBB', run: scrapeNBB },
   extras: { key: 'extras', run: buildExtras },
+  // Not part of the default run: it fetches one page per player. See careers.mjs.
+  careers: {
+    key: 'careers',
+    optIn: true,
+    run: async () => ({
+      league: 'careers',
+      teams: [],
+      rosters: {},
+      games: [],
+      standings: { rows: [] },
+      notes: await buildCareers({ all: process.argv.includes('--all') }),
+      __extrasOnly: true,
+    }),
+  },
 }
 
 async function main() {
-  const requested = process.argv.slice(2).map((s) => s.toLowerCase())
+  const requested = process.argv
+    .slice(2)
+    .filter((a) => !a.startsWith('--'))
+    .map((s) => s.toLowerCase())
+  // Opt-in jobs (careers) only run when named explicitly.
   const jobs = requested.length
     ? requested.filter((r) => SCRAPERS[r])
-    : Object.keys(SCRAPERS)
+    : Object.keys(SCRAPERS).filter((k) => !SCRAPERS[k].optIn)
 
   if (!jobs.length) {
     console.error(`Unknown league. Options: ${Object.keys(SCRAPERS).join(', ')}`)

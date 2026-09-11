@@ -205,6 +205,7 @@ export async function getLeaders(leagueKey) {
         const prev = buckets[cat].get(l.name) || { total: 0, games: 0 }
         buckets[cat].set(l.name, {
           name: l.name,
+          playerId: l.playerId || prev.playerId || null,
           headshot: l.headshot,
           team: side.abbr,
           teamId: side.id,

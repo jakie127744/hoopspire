@@ -172,6 +172,18 @@ export async function realgmPlayerStats(leagueKey, { season } = {}) {
         player.teamName = decodeURIComponent(m[2]).replace(/-/g, ' ')
       }
 
+      // The Player cell links to the player's own RealGM page, whose id is
+      // stable across every league they have played in. That id is what ties
+      // a season line here to the career history the careers job fetches.
+      const playerIdx = headers.indexOf('Player')
+      const pHref = playerIdx >= 0 ? $(tr).find('td').eq(playerIdx).find('a').attr('href') || '' : ''
+      const pm = pHref.match(/\/player\/[^/]+\/Summary\/(\d+)/)
+      if (pm) {
+        player.realgmPlayerId = pm[1]
+        player.realgmUrl = `https://basketball.realgm.com${pHref}`
+        player.id = `rg-${pm[1]}`
+      }
+
       if (player.name) rows.push(player)
     })
 
@@ -451,6 +463,7 @@ export function buildLeaders(players, { minGamesShare = 0.4 } = {}) {
       .slice(0, 10)
       .map((p) => ({
         name: p.name,
+        playerId: p.id || null,
         headshot: p.headshot || null,
         team: p.teamAbbr || p.teamName || null,
         teamId: p.teamId || null,

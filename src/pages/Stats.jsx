@@ -6,6 +6,7 @@ import { getLeaders, getStandings } from '../lib/api.js'
 import StandingsPanel from '../components/StandingsPanel.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { shortName } from '../lib/format.js'
+import { playerHref } from '../lib/players.js'
 
 const CATEGORIES = [
   { key: 'avgPoints', label: 'PPG', title: 'Points per game' },
@@ -44,10 +45,20 @@ function LeadersTable({ rows, label, leagueKey }) {
                   ) : (
                     <span className="h-8 w-8 rounded-full bg-parchment" />
                   )}
-                  <span className="text-sm font-medium">
-                    {i === 0 && <span className="mr-1 text-gold">★</span>}
-                    {shortName(p.name)}
-                  </span>
+                  {playerHref(leagueKey, p.playerId) ? (
+                    <Link
+                      to={playerHref(leagueKey, p.playerId)}
+                      className="text-sm font-medium hover:text-crimson"
+                    >
+                      {i === 0 && <span className="mr-1 text-gold">★</span>}
+                      {shortName(p.name)}
+                    </Link>
+                  ) : (
+                    <span className="text-sm font-medium">
+                      {i === 0 && <span className="mr-1 text-gold">★</span>}
+                      {shortName(p.name)}
+                    </span>
+                  )}
                 </div>
               </td>
               <td className="py-2.5">

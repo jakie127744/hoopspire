@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Hoopspire — Heritage of the Hardwood. A global basketball ledger across five leagues.",
+  "description": "Hoopspire \u2014 Heritage of the Hardwood. A global basketball ledger across five leagues.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,7 +13,8 @@
     "data:bleague": "node scripts/fetch-data.mjs bleague",
     "data:pba": "node scripts/fetch-data.mjs pba",
     "cms": "node scripts/cms-server.mjs",
-    "new": "node scripts/new-article.mjs"
+    "new": "node scripts/new-article.mjs",
+    "data:careers": "node scripts/fetch-data.mjs careers"
   },
   "dependencies": {
     "marked": "^18.0.12",

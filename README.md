@@ -240,6 +240,46 @@ each league's own published English club names. B.League roster entries written
 in katakana are romanized; Japanese players' kanji names keep their original
 form, because romanizing kanji without a name dictionary would be guessing.
 
+## Player profiles
+
+Every name on a leaders table or team roster opens a profile at
+`/player/<league>/<id>`: bio, the current season line, a season-by-season
+career table, college, recent moves, honours, and for ESPN leagues the last ten
+games.
+
+The **path** at the top — `G-BBL > CBA > AUS NBL > Jeep Elite > CBA > Lega A` —
+is the leagues a player has passed through, in order. Cups and tournaments stay
+in the career table but are left out of the path so it reads as leagues.
+
+| League | Bio | Season line | Career history |
+|---|---|---|---|
+| NBA, WNBA, NCAA | ESPN | ESPN | ESPN (that league only) |
+| G League, NBL, FIBA | ESPN | our data* | RealGM when fetched |
+| CBA, KBL, B.League, NBB, PBA, EuroLeague | RealGM | RealGM | RealGM when fetched |
+| TPBL | TPBL API | TPBL API | — |
+
+\* G League has no season line: its only numbers are single-game box-score
+highs, and presenting those as season averages would be wrong.
+
+ESPN's athlete API only knows a player's career inside that one league — Luka
+Doncic's begins at 2018-19 Dallas, with no Real Madrid. The international
+background comes from RealGM:
+
+```bash
+npm run data:careers          # players on a leaders table (default)
+node scripts/fetch-data.mjs careers --all    # everyone — slow
+```
+
+It is **opt-in and resumable**: one page per player at twice RealGM's
+requested crawl delay, cached for 30 days. If RealGM returns a bot-check page
+the job stops cleanly instead of working around it, and the next run carries on
+from where it stopped. RealGM's photos are their licensed images and are not
+stored.
+
+Joins between sources are exact and unique, never fuzzy. A EuroLeague roster
+row links to a profile only if exactly one 2025-26 RealGM line carries that
+name, so new signings do not link until they have played.
+
 ## Installable app
 
 Hoopspire is a PWA: it installs to a phone's home screen and opens

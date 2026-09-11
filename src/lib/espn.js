@@ -73,6 +73,7 @@ function normaliseCompetitor(c) {
         if (!top) return null
         return {
           category: cat.shortDisplayName || cat.displayName,
+          playerId: top.athlete?.id || null,
           name: top.athlete?.displayName,
           headshot: top.athlete?.headshot?.href || null,
           value: top.displayValue,
@@ -438,6 +439,7 @@ export async function fetchLeaders(league) {
       if (!cat?.leaders?.length) continue
       out[key] = cat.leaders.slice(0, 10).map((l) => ({
         name: l.athlete?.displayName,
+        playerId: l.athlete?.id || null,
         headshot: l.athlete?.headshot?.href || null,
         team: l.team?.abbreviation || null,
         teamId: l.team?.id || null,

@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-11T00:49:36.076Z",
+  "fetchedAt": "2026-09-11T01:03:40.144Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Rain or Shine Elasto Painters: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Rain%20or%20Shine%20Elasto%20Painters — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA leaders combine all 3 conferences, weighting each average by games played."
   ],
@@ -1679,212 +1680,6 @@
         "age": 26,
         "country": null,
         "college": "St. Benilde",
-        "headshot": null
-      }
-    ],
-    "rain-or-shine-elasto-painters": [
-      {
-        "id": "rain-or-shine-elasto-painters-caelan-tiongson",
-        "name": "Caelan Tiongson",
-        "jersey": "0",
-        "position": "F",
-        "height": "6' 5\"",
-        "weight": "205 lbs",
-        "age": 34,
-        "country": null,
-        "college": "Biola",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-adrian-nocum",
-        "name": "Adrian Nocum",
-        "jersey": "1",
-        "position": "G",
-        "height": "6' 0\"",
-        "weight": "167 lbs",
-        "age": null,
-        "country": null,
-        "college": "Mapúa",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-felix-lemetti",
-        "name": "Felix Lemetti",
-        "jersey": "2",
-        "position": "G",
-        "height": "6' 1\"",
-        "weight": "190 lbs",
-        "age": 27,
-        "country": null,
-        "college": "Salt Lake CC",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-mike-malonzo",
-        "name": "Mike Malonzo",
-        "jersey": "4",
-        "position": "F",
-        "height": "6' 2\"",
-        "weight": null,
-        "age": null,
-        "country": null,
-        "college": "National-U",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-anton-asistio",
-        "name": "Anton Asistio",
-        "jersey": "8",
-        "position": "G",
-        "height": "5' 10\"",
-        "weight": "175 lbs",
-        "age": 31,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-joshua-david-r-",
-        "name": "Joshua David (R)",
-        "jersey": "9",
-        "position": "G",
-        "height": "6' 0\"",
-        "weight": "180 lbs",
-        "age": 26,
-        "country": null,
-        "college": "De La Salle",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-aaron-fuller-gi-",
-        "name": "Aaron Fuller (GI)",
-        "jersey": "10",
-        "position": "F/C",
-        "height": "6' 6\"",
-        "weight": "235 lbs",
-        "age": null,
-        "country": null,
-        "college": "USC",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-stanley-pringle",
-        "name": "Stanley Pringle",
-        "jersey": "11",
-        "position": "G",
-        "height": "6' 1\"",
-        "weight": "185 lbs",
-        "age": 39,
-        "country": null,
-        "college": "Penn State",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-jun-roque-r-",
-        "name": "Jun Roque (R)",
-        "jersey": "12",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": null,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-andrei-caracut",
-        "name": "Andrei Caracut",
-        "jersey": "14",
-        "position": "G",
-        "height": "5' 10\"",
-        "weight": "180 lbs",
-        "age": 30,
-        "country": null,
-        "college": "De La Salle",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-keith-datu",
-        "name": "Keith Datu",
-        "jersey": "21",
-        "position": "C",
-        "height": "6' 8\"",
-        "weight": "220 lbs",
-        "age": 30,
-        "country": null,
-        "college": "Chico State",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-jhonard-clarito",
-        "name": "Jhonard Clarito",
-        "jersey": "22",
-        "position": "F",
-        "height": "6' 2\"",
-        "weight": "187 lbs",
-        "age": 30,
-        "country": null,
-        "college": "De Ocampo",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-luis-villegas",
-        "name": "Luis Villegas",
-        "jersey": "24",
-        "position": "C",
-        "height": "6' 7\"",
-        "weight": "215 lbs",
-        "age": null,
-        "country": null,
-        "college": "UE",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-leonard-santillan",
-        "name": "Leonard Santillan",
-        "jersey": "25",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "210 lbs",
-        "age": 30,
-        "country": null,
-        "college": "De La Salle",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-beau-belga",
-        "name": "Beau Belga",
-        "jersey": "28",
-        "position": "C",
-        "height": "6' 5\"",
-        "weight": "245 lbs",
-        "age": 39,
-        "country": null,
-        "college": "Philippine Christian",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-deo-cuajao-r-",
-        "name": "Deo Cuajao (R)",
-        "jersey": "29",
-        "position": "G",
-        "height": "6' 1\"",
-        "weight": null,
-        "age": null,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "rain-or-shine-elasto-painters-christian-manaytay-r-",
-        "name": "Christian Manaytay (R)",
-        "jersey": "44",
-        "position": "F/C",
-        "height": "6' 5\"",
-        "weight": null,
-        "age": null,
-        "country": null,
-        "college": "UST",
         "headshot": null
       }
     ],
@@ -5238,6 +5033,9 @@
       "fouls": 2.9,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "44990",
+      "realgmUrl": "https://basketball.realgm.com/player/Calvin-Abueva/Summary/44990",
+      "id": "rg-44990",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -5265,6 +5063,9 @@
       "fouls": 1,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "182966",
+      "realgmUrl": "https://basketball.realgm.com/player/Regile-Ilagan/Summary/182966",
+      "id": "rg-182966",
       "teamId": "blackwater-bossing"
     },
     {
@@ -5292,6 +5093,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "53679",
+      "realgmUrl": "https://basketball.realgm.com/player/Joshua-Munzon/Summary/53679",
+      "id": "rg-53679",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -5319,6 +5123,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "54838",
+      "realgmUrl": "https://basketball.realgm.com/player/Sedrick-Barefield/Summary/54838",
+      "id": "rg-54838",
       "teamId": "blackwater-bossing"
     },
     {
@@ -5346,6 +5153,9 @@
       "fouls": 3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "163987",
+      "realgmUrl": "https://basketball.realgm.com/player/Juan-Gomez-De-Liano/Summary/163987",
+      "id": "rg-163987",
       "teamId": "converge-fiberxers"
     },
     {
@@ -5373,6 +5183,9 @@
       "fouls": 2.6,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "236900",
+      "realgmUrl": "https://basketball.realgm.com/player/CJ-Cansino/Summary/236900",
+      "id": "rg-236900",
       "teamId": "meralco-bolts"
     },
     {
@@ -5400,6 +5213,9 @@
       "fouls": 1.9,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "175009",
+      "realgmUrl": "https://basketball.realgm.com/player/Calvin-John-Oftana/Summary/175009",
+      "id": "rg-175009",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -5427,6 +5243,9 @@
       "fouls": 2.9,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "37622",
+      "realgmUrl": "https://basketball.realgm.com/player/Jason-Perkins/Summary/37622",
+      "id": "rg-37622",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -5454,6 +5273,9 @@
       "fouls": 1.9,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "28449",
+      "realgmUrl": "https://basketball.realgm.com/player/June-Mar-Fajardo/Summary/28449",
+      "id": "rg-28449",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -5481,6 +5303,9 @@
       "fouls": 1.7,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "182442",
+      "realgmUrl": "https://basketball.realgm.com/player/Rhon-Abarrientos/Summary/182442",
+      "id": "rg-182442",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -5508,6 +5333,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "148315",
+      "realgmUrl": "https://basketball.realgm.com/player/Robert-Bolick/Summary/148315",
+      "id": "rg-148315",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -5535,6 +5363,9 @@
       "fouls": 2.8,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "148617",
+      "realgmUrl": "https://basketball.realgm.com/player/CJ-Perez/Summary/148617",
+      "id": "rg-148617",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -5562,6 +5393,9 @@
       "fouls": 2.9,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "163824",
+      "realgmUrl": "https://basketball.realgm.com/player/Zavier-Lucero/Summary/163824",
+      "id": "rg-163824",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -5589,6 +5423,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "224237",
+      "realgmUrl": "https://basketball.realgm.com/player/Ricci-Paolo-Rivero/Summary/224237",
+      "id": "rg-224237",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -5616,6 +5453,9 @@
       "fouls": 3.1,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "99298",
+      "realgmUrl": "https://basketball.realgm.com/player/Chris-Newsome/Summary/99298",
+      "id": "rg-99298",
       "teamId": "meralco-bolts"
     },
     {
@@ -5643,6 +5483,9 @@
       "fouls": 3.4,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "199404",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Arana/Summary/199404",
+      "id": "rg-199404",
       "teamId": "converge-fiberxers"
     },
     {
@@ -5670,6 +5513,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "84687",
+      "realgmUrl": "https://basketball.realgm.com/player/Jerrick-Ahanmisi/Summary/84687",
+      "id": "rg-84687",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -5697,6 +5543,9 @@
       "fouls": 1.9,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "83642",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordan-Heading/Summary/83642",
+      "id": "rg-83642",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -5724,6 +5573,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "163979",
+      "realgmUrl": "https://basketball.realgm.com/player/Justine-Baltazar/Summary/163979",
+      "id": "rg-163979",
       "teamId": "converge-fiberxers"
     },
     {
@@ -5751,6 +5603,9 @@
       "fouls": 1,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "98955",
+      "realgmUrl": "https://basketball.realgm.com/player/Celedonio-Trollano/Summary/98955",
+      "id": "rg-98955",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -5778,6 +5633,9 @@
       "fouls": 2.1,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "225259",
+      "realgmUrl": "https://basketball.realgm.com/player/Adrian-Nocum/Summary/225259",
+      "id": "rg-225259",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -5805,6 +5663,9 @@
       "fouls": 3,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "99096",
+      "realgmUrl": "https://basketball.realgm.com/player/Scottie-Thompson/Summary/99096",
+      "id": "rg-99096",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -5832,6 +5693,9 @@
       "fouls": 3.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "182991",
+      "realgmUrl": "https://basketball.realgm.com/player/Alec-Stockton/Summary/182991",
+      "id": "rg-182991",
       "teamId": "converge-fiberxers"
     },
     {
@@ -5859,6 +5723,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "254616",
+      "realgmUrl": "https://basketball.realgm.com/player/Pablo-Hernandez/Summary/254616",
+      "id": "rg-254616",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -5886,6 +5753,9 @@
       "fouls": 2.5,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "114721",
+      "realgmUrl": "https://basketball.realgm.com/player/Roger-Ray-Pogoy/Summary/114721",
+      "id": "rg-114721",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -5913,6 +5783,9 @@
       "fouls": 3.2,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "203478",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Bryle-Bahio/Summary/203478",
+      "id": "rg-203478",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -5940,6 +5813,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "213060",
+      "realgmUrl": "https://basketball.realgm.com/player/Jerom-Lastimosa/Summary/213060",
+      "id": "rg-213060",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -5967,6 +5843,9 @@
       "fouls": 3.8,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "199687",
+      "realgmUrl": "https://basketball.realgm.com/player/Jhonard-Clarito/Summary/199687",
+      "id": "rg-199687",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -5994,6 +5873,9 @@
       "fouls": 1.7,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "23432",
+      "realgmUrl": "https://basketball.realgm.com/player/Stephen-Holt/Summary/23432",
+      "id": "rg-23432",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -6021,6 +5903,9 @@
       "fouls": 1.9,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "199590",
+      "realgmUrl": "https://basketball.realgm.com/player/Gian-Robert-Mamuyac/Summary/199590",
+      "id": "rg-199590",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -6048,6 +5933,9 @@
       "fouls": 2,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "76406",
+      "realgmUrl": "https://basketball.realgm.com/player/Christian-David/Summary/76406",
+      "id": "rg-76406",
       "teamId": "blackwater-bossing"
     },
     {
@@ -6075,6 +5963,9 @@
       "fouls": 4.5,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "133952",
+      "realgmUrl": "https://basketball.realgm.com/player/Yukien-Andrada/Summary/133952",
+      "id": "rg-133952",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -6102,6 +5993,9 @@
       "fouls": 4,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "226503",
+      "realgmUrl": "https://basketball.realgm.com/player/Mark-Sangalang/Summary/226503",
+      "id": "rg-226503",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -6129,6 +6023,9 @@
       "fouls": 2.6,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "20399",
+      "realgmUrl": "https://basketball.realgm.com/player/Japeth-Aguilar/Summary/20399",
+      "id": "rg-20399",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -6156,6 +6053,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "107408",
+      "realgmUrl": "https://basketball.realgm.com/player/Deschon-Winston/Summary/107408",
+      "id": "rg-107408",
       "teamId": "converge-fiberxers"
     },
     {
@@ -6183,6 +6083,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "254613",
+      "realgmUrl": "https://basketball.realgm.com/player/Mark-Nonoy/Summary/254613",
+      "id": "rg-254613",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -6210,6 +6113,9 @@
       "fouls": 2,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "129210",
+      "realgmUrl": "https://basketball.realgm.com/player/Dalph-Adem-Panopio/Summary/129210",
+      "id": "rg-129210",
       "teamId": "blackwater-bossing"
     },
     {
@@ -6237,6 +6143,9 @@
       "fouls": 2.5,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "128498",
+      "realgmUrl": "https://basketball.realgm.com/player/Rey-Nambatac/Summary/128498",
+      "id": "rg-128498",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -6264,6 +6173,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "155502",
+      "realgmUrl": "https://basketball.realgm.com/player/Kainoa-Ballungay/Summary/155502",
+      "id": "rg-155502",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -6291,6 +6203,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "62648",
+      "realgmUrl": "https://basketball.realgm.com/player/Ian-Paul-Sangalang/Summary/62648",
+      "id": "rg-62648",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -6318,6 +6233,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "83099",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Alas/Summary/83099",
+      "id": "rg-83099",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -6345,6 +6263,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "23205",
+      "realgmUrl": "https://basketball.realgm.com/player/Maverick-Ahanmisi/Summary/23205",
+      "id": "rg-23205",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -6372,6 +6293,9 @@
       "fouls": 3.5,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "28901",
+      "realgmUrl": "https://basketball.realgm.com/player/Mark-Barroca/Summary/28901",
+      "id": "rg-28901",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -6399,6 +6323,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "151512",
+      "realgmUrl": "https://basketball.realgm.com/player/Xyrus-Torres/Summary/151512",
+      "id": "rg-151512",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -6426,6 +6353,9 @@
       "fouls": 2.3,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "102326",
+      "realgmUrl": "https://basketball.realgm.com/player/Caelan-Tiongson/Summary/102326",
+      "id": "rg-102326",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -6453,6 +6383,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "254617",
+      "realgmUrl": "https://basketball.realgm.com/player/Juan-Matthew-Bravo/Summary/254617",
+      "id": "rg-254617",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -6480,6 +6413,9 @@
       "fouls": 3.6,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "43462",
+      "realgmUrl": "https://basketball.realgm.com/player/Clifford-Hodge/Summary/43462",
+      "id": "rg-43462",
       "teamId": "meralco-bolts"
     },
     {
@@ -6507,6 +6443,9 @@
       "fouls": 2.5,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "182953",
+      "realgmUrl": "https://basketball.realgm.com/player/Leonard-Santillan/Summary/182953",
+      "id": "rg-182953",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -6534,6 +6473,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "199682",
+      "realgmUrl": "https://basketball.realgm.com/player/Tyler-Tio/Summary/199682",
+      "id": "rg-199682",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -6561,6 +6503,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "114739",
+      "realgmUrl": "https://basketball.realgm.com/player/Von-Rolfe-Pessumal/Summary/114739",
+      "id": "rg-114739",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -6588,6 +6533,9 @@
       "fouls": 2.7,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "82757",
+      "realgmUrl": "https://basketball.realgm.com/player/Keith-Datu/Summary/82757",
+      "id": "rg-82757",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -6615,6 +6563,9 @@
       "fouls": 2.7,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "172363",
+      "realgmUrl": "https://basketball.realgm.com/player/Aris-Dionisio/Summary/172363",
+      "id": "rg-172363",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -6642,6 +6593,9 @@
       "fouls": 3.6,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "90009",
+      "realgmUrl": "https://basketball.realgm.com/player/Brandon-Rosser/Summary/90009",
+      "id": "rg-90009",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -6669,6 +6623,9 @@
       "fouls": 2.8,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "131638",
+      "realgmUrl": "https://basketball.realgm.com/player/Abu-Jahal-Tratter/Summary/131638",
+      "id": "rg-131638",
       "teamId": "blackwater-bossing"
     },
     {
@@ -6696,6 +6653,9 @@
       "fouls": 2.6,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "148314",
+      "realgmUrl": "https://basketball.realgm.com/player/Kier-Quinto/Summary/148314",
+      "id": "rg-148314",
       "teamId": "meralco-bolts"
     },
     {
@@ -6723,6 +6683,9 @@
       "fouls": 2,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "83739",
+      "realgmUrl": "https://basketball.realgm.com/player/Jericho-Cruz/Summary/83739",
+      "id": "rg-83739",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -6750,6 +6713,9 @@
       "fouls": 1.9,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "83101",
+      "realgmUrl": "https://basketball.realgm.com/player/Christopher-Banchero/Summary/83101",
+      "id": "rg-83101",
       "teamId": "meralco-bolts"
     },
     {
@@ -6777,6 +6743,9 @@
       "fouls": 2,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "163985",
+      "realgmUrl": "https://basketball.realgm.com/player/Javier-Joaquin-Gomez-de-Liano/Summary/163985",
+      "id": "rg-163985",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -6804,6 +6773,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "203482",
+      "realgmUrl": "https://basketball.realgm.com/player/Fran-Louie-Yu/Summary/203482",
+      "id": "rg-203482",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -6831,6 +6803,9 @@
       "fouls": 2.2,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "99170",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeth-Troy-Rosario/Summary/99170",
+      "id": "rg-99170",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -6858,6 +6833,9 @@
       "fouls": 2.6,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "168680",
+      "realgmUrl": "https://basketball.realgm.com/player/Kenneth-Tuffin/Summary/168680",
+      "id": "rg-168680",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -6885,6 +6863,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "172098",
+      "realgmUrl": "https://basketball.realgm.com/player/Jerrick-Balanza/Summary/172098",
+      "id": "rg-172098",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -6912,6 +6893,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "99095",
+      "realgmUrl": "https://basketball.realgm.com/player/Aljon-Mariano/Summary/99095",
+      "id": "rg-99095",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -6939,6 +6923,9 @@
       "fouls": 2.1,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "172213",
+      "realgmUrl": "https://basketball.realgm.com/player/Aaron-Black/Summary/172213",
+      "id": "rg-172213",
       "teamId": "meralco-bolts"
     },
     {
@@ -6966,6 +6953,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "83693",
+      "realgmUrl": "https://basketball.realgm.com/player/Rome-de-la-Rosa/Summary/83693",
+      "id": "rg-83693",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -6993,6 +6983,9 @@
       "fouls": 3.1,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "35930",
+      "realgmUrl": "https://basketball.realgm.com/player/Moala-Tautuaa/Summary/35930",
+      "id": "rg-35930",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -7020,6 +7013,9 @@
       "fouls": 1.4,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "13008",
+      "realgmUrl": "https://basketball.realgm.com/player/Kelly-Williams/Summary/13008",
+      "id": "rg-13008",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -7047,6 +7043,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "226458",
+      "realgmUrl": "https://basketball.realgm.com/player/Archie-Concepcion/Summary/226458",
+      "id": "rg-226458",
       "teamId": "converge-fiberxers"
     },
     {
@@ -7074,6 +7073,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "254458",
+      "realgmUrl": "https://basketball.realgm.com/player/Jonnel-Policarpio/Summary/254458",
+      "id": "rg-254458",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -7101,6 +7103,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "224239",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Troy-Mallilin/Summary/224239",
+      "id": "rg-224239",
       "teamId": "blackwater-bossing"
     },
     {
@@ -7128,6 +7133,9 @@
       "fouls": 2.2,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "62642",
+      "realgmUrl": "https://basketball.realgm.com/player/Raymond-Almazan/Summary/62642",
+      "id": "rg-62642",
       "teamId": "meralco-bolts"
     },
     {
@@ -7155,6 +7163,9 @@
       "fouls": 1.5,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "16510",
+      "realgmUrl": "https://basketball.realgm.com/player/Marcio-Lassiter/Summary/16510",
+      "id": "rg-16510",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -7182,6 +7193,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "149028",
+      "realgmUrl": "https://basketball.realgm.com/player/Chris-Koon/Summary/149028",
+      "id": "rg-149028",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -7209,6 +7223,9 @@
       "fouls": 2,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "256448",
+      "realgmUrl": "https://basketball.realgm.com/player/James-Una/Summary/256448",
+      "id": "rg-256448",
       "teamId": "blackwater-bossing"
     },
     {
@@ -7236,6 +7253,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "258243",
+      "realgmUrl": "https://basketball.realgm.com/player/Ichie-Altamirano/Summary/258243",
+      "id": "rg-258243",
       "teamId": "blackwater-bossing"
     },
     {
@@ -7263,6 +7283,9 @@
       "fouls": 1.1,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "18602",
+      "realgmUrl": "https://basketball.realgm.com/player/Gabe-Norwood/Summary/18602",
+      "id": "rg-18602",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -7290,6 +7313,9 @@
       "fouls": 1.8,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "144896",
+      "realgmUrl": "https://basketball.realgm.com/player/Henry-Galinato/Summary/144896",
+      "id": "rg-144896",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -7317,6 +7343,9 @@
       "fouls": 1.3,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "182951",
+      "realgmUrl": "https://basketball.realgm.com/player/Anton-Asistio/Summary/182951",
+      "id": "rg-182951",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -7344,6 +7373,9 @@
       "fouls": 3.8,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "224223",
+      "realgmUrl": "https://basketball.realgm.com/player/Brent-Paraiso/Summary/224223",
+      "id": "rg-224223",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -7371,6 +7403,9 @@
       "fouls": 3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "224222",
+      "realgmUrl": "https://basketball.realgm.com/player/Cade-Flores/Summary/224222",
+      "id": "rg-224222",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -7398,6 +7433,9 @@
       "fouls": 1.5,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "110576",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeremiah-Gray/Summary/110576",
+      "id": "rg-110576",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -7425,6 +7463,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "83088",
+      "realgmUrl": "https://basketball.realgm.com/player/Anthony-Semerad/Summary/83088",
+      "id": "rg-83088",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -7452,6 +7493,9 @@
       "fouls": 1.2,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "254451",
+      "realgmUrl": "https://basketball.realgm.com/player/Joshua-David/Summary/254451",
+      "id": "rg-254451",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -7479,6 +7523,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "224219",
+      "realgmUrl": "https://basketball.realgm.com/player/Bryan-Santos/Summary/224219",
+      "id": "rg-224219",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -7506,6 +7553,9 @@
       "fouls": 2.9,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "98954",
+      "realgmUrl": "https://basketball.realgm.com/player/Norberto-Torres/Summary/98954",
+      "id": "rg-98954",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -7533,6 +7583,9 @@
       "fouls": 2.9,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "182973",
+      "realgmUrl": "https://basketball.realgm.com/player/Larry-Muyang/Summary/182973",
+      "id": "rg-182973",
       "teamId": "converge-fiberxers"
     },
     {
@@ -7560,6 +7613,9 @@
       "fouls": 2.4,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "165015",
+      "realgmUrl": "https://basketball.realgm.com/player/Brandon-Ramirez/Summary/165015",
+      "id": "rg-165015",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -7587,6 +7643,9 @@
       "fouls": 1.2,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "199688",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Calma/Summary/199688",
+      "id": "rg-199688",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -7614,6 +7673,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "199690",
+      "realgmUrl": "https://basketball.realgm.com/player/Ato-Ular/Summary/199690",
+      "id": "rg-199690",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -7641,6 +7703,9 @@
       "fouls": 2.1,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "83089",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Rodney-Brondial/Summary/83089",
+      "id": "rg-83089",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -7668,6 +7733,9 @@
       "fouls": 1,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254629",
+      "realgmUrl": "https://basketball.realgm.com/player/MJ-Garcia/Summary/254629",
+      "id": "rg-254629",
       "teamId": "converge-fiberxers"
     },
     {
@@ -7695,6 +7763,9 @@
       "fouls": 0,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "259499",
+      "realgmUrl": "https://basketball.realgm.com/player/Ljay-Gonzales/Summary/259499",
+      "id": "rg-259499",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -7722,6 +7793,9 @@
       "fouls": 1.9,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "83094",
+      "realgmUrl": "https://basketball.realgm.com/player/Juami-Tiongson/Summary/83094",
+      "id": "rg-83094",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -7749,6 +7823,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "76320",
+      "realgmUrl": "https://basketball.realgm.com/player/Richard-Escoto/Summary/76320",
+      "id": "rg-76320",
       "teamId": "blackwater-bossing"
     },
     {
@@ -7776,6 +7853,9 @@
       "fouls": 1.7,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "254636",
+      "realgmUrl": "https://basketball.realgm.com/player/Michael-Malonzo/Summary/254636",
+      "id": "rg-254636",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -7803,6 +7883,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "224776",
+      "realgmUrl": "https://basketball.realgm.com/player/Dominick-Fajardo/Summary/224776",
+      "id": "rg-224776",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -7830,6 +7913,9 @@
       "fouls": 2.5,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "99097",
+      "realgmUrl": "https://basketball.realgm.com/player/Bradwyn-Guinto/Summary/99097",
+      "id": "rg-99097",
       "teamId": "blackwater-bossing"
     },
     {
@@ -7857,6 +7943,9 @@
       "fouls": 1,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "149028",
+      "realgmUrl": "https://basketball.realgm.com/player/Chris-Koon/Summary/149028",
+      "id": "rg-149028",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -7884,6 +7973,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "148616",
+      "realgmUrl": "https://basketball.realgm.com/player/Javee-Mocon/Summary/148616",
+      "id": "rg-148616",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -7911,6 +8003,9 @@
       "fouls": 0.9,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "224220",
+      "realgmUrl": "https://basketball.realgm.com/player/Ralph-Cu/Summary/224220",
+      "id": "rg-224220",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -7938,6 +8033,9 @@
       "fouls": 2.8,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "83095",
+      "realgmUrl": "https://basketball.realgm.com/player/Poy-Erram/Summary/83095",
+      "id": "rg-83095",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -7965,6 +8063,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "254612",
+      "realgmUrl": "https://basketball.realgm.com/player/Evan-Nelle/Summary/254612",
+      "id": "rg-254612",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -7992,6 +8093,9 @@
       "fouls": 2,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "254619",
+      "realgmUrl": "https://basketball.realgm.com/player/Jack-Cruz-Dumont/Summary/254619",
+      "id": "rg-254619",
       "teamId": "blackwater-bossing"
     },
     {
@@ -8019,6 +8123,9 @@
       "fouls": 1.5,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "105850",
+      "realgmUrl": "https://basketball.realgm.com/player/Jansen-Rios/Summary/105850",
+      "id": "rg-105850",
       "teamId": "meralco-bolts"
     },
     {
@@ -8046,6 +8153,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "205124",
+      "realgmUrl": "https://basketball.realgm.com/player/Jonathan-Jed-Mendoza/Summary/205124",
+      "id": "rg-205124",
       "teamId": "blackwater-bossing"
     },
     {
@@ -8073,6 +8183,9 @@
       "fouls": 3.6,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "224228",
+      "realgmUrl": "https://basketball.realgm.com/player/Brandon-Bates/Summary/224228",
+      "id": "rg-224228",
       "teamId": "meralco-bolts"
     },
     {
@@ -8100,6 +8213,9 @@
       "fouls": 1.2,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "94849",
+      "realgmUrl": "https://basketball.realgm.com/player/Felix-Lemetti/Summary/94849",
+      "id": "rg-94849",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -8127,6 +8243,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "40338",
+      "realgmUrl": "https://basketball.realgm.com/player/Paul-Lee-Dalistan/Summary/40338",
+      "id": "rg-40338",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -8154,6 +8273,9 @@
       "fouls": 1,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254630",
+      "realgmUrl": "https://basketball.realgm.com/player/Buenaventura-Raflores/Summary/254630",
+      "id": "rg-254630",
       "teamId": "converge-fiberxers"
     },
     {
@@ -8181,6 +8303,9 @@
       "fouls": 1.7,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "128497",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeron-Teng/Summary/128497",
+      "id": "rg-128497",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -8208,6 +8333,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "108133",
+      "realgmUrl": "https://basketball.realgm.com/player/Russell-Escoto/Summary/108133",
+      "id": "rg-108133",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -8235,6 +8363,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "62640",
+      "realgmUrl": "https://basketball.realgm.com/player/RR-Garcia/Summary/62640",
+      "id": "rg-62640",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -8262,6 +8393,9 @@
       "fouls": 0.9,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "182972",
+      "realgmUrl": "https://basketball.realgm.com/player/Aljun-Melecio/Summary/182972",
+      "id": "rg-182972",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -8289,6 +8423,9 @@
       "fouls": 0.2,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "254618",
+      "realgmUrl": "https://basketball.realgm.com/player/Didat-Hanapi/Summary/254618",
+      "id": "rg-254618",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -8316,6 +8453,9 @@
       "fouls": 1.8,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "99204",
+      "realgmUrl": "https://basketball.realgm.com/player/Glenn-Khobuntin/Summary/99204",
+      "id": "rg-99204",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -8343,6 +8483,9 @@
       "fouls": 2.2,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "108131",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Ferrer/Summary/108131",
+      "id": "rg-108131",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -8370,6 +8513,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "103069",
+      "realgmUrl": "https://basketball.realgm.com/player/James-Laput/Summary/103069",
+      "id": "rg-103069",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -8397,6 +8543,9 @@
       "fouls": 2.3,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "3973",
+      "realgmUrl": "https://basketball.realgm.com/player/Stanley-Pringle/Summary/3973",
+      "id": "rg-3973",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -8424,6 +8573,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "128632",
+      "realgmUrl": "https://basketball.realgm.com/player/Sidney-Onwubere/Summary/128632",
+      "id": "rg-128632",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -8451,6 +8603,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "232094",
+      "realgmUrl": "https://basketball.realgm.com/player/Damie-Cuntapay/Summary/232094",
+      "id": "rg-232094",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -8478,6 +8633,9 @@
       "fouls": 1.3,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "182952",
+      "realgmUrl": "https://basketball.realgm.com/player/Joshua-Andrei-Caracut/Summary/182952",
+      "id": "rg-182952",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -8505,6 +8663,9 @@
       "fouls": 1,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "254463",
+      "realgmUrl": "https://basketball.realgm.com/player/Kurt-Reyson/Summary/254463",
+      "id": "rg-254463",
       "teamId": "meralco-bolts"
     },
     {
@@ -8532,6 +8693,9 @@
       "fouls": 1,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "61524",
+      "realgmUrl": "https://basketball.realgm.com/player/Simon-Enciso/Summary/61524",
+      "id": "rg-61524",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -8559,6 +8723,9 @@
       "fouls": 1,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "76311",
+      "realgmUrl": "https://basketball.realgm.com/player/Joseph-Matthew-Nieto/Summary/76311",
+      "id": "rg-76311",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -8586,6 +8753,9 @@
       "fouls": 1.9,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "172801",
+      "realgmUrl": "https://basketball.realgm.com/player/Prince-Rivero/Summary/172801",
+      "id": "rg-172801",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -8613,6 +8783,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "63435",
+      "realgmUrl": "https://basketball.realgm.com/player/Sean-Manganti/Summary/63435",
+      "id": "rg-63435",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -8640,6 +8813,9 @@
       "fouls": 4,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "254644",
+      "realgmUrl": "https://basketball.realgm.com/player/Arvie-Bringas/Summary/254644",
+      "id": "rg-254644",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -8667,6 +8843,9 @@
       "fouls": 1.1,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "254448",
+      "realgmUrl": "https://basketball.realgm.com/player/Sonny-Estil/Summary/254448",
+      "id": "rg-254448",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -8694,6 +8873,9 @@
       "fouls": 0.8,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "255743",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeff-Comia/Summary/255743",
+      "id": "rg-255743",
       "teamId": "meralco-bolts"
     },
     {
@@ -8721,6 +8903,9 @@
       "fouls": 1,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "225850",
+      "realgmUrl": "https://basketball.realgm.com/player/Enoch-Valdez/Summary/225850",
+      "id": "rg-225850",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -8748,6 +8933,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "35988",
+      "realgmUrl": "https://basketball.realgm.com/player/Robbie-Herndon/Summary/35988",
+      "id": "rg-35988",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -8775,6 +8963,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "43745",
+      "realgmUrl": "https://basketball.realgm.com/player/Vic-Manuel/Summary/43745",
+      "id": "rg-43745",
       "teamId": "converge-fiberxers"
     },
     {
@@ -8802,6 +8993,9 @@
       "fouls": 1.8,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "114585",
+      "realgmUrl": "https://basketball.realgm.com/player/Jiovani-Jalalon/Summary/114585",
+      "id": "rg-114585",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -8829,6 +9023,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "254446",
+      "realgmUrl": "https://basketball.realgm.com/player/Peter-Alfaro/Summary/254446",
+      "id": "rg-254446",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -8856,6 +9053,9 @@
       "fouls": 1.7,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "40301",
+      "realgmUrl": "https://basketball.realgm.com/player/Allein-Maliksi/Summary/40301",
+      "id": "rg-40301",
       "teamId": "meralco-bolts"
     },
     {
@@ -8883,6 +9083,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "40274",
+      "realgmUrl": "https://basketball.realgm.com/player/LA-Tenorio/Summary/40274",
+      "id": "rg-40274",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -8910,6 +9113,9 @@
       "fouls": 2,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "199753",
+      "realgmUrl": "https://basketball.realgm.com/player/Kit-Zaldivar/Summary/199753",
+      "id": "rg-199753",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -8937,6 +9143,9 @@
       "fouls": 0.6,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "63056",
+      "realgmUrl": "https://basketball.realgm.com/player/Anjo-Caram/Summary/63056",
+      "id": "rg-63056",
       "teamId": "meralco-bolts"
     },
     {
@@ -8964,6 +9173,9 @@
       "fouls": 1.8,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "36124",
+      "realgmUrl": "https://basketball.realgm.com/player/Kris-Rosales/Summary/36124",
+      "id": "rg-36124",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -8991,6 +9203,9 @@
       "fouls": 0.9,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "224245",
+      "realgmUrl": "https://basketball.realgm.com/player/Kim-Aurin/Summary/224245",
+      "id": "rg-224245",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -9018,6 +9233,9 @@
       "fouls": 1,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "224238",
+      "realgmUrl": "https://basketball.realgm.com/player/Raffy-Verano/Summary/224238",
+      "id": "rg-224238",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -9045,6 +9263,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "43455",
+      "realgmUrl": "https://basketball.realgm.com/player/Yousif-Taha/Summary/43455",
+      "id": "rg-43455",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -9072,6 +9293,9 @@
       "fouls": 1.1,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "102051",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Racal/Summary/102051",
+      "id": "rg-102051",
       "teamId": "converge-fiberxers"
     },
     {
@@ -9099,6 +9323,9 @@
       "fouls": 1.9,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "86845",
+      "realgmUrl": "https://basketball.realgm.com/player/Raymond-Aguilar/Summary/86845",
+      "id": "rg-86845",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -9126,6 +9353,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "224236",
+      "realgmUrl": "https://basketball.realgm.com/player/Matthew-Daves/Summary/224236",
+      "id": "rg-224236",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -9153,6 +9383,9 @@
       "fouls": 1.5,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "182971",
+      "realgmUrl": "https://basketball.realgm.com/player/Philip-Cahilig/Summary/182971",
+      "id": "rg-182971",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -9180,6 +9413,9 @@
       "fouls": 0.2,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "135993",
+      "realgmUrl": "https://basketball.realgm.com/player/Richard-Rodger/Summary/135993",
+      "id": "rg-135993",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -9207,6 +9443,9 @@
       "fouls": 0.2,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "114742",
+      "realgmUrl": "https://basketball.realgm.com/player/Joseph-Eriobu/Summary/114742",
+      "id": "rg-114742",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -9234,6 +9473,9 @@
       "fouls": 1.2,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "7835",
+      "realgmUrl": "https://basketball.realgm.com/player/Chris-Ross/Summary/7835",
+      "id": "rg-7835",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -9261,6 +9503,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "226459",
+      "realgmUrl": "https://basketball.realgm.com/player/James-Kwekuteye/Summary/226459",
+      "id": "rg-226459",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -9288,6 +9533,9 @@
       "fouls": 1.4,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "128501",
+      "realgmUrl": "https://basketball.realgm.com/player/Jose-Raymar/Summary/128501",
+      "id": "rg-128501",
       "teamId": "meralco-bolts"
     },
     {
@@ -9315,6 +9563,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "232098",
+      "realgmUrl": "https://basketball.realgm.com/player/Bryan-Andrade/Summary/232098",
+      "id": "rg-232098",
       "teamId": "blackwater-bossing"
     },
     {
@@ -9342,6 +9593,9 @@
       "fouls": 1,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "100010",
+      "realgmUrl": "https://basketball.realgm.com/player/Amer-Baser/Summary/100010",
+      "id": "rg-100010",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -9369,6 +9623,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "163990",
+      "realgmUrl": "https://basketball.realgm.com/player/Rey-Anthony-Suerte/Summary/163990",
+      "id": "rg-163990",
       "teamId": "converge-fiberxers"
     },
     {
@@ -9396,6 +9653,9 @@
       "fouls": 0.8,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "99063",
+      "realgmUrl": "https://basketball.realgm.com/player/Roi-Sumang/Summary/99063",
+      "id": "rg-99063",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -9423,6 +9683,9 @@
       "fouls": 2.2,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "256274",
+      "realgmUrl": "https://basketball.realgm.com/player/Lorenz-John-Capulong/Summary/256274",
+      "id": "rg-256274",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -9450,6 +9713,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "226945",
+      "realgmUrl": "https://basketball.realgm.com/player/Clifford-Jopia/Summary/226945",
+      "id": "rg-226945",
       "teamId": "blackwater-bossing"
     },
     {
@@ -9477,6 +9743,9 @@
       "fouls": 0.6,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "71896",
+      "realgmUrl": "https://basketball.realgm.com/player/Christopher-Miller/Summary/71896",
+      "id": "rg-71896",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -9504,6 +9773,9 @@
       "fouls": 1.1,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "148675",
+      "realgmUrl": "https://basketball.realgm.com/player/Kris-Porter/Summary/148675",
+      "id": "rg-148675",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -9531,6 +9803,9 @@
       "fouls": 0.5,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "76313",
+      "realgmUrl": "https://basketball.realgm.com/player/Michael-Joseph-Nieto/Summary/76313",
+      "id": "rg-76313",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -9558,6 +9833,9 @@
       "fouls": 1,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "199589",
+      "realgmUrl": "https://basketball.realgm.com/player/Shaun-Ildefonso/Summary/199589",
+      "id": "rg-199589",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -9585,6 +9863,9 @@
       "fouls": 3.2,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "199403",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeo-Ambohot/Summary/199403",
+      "id": "rg-199403",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -9612,6 +9893,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "254614",
+      "realgmUrl": "https://basketball.realgm.com/player/CJ-Catapusan/Summary/254614",
+      "id": "rg-254614",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -9639,6 +9923,9 @@
       "fouls": 0.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "89493",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Clemente/Summary/89493",
+      "id": "rg-89493",
       "teamId": "converge-fiberxers"
     },
     {
@@ -9666,6 +9953,9 @@
       "fouls": 2.1,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "40342",
+      "realgmUrl": "https://basketball.realgm.com/player/Beau-Belga/Summary/40342",
+      "id": "rg-40342",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -9693,6 +9983,9 @@
       "fouls": 2.3,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "256937",
+      "realgmUrl": "https://basketball.realgm.com/player/Christian-Manaytay/Summary/256937",
+      "id": "rg-256937",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -9720,6 +10013,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "40268",
+      "realgmUrl": "https://basketball.realgm.com/player/RJ-Jazul/Summary/40268",
+      "id": "rg-40268",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -9747,6 +10043,9 @@
       "fouls": 0.3,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "254665",
+      "realgmUrl": "https://basketball.realgm.com/player/Francis-Escandor/Summary/254665",
+      "id": "rg-254665",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -9774,6 +10073,9 @@
       "fouls": 1,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254631",
+      "realgmUrl": "https://basketball.realgm.com/player/Pablo-Javillonar/Summary/254631",
+      "id": "rg-254631",
       "teamId": "converge-fiberxers"
     },
     {
@@ -9801,6 +10103,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "159163",
+      "realgmUrl": "https://basketball.realgm.com/player/Paul-Garcia/Summary/159163",
+      "id": "rg-159163",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -9828,6 +10133,9 @@
       "fouls": 0,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254632",
+      "realgmUrl": "https://basketball.realgm.com/player/Kobe-Monje/Summary/254632",
+      "id": "rg-254632",
       "teamId": "converge-fiberxers"
     },
     {
@@ -9855,6 +10163,9 @@
       "fouls": 0.7,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "224945",
+      "realgmUrl": "https://basketball.realgm.com/player/King-Caralipio/Summary/224945",
+      "id": "rg-224945",
       "teamId": "converge-fiberxers"
     },
     {
@@ -9882,6 +10193,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "224496",
+      "realgmUrl": "https://basketball.realgm.com/player/Tommy-Olivario/Summary/224496",
+      "id": "rg-224496",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -9909,6 +10223,9 @@
       "fouls": 0.4,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "136583",
+      "realgmUrl": "https://basketball.realgm.com/player/Paul-Christian-Zamar/Summary/136583",
+      "id": "rg-136583",
       "teamId": "blackwater-bossing"
     },
     {
@@ -9936,6 +10253,9 @@
       "fouls": 0.5,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "258248",
+      "realgmUrl": "https://basketball.realgm.com/player/Mark-Sangco/Summary/258248",
+      "id": "rg-258248",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -9963,6 +10283,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "85157",
+      "realgmUrl": "https://basketball.realgm.com/player/Prince-Caperal/Summary/85157",
+      "id": "rg-85157",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -9990,6 +10313,9 @@
       "fouls": 0.2,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "41230",
+      "realgmUrl": "https://basketball.realgm.com/player/James-Martinez/Summary/41230",
+      "id": "rg-41230",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -10017,6 +10343,9 @@
       "fouls": 0.8,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "128502",
+      "realgmUrl": "https://basketball.realgm.com/player/Nard-Pinto/Summary/128502",
+      "id": "rg-128502",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -10044,6 +10373,9 @@
       "fouls": 1.1,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "199588",
+      "realgmUrl": "https://basketball.realgm.com/player/Tyrus-Hill/Summary/199588",
+      "id": "rg-199588",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -10071,6 +10403,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "193449",
+      "realgmUrl": "https://basketball.realgm.com/player/David-Murrell/Summary/193449",
+      "id": "rg-193449",
       "teamId": "blackwater-bossing"
     },
     {
@@ -10098,6 +10433,9 @@
       "fouls": 1.5,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "254663",
+      "realgmUrl": "https://basketball.realgm.com/player/Dave-Ando/Summary/254663",
+      "id": "rg-254663",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -10125,6 +10463,9 @@
       "fouls": 0.3,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "255066",
+      "realgmUrl": "https://basketball.realgm.com/player/Royce-Mantua/Summary/255066",
+      "id": "rg-255066",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -10152,6 +10493,9 @@
       "fouls": 0.7,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "172363",
+      "realgmUrl": "https://basketball.realgm.com/player/Aris-Dionisio/Summary/172363",
+      "id": "rg-172363",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -10179,6 +10523,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "254479",
+      "realgmUrl": "https://basketball.realgm.com/player/Mario-Barasi/Summary/254479",
+      "id": "rg-254479",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -10206,6 +10553,9 @@
       "fouls": 1.3,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "182964",
+      "realgmUrl": "https://basketball.realgm.com/player/Benedict-Adamos/Summary/182964",
+      "id": "rg-182964",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -10233,6 +10583,9 @@
       "fouls": 1.2,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "225600",
+      "realgmUrl": "https://basketball.realgm.com/player/John-De-Los-Santos/Summary/225600",
+      "id": "rg-225600",
       "teamId": "converge-fiberxers"
     },
     {
@@ -10260,6 +10613,9 @@
       "fouls": 0,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "83087",
+      "realgmUrl": "https://basketball.realgm.com/player/Paolo-Taha/Summary/83087",
+      "id": "rg-83087",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -10287,6 +10643,9 @@
       "fouls": 0.5,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "254631",
+      "realgmUrl": "https://basketball.realgm.com/player/Pablo-Javillonar/Summary/254631",
+      "id": "rg-254631",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -10314,6 +10673,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "109783",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaymo-Eguilos/Summary/109783",
+      "id": "rg-109783",
       "teamId": "converge-fiberxers"
     },
     {
@@ -10341,6 +10703,9 @@
       "fouls": 0.9,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "83102",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyle-Pascual/Summary/83102",
+      "id": "rg-83102",
       "teamId": "meralco-bolts"
     },
     {
@@ -10368,6 +10733,9 @@
       "fouls": 0.6,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "255048",
+      "realgmUrl": "https://basketball.realgm.com/player/Gab-Gomez/Summary/255048",
+      "id": "rg-255048",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -10395,6 +10763,9 @@
       "fouls": 0,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "43452",
+      "realgmUrl": "https://basketball.realgm.com/player/David-Marcelo/Summary/43452",
+      "id": "rg-43452",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -10422,6 +10793,9 @@
       "fouls": 0,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "254632",
+      "realgmUrl": "https://basketball.realgm.com/player/Kobe-Monje/Summary/254632",
+      "id": "rg-254632",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -10449,6 +10823,9 @@
       "fouls": 5,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "150244",
+      "realgmUrl": "https://basketball.realgm.com/player/Paul-Varilla/Summary/150244",
+      "id": "rg-150244",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -10476,6 +10853,9 @@
       "fouls": 0.4,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254633",
+      "realgmUrl": "https://basketball.realgm.com/player/Roman-Santos/Summary/254633",
+      "id": "rg-254633",
       "teamId": "converge-fiberxers"
     },
     {
@@ -10503,6 +10883,9 @@
       "fouls": 0,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "259358",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Abis/Summary/259358",
+      "id": "rg-259358",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -10530,6 +10913,9 @@
       "fouls": 0,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "114742",
+      "realgmUrl": "https://basketball.realgm.com/player/Joseph-Eriobu/Summary/114742",
+      "id": "rg-114742",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -10557,6 +10943,9 @@
       "fouls": 2,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "224226",
+      "realgmUrl": "https://basketball.realgm.com/player/Luis-Villegas/Summary/224226",
+      "id": "rg-224226",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -10584,6 +10973,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "254615",
+      "realgmUrl": "https://basketball.realgm.com/player/Ira-Bataller/Summary/254615",
+      "id": "rg-254615",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -10611,6 +11003,9 @@
       "fouls": 2.1,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "89958",
+      "realgmUrl": "https://basketball.realgm.com/player/Bol-Bol/Summary/89958",
+      "id": "rg-89958",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -10638,6 +11033,9 @@
       "fouls": 2.7,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "24651",
+      "realgmUrl": "https://basketball.realgm.com/player/Robert-Upshaw/Summary/24651",
+      "id": "rg-24651",
       "teamId": "blackwater-bossing"
     },
     {
@@ -10665,6 +11063,9 @@
       "fouls": 3.3,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "107003",
+      "realgmUrl": "https://basketball.realgm.com/player/Nuni-Omot/Summary/107003",
+      "id": "rg-107003",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -10692,6 +11093,9 @@
       "fouls": 4,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "41445",
+      "realgmUrl": "https://basketball.realgm.com/player/Chris-McCullough/Summary/41445",
+      "id": "rg-41445",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -10719,6 +11123,9 @@
       "fouls": 2.2,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "6470",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Brownlee/Summary/6470",
+      "id": "rg-6470",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -10746,6 +11153,9 @@
       "fouls": 2.7,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "76229",
+      "realgmUrl": "https://basketball.realgm.com/player/Bennie-Boatwright/Summary/76229",
+      "id": "rg-76229",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -10773,6 +11183,9 @@
       "fouls": 4.3,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "4273",
+      "realgmUrl": "https://basketball.realgm.com/player/Clint-Chapman/Summary/4273",
+      "id": "rg-4273",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -10800,6 +11213,9 @@
       "fouls": 3.2,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "31910",
+      "realgmUrl": "https://basketball.realgm.com/player/Cady-Lalanne/Summary/31910",
+      "id": "rg-31910",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -10827,6 +11243,9 @@
       "fouls": 5,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "165610",
+      "realgmUrl": "https://basketball.realgm.com/player/Patrick-Gardner/Summary/165610",
+      "id": "rg-165610",
       "teamId": "meralco-bolts"
     },
     {
@@ -10854,6 +11273,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "95915",
+      "realgmUrl": "https://basketball.realgm.com/player/Mubashar-Ali/Summary/95915",
+      "id": "rg-95915",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -10881,6 +11303,9 @@
       "fouls": 3.1,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "52553",
+      "realgmUrl": "https://basketball.realgm.com/player/Jaylen-Johnson/Summary/52553",
+      "id": "rg-52553",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -10908,6 +11333,9 @@
       "fouls": 3.3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "80389",
+      "realgmUrl": "https://basketball.realgm.com/player/Michael-Gilmore/Summary/80389",
+      "id": "rg-80389",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -10935,6 +11363,9 @@
       "fouls": 3,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "80737",
+      "realgmUrl": "https://basketball.realgm.com/player/Marvin-Jones/Summary/80737",
+      "id": "rg-80737",
       "teamId": "meralco-bolts"
     },
     {
@@ -10962,6 +11393,9 @@
       "fouls": 2,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "26757",
+      "realgmUrl": "https://basketball.realgm.com/player/Johnathan-Williams/Summary/26757",
+      "id": "rg-26757",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -10989,6 +11423,9 @@
       "fouls": 3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "142782",
+      "realgmUrl": "https://basketball.realgm.com/player/Damian-Chong-Qui/Summary/142782",
+      "id": "rg-142782",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11016,6 +11453,9 @@
       "fouls": 3.1,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "84935",
+      "realgmUrl": "https://basketball.realgm.com/player/James-Dickey/Summary/84935",
+      "id": "rg-84935",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -11043,6 +11483,9 @@
       "fouls": 2.7,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "115681",
+      "realgmUrl": "https://basketball.realgm.com/player/Jenning-Leung/Summary/115681",
+      "id": "rg-115681",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11070,6 +11513,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "9338",
+      "realgmUrl": "https://basketball.realgm.com/player/Tony-Mitchell/Summary/9338",
+      "id": "rg-9338",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11097,6 +11543,9 @@
       "fouls": 3.7,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "83954",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Patton/Summary/83954",
+      "id": "rg-83954",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -11124,6 +11573,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "123490",
+      "realgmUrl": "https://basketball.realgm.com/player/Phoenix-Shackelford/Summary/123490",
+      "id": "rg-123490",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11151,6 +11603,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "107408",
+      "realgmUrl": "https://basketball.realgm.com/player/Deschon-Winston/Summary/107408",
+      "id": "rg-107408",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -11178,6 +11633,9 @@
       "fouls": 5.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "90845",
+      "realgmUrl": "https://basketball.realgm.com/player/Donovan-Smith/Summary/90845",
+      "id": "rg-90845",
       "teamId": "converge-fiberxers"
     },
     {
@@ -11205,6 +11663,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "166253",
+      "realgmUrl": "https://basketball.realgm.com/player/Ray-Cao/Summary/166253",
+      "id": "rg-166253",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11232,6 +11693,9 @@
       "fouls": 2.7,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "41431",
+      "realgmUrl": "https://basketball.realgm.com/player/Marcus-Lee/Summary/41431",
+      "id": "rg-41431",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -11259,6 +11723,9 @@
       "fouls": 3.5,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "24260",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Ochefu/Summary/24260",
+      "id": "rg-24260",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11286,6 +11753,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "100794",
+      "realgmUrl": "https://basketball.realgm.com/player/Kylor-Kelley/Summary/100794",
+      "id": "rg-100794",
       "teamId": "converge-fiberxers"
     },
     {
@@ -11313,6 +11783,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "148832",
+      "realgmUrl": "https://basketball.realgm.com/player/Kyles-Lao/Summary/148832",
+      "id": "rg-148832",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11340,6 +11813,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "265965",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Bryan-Sajonia/Summary/265965",
+      "id": "rg-265965",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -11367,6 +11843,9 @@
       "fouls": 2.9,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "44990",
+      "realgmUrl": "https://basketball.realgm.com/player/Calvin-Abueva/Summary/44990",
+      "id": "rg-44990",
       "teamId": "converge-fiberxers"
     },
     {
@@ -11394,6 +11873,9 @@
       "fouls": 2.1,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "148616",
+      "realgmUrl": "https://basketball.realgm.com/player/Javee-Mocon/Summary/148616",
+      "id": "rg-148616",
       "teamId": "meralco-bolts"
     },
     {
@@ -11421,6 +11903,9 @@
       "fouls": 3.4,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "266357",
+      "realgmUrl": "https://basketball.realgm.com/player/CJ-Austria/Summary/266357",
+      "id": "rg-266357",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11448,6 +11933,9 @@
       "fouls": 2.1,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "8642",
+      "realgmUrl": "https://basketball.realgm.com/player/Mike-Williams/Summary/8642",
+      "id": "rg-8642",
       "teamId": "converge-fiberxers"
     },
     {
@@ -11475,6 +11963,9 @@
       "fouls": 1.3,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "23222",
+      "realgmUrl": "https://basketball.realgm.com/player/Jason-Brickman/Summary/23222",
+      "id": "rg-23222",
       "teamId": "meralco-bolts"
     },
     {
@@ -11502,6 +11993,9 @@
       "fouls": 3.4,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "133945",
+      "realgmUrl": "https://basketball.realgm.com/player/Shaun-Chiu/Summary/133945",
+      "id": "rg-133945",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -11529,6 +12023,9 @@
       "fouls": 1.5,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "41418",
+      "realgmUrl": "https://basketball.realgm.com/player/Jayson-Castro-William/Summary/41418",
+      "id": "rg-41418",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -11556,6 +12053,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254458",
+      "realgmUrl": "https://basketball.realgm.com/player/Jonnel-Policarpio/Summary/254458",
+      "id": "rg-254458",
       "teamId": "converge-fiberxers"
     },
     {
@@ -11583,6 +12083,9 @@
       "fouls": 0.6,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "265984",
+      "realgmUrl": "https://basketball.realgm.com/player/Deo-Cuajao/Summary/265984",
+      "id": "rg-265984",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -11610,6 +12113,9 @@
       "fouls": 0.4,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "265985",
+      "realgmUrl": "https://basketball.realgm.com/player/Jun-Roque/Summary/265985",
+      "id": "rg-265985",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -11637,6 +12143,9 @@
       "fouls": 3,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "56314",
+      "realgmUrl": "https://basketball.realgm.com/player/Mike-DiGregorio/Summary/56314",
+      "id": "rg-56314",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11664,6 +12173,9 @@
       "fouls": 2.1,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "265966",
+      "realgmUrl": "https://basketball.realgm.com/player/Shawn-Umali/Summary/265966",
+      "id": "rg-265966",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -11691,6 +12203,9 @@
       "fouls": 2,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "219332",
+      "realgmUrl": "https://basketball.realgm.com/player/Will-Allen-Gozum/Summary/219332",
+      "id": "rg-219332",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -11718,6 +12233,9 @@
       "fouls": 0.9,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "266326",
+      "realgmUrl": "https://basketball.realgm.com/player/Tony-Ynot/Summary/266326",
+      "id": "rg-266326",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -11745,6 +12263,9 @@
       "fouls": 1.7,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "54866",
+      "realgmUrl": "https://basketball.realgm.com/player/George-Isaac-Go/Summary/54866",
+      "id": "rg-54866",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -11772,6 +12293,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "223004",
+      "realgmUrl": "https://basketball.realgm.com/player/Jiashuo-Li/Summary/223004",
+      "id": "rg-223004",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11799,6 +12323,9 @@
       "fouls": 1.4,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "254451",
+      "realgmUrl": "https://basketball.realgm.com/player/Joshua-David/Summary/254451",
+      "id": "rg-254451",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -11826,6 +12353,9 @@
       "fouls": 1,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "133905",
+      "realgmUrl": "https://basketball.realgm.com/player/XingZhao-Chao/Summary/133905",
+      "id": "rg-133905",
       "teamId": "blackwater-bossing"
     },
     {
@@ -11853,6 +12383,9 @@
       "fouls": 0.8,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "62639",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Chua/Summary/62639",
+      "id": "rg-62639",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -11880,6 +12413,9 @@
       "fouls": 0.8,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "62639",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Chua/Summary/62639",
+      "id": "rg-62639",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -11907,6 +12443,9 @@
       "fouls": 2.5,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "266378",
+      "realgmUrl": "https://basketball.realgm.com/player/Ladis-Lepalam/Summary/266378",
+      "id": "rg-266378",
       "teamId": "converge-fiberxers"
     },
     {
@@ -11934,6 +12473,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "225600",
+      "realgmUrl": "https://basketball.realgm.com/player/John-De-Los-Santos/Summary/225600",
+      "id": "rg-225600",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -11961,6 +12503,9 @@
       "fouls": 1.4,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "102051",
+      "realgmUrl": "https://basketball.realgm.com/player/Kevin-Racal/Summary/102051",
+      "id": "rg-102051",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -11988,6 +12533,9 @@
       "fouls": 0.6,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "134360",
+      "realgmUrl": "https://basketball.realgm.com/player/Avan-Nava/Summary/134360",
+      "id": "rg-134360",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -12015,6 +12563,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "265981",
+      "realgmUrl": "https://basketball.realgm.com/player/Jose-Carlos-Cullar/Summary/265981",
+      "id": "rg-265981",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -12042,6 +12593,9 @@
       "fouls": 1.9,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "133829",
+      "realgmUrl": "https://basketball.realgm.com/player/Li-Sheng-Chen/Summary/133829",
+      "id": "rg-133829",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12069,6 +12623,9 @@
       "fouls": 0.6,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "224945",
+      "realgmUrl": "https://basketball.realgm.com/player/King-Caralipio/Summary/224945",
+      "id": "rg-224945",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -12096,6 +12653,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "265963",
+      "realgmUrl": "https://basketball.realgm.com/player/Zong-Lin-Lu/Summary/265963",
+      "id": "rg-265963",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12123,6 +12683,9 @@
       "fouls": 1.3,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "175006",
+      "realgmUrl": "https://basketball.realgm.com/player/Kemark-Carino/Summary/175006",
+      "id": "rg-175006",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -12150,6 +12713,9 @@
       "fouls": 2,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "24920",
+      "realgmUrl": "https://basketball.realgm.com/player/Xiaoxu-Li/Summary/24920",
+      "id": "rg-24920",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12177,6 +12743,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "266406",
+      "realgmUrl": "https://basketball.realgm.com/player/Arvin-Gamboa/Summary/266406",
+      "id": "rg-266406",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -12204,6 +12773,9 @@
       "fouls": 0.9,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "266013",
+      "realgmUrl": "https://basketball.realgm.com/player/Vince-Magbuhos/Summary/266013",
+      "id": "rg-266013",
       "teamId": "meralco-bolts"
     },
     {
@@ -12231,6 +12803,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "265968",
+      "realgmUrl": "https://basketball.realgm.com/player/Meng-Sun/Summary/265968",
+      "id": "rg-265968",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12258,6 +12833,9 @@
       "fouls": 1.8,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "265964",
+      "realgmUrl": "https://basketball.realgm.com/player/Mark-Omega/Summary/265964",
+      "id": "rg-265964",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -12285,6 +12863,9 @@
       "fouls": 1.6,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "266802",
+      "realgmUrl": "https://basketball.realgm.com/player/Sean-Quitevis/Summary/266802",
+      "id": "rg-266802",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -12312,6 +12893,9 @@
       "fouls": 0.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "254463",
+      "realgmUrl": "https://basketball.realgm.com/player/Kurt-Reyson/Summary/254463",
+      "id": "rg-254463",
       "teamId": "converge-fiberxers"
     },
     {
@@ -12339,6 +12923,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "182964",
+      "realgmUrl": "https://basketball.realgm.com/player/Benedict-Adamos/Summary/182964",
+      "id": "rg-182964",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -12366,6 +12953,9 @@
       "fouls": 0.5,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "173065",
+      "realgmUrl": "https://basketball.realgm.com/player/Zhaojing-Zhu/Summary/173065",
+      "id": "rg-173065",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12393,6 +12983,9 @@
       "fouls": 2.4,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "56831",
+      "realgmUrl": "https://basketball.realgm.com/player/George-King/Summary/56831",
+      "id": "rg-56831",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -12420,6 +13013,9 @@
       "fouls": 2.6,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "121515",
+      "realgmUrl": "https://basketball.realgm.com/player/DeVondre-Perry/Summary/121515",
+      "id": "rg-121515",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12447,6 +13043,9 @@
       "fouls": 5,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "89323",
+      "realgmUrl": "https://basketball.realgm.com/player/Jordon-Varnado/Summary/89323",
+      "id": "rg-89323",
       "teamId": "meralco-bolts"
     },
     {
@@ -12474,6 +13073,9 @@
       "fouls": 1.7,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "56795",
+      "realgmUrl": "https://basketball.realgm.com/player/BJ-Johnson/Summary/56795",
+      "id": "rg-56795",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -12501,6 +13103,9 @@
       "fouls": 1.2,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "85120",
+      "realgmUrl": "https://basketball.realgm.com/player/Kentrell-Barkley/Summary/85120",
+      "id": "rg-85120",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12528,6 +13133,9 @@
       "fouls": 2,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "80448",
+      "realgmUrl": "https://basketball.realgm.com/player/Justin-Strings/Summary/80448",
+      "id": "rg-80448",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -12555,6 +13163,9 @@
       "fouls": 2,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "83101",
+      "realgmUrl": "https://basketball.realgm.com/player/Christopher-Banchero/Summary/83101",
+      "id": "rg-83101",
       "teamId": "converge-fiberxers"
     },
     {
@@ -12582,6 +13193,9 @@
       "fouls": 2.8,
       "teamRealgmId": "938",
       "teamName": "Rain or Shine Elasto Painters",
+      "realgmPlayerId": "3870",
+      "realgmUrl": "https://basketball.realgm.com/player/Aaron-Fuller/Summary/3870",
+      "id": "rg-3870",
       "teamId": "rain-or-shine-elasto-painters"
     },
     {
@@ -12609,6 +13223,9 @@
       "fouls": 3.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "23977",
+      "realgmUrl": "https://basketball.realgm.com/player/Jamaal-Franklin/Summary/23977",
+      "id": "rg-23977",
       "teamId": "converge-fiberxers"
     },
     {
@@ -12636,6 +13253,9 @@
       "fouls": 3.4,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "132181",
+      "realgmUrl": "https://basketball.realgm.com/player/KJ-Buffen/Summary/132181",
+      "id": "rg-132181",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -12663,6 +13283,9 @@
       "fouls": 3.3,
       "teamRealgmId": "432",
       "teamName": "Barangay Ginebra Kings",
+      "realgmPlayerId": "139825",
+      "realgmUrl": "https://basketball.realgm.com/player/Riley-Grigsby/Summary/139825",
+      "id": "rg-139825",
       "teamId": "barangay-ginebra-san-miguel"
     },
     {
@@ -12690,6 +13313,9 @@
       "fouls": 2.3,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "44119",
+      "realgmUrl": "https://basketball.realgm.com/player/Tirrell-Brown/Summary/44119",
+      "id": "rg-44119",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -12717,6 +13343,9 @@
       "fouls": 3,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "2365",
+      "realgmUrl": "https://basketball.realgm.com/player/DeQuan-Jones/Summary/2365",
+      "id": "rg-2365",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -12744,6 +13373,9 @@
       "fouls": 3.2,
       "teamRealgmId": "935",
       "teamName": "Meralco Bolts",
+      "realgmPlayerId": "35290",
+      "realgmUrl": "https://basketball.realgm.com/player/Antonio-Hester/Summary/35290",
+      "id": "rg-35290",
       "teamId": "meralco-bolts"
     },
     {
@@ -12771,6 +13403,9 @@
       "fouls": 3.8,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "24675",
+      "realgmUrl": "https://basketball.realgm.com/player/Rondae-Hollis-Jefferson/Summary/24675",
+      "id": "rg-24675",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -12798,6 +13433,9 @@
       "fouls": 2.3,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "83094",
+      "realgmUrl": "https://basketball.realgm.com/player/Juami-Tiongson/Summary/83094",
+      "id": "rg-83094",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -12825,6 +13463,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "131925",
+      "realgmUrl": "https://basketball.realgm.com/player/Kobey-Lam/Summary/131925",
+      "id": "rg-131925",
       "teamId": "blackwater-bossing"
     },
     {
@@ -12852,6 +13493,9 @@
       "fouls": 4,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "120261",
+      "realgmUrl": "https://basketball.realgm.com/player/Darius-Days/Summary/120261",
+      "id": "rg-120261",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -12879,6 +13523,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "80120",
+      "realgmUrl": "https://basketball.realgm.com/player/Jalen-Hudson/Summary/80120",
+      "id": "rg-80120",
       "teamId": "converge-fiberxers"
     },
     {
@@ -12906,6 +13553,9 @@
       "fouls": 1.6,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "84687",
+      "realgmUrl": "https://basketball.realgm.com/player/Jerrick-Ahanmisi/Summary/84687",
+      "id": "rg-84687",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -12933,6 +13583,9 @@
       "fouls": 1.6,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "199590",
+      "realgmUrl": "https://basketball.realgm.com/player/Gian-Robert-Mamuyac/Summary/199590",
+      "id": "rg-199590",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -12960,6 +13613,9 @@
       "fouls": 4,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "267801",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Matthew-Bravo/Summary/267801",
+      "id": "rg-267801",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -12987,6 +13643,9 @@
       "fouls": 3.3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "267847",
+      "realgmUrl": "https://basketball.realgm.com/player/Jeffrey-Ma/Summary/267847",
+      "id": "rg-267847",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13014,6 +13673,9 @@
       "fouls": 0.7,
       "teamRealgmId": "2520",
       "teamName": "Converge Fiber Xers",
+      "realgmPlayerId": "163991",
+      "realgmUrl": "https://basketball.realgm.com/player/Fredrick-Tungcab/Summary/163991",
+      "id": "rg-163991",
       "teamId": "converge-fiberxers"
     },
     {
@@ -13041,6 +13703,9 @@
       "fouls": 1.5,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "115554",
+      "realgmUrl": "https://basketball.realgm.com/player/Zhengxin-Zhang/Summary/115554",
+      "id": "rg-115554",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13068,6 +13733,9 @@
       "fouls": 3,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "95172",
+      "realgmUrl": "https://basketball.realgm.com/player/Nick-Demusis/Summary/95172",
+      "id": "rg-95172",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13095,6 +13763,9 @@
       "fouls": 2,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "268307",
+      "realgmUrl": "https://basketball.realgm.com/player/Denzel-Wong/Summary/268307",
+      "id": "rg-268307",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -13122,6 +13793,9 @@
       "fouls": 3.1,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "267848",
+      "realgmUrl": "https://basketball.realgm.com/player/Jose-Quitevis/Summary/267848",
+      "id": "rg-267848",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -13149,6 +13823,9 @@
       "fouls": 0.4,
       "teamRealgmId": "937",
       "teamName": "San Miguel Beermen",
+      "realgmPlayerId": "267800",
+      "realgmUrl": "https://basketball.realgm.com/player/Paolo-Hernandez/Summary/267800",
+      "id": "rg-267800",
       "teamId": "san-miguel-beermen"
     },
     {
@@ -13176,6 +13853,9 @@
       "fouls": 1.4,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "224497",
+      "realgmUrl": "https://basketball.realgm.com/player/John-Amores/Summary/224497",
+      "id": "rg-224497",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -13203,6 +13883,9 @@
       "fouls": 1.1,
       "teamRealgmId": "1241",
       "teamName": "Magnolia Hotshots",
+      "realgmPlayerId": "226945",
+      "realgmUrl": "https://basketball.realgm.com/player/Clifford-Jopia/Summary/226945",
+      "id": "rg-226945",
       "teamId": "magnolia-chicken-timplados-hotshots"
     },
     {
@@ -13230,6 +13913,9 @@
       "fouls": 1.3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "32224",
+      "realgmUrl": "https://basketball.realgm.com/player/Yongpeng-Zhang/Summary/32224",
+      "id": "rg-32224",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13257,6 +13943,9 @@
       "fouls": 3,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "28270",
+      "realgmUrl": "https://basketball.realgm.com/player/Qi-Li/Summary/28270",
+      "id": "rg-28270",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13284,6 +13973,9 @@
       "fouls": 1.7,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "157542",
+      "realgmUrl": "https://basketball.realgm.com/player/Liu-Xucheng/Summary/157542",
+      "id": "rg-157542",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13311,6 +14003,9 @@
       "fouls": 0,
       "teamRealgmId": "2827",
       "teamName": "Macau Black Knights",
+      "realgmPlayerId": "157539",
+      "realgmUrl": "https://basketball.realgm.com/player/Lu-Zijie/Summary/157539",
+      "id": "rg-157539",
       "teamId": "blackwater-bossing"
     },
     {
@@ -13338,6 +14033,9 @@
       "fouls": 1,
       "teamRealgmId": "431",
       "teamName": "Talk N Text Tropang Texters",
+      "realgmPlayerId": "267871",
+      "realgmUrl": "https://basketball.realgm.com/player/Daniel-Celzo/Summary/267871",
+      "id": "rg-267871",
       "teamId": "tnt-tropang-5g"
     },
     {
@@ -13365,6 +14063,9 @@
       "fouls": 1.8,
       "teamRealgmId": "1644",
       "teamName": "NLEX Road Warriors",
+      "realgmPlayerId": "254612",
+      "realgmUrl": "https://basketball.realgm.com/player/Evan-Nelle/Summary/254612",
+      "id": "rg-254612",
       "teamId": "nlex-road-warriors"
     },
     {
@@ -13392,6 +14093,9 @@
       "fouls": 1.3,
       "teamRealgmId": "1744",
       "teamName": "Phoenix Fuel Masters",
+      "realgmPlayerId": "40295",
+      "realgmUrl": "https://basketball.realgm.com/player/Rafi-Reavis/Summary/40295",
+      "id": "rg-40295",
       "teamId": "phoenix-super-lpg-fuel-masters"
     },
     {
@@ -13419,6 +14123,9 @@
       "fouls": 0,
       "teamRealgmId": "1620",
       "teamName": "Terrafirma DYIP",
+      "realgmPlayerId": "71896",
+      "realgmUrl": "https://basketball.realgm.com/player/Christopher-Miller/Summary/71896",
+      "id": "rg-71896",
       "teamId": "terrafirma-dyip"
     },
     {
@@ -13446,6 +14153,9 @@
       "fouls": 0,
       "teamRealgmId": "2789",
       "teamName": "Titan Ultra Giant",
+      "realgmPlayerId": "267802",
+      "realgmUrl": "https://basketball.realgm.com/player/Alejandrino-Inigo/Summary/267802",
+      "id": "rg-267802",
       "teamId": "titan-ultra-giant-risers"
     },
     {
@@ -13473,6 +14183,9 @@
       "fouls": 0.5,
       "teamRealgmId": "1643",
       "teamName": "Blackwater Bossings",
+      "realgmPlayerId": "40265",
+      "realgmUrl": "https://basketball.realgm.com/player/James-Sena/Summary/40265",
+      "id": "rg-40265",
       "teamId": "blackwater-bossing"
     }
   ],
@@ -13820,6 +14533,7 @@
     "avgPoints": [
       {
         "name": "Justin Brownlee",
+        "playerId": "rg-6470",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -13828,6 +14542,7 @@
       },
       {
         "name": "Sedrick Barefield",
+        "playerId": "rg-54838",
         "headshot": null,
         "team": "BLAC",
         "teamId": "blackwater-bossing",
@@ -13836,6 +14551,7 @@
       },
       {
         "name": "Joshua Munzon",
+        "playerId": "rg-53679",
         "headshot": null,
         "team": "TUG",
         "teamId": "titan-ultra-giant-risers",
@@ -13844,6 +14560,7 @@
       },
       {
         "name": "Rhon Abarrientos",
+        "playerId": "rg-182442",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -13852,6 +14569,7 @@
       },
       {
         "name": "Robert Bolick",
+        "playerId": "rg-148315",
         "headshot": null,
         "team": "NLEX",
         "teamId": "nlex-road-warriors",
@@ -13860,6 +14578,7 @@
       },
       {
         "name": "CJ Perez",
+        "playerId": "rg-148617",
         "headshot": null,
         "team": "SMB",
         "teamId": "san-miguel-beermen",
@@ -13868,6 +14587,7 @@
       },
       {
         "name": "Jerrick Ahanmisi",
+        "playerId": "rg-84687",
         "headshot": null,
         "team": "DYIP",
         "teamId": "terrafirma-dyip",
@@ -13876,6 +14596,7 @@
       },
       {
         "name": "Justin Arana",
+        "playerId": "rg-199404",
         "headshot": null,
         "team": "XERS",
         "teamId": "converge-fiberxers",
@@ -13884,6 +14605,7 @@
       },
       {
         "name": "Deschon Winston",
+        "playerId": "rg-107408",
         "headshot": null,
         "team": "NLEX",
         "teamId": "nlex-road-warriors",
@@ -13892,6 +14614,7 @@
       },
       {
         "name": "Ricci Paolo Rivero",
+        "playerId": "rg-224237",
         "headshot": null,
         "team": "FUEL",
         "teamId": "phoenix-super-lpg-fuel-masters",
@@ -13902,6 +14625,7 @@
     "avgRebounds": [
       {
         "name": "June Mar Fajardo",
+        "playerId": "rg-28449",
         "headshot": null,
         "team": "SMB",
         "teamId": "san-miguel-beermen",
@@ -13910,6 +14634,7 @@
       },
       {
         "name": "Justine Baltazar",
+        "playerId": "rg-163979",
         "headshot": null,
         "team": "XERS",
         "teamId": "converge-fiberxers",
@@ -13918,6 +14643,7 @@
       },
       {
         "name": "Zavier Lucero",
+        "playerId": "rg-163824",
         "headshot": null,
         "team": "SHOT",
         "teamId": "magnolia-chicken-timplados-hotshots",
@@ -13926,6 +14652,7 @@
       },
       {
         "name": "Justin Brownlee",
+        "playerId": "rg-6470",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -13934,6 +14661,7 @@
       },
       {
         "name": "Justin Arana",
+        "playerId": "rg-199404",
         "headshot": null,
         "team": "XERS",
         "teamId": "converge-fiberxers",
@@ -13942,6 +14670,7 @@
       },
       {
         "name": "Jeth Troy Rosario",
+        "playerId": "rg-99170",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -13950,6 +14679,7 @@
       },
       {
         "name": "Scottie Thompson",
+        "playerId": "rg-99096",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -13958,6 +14688,7 @@
       },
       {
         "name": "Jhonard Clarito",
+        "playerId": "rg-199687",
         "headshot": null,
         "team": "ROS",
         "teamId": "rain-or-shine-elasto-painters",
@@ -13966,6 +14697,7 @@
       },
       {
         "name": "Clifford Hodge",
+        "playerId": "rg-43462",
         "headshot": null,
         "team": "MER",
         "teamId": "meralco-bolts",
@@ -13974,6 +14706,7 @@
       },
       {
         "name": "John Rodney Brondial",
+        "playerId": "rg-83089",
         "headshot": null,
         "team": "SMB",
         "teamId": "san-miguel-beermen",
@@ -13984,6 +14717,7 @@
     "avgAssists": [
       {
         "name": "Robert Bolick",
+        "playerId": "rg-148315",
         "headshot": null,
         "team": "NLEX",
         "teamId": "nlex-road-warriors",
@@ -13992,6 +14726,7 @@
       },
       {
         "name": "Juan Gomez De Liano",
+        "playerId": "rg-163987",
         "headshot": null,
         "team": "XERS",
         "teamId": "converge-fiberxers",
@@ -14000,6 +14735,7 @@
       },
       {
         "name": "Fran Louie Yu",
+        "playerId": "rg-203482",
         "headshot": null,
         "team": "TUG",
         "teamId": "titan-ultra-giant-risers",
@@ -14008,6 +14744,7 @@
       },
       {
         "name": "Scottie Thompson",
+        "playerId": "rg-99096",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14016,6 +14753,7 @@
       },
       {
         "name": "Mark Barroca",
+        "playerId": "rg-28901",
         "headshot": null,
         "team": "SHOT",
         "teamId": "magnolia-chicken-timplados-hotshots",
@@ -14024,6 +14762,7 @@
       },
       {
         "name": "Justin Brownlee",
+        "playerId": "rg-6470",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14032,6 +14771,7 @@
       },
       {
         "name": "Jason Brickman",
+        "playerId": "rg-23222",
         "headshot": null,
         "team": "MER",
         "teamId": "meralco-bolts",
@@ -14040,6 +14780,7 @@
       },
       {
         "name": "Rhon Abarrientos",
+        "playerId": "rg-182442",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14048,6 +14789,7 @@
       },
       {
         "name": "Evan Nelle",
+        "playerId": "rg-254612",
         "headshot": null,
         "team": "FUEL",
         "teamId": "phoenix-super-lpg-fuel-masters",
@@ -14056,6 +14798,7 @@
       },
       {
         "name": "Joshua Munzon",
+        "playerId": "rg-53679",
         "headshot": null,
         "team": "TUG",
         "teamId": "titan-ultra-giant-risers",
@@ -14066,6 +14809,7 @@
     "avgSteals": [
       {
         "name": "Joshua Munzon",
+        "playerId": "rg-53679",
         "headshot": null,
         "team": "TUG",
         "teamId": "titan-ultra-giant-risers",
@@ -14074,6 +14818,7 @@
       },
       {
         "name": "Adrian Nocum",
+        "playerId": "rg-225259",
         "headshot": null,
         "team": "ROS",
         "teamId": "rain-or-shine-elasto-painters",
@@ -14082,6 +14827,7 @@
       },
       {
         "name": "Fran Louie Yu",
+        "playerId": "rg-203482",
         "headshot": null,
         "team": "TUG",
         "teamId": "titan-ultra-giant-risers",
@@ -14090,6 +14836,7 @@
       },
       {
         "name": "CJ Perez",
+        "playerId": "rg-148617",
         "headshot": null,
         "team": "SMB",
         "teamId": "san-miguel-beermen",
@@ -14098,6 +14845,7 @@
       },
       {
         "name": "Alec Stockton",
+        "playerId": "rg-182991",
         "headshot": null,
         "team": "XERS",
         "teamId": "converge-fiberxers",
@@ -14106,6 +14854,7 @@
       },
       {
         "name": "Rhon Abarrientos",
+        "playerId": "rg-182442",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14114,6 +14863,7 @@
       },
       {
         "name": "Scottie Thompson",
+        "playerId": "rg-99096",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14122,6 +14872,7 @@
       },
       {
         "name": "Robert Bolick",
+        "playerId": "rg-148315",
         "headshot": null,
         "team": "NLEX",
         "teamId": "nlex-road-warriors",
@@ -14130,6 +14881,7 @@
       },
       {
         "name": "Jhonard Clarito",
+        "playerId": "rg-199687",
         "headshot": null,
         "team": "ROS",
         "teamId": "rain-or-shine-elasto-painters",
@@ -14138,6 +14890,7 @@
       },
       {
         "name": "Justin Brownlee",
+        "playerId": "rg-6470",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14148,6 +14901,7 @@
     "avgBlocks": [
       {
         "name": "Zavier Lucero",
+        "playerId": "rg-163824",
         "headshot": null,
         "team": "SHOT",
         "teamId": "magnolia-chicken-timplados-hotshots",
@@ -14156,6 +14910,7 @@
       },
       {
         "name": "June Mar Fajardo",
+        "playerId": "rg-28449",
         "headshot": null,
         "team": "SMB",
         "teamId": "san-miguel-beermen",
@@ -14164,6 +14919,7 @@
       },
       {
         "name": "Brandon Rosser",
+        "playerId": "rg-90009",
         "headshot": null,
         "team": "TNT",
         "teamId": "tnt-tropang-5g",
@@ -14172,6 +14928,7 @@
       },
       {
         "name": "Japeth Aguilar",
+        "playerId": "rg-20399",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14180,6 +14937,7 @@
       },
       {
         "name": "Brandon Bates",
+        "playerId": "rg-224228",
         "headshot": null,
         "team": "MER",
         "teamId": "meralco-bolts",
@@ -14188,6 +14946,7 @@
       },
       {
         "name": "Justin Brownlee",
+        "playerId": "rg-6470",
         "headshot": null,
         "team": "BGK",
         "teamId": "barangay-ginebra-san-miguel",
@@ -14196,6 +14955,7 @@
       },
       {
         "name": "James Una",
+        "playerId": "rg-256448",
         "headshot": null,
         "team": "BLAC",
         "teamId": "blackwater-bossing",
@@ -14204,6 +14964,7 @@
       },
       {
         "name": "Aris Dionisio",
+        "playerId": "rg-172363",
         "headshot": null,
         "team": "TUG",
         "teamId": "titan-ultra-giant-risers",
@@ -14212,6 +14973,7 @@
       },
       {
         "name": "Raymond Almazan",
+        "playerId": "rg-62642",
         "headshot": null,
         "team": "MER",
         "teamId": "meralco-bolts",
@@ -14220,6 +14982,7 @@
       },
       {
         "name": "Clifford Hodge",
+        "playerId": "rg-43462",
         "headshot": null,
         "team": "MER",
         "teamId": "meralco-bolts",

@@ -174,18 +174,44 @@ function properName(raw) {
   return [cap(first), cap(surname)].filter(Boolean).join(' ')
 }
 
+/**
+ * Everyone registered with any club this season, fetched once and shared.
+ *
+ * The per-club endpoint (`/clubs/<code>/people`) returns an empty list for
+ * every club and season, and a `clubCode` query parameter is ignored — so
+ * EuroLeague team pages showed no roster at all until this was found. The
+ * season-level list is complete; it is filtered by club below. It pages at
+ * 1,000 rows, so every page is read.
+ */
+async function seasonPeople(season) {
+  const first = await get(`${FEED}/${season}/people?limit=1000`, 60 * 60_000)
+  const rows = [...(first.data || [])]
+  const pages = first.metadata?.totalPages || 1
+  for (let page = 2; page <= pages; page++) {
+    const more = await get(
+      `${FEED}/${season}/people?limit=1000&offset=${(page - 1) * 1000}`,
+      60 * 60_000
+    ).catch(() => null)
+    rows.push(...(more?.data || []))
+  }
+  return rows
+}
+
 export async function fetchRoster(league, teamCode) {
   const season = await currentSeasonCode()
   const [people, clubs] = await Promise.all([
-    get(`${FEED}/${season}/clubs/${teamCode}/people?limit=100`, 60 * 60_000).catch(() => null),
+    seasonPeople(season).catch(() => []),
     fetchTeams(league),
   ])
   const club = clubs.find((c) => c.id === teamCode)
   if (!club) return null
 
-  const entries = people?.data || []
-  const players = entries
-    .filter((e) => e.type === 'J' || e.positionName)
+  const entries = people.filter((e) => e.club?.code === teamCode)
+  const signed = entries.filter((e) => e.type === 'J')
+  // `active` separates the current squad from players who have left. If a
+  // club has none flagged yet (early off-season), show everyone registered.
+  const current = signed.some((e) => e.active) ? signed.filter((e) => e.active) : signed
+  const players = current
     .map((e) => {
       const p = e.person || {}
       const birth = p.birthDate ? new Date(p.birthDate) : null
