@@ -1,6 +1,6 @@
 {
   "league": "FIBA",
-  "fetchedAt": "2026-09-11T01:04:17.255Z",
+  "fetchedAt": "2026-09-11T01:30:59.310Z",
   "sources": [
     {
       "name": "ESPN box scores",
@@ -8,7 +8,8 @@
     }
   ],
   "notes": [
-    "FIBA leaders from 32 box scores, 191 players."
+    "leaders: https://site.api.espn.com/apis/site/v2/sports/basketball/fiba/scoreboard?dates=20260713-20260912&limit=300 — HTTP 403",
+    "Kept the previous run's leaders, playerStats — the source returned nothing this time."
   ],
   "news": [],
   "leaders": {
@@ -473,7 +474,7 @@
       }
     ]
   },
-  "leadersLabel": "FIBA World Cup tournament averages",
+  "leadersLabel": "",
   "playerStats": [
     {
       "id": "4420318",
@@ -2958,5 +2959,14 @@
       "steals": 1,
       "blocks": 0
     }
+  ],
+  "sectionsUpdatedAt": {
+    "news": "2026-09-11T01:30:59.310Z",
+    "leaders": "2026-09-11T01:04:17.255Z",
+    "playerStats": "2026-09-11T01:04:17.255Z"
+  },
+  "carriedOver": [
+    "leaders",
+    "playerStats"
   ]
 }

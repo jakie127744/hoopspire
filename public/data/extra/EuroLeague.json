@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-09-11T01:04:05.996Z",
+  "fetchedAt": "2026-09-11T01:30:52.195Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -15,7 +15,11 @@
       "url": "https://basketball.realgm.com/international"
     }
   ],
-  "notes": [],
+  "notes": [
+    "EuroLeague 2026: RealGM returned a bot-check page; skipped",
+    "EuroLeague 2025: RealGM returned a bot-check page; skipped",
+    "Kept the previous run's leaders, playerStats — the source returned nothing this time."
+  ],
   "news": [
     {
       "id": "EuroLeague-barcelonatriumphsoverandorrahifiwinsitfo",
@@ -10581,5 +10585,14 @@
       "realgmUrl": "https://basketball.realgm.com/player/Ognjen-Radosic/Summary/180088",
       "id": "rg-180088"
     }
+  ],
+  "sectionsUpdatedAt": {
+    "news": "2026-09-11T01:30:52.195Z",
+    "leaders": "2026-09-11T01:04:05.996Z",
+    "playerStats": "2026-09-11T01:04:05.996Z"
+  },
+  "carriedOver": [
+    "leaders",
+    "playerStats"
   ]
 }

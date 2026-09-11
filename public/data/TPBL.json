@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-09-11T01:03:51.362Z",
+  "fetchedAt": "2026-09-11T01:30:06.461Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -8100,5 +8100,14 @@
         "gamesPlayed": 32
       }
     ]
+  },
+  "sectionsUpdatedAt": {
+    "teams": "2026-09-11T01:30:06.461Z",
+    "rosters": "2026-09-11T01:30:06.461Z",
+    "playerStats": "2026-09-11T01:30:06.461Z",
+    "standings": "2026-09-11T01:30:06.461Z",
+    "games": "2026-09-11T01:30:06.461Z",
+    "news": "2026-09-11T01:30:06.461Z",
+    "leaders": "2026-09-11T01:30:06.461Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-11T01:01:42.107Z",
+  "fetchedAt": "2026-09-11T01:28:14.819Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -22,9 +22,10 @@
   ],
   "notes": [
     "fixture unmatched: \"Sunrock.\" vs \"Chiba J.\"",
-    "19 B.League players could not be matched to a club",
-    "Leaders require at least 26 games played.",
-    "1 standings rows matched no club unambiguously"
+    "BLeague 2026: RealGM returned a bot-check page; skipped",
+    "BLeague 2025: RealGM returned a bot-check page; skipped",
+    "BLeague: bot-check page; skipped",
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -18602,5 +18603,21 @@
         "gamesPlayed": 55
       }
     ]
-  }
+  },
+  "sectionsUpdatedAt": {
+    "teams": "2026-09-11T01:01:42.107Z",
+    "rosters": "2026-09-11T01:01:42.107Z",
+    "playerStats": "2026-09-11T01:01:42.107Z",
+    "leaders": "2026-09-11T01:01:42.107Z",
+    "standings": "2026-09-11T01:01:42.107Z",
+    "games": "2026-09-11T01:28:14.819Z",
+    "news": "2026-09-11T01:28:14.819Z"
+  },
+  "carriedOver": [
+    "teams",
+    "rosters",
+    "playerStats",
+    "leaders",
+    "standings"
+  ]
 }

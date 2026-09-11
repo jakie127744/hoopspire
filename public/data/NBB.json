@@ -1,7 +1,7 @@
 {
   "league": "NBB",
-  "season": "2025-2026",
-  "fetchedAt": "2026-09-11T01:04:01.361Z",
+  "season": "2026",
+  "fetchedAt": "2026-09-11T01:30:44.174Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -17,7 +17,10 @@
     }
   ],
   "notes": [
-    "Leaders require at least 22 games played."
+    "NBB: bot-check page; skipped",
+    "NBB 2026: RealGM returned a bot-check page; skipped",
+    "NBB 2025: RealGM returned a bot-check page; skipped",
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -13598,17 +13601,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 85,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 76,
@@ -13627,8 +13630,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 94,
@@ -13636,9 +13639,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 92,
         "linescores": [],
@@ -13656,8 +13659,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 75,
@@ -13665,9 +13668,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 78,
         "linescores": [],
@@ -13685,17 +13688,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 82,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 73,
@@ -13714,18 +13717,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 68,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 66,
         "linescores": [],
@@ -13743,8 +13746,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 88,
@@ -13752,8 +13755,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 76,
@@ -13772,18 +13775,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 69,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 71,
         "linescores": [],
@@ -13801,8 +13804,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 81,
@@ -13810,8 +13813,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 82,
@@ -13830,18 +13833,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 74,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 91,
         "linescores": [],
@@ -13859,18 +13862,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 67,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 50,
         "linescores": [],
@@ -13888,8 +13891,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 98,
@@ -13897,8 +13900,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 84,
@@ -13917,18 +13920,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 76,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 67,
         "linescores": [],
@@ -13946,8 +13949,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 95,
@@ -13955,8 +13958,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 65,
@@ -13975,17 +13978,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 78,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 77,
@@ -14004,16 +14007,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 72,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14033,17 +14036,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 90,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 102,
@@ -14062,16 +14065,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 88,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14091,7 +14094,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -14100,8 +14103,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 92,
@@ -14120,8 +14123,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 70,
@@ -14129,9 +14132,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 88,
         "linescores": [],
@@ -14149,7 +14152,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14158,9 +14161,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 98,
         "linescores": [],
@@ -14178,8 +14181,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 103,
@@ -14187,7 +14190,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -14207,8 +14210,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 74,
@@ -14216,8 +14219,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 84,
@@ -14236,7 +14239,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14245,9 +14248,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 66,
         "linescores": [],
@@ -14265,8 +14268,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 65,
@@ -14274,9 +14277,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 97,
         "linescores": [],
@@ -14294,8 +14297,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 68,
@@ -14303,8 +14306,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 76,
@@ -14323,8 +14326,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 91,
@@ -14332,7 +14335,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -14352,17 +14355,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 93,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 95,
@@ -14381,16 +14384,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 85,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14410,7 +14413,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -14419,8 +14422,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 100,
@@ -14439,8 +14442,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 101,
@@ -14448,8 +14451,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 92,
@@ -14468,17 +14471,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 71,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-1711",
-        "name": "Caxias Do Sul Basquetetriches",
+        "id": "caxias-do",
+        "name": "Caxias do",
         "abbr": "CAX",
         "logo": null,
         "score": 70,
@@ -14497,7 +14500,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14506,9 +14509,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-283",
-        "name": "Uniao Corinthians",
-        "abbr": "UNI",
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
         "logo": null,
         "score": 77,
         "linescores": [],
@@ -14526,8 +14529,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 81,
@@ -14535,8 +14538,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2136",
-        "name": "Unifacisa Paraiba",
+        "id": "unifacisa",
+        "name": "UniFacisa",
         "abbr": "UNI",
         "logo": null,
         "score": 71,
@@ -14555,7 +14558,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -14564,7 +14567,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -14584,8 +14587,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 71,
@@ -14593,7 +14596,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-69",
+        "id": "bauru",
         "name": "Bauru",
         "abbr": "BAU",
         "logo": null,
@@ -14613,8 +14616,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 81,
@@ -14622,8 +14625,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-92",
-        "name": "Sao Jose Unimed Vinac",
+        "id": "sao-jose",
+        "name": "Sao Jose",
         "abbr": "SAO",
         "logo": null,
         "score": 70,
@@ -14642,8 +14645,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1711",
-        "name": "Caxias Do Sul Basquetetriches",
+        "id": "caxias-do",
+        "name": "Caxias do",
         "abbr": "CAX",
         "logo": null,
         "score": 66,
@@ -14651,9 +14654,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 63,
         "linescores": [],
@@ -14671,16 +14674,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-283",
-        "name": "Uniao Corinthians",
-        "abbr": "UNI",
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
         "logo": null,
         "score": 77,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14700,8 +14703,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1884",
-        "name": "Botafogo F.R.",
+        "id": "botafogo",
+        "name": "Botafogo",
         "abbr": "BOT",
         "logo": null,
         "score": 78,
@@ -14709,9 +14712,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 82,
         "linescores": [],
@@ -14729,8 +14732,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2136",
-        "name": "Unifacisa Paraiba",
+        "id": "unifacisa",
+        "name": "UniFacisa",
         "abbr": "UNI",
         "logo": null,
         "score": 73,
@@ -14738,8 +14741,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 76,
@@ -14758,7 +14761,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -14767,7 +14770,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -14787,8 +14790,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-562",
-        "name": "Rio Claro Basquete",
+        "id": "rio-claro",
+        "name": "Rio Claro",
         "abbr": "RIO",
         "logo": null,
         "score": 88,
@@ -14796,8 +14799,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 94,
@@ -14816,7 +14819,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-69",
+        "id": "bauru",
         "name": "Bauru",
         "abbr": "BAU",
         "logo": null,
@@ -14825,8 +14828,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 75,
@@ -14845,8 +14848,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1711",
-        "name": "Caxias Do Sul Basquetetriches",
+        "id": "caxias-do",
+        "name": "Caxias do",
         "abbr": "CAX",
         "logo": null,
         "score": 70,
@@ -14854,9 +14857,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 78,
         "linescores": [],
@@ -14874,8 +14877,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 79,
@@ -14883,8 +14886,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-92",
-        "name": "Sao Jose Unimed Vinac",
+        "id": "sao-jose",
+        "name": "Sao Jose",
         "abbr": "SAO",
         "logo": null,
         "score": 75,
@@ -14903,16 +14906,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-283",
-        "name": "Uniao Corinthians",
-        "abbr": "UNI",
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
         "logo": null,
         "score": 84,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -14932,8 +14935,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1884",
-        "name": "Botafogo F.R.",
+        "id": "botafogo",
+        "name": "Botafogo",
         "abbr": "BOT",
         "logo": null,
         "score": 79,
@@ -14941,9 +14944,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 89,
         "linescores": [],
@@ -14961,8 +14964,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2136",
-        "name": "Unifacisa Paraiba",
+        "id": "unifacisa",
+        "name": "UniFacisa",
         "abbr": "UNI",
         "logo": null,
         "score": 79,
@@ -14970,8 +14973,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 69,
@@ -14990,7 +14993,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-69",
+        "id": "bauru",
         "name": "Bauru",
         "abbr": "BAU",
         "logo": null,
@@ -14999,8 +15002,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 95,
@@ -15019,7 +15022,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -15028,7 +15031,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -15048,8 +15051,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-562",
-        "name": "Rio Claro Basquete",
+        "id": "rio-claro",
+        "name": "Rio Claro",
         "abbr": "RIO",
         "logo": null,
         "score": 79,
@@ -15057,8 +15060,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 88,
@@ -15077,7 +15080,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -15086,9 +15089,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-283",
-        "name": "Uniao Corinthians",
-        "abbr": "UNI",
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
         "logo": null,
         "score": 72,
         "linescores": [],
@@ -15106,17 +15109,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 94,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-1884",
-        "name": "Botafogo F.R.",
+        "id": "botafogo",
+        "name": "Botafogo",
         "abbr": "BOT",
         "logo": null,
         "score": 68,
@@ -15135,8 +15138,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-92",
-        "name": "Sao Jose Unimed Vinac",
+        "id": "sao-jose",
+        "name": "Sao Jose",
         "abbr": "SAO",
         "logo": null,
         "score": 70,
@@ -15144,8 +15147,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 75,
@@ -15164,17 +15167,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 73,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-1711",
-        "name": "Caxias Do Sul Basquetetriches",
+        "id": "caxias-do",
+        "name": "Caxias do",
         "abbr": "CAX",
         "logo": null,
         "score": 64,
@@ -15193,8 +15196,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 88,
@@ -15202,8 +15205,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2136",
-        "name": "Unifacisa Paraiba",
+        "id": "unifacisa",
+        "name": "UniFacisa",
         "abbr": "UNI",
         "logo": null,
         "score": 78,
@@ -15222,8 +15225,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 95,
@@ -15231,8 +15234,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-562",
-        "name": "Rio Claro Basquete",
+        "id": "rio-claro",
+        "name": "Rio Claro",
         "abbr": "RIO",
         "logo": null,
         "score": 80,
@@ -15251,7 +15254,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -15260,7 +15263,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -15280,8 +15283,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 80,
@@ -15289,7 +15292,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-69",
+        "id": "bauru",
         "name": "Bauru",
         "abbr": "BAU",
         "logo": null,
@@ -15309,16 +15312,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 94,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-69",
+        "id": "bauru",
         "name": "Bauru",
         "abbr": "BAU",
         "logo": null,
@@ -15338,8 +15341,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-77",
-        "name": "Vasco da Gama",
+        "id": "vasco",
+        "name": "Vasco",
         "abbr": "VAS",
         "logo": null,
         "score": 104,
@@ -15347,8 +15350,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-1884",
-        "name": "Botafogo F.R.",
+        "id": "botafogo",
+        "name": "Botafogo",
         "abbr": "BOT",
         "logo": null,
         "score": 86,
@@ -15367,8 +15370,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 92,
@@ -15376,8 +15379,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2135",
-        "name": "Pato Basquete",
+        "id": "pato",
+        "name": "Pato",
         "abbr": "PAT",
         "logo": null,
         "score": 71,
@@ -15396,8 +15399,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1711",
-        "name": "Caxias Do Sul Basquetetriches",
+        "id": "caxias-do",
+        "name": "Caxias do",
         "abbr": "CAX",
         "logo": null,
         "score": 79,
@@ -15405,8 +15408,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 92,
@@ -15425,17 +15428,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-283",
-        "name": "Uniao Corinthians",
-        "abbr": "UNI",
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
         "logo": null,
         "score": 97,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-92",
-        "name": "Sao Jose Unimed Vinac",
+        "id": "sao-jose",
+        "name": "Sao Jose",
         "abbr": "SAO",
         "logo": null,
         "score": 88,
@@ -15454,8 +15457,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 73,
@@ -15463,8 +15466,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2204",
-        "name": "Osasco Basquete",
+        "id": "osasco",
+        "name": "Osasco",
         "abbr": "OSA",
         "logo": null,
         "score": 76,
@@ -15483,7 +15486,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -15492,9 +15495,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-1289",
-        "name": "Basquete Cearense",
-        "abbr": "BAS",
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
         "logo": null,
         "score": 77,
         "linescores": [],
@@ -15512,8 +15515,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-211",
-        "name": "Pinheiros Sky",
+        "id": "pinheiros",
+        "name": "Pinheiros",
         "abbr": "PIN",
         "logo": null,
         "score": 88,
@@ -15521,8 +15524,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2135",
-        "name": "Pato Basquete",
+        "id": "pato",
+        "name": "Pato",
         "abbr": "PAT",
         "logo": null,
         "score": 55,
@@ -15541,8 +15544,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-562",
-        "name": "Rio Claro Basquete",
+        "id": "rio-claro",
+        "name": "Rio Claro",
         "abbr": "RIO",
         "logo": null,
         "score": 95,
@@ -15550,7 +15553,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-69",
+        "id": "bauru",
         "name": "Bauru",
         "abbr": "BAU",
         "logo": null,
@@ -15570,17 +15573,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-283",
-        "name": "Uniao Corinthians",
-        "abbr": "UNI",
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
         "logo": null,
         "score": 86,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-2027",
-        "name": "Corinthians",
+        "id": "corinthi-",
+        "name": "Corinthi.",
         "abbr": "COR",
         "logo": null,
         "score": 92,
@@ -15599,8 +15602,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1711",
-        "name": "Caxias Do Sul Basquetetriches",
+        "id": "caxias-do",
+        "name": "Caxias do",
         "abbr": "CAX",
         "logo": null,
         "score": 65,
@@ -15608,8 +15611,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-92",
-        "name": "Sao Jose Unimed Vinac",
+        "id": "sao-jose",
+        "name": "Sao Jose",
         "abbr": "SAO",
         "logo": null,
         "score": 68,
@@ -15628,8 +15631,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1288",
-        "name": "Mogi das Cruzes",
+        "id": "mogi",
+        "name": "Mogi",
         "abbr": "MOG",
         "logo": null,
         "score": 84,
@@ -15637,8 +15640,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-554",
-        "name": "Paulistano",
+        "id": "paulist-",
+        "name": "Paulist.",
         "abbr": "PAU",
         "logo": null,
         "score": 70,
@@ -15657,7 +15660,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -15666,9 +15669,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-1289",
-        "name": "Basquete Cearense",
-        "abbr": "BAS",
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
         "logo": null,
         "score": 56,
         "linescores": [],
@@ -15686,7 +15689,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -15695,8 +15698,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2136",
-        "name": "Unifacisa Paraiba",
+        "id": "unifacisa",
+        "name": "UniFacisa",
         "abbr": "UNI",
         "logo": null,
         "score": 101,
@@ -15715,18 +15718,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-941",
-        "name": "Uniceub-BRB-Brasilia",
-        "abbr": "UNI",
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
         "logo": null,
         "score": 78,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 83,
         "linescores": [],
@@ -15744,7 +15747,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -15753,8 +15756,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-77",
-        "name": "Vasco da Gama",
+        "id": "vasco",
+        "name": "Vasco",
         "abbr": "VAS",
         "logo": null,
         "score": 75,
@@ -15773,8 +15776,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-562",
-        "name": "Rio Claro Basquete",
+        "id": "rio-claro",
+        "name": "Rio Claro",
         "abbr": "RIO",
         "logo": null,
         "score": 82,
@@ -15782,9 +15785,9 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-282",
-        "name": "Franca",
-        "abbr": "FRA",
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
         "logo": null,
         "score": 92,
         "linescores": [],
@@ -15802,7 +15805,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-209",
+        "id": "minas",
         "name": "Minas",
         "abbr": "MIN",
         "logo": null,
@@ -15811,8 +15814,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2136",
-        "name": "Unifacisa Paraiba",
+        "id": "unifacisa",
+        "name": "UniFacisa",
         "abbr": "UNI",
         "logo": null,
         "score": 80,
@@ -15831,8 +15834,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-77",
-        "name": "Vasco da Gama",
+        "id": "vasco",
+        "name": "Vasco",
         "abbr": "VAS",
         "logo": null,
         "score": 72,
@@ -15840,7 +15843,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2784",
+        "id": "cruzeiro",
         "name": "Cruzeiro",
         "abbr": "CRU",
         "logo": null,
@@ -15860,8 +15863,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-2204",
-        "name": "Osasco Basquete",
+        "id": "osasco",
+        "name": "Osasco",
         "abbr": "OSA",
         "logo": null,
         "score": 77,
@@ -15869,8 +15872,8 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-2135",
-        "name": "Pato Basquete",
+        "id": "pato",
+        "name": "Pato",
         "abbr": "PAT",
         "logo": null,
         "score": 68,
@@ -15889,8 +15892,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "rg-1884",
-        "name": "Botafogo F.R.",
+        "id": "botafogo",
+        "name": "Botafogo",
         "abbr": "BOT",
         "logo": null,
         "score": 89,
@@ -15898,7 +15901,7 @@
         "leaders": []
       },
       "away": {
-        "id": "rg-408",
+        "id": "flamengo",
         "name": "Flamengo",
         "abbr": "FLA",
         "logo": null,
@@ -16566,5 +16569,21 @@
         "gamesPlayed": 35
       }
     ]
-  }
+  },
+  "sectionsUpdatedAt": {
+    "teams": "2026-09-11T01:04:01.361Z",
+    "rosters": "2026-09-11T01:04:01.361Z",
+    "playerStats": "2026-09-11T01:04:01.361Z",
+    "leaders": "2026-09-11T01:04:01.361Z",
+    "standings": "2026-09-11T01:04:01.361Z",
+    "games": "2026-09-11T01:30:44.174Z",
+    "news": "2026-09-11T01:30:44.174Z"
+  },
+  "carriedOver": [
+    "teams",
+    "rosters",
+    "playerStats",
+    "leaders",
+    "standings"
+  ]
 }

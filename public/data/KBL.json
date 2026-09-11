@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-11T01:02:09.580Z",
+  "fetchedAt": "2026-09-11T01:28:40.393Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -24,7 +24,10 @@
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 500",
     "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260812&toDate=20261011&tcodeList=all — HTTP 500",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
-    "Leaders require at least 26 games played."
+    "KBL: bot-check page; skipped",
+    "KBL 2026: RealGM returned a bot-check page; skipped",
+    "KBL 2025: RealGM returned a bot-check page; skipped",
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -8922,5 +8925,21 @@
         "gamesPlayed": 40
       }
     ]
-  }
+  },
+  "sectionsUpdatedAt": {
+    "teams": "2026-09-11T01:02:09.580Z",
+    "rosters": "2026-09-11T01:02:09.580Z",
+    "playerStats": "2026-09-11T01:02:09.580Z",
+    "leaders": "2026-09-11T01:02:09.580Z",
+    "standings": "2026-09-11T01:02:09.580Z",
+    "games": "2026-09-11T01:28:40.393Z",
+    "news": "2026-09-11T01:28:40.393Z"
+  },
+  "carriedOver": [
+    "teams",
+    "rosters",
+    "playerStats",
+    "leaders",
+    "standings"
+  ]
 }

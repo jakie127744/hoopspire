@@ -1,13 +1,17 @@
 {
   "league": "NBL",
-  "fetchedAt": "2026-09-11T01:04:08.847Z",
+  "fetchedAt": "2026-09-11T01:30:57.281Z",
   "sources": [
     {
       "name": "RealGM",
       "url": "https://basketball.realgm.com/international"
     }
   ],
-  "notes": [],
+  "notes": [
+    "NBL 2026: RealGM returned a bot-check page; skipped",
+    "NBL 2025: RealGM returned a bot-check page; skipped",
+    "Kept the previous run's leaders, playerStats — the source returned nothing this time."
+  ],
   "news": [],
   "leaders": {
     "avgPoints": [
@@ -5257,5 +5261,14 @@
       "realgmUrl": "https://basketball.realgm.com/player/Nic-Tata/Summary/166690",
       "id": "rg-166690"
     }
+  ],
+  "sectionsUpdatedAt": {
+    "news": "2026-09-11T01:30:57.281Z",
+    "leaders": "2026-09-11T01:04:08.847Z",
+    "playerStats": "2026-09-11T01:04:08.847Z"
+  },
+  "carriedOver": [
+    "leaders",
+    "playerStats"
   ]
 }

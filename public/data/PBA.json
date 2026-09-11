@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-11T01:03:40.144Z",
+  "fetchedAt": "2026-09-11T01:29:42.181Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,9 +30,11 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Rain or Shine Elasto Painters: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Rain%20or%20Shine%20Elasto%20Painters — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
-    "PBA leaders combine all 3 conferences, weighting each average by games played."
+    "PBA_PH: bot-check page; skipped",
+    "PBA_COMM: bot-check page; skipped",
+    "PBA_GOV: bot-check page; skipped",
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -14990,5 +14992,21 @@
         "gamesPlayed": 46
       }
     ]
-  }
+  },
+  "sectionsUpdatedAt": {
+    "teams": "2026-09-11T01:03:40.144Z",
+    "rosters": "2026-09-11T01:03:40.144Z",
+    "playerStats": "2026-09-11T01:03:40.144Z",
+    "leaders": "2026-09-11T01:03:40.144Z",
+    "standings": "2026-09-11T01:03:40.144Z",
+    "games": "2026-09-11T01:29:42.181Z",
+    "news": "2026-09-11T01:29:42.181Z"
+  },
+  "carriedOver": [
+    "teams",
+    "rosters",
+    "playerStats",
+    "leaders",
+    "standings"
+  ]
 }
