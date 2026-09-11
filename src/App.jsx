@@ -15,6 +15,7 @@ import Privacy from './pages/Privacy.jsx'
 import Terms from './pages/Terms.jsx'
 import Contact from './pages/Contact.jsx'
 import ConsentBanner from './components/ConsentBanner.jsx'
+import PwaStatus from './components/PwaStatus.jsx'
 import Margin from './pages/Margin.jsx'
 import Story from './pages/Story.jsx'
 
@@ -42,6 +43,7 @@ export default function App() {
   return (
     <div className="flex min-h-screen flex-col">
       <ScrollToTop />
+      <PwaStatus />
       <Header />
       <Ticker />
       <main className="flex-1">

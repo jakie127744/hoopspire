@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Hoopspire mark: a crimson ball with cream seams on ink.
+       The ball sits inside the central 80% so the same art survives being
+       cropped to a circle or squircle as a maskable Android icon. Seams are
+       clipped to the ball so no stroke end pokes past the gold rim. -->
+  <defs>
+    <clipPath id="ball">
+      <circle cx="256" cy="256" r="155"/>
+    </clipPath>
+  </defs>
+  <rect width="512" height="512" fill="#1A1A1A"/>
+  <circle cx="256" cy="256" r="158" fill="#8A0000"/>
+  <g clip-path="url(#ball)" fill="none" stroke="#F3EFE7" stroke-width="13">
+    <line x1="256" y1="80" x2="256" y2="432"/>
+    <line x1="80" y1="256" x2="432" y2="256"/>
+    <path d="M140 120 C 214 190, 214 322, 140 392"/>
+    <path d="M372 120 C 298 190, 298 322, 372 392"/>
+  </g>
+  <circle cx="256" cy="256" r="158" fill="none" stroke="#C89E56" stroke-width="7"/>
+</svg>

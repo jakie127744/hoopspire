@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { LEAGUES } from '../lib/leagues.js'
 import { CookieSettingsLink } from './ConsentBanner.jsx'
 import NewsletterSignup from './NewsletterSignup.jsx'
+import InstallButton from './InstallButton.jsx'
 
 export default function Footer() {
   return (
@@ -24,6 +25,7 @@ export default function Footer() {
             Heritage of the Hardwood. A global ledger for the game's greatest leagues — every box
             score a blueprint, every headline history.
           </p>
+          <InstallButton tone="light" className="mt-6" />
         </div>
 
         <div>

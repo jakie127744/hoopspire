@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { leaguesByGroup } from '../lib/leagues.js'
+import InstallButton from './InstallButton.jsx'
 
 const SECTIONS = [
   { to: '/margin', label: 'The Margin' },
@@ -143,6 +144,8 @@ export default function Header() {
               The Ledger
             </NavLink>
           </div>
+
+          <InstallButton className="mt-5" />
 
           {leaguesByGroup().map(({ group, leagues }) => (
             <div key={group} className="mt-5">

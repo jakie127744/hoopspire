@@ -240,6 +240,38 @@ each league's own published English club names. B.League roster entries written
 in katakana are romanized; Japanese players' kanji names keep their original
 form, because romanizing kanji without a name dictionary would be guessing.
 
+## Installable app
+
+Hoopspire is a PWA: it installs to a phone's home screen and opens
+full-screen, with its own icon, splash colour and long-press shortcuts to
+Scores, Stats and The Margin.
+
+- **Android / desktop Chrome & Edge** — an *Install the app* button appears in
+  the footer and the mobile menu (it uses the browser's own install prompt).
+- **iPhone / iPad** — Safari has no install API, so the same spot shows the
+  two-step *Share → Add to Home Screen* instruction instead of a button that
+  could never work.
+
+Installability requires HTTPS, which every static host provides.
+
+### What is cached — and what deliberately is not
+
+| Resource | Strategy | Why |
+|---|---|---|
+| Live scores (ESPN, EuroLeague) | **never cached** | A cached score looks exactly like a fresh one |
+| Snapshots (`/data/*.json`) | stale-while-revalidate | Each carries its own capture date |
+| App shell, fonts, crests, headshots | cached | None of them change what a reader is told |
+
+Offline, a banner says so plainly rather than letting a silent scoreboard look
+merely quiet. New versions wait for the reader to press *Reload* instead of
+refreshing the page mid-article.
+
+Icons are generated from `public/icon.svg`:
+
+```bash
+npx pwa-assets-generator
+```
+
 ## Every league has something
 
 An in-app audit (importing the app's own data layer in the browser, so it
