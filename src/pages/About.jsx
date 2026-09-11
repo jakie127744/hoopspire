@@ -1,4 +1,4 @@
-import { LEAGUES } from '../lib/leagues.js'
+import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import { SectionHead, Eyebrow } from '../components/Primitives.jsx'
 
 const SOURCES = {
@@ -15,7 +15,7 @@ export default function About() {
       <Eyebrow className="text-crimson">The Ledger</Eyebrow>
       <h1 className="mt-3 text-6xl md:text-7xl">The Ledger</h1>
       <p className="mt-6 text-lg leading-relaxed text-ink/70">
-        Hoopspire is a global basketball ledger — five leagues, one accounting. Every score,
+        Hoopspire is a global basketball ledger — {LEAGUE_COUNT_WORD.toLowerCase()} leagues, one accounting. Every score,
         standing, roster and headline on this site is fetched from the competitions themselves or
         their wire services. Nothing here is invented, and nothing is filler.
       </p>

@@ -56,8 +56,9 @@ export async function getStandingsGrouped(leagueKey) {
   const empty = { seasonLabel: '', conferences: [], divisions: [] }
   if (!league) return empty
   const a = adapterFor(league)
-  if (!a?.fetchStandingsGrouped) return empty
   try {
+    if (!a) return await snap.snapshotStandingsGrouped(league)
+    if (!a.fetchStandingsGrouped) return empty
     return await a.fetchStandingsGrouped(league)
   } catch {
     return empty
@@ -84,6 +85,12 @@ export async function getNews(leagueKey, limit = 12) {
       : await snap.snapshotNews(league)
   } catch {
     wire = []
+  }
+
+  // Live feed empty (EuroLeague publishes no wire copy): use the supplement.
+  if (!wire.length && league.source !== 'snapshot') {
+    const extra = await snap.loadExtra(league.key)
+    wire = (extra?.news || []).map((a) => ({ ...a, league: league.key }))
   }
 
   return [...originals, ...wire].slice(0, limit)
@@ -166,6 +173,13 @@ export async function getLeaders(leagueKey) {
   if (a?.fetchLeaders) {
     const official = await a.fetchLeaders(league).catch(() => null)
     if (official) return { source: 'season', categories: official }
+
+    // No leaders feed for this league: use season averages from the
+    // supplement before falling back to single-game box-score leaders.
+    const extra = await snap.loadExtra(league.key)
+    if (extra?.leaders && Object.keys(extra.leaders).length) {
+      return { source: 'season', label: extra.leadersLabel || null, categories: extra.leaders }
+    }
   } else {
     const s = await snap.loadSnapshot(league)
     if (s?.leaders && Object.keys(s.leaders).length) {

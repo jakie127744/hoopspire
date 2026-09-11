@@ -61,10 +61,15 @@ async function curlGet(url) {
 // RealGM
 // ───────────────────────────────────────────────────────────────────────────
 
+/** RealGM league ids, read from its international index — not guessed. */
 export const REALGM_LEAGUES = {
   CBA: { id: 40, slug: 'Chinese-CBA' },
   KBL: { id: 63, slug: 'South-Korean-KBL' },
   BLeague: { id: 105, slug: 'Japanese-BLeague' },
+  PBA: { id: 60, slug: 'Filipino-PBA' },
+  NBB: { id: 59, slug: 'Brazilian-NBB' },
+  NBL: { id: 5, slug: 'Australian-NBL' },
+  EuroLeague: { id: 1, slug: 'Euroleague' },
 }
 
 /**
@@ -180,6 +185,113 @@ export async function realgmPlayerStats(leagueKey, { season } = {}) {
   }
 
   return { season: null, players: [], notes }
+}
+
+/**
+ * League standings from RealGM.
+ *
+ * The standings page defaults to the *current* season, which in the
+ * off-season has not started and renders no table. Each season lives at its
+ * own URL with an internal id (`/standings/1390/2026` for the 2025-26 CBA),
+ * and those ids differ per league — so they are read from the page's own
+ * season selector rather than constructed, then tried newest-first until one
+ * actually has rows.
+ */
+export async function realgmStandings(leagueKey) {
+  const cfg = REALGM_LEAGUES[leagueKey]
+  if (!cfg) throw new Error(`no RealGM mapping for ${leagueKey}`)
+  const notes = []
+  const base = `https://basketball.realgm.com/international/league/${cfg.id}/${cfg.slug}/standings`
+
+  const index = await curlGet(base)
+  await sleep(REALGM_DELAY_MS)
+  if (/Just a moment|cf-browser-verification|challenge-platform/i.test(index)) {
+    return { seasonLabel: '', rows: [], notes: [`${leagueKey}: bot-check page; skipped`] }
+  }
+
+  const $i = cheerio.load(index)
+  const seasons = []
+  $i('option').each((_, o) => {
+    const v = $i(o).attr('value') || ''
+    // The page also carries a LEAGUE selector whose options match the same
+    // /standings/<id>/<year> shape ("Adriatic League", "Argentinian Liga A").
+    // Only accept options that point at this league.
+    if (!v.includes(`/league/${cfg.id}/`)) return
+    const m = v.match(/\/standings\/(\d+)\/(\d{4})/)
+    if (m) seasons.push({ path: v, year: Number(m[2]), label: clean($i(o).text()) })
+  })
+
+  // RealGM labels a season by the year it ENDS, so end-year 2027 is the
+  // 2026-27 season — not started in September 2026. Skip anything ending
+  // after this year, and refuse anything older than last season: showing a
+  // 2017-18 table as current standings would be worse than showing none.
+  const thisYear = new Date().getFullYear()
+  seasons.sort((a, b) => b.year - a.year)
+  const candidates = seasons.filter((x) => x.year <= thisYear && x.year >= thisYear - 1)
+  if (!candidates.length && seasons.length) {
+    notes.push(
+      `${leagueKey}: newest RealGM standings are ${seasons[0].label}, too old to present as current`
+    )
+  }
+
+  for (const season of candidates) {
+    const url = season.path.startsWith('http')
+      ? season.path
+      : `https://basketball.realgm.com${season.path}`
+    let html
+    try {
+      html = await curlGet(url)
+    } catch (err) {
+      notes.push(`${leagueKey} ${season.label}: ${err.message}`)
+      await sleep(REALGM_DELAY_MS)
+      continue
+    }
+    await sleep(REALGM_DELAY_MS)
+
+    const $ = cheerio.load(html)
+    const table = $('table').first()
+    const headers = table.find('thead th').map((_, th) => clean($(th).text())).get()
+    const at = (name) => headers.indexOf(name)
+
+    const rows = []
+    table.find('tbody tr').each((i, tr) => {
+      const tds = $(tr).find('td')
+      const cell = (name) => clean(tds.eq(at(name)).text())
+      const link = tds.eq(at('Team')).find('a').attr('href') || ''
+      const m = link.match(/\/team\/(\d+)\/([^/]+)/)
+      const name = cell('Team')
+      if (!name) return
+      const wins = num(cell('W')) ?? 0
+      const losses = num(cell('L')) ?? 0
+      const ppg = num(cell('PPG'))
+      const oppg = num(cell('OPPG'))
+      rows.push({
+        team: {
+          id: m ? `rg-${m[1]}` : name.toLowerCase().replace(/\W+/g, '-'),
+          realgmId: m ? m[1] : null,
+          name,
+          abbr: null,
+          logo: null,
+        },
+        wins,
+        losses,
+        pct: cell('PCT') || '—',
+        gamesBehind: cell('GB') || null,
+        lastTen: cell('L10') || null,
+        streak: cell('STRK') || null,
+        // RealGM publishes per-game points, not totals.
+        pointsFor: ppg,
+        pointsAgainst: oppg,
+        diff: cell('DIFF') || null,
+        seed: num(cell('#')) ?? i + 1,
+      })
+    })
+
+    if (rows.length) return { seasonLabel: season.label, rows, notes }
+    notes.push(`${leagueKey} ${season.label}: no standings rows`)
+  }
+
+  return { seasonLabel: '', rows: [], notes }
 }
 
 // ───────────────────────────────────────────────────────────────────────────
@@ -349,4 +461,113 @@ export function buildLeaders(players, { minGamesShare = 0.4 } = {}) {
   }
 
   return { leaders: out, minGames }
+}
+
+// ───────────────────────────────────────────────────────────────────────────
+// TPBL standings and news — also first-party
+// ───────────────────────────────────────────────────────────────────────────
+
+/**
+ * Regular-season standings from the league's own team-stats endpoint.
+ *
+ * `won_game_count` / `lost_game_count` are the league's own figures, and the
+ * team ids are the same ids TPBL_CLUBS is keyed on, so rows line up with the
+ * clubs exactly — no name matching involved.
+ */
+export async function tpblStandings() {
+  const divisions = await tpblJSON('/events/2/divisions')
+  const regular =
+    divisions.find((d) => d.name === '例行賽') || divisions.find((d) => d.status === 'COMPLETED')
+  if (!regular) return { seasonLabel: '', rows: [] }
+
+  const raw = await tpblJSON(`/games/stats/teams?division_id=${regular.id}`)
+  const rows = raw
+    .filter((e) => e.team && (e.won_game_count != null || e.lost_game_count != null))
+    .map((e) => {
+      const wins = e.won_game_count ?? 0
+      const losses = e.lost_game_count ?? 0
+      const played = wins + losses
+      const acc = e.accumulated_stats || {}
+      const pf = acc.won_score ?? null
+      const pa = acc.lost_score ?? null
+      return {
+        team: { id: String(e.team.id), name: null, abbr: null, logo: e.team.meta?.logo || null },
+        wins,
+        losses,
+        pct: played ? (wins / played).toFixed(3).replace(/^0/, '') : '—',
+        pointsFor: played && pf != null ? Number((pf / played).toFixed(1)) : null,
+        pointsAgainst: played && pa != null ? Number((pa / played).toFixed(1)) : null,
+        diff: pf != null && pa != null ? (pf - pa > 0 ? `+${pf - pa}` : String(pf - pa)) : null,
+        streak: null,
+      }
+    })
+    .sort((a, b) => b.wins - a.wins || a.losses - b.losses)
+
+  rows.forEach((r, i) => {
+    r.seed = i + 1
+    const lead = rows[0]
+    const gb = ((lead.wins - r.wins) + (r.losses - lead.losses)) / 2
+    r.gamesBehind = i === 0 ? '—' : String(gb)
+  })
+
+  // No year here: the API does not name its seasons, and a hard-coded year
+  // would go stale exactly like the hard-coded league count did.
+  return { seasonLabel: 'Regular season', rows }
+}
+
+/** The league's own news posts. Titles are Chinese; the caller translates. */
+export async function tpblNews(limit = 12) {
+  const body = await tpblJSON('/teams/1/posts?type=news')
+  const list = body.result || body.data || []
+  return list
+    .filter((p) => p.is_published !== false && p.title)
+    .slice(0, limit)
+    .map((p) => ({
+      id: `TPBL-${p.id}`,
+      title: clean(p.title),
+      published: p.published_at ? new Date(p.published_at.replace(' ', 'T') + '+08:00').toISOString() : null,
+      url: `https://tpbl.basketball/news/${p.slug || p.id}`,
+      image: p.thumbnail || null,
+      category: p.category?.title || null,
+    }))
+}
+
+// ───────────────────────────────────────────────────────────────────────────
+// Combining conference tables (PBA)
+// ───────────────────────────────────────────────────────────────────────────
+
+/**
+ * Merge per-conference averages into whole-season averages.
+ *
+ * RealGM publishes the PBA as three separate conferences. A season average is
+ * not the mean of three averages — a player who played 2 games in one and 11
+ * in another would be weighted equally. Weighting each average by games
+ * played recovers the true per-game figure exactly, since avg × GP = total.
+ */
+export function combineConferenceStats(lists) {
+  const byPlayer = new Map()
+  const AVERAGED = ['points', 'rebounds', 'assists', 'steals', 'blocks', 'turnovers', 'minutes']
+
+  for (const list of lists) {
+    for (const p of list) {
+      const key = `${p.name}|${p.teamRealgmId || p.teamName || ''}`
+      const gp = p.gamesPlayed || 0
+      if (!gp) continue
+      const acc = byPlayer.get(key) || { ...p, gamesPlayed: 0, totals: {} }
+      acc.gamesPlayed += gp
+      for (const f of AVERAGED) {
+        if (typeof p[f] === 'number') acc.totals[f] = (acc.totals[f] || 0) + p[f] * gp
+      }
+      byPlayer.set(key, acc)
+    }
+  }
+
+  return [...byPlayer.values()].map((p) => {
+    const out = { ...p }
+    for (const f of AVERAGED) {
+      if (p.totals[f] != null) out[f] = Number((p.totals[f] / p.gamesPlayed).toFixed(1))
+    }
+    delete out.totals
+    return out
+  })
 }

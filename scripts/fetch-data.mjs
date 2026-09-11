@@ -18,7 +18,17 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import * as cheerio from 'cheerio'
-import { realgmPlayerStats, tpblPlayerStats, buildLeaders } from './player-stats.mjs'
+import {
+  REALGM_LEAGUES,
+  realgmPlayerStats,
+  realgmStandings,
+  tpblPlayerStats,
+  tpblStandings,
+  tpblNews,
+  buildLeaders,
+  combineConferenceStats,
+} from './player-stats.mjs'
+import { translate, saveTranslationCache } from './translate.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, '..', 'public', 'data')
@@ -322,7 +332,7 @@ async function scrapeBLeague() {
     teams,
     rosters,
     playerStats,
-    standings: { seasonLabel: '', rows: [] },
+    standings: await standingsFor('BLeague', teams, notes),
     games: fixtures.games,
     news: news.articles,
     leaders,
@@ -345,14 +355,21 @@ const ASIA_BASKET = {
   BLeague: 'https://www.asia-basket.com/Japan/basketball-League-B-League.aspx',
 }
 
-/** Loose token match: "Alvark To." → "Alvark Tokyo". */
+/**
+ * Loose token match: "Alvark To." → "Alvark Tokyo".
+ *
+ * Refuses to guess. If two clubs score equally well the label is ambiguous and
+ * we return null rather than pick one — "Beijing" fits both Beijing BeiKong and
+ * Beijing Shougang, and "Zhejiang" fits both Zhejiang clubs. Picking the first
+ * one silently merged two teams' rosters into one in an earlier build. An
+ * unmatched label is visible in the notes; a wrong match is invisible.
+ */
 function matchTeam(label, teams) {
   const norm = (x) => (x || '').toLowerCase().replace(/[^a-z0-9 ]/g, ' ').replace(/\s+/g, ' ').trim()
   const target = norm(label)
   if (!target) return null
 
-  let best = null
-  let bestScore = 0
+  const scored = []
   for (const t of teams) {
     const name = norm(t.name)
     let score = 0
@@ -361,12 +378,13 @@ function matchTeam(label, teams) {
       if (name.includes(token)) score += token.length
       else if (name.split(' ').some((w) => w.startsWith(token))) score += token.length - 1
     }
-    if (score > bestScore) {
-      bestScore = score
-      best = t
-    }
+    if (score >= 3) scored.push({ t, score })
   }
-  return bestScore >= 3 ? best : null
+  if (!scored.length) return null
+
+  scored.sort((a, b) => b.score - a.score)
+  if (scored.length > 1 && scored[1].score === scored[0].score) return null
+  return scored[0].t
 }
 
 /** "Oct.4" → an ISO date, rolling to next year when the month has passed. */
@@ -479,10 +497,23 @@ const ASIA_BASKET_LEAGUES = {
   CBA: {
     url: 'https://www.asia-basket.com/China/basketball-League-CBA.aspx',
     site: 'https://www.asia-basket.com/China/basketball.aspx',
+    source: 'asia-basket',
   },
   TPBL: {
     url: 'https://www.asia-basket.com/Taiwan/basketball-League-TPBL.aspx',
     site: 'https://www.asia-basket.com/Taiwan/basketball.aspx',
+    source: 'asia-basket',
+  },
+  // Same network, same table format, covering the Americas.
+  NBB: {
+    url: 'https://www.latinbasket.com/Brazil/basketball-League-NBB.aspx',
+    site: 'https://www.latinbasket.com/Brazil/basketball.aspx',
+    source: 'latinbasket',
+  },
+  PBA: {
+    url: 'https://www.asia-basket.com/Philippines/basketball-League-PBA.aspx',
+    site: 'https://www.asia-basket.com/Philippines/basketball.aspx',
+    source: 'asia-basket',
   },
 }
 
@@ -496,165 +527,368 @@ function monthDay(label) {
 }
 
 const slug = (name) => clean(name).replace(/\W+/g, '-').toLowerCase()
+const SCORE_RE = /^\d{1,3}\s*-\s*\d{1,3}$/
 
 /**
- * Parse an asia-basket league page into clubs, results and fixtures.
+ * Find the results table on a league page.
  *
- * Two row shapes appear: results as [date, home, "H-A", away] and upcoming
- * fixtures as [home, date, away].
+ * On asia-basket's CBA page it is the first table; on latinbasket's NBB page
+ * it is the nineteenth, behind a playoff bracket and a dozen widget tables.
+ * So rather than assume a position, pick the table with the most rows that
+ * look like results or fixtures.
  */
-async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
-  const cfg = ASIA_BASKET_LEAGUES[leagueKey]
-  const notes = []
-  const html = await get(cfg.url, { retries: 3 })
-  const $ = cheerio.load(html)
+function pickResultsTable($) {
+  let best = null
+  let bestCount = 0
+  $('table').each((_, t) => {
+    let count = 0
+    $(t)
+      .find('tr')
+      .each((__, tr) => {
+        const cells = $(tr)
+          .find('td,th')
+          .map((___, c) => clean($(c).text()))
+          .get()
+        const looksLikeRow =
+          cells.length >= 3 &&
+          (cells.some((c) => SCORE_RE.test(c)) || cells.some((c) => c.length < 10 && monthDay(c)))
+        if (looksLikeRow) count++
+      })
+    if (count > bestCount) {
+      bestCount = count
+      best = t
+    }
+  })
+  return best ? $(best).find('tr').toArray() : []
+}
 
-  const rows = $('table').first().find('tr').toArray()
-  if (!rows.length) throw new Error(`no fixture table on ${cfg.url}`)
-
-  const teams = new Map()
+/**
+ * Parse results/fixtures rows. Sides carry the source's own label; mapping
+ * labels onto real clubs happens afterwards, once we know the club list.
+ */
+function parseResultRows($, rows, limit) {
   const games = []
-
   const now = new Date()
   let year = now.getFullYear()
   let prevMonth = now.getMonth()
 
   for (const tr of rows.slice(0, limit)) {
-    const cells = $(tr).find('td,th').map((_, c) => clean($(c).text())).get().filter(Boolean)
+    const cells = $(tr)
+      .find('td,th')
+      .map((_, c) => clean($(c).text()))
+      .get()
+      .filter(Boolean)
     if (cells.length < 3) continue
 
-    const scoreIdx = cells.findIndex((c) => /^\d{1,3}\s*-\s*\d{1,3}$/.test(c))
+    const scoreIdx = cells.findIndex((c) => SCORE_RE.test(c))
     const played = scoreIdx > 0
+    let dateLabel
+    let home
+    let away
+    let homeScore = null
+    let awayScore = null
 
-    let dateLabel, homeName, awayName, homeScore = null, awayScore = null
     if (played) {
       dateLabel = cells[0]
-      homeName = cells[scoreIdx - 1]
-      awayName = cells[scoreIdx + 1]
+      home = cells[scoreIdx - 1]
+      away = cells[scoreIdx + 1]
       const [h, a] = cells[scoreIdx].split('-').map((n) => Number(n.trim()))
       homeScore = h
       awayScore = a
     } else {
-      // Upcoming: the date sits between the two clubs.
       const dateIdx = cells.findIndex((c) => monthDay(c))
       if (dateIdx < 1 || dateIdx >= cells.length - 1) continue
       dateLabel = cells[dateIdx]
-      homeName = cells[dateIdx - 1]
-      awayName = cells[dateIdx + 1]
+      home = cells[dateIdx - 1]
+      away = cells[dateIdx + 1]
     }
 
     const md = monthDay(dateLabel)
-    if (!md || !homeName || !awayName || homeName === awayName) continue
+    if (!md || !home || !away || home === away) continue
 
-    // Rows descend newest-first; a month jumping forward means a year earlier.
+    // The table runs newest-first with no years; a month jumping forward as
+    // we descend means we have crossed back into the previous year.
     if (md.month > prevMonth) year -= 1
     prevMonth = md.month
     const date = new Date(Date.UTC(year, md.month, md.day, 11, 0, 0)).toISOString()
 
-    // TPBL labels resolve through the explicit club table so both sources
-    // land on the same seven clubs; other leagues use the label as given.
-    const canon = (label) => {
-      if (leagueKey !== 'TPBL') return { id: slug(label), name: label, local: null }
-      const c = tpblClub(label)
-      if (!c) {
-        notes.push(`unmapped TPBL club label: "${label}"`)
-        return { id: slug(label), name: label, local: null }
-      }
-      return { id: String(c.id), name: c.name, local: c.local }
-    }
+    games.push({ date, played, home, away, homeScore, awayScore })
+  }
+  return { games, year }
+}
 
-    const homeClub = canon(homeName)
-    const awayClub = canon(awayName)
+/**
+ * Verified aliases for results-table labels the matcher rightly refuses.
+ *
+ * These are cases where two real clubs share a name, so no amount of fuzzy
+ * scoring can separate them — and the matcher returns null instead of
+ * guessing. Each entry here was checked against the league's own table.
+ * Keep this list short: it is for genuine collisions, not for silencing
+ * notes.
+ */
+const LABEL_ALIASES = {
+  NBB: {
+    // Brazil has two Corinthians clubs in the NBB.
+    'Corinthi.': 'Corinthians',
+    'U.Corinth.': 'Uniao Corinthians',
+  },
+}
 
-    for (const club of [homeClub, awayClub]) {
-      if (!teams.has(club.id)) {
-        teams.set(club.id, {
-          id: club.id,
-          league: leagueKey,
-          name: club.name,
-          nameLocal: club.local,
-          shortName: club.name,
-          abbr: club.name.slice(0, 3).toUpperCase(),
-          logo: null,
-        })
-      }
-    }
+function sideFor(club, label, score) {
+  const name = club ? club.name : label
+  return {
+    id: club ? club.id : slug(label),
+    name,
+    abbr: name.slice(0, 3).toUpperCase(),
+    logo: (club && club.logo) || null,
+    score,
+    linescores: [],
+    leaders: [],
+  }
+}
 
-    const side = (club, score) => ({
-      id: club.id,
-      name: club.name,
-      abbr: club.name.slice(0, 3).toUpperCase(),
-      logo: null,
-      score,
-      linescores: [],
-      leaders: [],
+/** Non-English news sources, with the language they publish in. */
+const EXTRA_NEWS = {
+  NBB: {
+    name: 'ge — Globo Esporte',
+    url: 'https://ge.globo.com/rss/ge/basquete/',
+    lang: 'pt',
+    terms: new RegExp(
+      [
+        'NBB', 'LNB', 'Liga Nacional', 'Franca', 'Sesi', 'Pinheiros', 'Minas', 'Paulistano',
+        'Bauru', 'Brasília', 'Corinthians', 'Mogi', 'Botafogo', 'Caxias', 'São José',
+        'Unifacisa', 'Vasco', 'Flamengo', 'Pato Basquete', 'Fortaleza', 'Cearense',
+      ].join('|'),
+      'i'
+    ),
+  },
+}
+
+/**
+ * Fetch an RSS feed in another language, keep the league's stories, and
+ * translate their headlines. Each item keeps its original title and records
+ * the source language so the page can label it as machine-translated.
+ */
+async function fetchTranslatedFeed(leagueKey, cfg) {
+  const notes = []
+  const articles = []
+  try {
+    const xml = await get(cfg.url, { retries: 2 })
+    const $ = cheerio.load(xml, { xmlMode: true })
+    const items = []
+    $('item').each((_, el) => {
+      const title = stripTags($(el).find('title').first().text())
+      const description = stripTags($(el).find('description').first().text())
+      if (!title || !cfg.terms.test(`${title} ${description}`)) return
+      const media = $(el)
+        .children()
+        .filter((__, c) => /(^|:)(content|thumbnail)$/.test(c.tagName || ''))
+        .first()
+      items.push({
+        title,
+        description,
+        link: clean($(el).find('link').first().text()),
+        published: $(el).find('pubDate').first().text().trim(),
+        image: media.attr('url') || null,
+      })
     })
 
-    games.push({
-      id: `ab-${leagueKey}-${date.slice(0, 10)}-${homeClub.id}-${awayClub.id}`,
+    for (const it of items.slice(0, 15)) {
+      const t = await translate(it.title, cfg.lang)
+      const d = it.description
+        ? await translate(it.description.slice(0, 300), cfg.lang)
+        : { text: '', translated: false }
+      articles.push({
+        id: `${leagueKey}-${slug(it.title).slice(0, 40)}`,
+        league: leagueKey,
+        title: t.text,
+        originalTitle: t.translated ? it.title : null,
+        translatedFrom: t.translated ? cfg.lang : null,
+        description: d.text,
+        published: it.published ? new Date(it.published).toISOString() : null,
+        byline: cfg.name,
+        tag: 'Report',
+        image: it.image,
+        url: it.link || null,
+      })
+    }
+    if (items.length && !articles.some((a) => a.translatedFrom)) {
+      notes.push(`${leagueKey} news: translation unavailable; headlines kept in the original language`)
+    }
+  } catch (err) {
+    notes.push(`${leagueKey} news: ${err.message}`)
+  }
+  return { articles, notes }
+}
+
+/**
+ * Parse a league page into clubs, results, fixtures, standings, player stats
+ * and news.
+ *
+ * Club identity comes from the most authoritative source available, in order:
+ *   1. the league's own API        (TPBL: explicit id table)
+ *   2. RealGM's standings          (CBA, NBB: full names, unique ids)
+ *   3. the results table's labels  (last resort)
+ *
+ * Players attach to clubs by exact RealGM id, never by name. Results-table
+ * labels are mapped onto clubs with the ambiguity-refusing matcher; a label
+ * that fits two clubs stays unattributed rather than being assigned to the
+ * wrong one.
+ */
+async function scrapeAsiaBasketLeague(leagueKey, limit = 80) {
+  const cfg = ASIA_BASKET_LEAGUES[leagueKey]
+  const notes = []
+  const html = await get(cfg.url, { retries: 3 })
+  const $ = cheerio.load(html)
+
+  const rows = pickResultsTable($)
+  if (!rows.length) throw new Error(`no results table on ${cfg.url}`)
+  const parsed = parseResultRows($, rows, limit)
+
+  // ── Clubs and standings ──────────────────────────────────────────────────
+  let clubs = []
+  let standings = { seasonLabel: '', rows: [] }
+
+  if (leagueKey === 'TPBL') {
+    clubs = Object.values(TPBL_CLUBS).map((c) => ({
+      id: String(c.id),
       league: leagueKey,
-      status: played ? 'final' : 'scheduled',
-      statusDetail: played ? 'Final' : 'Scheduled',
-      period: null,
-      clock: null,
-      date,
-      venue: null,
-      city: null,
-      home: side(homeClub, homeScore),
-      away: side(awayClub, awayScore),
-    })
+      name: c.name,
+      nameLocal: c.local,
+      shortName: c.name,
+      abbr: c.name.slice(0, 3).toUpperCase(),
+      logo: null,
+    }))
+    try {
+      standings = await tpblStandings()
+      for (const r of standings.rows) {
+        const club = clubs.find((c) => c.id === r.team.id)
+        if (club) r.team = { ...r.team, name: club.name, abbr: club.abbr }
+      }
+    } catch (err) {
+      notes.push(`standings: ${err.message}`)
+    }
+  } else if (REALGM_LEAGUES[leagueKey]) {
+    try {
+      const st = await realgmStandings(leagueKey)
+      notes.push(...st.notes)
+      standings = { seasonLabel: st.seasonLabel, rows: st.rows }
+      clubs = st.rows.map((r) => ({
+        id: r.team.id,
+        realgmId: r.team.realgmId,
+        league: leagueKey,
+        name: r.team.name,
+        shortName: r.team.name,
+        abbr: r.team.name.slice(0, 3).toUpperCase(),
+        logo: null,
+      }))
+    } catch (err) {
+      notes.push(`standings: ${err.message}`)
+    }
   }
 
-  if (!teams.size) throw new Error(`no clubs parsed from ${cfg.url}`)
-  notes.push(
-    'Clubs, results and fixtures parsed from the public asia-basket league ' +
-      'table; its standings and player stats are subscriber-only and unused.'
-  )
+  // ── Games, mapped onto the clubs ─────────────────────────────────────────
+  const unmatchedLabels = new Set()
+  const resolve = (label) => {
+    if (leagueKey === 'TPBL') {
+      const c = tpblClub(label)
+      return c ? clubs.find((x) => x.id === String(c.id)) || null : null
+    }
+    if (!clubs.length) return null
+    const alias = LABEL_ALIASES[leagueKey]?.[label]
+    if (alias) {
+      const exact = clubs.find((c) => c.name === alias)
+      if (exact) return exact
+    }
+    const club = matchTeam(label, clubs)
+    if (!club) unmatchedLabels.add(label)
+    return club
+  }
 
-  const news = NEWS_FEEDS[leagueKey]
-    ? await fetchLeagueNews(leagueKey, NEWS_FEEDS[leagueKey], NEWS_TERMS[leagueKey])
-    : { articles: [], notes: [] }
-  notes.push(...news.notes)
+  const games = parsed.games.map((g) => {
+    const home = resolve(g.home)
+    const away = resolve(g.away)
+    return {
+      id: `ab-${leagueKey}-${g.date.slice(0, 10)}-${slug(g.home)}-${slug(g.away)}`,
+      league: leagueKey,
+      status: g.played ? 'final' : 'scheduled',
+      statusDetail: g.played ? 'Final' : 'Scheduled',
+      period: null,
+      clock: null,
+      date: g.date,
+      venue: null,
+      city: null,
+      home: sideFor(home, g.home, g.homeScore),
+      away: sideFor(away, g.away, g.awayScore),
+    }
+  })
+  if (unmatchedLabels.size) {
+    notes.push(
+      `${unmatchedLabels.size} results-table labels matched no club unambiguously and were ` +
+        `left unattributed: ${[...unmatchedLabels].join(', ')}`
+    )
+  }
 
-  // Player statistics. TPBL publishes its own; CBA comes from RealGM.
+  // No authoritative list at all: fall back to the labels themselves.
+  if (!clubs.length) {
+    const seen = new Map()
+    for (const g of games) {
+      for (const s of [g.home, g.away]) {
+        if (!seen.has(s.id)) {
+          seen.set(s.id, {
+            id: s.id,
+            league: leagueKey,
+            name: s.name,
+            shortName: s.name,
+            abbr: s.abbr,
+            logo: null,
+          })
+        }
+      }
+    }
+    clubs = [...seen.values()]
+  }
+
+  // ── Player statistics ────────────────────────────────────────────────────
   let players = []
   let rosters = {}
   let leaders = {}
-  let statsTeams = []
 
   try {
     if (leagueKey === 'TPBL') {
-      const s = await tpblPlayerStats()
-      players = s.players
-      rosters = s.rosters
-      statsTeams = s.teams
-      notes.push(...s.notes)
-    } else {
-      const s = await realgmPlayerStats(leagueKey)
-      players = s.players
-      notes.push(...s.notes)
-      if (players.length) {
-        // RealGM identifies clubs by abbreviation; match them back to the
-        // clubs parsed from the results table so rosters land on real teams.
-        for (const p of players) {
-          const club = matchTeam(p.teamName || p.teamAbbr, [...teams.values()])
-          if (!club) continue
-          p.teamId = club.id
-          ;(rosters[club.id] ||= []).push({
-            id: `${club.id}-${p.name}`.replace(/\W+/g, '-').toLowerCase(),
-            name: p.name,
-            jersey: null,
-            position: null,
-            height: null,
-            weight: null,
-            age: null,
-            country: null,
-            headshot: null,
-          })
-        }
-        const unmatched = players.filter((p) => !p.teamId).length
-        if (unmatched) notes.push(`${unmatched} players could not be matched to a club`)
+      const st = await tpblPlayerStats()
+      players = st.players
+      notes.push(...st.notes)
+      for (const t of st.teams) {
+        const club = clubs.find((c) => c.id === t.id)
+        if (club && t.logo) club.logo = t.logo
       }
+      rosters = st.rosters
+    } else if (REALGM_LEAGUES[leagueKey]) {
+      const st = await realgmPlayerStats(leagueKey)
+      players = st.players
+      notes.push(...st.notes)
+      const byRealgm = new Map(clubs.filter((c) => c.realgmId).map((c) => [c.realgmId, c]))
+      for (const p of players) {
+        // Exact id, never a name guess.
+        const club = byRealgm.get(p.teamRealgmId)
+        if (!club) continue
+        p.teamId = club.id
+        if (!rosters[club.id]) rosters[club.id] = []
+        rosters[club.id].push({
+          id: `${club.id}-${slug(p.name)}`,
+          name: p.name,
+          jersey: null,
+          position: null,
+          height: null,
+          weight: null,
+          age: null,
+          country: null,
+          headshot: null,
+        })
+      }
+      const unmatched = players.filter((p) => !p.teamId).length
+      if (unmatched) notes.push(`${unmatched} players belong to clubs outside this season's table`)
     }
 
     const built = buildLeaders(players)
@@ -664,60 +898,95 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 60) {
     notes.push(`player stats: ${err.message}`)
   }
 
-  // TPBL's own API is a better club source than the results table: it has the
-  // full English names and real crests. But the games already reference the
-  // ids parsed from asia-basket ("dreamers"), so merge the richer record onto
-  // the existing club rather than adding a second copy of it — otherwise the
-  // league ends up with fourteen teams instead of seven.
-  if (statsTeams.length) {
-    for (const t of statsTeams) {
-      // TPBL ids are the league's own, so they line up exactly; other leagues
-      // still need a name match.
-      const existing = teams.get(t.id) || matchTeam(t.name, [...teams.values()])
-      if (existing) {
-        // Keep the canonical club name we already resolved — the API's
-        // `alt_name` is a short handle ("Aquas", "Dea"), not a full name —
-        // but take its crest, which is the real thing.
-        teams.set(existing.id, {
-          ...existing,
-          name: existing.name || t.name,
-          nameLocal: existing.nameLocal ?? t.nameLocal ?? null,
-          shortName: t.name || existing.shortName,
-          logo: t.logo || existing.logo,
+  // ── News ─────────────────────────────────────────────────────────────────
+  let news = { articles: [], notes: [] }
+  if (leagueKey === 'TPBL') {
+    try {
+      const posts = await tpblNews(12)
+      for (const p of posts) {
+        const t = await translate(p.title, 'zh-TW')
+        news.articles.push({
+          id: p.id,
+          league: 'TPBL',
+          title: t.text,
+          originalTitle: t.translated ? p.title : null,
+          translatedFrom: t.translated ? 'zh-TW' : null,
+          description: '',
+          published: p.published,
+          byline: 'TPBL',
+          tag: 'League',
+          image: p.image,
+          url: p.url,
         })
-        // Move any roster captured under the API's id onto the club's real id.
-        if (t.id !== existing.id && rosters[t.id]) {
-          rosters[existing.id] = rosters[t.id]
-          delete rosters[t.id]
-          for (const p of players) if (p.teamId === t.id) p.teamId = existing.id
-        }
-      } else {
-        teams.set(t.id, { ...teams.get(t.id), ...t })
       }
+    } catch (err) {
+      news.notes.push(`TPBL news: ${err.message}`)
     }
+  } else if (EXTRA_NEWS[leagueKey]) {
+    news = await fetchTranslatedFeed(leagueKey, EXTRA_NEWS[leagueKey])
+  } else if (NEWS_FEEDS[leagueKey]) {
+    news = await fetchLeagueNews(leagueKey, NEWS_FEEDS[leagueKey], NEWS_TERMS[leagueKey])
   }
+  notes.push(...news.notes)
+
+  const sources = [{ name: cfg.source, url: cfg.site }]
+  if (REALGM_LEAGUES[leagueKey]) {
+    sources.push({ name: 'RealGM', url: 'https://basketball.realgm.com/international' })
+  }
+  if (leagueKey === 'TPBL') sources.push({ name: 'TPBL', url: 'https://tpbl.basketball' })
+  if (EXTRA_NEWS[leagueKey]) {
+    sources.push({ name: EXTRA_NEWS[leagueKey].name, url: EXTRA_NEWS[leagueKey].url })
+  }
+  for (const x of NEWS_FEEDS[leagueKey] || []) sources.push({ name: x.name, url: x.url })
 
   return {
     league: leagueKey,
-    season: String(year),
+    season: standings.seasonLabel || String(parsed.year),
     fetchedAt: new Date().toISOString(),
-    sources: [
-      { name: 'asia-basket', url: cfg.site },
-      ...(NEWS_FEEDS[leagueKey] || []).map((x) => ({ name: x.name, url: x.url })),
-    ],
+    sources,
     notes,
-    teams: [...teams.values()].sort((a, b) => a.name.localeCompare(b.name)),
+    teams: clubs.sort((a, b) => a.name.localeCompare(b.name)),
     rosters,
     playerStats: players,
-    standings: { seasonLabel: '', rows: [] },
+    standings,
     games,
     news: news.articles,
     leaders,
   }
 }
 
+/**
+ * Attach RealGM standings rows to a league's own club records.
+ *
+ * KBL and B.League clubs come from their official sources, so standings rows
+ * are mapped onto those by full name with the ambiguity-refusing matcher.
+ * A row that maps nowhere keeps RealGM's name — shown, but not linked to a
+ * club page that would not exist.
+ */
+async function standingsFor(leagueKey, teams, notes) {
+  try {
+    const st = await realgmStandings(leagueKey)
+    notes.push(...st.notes)
+    let unmatched = 0
+    for (const r of st.rows) {
+      const club = matchTeam(r.team.name, teams)
+      if (club) {
+        r.team = { ...r.team, id: club.id, name: club.name, abbr: club.abbr, logo: club.logo || null }
+      } else {
+        unmatched++
+      }
+    }
+    if (unmatched) notes.push(`${unmatched} standings rows matched no club unambiguously`)
+    return { seasonLabel: st.seasonLabel, rows: st.rows }
+  } catch (err) {
+    notes.push(`standings: ${err.message}`)
+    return { seasonLabel: '', rows: [] }
+  }
+}
+
 const scrapeCBA = () => scrapeAsiaBasketLeague('CBA')
 const scrapeTPBL = () => scrapeAsiaBasketLeague('TPBL')
+const scrapeNBB = () => scrapeAsiaBasketLeague('NBB')
 
 // ───────────────────────────────────────────────────────────────────────────
 // KBL (South Korea)
@@ -888,6 +1157,10 @@ async function scrapeKBL() {
     }
   }
 
+  // KBL's own standings come from its API, which has been down. RealGM's
+  // KBL table fills the gap until it recovers.
+  if (!standings.rows.length) standings = await standingsFor('KBL', teams, notes)
+
   const fixtures = await asiaBasketFixtures('KBL', teams)
   notes.push(...fixtures.notes)
   if (!games.length) games = fixtures.games
@@ -1050,6 +1323,7 @@ const NEWS_FEEDS = {
     {
       name: 'Chosun',
       url: 'https://www.chosun.com/arc/outboundfeeds/rss/category/sports/?outputType=xml',
+      lang: 'ko',
     },
   ],
 }
@@ -1110,9 +1384,23 @@ function stripTags(html) {
   return clean(decoded.replace(/<[^>]*>/g, ' '))
 }
 
+/**
+ * Guess a headline's language from its script, for feeds that do not declare
+ * one. Only scripts are detectable this way — Hangul, kana, Han — which is
+ * exactly the case that matters: a Korean or Japanese headline is unreadable
+ * to an English reader, so it must not reach the page untranslated.
+ * Latin-script languages (Portuguese, Spanish) need an explicit `lang`.
+ */
+function detectLanguage(text) {
+  if (/[\uac00-\ud7af]/.test(text)) return 'ko'
+  if (/[\u3040-\u30ff]/.test(text)) return 'ja'
+  if (/[\u4e00-\u9fff]/.test(text)) return 'zh-CN'
+  return null
+}
+
 async function fetchLeagueNews(leagueKey, feeds, terms) {
   const notes = []
-  const articles = []
+  const collected = []
   const seen = new Set()
 
   for (const feed of feeds) {
@@ -1121,32 +1409,29 @@ async function fetchLeagueNews(leagueKey, feeds, terms) {
       const $ = cheerio.load(xml, { xmlMode: true })
 
       $('item').each((_, el) => {
-        const title = clean($(el).find('title').first().text())
+        const title = stripTags($(el).find('title').first().text())
         const description = stripTags($(el).find('description').first().text())
         if (!title || !terms.test(`${title} ${description}`)) return
 
-        const key = title.toLowerCase().replace(/\W+/g, '')
+        const key = title.toLowerCase().replace(/\W+/g, '').slice(0, 60) || title.slice(0, 60)
         if (seen.has(key)) return
         seen.add(key)
 
         const published = $(el).find('pubDate').first().text().trim()
-        // cheerio's xmlMode parser rejects an escaped `media\:content`
+        // cheerio's xmlMode parser rejects an escaped `media\\:content`
         // selector, so match the namespaced tag by name instead.
         const media = $(el)
           .children()
           .filter((__, c) => /(^|:)(content|thumbnail)$/.test(c.tagName || ''))
           .first()
-        const image =
-          media.attr('url') || $(el).find('enclosure').first().attr('url') || null
+        const image = media.attr('url') || $(el).find('enclosure').first().attr('url') || null
 
-        articles.push({
-          id: `${leagueKey}-${key.slice(0, 40)}`,
-          league: leagueKey,
+        collected.push({
+          key,
+          feed,
           title,
           description: description.slice(0, 280),
           published: published ? new Date(published).toISOString() : null,
-          byline: feed.name,
-          tag: 'Report',
           image,
           url: clean($(el).find('link').first().text()) || null,
         })
@@ -1157,11 +1442,172 @@ async function fetchLeagueNews(leagueKey, feeds, terms) {
     }
   }
 
+  // Translate anything not in English. `.each` above is synchronous, so the
+  // (async) translation happens here, after collection.
+  const articles = []
+  let untranslated = 0
+  for (const item of collected) {
+    const lang = item.feed.lang || detectLanguage(item.title)
+    let title = item.title
+    let description = item.description
+    let translatedFrom = null
+    let originalTitle = null
+
+    if (lang) {
+      const t = await translate(item.title, lang)
+      if (t.translated) {
+        title = t.text
+        originalTitle = item.title
+        translatedFrom = lang
+        if (item.description) {
+          const d = await translate(item.description, lang)
+          description = d.text
+        }
+      } else {
+        untranslated++
+      }
+    }
+
+    articles.push({
+      id: `${leagueKey}-${item.key.slice(0, 40)}`,
+      league: leagueKey,
+      title,
+      originalTitle,
+      translatedFrom,
+      description,
+      published: item.published,
+      byline: item.feed.name,
+      tag: 'Report',
+      image: item.image,
+      url: item.url,
+    })
+  }
+  if (untranslated) {
+    notes.push(`${untranslated} ${leagueKey} headlines could not be translated and were kept as published`)
+  }
+
   articles.sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
   return { articles: articles.slice(0, 40), notes }
 }
 
 const fetchPBANews = () => fetchLeagueNews('PBA', PBA_FEEDS, PBA_TERMS)
+
+/**
+ * PBA results, standings and statistics.
+ *
+ * The PBA plays three conferences a season — the Philippine Cup, the
+ * Commissioner's Cup and the Governors' Cup — and each is its own table. So
+ * rather than guess which one is "current", all three are kept as separate
+ * groups (the Conference tab shows them side by side), and the league-wide
+ * table is the season total: each club's wins and losses summed across the
+ * conferences it played.
+ */
+const PBA_CONFERENCES = [
+  { key: 'PBA_PH', id: 130, slug: 'PBA--Philippine-Cup', name: 'Philippine Cup' },
+  { key: 'PBA_COMM', id: 131, slug: 'PBA--Commissioners-Cup', name: "Commissioner's Cup" },
+  { key: 'PBA_GOV', id: 132, slug: 'PBA--Governors-Cup', name: "Governors' Cup" },
+]
+
+async function pbaExtras(teams, notes) {
+  const out = { games: [], standings: { seasonLabel: '', rows: [], conferences: [] }, leaders: {}, playerStats: [] }
+
+  // Results and fixtures from asia-basket's PBA page.
+  try {
+    const cfg = ASIA_BASKET_LEAGUES.PBA
+    const $ = cheerio.load(await get(cfg.url, { retries: 3 }))
+    const parsed = parseResultRows($, pickResultsTable($), 80)
+    const unmatched = new Set()
+    out.games = parsed.games.map((g) => {
+      const home = matchTeam(LABEL_ALIASES.PBA?.[g.home] || g.home, teams)
+      const away = matchTeam(LABEL_ALIASES.PBA?.[g.away] || g.away, teams)
+      if (!home) unmatched.add(g.home)
+      if (!away) unmatched.add(g.away)
+      return {
+        id: `ab-PBA-${g.date.slice(0, 10)}-${slug(g.home)}-${slug(g.away)}`,
+        league: 'PBA',
+        status: g.played ? 'final' : 'scheduled',
+        statusDetail: g.played ? 'Final' : 'Scheduled',
+        period: null,
+        clock: null,
+        date: g.date,
+        venue: null,
+        city: null,
+        home: sideFor(home, g.home, g.homeScore),
+        away: sideFor(away, g.away, g.awayScore),
+      }
+    })
+    if (unmatched.size) {
+      notes.push(`PBA results labels left unattributed: ${[...unmatched].join(', ')}`)
+    }
+  } catch (err) {
+    notes.push(`PBA results: ${err.message}`)
+  }
+
+  // Each conference's table and averages from RealGM.
+  const statLists = []
+  const season = new Map()
+  for (const conf of PBA_CONFERENCES) {
+    REALGM_LEAGUES[conf.key] = { id: conf.id, slug: conf.slug }
+    try {
+      const st = await realgmStandings(conf.key)
+      notes.push(...st.notes)
+      const rows = st.rows.map((r) => {
+        const club = matchTeam(r.team.name, teams)
+        return club
+          ? { ...r, team: { ...r.team, id: club.id, name: club.name, abbr: club.abbr, logo: club.logo || null } }
+          : r
+      })
+      if (rows.length) {
+        out.standings.conferences.push({ name: conf.name, abbrev: conf.name, rows })
+        out.standings.seasonLabel = st.seasonLabel
+        for (const r of rows) {
+          const acc = season.get(r.team.id) || { team: r.team, wins: 0, losses: 0 }
+          acc.wins += r.wins
+          acc.losses += r.losses
+          season.set(r.team.id, acc)
+        }
+      }
+      const ps = await realgmPlayerStats(conf.key)
+      if (ps.players.length) statLists.push(ps.players)
+    } catch (err) {
+      notes.push(`${conf.name}: ${err.message}`)
+    }
+  }
+
+  out.standings.rows = [...season.values()]
+    .map((r) => {
+      const played = r.wins + r.losses
+      return {
+        ...r,
+        pct: played ? (r.wins / played).toFixed(3).replace(/^0/, '') : '—',
+        pointsFor: null,
+        pointsAgainst: null,
+        diff: null,
+        streak: null,
+      }
+    })
+    .sort((a, b) => b.wins - a.wins || a.losses - b.losses)
+    .map((r, i, all) => ({
+      ...r,
+      seed: i + 1,
+      gamesBehind: i === 0 ? '—' : String(((all[0].wins - r.wins) + (r.losses - all[0].losses)) / 2),
+    }))
+
+  if (statLists.length) {
+    out.playerStats = combineConferenceStats(statLists)
+    for (const p of out.playerStats) {
+      const club = matchTeam(p.teamName || '', teams)
+      if (club) p.teamId = club.id
+    }
+    const built = buildLeaders(out.playerStats)
+    out.leaders = built.leaders || {}
+    notes.push(
+      `PBA leaders combine all ${statLists.length} conferences, weighting each average by games played.`
+    )
+  }
+
+  return out
+}
 
 async function scrapePBAFromWikipedia() {
   const notes = ['pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.']
@@ -1204,6 +1650,8 @@ async function scrapePBAFromWikipedia() {
   const news = await fetchPBANews()
   notes.push(...news.notes)
 
+  const extras = await pbaExtras(teams, notes)
+
   return {
     league: 'PBA',
     season: String(new Date().getFullYear()),
@@ -1215,10 +1663,11 @@ async function scrapePBAFromWikipedia() {
     notes,
     teams,
     rosters,
-    standings: { seasonLabel: '', rows: [] },
-    games: [],
+    standings: extras.standings,
+    games: extras.games,
+    playerStats: extras.playerStats,
     news: news.articles,
-    leaders: {},
+    leaders: extras.leaders,
   }
 }
 
@@ -1273,12 +1722,216 @@ async function scrapePBA() {
 
 // ───────────────────────────────────────────────────────────────────────────
 
+// ───────────────────────────────────────────────────────────────────────────
+// Supplements for live leagues
+//
+// EuroLeague and the NBL are read live in the browser, but their live feeds
+// lack something: EuroLeague publishes no news and no player averages, and
+// ESPN publishes no NBL leaders. RSS and RealGM cannot be read from a browser
+// (no CORS), so those pieces are fetched here and written to
+// /public/data/extra/<League>.json. The app uses them only when the live
+// source has nothing — live data always wins.
+// ───────────────────────────────────────────────────────────────────────────
+const EXTRA_OUT = path.join(OUT_DIR, 'extra')
+
+const EUROLEAGUE_FEEDS = [
+  { name: 'Eurohoops', url: 'https://www.eurohoops.net/en/feed/' },
+  { name: 'Sportando', url: 'https://www.sportando.basketball/en/feed/' },
+]
+const EUROLEAGUE_TERMS = new RegExp(
+  [
+    'EuroLeague', 'Euroleague', 'Real Madrid', 'Olympiacos', 'Fenerbahce', 'Fenerbahçe',
+    'Panathinaikos', 'Barcelona', 'Anadolu Efes', 'Efes', 'Zalgiris', 'Monaco', 'Partizan',
+    'Virtus', 'Maccabi', 'Baskonia', 'Valencia', 'Bayern', 'Crvena Zvezda', 'Red Star',
+    'Paris Basketball', 'Dubai', 'Hapoel', 'ASVEL', 'Olimpia Milano', 'Armani',
+  ].join('|')
+)
+
+/**
+ * FIBA tournament leaders, computed from ESPN box scores.
+ *
+ * ESPN publishes no leaders feed for FIBA events, but every completed game has
+ * a full box score. Summing each player's lines across the games they actually
+ * played and dividing by those games gives true tournament per-game averages
+ * — the same arithmetic a stats desk would do, from the same numbers.
+ *
+ * A player is counted as having played a game only if they logged minutes, so
+ * a DNP does not drag an average down.
+ */
+async function fibaLeaders(notes) {
+  const S = 'https://site.api.espn.com/apis/site/v2/sports/basketball/fiba'
+  const d = (o) => {
+    const x = new Date()
+    x.setDate(x.getDate() + o)
+    return x.toISOString().slice(0, 10).replace(/-/g, '')
+  }
+  const sb = await get(`${S}/scoreboard?dates=${d(-60)}-${d(1)}&limit=300`, { json: true })
+  const finals = (sb?.events || []).filter((e) => e.status?.type?.name === 'STATUS_FINAL')
+  const eventName = sb?.leagues?.[0]?.name || 'FIBA'
+  if (!finals.length) {
+    notes.push('FIBA: no completed games in the current window')
+    return { leaders: {}, label: '' }
+  }
+
+  const totals = new Map()
+  for (const ev of finals) {
+    try {
+      const sum = await get(`${S}/summary?event=${ev.id}`, { json: true })
+      for (const side of sum?.boxscore?.players || []) {
+        const stat = side.statistics?.[0]
+        const labels = stat?.labels || []
+        const at = (name) => labels.indexOf(name)
+        for (const a of stat?.athletes || []) {
+          if (a.didNotPlay) continue
+          const v = a.stats || []
+          const minutes = parseFloat(v[at('MIN')])
+          if (!(minutes > 0)) continue
+          const id = a.athlete?.id || a.athlete?.displayName
+          const acc = totals.get(id) || {
+            name: a.athlete?.displayName,
+            headshot: a.athlete?.headshot?.href || null,
+            teamAbbr: side.team?.abbreviation || null,
+            teamName: side.team?.displayName || null,
+            gamesPlayed: 0,
+            sums: { points: 0, rebounds: 0, assists: 0, steals: 0, blocks: 0 },
+          }
+          acc.gamesPlayed += 1
+          acc.sums.points += parseFloat(v[at('PTS')]) || 0
+          acc.sums.rebounds += parseFloat(v[at('REB')]) || 0
+          acc.sums.assists += parseFloat(v[at('AST')]) || 0
+          acc.sums.steals += parseFloat(v[at('STL')]) || 0
+          acc.sums.blocks += parseFloat(v[at('BLK')]) || 0
+          totals.set(id, acc)
+        }
+      }
+      await sleep(150)
+    } catch (err) {
+      notes.push(`FIBA box score ${ev.id}: ${err.message}`)
+    }
+  }
+
+  const players = [...totals.values()].map((p) => ({
+    name: p.name,
+    headshot: p.headshot,
+    teamAbbr: p.teamAbbr,
+    teamName: p.teamName,
+    gamesPlayed: p.gamesPlayed,
+    points: p.sums.points / p.gamesPlayed,
+    rebounds: p.sums.rebounds / p.gamesPlayed,
+    assists: p.sums.assists / p.gamesPlayed,
+    steals: p.sums.steals / p.gamesPlayed,
+    blocks: p.sums.blocks / p.gamesPlayed,
+  }))
+
+  const built = buildLeaders(players)
+  notes.push(`FIBA leaders from ${finals.length} box scores, ${players.length} players.`)
+  return { leaders: built.leaders || {}, label: `${eventName} tournament averages` }
+}
+
+async function buildExtras() {
+  const written = []
+
+  // EuroLeague: news + leaders.
+  {
+    const notes = []
+    const news = await fetchLeagueNews('EuroLeague', EUROLEAGUE_FEEDS, EUROLEAGUE_TERMS)
+    notes.push(...news.notes)
+    let leaders = {}
+    try {
+      const st = await realgmPlayerStats('EuroLeague')
+      notes.push(...st.notes)
+      const built = buildLeaders(st.players)
+      leaders = built.leaders || {}
+    } catch (err) {
+      notes.push(`leaders: ${err.message}`)
+    }
+    written.push({
+      key: 'EuroLeague',
+      data: {
+        league: 'EuroLeague',
+        fetchedAt: new Date().toISOString(),
+        sources: [...EUROLEAGUE_FEEDS, { name: 'RealGM', url: 'https://basketball.realgm.com/international' }],
+        notes,
+        news: news.articles,
+        leaders,
+      },
+    })
+  }
+
+  // NBL: leaders.
+  {
+    const notes = []
+    let leaders = {}
+    try {
+      const st = await realgmPlayerStats('NBL')
+      notes.push(...st.notes)
+      leaders = buildLeaders(st.players).leaders || {}
+    } catch (err) {
+      notes.push(`leaders: ${err.message}`)
+    }
+    written.push({
+      key: 'NBL',
+      data: {
+        league: 'NBL',
+        fetchedAt: new Date().toISOString(),
+        sources: [{ name: 'RealGM', url: 'https://basketball.realgm.com/international' }],
+        notes,
+        news: [],
+        leaders,
+      },
+    })
+  }
+
+  // FIBA: tournament leaders from box scores.
+  {
+    const notes = []
+    let result = { leaders: {}, label: '' }
+    try {
+      result = await fibaLeaders(notes)
+    } catch (err) {
+      notes.push(`leaders: ${err.message}`)
+    }
+    written.push({
+      key: 'FIBA',
+      data: {
+        league: 'FIBA',
+        fetchedAt: new Date().toISOString(),
+        sources: [{ name: 'ESPN box scores', url: 'https://www.espn.com/basketball/' }],
+        notes,
+        news: [],
+        leaders: result.leaders,
+        leadersLabel: result.label,
+      },
+    })
+  }
+
+  await fs.mkdir(EXTRA_OUT, { recursive: true })
+  for (const { key, data } of written) {
+    await fs.writeFile(path.join(EXTRA_OUT, `${key}.json`), JSON.stringify(data, null, 2))
+  }
+
+  // Report in the same shape as the league scrapers.
+  return {
+    league: 'extras',
+    teams: [],
+    rosters: {},
+    games: [],
+    standings: { rows: [] },
+    notes: written.map(
+      (w) => `${w.key}: ${w.data.news.length} news, ${Object.keys(w.data.leaders).length} leader categories`
+    ),
+    __extrasOnly: true,
+  }
+}
+
 const SCRAPERS = {
   bleague: { key: 'BLeague', run: scrapeBLeague },
   kbl: { key: 'KBL', run: scrapeKBL },
   pba: { key: 'PBA', run: scrapePBA },
   cba: { key: 'CBA', run: scrapeCBA },
   tpbl: { key: 'TPBL', run: scrapeTPBL },
+  nbb: { key: 'NBB', run: scrapeNBB },
+  extras: { key: 'extras', run: buildExtras },
 }
 
 async function main() {
@@ -1300,8 +1953,10 @@ async function main() {
     console.log(`\n▶ ${key}`)
     try {
       const data = await run()
-      const file = path.join(OUT_DIR, `${key}.json`)
-      await fs.writeFile(file, JSON.stringify(data, null, 2))
+      if (!data.__extrasOnly) {
+        const file = path.join(OUT_DIR, `${key}.json`)
+        await fs.writeFile(file, JSON.stringify(data, null, 2))
+      }
       const players = Object.values(data.rosters).reduce((n, r) => n + r.length, 0)
       console.log(
         `✔ ${key}: ${data.teams.length} teams, ${players} players, ` +
@@ -1319,6 +1974,8 @@ async function main() {
       results.push({ key, ok: false, error: err.message })
     }
   }
+
+  await saveTranslationCache()
 
   const failed = results.filter((r) => !r.ok)
   console.log(

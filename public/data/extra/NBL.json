@@ -1,0 +1,424 @@
+{
+  "league": "NBL",
+  "fetchedAt": "2026-09-11T00:50:07.288Z",
+  "sources": [
+    {
+      "name": "RealGM",
+      "url": "https://basketball.realgm.com/international"
+    }
+  ],
+  "notes": [],
+  "news": [],
+  "leaders": {
+    "avgPoints": [
+      {
+        "name": "Bryce Cotton",
+        "headshot": null,
+        "team": "ADE",
+        "teamId": null,
+        "value": "25.9",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Kendric Davis",
+        "headshot": null,
+        "team": "SYD",
+        "teamId": null,
+        "value": "25.1",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Nathan Sobey",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "22.5",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Jack McVeigh",
+        "headshot": null,
+        "team": "CRN",
+        "teamId": null,
+        "value": "21.2",
+        "gamesPlayed": 29
+      },
+      {
+        "name": "JaVale McGee",
+        "headshot": null,
+        "team": "ILL",
+        "teamId": null,
+        "value": "19.3",
+        "gamesPlayed": 31
+      },
+      {
+        "name": "Bryce Hamilton",
+        "headshot": null,
+        "team": "JACK",
+        "teamId": null,
+        "value": "18.2",
+        "gamesPlayed": 27
+      },
+      {
+        "name": "Samuel Mennenga",
+        "headshot": null,
+        "team": "NZB",
+        "teamId": null,
+        "value": "17.7",
+        "gamesPlayed": 27
+      },
+      {
+        "name": "Parker Jackson-Cartwright",
+        "headshot": null,
+        "team": "NZB",
+        "teamId": null,
+        "value": "17.6",
+        "gamesPlayed": 33
+      },
+      {
+        "name": "Kristian Doolittle",
+        "headshot": null,
+        "team": "PER",
+        "teamId": null,
+        "value": "17.3",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Jo Acuil",
+        "headshot": null,
+        "team": "PER",
+        "teamId": null,
+        "value": "17.1",
+        "gamesPlayed": 37
+      }
+    ],
+    "avgRebounds": [
+      {
+        "name": "JaVale McGee",
+        "headshot": null,
+        "team": "ILL",
+        "teamId": null,
+        "value": "10.0",
+        "gamesPlayed": 31
+      },
+      {
+        "name": "Zylan Cheatham",
+        "headshot": null,
+        "team": "ADE",
+        "teamId": null,
+        "value": "10.0",
+        "gamesPlayed": 41
+      },
+      {
+        "name": "Josh Bannan",
+        "headshot": null,
+        "team": "JACK",
+        "teamId": null,
+        "value": "9.4",
+        "gamesPlayed": 34
+      },
+      {
+        "name": "Tyrell Harrison",
+        "headshot": null,
+        "team": "BRI",
+        "teamId": null,
+        "value": "8.8",
+        "gamesPlayed": 25
+      },
+      {
+        "name": "Jesse Edwards",
+        "headshot": null,
+        "team": "MEL",
+        "teamId": null,
+        "value": "8.5",
+        "gamesPlayed": 33
+      },
+      {
+        "name": "Kristian Doolittle",
+        "headshot": null,
+        "team": "PER",
+        "teamId": null,
+        "value": "7.3",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Will Magnay",
+        "headshot": null,
+        "team": "JACK",
+        "teamId": null,
+        "value": "7.0",
+        "gamesPlayed": 24
+      },
+      {
+        "name": "Samuel Mennenga",
+        "headshot": null,
+        "team": "NZB",
+        "teamId": null,
+        "value": "6.9",
+        "gamesPlayed": 27
+      },
+      {
+        "name": "Jo Acuil",
+        "headshot": null,
+        "team": "PER",
+        "teamId": null,
+        "value": "6.8",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Xavier Cooks",
+        "headshot": null,
+        "team": "SYD",
+        "teamId": null,
+        "value": "6.8",
+        "gamesPlayed": 36
+      }
+    ],
+    "avgAssists": [
+      {
+        "name": "Bryce Cotton",
+        "headshot": null,
+        "team": "ADE",
+        "teamId": null,
+        "value": "7.6",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Andrew Andrews",
+        "headshot": null,
+        "team": "CRN",
+        "teamId": null,
+        "value": "7.6",
+        "gamesPlayed": 31
+      },
+      {
+        "name": "Parker Jackson-Cartwright",
+        "headshot": null,
+        "team": "NZB",
+        "teamId": null,
+        "value": "7.5",
+        "gamesPlayed": 33
+      },
+      {
+        "name": "Kendric Davis",
+        "headshot": null,
+        "team": "SYD",
+        "teamId": null,
+        "value": "7.1",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Davo Hickey",
+        "headshot": null,
+        "team": "ILL",
+        "teamId": null,
+        "value": "6.2",
+        "gamesPlayed": 27
+      },
+      {
+        "name": "Nathan Sobey",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "4.9",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Matt Dellavedova",
+        "headshot": null,
+        "team": "SYD",
+        "teamId": null,
+        "value": "4.8",
+        "gamesPlayed": 34
+      },
+      {
+        "name": "Owen Foxwell",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "4.5",
+        "gamesPlayed": 32
+      },
+      {
+        "name": "Tyson Walker",
+        "headshot": null,
+        "team": "MEL",
+        "teamId": null,
+        "value": "4.4",
+        "gamesPlayed": 34
+      },
+      {
+        "name": "Milton Doyle",
+        "headshot": null,
+        "team": "MEL",
+        "teamId": null,
+        "value": "4.3",
+        "gamesPlayed": 35
+      }
+    ],
+    "avgSteals": [
+      {
+        "name": "John Brown",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "2.1",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Parker Jackson-Cartwright",
+        "headshot": null,
+        "team": "NZB",
+        "teamId": null,
+        "value": "1.8",
+        "gamesPlayed": 33
+      },
+      {
+        "name": "Bryce Cotton",
+        "headshot": null,
+        "team": "ADE",
+        "teamId": null,
+        "value": "1.7",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Nathan Sobey",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "1.7",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Tyson Walker",
+        "headshot": null,
+        "team": "MEL",
+        "teamId": null,
+        "value": "1.7",
+        "gamesPlayed": 34
+      },
+      {
+        "name": "Owen Foxwell",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "1.3",
+        "gamesPlayed": 32
+      },
+      {
+        "name": "Karim Lopez",
+        "headshot": null,
+        "team": "NZB",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 30
+      },
+      {
+        "name": "Malique Lewis",
+        "headshot": null,
+        "team": "SEM",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 29
+      },
+      {
+        "name": "Kendric Davis",
+        "headshot": null,
+        "team": "SYD",
+        "teamId": null,
+        "value": "1.1",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Elijah Pepper",
+        "headshot": null,
+        "team": "PER",
+        "teamId": null,
+        "value": "1.1",
+        "gamesPlayed": 37
+      }
+    ],
+    "avgBlocks": [
+      {
+        "name": "JaVale McGee",
+        "headshot": null,
+        "team": "ILL",
+        "teamId": null,
+        "value": "1.8",
+        "gamesPlayed": 31
+      },
+      {
+        "name": "Will Magnay",
+        "headshot": null,
+        "team": "JACK",
+        "teamId": null,
+        "value": "1.8",
+        "gamesPlayed": 24
+      },
+      {
+        "name": "Jo Acuil",
+        "headshot": null,
+        "team": "PER",
+        "teamId": null,
+        "value": "1.6",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Isaac Humphries",
+        "headshot": null,
+        "team": "ADE",
+        "teamId": null,
+        "value": "1.5",
+        "gamesPlayed": 41
+      },
+      {
+        "name": "Tyrell Harrison",
+        "headshot": null,
+        "team": "BRI",
+        "teamId": null,
+        "value": "1.4",
+        "gamesPlayed": 25
+      },
+      {
+        "name": "Xavier Cooks",
+        "headshot": null,
+        "team": "SYD",
+        "teamId": null,
+        "value": "1.3",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Fabijan Krslovic",
+        "headshot": null,
+        "team": "MEL",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 35
+      },
+      {
+        "name": "Jesse Edwards",
+        "headshot": null,
+        "team": "MEL",
+        "teamId": null,
+        "value": "1.1",
+        "gamesPlayed": 33
+      },
+      {
+        "name": "Marcus Lee",
+        "headshot": null,
+        "team": "CRN",
+        "teamId": null,
+        "value": "1.1",
+        "gamesPlayed": 33
+      },
+      {
+        "name": "Davo Hickey",
+        "headshot": null,
+        "team": "ILL",
+        "teamId": null,
+        "value": "1.0",
+        "gamesPlayed": 27
+      }
+    ]
+  }
+}

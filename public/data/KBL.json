@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-09T21:41:41.434Z",
+  "fetchedAt": "2026-09-11T00:48:16.145Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 500",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260810&toDate=20261009&tcodeList=all — HTTP 500",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260812&toDate=20261011&tcodeList=all — HTTP 500",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "Leaders require at least 26 games played."
   ],
@@ -7487,8 +7487,199 @@
     }
   ],
   "standings": {
-    "seasonLabel": "",
-    "rows": []
+    "seasonLabel": "2025-2026",
+    "rows": [
+      {
+        "team": {
+          "id": "changwon-lg-sakers",
+          "realgmId": "1119",
+          "name": "Changwon LG Sakers",
+          "abbr": "CLS",
+          "logo": null
+        },
+        "wins": 36,
+        "losses": 18,
+        "pct": ".667",
+        "gamesBehind": "0",
+        "lastTen": "4-6",
+        "streak": "L 5",
+        "pointsFor": 77.1,
+        "pointsAgainst": 71.8,
+        "diff": "5.3",
+        "seed": 1
+      },
+      {
+        "team": {
+          "id": "anyang-jung-kwan-jang",
+          "realgmId": "426",
+          "name": "Anyang Jung Kwan Jang",
+          "abbr": "AJKJ",
+          "logo": null
+        },
+        "wins": 35,
+        "losses": 19,
+        "pct": ".648",
+        "gamesBehind": "1",
+        "lastTen": "5-5",
+        "streak": "L 2",
+        "pointsFor": 75.2,
+        "pointsAgainst": 72,
+        "diff": "3.2",
+        "seed": 2
+      },
+      {
+        "team": {
+          "id": "wonju-db-promy",
+          "realgmId": "581",
+          "name": "Wonju DB Promy",
+          "abbr": "WDP",
+          "logo": null
+        },
+        "wins": 33,
+        "losses": 21,
+        "pct": ".611",
+        "gamesBehind": "3",
+        "lastTen": "6-4",
+        "streak": "L 3",
+        "pointsFor": 80.2,
+        "pointsAgainst": 80,
+        "diff": "0.2",
+        "seed": 3
+      },
+      {
+        "team": {
+          "id": "seoul-sk-knights",
+          "realgmId": "151",
+          "name": "Seoul SK Knights",
+          "abbr": "SSK",
+          "logo": null
+        },
+        "wins": 32,
+        "losses": 22,
+        "pct": ".593",
+        "gamesBehind": "4",
+        "lastTen": "2-8",
+        "streak": "L 5",
+        "pointsFor": 78.6,
+        "pointsAgainst": 75.3,
+        "diff": "3.3",
+        "seed": 4
+      },
+      {
+        "team": {
+          "id": "busan-kcc-egis",
+          "realgmId": "1118",
+          "name": "Busan KCC Egis",
+          "abbr": "BKE",
+          "logo": null
+        },
+        "wins": 28,
+        "losses": 26,
+        "pct": ".519",
+        "gamesBehind": "8",
+        "lastTen": "8-2",
+        "streak": "W 1",
+        "pointsFor": 83.1,
+        "pointsAgainst": 84.3,
+        "diff": "-1.2",
+        "seed": 5
+      },
+      {
+        "team": {
+          "id": "goyang-sono-skygunners",
+          "realgmId": "992",
+          "name": "Goyang Sono Skygunners",
+          "abbr": "GSS",
+          "logo": null
+        },
+        "wins": 28,
+        "losses": 26,
+        "pct": ".519",
+        "gamesBehind": "8",
+        "lastTen": "6-4",
+        "streak": "L 1",
+        "pointsFor": 79.2,
+        "pointsAgainst": 76.5,
+        "diff": "2.7",
+        "seed": 6
+      },
+      {
+        "team": {
+          "id": "suwon-kt-sonicboom",
+          "realgmId": "580",
+          "name": "Suwon KT Sonicboom",
+          "abbr": "SKS",
+          "logo": null
+        },
+        "wins": 27,
+        "losses": 27,
+        "pct": ".500",
+        "gamesBehind": "9",
+        "lastTen": "5-5",
+        "streak": "W 2",
+        "pointsFor": 77.2,
+        "pointsAgainst": 79.1,
+        "diff": "-1.9",
+        "seed": 7
+      },
+      {
+        "team": {
+          "id": "ulsan-hyundai-mobis-phoebus",
+          "realgmId": "579",
+          "name": "Ulsan Hyundai Mobis Phoebus",
+          "abbr": "UHMP",
+          "logo": null
+        },
+        "wins": 18,
+        "losses": 36,
+        "pct": ".333",
+        "gamesBehind": "18",
+        "lastTen": "2-8",
+        "streak": "W 1",
+        "pointsFor": 74.4,
+        "pointsAgainst": 78.5,
+        "diff": "-4.1",
+        "seed": 8
+      },
+      {
+        "team": {
+          "id": "daegu-korea-gas-corporation",
+          "realgmId": "1120",
+          "name": "Daegu Korea Gas Corporation",
+          "abbr": "DKGC",
+          "logo": null
+        },
+        "wins": 17,
+        "losses": 37,
+        "pct": ".315",
+        "gamesBehind": "19",
+        "lastTen": "4-6",
+        "streak": "W 1",
+        "pointsFor": 76.1,
+        "pointsAgainst": 79.9,
+        "diff": "-3.8",
+        "seed": 9
+      },
+      {
+        "team": {
+          "id": "seoul-samsung-thunders",
+          "realgmId": "425",
+          "name": "Seoul Samsung Thunders",
+          "abbr": "SST",
+          "logo": null
+        },
+        "wins": 16,
+        "losses": 38,
+        "pct": ".296",
+        "gamesBehind": "20",
+        "lastTen": "3-7",
+        "streak": "L 1",
+        "pointsFor": 79.8,
+        "pointsAgainst": 83.3,
+        "diff": "-3.5",
+        "seed": 10
+      }
+    ]
   },
   "games": [
     {
@@ -7639,9 +7830,37 @@
   ],
   "news": [
     {
+      "id": "KBL-kblkbl",
+      "league": "KBL",
+      "title": "KBL to Withdraw Laguna Player Registration Hold. Gas Corporation, Lagoona, and KBL Endless Bokma Warfare. It created a pointless controversy.",
+      "originalTitle": "KBL, 라건아 선수등록 보류 철회. 가스공사, 라건아, 그리고 KBL 끝없는 복마전. 쓸데없는 논란을 만들었다.",
+      "translatedFrom": "ko",
+      "description": "KBL has rescinded Laguna's (37) registration hold. Lagan A is officially registered as a foreign player belonging to Daegu Korea Gas Corporation in the 2026-2027 season. A KBL official said on the 10th that \"following the court ruling, we have decided to proceed with the registration of Lagonia's players as normal.\" Laguna will enter the country on the 11th and will be ready for the 2026-2027 season after completing the player registration process.",
+      "published": "2026-09-10T23:41:06.000Z",
+      "byline": "Chosun",
+      "tag": "Report",
+      "image": "https://www.chosun.com/resizer/v2/GMZWGN3EG4ZDANDFGBRGMZJYMM.jpg?auth=4552a7358223f104f921c475d7b74f260ee71a3811a4ad28ef02248b3edc54a8&smart=true&width=700&height=1049",
+      "url": "https://www.chosun.com/sports/basketball/2026/09/11/MQ4DOMZVGI2DQNJZMJSWCYRSHE/"
+    },
+    {
+      "id": "KBL-asiadskoreabeatssaudiarabiatoopenmensbas",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea beats Saudi Arabia to open men's basketball tournament",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SEOUL, Sept. 10 (Yonhap) -- South Korea cruised to an 82-66 win over Saudi Arabi...",
+      "published": "2026-09-10T09:18:07.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091019280001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260910008300315"
+    },
+    {
       "id": "KBL-mensbasketballteamtakingonsaudiarabiatob",
       "league": "KBL",
       "title": "Men's basketball team taking on Saudi Arabia to begin Asian Games",
+      "originalTitle": null,
+      "translatedFrom": null,
       "description": "SEOUL, Sept. 9 (Yonhap) -- The men's basketball team will start its Asian Games ...",
       "published": "2026-09-09T00:17:23.000Z",
       "byline": "Yonhap News",
@@ -7653,6 +7872,8 @@
       "id": "KBL-skoreanparkjihyunjoinsnewintlbasketballl",
       "league": "KBL",
       "title": "S. Korean Park Ji-hyun joins new int'l basketball league",
+      "originalTitle": null,
+      "translatedFrom": null,
       "description": "SEOUL, Sept. 8 (Yonhap) -- South Korean national team fixture and current Women'...",
       "published": "2026-09-07T21:00:09.000Z",
       "byline": "Yonhap News",

@@ -16,6 +16,27 @@ import { formatDate, relativeTime } from '../lib/format.js'
  *   byline and link to the publisher. The copy stays theirs.
  */
 
+const LANGUAGE_NAMES = { pt: 'Portuguese', 'zh-TW': 'Chinese', zh: 'Chinese', ja: 'Japanese', ko: 'Korean' }
+
+/**
+ * "Translated from Portuguese" — shown on headlines we machine-translated.
+ * A translated headline is not the publisher's own English, and the reader
+ * should know that before they click through to a page in another language.
+ * The original title is kept as a tooltip.
+ */
+function TranslatedNote({ article, className = '' }) {
+  if (!article.translatedFrom) return null
+  const lang = LANGUAGE_NAMES[article.translatedFrom] || article.translatedFrom
+  return (
+    <p
+      className={`eyebrow text-ink/35 ${className}`}
+      title={article.originalTitle ? `Original: ${article.originalTitle}` : undefined}
+    >
+      Machine-translated from {lang}
+    </p>
+  )
+}
+
 /** Marks our own writing where it sits alongside wire items. */
 function MarginBadge() {
   return (
@@ -85,6 +106,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
           <p className="mt-4 max-w-2xl text-lg text-ink/70">{article.description}</p>
         )}
         <Meta className="mt-5 text-ink/45" />
+        <TranslatedNote article={article} className="mt-1" />
       </Wrapper>
     )
   }
@@ -100,6 +122,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
           {article.byline ? `${article.byline} · ` : ''}
           {relativeTime(article.published)}
         </p>
+        <TranslatedNote article={article} className="mt-1" />
       </Wrapper>
     )
   }
@@ -126,6 +149,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
           <p className="mt-3 line-clamp-3 text-sm text-ink/65">{article.description}</p>
         )}
         <Meta className="mt-auto pt-5" />
+        <TranslatedNote article={article} className="mt-1" />
       </div>
     </Wrapper>
   )

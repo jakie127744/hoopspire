@@ -1,11 +1,15 @@
 {
   "league": "TPBL",
-  "season": "2026",
-  "fetchedAt": "2026-09-09T21:42:25.584Z",
+  "season": "Regular season",
+  "fetchedAt": "2026-09-11T00:49:49.268Z",
   "sources": [
     {
       "name": "asia-basket",
       "url": "https://www.asia-basket.com/Taiwan/basketball.aspx"
+    },
+    {
+      "name": "TPBL",
+      "url": "https://tpbl.basketball"
     },
     {
       "name": "Taipei Times",
@@ -13,7 +17,6 @@
     }
   ],
   "notes": [
-    "Clubs, results and fixtures parsed from the public asia-basket league table; its standings and player stats are subscriber-only and unused.",
     "TPBL stats from the league's own API, division \"例行賽\".",
     "Leaders require at least 14 games played."
   ],
@@ -23,7 +26,7 @@
       "league": "TPBL",
       "name": "Formosa Dreamers",
       "nameLocal": "福爾摩沙夢想家",
-      "shortName": "Dreamers",
+      "shortName": "Formosa Dreamers",
       "abbr": "FOR",
       "logo": "https://assets.tpbl.basketball/logos/dreamers.webp"
     },
@@ -32,7 +35,7 @@
       "league": "TPBL",
       "name": "Hsinchu Lioneers",
       "nameLocal": "新竹御嵿攻城獅",
-      "shortName": "Lioneers",
+      "shortName": "Hsinchu Lioneers",
       "abbr": "HSI",
       "logo": "https://assets.tpbl.basketball/logos/lioneers.webp"
     },
@@ -41,7 +44,7 @@
       "league": "TPBL",
       "name": "Kaohsiung Aquas",
       "nameLocal": "高雄全家海神",
-      "shortName": "Aquas",
+      "shortName": "Kaohsiung Aquas",
       "abbr": "KAO",
       "logo": "https://assets.tpbl.basketball/logos/aquas.webp"
     },
@@ -50,7 +53,7 @@
       "league": "TPBL",
       "name": "New Taipei CTBC DEA",
       "nameLocal": "新北中信特攻",
-      "shortName": "Dea",
+      "shortName": "New Taipei CTBC DEA",
       "abbr": "NEW",
       "logo": "https://assets.tpbl.basketball/logos/dea.webp"
     },
@@ -59,7 +62,7 @@
       "league": "TPBL",
       "name": "New Taipei Kings",
       "nameLocal": "新北國王",
-      "shortName": "Kings",
+      "shortName": "New Taipei Kings",
       "abbr": "NEW",
       "logo": "https://assets.tpbl.basketball/logos/kings.webp"
     },
@@ -68,7 +71,7 @@
       "league": "TPBL",
       "name": "Taipei Taishin Mars",
       "nameLocal": "臺北台新戰神",
-      "shortName": "Mars",
+      "shortName": "Taipei Taishin Mars",
       "abbr": "TAI",
       "logo": "https://assets.tpbl.basketball/logos/mars.webp"
     },
@@ -77,7 +80,7 @@
       "league": "TPBL",
       "name": "Taiwan Beer Leopards",
       "nameLocal": "桃園台啤永豐雲豹",
-      "shortName": "Leopards",
+      "shortName": "Taiwan Beer Leopards",
       "abbr": "TAI",
       "logo": "https://assets.tpbl.basketball/logos/leopards.webp"
     }
@@ -5033,12 +5036,132 @@
     }
   ],
   "standings": {
-    "seasonLabel": "",
-    "rows": []
+    "seasonLabel": "Regular season",
+    "rows": [
+      {
+        "team": {
+          "id": "5",
+          "name": "Taiwan Beer Leopards",
+          "abbr": "TAI",
+          "logo": "https://assets.tpbl.basketball/logos/leopards.webp"
+        },
+        "wins": 23,
+        "losses": 13,
+        "pct": ".639",
+        "pointsFor": 99.2,
+        "pointsAgainst": 94.3,
+        "diff": "+174",
+        "streak": null,
+        "seed": 1,
+        "gamesBehind": "—"
+      },
+      {
+        "team": {
+          "id": "3",
+          "name": "Formosa Dreamers",
+          "abbr": "FOR",
+          "logo": "https://assets.tpbl.basketball/logos/dreamers.webp"
+        },
+        "wins": 22,
+        "losses": 14,
+        "pct": ".611",
+        "pointsFor": 100.4,
+        "pointsAgainst": 96.1,
+        "diff": "+154",
+        "streak": null,
+        "seed": 2,
+        "gamesBehind": "1"
+      },
+      {
+        "team": {
+          "id": "4",
+          "name": "Hsinchu Lioneers",
+          "abbr": "HSI",
+          "logo": "https://assets.tpbl.basketball/logos/lioneers.webp"
+        },
+        "wins": 22,
+        "losses": 14,
+        "pct": ".611",
+        "pointsFor": 95.6,
+        "pointsAgainst": 91.6,
+        "diff": "+147",
+        "streak": null,
+        "seed": 3,
+        "gamesBehind": "1"
+      },
+      {
+        "team": {
+          "id": "6",
+          "name": "New Taipei CTBC DEA",
+          "abbr": "NEW",
+          "logo": "https://assets.tpbl.basketball/logos/dea.webp"
+        },
+        "wins": 20,
+        "losses": 16,
+        "pct": ".556",
+        "pointsFor": 99.1,
+        "pointsAgainst": 94.6,
+        "diff": "+160",
+        "streak": null,
+        "seed": 4,
+        "gamesBehind": "3"
+      },
+      {
+        "team": {
+          "id": "7",
+          "name": "New Taipei Kings",
+          "abbr": "NEW",
+          "logo": "https://assets.tpbl.basketball/logos/kings.webp"
+        },
+        "wins": 19,
+        "losses": 17,
+        "pct": ".528",
+        "pointsFor": 98.5,
+        "pointsAgainst": 99.8,
+        "diff": "-46",
+        "streak": null,
+        "seed": 5,
+        "gamesBehind": "4"
+      },
+      {
+        "team": {
+          "id": "8",
+          "name": "Taipei Taishin Mars",
+          "abbr": "TAI",
+          "logo": "https://assets.tpbl.basketball/logos/mars.webp"
+        },
+        "wins": 11,
+        "losses": 25,
+        "pct": ".306",
+        "pointsFor": 96.2,
+        "pointsAgainst": 103.6,
+        "diff": "-267",
+        "streak": null,
+        "seed": 6,
+        "gamesBehind": "12"
+      },
+      {
+        "team": {
+          "id": "2",
+          "name": "Kaohsiung Aquas",
+          "abbr": "KAO",
+          "logo": "https://assets.tpbl.basketball/logos/aquas.webp"
+        },
+        "wins": 9,
+        "losses": 27,
+        "pct": ".250",
+        "pointsFor": 93.6,
+        "pointsAgainst": 102.6,
+        "diff": "-322",
+        "streak": null,
+        "seed": 7,
+        "gamesBehind": "14"
+      }
+    ]
   },
   "games": [
     {
-      "id": "ab-TPBL-2026-06-06-3-7",
+      "id": "ab-TPBL-2026-06-06-dreamers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5067,7 +5190,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-06-04-7-3",
+      "id": "ab-TPBL-2026-06-04-kings-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5096,7 +5219,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-06-02-3-7",
+      "id": "ab-TPBL-2026-06-02-dreamers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5125,7 +5248,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-31-7-3",
+      "id": "ab-TPBL-2026-05-31-kings-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5154,7 +5277,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-29-7-3",
+      "id": "ab-TPBL-2026-05-29-kings-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5183,7 +5306,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-26-3-7",
+      "id": "ab-TPBL-2026-05-26-dreamers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5212,7 +5335,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-24-3-7",
+      "id": "ab-TPBL-2026-05-24-dreamers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5241,7 +5364,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-17-7-5",
+      "id": "ab-TPBL-2026-05-17-kings-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5270,7 +5393,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-16-4-3",
+      "id": "ab-TPBL-2026-05-16-lioneers-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5299,7 +5422,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-15-7-5",
+      "id": "ab-TPBL-2026-05-15-kings-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5328,7 +5451,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-14-4-3",
+      "id": "ab-TPBL-2026-05-14-lioneers-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5357,7 +5480,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-13-5-7",
+      "id": "ab-TPBL-2026-05-13-taiwan-b--kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5386,7 +5509,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-12-3-4",
+      "id": "ab-TPBL-2026-05-12-dreamers-lioneers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5415,7 +5538,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-10-5-7",
+      "id": "ab-TPBL-2026-05-10-taiwan-b--kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5444,7 +5567,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-09-3-4",
+      "id": "ab-TPBL-2026-05-09-dreamers-lioneers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5473,7 +5596,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-06-6-7",
+      "id": "ab-TPBL-2026-05-06-n-taipei-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5502,7 +5625,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-05-7-6",
+      "id": "ab-TPBL-2026-05-05-kings-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5531,7 +5654,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-03-4-2",
+      "id": "ab-TPBL-2026-05-03-lioneers-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5560,7 +5683,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-03-7-6",
+      "id": "ab-TPBL-2026-05-03-kings-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5589,7 +5712,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-02-4-8",
+      "id": "ab-TPBL-2026-05-02-lioneers-taipei-tm",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5618,7 +5741,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-05-02-7-5",
+      "id": "ab-TPBL-2026-05-02-kings-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5647,7 +5770,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-29-4-7",
+      "id": "ab-TPBL-2026-04-29-lioneers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5676,7 +5799,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-26-5-3",
+      "id": "ab-TPBL-2026-04-26-taiwan-b--dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5705,7 +5828,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-26-8-6",
+      "id": "ab-TPBL-2026-04-26-taipei-tm-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5734,7 +5857,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-25-5-2",
+      "id": "ab-TPBL-2026-04-25-taiwan-b--kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5763,7 +5886,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-25-8-4",
+      "id": "ab-TPBL-2026-04-25-taipei-tm-lioneers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5792,7 +5915,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-24-7-3",
+      "id": "ab-TPBL-2026-04-24-kings-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5821,7 +5944,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-19-3-4",
+      "id": "ab-TPBL-2026-04-19-dreamers-lioneers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5850,7 +5973,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-19-6-2",
+      "id": "ab-TPBL-2026-04-19-n-taipei-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5879,7 +6002,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-18-3-8",
+      "id": "ab-TPBL-2026-04-18-dreamers-taipei-tm",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5908,7 +6031,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-18-6-5",
+      "id": "ab-TPBL-2026-04-18-n-taipei-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5937,7 +6060,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-12-2-8",
+      "id": "ab-TPBL-2026-04-12-kaohsiung-taipei-tm",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5966,7 +6089,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-12-4-3",
+      "id": "ab-TPBL-2026-04-12-lioneers-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -5995,7 +6118,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-11-2-7",
+      "id": "ab-TPBL-2026-04-11-kaohsiung-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6024,7 +6147,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-11-4-5",
+      "id": "ab-TPBL-2026-04-11-lioneers-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6053,7 +6176,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-08-4-6",
+      "id": "ab-TPBL-2026-04-08-lioneers-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6082,7 +6205,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-05-6-7",
+      "id": "ab-TPBL-2026-04-05-n-taipei-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6111,7 +6234,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-05-5-8",
+      "id": "ab-TPBL-2026-04-05-taiwan-b--taipei-tm",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6140,7 +6263,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-04-6-3",
+      "id": "ab-TPBL-2026-04-04-n-taipei-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6169,7 +6292,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-04-5-2",
+      "id": "ab-TPBL-2026-04-04-taiwan-b--kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6198,7 +6321,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-04-01-6-8",
+      "id": "ab-TPBL-2026-04-01-n-taipei-taipei-tm",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6227,7 +6350,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-29-4-5",
+      "id": "ab-TPBL-2026-03-29-lioneers-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6256,7 +6379,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-29-8-7",
+      "id": "ab-TPBL-2026-03-29-taipei-tm-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6285,7 +6408,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-28-4-6",
+      "id": "ab-TPBL-2026-03-28-lioneers-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6314,7 +6437,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-28-8-2",
+      "id": "ab-TPBL-2026-03-28-taipei-tm-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6343,7 +6466,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-27-3-7",
+      "id": "ab-TPBL-2026-03-27-dreamers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6372,7 +6495,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-25-3-2",
+      "id": "ab-TPBL-2026-03-25-dreamers-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6401,7 +6524,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-22-6-4",
+      "id": "ab-TPBL-2026-03-22-n-taipei-lioneers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6430,7 +6553,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-22-8-3",
+      "id": "ab-TPBL-2026-03-22-taipei-tm-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6459,7 +6582,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-21-6-2",
+      "id": "ab-TPBL-2026-03-21-n-taipei-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6488,7 +6611,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-21-8-5",
+      "id": "ab-TPBL-2026-03-21-taipei-tm-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6517,7 +6640,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-15-3-5",
+      "id": "ab-TPBL-2026-03-15-dreamers-taiwan-b-",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6546,7 +6669,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-15-4-7",
+      "id": "ab-TPBL-2026-03-15-lioneers-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6575,7 +6698,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-14-3-6",
+      "id": "ab-TPBL-2026-03-14-dreamers-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6604,7 +6727,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-14-4-2",
+      "id": "ab-TPBL-2026-03-14-lioneers-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6633,7 +6756,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-11-4-8",
+      "id": "ab-TPBL-2026-03-11-lioneers-taipei-tm",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6662,7 +6785,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-08-2-6",
+      "id": "ab-TPBL-2026-03-08-kaohsiung-n-taipei",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6691,7 +6814,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-08-5-7",
+      "id": "ab-TPBL-2026-03-08-taiwan-b--kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6720,7 +6843,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-07-2-3",
+      "id": "ab-TPBL-2026-03-07-kaohsiung-dreamers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6749,7 +6872,7 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-03-07-5-4",
+      "id": "ab-TPBL-2026-03-07-taiwan-b--lioneers",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
@@ -6776,9 +6899,746 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "ab-TPBL-2026-03-06-kings-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-06T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-03-04-kings-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 116,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-15-kings-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-15T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-15-taiwan-b--n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-15T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-14-kings-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 116,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-14-taiwan-b--dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-11-taipei-tm-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-08-kaohsiung-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-08T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 113,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-08-taipei-tm-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-08T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-07-kaohsiung-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-07T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-07-taipei-tm-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-07T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-01-dreamers-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-02-01-taiwan-b--taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-02-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-31-dreamers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-31-taiwan-b--lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-25-n-taipei-taipei-tm",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 112,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-25-lioneers-kings",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-24-n-taipei-kaohsiung",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 133,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-24-lioneers-dreamers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-01-18-dreamers-taiwan-b-",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-01-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "5",
+        "name": "Taiwan Beer Leopards",
+        "abbr": "TAI",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "id": "TPBL-447",
+      "league": "TPBL",
+      "title": "[100 reasons why you like basketball Vol. 038] Xiong Xiangtai: Watching the seeds that Dad planted by shooting a 3-point basketball in the bottom corner",
+      "originalTitle": "【一百種喜歡籃球的原因 Vol. 038】熊祥泰：看著爸爸在底角三分投籃而埋下的種子",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-08-28T09:48:34.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/447/tLCnY4CNPXjUZWd0KI6T6tO59All1M9wW4aUB9rD.jpg?20260828175639",
+      "url": "https://tpbl.basketball/news/447"
+    },
+    {
+      "id": "TPBL-439",
+      "league": "TPBL",
+      "title": "2026.08.11 Player Trading Announcement",
+      "originalTitle": "2026.08.11 球員交易公告",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-08-11T04:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/439/pclV3YHz1oRydJF56f39e1G4FOr56JaplFZXclpO.jpg?20260811121216",
+      "url": "https://tpbl.basketball/news/439"
+    },
+    {
+      "id": "TPBL-437",
+      "league": "TPBL",
+      "title": "The power of basketball extends to the off-court 25-26 season charity donation to implement the four major aspects of \"women, children, indigenous people, animals\"",
+      "originalTitle": "籃球的力量，延伸至場外 25-26賽季公益捐款落實「婦女、兒少、原住民、動物」四大面向",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-07-31T06:17:34.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/437/p8hkK3ta8AoU10pYP8hzczcrl5p3DznmsFsLkfJN.jpg?20260731142530",
+      "url": "https://tpbl.basketball/news/437"
+    },
+    {
+      "id": "TPBL-436",
+      "league": "TPBL",
+      "title": "[100 reasons to like basketball Vol. 037] Hedan: Basketball is like an art, there is no fixed formula",
+      "originalTitle": "【一百種喜歡籃球的原因 Vol. 037】賀丹：籃球像一門藝術，沒有固定的公式",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-07-24T07:39:50.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/436/EOl94p2Kdp9Luo4QugV9JbTxXoplHoFRYz1jokmX.jpg?20260724154258",
+      "url": "https://tpbl.basketball/news/436"
+    },
+    {
+      "id": "TPBL-435",
+      "league": "TPBL",
+      "title": "The 2026 Lexar TPBL rookie draft will conclude with the election of Gadan and the completion of the five teams.",
+      "originalTitle": "2026 LEXAR TPBL新人選秀會落幕 賀丹當選狀元、五隊完成補強",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-07-16T11:22:41.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/435/5LtPhljj2fCk4Y86Q97b8wAz7djF5L2CuDSOcPOV.jpg?20260716192717",
+      "url": "https://tpbl.basketball/news/435"
+    },
+    {
+      "id": "TPBL-438",
+      "league": "TPBL",
+      "title": "The original class core and then assemble the foreign aid team. The original class remains to face the new season. Continuing the culture of trust, the goal is to go straight to the second consecutive hegemony.",
+      "originalTitle": "原班核心再集結 外援陣容原班續留迎戰新賽季 延續信任文化 目標直指二連霸",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-07-02T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/434/WfOGtot1VfCUmS8QU1xvZMsOiF4bU89bKXjSdW8Y.jpg?20260702172700",
+      "url": "https://tpbl.basketball/news/438"
+    },
+    {
+      "id": "TPBL-432",
+      "league": "TPBL",
+      "title": "The TPBL draft opens for registration on June 22nd and arrives on July 16th with a new generation ready to go",
+      "originalTitle": "TPBL選秀6月22日開放報名 7月16日登場 新世代好手蓄勢待發",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-06-20T08:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/432/M5VlseTQmX6z4GsLLCbar6n9EBv7aLzQLr58gSkq.jpg?20260622123436",
+      "url": "https://tpbl.basketball/news/432"
+    },
+    {
+      "id": "TPBL-431",
+      "league": "TPBL",
+      "title": "Gao Jinxi won the annual MVP, and he hopes to leave behind not only the results but the value.",
+      "originalTitle": "高錦瑋獲年度MVP肯定 盼留下的不只是成績而是價值",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-06-10T12:36:39.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/431/RTiGEvydQ1HRlrxec774bZFUwoe4A0UfNTRGuULV.jpg?20260610204123",
+      "url": "https://tpbl.basketball/news/431"
+    },
+    {
+      "id": "TPBL-430",
+      "league": "TPBL",
+      "title": "Gao Jinwei's annual MVP \"The Answer of the Season\" reveals the annual glory",
+      "originalTitle": "高錦瑋奪年度MVP 「The Answer of the Season」揭曉年度榮耀",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-06-10T12:14:43.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/430/QPLfFxTVEsEMvNVDwlyaImSqVy5uG7nMQYvVQT1w.jpg?20260610203001",
+      "url": "https://tpbl.basketball/news/430"
+    },
+    {
+      "id": "TPBL-429",
+      "league": "TPBL",
+      "title": "The Champion's Path of the Dreamer: From Questioning to Feng Wang's Philosophy of \"Belief\" Casting Ultimate Glory with Luxe Craftsmanship",
+      "originalTitle": "夢想家的冠軍之路：從質疑到封王的「相信」哲學 以ALUXE工藝鑄就最終榮耀",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-06-09T06:52:16.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/429/5Cv9vVzH5JwbLMcnA8Ev4PEgowZfx153zIRjQG1w.jpg?20260609145521",
+      "url": "https://tpbl.basketball/news/429"
+    },
+    {
+      "id": "TPBL-428",
+      "league": "TPBL",
+      "title": "Dreamers 1: 3 Adversity Grand Dash Team History Champion Bantil wins FMVP",
+      "originalTitle": "夢想家1：3逆境大翻盤奪隊史首冠 班提爾獲FMVP",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-06-06T14:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/428/9lB609P3Es3LnpVdEL1YrAk2bmoodkwiSza9HKti.jpg?20260607143548",
+      "url": "https://tpbl.basketball/news/428"
+    },
+    {
+      "id": "TPBL-427",
+      "league": "TPBL",
+      "title": "2026.05.28 Alliance Announcement",
+      "originalTitle": "2026.05.28 聯盟公告",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-05-28T07:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/427/XZEg29DnJPxgJ2RMahNZWXmA0CIRXtoiKE0gUjT3.jpg?20260528150236",
+      "url": "https://tpbl.basketball/news/427"
+    }
+  ],
   "leaders": {
     "avgPoints": [
       {

@@ -12,7 +12,7 @@ const SECTIONS = [
 /**
  * Leagues menu.
  *
- * There are eleven competitions across four regions — too many for an inline
+ * There are too many competitions across four regions for an inline
  * nav — so they live in a grouped dropdown, keeping the masthead as spare as
  * the original design.
  */

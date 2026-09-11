@@ -23,13 +23,13 @@ npm run build    # production build to dist/
 | WNBA | North America | ESPN public JSON | ✅ live |
 | NBA G League | North America | ESPN public JSON | ✅ live |
 | NCAA Men's | United States | ESPN public JSON | ✅ live |
-| NBB | Brazil | ESPN public JSON | ✅ live |
-| EuroLeague | Europe | EuroLeague official feeds | ✅ live |
-| PBA | Philippines | Wikipedia + PH news desks | snapshot |
+| NBB | Brazil | latinbasket + RealGM + Globo Esporte (translated) | snapshot |
+| EuroLeague | Europe | EuroLeague feeds + Eurohoops/Sportando news | ✅ live |
+| PBA | Philippines | Wikipedia + asia-basket + RealGM + PH news desks | snapshot |
 | KBL | South Korea | RealGM stats + asia-basket + Yonhap | snapshot |
 | B.League | Japan | bleague.jp + Japan Times | snapshot |
 | CBA | China | asia-basket + RealGM stats + SCMP | snapshot |
-| TPBL | Taiwan | TPBL official API + asia-basket | snapshot |
+| TPBL | Taiwan | TPBL official API (stats, standings, news) + asia-basket | snapshot |
 | NBL | Australia | ESPN public JSON | ✅ live |
 
 ## How the data works
@@ -239,6 +239,42 @@ Korean and Japanese sources are converted to English during the scrape, using
 each league's own published English club names. B.League roster entries written
 in katakana are romanized; Japanese players' kanji names keep their original
 form, because romanizing kanji without a name dictionary would be guessing.
+
+## Every league has something
+
+An in-app audit (importing the app's own data layer in the browser, so it
+tests the code readers actually hit) confirms all thirteen leagues return
+news, games, standings, clubs and player leaders.
+
+Where a live feed lacks a piece, a supplement fills it —
+`/public/data/extra/<League>.json`, used **only** when the live source is empty:
+
+- **EuroLeague** — news from Eurohoops and Sportando; averages from RealGM
+- **NBL** — averages from RealGM
+- **FIBA** — tournament averages computed from ESPN box scores (summed across
+  the games each player logged minutes in)
+
+### Translation
+
+Portuguese (Globo Esporte), Chinese (TPBL) and Korean (Chosun) headlines are
+machine-translated through the MyMemory public API and cached in
+`scripts/.cache/`. Every translated item is labelled *Machine-translated from
+…* with the original title on hover. Machine translation mangles proper names —
+Korean 라건아 (Ra Gun-ah) comes back as "Laguna" — so the label is not
+decoration. Headlines in Hangul, kana or Han script are detected and
+translated even when a feed does not declare its language.
+
+### Club identity
+
+Clubs come from the most authoritative source available: the league's own API
+(TPBL), then RealGM's standings (CBA, NBB — full names, unique ids), then a
+results table's labels. Players attach to clubs by **exact id, never by name**.
+
+The name matcher refuses ties. "Beijing" fits both Beijing BeiKong and
+Beijing Shougang; an earlier build merged them into one 41-player roster. Now
+an ambiguous label is left unattributed and reported in the run notes, and
+genuine same-name collisions are resolved in `LABEL_ALIASES` after checking
+them against the league's own table.
 
 ## Standings views
 

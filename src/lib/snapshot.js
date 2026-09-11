@@ -74,3 +74,31 @@ export async function snapshotMeta(league) {
   if (!s) return null
   return { fetchedAt: s.fetchedAt, season: s.season, sources: s.sources || [], notes: s.notes || [] }
 }
+
+/**
+ * Supplements for live leagues (/public/data/extra/<key>.json).
+ *
+ * EuroLeague and the NBL are read live, but their live feeds lack news or
+ * player averages. The scraper fills those gaps from sources a browser cannot
+ * read directly; the app reaches for them only when the live source is empty.
+ */
+const extraCache = new Map()
+
+export async function loadExtra(key) {
+  if (extraCache.has(key)) return extraCache.get(key)
+  const promise = fetch(`${import.meta.env.BASE_URL}data/extra/${key}.json`)
+    .then((res) => (res.ok ? res.json() : null))
+    .catch(() => null)
+  extraCache.set(key, promise)
+  return promise
+}
+
+/** Conference groups for snapshot leagues that play in conferences (PBA). */
+export async function snapshotStandingsGrouped(league) {
+  const s = await loadSnapshot(league)
+  return {
+    seasonLabel: s?.standings?.seasonLabel || '',
+    conferences: s?.standings?.conferences || [],
+    divisions: [],
+  }
+}

@@ -108,11 +108,12 @@ export default function Stats() {
       <section className="mt-14">
         <SectionHead title="Player Leaders">
           <Eyebrow className="text-ink/40">
-            {leaders?.source === 'recent'
-              ? 'From recent box scores'
-              : leaders?.source === 'season'
-                ? 'Season averages'
-                : ''}
+            {leaders?.label ||
+              (leaders?.source === 'recent'
+                ? 'From recent box scores'
+                : leaders?.source === 'season'
+                  ? 'Season averages'
+                  : '')}
           </Eyebrow>
         </SectionHead>
 

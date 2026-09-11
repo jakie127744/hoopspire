@@ -126,7 +126,7 @@ function shift(days) {
  *
  * ESPN accepts a `YYYYMMDD-YYYYMMDD` range, so a whole window costs one
  * request rather than one per day — which matters now that the ledger spans
- * eleven competitions.
+ * every competition in the ledger.
  *
  * Basketball leagues have long off-seasons and dark days, so "today" is often
  * empty. We widen the window in steps until there is something to show, which

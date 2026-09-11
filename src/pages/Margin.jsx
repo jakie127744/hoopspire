@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { getOriginals } from '../lib/articles.js'
-import { LEAGUES } from '../lib/leagues.js'
+import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
@@ -28,7 +28,8 @@ export default function Margin() {
       <h1 className="mt-3 text-6xl md:text-7xl">The Margin</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Basketball argued from the numbers. Every piece here is built on the box scores,
-        standings and season averages the ledger already keeps — across all thirteen leagues,
+        standings and season averages the ledger already keeps — across all{' '}
+        {LEAGUE_COUNT_WORD.toLowerCase()} leagues,
         not just the one everybody covers.
       </p>
 

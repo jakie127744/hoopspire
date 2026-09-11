@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-09T22:06:02.841Z",
+  "fetchedAt": "2026-09-11T00:47:44.981Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -21,8 +21,10 @@
     }
   ],
   "notes": [
+    "fixture unmatched: \"Sunrock.\" vs \"Chiba J.\"",
     "19 B.League players could not be matched to a club",
-    "Leaders require at least 26 games played."
+    "Leaders require at least 26 games played.",
+    "1 standings rows matched no club unambiguously"
   ],
   "teams": [
     {
@@ -16007,8 +16009,503 @@
     }
   ],
   "standings": {
-    "seasonLabel": "",
-    "rows": []
+    "seasonLabel": "2025-2026",
+    "rows": [
+      {
+        "team": {
+          "id": "2488",
+          "realgmId": "2612",
+          "name": "Nagasaki Velca",
+          "abbr": "NAG",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 47,
+        "losses": 13,
+        "pct": ".783",
+        "gamesBehind": "0",
+        "lastTen": "8-2",
+        "streak": "W 2",
+        "pointsFor": 90.9,
+        "pointsAgainst": 79.1,
+        "diff": "11.8",
+        "seed": 1
+      },
+      {
+        "team": {
+          "id": "703",
+          "realgmId": "584",
+          "name": "Utsunomiya Brex",
+          "abbr": "UTS",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 46,
+        "losses": 14,
+        "pct": ".767",
+        "gamesBehind": "1",
+        "lastTen": "7-3",
+        "streak": "L 3",
+        "pointsFor": 85.8,
+        "pointsAgainst": 80.2,
+        "diff": "5.6",
+        "seed": 2
+      },
+      {
+        "team": {
+          "id": "701",
+          "realgmId": "1779",
+          "name": "Ryukyu Golden Kings",
+          "abbr": "RYU",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 43,
+        "losses": 17,
+        "pct": ".717",
+        "gamesBehind": "4",
+        "lastTen": "7-3",
+        "streak": "L 2",
+        "pointsFor": 82.8,
+        "pointsAgainst": 75,
+        "diff": "7.8",
+        "seed": 3
+      },
+      {
+        "team": {
+          "id": "704",
+          "realgmId": "1411",
+          "name": "Chiba Jets",
+          "abbr": "CHI",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 43,
+        "losses": 17,
+        "pct": ".717",
+        "gamesBehind": "4",
+        "lastTen": "7-3",
+        "streak": "L 2",
+        "pointsFor": 84.7,
+        "pointsAgainst": 76.9,
+        "diff": "7.8",
+        "seed": 4
+      },
+      {
+        "team": {
+          "id": "728",
+          "realgmId": "423",
+          "name": "SeaHorses Mikawa",
+          "abbr": "SEA",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 43,
+        "losses": 17,
+        "pct": ".717",
+        "gamesBehind": "4",
+        "lastTen": "7-3",
+        "streak": "L 3",
+        "pointsFor": 83.8,
+        "pointsAgainst": 77.8,
+        "diff": "6.0",
+        "seed": 5
+      },
+      {
+        "team": {
+          "id": "729",
+          "realgmId": "904",
+          "name": "Nagoya Diamond Dolphins",
+          "abbr": "NAG",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 42,
+        "losses": 18,
+        "pct": ".700",
+        "gamesBehind": "5",
+        "lastTen": "3-7",
+        "streak": "L 2",
+        "pointsFor": 83.3,
+        "pointsAgainst": 75.2,
+        "diff": "8.1",
+        "seed": 6
+      },
+      {
+        "team": {
+          "id": "706",
+          "realgmId": "421",
+          "name": "Alvark Tokyo",
+          "abbr": "ALV",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 41,
+        "losses": 19,
+        "pct": ".683",
+        "gamesBehind": "6",
+        "lastTen": "6-4",
+        "streak": "L 3",
+        "pointsFor": 81.4,
+        "pointsAgainst": 77.5,
+        "diff": "3.9",
+        "seed": 7
+      },
+      {
+        "team": {
+          "id": "713",
+          "realgmId": "2446",
+          "name": "Gunma Crane Thunders",
+          "abbr": "GUN",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 41,
+        "losses": 19,
+        "pct": ".683",
+        "gamesBehind": "6",
+        "lastTen": "5-5",
+        "streak": "L 2",
+        "pointsFor": 83.3,
+        "pointsAgainst": 73.4,
+        "diff": "9.9",
+        "seed": 8
+      },
+      {
+        "team": {
+          "id": "692",
+          "realgmId": "1776",
+          "name": "Sendai 89ers",
+          "abbr": "SEN",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 36,
+        "losses": 24,
+        "pct": ".600",
+        "gamesBehind": "11",
+        "lastTen": "6-4",
+        "streak": "L 3",
+        "pointsFor": 82.5,
+        "pointsAgainst": 79.2,
+        "diff": "3.3",
+        "seed": 9
+      },
+      {
+        "team": {
+          "id": "702",
+          "realgmId": "422",
+          "name": "Levanga Hokkaido",
+          "abbr": "LEV",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 36,
+        "losses": 24,
+        "pct": ".600",
+        "gamesBehind": "11",
+        "lastTen": "5-5",
+        "streak": "W 1",
+        "pointsFor": 88.3,
+        "pointsAgainst": 87.1,
+        "diff": "1.2",
+        "seed": 10
+      },
+      {
+        "team": {
+          "id": "697",
+          "realgmId": "1773",
+          "name": "San-en NeoPhoenix",
+          "abbr": "SAN",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 35,
+        "losses": 25,
+        "pct": ".583",
+        "gamesBehind": "12",
+        "lastTen": "5-5",
+        "streak": "W 2",
+        "pointsFor": 85.8,
+        "pointsAgainst": 83.7,
+        "diff": "2.1",
+        "seed": 11
+      },
+      {
+        "team": {
+          "id": "1638",
+          "realgmId": "2611",
+          "name": "Saga Ballooners",
+          "abbr": "SAG",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 32,
+        "losses": 28,
+        "pct": ".533",
+        "gamesBehind": "15",
+        "lastTen": "6-4",
+        "streak": "W 2",
+        "pointsFor": 82,
+        "pointsAgainst": 81.8,
+        "diff": "0.2",
+        "seed": 12
+      },
+      {
+        "team": {
+          "id": "721",
+          "realgmId": "1528",
+          "name": "Hiroshima Dragonflies",
+          "abbr": "HIR",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 31,
+        "losses": 29,
+        "pct": ".517",
+        "gamesBehind": "16",
+        "lastTen": "3-7",
+        "streak": "L 4",
+        "pointsFor": 86.5,
+        "pointsAgainst": 84.6,
+        "diff": "1.9",
+        "seed": 13
+      },
+      {
+        "team": {
+          "id": "720",
+          "realgmId": "577",
+          "name": "Shimane Susanoo Magic",
+          "abbr": "SHI",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 28,
+        "losses": 32,
+        "pct": ".467",
+        "gamesBehind": "19",
+        "lastTen": "5-5",
+        "streak": "L 1",
+        "pointsFor": 80,
+        "pointsAgainst": 81.6,
+        "diff": "-1.6",
+        "seed": 14
+      },
+      {
+        "team": {
+          "id": "694",
+          "realgmId": "1775",
+          "name": "Yokohama B-Corsairs",
+          "abbr": "YOK",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 27,
+        "losses": 33,
+        "pct": ".450",
+        "gamesBehind": "20",
+        "lastTen": "6-4",
+        "streak": "L 2",
+        "pointsFor": 79.4,
+        "pointsAgainst": 81.6,
+        "diff": "-2.2",
+        "seed": 15
+      },
+      {
+        "team": {
+          "id": "726",
+          "realgmId": "226",
+          "name": "SunRockers Shibuya",
+          "abbr": "SUN",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 24,
+        "losses": 36,
+        "pct": ".400",
+        "gamesBehind": "23",
+        "lastTen": "3-7",
+        "streak": "W 1",
+        "pointsFor": 76.3,
+        "pointsAgainst": 80.2,
+        "diff": "-3.9",
+        "seed": 16
+      },
+      {
+        "team": {
+          "id": "700",
+          "realgmId": "1778",
+          "name": "Osaka Evessa",
+          "abbr": "OSA",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 23,
+        "losses": 37,
+        "pct": ".383",
+        "gamesBehind": "24",
+        "lastTen": "4-6",
+        "streak": "L 2",
+        "pointsFor": 81.1,
+        "pointsAgainst": 82.9,
+        "diff": "-1.8",
+        "seed": 17
+      },
+      {
+        "team": {
+          "id": "698",
+          "realgmId": "1780",
+          "name": "Shiga Lakes",
+          "abbr": "SHI",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 22,
+        "losses": 38,
+        "pct": ".367",
+        "gamesBehind": "25",
+        "lastTen": "2-8",
+        "streak": "L 1",
+        "pointsFor": 80.5,
+        "pointsAgainst": 85.3,
+        "diff": "-4.8",
+        "seed": 18
+      },
+      {
+        "team": {
+          "id": "rg-2682",
+          "realgmId": "2682",
+          "name": "Koshigaya Alphas",
+          "abbr": null,
+          "logo": null
+        },
+        "wins": 21,
+        "losses": 39,
+        "pct": ".350",
+        "gamesBehind": "26",
+        "lastTen": "4-6",
+        "streak": "W 1",
+        "pointsFor": 75.7,
+        "pointsAgainst": 82,
+        "diff": "-6.3",
+        "seed": 19
+      },
+      {
+        "team": {
+          "id": "699",
+          "realgmId": "1777",
+          "name": "Kyoto Hannaryz",
+          "abbr": "KYO",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 20,
+        "losses": 40,
+        "pct": ".333",
+        "gamesBehind": "27",
+        "lastTen": "3-7",
+        "streak": "W 1",
+        "pointsFor": 74.6,
+        "pointsAgainst": 81.2,
+        "diff": "-6.6",
+        "seed": 20
+      },
+      {
+        "team": {
+          "id": "2486",
+          "realgmId": "2756",
+          "name": "Altiri Chiba",
+          "abbr": "ALT",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 19,
+        "losses": 41,
+        "pct": ".317",
+        "gamesBehind": "28",
+        "lastTen": "3-7",
+        "streak": "L 2",
+        "pointsFor": 79.1,
+        "pointsAgainst": 84.1,
+        "diff": "-5.0",
+        "seed": 21
+      },
+      {
+        "team": {
+          "id": "712",
+          "realgmId": "1412",
+          "name": "Ibaraki Robots",
+          "abbr": "IBA",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 19,
+        "losses": 41,
+        "pct": ".317",
+        "gamesBehind": "28",
+        "lastTen": "4-6",
+        "streak": "W 2",
+        "pointsFor": 75.6,
+        "pointsAgainst": 81.1,
+        "diff": "-5.5",
+        "seed": 22
+      },
+      {
+        "team": {
+          "id": "729",
+          "realgmId": "2525",
+          "name": "Nagoya Diamond Dolphins",
+          "abbr": "NAG",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 18,
+        "losses": 42,
+        "pct": ".300",
+        "gamesBehind": "29",
+        "lastTen": "2-8",
+        "streak": "W 1",
+        "pointsFor": 80.1,
+        "pointsAgainst": 84.2,
+        "diff": "-4.1",
+        "seed": 23
+      },
+      {
+        "team": {
+          "id": "696",
+          "realgmId": "1774",
+          "name": "Toyama Grouses",
+          "abbr": "TOY",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 17,
+        "losses": 43,
+        "pct": ".283",
+        "gamesBehind": "30",
+        "lastTen": "5-5",
+        "streak": "W 4",
+        "pointsFor": 81.2,
+        "pointsAgainst": 88.3,
+        "diff": "-7.1",
+        "seed": 24
+      },
+      {
+        "team": {
+          "id": "727",
+          "realgmId": "640",
+          "name": "Kawasaki Brave Thunders",
+          "abbr": "KAW",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 16,
+        "losses": 44,
+        "pct": ".267",
+        "gamesBehind": "31",
+        "lastTen": "2-8",
+        "streak": "W 2",
+        "pointsFor": 75.6,
+        "pointsAgainst": 84,
+        "diff": "-8.4",
+        "seed": 25
+      },
+      {
+        "team": {
+          "id": "693",
+          "realgmId": "1164",
+          "name": "Akita Northern Happinets",
+          "abbr": "AKI",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 10,
+        "losses": 50,
+        "pct": ".167",
+        "gamesBehind": "37",
+        "lastTen": "2-8",
+        "streak": "L 8",
+        "pointsFor": 73.1,
+        "pointsAgainst": 85.7,
+        "diff": "-12.6",
+        "seed": 26
+      }
+    ]
   },
   "games": [
     {
@@ -16121,35 +16618,6 @@
         "id": "720",
         "name": "Shimane Susanoo Magic",
         "abbr": "SHI",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-BLeague-2026-09-25-726-704",
-      "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
-      "period": null,
-      "clock": null,
-      "date": "2026-09-25T10:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "726",
-        "name": "SunRockers Shibuya",
-        "abbr": "SUN",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "704",
-        "name": "Chiba Jets",
-        "abbr": "CHI",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
         "score": null,
         "linescores": [],
@@ -16275,9 +16743,89 @@
   ],
   "news": [
     {
+      "id": "BLeague-ajedudwightramoshavefaithallpbagilasteam",
+      "league": "BLeague",
+      "title": "AJ Edu, Dwight Ramos have faith all-PBA Gilas team will deliver",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: Gilas Pilipinas men at Asian Games 2026 5×5 basketball AJ Edu and Dwight Ramos battled from opposite sides on Wednesday night during the preseason feature of the Japan B.League at Mall of Asia Arena. Forty basketball minutes later, the long-time Gilas Pilipinas teammate",
+      "published": "2026-09-11T05:20:42.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/07/dwight-ramos-gilas-pilipinas-vs-australia.jpeg",
+      "url": "https://sports.inquirer.net/694560/edu-ramos-have-faith-all-pba-team-will-deliver"
+    },
+    {
+      "id": "BLeague-ajedusversatilitydrawspraisefromgunmatea",
+      "league": "BLeague",
+      "title": "AJ Edu’s versatility draws praise from Gunma teammates, coach",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—AJ Edu is slowly making his mark with the Gunma Crane Thunders, and former NBA journeyman Stanley Johnson has taken notice. Johnson is still finding his way with Gunma after leaving Nagasaki Velca, but he already likes what Edu brings to the Crane Thunders. “H",
+      "published": "2026-09-10T23:38:45.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/0T1A0227.jpg",
+      "url": "https://sports.inquirer.net/694598/aj-edus-versatility-draws-praise-from-gunma-teammates-coach"
+    },
+    {
+      "id": "BLeague-dwightramosfeelsfilipinocrowdslovewherev",
+      "league": "BLeague",
+      "title": "Dwight Ramos feels Filipino crowd’s love wherever he plays",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—Dwight Ramos once again felt the frenzy of the Filipino crowd during the Japan B.League Manila Games. By now, though, the situation is hardly a surprise. READ: Dwight Ramos ‘big piece’ in Levanga’s B.League bid, says Tominaga After playing for Gilas Pilipinas ",
+      "published": "2026-09-10T23:11:34.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/0T1A0385.jpg",
+      "url": "https://sports.inquirer.net/694590/dwight-ramos-feels-filipino-crowds-love-wherever-he-plays"
+    },
+    {
+      "id": "BLeague-bleaguegunmasweepsmanilagamesafterotwino",
+      "league": "BLeague",
+      "title": "B.League: Gunma sweeps Manila games after OT win over Levanga",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—The Gunma Crane Thunders ruled the Japan B.League Manila Games after defeating Levanga Hokkaido, 101-91, in overtime Thursday at Mall of Asia Arena. Gunma followed up its 98-81 win over Hokkaido on Wednesday night to sweep the Manila leg of its preseason. The ",
+      "published": "2026-09-10T22:21:14.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/MagsShot-4-scaled.jpg",
+      "url": "https://sports.inquirer.net/694567/b-league-gunma-sweeps-manila-games-after-ot-win-over-levanga"
+    },
+    {
+      "id": "BLeague-japanbleaguecoachesimpressedbymanilacrow",
+      "league": "BLeague",
+      "title": "Japan B.League coaches impressed by Manila crowd’s passion",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines— The Japan B.League preseason in Manila was supposedly for the fans, but coaches Torsten Loibl and Kyle Milling got some good experiences of their own. Milling, Gunma’s head coach, steered the Crane Thunders to a 98-81 rout of Levanga Hokkaido at Mall of Asia ",
+      "published": "2026-09-10T15:50:13.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/MGS09072-scaled.jpg",
+      "url": "https://sports.inquirer.net/694422/japan-b-league-coaches-impressed-by-manila-crowds-passion"
+    },
+    {
+      "id": "BLeague-dwightramosbigpieceinlevangasbleaguebids",
+      "league": "BLeague",
+      "title": "Dwight Ramos ‘big piece’ in Levanga’s B.League bid, says Tominaga",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—Levanga Hokkaido’s Dwight Ramos scored just 13 points in the squad’s 98-81 loss to Gunma Crane Thunders in the Japan B.League preseason game at Mall of Asia Arena. Wednesday night. Yet those 13 points drew a louder response than almost every other scoring outp",
+      "published": "2026-09-10T15:22:23.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/0T1A9797.jpg",
+      "url": "https://sports.inquirer.net/694424/dwight-ramos-big-piece-in-levangas-b-league-bid-says-tominaga"
+    },
+    {
       "id": "BLeague-gunmabracesforlevangaresponseinbleaguema",
       "league": "BLeague",
       "title": "Gunma braces for Levanga response in B.League Manila rematch",
+      "originalTitle": null,
+      "translatedFrom": null,
       "description": "MANILA, Philippines—Gunma Crane Thunders hope to repeat their strong performance against Levanga Hokkaido in the second game of the Japan B.League’s Manila preseason series. After dominating Levanga, 98-81, at Mall of Asia Arena on Wednesday night, Gunma coach Kyle Milling said t",
       "published": "2026-09-09T23:35:12.000Z",
       "byline": "Inquirer Sports",
@@ -16289,6 +16837,8 @@
       "id": "BLeague-gilasstarsajedudwightramosputfriendshipa",
       "league": "BLeague",
       "title": "Gilas stars AJ Edu, Dwight Ramos put friendship aside in B.League",
+      "originalTitle": null,
+      "translatedFrom": null,
       "description": "MANILA, Philippines—AJ Edu and Dwight Ramos have built a solid bond as Gilas Pilipinas mainstays. That bond, however, is put aside for now as Levanga Hokkaido and Gunma Crane Thunders meet in a two-game Japan B.League preseason series at Mall of Asia Arena. READ: AJ Edu, Gunma cr",
       "published": "2026-09-09T22:19:22.000Z",
       "byline": "Inquirer Sports",
@@ -16300,6 +16850,8 @@
       "id": "BLeague-ajedugunmacruisepastdwightramoslevangain",
       "league": "BLeague",
       "title": "AJ Edu, Gunma cruise past Dwight Ramos, Levanga in B.League Manila",
+      "originalTitle": null,
+      "translatedFrom": null,
       "description": "MANILA, Philippines—Gunma Crane Thunders began the Manila leg of the Japan B.League preseason in rousing fashion, silencing Levanga Hokkaido, 98-81, at Mall of Asia Arena on Wednesday night. AJ Edu played sparingly for the Crane Thunders, finishing with three points, seven reboun",
       "published": "2026-09-09T21:30:57.000Z",
       "byline": "Inquirer Sports",

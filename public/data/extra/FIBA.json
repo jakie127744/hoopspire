@@ -1,0 +1,427 @@
+{
+  "league": "FIBA",
+  "fetchedAt": "2026-09-11T00:50:15.605Z",
+  "sources": [
+    {
+      "name": "ESPN box scores",
+      "url": "https://www.espn.com/basketball/"
+    }
+  ],
+  "notes": [
+    "FIBA leaders from 32 box scores, 191 players."
+  ],
+  "news": [],
+  "leaders": {
+    "avgPoints": [
+      {
+        "name": "Emma Meesseman",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "21.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Han Xu",
+        "headshot": null,
+        "team": "CHN",
+        "teamId": null,
+        "value": "18.8",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Sevgi Uzun",
+        "headshot": null,
+        "team": "TUR",
+        "teamId": null,
+        "value": "17.7",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Gabby Williams",
+        "headshot": null,
+        "team": "FRA",
+        "teamId": null,
+        "value": "17.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Imani McGee-Stafford",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "17.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Djeneba N'Diaye",
+        "headshot": null,
+        "team": "MLI",
+        "teamId": null,
+        "value": "17.0",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Iyana Martin",
+        "headshot": null,
+        "team": "ESP",
+        "teamId": null,
+        "value": "16.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Marine Johannes",
+        "headshot": null,
+        "team": "FRA",
+        "teamId": null,
+        "value": "16.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Arella Guirantes",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "16.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Sika Kone",
+        "headshot": null,
+        "team": "MLI",
+        "teamId": null,
+        "value": "16.0",
+        "gamesPlayed": 3
+      }
+    ],
+    "avgRebounds": [
+      {
+        "name": "Imani McGee-Stafford",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "12.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Han Xu",
+        "headshot": null,
+        "team": "CHN",
+        "teamId": null,
+        "value": "10.8",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Dorka Juhasz",
+        "headshot": null,
+        "team": "HUN",
+        "teamId": null,
+        "value": "10.4",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Sika Kone",
+        "headshot": null,
+        "team": "MLI",
+        "teamId": null,
+        "value": "10.0",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Leonie Fiebich",
+        "headshot": null,
+        "team": "GER",
+        "teamId": null,
+        "value": "9.0",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Stephanie Talbot",
+        "headshot": null,
+        "team": "AUS",
+        "teamId": null,
+        "value": "8.6",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Kyara Linskens",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "8.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Virag Takacs-Kiss",
+        "headshot": null,
+        "team": "HUN",
+        "teamId": null,
+        "value": "8.4",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Emma Meesseman",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "8.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Lorela Cubaj",
+        "headshot": null,
+        "team": "ITA",
+        "teamId": null,
+        "value": "7.8",
+        "gamesPlayed": 4
+      }
+    ],
+    "avgAssists": [
+      {
+        "name": "Sevgi Uzun",
+        "headshot": null,
+        "team": "TUR",
+        "teamId": null,
+        "value": "8.3",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Julie Allemand",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "7.8",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Caitlin Clark",
+        "headshot": null,
+        "team": "USA",
+        "teamId": null,
+        "value": "7.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Rui Machida",
+        "headshot": null,
+        "team": "JPN",
+        "teamId": null,
+        "value": "5.8",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Yeeun Heo",
+        "headshot": null,
+        "team": "KOR",
+        "teamId": null,
+        "value": "5.8",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Yang Shuyu",
+        "headshot": null,
+        "team": "CHN",
+        "teamId": null,
+        "value": "5.6",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Rokia Doumbia",
+        "headshot": null,
+        "team": "MLI",
+        "teamId": null,
+        "value": "5.0",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Trinity San Antonio",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "4.8",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Emma Meesseman",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "4.8",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Ezinne Kalu",
+        "headshot": null,
+        "team": "NGR",
+        "teamId": null,
+        "value": "4.7",
+        "gamesPlayed": 3
+      }
+    ],
+    "avgSteals": [
+      {
+        "name": "Trinity San Antonio",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "5.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Ezinne Kalu",
+        "headshot": null,
+        "team": "NGR",
+        "teamId": null,
+        "value": "2.7",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Gabby Williams",
+        "headshot": null,
+        "team": "FRA",
+        "teamId": null,
+        "value": "2.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Aminata Sangare",
+        "headshot": null,
+        "team": "MLI",
+        "teamId": null,
+        "value": "2.3",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Julie Pospisilova",
+        "headshot": null,
+        "team": "CZE",
+        "teamId": null,
+        "value": "2.3",
+        "gamesPlayed": 3
+      },
+      {
+        "name": "Rhyne Howard",
+        "headshot": null,
+        "team": "USA",
+        "teamId": null,
+        "value": "2.3",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Jihyun Park",
+        "headshot": null,
+        "team": "KOR",
+        "teamId": null,
+        "value": "2.3",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Maria Conde",
+        "headshot": null,
+        "team": "ESP",
+        "teamId": null,
+        "value": "2.3",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Kennedy Burke",
+        "headshot": null,
+        "team": "TUR",
+        "teamId": null,
+        "value": "2.0",
+        "gamesPlayed": 2
+      },
+      {
+        "name": "Iyana Martin",
+        "headshot": null,
+        "team": "ESP",
+        "teamId": null,
+        "value": "2.0",
+        "gamesPlayed": 4
+      }
+    ],
+    "avgBlocks": [
+      {
+        "name": "Ramu Tokashiki",
+        "headshot": null,
+        "team": "JPN",
+        "teamId": null,
+        "value": "2.3",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Imani McGee-Stafford",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "1.8",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Kyara Linskens",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "1.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Emma Meesseman",
+        "headshot": null,
+        "team": "BEL",
+        "teamId": null,
+        "value": "1.5",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Zhang Ziyu",
+        "headshot": null,
+        "team": "CHN",
+        "teamId": null,
+        "value": "1.4",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Leonie Fiebich",
+        "headshot": null,
+        "team": "GER",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 5
+      },
+      {
+        "name": "Tayra Melendez",
+        "headshot": null,
+        "team": "PUR",
+        "teamId": null,
+        "value": "1.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Angel Reese",
+        "headshot": null,
+        "team": "USA",
+        "teamId": null,
+        "value": "1.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Paige Bueckers",
+        "headshot": null,
+        "team": "USA",
+        "teamId": null,
+        "value": "1.0",
+        "gamesPlayed": 4
+      },
+      {
+        "name": "Elif Bayram",
+        "headshot": null,
+        "team": "TUR",
+        "teamId": null,
+        "value": "1.0",
+        "gamesPlayed": 3
+      }
+    ]
+  },
+  "leadersLabel": "FIBA World Cup tournament averages"
+}

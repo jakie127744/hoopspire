@@ -1,0 +1,615 @@
+{
+  "league": "EuroLeague",
+  "fetchedAt": "2026-09-11T00:50:04.494Z",
+  "sources": [
+    {
+      "name": "Eurohoops",
+      "url": "https://www.eurohoops.net/en/feed/"
+    },
+    {
+      "name": "Sportando",
+      "url": "https://www.sportando.basketball/en/feed/"
+    },
+    {
+      "name": "RealGM",
+      "url": "https://basketball.realgm.com/international"
+    }
+  ],
+  "notes": [],
+  "news": [
+    {
+      "id": "EuroLeague-barcelonatriumphsoverandorrahifiwinsitfo",
+      "league": "EuroLeague",
+      "title": "Barcelona triumphs over Andorra, Hifi wins it for Paris against Zalgiris",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Two EuroLeague teams recorded victories this Thursday The post Barcelona triumphs over Andorra, Hifi wins it for Paris against Zalgiris appeared first on Eurohoops .",
+      "published": "2026-09-10T21:46:45.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/ead170c0-tyrese-martin.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006629/barcelona-triumphs-over-andorra-paris-edges-past-zalgiris-in-a-thriller/"
+    },
+    {
+      "id": "EuroLeague-baskoniatargetalexlentobolsterfrontcourt",
+      "league": "EuroLeague",
+      "title": "Baskonia Target Alex Len to Bolster Frontcourt",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Len returned to Europe last year after spending 12 seasons in the NBA L'articolo Baskonia Target Alex Len to Bolster Frontcourt proviene da Sportando .",
+      "published": "2026-09-10T18:42:43.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/baskonia-target-alex-len-to-bolster-frontcourt/"
+    },
+    {
+      "id": "EuroLeague-tyriquejonesoutforolympiacostriptocyprus",
+      "league": "EuroLeague",
+      "title": "Tyrique Jones out for Olympiacos’ trip to Cyprus due to a cyst in his right thigh",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Olympiacos will not be able to count on their center, while Chima Moneke returns for Crvena Zvezda after passport issues The post Tyrique Jones out for Olympiacos’ trip to Cyprus due to a cyst in his right thigh appeared first on Eurohoops .",
+      "published": "2026-09-10T16:27:45.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/01/f867d47d-jones-tyrique.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006488/tyrique-jones-out-for-olympiacos-trip-to-cyprus-due-to-a-cyst-in-his-right-thigh/"
+    },
+    {
+      "id": "EuroLeague-lorenzobrownpostedamysteriousmessageonxf",
+      "league": "EuroLeague",
+      "title": "Lorenzo Brown posted a mysterious message on X: “Free me”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The American basketball player, who is under contract with Olimpia Milano, spoke out via the X platform The post Lorenzo Brown posted a mysterious message on X: “Free me” appeared first on Eurohoops .",
+      "published": "2026-09-10T16:13:04.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2025/10/28e68ef4-lorenzo-brown.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006483/lorenzo-brown-posted-a-mysterious-message-on-x-free-me/"
+    },
+    {
+      "id": "EuroLeague-franciscoonworkingwithobradovicitsevenbe",
+      "league": "EuroLeague",
+      "title": "Francisco on working with Obradovic: “It’s even better than I expected”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Sylvain Francisco is enjoying his first days with Panathinaikos under Zeljko Obradovic and in Greece again, eagerly awaiting his first game The post Francisco on working with Obradovic: “It’s even better than I expected” appeared first on Eurohoops .",
+      "published": "2026-09-10T15:54:44.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/b8440348-sylvain-francisco-panathinaikos-practice.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006471/francisco-on-working-with-obradovic-its-even-better-than-i-expected/"
+    },
+    {
+      "id": "EuroLeague-lorenzobrownbreakssilencewithcrypticfree",
+      "league": "EuroLeague",
+      "title": "Lorenzo Brown breaks silence with cryptic “Free me” post",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The point guard remains in the United States with Olimpia Milano’s agreement, but no return date has been established L'articolo Lorenzo Brown breaks silence with cryptic “Free me” post proviene da Sportando .",
+      "published": "2026-09-10T14:08:07.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/lorenzo-brown-breaks-silence-with-cryptic-free-me-post/"
+    },
+    {
+      "id": "EuroLeague-amircoffeytradesnbaforeuroleaguearenasde",
+      "league": "EuroLeague",
+      "title": "Amir Coffey trades NBA for EuroLeague arenas: “Definitely excited”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Moving from the NBA to the EuroLeague, 29-year-old Amir Coffey embraces the intense crowd atmospheres of European arenas The post Amir Coffey trades NBA for EuroLeague arenas: “Definitely excited” appeared first on Eurohoops .",
+      "published": "2026-09-10T13:44:08.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/ddb91b06-amir-coffey-layup-hapoel-tel-aviv-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006401/amir-coffey-talks-hapoel-tel-aviv-euroleague/"
+    },
+    {
+      "id": "EuroLeague-vezenkovbuildingmylegacywitholympiacosti",
+      "league": "EuroLeague",
+      "title": "Vezenkov: “Building my legacy with Olympiacos titles, not MVP awards”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "With Olympiacos standing as the EuroLeague champion, 31-year-old Sasha Vezenkov visits the legacy he is building through team titles, roster shifts, and much more The post Vezenkov: “Building my legacy with Olympiacos titles, not MVP awards” appeared first on Eurohoops .",
+      "published": "2026-09-10T12:17:51.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/05/35321f4d-sasha-vezenkov-olympiacos-euroleague-champions-2026.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2006284/sasha-vezenkov-talks-olympiacos-euroleague-2/"
+    },
+    {
+      "id": "EuroLeague-partizandefuenlabradarebrandstohonorhist",
+      "league": "EuroLeague",
+      "title": "Partizan de Fuenlabrada rebrands to honor historic club alliance",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A new name marks the official fusion between Baloncesto Fuenlabrada and KK Partizan Belgrade, celebrating an unbreakable brotherhood The post Partizan de Fuenlabrada rebrands to honor historic club alliance appeared first on Eurohoops .",
+      "published": "2026-09-10T11:27:45.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2022/05/be9e5eeb-partizan_1992-625x375.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006360/fuenlabrada-becomes-partizan-de-fuenlabrada-euroleague/"
+    },
+    {
+      "id": "EuroLeague-patrickbeverleydisclosespathtoolympiacos",
+      "league": "EuroLeague",
+      "title": "Patrick Beverley discloses path to Olympiacos: “I didn’t understand the team”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Olympiacos alum Patrick Beverley reveals his unexpected European tryout path before launching a long, defensive-minded career in the NBA The post Patrick Beverley discloses path to Olympiacos: “I didn’t understand the team” appeared first on Eurohoops .",
+      "published": "2026-09-10T11:08:26.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2023/09/8164616b-beverley-olympiacos-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006356/patrick-beverley-talks-olympiacos-euroleague/"
+    },
+    {
+      "id": "EuroLeague-moustaphafallsufferedahamstringstrain",
+      "league": "EuroLeague",
+      "title": "Moustapha Fall suffered a hamstring strain",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Another major blow for Panathinaikos ahead of the season start The post Moustapha Fall suffered a hamstring strain appeared first on Eurohoops .",
+      "published": "2026-09-09T17:00:42.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/f9195268-moustapha-fall-maroussi-panathinaikos-preseason.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006180/moustapha-fall-suffered-a-hamstring-strain/"
+    },
+    {
+      "id": "EuroLeague-fenerbahcebourgmilanandvezenkovtaketheto",
+      "league": "EuroLeague",
+      "title": "Fenerbahce, Bourg, Milan and Vezenkov take the top honors at the 2025-26 One Team Awards",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The winners were revealed on Wednesday, September 9, on the closing day of the 16th One Team Annual Workshop The post Fenerbahce, Bourg, Milan and Vezenkov take the top honors at the 2025-26 One Team Awards appeared first on Eurohoops .",
+      "published": "2026-09-09T16:40:46.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/0ad9dbf6-one-team.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006167/fenerbahce-bourg-milan-and-vezenkov-take-the-top-honors-at-the-2025-26-one-team-awards/"
+    },
+    {
+      "id": "EuroLeague-saricdominatesasanadoluefesbeatslokomoti",
+      "league": "EuroLeague",
+      "title": "Saric dominates as Anadolu Efes beats Lokomotiv Kuban, Bahcesehir defeats Dubai",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Two Turkish teams secured victories on Wednesday at the Gloria Cup The post Saric dominates as Anadolu Efes beats Lokomotiv Kuban, Bahcesehir defeats Dubai appeared first on Eurohoops .",
+      "published": "2026-09-09T16:34:54.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/82a13150-dario-saric-anadolu-efes-erokspor.jpeg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006164/saric-dominates-as-anadolu-efes-defeats-lokomotiv-kuban/"
+    },
+    {
+      "id": "EuroLeague-olimpiamilanodefeatsstrasbourgaftertwolo",
+      "league": "EuroLeague",
+      "title": "Olimpia Milano defeats Strasbourg after two losses in Crete",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "After two losses against Crvena Zvezda and Fenerbahce, Olimpia bounces back with a victory The post Olimpia Milano defeats Strasbourg after two losses in Crete appeared first on Eurohoops .",
+      "published": "2026-09-09T14:15:59.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/db104aa3-gud.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2006096/olimpia-milano-defeats-strasbourg-after-two-losses-in-crete/"
+    }
+  ],
+  "leaders": {
+    "avgPoints": [
+      {
+        "name": "Sasha Vezenkov",
+        "headshot": null,
+        "team": "OLY",
+        "teamId": null,
+        "value": "19.0",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "Nadir Hifi",
+        "headshot": null,
+        "team": "PAR",
+        "teamId": null,
+        "value": "18.9",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Kendrick Nunn",
+        "headshot": null,
+        "team": "PAN",
+        "teamId": null,
+        "value": "18.3",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Timothe Luwawu-Cabarrot",
+        "headshot": null,
+        "team": "BASK",
+        "teamId": null,
+        "value": "18.3",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Carsen Edwards",
+        "headshot": null,
+        "team": "BOL",
+        "teamId": null,
+        "value": "17.3",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Jordan Nwora",
+        "headshot": null,
+        "team": "ZVE",
+        "teamId": null,
+        "value": "16.9",
+        "gamesPlayed": 34
+      },
+      {
+        "name": "Sylvain Francisco",
+        "headshot": null,
+        "team": "ZAL",
+        "teamId": null,
+        "value": "16.5",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Mike James",
+        "headshot": null,
+        "team": "ASM",
+        "teamId": null,
+        "value": "16.4",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "Dwayne Bacon",
+        "headshot": null,
+        "team": "DUB",
+        "teamId": null,
+        "value": "16.2",
+        "gamesPlayed": 29
+      },
+      {
+        "name": "Tyler Dorsey",
+        "headshot": null,
+        "team": "OLY",
+        "teamId": null,
+        "value": "15.9",
+        "gamesPlayed": 43
+      }
+    ],
+    "avgRebounds": [
+      {
+        "name": "Nikola Milutinov",
+        "headshot": null,
+        "team": "OLY",
+        "teamId": null,
+        "value": "7.2",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Jaylen Hoard",
+        "headshot": null,
+        "team": "MAC",
+        "teamId": null,
+        "value": "7.1",
+        "gamesPlayed": 35
+      },
+      {
+        "name": "Edy Tavares",
+        "headshot": null,
+        "team": "RMB",
+        "teamId": null,
+        "value": "6.6",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "Chima Moneke",
+        "headshot": null,
+        "team": "ZVE",
+        "teamId": null,
+        "value": "6.5",
+        "gamesPlayed": 35
+      },
+      {
+        "name": "Moses Wright",
+        "headshot": null,
+        "team": "ZAL",
+        "teamId": null,
+        "value": "6.5",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Juancho Hernangomez",
+        "headshot": null,
+        "team": "PAN",
+        "teamId": null,
+        "value": "6.5",
+        "gamesPlayed": 44
+      },
+      {
+        "name": "Sasha Vezenkov",
+        "headshot": null,
+        "team": "OLY",
+        "teamId": null,
+        "value": "6.4",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "Mfiondu Kabengele",
+        "headshot": null,
+        "team": "DUB",
+        "teamId": null,
+        "value": "6.1",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Tyrique Jones",
+        "headshot": null,
+        "team": "PAR",
+        "teamId": null,
+        "value": "6.1",
+        "gamesPlayed": 17
+      },
+      {
+        "name": "Daniel Oturu",
+        "headshot": null,
+        "team": "HAP",
+        "teamId": null,
+        "value": "5.6",
+        "gamesPlayed": 42
+      }
+    ],
+    "avgAssists": [
+      {
+        "name": "Codi Miller-McIntyre",
+        "headshot": null,
+        "team": "ZVE",
+        "teamId": null,
+        "value": "7.4",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "Sylvain Francisco",
+        "headshot": null,
+        "team": "ZAL",
+        "teamId": null,
+        "value": "6.5",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Mike James",
+        "headshot": null,
+        "team": "ASM",
+        "teamId": null,
+        "value": "6.4",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "McKinley Wright IV",
+        "headshot": null,
+        "team": "DUB",
+        "teamId": null,
+        "value": "6.1",
+        "gamesPlayed": 38
+      },
+      {
+        "name": "Thomas Walkup",
+        "headshot": null,
+        "team": "OLY",
+        "teamId": null,
+        "value": "5.7",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Wade Baldwin IV",
+        "headshot": null,
+        "team": "FEN",
+        "teamId": null,
+        "value": "5.5",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Thomas Heurtel",
+        "headshot": null,
+        "team": "LYV",
+        "teamId": null,
+        "value": "5.4",
+        "gamesPlayed": 25
+      },
+      {
+        "name": "Tamir Blatt",
+        "headshot": null,
+        "team": "MAC",
+        "teamId": null,
+        "value": "5.2",
+        "gamesPlayed": 38
+      },
+      {
+        "name": "Facundo Campazzo",
+        "headshot": null,
+        "team": "RMB",
+        "teamId": null,
+        "value": "5.1",
+        "gamesPlayed": 44
+      },
+      {
+        "name": "Kostas Sloukas",
+        "headshot": null,
+        "team": "PAN",
+        "teamId": null,
+        "value": "5.1",
+        "gamesPlayed": 38
+      }
+    ],
+    "avgSteals": [
+      {
+        "name": "Alpha Diallo",
+        "headshot": null,
+        "team": "ASM",
+        "teamId": null,
+        "value": "1.4",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Luca Vildoza",
+        "headshot": null,
+        "team": "BOL",
+        "teamId": null,
+        "value": "1.4",
+        "gamesPlayed": 31
+      },
+      {
+        "name": "Jimmy Clark III",
+        "headshot": null,
+        "team": "MAC",
+        "teamId": null,
+        "value": "1.3",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Aleksa Avramovic",
+        "headshot": null,
+        "team": "DUB",
+        "teamId": null,
+        "value": "1.3",
+        "gamesPlayed": 22
+      },
+      {
+        "name": "Shaquille Harrison",
+        "headshot": null,
+        "team": "LYV",
+        "teamId": null,
+        "value": "1.3",
+        "gamesPlayed": 29
+      },
+      {
+        "name": "Tyrique Jones",
+        "headshot": null,
+        "team": "PAR",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 17
+      },
+      {
+        "name": "Nick Weiler-Babb",
+        "headshot": null,
+        "team": "EFE",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Mbaye N'Diaye",
+        "headshot": null,
+        "team": "LYV",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 32
+      },
+      {
+        "name": "Allan Julien Dokossi",
+        "headshot": null,
+        "team": "PAR",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 34
+      },
+      {
+        "name": "Jordan Nwora",
+        "headshot": null,
+        "team": "ZVE",
+        "teamId": null,
+        "value": "1.1",
+        "gamesPlayed": 34
+      }
+    ],
+    "avgBlocks": [
+      {
+        "name": "Edy Tavares",
+        "headshot": null,
+        "team": "RMB",
+        "teamId": null,
+        "value": "1.8",
+        "gamesPlayed": 39
+      },
+      {
+        "name": "Daniel Oturu",
+        "headshot": null,
+        "team": "HAP",
+        "teamId": null,
+        "value": "1.4",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Mbaye N'Diaye",
+        "headshot": null,
+        "team": "LYV",
+        "teamId": null,
+        "value": "1.4",
+        "gamesPlayed": 32
+      },
+      {
+        "name": "Kai Jones",
+        "headshot": null,
+        "team": "EFE",
+        "teamId": null,
+        "value": "1.3",
+        "gamesPlayed": 36
+      },
+      {
+        "name": "Mamadi Diakite",
+        "headshot": null,
+        "team": "BASK",
+        "teamId": null,
+        "value": "1.2",
+        "gamesPlayed": 37
+      },
+      {
+        "name": "Mouhamed Faye",
+        "headshot": null,
+        "team": "PAR",
+        "teamId": null,
+        "value": "1.0",
+        "gamesPlayed": 38
+      },
+      {
+        "name": "Moses Wright",
+        "headshot": null,
+        "team": "ZAL",
+        "teamId": null,
+        "value": "0.9",
+        "gamesPlayed": 42
+      },
+      {
+        "name": "Donta Hall",
+        "headshot": null,
+        "team": "OLY",
+        "teamId": null,
+        "value": "0.9",
+        "gamesPlayed": 38
+      },
+      {
+        "name": "Kevarrius Hayes",
+        "headshot": null,
+        "team": "ASM",
+        "teamId": null,
+        "value": "0.9",
+        "gamesPlayed": 40
+      },
+      {
+        "name": "Alex Len",
+        "headshot": null,
+        "team": "RMB",
+        "teamId": null,
+        "value": "0.9",
+        "gamesPlayed": 23
+      }
+    ]
+  }
+}

@@ -9,8 +9,8 @@
  *                three Asian leagues, which have no CORS-open public API.
  *
  * `group` drives the navigation menu and the home-page rail.
- * `tier: 'core'` marks the five founding leagues that get the hero rail; the
- * rest are still first-class, just not on the front page.
+ * `tier: 'core'` marks the founding leagues. Every league appears on the home
+ * page; nothing is second-class.
  */
 export const LEAGUES = [
   // ── International ────────────────────────────────────────────────────────
@@ -105,8 +105,10 @@ export const LEAGUES = [
     fullName: 'Novo Basquete Brasil',
     region: 'Brazil',
     group: 'Americas',
-    source: 'espn',
-    espnSlug: 'nbb',
+    // ESPN lists NBB clubs but publishes no games, standings, news or stats
+    // for it, so Brazil is snapshot-backed: results from latinbasket, tables
+    // and averages from RealGM, news from Globo Esporte (translated).
+    source: 'snapshot',
     site: 'https://lnb.com.br',
   },
 
@@ -193,8 +195,24 @@ export const LEAGUES = [
 
 export const LEAGUE_KEYS = LEAGUES.map((l) => l.key)
 
-/** The five founding leagues shown on the home-page hero rail. */
+/** Leagues flagged as founding members of the ledger. */
 export const CORE_LEAGUES = LEAGUES.filter((l) => l.tier === 'core')
+
+const WORDS = [
+  'Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten',
+  'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen', 'Sixteen', 'Seventeen',
+  'Eighteen', 'Nineteen', 'Twenty',
+]
+
+/**
+ * The league count as a word, for headline copy.
+ *
+ * Derived from LEAGUES rather than typed into the copy, because it was typed
+ * once ("Five Leagues") and went stale the moment the list grew. Add a league
+ * and every headline that counts them updates on its own.
+ */
+export const LEAGUE_COUNT = LEAGUES.length
+export const LEAGUE_COUNT_WORD = WORDS[LEAGUES.length] ?? String(LEAGUES.length)
 
 export const GROUPS = ['International', 'Americas', 'Europe', 'Asia-Pacific']
 

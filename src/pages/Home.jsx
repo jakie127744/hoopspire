@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useAsync, hasLiveGame } from '../lib/useAsync.js'
 import { getAllNews, getAllGames } from '../lib/api.js'
-import { CORE_LEAGUES } from '../lib/leagues.js'
+import { leaguesByGroup, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
@@ -9,11 +9,19 @@ import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.j
 const HERO_IMAGE =
   'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1600&q=80'
 
-/** Hero: photo panel on the left, the five-league ledger rail on the right. */
+/**
+ * Hero: the photo panel on the left, and every league in the ledger on the
+ * right, grouped by region.
+ *
+ * The count in both headlines comes from LEAGUE_COUNT_WORD — it was typed as
+ * "Five" once and went stale as soon as the list grew, so it is no longer
+ * typed at all.
+ */
 function Hero({ leadByLeague }) {
+  const count = LEAGUE_COUNT_WORD
   return (
     <section className="mx-auto max-w-7xl px-4 pt-8 md:px-8">
-      <div className="grid gap-0 lg:grid-cols-[1.15fr_1fr]">
+      <div className="grid gap-0 lg:grid-cols-[1fr_1.1fr]">
         <div className="relative min-h-[420px] overflow-hidden bg-ink">
           <img
             src={HERO_IMAGE}
@@ -29,35 +37,40 @@ function Hero({ leadByLeague }) {
               <em className="italic">Hardwood</em>
             </h1>
             <p className="mt-5 max-w-md text-cream/75">
-              Five leagues, one ledger — every score, standing and roster pulled live from the
-              competitions themselves.
+              {count} leagues, from Manila to Madrid to São Paulo — one ledger, with every score,
+              standing and roster taken from the competitions and the desks that cover them.
             </p>
           </div>
         </div>
 
-        <div className="border border-parchment bg-paper p-8 md:p-10">
-          <h2 className="font-display text-3xl">Five Leagues. One Ledger.</h2>
-          <div className="mt-6 divide-y divide-parchment">
-            {CORE_LEAGUES.map((l) => {
-              const lead = leadByLeague?.[l.key]
-              return (
-                <Link
-                  key={l.key}
-                  to={`/league/${l.slug}`}
-                  className="group flex flex-col gap-1 py-4 first:pt-0"
-                >
-                  <div className="flex items-baseline justify-between gap-3">
-                    <span className="font-display text-2xl group-hover:text-crimson">
-                      {l.name}
-                    </span>
-                    <Eyebrow className="shrink-0 text-ink/35">{l.region}</Eyebrow>
-                  </div>
-                  <p className="line-clamp-1 text-sm text-ink/60">
-                    {lead?.title || l.fullName}
-                  </p>
-                </Link>
-              )
-            })}
+        <div className="border border-parchment bg-paper p-6 md:p-8">
+          <h2 className="font-display text-3xl">{count} Leagues. One Ledger.</h2>
+
+          <div className="mt-5 space-y-5">
+            {leaguesByGroup().map(({ group, leagues }) => (
+              <div key={group}>
+                <Eyebrow className="text-gold">{group}</Eyebrow>
+                <div className="mt-1 divide-y divide-parchment">
+                  {leagues.map((l) => {
+                    const lead = leadByLeague?.[l.key]
+                    return (
+                      <Link
+                        key={l.key}
+                        to={`/league/${l.slug}`}
+                        className="group flex items-baseline gap-3 py-2"
+                      >
+                        <span className="w-24 shrink-0 font-display text-xl leading-tight group-hover:text-crimson">
+                          {l.name}
+                        </span>
+                        <span className="line-clamp-1 flex-1 text-xs text-ink/55">
+                          {lead?.title || l.fullName}
+                        </span>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
