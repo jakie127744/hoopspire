@@ -294,6 +294,36 @@ and `/data/` are excluded so the CMS loads and a missing data file honestly
 404s instead of returning a web page. The service worker and manifest are sent
 uncached so app updates reach readers promptly.
 
+## Daily data refresh
+
+`.github/workflows/refresh-data.yml` runs every day at **06:00 UTC** (2pm Manila,
+3pm Seoul and Tokyo, 3am São Paulo) — late enough to include the previous
+evening's games in Asia and Brazil. It runs `npm run data`, commits the changed
+snapshots, and Vercel redeploys. Run it by hand from **GitHub → Actions →
+Refresh data → Run workflow**; tick *careers* to refresh player histories too.
+Careers also refresh automatically on Sundays.
+
+**Live scores are not part of this.** NBA, WNBA, G League, NCAA, FIBA,
+EuroLeague and NBL scores come straight from ESPN and EuroLeague to each
+reader's browser, every 30 seconds during games. The daily job only refreshes
+the six snapshot leagues and the supplements — so a PBA, KBL, B.League, CBA,
+TPBL or NBB result appears after the next run, not live.
+
+Guards, because nobody is watching a scheduled run:
+
+- **Never replaces real data with nothing.** `scripts/keep-previous.mjs` keeps
+  the previous value of any section a source returns empty for. If RealGM
+  throttles the runner, a league keeps yesterday's standings and stats (dated
+  in `sectionsUpdatedAt`, listed in `carriedOver`) while its games and news
+  still update.
+- **One run at a time.** Overlapping runs once doubled the load on RealGM and
+  got throttled; the workflow queues instead.
+- Every snapshot must parse as JSON before anything is committed, and a run
+  that changes nothing commits nothing.
+
+GitHub pauses scheduled workflows on public repos after 60 days without
+activity; the daily commits count as activity, so it keeps itself alive.
+
 ## Installable app
 
 Hoopspire is a PWA: it installs to a phone's home screen and opens

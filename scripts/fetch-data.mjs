@@ -30,6 +30,7 @@ import {
 } from './player-stats.mjs'
 import { translate, saveTranslationCache } from './translate.mjs'
 import { buildCareers } from './careers.mjs'
+import { keepPrevious } from './keep-previous.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, '..', 'public', 'data')
@@ -1916,7 +1917,16 @@ async function buildExtras() {
 
   await fs.mkdir(EXTRA_OUT, { recursive: true })
   for (const { key, data } of written) {
-    await fs.writeFile(path.join(EXTRA_OUT, `${key}.json`), JSON.stringify(data, null, 2))
+    const file = path.join(EXTRA_OUT, `${key}.json`)
+    const prev = await fs
+      .readFile(file, 'utf8')
+      .then(JSON.parse)
+      .catch(() => null)
+    // Supplements have no standings, so no RealGM coupling — each section
+    // simply keeps its previous value if this run found nothing.
+    const { data: merged, kept } = keepPrevious(prev, data, ['news', 'leaders', 'playerStats'])
+    if (kept.length) console.log(`  ↺ ${key}: kept previous ${kept.join(', ')}`)
+    await fs.writeFile(file, JSON.stringify(merged, null, 2))
   }
 
   // Report in the same shape as the league scrapers.
@@ -1979,9 +1989,16 @@ async function main() {
     const { key, run } = SCRAPERS[job]
     console.log(`\n▶ ${key}`)
     try {
-      const data = await run()
+      let data = await run()
       if (!data.__extrasOnly) {
         const file = path.join(OUT_DIR, `${key}.json`)
+        const prev = await fs
+          .readFile(file, 'utf8')
+          .then(JSON.parse)
+          .catch(() => null)
+        const merged = keepPrevious(prev, data)
+        data = merged.data
+        if (merged.kept.length) console.log(`  ↺ kept previous: ${merged.kept.join(', ')}`)
         await fs.writeFile(file, JSON.stringify(data, null, 2))
       }
       const players = Object.values(data.rosters).reduce((n, r) => n + r.length, 0)

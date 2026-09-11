@@ -1,0 +1,122 @@
+# Refreshes the snapshot leagues (PBA, KBL, B.League, CBA, TPBL, NBB) and the
+# live-league supplements once a day, commits the new JSON, and lets Vercel's
+# GitHub integration redeploy the site.
+#
+# Live scores are NOT part of this. NBA, WNBA, G League, NCAA, FIBA,
+# EuroLeague and NBL scores are fetched by each reader's browser, live, every
+# 30 seconds during games. This job only updates what cannot be fetched live.
+#
+# Safety: scripts/keep-previous.mjs means a run can update data but never
+# replace it with nothing — if a source is down or throttles the runner, the
+# previous values are kept and dated honestly.
+
+name: Refresh data
+
+on:
+  schedule:
+    # 06:00 UTC = 2pm Manila / 3pm Seoul & Tokyo / 3am São Paulo.
+    # Late enough to include the previous evening's games in Asia and Brazil.
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      careers:
+        description: 'Also refresh player career histories (slow: ~20 min)'
+        type: boolean
+        default: false
+
+# Never run two refreshes at once. Two overlapping runs doubled the load on
+# RealGM once and got throttled; queue instead of overlapping.
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    # `shell: bash` turns on pipefail. The default shell does not, so a crash
+    # in `npm run data | tee` would be swallowed by tee and the step would
+    # pass. (Individual league failures are handled inside the script and do
+    # not crash it — only a genuine bug should fail this step.)
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # Translations and fetched careers are cached between runs, so each run
+      # only translates new headlines and only fetches careers it lacks.
+      - name: Restore scraper cache
+        uses: actions/cache@v4
+        with:
+          path: scripts/.cache
+          key: scraper-cache-${{ github.run_id }}
+          restore-keys: scraper-cache-
+
+      - name: Refresh league data
+        run: npm run data 2>&1 | tee data-run.log
+
+      # Careers: weekly on Sundays, or when asked for on a manual run. One page
+      # per player at twice RealGM's crawl delay, resumable, stops cleanly on a
+      # bot-check page — so it is allowed to fail without failing the job.
+      - name: Refresh player careers
+        if: ${{ inputs.careers || github.event_name == 'schedule' }}
+        continue-on-error: true
+        run: |
+          if [ "${{ inputs.careers }}" = "true" ] || [ "$(date -u +%u)" = "7" ]; then
+            npm run data:careers 2>&1 | tee -a data-run.log
+          else
+            echo "Careers refresh runs on Sundays; skipping."
+          fi
+
+      # Every snapshot must still parse before anything is committed.
+      - name: Validate snapshots
+        run: |
+          node -e "
+            const fs = require('fs'), path = require('path');
+            const walk = (d) => fs.readdirSync(d, { withFileTypes: true })
+              .flatMap((e) => e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]);
+            const files = walk('public/data').filter((f) => f.endsWith('.json'));
+            for (const f of files) JSON.parse(fs.readFileSync(f, 'utf8'));
+            console.log('valid JSON:', files.length, 'files');
+          "
+
+      - name: Summarise
+        if: always()
+        run: |
+          {
+            echo '### Data refresh'
+            echo '```'
+            grep -E '^(▶|✔|✘)|↺|leagues captured' data-run.log || echo 'no log'
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit and push
+        run: |
+          git config user.name  'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/data
+          if git diff --cached --quiet; then
+            echo 'No data changes.'
+            exit 0
+          fi
+          git commit -m "Refresh data — $(date -u +%Y-%m-%d)"
+          # Someone may have pushed (or saved in the CMS) during the run.
+          # Data files and articles do not overlap, so a rebase is safe.
+          for attempt in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep $((attempt * 10))
+          done
+          echo 'Push failed after 3 attempts.' >&2
+          exit 1
