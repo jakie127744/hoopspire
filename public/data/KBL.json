@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-11T10:57:55.512Z",
+  "fetchedAt": "2026-09-12T10:25:10.516Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 500",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260812&toDate=20261011&tcodeList=all — HTTP 500",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260813&toDate=20261012&tcodeList=all — HTTP 500",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,19 @@
   ],
   "news": [
     {
+      "id": "KBL-leadasiadskoreahammersindonesiainmensbas",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea hammers Indonesia in men's basketball, reaches quarterfinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SEOUL, Sept. 11 (Yonhap) -- South Korea routed Indonesia 102-48 for its second s...",
+      "published": "2026-09-11T12:48:19.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091114890001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260911009351315"
+    },
+    {
       "id": "KBL-asiadskoreahammersindonesiafor2ndstraigh",
       "league": "KBL",
       "title": "(Asiad) S. Korea hammers Indonesia for 2nd straight win in men's basketball",
@@ -8932,8 +8945,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-11T10:57:55.512Z",
-    "news": "2026-09-11T10:57:55.512Z"
+    "games": "2026-09-12T10:25:10.516Z",
+    "news": "2026-09-12T10:25:10.516Z"
   },
   "carriedOver": [
     "teams",

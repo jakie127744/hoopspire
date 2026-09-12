@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-09-11T10:59:05.938Z",
+  "fetchedAt": "2026-09-12T10:26:59.558Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-morre-s-rgio-macarr-o-medalhista-ol-mpic",
+      "league": "NBB",
+      "title": "Sérgio Macarrão, Olympic medalist with Brazil in Tokyo 1964, dies",
+      "originalTitle": "Morre Sérgio Macarrão, medalhista olímpico com o Brasil em Tóquio 1964",
+      "translatedFrom": "pt",
+      "description": "Former basketball player, Macarrão, talks about the chances of Brazil's medal in the modality The Brazilian Basketball Confederation (CBB) announced, on Saturday (12), the death of Sérgio Macarrão, former player of the Brazilian National Team and Olympic medalist. He was part of the team that won the Meda",
+      "published": "2026-09-12T03:20:15.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/wT2B-PYGWp1N-z_Z5iTpx96EONw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/8/z/Zhr1PzTnGB5kxseCRT0g/saveclip.app-806415649-18628912561015376-3697809191121698065-n.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/09/12/morre-sergio-macarrao-medalhista-olimpico-com-o-brasil-em-toquio-1964.ghtml"
+    },
+    {
       "id": "NBB-conhe-a-dario-schulz-nico-catarinense-no",
       "league": "NBB",
       "title": "Meet Dario Schulz, the only person from Santa Catarina in the Wheelchair Basketball World Championship",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/MxlppqvFt3aFUzgnuMZA5-VPuxM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/a/UIxjCPRZA9X2bfCTEWMQ/bella-nascimento.webp",
       "url": "https://ge.globo.com/basquete/noticia/2026/08/17/brasil-estreia-com-derrota-no-qualificatorio-para-o-pre-olimpico.ghtml"
-    },
-    {
-      "id": "NBB-chegada-de-lebron-james-foi-presente-de-",
-      "league": "NBB",
-      "title": "LeBron James' arrival was a birthday present for the 76ers coach; understand",
-      "originalTitle": "Chegada de LeBron James foi presente de aniversário para técnico dos 76ers; entenda",
-      "translatedFrom": "pt",
-      "description": "LeBron James improves fitness during the holidays Imagine you coach a basketball team and get as a birthday gift the signing of one of the greatest players of all time. That's what happened to Nick Nurse, coach of the NBA's Philadelphia 76ers, coincidentally.",
-      "published": "2026-08-16T11:00:16.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/zTJFDX2h48OBwliAdY3Pmo2xym4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/y/S/lP1zB6QnKtRdv3RCghUw/whatsapp-image-2026-08-15-at-19.15.25.jpeg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/08/16/chegada-de-lebron-james-foi-presente-de-aniversario-para-tecnico-dos-76ers-entenda.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-09-11T10:59:05.938Z",
-    "news": "2026-09-11T10:59:05.938Z"
+    "games": "2026-09-12T10:26:59.558Z",
+    "news": "2026-09-12T10:26:59.558Z"
   },
   "carriedOver": [
     "teams",

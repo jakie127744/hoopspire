@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-11T10:57:33.529Z",
+  "fetchedAt": "2026-09-12T10:24:46.932Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -18075,32 +18075,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/09/MagsShot-4-scaled.jpg",
       "url": "https://sports.inquirer.net/694567/b-league-gunma-sweeps-manila-games-after-ot-win-over-levanga"
-    },
-    {
-      "id": "BLeague-japanbleaguecoachesimpressedbymanilacrow",
-      "league": "BLeague",
-      "title": "Japan B.League coaches impressed by Manila crowd’s passion",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines— The Japan B.League preseason in Manila was supposedly for the fans, but coaches Torsten Loibl and Kyle Milling got some good experiences of their own. Milling, Gunma’s head coach, steered the Crane Thunders to a 98-81 rout of Levanga Hokkaido at Mall of Asia ",
-      "published": "2026-09-10T15:50:13.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/MGS09072-scaled.jpg",
-      "url": "https://sports.inquirer.net/694422/japan-b-league-coaches-impressed-by-manila-crowds-passion"
-    },
-    {
-      "id": "BLeague-dwightramosbigpieceinlevangasbleaguebids",
-      "league": "BLeague",
-      "title": "Dwight Ramos ‘big piece’ in Levanga’s B.League bid, says Tominaga",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—Levanga Hokkaido’s Dwight Ramos scored just 13 points in the squad’s 98-81 loss to Gunma Crane Thunders in the Japan B.League preseason game at Mall of Asia Arena. Wednesday night. Yet those 13 points drew a louder response than almost every other scoring outp",
-      "published": "2026-09-10T15:22:23.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/0T1A9797.jpg",
-      "url": "https://sports.inquirer.net/694424/dwight-ramos-big-piece-in-levangas-b-league-bid-says-tominaga"
     }
   ],
   "leaders": {
@@ -18571,8 +18545,8 @@
     "playerStats": "2026-09-11T01:01:42.107Z",
     "leaders": "2026-09-11T01:01:42.107Z",
     "standings": "2026-09-11T01:01:42.107Z",
-    "games": "2026-09-11T10:57:33.529Z",
-    "news": "2026-09-11T10:57:33.529Z"
+    "games": "2026-09-12T10:24:46.932Z",
+    "news": "2026-09-12T10:24:46.932Z"
   },
   "carriedOver": [
     "teams",

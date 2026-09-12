@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-11T10:58:39.279Z",
+  "fetchedAt": "2026-09-12T10:26:32.607Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14193,6 +14194,97 @@
   ],
   "news": [
     {
+      "id": "PBA-livegilaspilipinasvskazakhstanasiangames",
+      "league": "PBA",
+      "title": "LIVE: Gilas Pilipinas vs Kazakhstan – Asian Games 2026 men’s basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas looks to bounce back in its second game in the Asian Games 2026 men’s basketball group phase. SCHEDULE: Gilas Pilipinas at Asian Games 2026 5×5 men’s basketball September 12, Saturday – Aichi International Arena 6pm – Kazakhstan vs Gilas Pilipinas LIVE UPDATES: Gi",
+      "published": "2026-09-12T16:57:32.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/2026-09-12_Asian-Games-mens-basketball-Kazakhstan-Philippines-copy-scaled.jpg",
+      "url": "https://sports.inquirer.net/694837/live-gilas-pilipinas-vs-kazakhstan-asian-games-2026-mens-basketball"
+    },
+    {
+      "id": "PBA-luispabloamyahespanolsavorrisefromuaapto",
+      "league": "PBA",
+      "title": "Luis Pablo, Amyah Espanol savor rise from UAAP to Gilas 3×3",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "While jumping between 3×3 and 5-on-5 basketball on a daily basis could be challenging, De La Salle University’s Luis Pablo and Far Eastern University’s Amyah Espanol could not be more grateful to be part of the Philippine delegation to the upcoming 2026 Asian Games in Japan. Pabl",
+      "published": "2026-09-12T08:47:46.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/UAAP-89-BB-Presscon-EJ-Lopez-Amyah-Espanol-4030-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/luis-pablo-amyah-espanol-savor-rise-from-uaap-to-gilas-3x3/383630"
+    },
+    {
+      "id": "PBA-exnbaplayerstanleyjohnsonhighonbleaguete",
+      "league": "PBA",
+      "title": "Ex-NBA player Stanley Johnson high on B.League teammate Edu",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Former NBA starter Stanley Johnson had a lot of praise for his new Gunma Crane Thunders teammate and Gilas Pilipinas mainstay AJ Edu.",
+      "published": "2026-09-12T08:39:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/12/2555804/ex-nba-player-stanley-johnson-high-bleague-teammate-edu"
+    },
+    {
+      "id": "PBA-liveupdatesgilaspilipinasvskazakhstanatt",
+      "league": "PBA",
+      "title": "LIVE UPDATES: Gilas Pilipinas vs Kazakhstan at the 2026 Asian Games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas will look to revive its title defense bid when it takes on Kazakhstan on Saturday in the 2026 Asian Games in Japan.",
+      "published": "2026-09-12T08:36:49.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002141/live-updates-gilas-pilipinas-vs-kazakhstan-at-the-2026-asian-games/story/"
+    },
+    {
+      "id": "PBA-gilaspilipinasbattleskazakhstanincrucial",
+      "league": "PBA",
+      "title": "Gilas Pilipinas battles Kazakhstan in crucial 2026 Asian Games match",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas will look to revive its title defense bid when it takes on Kazakhstan on Saturday in the 2026 Asian Games in Japan.",
+      "published": "2026-09-12T05:35:34.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002133/gilas-pilipinas-battles-kazakhstan-in-crucial-2026-asian-games-match/story/"
+    },
+    {
+      "id": "PBA-gilasfacesmustwingamestomakeitoutofgroup",
+      "league": "PBA",
+      "title": "Gilas faces must-win games to make it out of group play at Asian Games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "LIVE: Gilas Pilipinas vs Kazakhstan – Asian Games 2026 men’s basketball Gilas Pilipinas’ rough loss to Bahrain cast more doubt on its chances of retaining the gold medal in men’s basketball as the country’s campaign in the Aichi-Nagoya Asian Games officially got going on Friday. ",
+      "published": "2026-09-12T05:25:43.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/2026-09-11_Asian-Games-mens-basketball-PHI-BRN-copy.jpg",
+      "url": "https://sports.inquirer.net/694736/gilas-faces-must-win-games-to-make-it-out-of-group-play-at-asian-games"
+    },
+    {
+      "id": "PBA-nationalsstumbleearly",
+      "league": "PBA",
+      "title": "Nationals stumble early",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The weather in the Japanese city of Nagoya was gloomy and so was the start of Gilas Pilipinas’ title-retention campaign at the 20th Asian Games yesterday.",
+      "published": "2026-09-11T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/12/2555653/nationals-stumble-early"
+    },
+    {
       "id": "PBA-gilaspilipinasasiangamestitledefensestar",
       "league": "PBA",
       "title": "Gilas Pilipinas’ Asian Games title defense starts with loss to Bahrain",
@@ -14219,6 +14311,19 @@
       "url": "https://sports.inquirer.net/694622/live-gilas-pilipinas-vs-bahrain-asian-games-2026-mens-basketball"
     },
     {
+      "id": "PBA-gilaspilipinasatthe2026asiangamesmensbas",
+      "league": "PBA",
+      "title": "Gilas Pilipinas at the 2026 Asian Games men's basketball: Groups, format, schedule",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas competes in the 2026 Asian Games men\"s basketball tournament. Here are the groups, format, schedule, and key dates.",
+      "published": "2026-09-11T11:14:00.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002064/gilas-pilipinas-at-the-2026-asian-games-men-s-basketball-groups-format-schedule/story/"
+    },
+    {
       "id": "PBA-oftanashinesbutgilaspilipinasfallsshortv",
       "league": "PBA",
       "title": "Oftana shines but Gilas Pilipinas falls short vs Bahrain to open Asian Games title defense",
@@ -14230,32 +14335,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-men-basketball-philippines-bahrain-september-11-2026/"
-    },
-    {
-      "id": "PBA-gilasfailstomakeitthroughbahrain",
-      "league": "PBA",
-      "title": "Gilas fails to make it through Bahrain",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas’ Asian Games title defense campaign headed to a rough start.",
-      "published": "2026-09-11T06:10:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/11/2555579/gilas-fails-make-it-through-bahrain"
-    },
-    {
-      "id": "PBA-oftanas31notenoughasgilasmenfalltobahrai",
-      "league": "PBA",
-      "title": "Oftana’s 31 not enough as Gilas Men fall to Bahrain in Asiad debut",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Not even Calvin Oftana’s best game in a Philippines jersey was enough as Gilas fell just short and ultimately bowed to Bahrain, 89-85, in a tough start to its Asian Games title defense bid, Friday at the Aichi International Arena in Japan. The seasoned wing fired 31 points in an ",
-      "published": "2026-09-11T06:05:58.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/oftanas-31-not-enough-as-gilas-men-fall-to-bahrain-in-asiad-debut/383554"
     },
     {
       "id": "PBA-gilaspilipinasfallstobahrainin2026asiang",
@@ -14323,71 +14402,6 @@
       "url": "https://sports.inquirer.net/694590/dwight-ramos-feels-filipino-crowds-love-wherever-he-plays"
     },
     {
-      "id": "PBA-dwightramosajeduconfidentinasiadboundgil",
-      "league": "PBA",
-      "title": "Dwight Ramos, AJ Edu confident in Asiad-bound Gilas despite tune-up losses",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "While Gilas Pilipinas Men’s Asian Games campaign takes place in Japan, two of the national team’s FIBA World Cup qualifying mainstays are staying closer to home — with their Japanese clubs in tow. Dwight Ramos and A.J. Edu are in the Philippines for the B.League Manila Games 2026",
-      "published": "2026-09-10T15:45:26.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/Manila-B.League_-Hokkaido-vs-Gunma_-SOTTO-Kai-03274-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/dwight-ramos-aj-edu-confident-in-asiad-bound-gilas-despite-tune-up-losses/383547"
-    },
-    {
-      "id": "PBA-pbadavidmurrellbringsthebouncetoblackwat",
-      "league": "PBA",
-      "title": "PBA: David Murrell brings the bounce to Blackwater’s On Tour win",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–David Murrell was glad to provide some entertainment for fans in San Jose del Monte, Bulacan on Wednesday when Blackwater edged out NLEX to begin the PBA’s exhibition caravan while the Governors’ Cup is on hiatus. Murrell threw it down five times, twice off a ",
-      "published": "2026-09-10T13:46:31.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/PBA-Image12-11.jpg",
-      "url": "https://sports.inquirer.net/694413/pba-david-murrell-brings-the-bounce-to-blackwaters-on-tour-win"
-    },
-    {
-      "id": "PBA-pbadeonteburtonreadytoembracenlexrolewit",
-      "league": "PBA",
-      "title": "PBA: Deonte Burton ready to embrace NLEX role without pressure",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Deonte Burton didn’t suit up in NLEX’s PBA On Tour exhibition game against Blackwater on Wednesday, but he’s looking forward to finally getting a piece of the action when the opportunity arises. And once the season-ending Governors’ Cup finally returns next mo",
-      "published": "2026-09-10T13:26:58.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/deonte-burton-nlex-scaled.jpeg",
-      "url": "https://sports.inquirer.net/694415/pba-deonte-burton-ready-to-embrace-nlex-role-without-pressure"
-    },
-    {
-      "id": "PBA-asiangamesrobertbolickurgedtokeepheadupa",
-      "league": "PBA",
-      "title": "Asian Games: Robert Bolick urged to keep head up after Gilas setbacks",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: Gilas Pilipinas men at Asian Games 2026 5×5 basketball MANILA, Philippines–NLEX coach Jimmy Alapag made sure Robert Bolick would get his message across after Gilas Pilipinas’ much-maligned showing in a two-game exhibition with South Korea raised doubts about its chances",
-      "published": "2026-09-10T13:01:31.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2025/12/Haftime-Gilas-vs-Vietnam-8542-scaled.jpg",
-      "url": "https://sports.inquirer.net/694417/asian-games-robert-bolick-urged-to-keep-head-up-after-gilas-setbacks"
-    },
-    {
-      "id": "PBA-gilaspilipinasmenfinal12atasiangames2026",
-      "league": "PBA",
-      "title": "Gilas Pilipinas men Final 12 at Asian Games 2026 5×5 basketball",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Gilas Pilipinas is bringing an all-PBA roster to its gold medal defense in the Asian Games 2026 men’s basketball tournament in Achi-Nagoya, Japan. SCHEDULE: Gilas Pilipinas men at Asian Games 2026 5×5 basketball Gilas, in Group C with China, Bahrain, and Kazak",
-      "published": "2026-09-10T12:18:14.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/IMG_0001_Gilas-Pilipinas-mens-5x5-roster-copy.jpg",
-      "url": "https://sports.inquirer.net/694395/gilas-pilipinas-men-final-12-at-asian-games-2026-5x5-basketball"
-    },
-    {
       "id": "PBA-gilaspilipinasvsbahrainphbegins2026asian",
       "league": "PBA",
       "title": "Gilas Pilipinas vs Bahrain: PH begins 2026 Asian Games title defense",
@@ -14399,19 +14413,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1001942/gilas-pilipinas-vs-bahrain-ph-begins-2026-asian-games-title-defense/story/"
-    },
-    {
-      "id": "PBA-calvinoftanaloneholdoverfromchampionsqua",
-      "league": "PBA",
-      "title": "Calvin Oftana, lone holdover from champion squad, joins Gilas in Japan",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: Gilas Pilipinas men at Asian Games 2026 5×5 basketball Coach Tim Cone weighed in on the pros and cons of tapping Calvin Oftana as a last-minute addition to Gilas Pilipinas for its defense of the gold in the Aichi-Nagoya Asian Games. While Cone can offer a lot of positiv",
-      "published": "2026-09-10T05:25:03.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/Sports1289128.png",
-      "url": "https://sports.inquirer.net/694338/calvin-oftana-lone-holdover-from-champion-squad-joins-gilas-in-japan"
     },
     {
       "id": "PBA-ajedugunmadominatedwightramoslevangainbl",
@@ -14464,32 +14465,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.rappler.com/sports/gilas-pilipinas/calvin-oftana-completes-roster-asian-games-2026/"
-    },
-    {
-      "id": "PBA-gilaspilipinasatthe2026asiangameslineupa",
-      "league": "PBA",
-      "title": "Gilas Pilipinas at the 2026 Asian Games: Lineup and Schedule",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas eyes another gold medal run as the Philippine national men\"s basketball team heads to Japan for the 2026 Asian Games.",
-      "published": "2026-09-09T05:26:43.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1001721/gilas-pilipinas-at-the-2026-asian-games-lineup-and-schedule/story/"
-    },
-    {
-      "id": "PBA-calvinoftanacompletesgilaspilipinasfinal",
-      "league": "PBA",
-      "title": "Calvin Oftana completes Gilas Pilipinas' Final 12 in Asian Games gold medal defense",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Calvin Oftana is back with Gilas Pilipinas, completing the Philippine national men\"s basketball team\"s Final 12 for its gold medal defense at the 2026 Asian Games in Japan.",
-      "published": "2026-09-09T04:27:00.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1001712/calvin-oftana-completes-gilas-pilipinas-final-12-in-asian-games-gold-medal-defense/story/"
     },
     {
       "id": "PBA-timconeunfazedasgilaspilipinasheadstoasi",
@@ -14986,8 +14961,8 @@
     "playerStats": "2026-09-11T01:03:40.144Z",
     "leaders": "2026-09-11T01:03:40.144Z",
     "standings": "2026-09-11T01:03:40.144Z",
-    "games": "2026-09-11T10:58:39.279Z",
-    "news": "2026-09-11T10:58:39.279Z"
+    "games": "2026-09-12T10:26:32.607Z",
+    "news": "2026-09-12T10:26:32.607Z"
   },
   "carriedOver": [
     "teams",
