@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-12T10:25:10.516Z",
+  "fetchedAt": "2026-09-13T11:28:05.431Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 500",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260813&toDate=20261012&tcodeList=all — HTTP 500",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260814&toDate=20261013&tcodeList=all — HTTP 500",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8945,8 +8945,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-12T10:25:10.516Z",
-    "news": "2026-09-12T10:25:10.516Z"
+    "games": "2026-09-13T11:28:05.431Z",
+    "news": "2026-09-13T11:28:05.431Z"
   },
   "carriedOver": [
     "teams",

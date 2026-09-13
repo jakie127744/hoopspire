@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-12T10:24:46.932Z",
+  "fetchedAt": "2026-09-13T11:27:41.442Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -25,7 +25,7 @@
     "BLeague 2026: RealGM returned a bot-check page; skipped",
     "BLeague 2025: RealGM returned a bot-check page; skipped",
     "BLeague: bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -18545,7 +18545,7 @@
     "playerStats": "2026-09-11T01:01:42.107Z",
     "leaders": "2026-09-11T01:01:42.107Z",
     "standings": "2026-09-11T01:01:42.107Z",
-    "games": "2026-09-12T10:24:46.932Z",
+    "games": "2026-09-13T11:27:41.442Z",
     "news": "2026-09-12T10:24:46.932Z"
   },
   "carriedOver": [
@@ -18553,6 +18553,7 @@
     "rosters",
     "playerStats",
     "leaders",
-    "standings"
+    "standings",
+    "news"
   ]
 }

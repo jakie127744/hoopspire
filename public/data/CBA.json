@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-12T10:26:41.537Z",
+  "fetchedAt": "2026-09-13T11:29:43.164Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18598,19 +18598,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/07/c7fb574c-5cfd-4e20-8ff0-d49e6f028985_f22ad2c7.jpg?itok=SuoJVejW&v=1788736054",
       "url": "https://www.scmp.com/sport/china/article/3366570/china-get-fiba-womens-basketball-world-cup-campaign-back-track-italy-give-us-scare?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-gunawanclaimschinamastersbeatenleehailsb",
-      "league": "CBA",
-      "title": "Gunawan claims China Masters, beaten Lee hails ‘best day’ in Hong Kong badminton history",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The city’s top player, Lee Cheuk-yiu, said he had witnessed the “best day in badminton history for Hong Kong” despite going down in straight sets to compatriot Jason Gunawan at the China Masters in Shenzhen on Sunday. World No 25 Lee, who had finished second at the India Open in ",
-      "published": "2026-09-06T12:25:43.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/06/01ab97f6-20c3-4566-a554-7c2fa6c7af64_c7943c54.jpg?itok=gb7CQWOX&v=1788697541",
-      "url": "https://www.scmp.com/sport/hong-kong/article/3366554/lee-cheuk-yiu-hails-best-day-hong-kongs-badminton-history-despite-china-masters-loss?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -19081,8 +19068,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-12T10:26:41.537Z",
-    "news": "2026-09-12T10:26:41.537Z"
+    "games": "2026-09-13T11:29:43.164Z",
+    "news": "2026-09-13T11:29:43.164Z"
   },
   "carriedOver": [
     "teams",
