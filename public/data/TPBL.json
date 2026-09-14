@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-09-13T11:29:47.406Z",
+  "fetchedAt": "2026-09-14T12:22:15.090Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -7483,6 +7483,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-458",
+      "league": "TPBL",
+      "title": "TPBL \"Unboxing the New Ten Force Pre-Season Warm-Up Tournament\" debuted on October 9 with seven teams rallying and ten forces for the new season",
+      "originalTitle": "TPBL 「開箱新十力 季前熱身賽」10月9日登場 七隊集結、十大力量迎接新賽季",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-13T11:30:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/458/HnlcMUT5oRx0MG6NJF0gDofWRM9gNpaixjP5aaki.jpg?20260914140829",
+      "url": "https://tpbl.basketball/news/458"
+    },
+    {
       "id": "TPBL-457",
       "league": "TPBL",
       "title": "The Fan Support Calendar is here! TPBL announces new season schedule and seven-team home opening match October 7th Season kickoff press conference will be broadcast live on official YouTube to reveal the season's main axis",
@@ -7494,6 +7507,32 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/457/PFiGY4bT0lAkej5uXDK1CdZfQctbPUuIpbwH2QdI.jpg?20260911120421",
       "url": "https://tpbl.basketball/news/457"
+    },
+    {
+      "id": "TPBL-466",
+      "league": "TPBL",
+      "title": "Taipei God of War Coach Group adds more power to extend Xu Shiqing's role as assistant coach",
+      "originalTitle": "臺北戰神教練團再添戰力 延攬許時清出任助理教練",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-10T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/456/DXSOvgplEDIZb6JmzoFQPIRGQHhyzrvv2La01Cbd.jpg?20260911101404",
+      "url": "https://tpbl.basketball/news/466"
+    },
+    {
+      "id": "TPBL-465",
+      "league": "TPBL",
+      "title": "Taipei Taipei New War God Coach Team Passion Gathering Coach Xie Yiqian officially joined",
+      "originalTitle": "臺北台新戰神教練團異動 情蒐教練謝一謙正式加入",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-01T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/455/8Q9Vx1dvuYA9dPSQ8qNiS1SmkrvKSBRsifWstFak.jpg?20260911101116",
+      "url": "https://tpbl.basketball/news/465"
     },
     {
       "id": "TPBL-447",
@@ -7509,134 +7548,95 @@
       "url": "https://tpbl.basketball/news/447"
     },
     {
-      "id": "TPBL-439",
+      "id": "TPBL-473",
       "league": "TPBL",
-      "title": "2026.08.11 Player Trading Announcement",
-      "originalTitle": "2026.08.11 球員交易公告",
+      "title": "The champion flank keeps firing! Ma Jianhao once again put on a green war robe and experienced the baptism of the first crown. Growing up, the heavy guns of the new season were aimed at the reigning",
+      "originalTitle": "冠軍側翼火力不熄！馬建豪再度披上綠色戰袍 經歷首冠洗禮成長 新賽季重砲瞄準衛冕",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-08-11T04:00:00.000Z",
+      "published": "2026-08-27T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/439/pclV3YHz1oRydJF56f39e1G4FOr56JaplFZXclpO.jpg?20260811121216",
-      "url": "https://tpbl.basketball/news/439"
+      "image": "https://assets.tpbl.basketball/production/posts/446/Rr8noLIKms6xC4kKnugMDiUcTiiqqsPyZEkUCA4C.jpg?20260827113602",
+      "url": "https://tpbl.basketball/news/473"
     },
     {
-      "id": "TPBL-437",
+      "id": "TPBL-464",
       "league": "TPBL",
-      "title": "The power of basketball extends to the off-court 25-26 season charity donation to implement the four major aspects of \"women, children, indigenous people, animals\"",
-      "originalTitle": "籃球的力量，延伸至場外 25-26賽季公益捐款落實「婦女、兒少、原住民、動物」四大面向",
+      "title": "\"Air Bomber\" Griffith joins Taipei War God to return to Taiwan Oath Shock Team history crown",
+      "originalTitle": "「空中轟炸機」葛瑞菲加盟臺北戰神 重返臺灣誓言衝擊隊史首冠",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-07-31T06:17:34.000Z",
+      "published": "2026-08-25T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/437/p8hkK3ta8AoU10pYP8hzczcrl5p3DznmsFsLkfJN.jpg?20260731142530",
-      "url": "https://tpbl.basketball/news/437"
+      "image": "https://assets.tpbl.basketball/production/posts/453/FPzOYE7ZpMnEzPoKAICcBmZxFmBb0cQpDOo5jwG5.jpg?20260901005126",
+      "url": "https://tpbl.basketball/news/464"
     },
     {
-      "id": "TPBL-436",
+      "id": "TPBL-472",
       "league": "TPBL",
-      "title": "[100 reasons to like basketball Vol. 037] Hedan: Basketball is like an art, there is no fixed formula",
-      "originalTitle": "【一百種喜歡籃球的原因 Vol. 037】賀丹：籃球像一門藝術，沒有固定的公式",
+      "title": "The Dreamer Defensive Core remains the same! Walker renews his contract to fight again for the new season: \"The data is never the key, the key is to become a player that the coach trusts\"",
+      "originalTitle": "夢想家防守核心不變！忻沃克續約再戰新賽季 忻沃克：「數據從來不是重點，重點是成為教練信賴的球員」",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-07-24T07:39:50.000Z",
+      "published": "2026-08-25T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/436/EOl94p2Kdp9Luo4QugV9JbTxXoplHoFRYz1jokmX.jpg?20260724154258",
-      "url": "https://tpbl.basketball/news/436"
+      "image": "https://assets.tpbl.basketball/production/posts/445/hqpLmuKF4fwi99cwm8hO9NxdUJdOG2FpztGZ7QX3.jpg?20260825132225",
+      "url": "https://tpbl.basketball/news/472"
     },
     {
-      "id": "TPBL-435",
+      "id": "TPBL-471",
       "league": "TPBL",
-      "title": "The 2026 Lexar TPBL rookie draft will conclude with the election of Gadan and the completion of the five teams.",
-      "originalTitle": "2026 LEXAR TPBL新人選秀會落幕 賀丹當選狀元、五隊完成補強",
+      "title": "Dreamer Continues Young Combat Force Shi Chengping: Because Training Doesn't Deceive!",
+      "originalTitle": "夢想家延續年輕戰力 史承平：因為訓練不會騙人！",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-07-16T11:22:41.000Z",
+      "published": "2026-08-24T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/435/5LtPhljj2fCk4Y86Q97b8wAz7djF5L2CuDSOcPOV.jpg?20260716192717",
-      "url": "https://tpbl.basketball/news/435"
+      "image": "https://assets.tpbl.basketball/production/posts/444/us3T0OMsotK4zqlrJpfAsTQuBaF25bKthN0Gli63.jpg?20260825093458",
+      "url": "https://tpbl.basketball/news/471"
     },
     {
-      "id": "TPBL-438",
+      "id": "TPBL-470",
       "league": "TPBL",
-      "title": "The original class core and then assemble the foreign aid team. The original class remains to face the new season. Continuing the culture of trust, the goal is to go straight to the second consecutive hegemony.",
-      "originalTitle": "原班核心再集結 外援陣容原班續留迎戰新賽季 延續信任文化 目標直指二連霸",
+      "title": "Popular Cheerleader of the Year Mikami Youa Renewal Dreamer! New Season Continues to Support Shoutoutout Fans' Meet Me at Home '",
+      "originalTitle": "年度人氣啦啦隊員 三上悠亞續約夢想家！ 新賽季持續應援 喊話球迷「主場見」",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-07-02T10:00:00.000Z",
+      "published": "2026-08-21T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/434/WfOGtot1VfCUmS8QU1xvZMsOiF4bU89bKXjSdW8Y.jpg?20260702172700",
-      "url": "https://tpbl.basketball/news/438"
+      "image": "https://assets.tpbl.basketball/production/posts/443/p4ILCEQiieEcULA51jsxe9y56QeB0LNgcKlJveEa.jpg?20260821115759",
+      "url": "https://tpbl.basketball/news/470"
     },
     {
-      "id": "TPBL-432",
+      "id": "TPBL-463",
       "league": "TPBL",
-      "title": "The TPBL draft opens for registration on June 22nd and arrives on July 16th with a new generation ready to go",
-      "originalTitle": "TPBL選秀6月22日開放報名 7月16日登場 新世代好手蓄勢待發",
+      "title": "Croatian national hand joins Taipei War God to extend 211 cm mobile center Marley",
+      "originalTitle": "克羅埃西亞國手加盟 臺北戰神延攬211公分機動型中鋒馬利",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-06-20T08:00:00.000Z",
+      "published": "2026-08-20T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/432/M5VlseTQmX6z4GsLLCbar6n9EBv7aLzQLr58gSkq.jpg?20260622123436",
-      "url": "https://tpbl.basketball/news/432"
+      "image": "https://assets.tpbl.basketball/production/posts/452/yMYnKMMGi4AQcpU1bk05ICVAapAfYE1Jfa7hZu1W.jpg?20260901004934",
+      "url": "https://tpbl.basketball/news/463"
     },
     {
-      "id": "TPBL-431",
+      "id": "TPBL-469",
       "league": "TPBL",
-      "title": "Gao Jinxi won the annual MVP, and he hopes to leave behind not only the results but the value.",
-      "originalTitle": "高錦瑋獲年度MVP肯定 盼留下的不只是成績而是價值",
+      "title": "Champion DNA continues! Jet Zhang Zongxian completes contract renewal and joins the Dreamers in the new season of Swordfinger II",
+      "originalTitle": "冠軍 DNA 延續！噴射機張宗憲完成續約 攜手夢想家迎戰新賽季 劍指二連霸",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-06-10T12:36:39.000Z",
+      "published": "2026-08-20T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/431/RTiGEvydQ1HRlrxec774bZFUwoe4A0UfNTRGuULV.jpg?20260610204123",
-      "url": "https://tpbl.basketball/news/431"
-    },
-    {
-      "id": "TPBL-430",
-      "league": "TPBL",
-      "title": "Gao Jinwei's annual MVP \"The Answer of the Season\" reveals the annual glory",
-      "originalTitle": "高錦瑋奪年度MVP 「The Answer of the Season」揭曉年度榮耀",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-06-10T12:14:43.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/430/QPLfFxTVEsEMvNVDwlyaImSqVy5uG7nMQYvVQT1w.jpg?20260610203001",
-      "url": "https://tpbl.basketball/news/430"
-    },
-    {
-      "id": "TPBL-429",
-      "league": "TPBL",
-      "title": "The Champion's Path of the Dreamer: From Questioning to Feng Wang's Philosophy of \"Belief\" Casting Ultimate Glory with Luxe Craftsmanship",
-      "originalTitle": "夢想家的冠軍之路：從質疑到封王的「相信」哲學 以ALUXE工藝鑄就最終榮耀",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-06-09T06:52:16.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/429/5Cv9vVzH5JwbLMcnA8Ev4PEgowZfx153zIRjQG1w.jpg?20260609145521",
-      "url": "https://tpbl.basketball/news/429"
-    },
-    {
-      "id": "TPBL-428",
-      "league": "TPBL",
-      "title": "Dreamers 1: 3 Adversity Grand Dash Team History Champion Bantil wins FMVP",
-      "originalTitle": "夢想家1：3逆境大翻盤奪隊史首冠 班提爾獲FMVP",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-06-06T14:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/428/9lB609P3Es3LnpVdEL1YrAk2bmoodkwiSza9HKti.jpg?20260607143548",
-      "url": "https://tpbl.basketball/news/428"
+      "image": "https://assets.tpbl.basketball/production/posts/442/f4WfNaTdGHdNWuqceiff5gCBubA0DLPhGeB588pn.jpg?20260820165224",
+      "url": "https://tpbl.basketball/news/469"
     }
   ],
   "leaders": {
@@ -8102,12 +8102,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-09-13T11:29:47.406Z",
-    "rosters": "2026-09-13T11:29:47.406Z",
-    "playerStats": "2026-09-13T11:29:47.406Z",
-    "standings": "2026-09-13T11:29:47.406Z",
-    "games": "2026-09-13T11:29:47.406Z",
-    "news": "2026-09-13T11:29:47.406Z",
-    "leaders": "2026-09-13T11:29:47.406Z"
+    "teams": "2026-09-14T12:22:15.090Z",
+    "rosters": "2026-09-14T12:22:15.090Z",
+    "playerStats": "2026-09-14T12:22:15.090Z",
+    "standings": "2026-09-14T12:22:15.090Z",
+    "games": "2026-09-14T12:22:15.090Z",
+    "news": "2026-09-14T12:22:15.090Z",
+    "leaders": "2026-09-14T12:22:15.090Z"
   }
 }

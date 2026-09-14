@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-13T11:29:43.164Z",
+  "fetchedAt": "2026-09-14T12:22:02.205Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18496,6 +18496,19 @@
   ],
   "news": [
     {
+      "id": "CBA-asiangamestinybedsroomsthatleakisjapanac",
+      "league": "CBA",
+      "title": "Asian Games: tiny beds, rooms that leak, is Japan accommodation ‘the worst ever’?",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Accommodation at the Asian Games in Japan is the “worst ever”, South Korean officials said on Monday, also warning of “a serious shortage” of rooms. Beds in shipping container-style huts are too short for players to stretch out, a South Korean basketball chief said, while officia",
+      "published": "2026-09-14T12:00:06.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/05e597b3-bfdd-42c5-8432-5d473cd7aeae_83feed9d.jpg?itok=GILCug11&v=1789377442",
+      "url": "https://www.scmp.com/sport/other-sport/article/3367455/asian-games-tiny-beds-rooms-leak-japan-accommodation-worst-ever?utm_source=rss_feed"
+    },
+    {
       "id": "CBA-asiangameschinabasketballstarspackedin3t",
       "league": "CBA",
       "title": "Asian Games: China basketball stars packed in 3 to a container in Japan’s athletes’ village",
@@ -18559,45 +18572,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/08/89c174b3-8f93-4357-8752-5b76a1de105d_e89c514e.jpg?itok=YXSVugFE&v=1788858690",
       "url": "https://www.scmp.com/sport/china/article/3366776/new-china-badminton-chief-vows-fight-corruption-purge-chaos-after-predecessor-removed?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-zhangziyuchinastoweringteenagebasketball",
-      "league": "CBA",
-      "title": "Zhang Ziyu, China’s towering teenage basketball World Cup sensation, ‘just a little girl’",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Chinese teenage basketball player Zhang Ziyu stands 2.23 metres (7 feet 4 inches) and towers over opponents at the Women’s World Cup – but off the court she’s “just a little girl”. That was the assessment of the giant 19-year-old by teammate Han Xu after China’s 74-70 overtime wi",
-      "published": "2026-09-07T14:00:08.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/07/c289984f-c006-471e-bbe8-84dfe96a6a1f_0578c5d7.jpg?itok=2YpdW1AB&v=1788770499",
-      "url": "https://www.scmp.com/sport/china/article/3366628/zhang-ziyu-chinas-towering-teenage-basketball-world-cup-sensation-just-little-girl?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-badmintonstaranseyoungclaimshattrickofch",
-      "league": "CBA",
-      "title": "Badminton star An Se-young claims hat-trick of China Masters titles ahead of Asian Games",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Badminton world No 1 An Se-young sent a warning for the Asian Games as she clinched her third China Masters title in a row in ominous fashion. South Korea’s reigning Olympic and world champion will defend her crown when the Asian Games begin on September 19 in Aichi-Nagoya in Jap",
-      "published": "2026-09-07T04:47:38.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/07/8bc16fac-9a5a-4a73-85a1-96df4636579a_096afa64.jpg?itok=htHP8KdG&v=1788756456",
-      "url": "https://www.scmp.com/sport/other-sport/article/3366593/badminton-star-se-young-claims-hat-trick-china-masters-titles-ahead-asian-games?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-chinagetfibawomensbasketballworldcupcamp",
-      "league": "CBA",
-      "title": "China get Fiba Women’s Basketball World Cup campaign back on track as Italy give US a scare",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "China used their considerable height to battle past ⁠the Czech Republic ⁠74-70 in an overtime thriller ⁠at the Fiba Women’s World Cup on Sunday, with the New York Liberty’s nearly 2.13-metre-tall (7 foot) centre Han Xu’s double-double making the difference. In a later match, the ",
-      "published": "2026-09-06T22:57:21.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/07/c7fb574c-5cfd-4e20-8ff0-d49e6f028985_f22ad2c7.jpg?itok=SuoJVejW&v=1788736054",
-      "url": "https://www.scmp.com/sport/china/article/3366570/china-get-fiba-womens-basketball-world-cup-campaign-back-track-italy-give-us-scare?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -19068,8 +19042,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-13T11:29:43.164Z",
-    "news": "2026-09-13T11:29:43.164Z"
+    "games": "2026-09-14T12:22:02.205Z",
+    "news": "2026-09-14T12:22:02.205Z"
   },
   "carriedOver": [
     "teams",
