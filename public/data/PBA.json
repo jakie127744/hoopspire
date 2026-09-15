@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-14T12:21:53.269Z",
+  "fetchedAt": "2026-09-15T11:28:41.123Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14193,6 +14193,110 @@
   ],
   "news": [
     {
+      "id": "PBA-gilaspilipinasassistantcoachricharddelro",
+      "league": "PBA",
+      "title": "Gilas Pilipinas assistant coach Richard del Rosario defends team's mindset in online exchange",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas was shown the door out of the Asian Games in the worst way possible.",
+      "published": "2026-09-15T11:17:16.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002482/gilas-pilipinas-assistant-coach-richard-del-rosario-defends-team-s-mindset-in-online-exchange/story/"
+    },
+    {
+      "id": "PBA-poclawmakersraisequestionsovergilaspilip",
+      "league": "PBA",
+      "title": "POC, lawmakers raise questions over Gilas Pilipinas' shock Asian Games exit",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Philippine Olympic Committee (POC) as well as some lawmakers are seeking answers following Gilas Pilipinas\" unexpected early exit from the Asian Games in Nagoya, Japan.",
+      "published": "2026-09-15T10:41:12.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002477/poc-lawmakers-raise-questions-over-gilas-pilipinas-shock-asian-games-exit/story/"
+    },
+    {
+      "id": "PBA-williemarcialurgespublictosparegilasfrom",
+      "league": "PBA",
+      "title": "Willie Marcial urges public to spare Gilas from bashing after Asiad exit",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Willie Marcial admitted that the pain from Gilas Pilipinas’ crushing loss to China remains fresh, but urged critics to spare the players from further bashing when they return home. The Philippines was eliminated from contention for a second straight Asian Games gold medal after s",
+      "published": "2026-09-15T10:26:32.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/willie-marcial-urges-public-to-spare-gilas-from-bashing-after-asiad-exit/383936"
+    },
+    {
+      "id": "PBA-absenceofnaturalizedplayersingilasasiang",
+      "league": "PBA",
+      "title": "Absence of naturalized players in Gilas' Asian Games roster questioned in Senate",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "In a Senate Session on Monday, September 15, lawmakers questioned the status and availability of naturalized players for the national men's basketball team after the defending champions failed to advance past the group stage.",
+      "published": "2026-09-15T08:31:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/15/2556461/absence-naturalized-players-gilas-asian-games-roster-questioned-senate"
+    },
+    {
+      "id": "PBA-gilaslossofcrownleavesphbasketballsearch",
+      "league": "PBA",
+      "title": "Gilas’ loss of crown leaves PH basketball searching for answers",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Philippines has historically been among the top contenders in Asian Games basketball; the country has consistently advanced to the knockout rounds or has even stayed in medal-hunt position. But a game against a perennial rival ended that run—and exposed some of the parts with",
+      "published": "2026-09-15T04:30:08.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/Calvin-Oftana-FIBA-15September2026.jpg",
+      "url": "https://sports.inquirer.net/695300/loss-of-crown-following-brutal-defeat-to-china-leaves-ph-basketball-searching-for-answers"
+    },
+    {
+      "id": "PBA-gilaspilipinasasiangamesdebaclenotthepla",
+      "league": "PBA",
+      "title": "Gilas Pilipinas’ Asian Games debacle not the players’ fault, Cone says",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Coach Tim Cone refused to pin the blame on the players who answered the call to play for Gilas Pilipinas in the Aichi-Nagoya Asian Games 2026 that ended in a debacle. As much as he pointed out Gilas’ failure to field the best team possible for its defense of t",
+      "published": "2026-09-14T23:57:55.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/adrian-nocum-gilas-pilipinas-vs-china-asian-games-2026.jpg",
+      "url": "https://sports.inquirer.net/695320/gilas-pilipinas-asian-games-debacle-not-the-players-fault-cone-says"
+    },
+    {
+      "id": "PBA-gilaspilipinasunderfireafterbrutalasiang",
+      "league": "PBA",
+      "title": "Gilas Pilipinas under fire after brutal Asian Games loss to China",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Gilas Pilipinas’ early exit, leading to the country’s worst-ever finish in Asian Games men’s basketball, left fans disappointed and even drew sharp criticism from those on the outside looking in. Reaction was mostly negative toward the way Gilas was blown out ",
+      "published": "2026-09-14T23:47:45.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/gilas-pilipinas-vs-china-asian-games.jpg",
+      "url": "https://sports.inquirer.net/695318/gilas-pilipinas-under-fire-after-brutal-asian-games-loss-to-china"
+    },
+    {
+      "id": "PBA-coneruesabsenceofbestplayersaftergilaswo",
+      "league": "PBA",
+      "title": "Cone rues absence of ‘best players’ after Gilas’ worst Asian Games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Gilas Pilipinas coach Tim Cone acknowledged that it was not able to field the best team possible for its defense of the Asian Games gold that ended on a horrific note by missing a spot in the quarterfinals. Cone and the Philippines’ bid to repeat their dream r",
+      "published": "2026-09-14T23:28:40.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/08/IMG_0252_FIBA-World-Cup-Asian-Qualifiers-4th-Window-Philippines-Jordan_Coach-Tim-Cone.jpg",
+      "url": "https://sports.inquirer.net/695312/cone-rues-absence-of-best-players-after-gilas-worst-asian-games"
+    },
+    {
       "id": "PBA-gilasplilipinascrashesoutinasiangamesaft",
       "league": "PBA",
       "title": "Gilas Plilipinas crashes out in Asian Games after big loss to China",
@@ -14204,6 +14308,32 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/09/gilas-pilipinas-vs-china-asian-games-2026.jpg",
       "url": "https://sports.inquirer.net/695242/gilas-plilipinas-crashes-out-in-asian-games-after-loss-to-china"
+    },
+    {
+      "id": "PBA-gilasyouth33getsreinforcementsassquadssp",
+      "league": "PBA",
+      "title": "Gilas Youth 3×3 gets reinforcements as squads split for U23 World Cup, Asian Games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "With Gilas Pilipinas Under-23 splitting its roster between the FIBA 3×3 Under-23 World Cup and the 20th Asian Games, the national program has called up several reinforcements for both competitions. Malcolm Tyler and Louna Ozar have been added to the squads for the World Cup, whic",
+      "published": "2026-09-14T14:19:13.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/03/2026-FIBA-Womens-World-Cup-Qualifiers-Gilas-Women-vs-Nigeria-Louna-Ozar-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/gilas-youth-3x3-gets-reinforcements-as-squads-split-for-u23-world-cup-asian-games/383908"
+    },
+    {
+      "id": "PBA-oftanasaysgilaspilipinasasiangamesexitsh",
+      "league": "PBA",
+      "title": "Oftana says Gilas Pilipinas’ Asian Games exit should serve as lesson",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Despite being a last-minute inclusion, Calvin Oftana emerges as Gilas Pilipinas' best player, although his Asian Games run ends early as the Philippines fails to reach the quarterfinals",
+      "published": "2026-09-14T13:03:53.000Z",
+      "byline": "Rappler",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.rappler.com/sports/gilas-pilipinas/calvin-oftana-says-asian-games-exit-should-serve-lesson/"
     },
     {
       "id": "PBA-coneruesabsenceofbestplayersasgilassuffe",
@@ -14232,32 +14362,6 @@
       "url": "https://sports.inquirer.net/695158/live-gilas-pilipinas-vs-china-asian-games-2026-mens-basketball"
     },
     {
-      "id": "PBA-timconegilaswontexcelwithoutbestplayersi",
-      "league": "PBA",
-      "title": "Tim Cone: Gilas ‘won’t excel’ without best players in international meets",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Tim Cone had a plan heading into Window 4 of the FIBA World Cup Asian Qualifiers and the 20th Asian Games. He split Gilas Pilipinas into two groups, with the main pool playing in the qualifiers’ home games against Syria and Iran, while an all-PBA squad competed in Aichi. The only",
-      "published": "2026-09-14T09:13:15.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/tim-cone-gilas-wont-excel-without-best-players-in-international-meets/383845"
-    },
-    {
-      "id": "PBA-bamboltolentinoquestionslackofnaturalize",
-      "league": "PBA",
-      "title": "Bambol Tolentino questions lack of naturalized players after Gilas exit",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Philippines’ reign over the Asian Games has come to a cruel end. Gilas Pilipinas Men’s bid to defend its title came crashing down on Monday after suffering a 105-61 defeat to China at the Aichi International Arena in Japan, ending the Filipinos’ campaign. The Filipino dribble",
-      "published": "2026-09-14T08:41:59.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/bambol-tolentino-questions-lack-of-naturalized-players-after-gilas-exit/383840"
-    },
-    {
       "id": "PBA-gilaspilipinasmissesquartersasasiangames",
       "league": "PBA",
       "title": "Gilas Pilipinas misses quarters as Asian Games title defense dashed by China",
@@ -14269,32 +14373,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-men-basketball-philippines-china-september-14-2026/"
-    },
-    {
-      "id": "PBA-gilasendsasiangamesgoldrepeatbidafter44p",
-      "league": "PBA",
-      "title": "Gilas ends Asian Games gold repeat bid after 44-point beating vs China",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Defending champion Gilas Pilipinas failed to reach the quarterfinal round of the Aichi-Nagoya Asian Games after suffering a 44-point defeat against China, 105-61, Monday afternoon at the Aichi International Arena in Japan.",
-      "published": "2026-09-14T06:04:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/14/2556219/gilas-ends-asian-games-gold-repeat-bid-after-44-point-beating-vs-china"
-    },
-    {
-      "id": "PBA-chinagetsrevengeendsgilasmensasiangamest",
-      "league": "PBA",
-      "title": "China gets revenge, ends Gilas Men’s Asian Games title defense",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Philippines bid goodbye to its back-to-back aspirations in the 20th Asian Games men’s basketball tilt after suffering a 105-61 beatdown at the hands of a vengeful China on Monday at the Aichi International Arena in Japan. Gilas actually afforded to lose to the traditional con",
-      "published": "2026-09-14T05:58:59.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/china-gets-revenge-ends-gilas-mens-asian-games-title-defense/383832"
     },
     {
       "id": "PBA-gilaspilipinasfallstochinadethronedasasi",
@@ -14349,32 +14427,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1002267/gilas-pilipinas-hopes-to-boost-asian-games-quarterfinal-bid-vs-china/story/"
     },
     {
-      "id": "PBA-meralcoboltscjcansinogetsengagedtolongti",
-      "league": "PBA",
-      "title": "Meralco Bolts' CJ Cansino gets engaged to longtime girlfriend",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Meralco Bolts player CJ Cansino is engaged to his longtime girlfriend, Alliana Dolina.",
-      "published": "2026-09-13T08:13:09.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1002211/meralco-bolts-cj-cansino-gets-engaged-to-longtime-girlfriend/story/"
-    },
-    {
-      "id": "PBA-gilaspilipinasbouncesbacktosetupkeyshowd",
-      "league": "PBA",
-      "title": "Gilas Pilipinas bounces back to set up key showdown vs rival China",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: Gilas Pilipinas men at Asian Games 2026 5×5 basketball The Philippines will face a huge obstacle in its bid to keep its title defense alive in the Aichi-Nagoya Asian Games—a Great Wall, in fact. Gilas Pilipinas kept its hopes afloat with a 109-78 victory over Kazakhstan",
-      "published": "2026-09-13T04:30:38.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/806073983_3383902015115908_8439000994646829707_n.jpeg",
-      "url": "https://sports.inquirer.net/694981/gilas-ph-bounces-back-routs-kazakhstan-to-set-up-key-showdown-vs-rival-china"
-    },
-    {
       "id": "PBA-bolickredeemsselfahanmisicatchesfireasgi",
       "league": "PBA",
       "title": "Bolick redeems self, Ahanmisi catches fire as Gilas Pilipinas rips Kazakhstan in Asian Games",
@@ -14386,19 +14438,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-men-basketball-philippines-kazakhstan-september-12-2026/"
-    },
-    {
-      "id": "PBA-oftanashinesbutgilaspilipinasfallsshortv",
-      "league": "PBA",
-      "title": "Oftana shines but Gilas Pilipinas falls short vs Bahrain to open Asian Games title defense",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Last-minute inclusion Calvin Oftana sees arguably his finest game in a national team uniform go down the drain as Gilas Pilipinas falls into a double-digit hole and comes up short of its late comeback",
-      "published": "2026-09-11T06:52:15.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-men-basketball-philippines-bahrain-september-11-2026/"
     }
   ],
   "leaders": {
@@ -14869,8 +14908,8 @@
     "playerStats": "2026-09-11T01:03:40.144Z",
     "leaders": "2026-09-11T01:03:40.144Z",
     "standings": "2026-09-11T01:03:40.144Z",
-    "games": "2026-09-14T12:21:53.269Z",
-    "news": "2026-09-14T12:21:53.269Z"
+    "games": "2026-09-15T11:28:41.123Z",
+    "news": "2026-09-15T11:28:41.123Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-14T12:22:02.205Z",
+  "fetchedAt": "2026-09-15T11:28:49.991Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18546,32 +18546,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/09/6be4e222-10ea-4bab-944b-442f393d3de1_10d6a94b.jpg?itok=3lDA6tEQ&v=1788930954",
       "url": "https://www.scmp.com/sport/other-sport/article/3366874/record-rain-forces-hundreds-asian-games-athletes-evacuate-accommodation?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-womensbasketballworldcuphanxustarsagaina",
-      "league": "CBA",
-      "title": "Women’s Basketball World Cup: Han Xu stars again as China seal second spot in group",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Chinese WNBA player Han Xu scored a second consecutive double-double as China beat Italy 71-51 to secure second place in their group at the Fiba Women’s Basketball World Cup. China’s 7ft 3in (2.33m) teenage sensation Zhang Ziyu scored eight points with perfect shooting from the f",
-      "published": "2026-09-08T13:00:10.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/08/704c0fec-0a08-4949-b39f-3d241bdddbbc_85be1440.jpg?itok=m6vKuwhW&v=1788859267",
-      "url": "https://www.scmp.com/sport/basketball/article/3366781/womens-basketball-world-cup-han-xu-stars-again-china-seal-second-spot-group?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-newchinabadmintonchiefvowstofightcorrupt",
-      "league": "CBA",
-      "title": "New China badminton chief vows to fight corruption, ‘purge chaos’ after predecessor removed",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "China’s new badminton chief has vowed to crack down on corruption and “purge industry chaos” after being appointed to replace two-time Olympic gold medallist Zhang Jun. Zhang Jun, the former president of the Chinese Badminton Association (CBA), has not been seen for months after ",
-      "published": "2026-09-08T09:30:10.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/08/89c174b3-8f93-4357-8752-5b76a1de105d_e89c514e.jpg?itok=YXSVugFE&v=1788858690",
-      "url": "https://www.scmp.com/sport/china/article/3366776/new-china-badminton-chief-vows-fight-corruption-purge-chaos-after-predecessor-removed?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -19042,8 +19016,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-14T12:22:02.205Z",
-    "news": "2026-09-14T12:22:02.205Z"
+    "games": "2026-09-15T11:28:49.991Z",
+    "news": "2026-09-15T11:28:49.991Z"
   },
   "carriedOver": [
     "teams",
