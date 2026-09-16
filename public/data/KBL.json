@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-15T11:27:34.015Z",
+  "fetchedAt": "2026-09-16T11:13:30.219Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260816&toDate=20261015&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260817&toDate=20261016&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,58 @@
   ],
   "news": [
     {
+      "id": "KBL-2ndldasiadskoreablowsoutjordantoreachmen",
+      "league": "KBL",
+      "title": "(2nd LD) (Asiad) S. Korea blows out Jordan to reach men's basketball semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 16 (Yonhap) -- South Korea breezed past Jordan 114-80 to re...",
+      "published": "2026-09-16T06:39:45.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091609600001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260916005352315"
+    },
+    {
+      "id": "KBL-asiadbasketballcaptainsayscriticismbroug",
+      "league": "KBL",
+      "title": "(Asiad) Basketball captain says criticism brought team closer",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 16 (Yonhap) -- As losses piled up for the men's national ba...",
+      "published": "2026-09-16T04:51:37.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091606900001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260916006100315"
+    },
+    {
+      "id": "KBL-leadasiadskoreablowsoutjordantoreachmens",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea blows out Jordan to reach men's basketball semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 16 (Yonhap) -- South Korea breezed past Jordan 114-80 to re...",
+      "published": "2026-09-16T03:22:24.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091609600001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260916005351315"
+    },
+    {
+      "id": "KBL-asiadskoreablowsoutjordantoreachmensbask",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea blows out Jordan to reach men's basketball semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 16 (Yonhap) -- South Korea breezed past Jordan 114-80 to re...",
+      "published": "2026-09-16T03:07:49.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/16/PYH2026091609600001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260916005300315"
+    },
+    {
       "id": "KBL-asiadskoreatofacejordaninmensbasketballq",
       "league": "KBL",
       "title": "(Asiad) S. Korea to face Jordan in men's basketball quarterfinals",
@@ -9010,8 +9062,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-15T11:27:34.015Z",
-    "news": "2026-09-15T11:27:34.015Z"
+    "games": "2026-09-16T11:13:30.219Z",
+    "news": "2026-09-16T11:13:30.219Z"
   },
   "carriedOver": [
     "teams",

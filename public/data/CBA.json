@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-15T11:28:49.991Z",
+  "fetchedAt": "2026-09-16T11:15:12.102Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18533,19 +18533,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/10/33f37ce6-442b-4165-8750-e75e1cbf29cc_16ea622f.jpg?itok=IR-W4q5R&v=1789025398",
       "url": "https://www.scmp.com/sport/basketball/article/3367025/womens-basketball-world-cup-china-reach-last-8-fans-worry-over-squad-depth-fatigue?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-recordrainforceshundredsofasiangamesathl",
-      "league": "CBA",
-      "title": "Record rain forces hundreds of Asian Games athletes to evacuate accommodation",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Hundreds of Asian Games athletes in Japan were briefly evacuated from their accommodation as record rainfall lashed host city Nagoya, with competition starting on Thursday. Rainwater also leaked into some competition venues, with more wet weather forecast for the coming days. The",
-      "published": "2026-09-09T06:00:19.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/09/6be4e222-10ea-4bab-944b-442f393d3de1_10d6a94b.jpg?itok=3lDA6tEQ&v=1788930954",
-      "url": "https://www.scmp.com/sport/other-sport/article/3366874/record-rain-forces-hundreds-asian-games-athletes-evacuate-accommodation?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -19016,8 +19003,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-15T11:28:49.991Z",
-    "news": "2026-09-15T11:28:49.991Z"
+    "games": "2026-09-16T11:15:12.102Z",
+    "news": "2026-09-16T11:15:12.102Z"
   },
   "carriedOver": [
     "teams",
