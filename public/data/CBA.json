@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-16T11:15:12.102Z",
+  "fetchedAt": "2026-09-17T11:22:43.294Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18520,19 +18520,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/11/6e09c8a8-e40c-4301-8cf1-6c3cf7ac331e_040ea315.jpg?itok=8ASYp7UB&v=1789111610",
       "url": "https://www.scmp.com/sport/china/article/3367178/asian-games-china-basketball-stars-packed-3-container-japans-athletes-village?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-womensbasketballworldcupchinareachlast8b",
-      "league": "CBA",
-      "title": "Women’s Basketball World Cup: China reach last 8, but fans worry over squad depth, fatigue",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "China’s 75-72 victory over Puerto Rico in Berlin on Wednesday secured a fourth consecutive Fiba Women’s World Cup quarter-final berth, sparking a wave of relief on domestic social media alongside growing fan anxiety over squad depth and fatigue ahead of a daunting clash against F",
-      "published": "2026-09-10T07:30:00.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/10/33f37ce6-442b-4165-8750-e75e1cbf29cc_16ea622f.jpg?itok=IR-W4q5R&v=1789025398",
-      "url": "https://www.scmp.com/sport/basketball/article/3367025/womens-basketball-world-cup-china-reach-last-8-fans-worry-over-squad-depth-fatigue?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -19003,8 +18990,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-16T11:15:12.102Z",
-    "news": "2026-09-16T11:15:12.102Z"
+    "games": "2026-09-17T11:22:43.294Z",
+    "news": "2026-09-17T11:22:43.294Z"
   },
   "carriedOver": [
     "teams",

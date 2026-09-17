@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-09-16T11:15:35.321Z",
+  "fetchedAt": "2026-09-17T11:23:05.372Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,17 +22,121 @@
   ],
   "news": [
     {
-      "id": "EuroLeague-yabuselerevealswhyhechosepanathinaikos",
+      "id": "EuroLeague-osmanreflectsonpanathinaikosexitwewerebo",
       "league": "EuroLeague",
-      "title": "Yabusele reveals why he chose Panathinaikos",
+      "title": "Osman reflects on Panathinaikos exit: “We were both excited about an extension”",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Friends, the roster, the fans and Zeljko Obradovic made the French forward’s decision straightforward The post Yabusele reveals why he chose Panathinaikos appeared first on Sportando .",
-      "published": "2026-09-16T10:37:03.000Z",
+      "description": "PAOK's marquee signing Cedi Osman explains how the initial mutual excitement for a Panathinaikos Aktor extension ultimately collapsed The post Osman reflects on Panathinaikos exit: “We were both excited about an extension” appeared first on Eurohoops .",
+      "published": "2026-09-17T11:02:13.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/0e959360-osman-interview-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2008843/cedi-osman-talks-paok-eurocup/"
+    },
+    {
+      "id": "EuroLeague-braxtonkeychannelswembylikeralphsampsong",
+      "league": "EuroLeague",
+      "title": "Braxton Key channels Wemby-like Ralph Sampson genes for EuroLeague defensive mission",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Fenerbahce Tarfin deploys Braxton Key, who utilizes Ralph Sampson’s traits to lead the EuroLeague’s top defensive unit The post Braxton Key channels Wemby-like Ralph Sampson genes for EuroLeague defensive mission appeared first on Eurohoops .",
+      "published": "2026-09-17T10:38:05.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/6e83c61c-braxton-key-fenerbahce-2-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2008920/braxton-key-talks-fenerbahce-euroleague/"
+    },
+    {
+      "id": "EuroLeague-euroleaguetvexpandswithsixdomesticbasket",
+      "league": "EuroLeague",
+      "title": "EuroLeague TV expands with six domestic basketball leagues",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "EuroLeague TV is expanding its offering for the 2026-27 season The post EuroLeague TV expands with six domestic basketball leagues appeared first on Sportando .",
+      "published": "2026-09-17T09:33:46.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/yabusele-reveals-why-he-chose-panathinaikos/"
+      "url": "https://sportando.basketball/en/euroleague-tv-expands-with-six-domestic-basketball-leagues/"
+    },
+    {
+      "id": "EuroLeague-euroleaguetvaddsdomesticleaguesinsteptow",
+      "league": "EuroLeague",
+      "title": "EuroLeague TV adds domestic leagues in step toward Euroleague Basketball+",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Live action on EuroLeague TV expands with more domestic leagues across the world The post EuroLeague TV adds domestic leagues in step toward Euroleague Basketball+ appeared first on Eurohoops .",
+      "published": "2026-09-17T08:42:29.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/41910009-eltv.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2008894/euroleague-tv-expands-offering-with-addition-of-domestic-leagues/"
+    },
+    {
+      "id": "EuroLeague-djordjevicflynnisafranchiseplayerbahcese",
+      "league": "EuroLeague",
+      "title": "Djordjevic: “Flynn is a franchise player, Bahcesehir want titles”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Serbian coach discussed the Turkish club’s ambitions and identified consistency as the key to reaching the EuroLeague The post Djordjevic: “Flynn is a franchise player, Bahcesehir want titles” appeared first on Sportando .",
+      "published": "2026-09-17T08:21:50.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/djordjevic-flynn-is-a-franchise-player-bahcesehir-want-titles/"
+    },
+    {
+      "id": "EuroLeague-bartzokasthesupercuphasspecialmeaningwew",
+      "league": "EuroLeague",
+      "title": "Bartzokas: “The SuperCup has special meaning, we want to win it”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Olympiacos coach previewed the tournament in Abu Dhabi and provided an update on Nikola Milutinov The post Bartzokas: “The SuperCup has special meaning, we want to win it” appeared first on Sportando .",
+      "published": "2026-09-17T08:04:53.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/bartzokas-the-supercup-has-special-meaning-we-want-to-win-it/"
+    },
+    {
+      "id": "EuroLeague-christosstavropoulosthereisgreatenthusia",
+      "league": "EuroLeague",
+      "title": "Christos Stavropoulos: “There is great enthusiasm around Olimpia Milano”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The general manager discusses the new Olimpia Milano ahead of the Super Cup, admitting the team is not yet fully ready The post Christos Stavropoulos: “There is great enthusiasm around Olimpia Milano” appeared first on Sportando .",
+      "published": "2026-09-16T19:53:26.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/christos-stavropoulos-there-is-great-enthusiasm-around-olimpia-milano/"
+    },
+    {
+      "id": "EuroLeague-georgiospapagiannisissettoreturntothecou",
+      "league": "EuroLeague",
+      "title": "Georgios Papagiannis is set to return to the court for Anadolu Efes",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Greek center could finally return to the court after an 11-month break due to injury at the VTB Cup The post Georgios Papagiannis is set to return to the court for Anadolu Efes appeared first on Eurohoops .",
+      "published": "2026-09-16T16:47:19.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2025/10/268e320f-giorgos-papagiannis-dunks-efes.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2008760/georgios-papagiannis-is-set-to-return-to-the-court-for-anadolu-efes/"
+    },
+    {
+      "id": "EuroLeague-wadebaldwiniwanttobecomeoneofthegreatest",
+      "league": "EuroLeague",
+      "title": "Wade Baldwin: “I want to become one of the greatest EuroLeague guards ever”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Fenerbahce guard discusses his championship ambitions, partnership with Shane Larkin, development under Sarunas Jasikevicius and pride in helping his teammates thrive The post Wade Baldwin: “I want to become one of the greatest EuroLeague guards ever” appeared first on Euroho",
+      "published": "2026-09-16T13:14:00.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/b2b946ed-wade-baldwin-fenerbahce-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2008691/wade-baldwin-i-want-to-become-one-of-the-greatest-euroleague-guards-ever/"
     },
     {
       "id": "EuroLeague-lukadoncicrecallstoughesteuroleaguecrowd",
@@ -40,7 +144,7 @@
       "title": "Luka Doncic recalls toughest EuroLeague crowds: “It’s very hard to play in that gym”",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The Lakers star revisited a famous game-winner in Belgrade, the noise of OAKA and early comparisons with Dejan Bodiroga The post Luka Doncic recalls toughest EuroLeague crowds: “It’s very hard to play in that gym” appeared first on Eurohoops .",
+      "description": "The Lakers star revisited a famous game-winner in Belgrade, the noise of OAKA... The post Luka Doncic recalls toughest EuroLeague crowds: “It’s very hard to play in that gym” appeared first on Eurohoops .",
       "published": "2026-09-16T10:31:48.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
@@ -61,19 +165,6 @@
       "url": "https://www.eurohoops.net/en/bet/2008592/in-play-betting-and-basketball-why-live-markets-suit-the-euroleague-pace/"
     },
     {
-      "id": "EuroLeague-officialnicksmithjrsignswithrealmadrid",
-      "league": "EuroLeague",
-      "title": "Official: Nick Smith Jr signs with Real Madrid",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The 22-year-old guard has signed a contract running through the end of the 2026-27 season The post Official: Nick Smith Jr signs with Real Madrid appeared first on Sportando .",
-      "published": "2026-09-16T07:24:30.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/official-nick-smith-jr-signs-with-real-madrid/"
-    },
-    {
       "id": "EuroLeague-realmadridofficiallysignnicksmithjr",
       "league": "EuroLeague",
       "title": "Real Madrid officially sign Nick Smith Jr.",
@@ -85,32 +176,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/09/57b6a9a2-nick-smith.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2008547/real-madrid-officially-sign-nick-smith-jr/"
-    },
-    {
-      "id": "EuroLeague-pedromartinezconfirmsnicksmithjrissettoj",
-      "league": "EuroLeague",
-      "title": "Pedro Martinez confirms Nick Smith Jr is set to join Real Madrid",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The coach called for patience with the young American: “Let’s not expect him to score 35 points every game\" The post Pedro Martinez confirms Nick Smith Jr is set to join Real Madrid appeared first on Sportando .",
-      "published": "2026-09-16T06:57:53.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/pedro-martinez-confirms-nick-smith-jr-is-set-to-join-real-madrid/"
-    },
-    {
-      "id": "EuroLeague-nbaeuropeadamsilverspeaksbutconfusiononl",
-      "league": "EuroLeague",
-      "title": "NBA Europe: Adam Silver Speaks, but Confusion Only Grows",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The NBA commissioner confirms talks with EuroLeague but raises doubts over a 2027 launch. With no major clubs and no confirmed investors, what does the NBA actually have? The post NBA Europe: Adam Silver Speaks, but Confusion Only Grows appeared first on Sportando .",
-      "published": "2026-09-16T06:17:03.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/nba-europe-adam-silver-speaks-but-confusion-only-grows/"
     },
     {
       "id": "EuroLeague-hetop10euroleaguesalariesof202627the32ml",
@@ -137,97 +202,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/01/9020dcbb-adam-silver-talks-press-conference-nba-berlin-game-2026.jpg",
       "url": "https://www.eurohoops.net/en/nba-news/2008466/adam-silver-we-anticipate-additional-nba-europe-announcements-in-the-coming-weeks/"
-    },
-    {
-      "id": "EuroLeague-shimonmizrahionnbaeuropenoproposalhasbee",
-      "league": "EuroLeague",
-      "title": "Shimon Mizrahi on NBA Europe: “No proposal has been submitted”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Maccabi Tel Aviv chairman revealed that no written offer has been submitted yet, with EuroLeague clubs set to discuss it on October 5 if it arrives The post Shimon Mizrahi on NBA Europe: “No proposal has been submitted” appeared first on Eurohoops .",
-      "published": "2026-09-15T17:22:29.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2019/12/d475e951-aggelopouloi_mizrahi_dinner_euroleague-625x375.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2008426/shimon-mizrahi-on-nba-europe-no-proposal-has-been-submitted/"
-    },
-    {
-      "id": "EuroLeague-zeljkoobradovicadaptstosmartergeneration",
-      "league": "EuroLeague",
-      "title": "Zeljko Obradovic adapts to ‘smarter’ generation, happy at Panathinaikos ‘family’",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Back to Panathinaikos Aktor and aiming for championships, Zeljko Obradovic explains his approach to players embracing mutual respect The post Zeljko Obradovic adapts to ‘smarter’ generation, happy at Panathinaikos ‘family’ appeared first on Eurohoops .",
-      "published": "2026-09-15T13:55:04.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/09c632f7-zoc-web1-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/trademarks/2008306/zeljko-obradovic-talks-panathinaikos-euroleague/"
-    },
-    {
-      "id": "EuroLeague-euroleaguesplitsunsportsmanlikefoulsinto",
-      "league": "EuroLeague",
-      "title": "EuroLeague splits unsportsmanlike fouls into disruptive and flagrant categories",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The updated Euroleague Basketball rulebook for the upcoming 2026–27 season The post EuroLeague splits unsportsmanlike fouls into disruptive and flagrant categories appeared first on Eurohoops .",
-      "published": "2026-09-15T10:15:43.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2020/03/f73fba19-euroleague-logo-625x375.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2008221/euroleague-basketball-announces-rule-updates-for-2026-27-season/"
-    },
-    {
-      "id": "EuroLeague-scottiewilbekinrelishesbesiktasopportuni",
-      "league": "EuroLeague",
-      "title": "Scottie Wilbekin relishes Besiktas opportunity: “A new start”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Besiktas pairs with Scottie Wilbekin as the veteran guard brings elite EuroLeague experience and refreshed energy to their ambitious new project The post Scottie Wilbekin relishes Besiktas opportunity: “A new start” appeared first on Eurohoops .",
-      "published": "2026-09-15T09:27:27.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/f6f05191-scottie-wilbekin-besiktas.jpeg",
-      "url": "https://www.eurohoops.net/en/trademarks/2008192/scottie-wilbekin-talks-besiktas-euroleague/"
-    },
-    {
-      "id": "EuroLeague-nikolamiroticannouncesdealwithvalenciahe",
-      "league": "EuroLeague",
-      "title": "Nikola Mirotic announces deal with Valencia: “Here I am”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Valencia makes waves with the addition of 35-year-old Nikola Mirotic The post Nikola Mirotic announces deal with Valencia: “Here I am” appeared first on Eurohoops .",
-      "published": "2026-09-15T07:44:01.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2025/10/ee7bde44-nikola-mirotic-dribbles-monaco-vs-valencia.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2008113/nikola-mirotic-to-valenca-euroleague/"
-    },
-    {
-      "id": "EuroLeague-valenciadirectoronskyrocketinginflationb",
-      "league": "EuroLeague",
-      "title": "Valencia director on skyrocketing inflation: “Before, one million was a lot”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Skyrocketing costs in the EuroLeague allow wealthy clubs to easily pay massive player buyout clauses, forcing Valencia to restructure its roster The post Valencia director on skyrocketing inflation: “Before, one million was a lot” appeared first on Eurohoops .",
-      "published": "2026-09-15T07:13:25.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/06/c7054e68-valencia-acb-2026-champions.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2008102/luis-arbalejo-talks-buyout-clauses-valencia-euroleague/"
-    },
-    {
-      "id": "EuroLeague-guerschonyabuselesharesinsidestoryofhisf",
-      "league": "EuroLeague",
-      "title": "Guerschon Yabusele shares inside story of his fresh Panathinaikos journey",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "A new move to Panathinaikos Aktor brings Guerschon Yabusele to Athens, where he focuses on family stability and EuroLeague trophies The post Guerschon Yabusele shares inside story of his fresh Panathinaikos journey appeared first on Eurohoops .",
-      "published": "2026-09-15T06:06:38.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/08/64d0af87-yabusele-panathinaikos.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2008088/guerschon-yabusele-talks-panathinaikos-nba-france-euroleague/"
     }
   ],
   "leaders": {
@@ -10613,7 +10587,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-09-16T11:15:35.321Z",
+    "news": "2026-09-17T11:23:05.372Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
