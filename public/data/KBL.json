@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-17T11:21:34.165Z",
+  "fetchedAt": "2026-09-18T10:55:11.155Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260818&toDate=20261017&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260819&toDate=20261018&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,84 @@
   ],
   "news": [
     {
+      "id": "KBL-leadasiadskoreareachesmensbasketballfina",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea reaches men's basketball final",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea advanced to the men's basketball...",
+      "published": "2026-09-18T09:08:34.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091819810001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260918010651315"
+    },
+    {
+      "id": "KBL-asiadskoreareachesmensbasketballfinal",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea reaches men's basketball final",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea advanced to the men's basketball...",
+      "published": "2026-09-18T08:55:23.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091819810001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260918010600315"
+    },
+    {
+      "id": "KBL-asiadveteranbasketballforwardsaysteamove",
+      "league": "KBL",
+      "title": "(Asiad) Veteran basketball forward says team overcame challenges in opening victory",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- From playing through jet lag to taking shots...",
+      "published": "2026-09-18T04:22:37.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091804580001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260918005800315"
+    },
+    {
+      "id": "KBL-asiadwomensbasketballcoachsaysteamingood",
+      "league": "KBL",
+      "title": "(Asiad) Women's basketball coach says team in good shape despite missing stars",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea head coach Park Soo-ho said Frid...",
+      "published": "2026-09-18T04:21:53.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091805670001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260918005700315"
+    },
+    {
+      "id": "KBL-leadasiadskoreabeatsmalaysiatobeginwomen",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea beats Malaysia to begin women's basketball tournament",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea overcame early shooting woes to ...",
+      "published": "2026-09-18T03:18:26.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091805280001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260918005151315"
+    },
+    {
+      "id": "KBL-asiadskoreabeatsmalaysiatobeginwomensbas",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea beats Malaysia to begin women's basketball tournament",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea overcame early shooting woes to ...",
+      "published": "2026-09-18T02:57:31.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091805280001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260918005100315"
+    },
+    {
       "id": "KBL-2ndldasiadskoreablowsoutjordantoreachmen",
       "league": "KBL",
       "title": "(2nd LD) (Asiad) S. Korea blows out Jordan to reach men's basketball semifinals",
@@ -9062,8 +9140,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-17T11:21:34.165Z",
-    "news": "2026-09-17T11:21:34.165Z"
+    "games": "2026-09-18T10:55:11.155Z",
+    "news": "2026-09-18T10:55:11.155Z"
   },
   "carriedOver": [
     "teams",

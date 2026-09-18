@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-17T11:22:34.576Z",
+  "fetchedAt": "2026-09-18T10:58:52.345Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14193,6 +14194,32 @@
   ],
   "news": [
     {
+      "id": "PBA-jordanclarksonhopestojoingilaspilipinasa",
+      "league": "PBA",
+      "title": "Jordan Clarkson hopes to join Gilas Pilipinas anew in FIBA World Cup",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Jordan Clarkson hopes to suit up for the Philippines again in the FIBA World Cup, should Gilas Pilipinas qualify for the tournament.",
+      "published": "2026-09-18T06:12:15.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002820/jordan-clarkson-hopes-to-join-gilas-pilipinas-anew-in-fiba-world-cup/story/"
+    },
+    {
+      "id": "PBA-meansjustifiedasgilasleanson33aceforhots",
+      "league": "PBA",
+      "title": "Means justified as Gilas leans on 3×3 ace for hot start",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: Gilas Pilipinas women at Asian Games 2026 5×5 basketball Naturalized player Beth Means was good as advertised in her national team debut on Thursday, which saw Gilas Pilipinas routing Kazakhstan, 86-58, to begin its Aichi-Nagoya Asian Games campaign in women’s basketbal",
+      "published": "2026-09-18T05:25:14.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/Sports1294275.png",
+      "url": "https://sports.inquirer.net/695840/means-justified-as-gilas-leans-on-3x3-ace-for-hot-start"
+    },
+    {
       "id": "PBA-pbayengguiaosignsnewcontractextensionwit",
       "league": "PBA",
       "title": "PBA: Yeng Guiao signs new contract extension with Rain or Shine",
@@ -14219,17 +14246,43 @@
       "url": "https://sports.inquirer.net/695747/gilas-pilipinas-women-rout-kazakhstan-in-asian-games-basketball-opener"
     },
     {
-      "id": "PBA-gilasasiadexitacuetopursueimprovementsay",
+      "id": "PBA-gilaswomensufferfinaldaylossesexit33u23w",
       "league": "PBA",
-      "title": "Gilas' Asiad exit a cue to pursue improvement, says Alapag",
+      "title": "Gilas Women suffer final-day losses, exit 3×3 U23 World Cup",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Gilas Pilipinas' disappointing finish in the Asian Games is an opportunity for the team to look into ways to improve, former Gilas ace Jimmy Alapag said.",
-      "published": "2026-09-17T09:24:00.000Z",
-      "byline": "PhilStar",
+      "description": "Gilas Pilipinas Women have bowed out of the FIBA 3×3 Under-23 World Cup 2026. The Philippines dropped its final two assignments in the global meet, falling to Egypt, 16-12, and China, 18-9, on Thursday at Hongshan Riverfront Park in Wuhan, China. Gilas went winless in its return ",
+      "published": "2026-09-17T15:42:08.000Z",
+      "byline": "Tiebreaker Times",
       "tag": "Report",
       "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/17/2556961/gilas-asiad-exit-cue-pursue-improvement-says-alapag"
+      "url": "https://tiebreakertimes.com.ph/tbt/gilas-women-suffer-final-day-losses-exit-3x3-u23-world-cup/384105"
+    },
+    {
+      "id": "PBA-macaudealtblowasleungcaoleaveteamaheadof",
+      "league": "PBA",
+      "title": "Macau dealt blow as Leung, Cao leave team ahead of PBA return",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Two more key cogs won’t be with Macau when the PBA Season 50 Governors’ Cup resumes in October after Jenning Leung and Ramon Cao left the club. Both men have resigned with Hong Kong Eastern, marking a homecoming of sorts as they previously played for the HKA1 outfit in the East A",
+      "published": "2026-09-17T15:01:03.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/macau-dealt-blow-as-leung-cao-leave-team-ahead-of-pba-return/384101"
+    },
+    {
+      "id": "PBA-whoiselizabethmeansgilaspilipinaswomensn",
+      "league": "PBA",
+      "title": "Who is Elizabeth Means? Gilas Pilipinas Women's newcomer",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Elizabeth Means made her Gilas Pilipinas Women debut on Thursday as part of the Philippine women\"s basketball team competing in the 2026 Asian Games in Japan.",
+      "published": "2026-09-17T11:23:56.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1002749/who-is-elizabeth-means-gilas-pilipinas-women-s-newcomer/story/"
     },
     {
       "id": "PBA-gilaspilipinaswomentakedownkazakhstantoo",
@@ -14243,19 +14296,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1002727/gilas-pilipinas-women-take-down-kazakhstan-to-open-2026-asian-games-campaign/story/"
-    },
-    {
-      "id": "PBA-gilaswomencruisepastkazakhstantoopenasia",
-      "league": "PBA",
-      "title": "Gilas Women cruise past Kazakhstan to open Asian Games campaign",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "In a fitting start to its 20th Asian Games campaign, Gilas Pilipinas — playing without Jack Animam and Kacey Dela Rosa — showed that height is just a number, dominating Kazakhstan, 86-58, for a rousing debut at Aichi International Arena in Japan. With an average height of just 5-",
-      "published": "2026-09-17T08:51:27.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-women-cruise-past-kazakhstan-to-open-asian-games-campaign/384056"
     },
     {
       "id": "PBA-meansmakesdebutasgilaswomentakeonkazakhs",
@@ -14284,19 +14324,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1002686/gilas-pilipinas-women-at-the-2026-asian-games-lineup-and-schedule/story/"
     },
     {
-      "id": "PBA-gilasboysfaceuphillclimbafterwinless33u2",
-      "league": "PBA",
-      "title": "Gilas Boys face uphill climb after winless 3×3 U23 World Cup opener",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Boys have their backs against the wall after Day 1 of the FIBA 3×3 Under-23 World Cup. The Philippines dropped its opening two games on Wednesday, falling to New Zealand, 21-11, before suffering a 21-15 defeat to Spain at Hongshan Riverfront Park in Wuhan, China. ",
-      "published": "2026-09-16T17:49:49.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-boys-face-uphill-climb-after-winless-3x3-u23-world-cup-opener/384023"
-    },
-    {
       "id": "PBA-gilaspilipinasu23mendropfirsttwogamesinf",
       "league": "PBA",
       "title": "Gilas Pilipinas U23 Men drop first two games in FIBA 3x3 World Cup",
@@ -14308,58 +14335,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1002626/gilas-pilipinas-u23-men-drop-first-two-games-in-fiba-3x3-world-cup/story/"
-    },
-    {
-      "id": "PBA-pbacommissionerongilaslossinasiangamesta",
-      "league": "PBA",
-      "title": "PBA Commissioner on Gilas loss in Asian Games: 'Talagang pinaghandaan tayo nang husto ng China'",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas sent an all-PBA squad to the 2026 Asian Games and league commissioner Willie Marcial was among the first to defend the players who was dethroned after a 105-61 defeat to China.",
-      "published": "2026-09-16T04:28:03.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1002558/pba-commissioner-on-gilas-loss-in-asian-games-talagang-pinaghandaan-tayo-ng-husto-ng-china/story/"
-    },
-    {
-      "id": "PBA-gilasfailedtitledefensehassbpsearchingfo",
-      "league": "PBA",
-      "title": "Gilas’ failed title defense has SBP searching for Asian Games solutions",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Adrian Nocum expressed his regret over how things ended for Gilas Pilipinas after the country’s worst finish in the men’s basketball competition of the Asian Games. The country’s national federation is also feeling the pain and will begin looking for ways to address the debacle. ",
-      "published": "2026-09-16T04:20:08.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/Adrian-Nocum16September2026.jpg",
-      "url": "https://sports.inquirer.net/695435/failed-title-defense-has-sbp-searching-for-asiad-solutions"
-    },
-    {
-      "id": "PBA-ncaachitovictolerocouldntsaynowhenmapuac",
-      "league": "PBA",
-      "title": "NCAA: Chito Victolero couldn’t say no when Mapua came calling",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—Chito Victolero wanted to take a break from coaching after his stint with Magnolia in the PBA. But when Mapua came calling, Victolero couldn’t say no. “Actually, I wanted to rest. I wanted to rest for a year after my contract expired with Magnolia,” Victolero ",
-      "published": "2026-09-15T21:12:54.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/IMG_4957-scaled.jpg",
-      "url": "https://sports.inquirer.net/695390/ncaa-chito-victolero-couldnt-say-no-when-mapua-came-calling"
-    },
-    {
-      "id": "PBA-gilaspilipinaswomenfallto02infiba3x3u23w",
-      "league": "PBA",
-      "title": "Gilas Pilipinas Women fall to 0-2 in FIBA 3x3 U23 World Cup",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Women closed out the opening day of the 2026 FIBA 3x3 U23 World Cup without a win after falling to two separate foes on Tuesday in Wuhan, China.",
-      "published": "2026-09-15T12:24:28.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1002491/gilas-pilipinas-women-fall-to-0-2-in-fiba-3x3-u23-world-cup/story/"
     },
     {
       "id": "PBA-oftanasaysgilaspilipinasasiangamesexitsh",
@@ -14869,8 +14844,8 @@
     "playerStats": "2026-09-11T01:03:40.144Z",
     "leaders": "2026-09-11T01:03:40.144Z",
     "standings": "2026-09-11T01:03:40.144Z",
-    "games": "2026-09-17T11:22:34.576Z",
-    "news": "2026-09-17T11:22:34.576Z"
+    "games": "2026-09-18T10:58:52.345Z",
+    "news": "2026-09-18T10:58:52.345Z"
   },
   "carriedOver": [
     "teams",
