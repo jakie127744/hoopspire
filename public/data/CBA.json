@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-18T10:59:01.348Z",
+  "fetchedAt": "2026-09-19T10:39:40.632Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18496,6 +18496,32 @@
   ],
   "news": [
     {
+      "id": "CBA-postcardfromnagoyaasiangamesopeninghourn",
+      "league": "CBA",
+      "title": "Postcard from Nagoya: Asian Games opening hour nears, but teething problems remain",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Asian Games opening ceremony at Paloma Mizuho Stadium on Saturday will fire the starting gun on the first official days of competition in Nagoya and Tokyo, even if some athletes have already finished their events. Various team sports such as basketball, football and volleybal",
+      "published": "2026-09-19T02:15:24.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/befb3414-37ee-45bc-b7b0-167387ba6b39_7dcba2e2.jpg?itok=nKGxuALE&v=1789784114",
+      "url": "https://www.scmp.com/sport/other-sport/article/3368086/postcard-nagoya-asian-games-opening-hour-nears-teething-problems-remain?utm_source=rss_feed"
+    },
+    {
+      "id": "CBA-chaostepidpublicinterestatasiangamessofa",
+      "league": "CBA",
+      "title": "Chaos, tepid public interest at Asian Games so far, but things will heat up when it counts",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Asian Games open in Japan on Saturday, against a backdrop of complaints over athlete accommodation, venues that have leaked under record rainfall, and a host city still at odds with the Olympic Council of Asia over the ballooning number of those taking part. Chaos has been th",
+      "published": "2026-09-18T15:05:20.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/18/3aec6a73-24c5-4a53-81a2-008ce4c2595a_07986343.jpg?itok=zdpGusnH&v=1789743909",
+      "url": "https://www.scmp.com/sport/other-sport/article/3368067/chaos-tepid-public-interest-asian-games-so-far-things-will-heat-when-it-counts?utm_source=rss_feed"
+    },
+    {
       "id": "CBA-asiangamestinybedsroomsthatleakisjapanac",
       "league": "CBA",
       "title": "Asian Games: tiny beds, rooms that leak, is Japan accommodation ‘the worst ever’?",
@@ -18507,19 +18533,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/14/05e597b3-bfdd-42c5-8432-5d473cd7aeae_83feed9d.jpg?itok=GILCug11&v=1789377442",
       "url": "https://www.scmp.com/sport/other-sport/article/3367455/asian-games-tiny-beds-rooms-leak-japan-accommodation-worst-ever?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-asiangameschinabasketballstarspackedin3t",
-      "league": "CBA",
-      "title": "Asian Games: China basketball stars packed in 3 to a container in Japan’s athletes’ village",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "China’s men opened their Asian Games basketball campaign by routing Kazakhstan 99-61 on Friday, despite preparing in cramped container housing and having training disrupted by record-breaking rainfall in Japan. Pang Zhenglin led China with 19 points and four assists, while Li Hon",
-      "published": "2026-09-11T07:26:55.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/11/6e09c8a8-e40c-4301-8cf1-6c3cf7ac331e_040ea315.jpg?itok=8ASYp7UB&v=1789111610",
-      "url": "https://www.scmp.com/sport/china/article/3367178/asian-games-china-basketball-stars-packed-3-container-japans-athletes-village?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -18990,8 +19003,8 @@
     "playerStats": "2026-09-11T01:03:50.387Z",
     "leaders": "2026-09-11T01:03:50.387Z",
     "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-18T10:59:01.348Z",
-    "news": "2026-09-18T10:59:01.348Z"
+    "games": "2026-09-19T10:39:40.632Z",
+    "news": "2026-09-19T10:39:40.632Z"
   },
   "carriedOver": [
     "teams",
