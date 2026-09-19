@@ -1,13 +1,11 @@
 ---
-
 title: The 2026-27 NBA Projection: Spurs, Thunder and Knicks Lead a Season of Roster Upheaval
 dek: The Knicks enter as champions, the Spurs and Thunder remain the West's central powers, and Giannis, LeBron, Jaylen Brown, LaMelo Ball and Kawhi Leonard have changed the league's geometry. Here is the numbers-first projection for every division, playoff seed, postseason series and major award.
 league: NBA
 author: Hoopspire Staff
 published: 2026-09-17
-tag: NBA
------------
-
+tag: Analysis
+---
 The 2026-27 NBA season begins with something unusual: the defending champion is not necessarily the team with the clearest statistical case to repeat.
 
 New York won the 2026 championship, beating San Antonio 4-1 after finishing third in the Eastern Conference at 53-29. The Knicks then made almost no changes to their starting core. San Antonio, meanwhile, returns from a 62-win season and a Finals appearance with Victor Wembanyama entering his fourth season. Oklahoma City returns from a 64-win campaign after losing the Western Conference finals.
