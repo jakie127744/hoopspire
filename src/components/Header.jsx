@@ -94,8 +94,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-parchment bg-cream/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center gap-8 px-4 py-3 md:px-8">
+        {/*
+          The mark is an <img> of an SVG rather than the full badge in
+          /public/logo: the badge carries a wordmark, a tagline and a URL that
+          are an unreadable blur below about 128px, and the header gives it 32.
+          alt="" because the wordmark beside it already names the site — a
+          screen reader announcing "Hoopspire Hoopspire" helps nobody.
+        */}
         <Link to="/" className="flex shrink-0 items-center gap-2">
-          <span className="text-xl leading-none">🏀</span>
+          <img src="/logo/mark.svg" alt="" width="32" height="32" className="h-8 w-8" />
           <span className="font-display text-2xl leading-none">
             Hoop<span className="text-crimson">spire</span>
           </span>
