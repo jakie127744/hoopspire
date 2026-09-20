@@ -1,0 +1,26 @@
+{
+  // Hoopspire is a static SPA: `vite build` produces dist/, and the Worker
+  // does nothing but serve it. This file exists mainly so `wrangler deploy`
+  // does NOT run its framework auto-detection, which insists on Vite 6 and
+  // the @cloudflare/vite-plugin we have no use for.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hoopspire",
+  "compatibility_date": "2026-09-20",
+
+  // The apex only. `www` is deliberately NOT attached here: a second custom
+  // domain would serve the identical site from a second hostname, which is
+  // duplicate content at exactly the moment we are asking a reviewer to judge
+  // the site. Point www at the apex with a Redirect Rule in the dashboard
+  // instead, so there is one canonical hostname.
+  //
+  // This requires the hoopspire.com zone to be on the same Cloudflare account.
+  "routes": [{ "pattern": "hoopspire.com", "custom_domain": true }],
+
+  "assets": {
+    // A miss falls back to the app shell so client-side routes (/scores,
+    // /margin, an article slug) resolve on a cold load. Real files still win:
+    // /admin/, /data/*.json and /assets/* are served as themselves.
+    "directory": "./dist",
+    "not_found_handling": "single-page-application"
+  }
+}
