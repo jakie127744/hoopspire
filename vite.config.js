@@ -75,6 +75,18 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,ico,woff2}'],
+        /*
+          The full crest is a large-format asset — a social card, an app icon
+          source — and no page renders it. Left in the glob above it more than
+          doubled the precache, from 514 KiB to 1,184 KiB, so every first-time
+          visitor downloaded 648 KB of artwork they would never be shown
+          before the site could work offline.
+
+          Excluding it here keeps the file served at its URL, which is all an
+          og:image or an icon pipeline needs: those are fetched by crawlers
+          and build steps, neither of which goes through a service worker.
+        */
+        globIgnores: ['**/logo/Hoopspire_logo.png'],
         // Client-side routes resolve to the app shell offline — except the
         // git-based CMS, which is its own page and must never be hijacked.
         navigateFallback: '/index.html',
