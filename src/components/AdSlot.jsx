@@ -70,8 +70,20 @@ export default function AdSlot({ slotId, format = 'auto', height = 280, classNam
         if (cancelled || pushed.current) return
         pushed.current = true
         if (network === 'adsense') {
-          // eslint-disable-next-line no-undef
-          ;(window.adsbygoogle = window.adsbygoogle || []).push({})
+          // A push throws (TagError) for reasons that are not this slot's
+          // fault: no measurable width yet, a duplicate push, or an origin
+          // AdSense declines to serve — localhost being the one we hit every
+          // day. Letting that reach the .catch below would set `failed` and
+          // blank the slot, label and all, which is how the whole unit
+          // silently disappeared in development.
+          //
+          // Only a script that never loaded means there is no ad coming.
+          try {
+            window.adsbygoogle = window.adsbygoogle || []
+            window.adsbygoogle.push({})
+          } catch (err) {
+            console.debug(`[AdSlot] push rejected for slot ${slotId}:`, err)
+          }
         }
       })
       .catch(() => !cancelled && setFailed(true))
@@ -79,7 +91,7 @@ export default function AdSlot({ slotId, format = 'auto', height = 280, classNam
     return () => {
       cancelled = true
     }
-  }, [configured, consented, network, publisherId])
+  }, [configured, consented, network, publisherId, slotId])
 
   // Not configured yet — render nothing rather than an empty box.
   if (!configured) return null

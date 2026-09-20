@@ -1,10 +1,10 @@
-import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getPlayer } from '../lib/players.js'
 import { TeamLogo, Loading, Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import { formatDate, initials } from '../lib/format.js'
+import { useMeta } from '../lib/meta.js'
 
 const LINE = [
   ['gamesPlayed', 'GP'],
@@ -117,14 +117,12 @@ export default function Player() {
     null
   )
 
-  useEffect(() => {
-    if (!p?.name) return
-    const prev = document.title
-    document.title = `${p.name} — Hoopspire`
-    return () => {
-      document.title = prev
-    }
-  }, [p?.name])
+  useMeta({
+    title: p?.name,
+    description: p?.name
+      ? `${p.name}${p.team?.name ? `, ${p.team.name}` : ''} — season averages, game log and career numbers${league ? ` in the ${league.name}` : ''}.`
+      : undefined,
+  })
 
   if (loading) {
     return (

@@ -4,6 +4,7 @@ import { SITE } from '../lib/site.js'
 import { useConsent } from '../lib/consent.js'
 import { Eyebrow } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
+import { useMeta } from '../lib/meta.js'
 
 /** Lets a reader see and change their actual stored choice, not just read about it. */
 function YourChoices() {
@@ -43,6 +44,7 @@ function YourChoices() {
 }
 
 export default function Privacy() {
+  useMeta({ title: 'Privacy Policy', description: 'What Hoopspire does — and does not — do with your data. No accounts, no tracking until you say yes.' })
   return (
     <LegalPage
       kicker="Legal"
@@ -53,7 +55,7 @@ export default function Privacy() {
 
       <Section title="Who we are">
         <p>
-          {SITE.name} ({SITE.domain}) is operated by <Value of="legalEntity" />, at{' '}
+          {SITE.name} ({SITE.domain}) is operated by <Value of="legalEntity" />, based in{' '}
           <Value of="address" />. For anything in this policy, write to{' '}
           <a href={`mailto:${SITE.privacyEmail}`}>
             <Value of="privacyEmail" />

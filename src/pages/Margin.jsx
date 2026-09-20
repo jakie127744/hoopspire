@@ -4,6 +4,7 @@ import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
+import { useMeta } from '../lib/meta.js'
 
 /**
  * The Margin — the site's own writing.
@@ -13,6 +14,7 @@ import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
  * site collects, which is the one thing an aggregator cannot copy.
  */
 export default function Margin() {
+  useMeta({ title: 'The Margin', description: 'Basketball argued from the numbers. Original analysis built on the box scores, standings and season averages the ledger already keeps.' })
   const [league, setLeague] = useState('ALL')
   // This desk only — the fantasy desk has its own section at /usage.
   const all = getDesk('margin')

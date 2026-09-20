@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 import { LegalPage, Section, Value } from '../components/Legal.jsx'
 import { SITE } from '../lib/site.js'
+import { useMeta } from '../lib/meta.js'
 
 export default function Terms() {
+  useMeta({ title: 'Terms of Use', description: 'The terms that govern use of Hoopspire, its data and its original writing.' })
   return (
     <LegalPage
       kicker="Legal"

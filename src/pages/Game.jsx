@@ -4,6 +4,7 @@ import { useAsync } from '../lib/useAsync.js'
 import { getGame } from '../lib/api.js'
 import { TeamLogo, Loading, Empty, Eyebrow, SectionHead, StatusPill } from '../components/Primitives.jsx'
 import { formatDate, formatTime } from '../lib/format.js'
+import { useMeta } from '../lib/meta.js'
 
 function Scoreline({ game }) {
   const played = game.status !== 'scheduled'
@@ -160,6 +161,19 @@ export default function Game() {
     null,
     { refreshMs: 300_000, liveMs: 20_000, isLive: (d) => d?.game?.status === 'live' }
   )
+
+  // "Lakers vs Nuggets" is what a search result or a shared link should say,
+  // not the site name thirteen times over.
+  const matchup =
+    data?.game?.away?.name && data?.game?.home?.name
+      ? `${data.game.away.name} vs ${data.game.home.name}`
+      : undefined
+  useMeta({
+    title: matchup,
+    description: matchup
+      ? `${matchup} — box score, quarter-by-quarter scoring and player lines${league ? ` from the ${league.name}` : ''}.`
+      : undefined,
+  })
 
   if (loading) {
     return (

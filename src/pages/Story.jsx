@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { getOriginal, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
 import { disclosureText } from '../lib/affiliate.js'
@@ -6,7 +5,10 @@ import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { getLeague } from '../lib/leagues.js'
 import { Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import ArticleCard, { DeskBadge } from '../components/ArticleCard.jsx'
+import AdSlot from '../components/AdSlot.jsx'
+import { SITE } from '../lib/site.js'
 import { formatDate } from '../lib/format.js'
+import { useMeta } from '../lib/meta.js'
 
 export default function Story() {
   const { slug } = useParams()
@@ -17,19 +19,15 @@ export default function Story() {
   const desk = DESKS[article?.desk] || DESKS.margin
 
   // Search engines and social cards read the title; an article that never
-  // updates it is invisible in a tab strip full of identical names.
-  useEffect(() => {
-    if (!article) return
-    const previous = document.title
-    document.title = `${article.title} — Hoopspire`
-    const meta = document.querySelector('meta[name="description"]')
-    const previousDesc = meta?.getAttribute('content')
-    if (meta && article.description) meta.setAttribute('content', article.description)
-    return () => {
-      document.title = previous
-      if (meta && previousDesc) meta.setAttribute('content', previousDesc)
-    }
-  }, [article])
+  // updates it is invisible in a tab strip full of identical names. useMeta
+  // also emits the canonical and Open Graph tags, which matters more here
+  // than anywhere else on the site: an article is the thing people share.
+  useMeta({
+    title: article?.title,
+    description: article?.description,
+    image: article?.image || undefined,
+    type: 'article',
+  })
 
   if (!article) {
     return (
@@ -120,6 +118,16 @@ export default function Story() {
           [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:pl-6"
         dangerouslySetInnerHTML={{ __html: html }}
       />
+
+      {/*
+        The ad sits after the body, never inside it. An article broken up by
+        an ad reads as if the ad were part of the argument, and Google's own
+        placement policy treats anything that ambiguous as an invitation to
+        accidental clicks.
+      */}
+      <div className="mt-14 border-t border-parchment pt-6">
+        <AdSlot slotId={SITE.adSlots.square.id} format={SITE.adSlots.square.format} />
+      </div>
 
       <footer className="mt-14 border-t border-parchment pt-6">
         <p className="text-sm text-ink/55">

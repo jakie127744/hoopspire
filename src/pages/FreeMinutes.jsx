@@ -5,6 +5,7 @@ import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
+import { useMeta } from '../lib/meta.js'
 
 /**
  * Free Minutes — the NBA fantasy desk.
@@ -24,6 +25,7 @@ import { formatDate } from '../lib/format.js'
  * to the reader's league: head-to-head categories, roto, or points.
  */
 export default function FreeMinutes() {
+  useMeta({ title: 'Free Minutes', description: 'The fantasy basketball desk: usage, minutes and the rotations that decide a week, read straight from the box scores.' })
   const [tag, setTag] = useState('ALL')
   const all = getDesk('fantasy')
   const lead = deskLead('fantasy')

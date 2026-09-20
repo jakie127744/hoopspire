@@ -13,20 +13,29 @@
 export const SITE = {
   name: 'Hoopspire',
   tagline: 'Heritage of the Hardwood',
-  domain: 'hoopspire.com', // TODO: confirm once registered
+  domain: 'hoopspire.com',
 
-  /** The person or company legally responsible for the site. */
-  legalEntity: 'TODO: your name or registered company name',
+  /**
+   * Who is legally responsible. Hoopspire is a personal project, not a
+   * registered company, so this names an individual operator rather than an
+   * entity — which is what it is, and AdSense has never required otherwise.
+   */
+  legalEntity: 'an individual, as a personal project',
 
-  /** Registered/business address. Required by GDPR if you serve EU traffic. */
-  address: 'TODO: your business address',
+  /**
+   * Where that operator is based. A hobby site publishing a home address
+   * helps nobody, so this gives the state and routes the full address through
+   * email on request — which keeps a real channel open without putting a
+   * private residence on a public page.
+   */
+  address: 'Florida, United States (full postal address available on request by email)',
 
   /** Contact addresses. A working inbox is an AdSense review requirement. */
-  email: 'TODO: hello@yourdomain.com',
-  privacyEmail: 'TODO: privacy@yourdomain.com',
+  email: 'hoopspire77@gmail.com',
+  privacyEmail: 'hoopspire77@gmail.com',
 
   /** Governing law for the Terms, e.g. 'the Philippines' or 'England and Wales'. */
-  jurisdiction: 'TODO: your country or state',
+  jurisdiction: 'the State of Florida, United States',
 
   /** Shown as "Last updated" on the legal pages. Bump when you edit them. */
   lastUpdated: '2026-09-09',
@@ -40,8 +49,25 @@ export const SITE = {
    *   'ezoic'    → Ezoic               (publisherId is your site ID)
    *   null       → no ads (default)
    */
-  adNetwork: null,
-  adsensePublisherId: null,
+  adNetwork: 'adsense',
+  adsensePublisherId: 'ca-pub-9907028021598445',
+
+  /**
+   * Ad unit IDs, kept here rather than typed into pages, so a unit can be
+   * repointed in one place. These belong to the AdSense account above and are
+   * shared with the chess site — they serve fine, but AdSense reports per
+   * unit, so the two sites' numbers land in the same row until Hoopspire gets
+   * units of its own.
+   *
+   * `format` must match how the unit was created in AdSense: 'autorelaxed'
+   * for a Multiplex unit, 'auto' for a display unit. A mismatch renders blank.
+   */
+  adSlots: {
+    /** Multiplex — a grid of suggestions, at home in a feed of cards. */
+    feed: { id: '3330215112', format: 'autorelaxed' },
+    /** Square display unit, for the end of an article. */
+    square: { id: '8128575211', format: 'auto' },
+  },
 
   /**
    * Newsletter.

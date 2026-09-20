@@ -7,6 +7,7 @@ import StandingsPanel from '../components/StandingsPanel.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { shortName } from '../lib/format.js'
 import { playerHref } from '../lib/players.js'
+import { useMeta } from '../lib/meta.js'
 
 const CATEGORIES = [
   { key: 'avgPoints', label: 'PPG', title: 'Points per game' },
@@ -83,6 +84,7 @@ function LeadersTable({ rows, label, leagueKey }) {
 }
 
 export default function Stats() {
+  useMeta({ title: 'Stats', description: 'Player leaders and league standings across thirteen basketball competitions, from season averages to the current playoff picture.' })
   const [leagueKey, setLeagueKey] = useState('NBA')
   const [cat, setCat] = useState('avgPoints')
   const league = getLeague(leagueKey)

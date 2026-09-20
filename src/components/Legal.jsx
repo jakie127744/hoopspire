@@ -21,8 +21,9 @@ export function LegalPage({ kicker, title, intro, children }) {
           <p className="mt-2 text-sm text-ink/70">
             {unfilled.length} placeholder{unfilled.length > 1 ? 's are' : ' is'} still unfilled in{' '}
             <code className="font-mono text-xs">src/lib/site.js</code> —{' '}
-            {unfilled.map(([k]) => k).join(', ')}. This notice disappears once they are set, and
-            only you see it here because it is rendered from the config, not hard-coded.
+            {unfilled.map(([k]) => k).join(', ')}. This notice disappears once they are set.
+            Everyone who opens this page sees it — the config it reads from is bundled into the
+            page like any other content — so treat it as a live defect, not a private reminder.
           </p>
         </div>
       )}

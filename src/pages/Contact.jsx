@@ -1,6 +1,7 @@
 import { LegalPage, Section, Value } from '../components/Legal.jsx'
 import { SITE, isTodo } from '../lib/site.js'
 import { Eyebrow } from '../components/Primitives.jsx'
+import { useMeta } from '../lib/meta.js'
 
 const REASONS = [
   {
@@ -26,6 +27,7 @@ const REASONS = [
 ]
 
 export default function Contact() {
+  useMeta({ title: 'Contact', description: 'Corrections, copyright and takedown requests, data-protection questions, and everything else — how to reach Hoopspire.' })
   return (
     <LegalPage
       kicker="Get in touch"
@@ -65,7 +67,7 @@ export default function Contact() {
 
       <Section title="Who runs it">
         <p>
-          {SITE.name} is operated by <Value of="legalEntity" />, at <Value of="address" />.
+          {SITE.name} is operated by <Value of="legalEntity" />, based in <Value of="address" />.
         </p>
       </Section>
 

@@ -1,5 +1,6 @@
 import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import { SectionHead, Eyebrow } from '../components/Primitives.jsx'
+import { useMeta } from '../lib/meta.js'
 
 const SOURCES = {
   NBA: ['ESPN public JSON — scoreboard, standings, news, teams, rosters, box scores'],
@@ -10,6 +11,7 @@ const SOURCES = {
 }
 
 export default function About() {
+  useMeta({ title: 'About', description: 'What Hoopspire is, where its numbers come from, and how a global basketball ledger across thirteen leagues is put together.' })
   return (
     <div className="mx-auto max-w-3xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">The Ledger</Eyebrow>

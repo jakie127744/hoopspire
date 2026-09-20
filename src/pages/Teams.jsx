@@ -4,8 +4,10 @@ import { LEAGUES, getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getTeams } from '../lib/api.js'
 import { TeamLogo, Loading, Empty, Eyebrow, SectionHead } from '../components/Primitives.jsx'
+import { useMeta } from '../lib/meta.js'
 
 export default function Teams() {
+  useMeta({ title: 'Teams', description: 'Every club in the ledger, by league — rosters, records and results across thirteen basketball competitions.' })
   const [leagueKey, setLeagueKey] = useState('NBA')
   const league = getLeague(leagueKey)
   const { data: teams, loading } = useAsync(() => getTeams(leagueKey), [leagueKey], [])

@@ -5,6 +5,9 @@ import { leaguesByGroup, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
+import AdSlot from '../components/AdSlot.jsx'
+import { SITE } from '../lib/site.js'
+import { useMeta } from '../lib/meta.js'
 
 const HERO_IMAGE =
   'https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1600&q=80'
@@ -79,6 +82,7 @@ function Hero({ leadByLeague }) {
 }
 
 export default function Home() {
+  useMeta({ description: 'Live scores, standings, rosters and original analysis across thirteen basketball leagues — the NBA, WNBA, EuroLeague, PBA, KBL, B.League, CBA and more.' })
   const { data: news, loading } = useAsync(() => getAllNews(6), [], [])
   const { data: games } = useAsync(() => getAllGames(), [], [], {
     refreshMs: 120_000,
@@ -140,6 +144,24 @@ export default function Home() {
           !loading && <Empty title="No stories on the wire right now." />
         )}
       </section>
+
+      {/*
+        Gated on the wire actually having delivered something. If the feed
+        fails or is still loading, this page is nav and empty states, and an
+        ad on a page with no content is the exact thing AdSense's policy on
+        low-value inventory is written about.
+
+        One ad on the home page, between two sections rather than inside
+        either. A Multiplex unit looks like a grid of cards, which is exactly
+        what sits above it — so it is labelled "Advertisement" by AdSlot and
+        given its own band of whitespace, to keep the resemblance from
+        reading as an endorsement.
+      */}
+      {!loading && grid.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
+          <AdSlot slotId={SITE.adSlots.feed.id} format={SITE.adSlots.feed.format} height={320} />
+        </section>
+      )}
 
       <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
         <SectionHead

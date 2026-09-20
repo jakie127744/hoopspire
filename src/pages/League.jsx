@@ -7,6 +7,7 @@ import ScoreCard from '../components/ScoreCard.jsx'
 import StandingsPanel from '../components/StandingsPanel.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
+import { useMeta } from '../lib/meta.js'
 
 export function LeagueRail({ current }) {
   return (
@@ -31,6 +32,13 @@ export function LeagueRail({ current }) {
 export default function League() {
   const { key } = useParams()
   const league = getLeague(key)
+
+  useMeta({
+    title: league ? `${league.name}` : 'League',
+    description: league
+      ? `${league.name} scores, standings, rosters and stats on Hoopspire — results as they finish and the table as it stands.`
+      : undefined,
+  })
 
   const { data: news, loading: newsLoading } = useAsync(
     () => (league ? getNews(league.key, 9) : []),

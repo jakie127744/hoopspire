@@ -1,0 +1,18 @@
+# Hoopspire — https://hoopspire.com
+
+User-agent: *
+Allow: /
+
+# The git-based editor. It is already noindex'd in its own <head>; this keeps
+# crawlers from spending fetches on it at all.
+Disallow: /admin
+
+# Snapshot JSON is the raw material behind the pages, not a page. Indexing it
+# puts naked data files in results where an article should be.
+Disallow: /data/
+
+# Google reads ads.txt directly and does not need crawl permission for it, but
+# neither should anything here block it.
+Allow: /ads.txt
+
+Sitemap: https://hoopspire.com/sitemap.xml

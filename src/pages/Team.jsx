@@ -5,6 +5,7 @@ import { getRoster, getGames } from '../lib/api.js'
 import { rosterProfileIds, playerHref } from '../lib/players.js'
 import { TeamLogo, Loading, Empty, Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
+import { useMeta } from '../lib/meta.js'
 
 const COLUMNS = [
   ['jersey', '#'],
@@ -33,6 +34,15 @@ export default function Team() {
     [leagueKey, teamId, roster],
     new Map()
   )
+
+  // Reads through optional chaining because the hook has to run before the
+  // early returns below, while `roster` may still be null.
+  useMeta({
+    title: roster?.team?.name,
+    description: roster?.team?.name
+      ? `${roster.team.name} roster, results and season numbers${league ? ` in the ${league.name}` : ''} — every player, with links to their file.`
+      : undefined,
+  })
 
   const teamGames = (games || [])
     .filter(

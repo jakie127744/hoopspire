@@ -5,6 +5,7 @@ import { LEAGUES } from '../lib/leagues.js'
 import RefreshNote from '../components/RefreshNote.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
+import { useMeta } from '../lib/meta.js'
 
 const FILTERS = [{ key: 'ALL', name: 'All' }, ...LEAGUES]
 
@@ -28,6 +29,7 @@ function Group({ title, count, games }) {
 }
 
 export default function Scores() {
+  useMeta({ title: 'The Scoreboard', description: 'Live whistles, final results and upcoming fixtures across every league in the ledger — updated as the games are played.' })
   const [filter, setFilter] = useState('ALL')
   const { data: games, loading, refreshedAt, refresh } = useAsync(() => getAllGames(), [], [], {
     refreshMs: 120_000,
