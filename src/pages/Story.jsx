@@ -1,17 +1,20 @@
 import { useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { getOriginal, renderBody, relatedOriginals } from '../lib/articles.js'
+import { getOriginal, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
 import { disclosureText } from '../lib/affiliate.js'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { getLeague } from '../lib/leagues.js'
 import { Eyebrow, SectionHead } from '../components/Primitives.jsx'
-import ArticleCard from '../components/ArticleCard.jsx'
+import ArticleCard, { DeskBadge } from '../components/ArticleCard.jsx'
 import { formatDate } from '../lib/format.js'
 
 export default function Story() {
   const { slug } = useParams()
   const article = getOriginal(slug)
   const league = article?.league ? getLeague(article.league) : null
+  // Back should return the reader to the desk they came from, not always to
+  // The Margin. `desk` is absent only if an article predates the split.
+  const desk = DESKS[article?.desk] || DESKS.margin
 
   // Search engines and social cards read the title; an article that never
   // updates it is invisible in a tab strip full of identical names.
@@ -44,8 +47,8 @@ export default function Story() {
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-14 md:px-8">
-      <Link to="/margin" className="eyebrow text-ink/45 hover:text-crimson">
-        ← The Margin
+      <Link to={desk.path} className="eyebrow text-ink/45 hover:text-crimson">
+        ← {desk.name}
       </Link>
 
       <header className="mt-6">
@@ -57,9 +60,7 @@ export default function Story() {
           )}
           {league && <span className="text-parchment">·</span>}
           <Eyebrow className="text-ink/50">{article.tag}</Eyebrow>
-          <span className="border border-gold px-1.5 py-0.5 text-gold">
-            <Eyebrow className="font-bold">The Margin</Eyebrow>
-          </span>
+          <DeskBadge article={article} />
         </div>
 
         <h1 className="mt-4 font-display text-4xl leading-[1.05] md:text-6xl">{article.title}</h1>
@@ -136,7 +137,7 @@ export default function Story() {
 
       {related.length > 0 && (
         <section className="mt-20">
-          <SectionHead title="More from The Margin" />
+          <SectionHead title={`More from ${desk.name}`} />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {related.map((a) => (
               <ArticleCard key={a.id} article={a} />

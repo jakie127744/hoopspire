@@ -1,21 +1,27 @@
 /**
- * The Margin — the writing that is actually yours.
+ * The writing that is actually yours — across two desks.
  *
+ * ── The Margin ─────────────────────────────────────────────────────────────
  * Named for both senses: the margin of victory, and the notes written in the
- * margin. The section is stats-first by design — analysis built on the box
- * scores, standings and season averages the rest of the site already collects.
- * That is the one thing an aggregator cannot copy, and the reason this section
- * exists.
+ * margin. Stats-first analysis built on the box scores, standings and season
+ * averages the rest of the site already collects. Files live in
+ * /content/articles/*.md.
  *
- * Posts live as Markdown files in /content/articles/*.md and are bundled at
- * build time by Vite, so there is no CMS, no database and no backend to run.
- * Add a file, and it appears on the site.
+ * ── Free Minutes ────────────────────────────────────────────
+ * The NBA fantasy desk. Also named twice over: minutes are the currency of
+ * fantasy value, and free minutes are the ones a trade or a departure has
+ * just put back on the table. Projections, category math and roster
+ * construction. Files live in /content/fantasy/*.md, and the desk publishes
+ * daily.
  *
- * This is the half of the site that makes it publishable. Aggregated
- * headlines are a service; original reporting and analysis is the thing ad
- * networks, search engines and readers actually value. These pieces rank
- * above wire items everywhere they appear together, and they open on this
- * site rather than linking away.
+ * Both desks share this module because they share everything that matters:
+ * the same frontmatter, the same renderer, the same /story/:slug route, the
+ * same card. Only the `desk` field differs, and it is what the section pages
+ * filter on. Keeping them in one pipeline means a fantasy piece can never
+ * quietly diverge into a second, subtly different article format.
+ *
+ * Posts are bundled at build time by Vite, so there is no CMS, no database
+ * and no backend to run. Add a file, and it appears on the site.
  *
  * ── Frontmatter ────────────────────────────────────────────────────────────
  *   ---
@@ -29,11 +35,32 @@
  *   imageCredit: Photo by …  # required whenever `image` is set
  *   draft: true              # hidden from the site until removed
  *   ---
+ *
+ * `desk` is not a frontmatter field on purpose — it comes from the directory
+ * the file sits in, so a piece cannot end up on the wrong desk because of a
+ * typo, and moving one between desks is a `git mv` rather than an edit.
  */
 import { marked } from 'marked'
 import { decorateAffiliateLinks } from './affiliate.js'
 
 marked.setOptions({ gfm: true, breaks: false })
+
+/** The two desks, and how each presents itself. */
+export const DESKS = {
+  margin: {
+    key: 'margin',
+    name: 'The Margin',
+    path: '/margin',
+    /** Tailwind colour for the badge and rules. */
+    accent: 'gold',
+  },
+  fantasy: {
+    key: 'fantasy',
+    name: 'Free Minutes',
+    path: '/free-minutes',
+    accent: 'crimson',
+  },
+}
 
 /**
  * Minimal frontmatter parser.
@@ -68,41 +95,63 @@ function slugFromPath(path) {
   return path.split('/').pop().replace(/\.md$/, '')
 }
 
-// Eager glob: articles are part of the bundle, so there is nothing to fetch
-// at runtime and no loading state to design around.
-const files = import.meta.glob('/content/articles/*.md', { query: '?raw', import: 'default', eager: true })
+// Eager globs: articles are part of the bundle, so there is nothing to fetch
+// at runtime and no loading state to design around. Vite requires the glob
+// pattern to be a literal, so the two desks are listed rather than looped.
+const files = {
+  margin: import.meta.glob('/content/articles/*.md', { query: '?raw', import: 'default', eager: true }),
+  fantasy: import.meta.glob('/content/fantasy/*.md', { query: '?raw', import: 'default', eager: true }),
+}
+
+function build(path, raw, desk) {
+  const { data, body } = parseFrontmatter(raw)
+  const slug = data.slug || slugFromPath(path)
+  return {
+    id: `original-${slug}`,
+    slug,
+    original: true,
+    desk,
+    deskName: DESKS[desk].name,
+    league: data.league || null,
+    title: data.title || slug,
+    description: data.dek || '',
+    byline: data.author || null,
+    published: data.published || null,
+    tag: data.tag || 'Analysis',
+    image: data.image || null,
+    imageCredit: data.imageCredit || null,
+    imageCaption: data.imageCredit || null,
+    draft: data.draft === true,
+    readingTime: readingTime(body),
+    body,
+    /** Internal route — our own pieces never link off-site. */
+    href: `/story/${slug}`,
+    url: null,
+  }
+}
 
 const all = Object.entries(files)
-  .map(([path, raw]) => {
-    const { data, body } = parseFrontmatter(raw)
-    const slug = data.slug || slugFromPath(path)
-    return {
-      id: `original-${slug}`,
-      slug,
-      original: true,
-      league: data.league || null,
-      title: data.title || slug,
-      description: data.dek || '',
-      byline: data.author || null,
-      published: data.published || null,
-      tag: data.tag || 'Analysis',
-      image: data.image || null,
-      imageCredit: data.imageCredit || null,
-      imageCaption: data.imageCredit || null,
-      draft: data.draft === true,
-      readingTime: readingTime(body),
-      body,
-      /** Internal route — our own pieces never link off-site. */
-      href: `/story/${slug}`,
-      url: null,
-    }
-  })
+  .flatMap(([desk, group]) => Object.entries(group).map(([path, raw]) => build(path, raw, desk)))
   .filter((a) => !a.draft)
   .sort((a, b) => new Date(b.published || 0) - new Date(a.published || 0))
 
+/**
+ * Everything we wrote, from every desk.
+ *
+ * The front page and the league pages use this: a reader looking for NBA
+ * coverage wants the fantasy draft guide alongside the projection piece, and
+ * has no reason to care which desk filed it.
+ */
 export function getOriginals(leagueKey = null, limit = Infinity) {
   const list = leagueKey ? all.filter((a) => a.league === leagueKey) : all
   return list.slice(0, limit)
+}
+
+/** One desk's output, for its own section page. */
+export function getDesk(desk, leagueKey = null, limit = Infinity) {
+  return all
+    .filter((a) => a.desk === desk && (!leagueKey || a.league === leagueKey))
+    .slice(0, limit)
 }
 
 export function getOriginal(slug) {
@@ -121,13 +170,22 @@ export function renderBody(body) {
   return decorateAffiliateLinks(raw)
 }
 
-/** Other pieces worth reading after this one. */
+/**
+ * Other pieces worth reading after this one.
+ *
+ * Same desk counts for more than same league: someone who just read a
+ * nine-cat punt guide is better served by another fantasy piece about a
+ * different team than by a game report about the same one.
+ */
 export function relatedOriginals(article, limit = 3) {
   if (!article) return []
   return all
     .filter((a) => a.slug !== article.slug)
     .sort((a, b) => {
-      const score = (x) => (x.league === article.league ? 2 : 0) + (x.tag === article.tag ? 1 : 0)
+      const score = (x) =>
+        (x.desk === article.desk ? 4 : 0) +
+        (x.league === article.league ? 2 : 0) +
+        (x.tag === article.tag ? 1 : 0)
       return score(b) - score(a) || new Date(b.published || 0) - new Date(a.published || 0)
     })
     .slice(0, limit)

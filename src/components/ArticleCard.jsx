@@ -37,11 +37,29 @@ function TranslatedNote({ article, className = '' }) {
   )
 }
 
-/** Marks our own writing where it sits alongside wire items. */
-function MarginBadge() {
+/**
+ * Marks our own writing where it sits alongside wire items, and says which
+ * desk filed it.
+ *
+ * The two desks get different colours because they answer different
+ * questions: The Margin argues about what happened, Free Minutes tells you
+ * what to do with your roster. A reader scanning the front page should be able to
+ * tell those apart without reading the headline.
+ *
+ * Tailwind scans source for whole class names, so the variants are written
+ * out rather than interpolated — a `border-${accent}` would compile to
+ * nothing at all.
+ */
+const DESK_BADGE = {
+  margin: 'border-gold text-gold',
+  fantasy: 'border-crimson text-crimson',
+}
+
+export function DeskBadge({ article, className = '' }) {
+  const desk = article.desk || 'margin'
   return (
-    <span className="border border-gold px-1.5 py-0.5 text-gold">
-      <Eyebrow className="font-bold">The Margin</Eyebrow>
+    <span className={`border px-1.5 py-0.5 ${DESK_BADGE[desk] || DESK_BADGE.margin} ${className}`}>
+      <Eyebrow className="font-bold">{article.deskName || 'The Margin'}</Eyebrow>
     </span>
   )
 }
@@ -75,7 +93,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
   const Kicker = () => (
     <div className="flex flex-wrap items-center gap-2">
       <LeagueTag league={article.league || 'Hoopspire'} tag={article.tag} />
-      {isOriginal && <MarginBadge />}
+      {isOriginal && <DeskBadge article={article} />}
     </div>
   )
 

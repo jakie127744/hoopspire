@@ -50,6 +50,7 @@ export default function Footer() {
             {[
               ['/', 'Home'],
               ['/margin', 'The Margin'],
+              ['/free-minutes', 'Free Minutes'],
               ['/scores', 'Live Scores'],
               ['/stats', 'Statistics'],
               ['/teams', 'Teams & Rosters'],

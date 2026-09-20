@@ -66,6 +66,11 @@ export default defineConfig({
             url: '/margin',
             icons: [{ src: 'pwa-192x192.png', sizes: '192x192' }],
           },
+          {
+            name: 'Free Minutes',
+            url: '/free-minutes',
+            icons: [{ src: 'pwa-192x192.png', sizes: '192x192' }],
+          },
         ],
       },
       workbox: {

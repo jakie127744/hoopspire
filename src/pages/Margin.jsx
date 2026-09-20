@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { getOriginals } from '../lib/articles.js'
+import { getDesk } from '../lib/articles.js'
 import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
@@ -14,7 +14,8 @@ import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
  */
 export default function Margin() {
   const [league, setLeague] = useState('ALL')
-  const all = getOriginals()
+  // This desk only — the fantasy desk has its own section at /usage.
+  const all = getDesk('margin')
 
   // Only offer filters for leagues we have actually written about.
   const written = LEAGUES.filter((l) => all.some((a) => a.league === l.key))
