@@ -39,11 +39,22 @@ export default function StandingsPanel({ league, limit }) {
   const divisions = grouped?.divisions || []
   const picture = buildPlayoffPicture(league, conferences)
 
+  // Between seasons the table below is last season's final one. Saying so is
+  // not optional: the records are real, they are just not about the season
+  // whose name is on the page, and nothing in a standings table can tell a
+  // reader that by itself.
+  const previous = grouped?.isPreviousSeason ? grouped : flat?.isPreviousSeason ? flat : null
+
   const views = [
     conferences.length > 1 && { key: 'conference', label: 'Conference' },
     divisions.length > 1 && { key: 'division', label: 'Division' },
     { key: 'league', label: 'League' },
-    picture && { key: 'playoffs', label: 'If playoffs started today' },
+    // On a finished season this bracket is not a projection of anything —
+    // it is how the season actually seeded.
+    picture && {
+      key: 'playoffs',
+      label: previous ? 'Final seeding' : 'If playoffs started today',
+    },
   ].filter(Boolean)
 
   const active = views.some((v) => v.key === view) ? view : views[0]?.key || 'league'
@@ -54,7 +65,13 @@ export default function StandingsPanel({ league, limit }) {
 
   return (
     <div>
-      {asOf && (
+      {previous && (
+        <p className="mb-4 border-l-2 border-gold bg-paper px-4 py-3 text-sm text-ink/70">
+          The {previous.upcomingSeasonLabel} season has not tipped off yet. These are the final{' '}
+          {previous.seasonLabel} standings.
+        </p>
+      )}
+      {asOf && !previous && (
         <p className="eyebrow mb-4 text-ink/40">
           Table as of {formatDate(asOf, { month: 'long' })}
         </p>

@@ -18,15 +18,32 @@ const CORE = 'https://site.api.espn.com/apis/v2/sports/basketball'
 // payload. Live data gets a short TTL; reference data (teams, rosters) longer.
 const cache = new Map()
 
+// Requests still in flight, so that N callers asking for the same URL before
+// any of them resolves make one request rather than N. The resolved cache
+// below only ever held finished responses, so a page mounting four panels at
+// once missed four times and fetched four times.
+const inFlight = new Map()
+
 async function getJSON(url, ttlMs = 60_000) {
   const hit = cache.get(url)
   if (hit && Date.now() - hit.at < ttlMs) return hit.data
 
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`ESPN ${res.status} for ${url}`)
-  const data = await res.json()
-  cache.set(url, { at: Date.now(), data })
-  return data
+  const pending = inFlight.get(url)
+  if (pending) return pending
+
+  const request = (async () => {
+    const res = await fetch(url)
+    if (!res.ok) throw new Error(`ESPN ${res.status} for ${url}`)
+    const data = await res.json()
+    cache.set(url, { at: Date.now(), data })
+    return data
+  })()
+    // A failure must not be cached as a pending request forever, and every
+    // waiter has to see the same rejection the first caller sees.
+    .finally(() => inFlight.delete(url))
+
+  inFlight.set(url, request)
+  return request
 }
 
 function yyyymmdd(date) {
@@ -193,16 +210,83 @@ function standingRow(e) {
 
 const byRecord = (a, b) => b.wins - a.wins || a.losses - b.losses
 
+/**
+ * Has anyone played yet?
+ *
+ * Between seasons ESPN answers with the new season's table already built:
+ * every club present, every record 0-0, every percentage .000. It is not an
+ * error and not an empty response, which is what makes it dangerous — it
+ * renders as a full, confident table that happens to say nothing. A reader
+ * sees fifteen teams tied for first; a reviewer sees placeholder data.
+ */
+const hasBeenPlayed = (rows) => rows.some((r) => (r.wins || 0) + (r.losses || 0) > 0)
+
+/**
+ * ESPN's `season` parameter is the year a season ENDS in: `season=2026`
+ * returns the table labelled "2025-26". So the season before the one this
+ * label describes is its end year minus one.
+ *
+ *   "2026-27" → ends 2027 → ask for 2026 → "2025-26"
+ *   "2026"    → ends 2026 → ask for 2025 → "2025"   (WNBA, single-year)
+ */
+function previousSeasonParam(label) {
+  const m = String(label).match(/(\d{4})(?:[-/](\d{2,4}))?/)
+  if (!m) return null
+  const start = Number(m[1])
+  let end = start
+  if (m[2]) {
+    if (m[2].length === 2) {
+      // "26-27" borrows its century from the first year — but "1999-00" ends
+      // in 2000, not 1900, so a borrowed century that lands before the season
+      // started has to roll forward.
+      end = Math.floor(start / 100) * 100 + Number(m[2])
+      if (end < start) end += 100
+    } else {
+      end = Number(m[2])
+    }
+  }
+  return Number.isFinite(end) ? end - 1 : null
+}
+
+/** `?season=` only when we are deliberately asking for an older table. */
+const seasonQuery = (season) => (season ? `&season=${season}` : '')
+
+/**
+ * Fall back to the last season that was actually played.
+ *
+ * Returns the untouched current table whenever it has real results, so this
+ * costs one extra request only in the gap between seasons. The fallback is
+ * flagged rather than disguised: the caller must be able to say which season
+ * a reader is looking at, because a table of last year's records under this
+ * year's heading is worse than no table at all.
+ */
+async function withPreviousSeason(current, fetchSeason) {
+  if (hasBeenPlayed(current.rows ?? current.conferences?.flatMap((c) => c.rows) ?? [])) {
+    return current
+  }
+  const season = previousSeasonParam(current.seasonLabel)
+  if (!season) return current
+
+  const prev = await fetchSeason(season).catch(() => null)
+  const prevRows = prev?.rows ?? prev?.conferences?.flatMap((c) => c.rows) ?? []
+  if (!prevRows.length || !hasBeenPlayed(prevRows)) return current
+
+  return { ...prev, isPreviousSeason: true, upcomingSeasonLabel: current.seasonLabel }
+}
+
 /** League-wide standings (level=1 returns every team, ungrouped). */
 export async function fetchStandings(league) {
-  const url = `${CORE}/${league.espnSlug}/standings?level=1`
-  const data = await getJSON(url, 10 * 60_000)
-  const rows = (data.standings?.entries || []).map(standingRow)
-  rows.sort(byRecord)
-  return {
-    seasonLabel: data.standings?.seasonDisplayName || data.season?.displayName || '',
-    rows,
+  const at = async (season) => {
+    const url = `${CORE}/${league.espnSlug}/standings?level=1${seasonQuery(season)}`
+    const data = await getJSON(url, 10 * 60_000)
+    const rows = (data.standings?.entries || []).map(standingRow)
+    rows.sort(byRecord)
+    return {
+      seasonLabel: data.standings?.seasonDisplayName || data.season?.displayName || '',
+      rows,
+    }
   }
+  return withPreviousSeason(await at(), at)
 }
 
 /**
@@ -217,9 +301,14 @@ export async function fetchStandings(league) {
  * seed of their own) by record.
  */
 export async function fetchStandingsGrouped(league) {
+  return withPreviousSeason(await groupedAt(league), (season) => groupedAt(league, season))
+}
+
+async function groupedAt(league, season) {
+  const q = seasonQuery(season)
   const [byConf, byDiv] = await Promise.all([
-    getJSON(`${CORE}/${league.espnSlug}/standings?level=2`, 10 * 60_000).catch(() => null),
-    getJSON(`${CORE}/${league.espnSlug}/standings?level=3`, 10 * 60_000).catch(() => null),
+    getJSON(`${CORE}/${league.espnSlug}/standings?level=2${q}`, 10 * 60_000).catch(() => null),
+    getJSON(`${CORE}/${league.espnSlug}/standings?level=3${q}`, 10 * 60_000).catch(() => null),
   ])
 
   // Label the season the TABLE describes, not `season.displayName` — that is

@@ -56,7 +56,15 @@ async function fetchBody({ path, type }) {
   if (!origin) {
     return { body: await readFile(join(root, 'dist', path.slice(1)), 'utf8') }
   }
-  const res = await fetch(`${origin}${path}`, { redirect: 'follow' })
+  let res
+  try {
+    res = await fetch(`${origin}${path}`, { redirect: 'follow' })
+  } catch (err) {
+    // A network failure is not a serving failure, and reporting it as one
+    // sends you to the Cloudflare dashboard to fix DNS that was never broken.
+    const code = err.cause?.code || err.message
+    throw Object.assign(new Error(`could not reach the host (${code})`), { unreachable: true })
+  }
   const body = await res.text()
   const ct = res.headers.get('content-type') || ''
   const problems = []
@@ -68,12 +76,14 @@ async function fetchBody({ path, type }) {
 }
 
 let failed = false
+let unreachable = false
 for (const check of CHECKS) {
   let body, problems
   try {
     ;({ body, problems = [] } = await fetchBody(check))
   } catch (err) {
     console.error(`  ✘ ${check.path} — ${err.code === 'ENOENT' ? 'missing from dist/' : err.message}`)
+    if (err.unreachable) unreachable = true
     failed = true
     continue
   }
@@ -89,9 +99,11 @@ for (const check of CHECKS) {
 
 if (failed) {
   console.error(
-    origin
-      ? '\nThe deployed site is not serving these correctly. A 200 that returns the app\nshell means the file is absent and the SPA fallback is covering for it.'
-      : '\nRefusing to ship: the SPA fallback would serve these as HTML with a 200,\nand Google would read that as an ads.txt with no records.'
+    unreachable
+      ? `\nCould not reach ${origin} at all, so this says nothing about what it serves.\nCheck DNS and this machine's connection before changing anything in Cloudflare.`
+      : origin
+        ? '\nThe deployed site is not serving these correctly. A 200 that returns the app\nshell means the file is absent and the SPA fallback is covering for it.'
+        : '\nRefusing to ship: the SPA fallback would serve these as HTML with a 200,\nand Google would read that as an ads.txt with no records.'
   )
   process.exit(1)
 }
