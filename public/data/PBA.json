@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-20T00:19:42.997Z",
+  "fetchedAt": "2026-09-20T11:02:33.038Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,9 +30,12 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
-    "27 of 306 player rows have a shooting line that does not add up to PPG (flagged shotLineMismatch).",
-    "PBA leaders combine all 3 conferences, weighting each average by games played."
+    "PBA_PH: bot-check page; skipped",
+    "PBA_COMM: bot-check page; skipped",
+    "PBA_GOV: bot-check page; skipped",
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -14424,6 +14427,84 @@
   ],
   "news": [
     {
+      "id": "PBA-gilaswomenrollpasthongkongtobookasiangam",
+      "league": "PBA",
+      "title": "Gilas women roll past Hong Kong to book Asian Games quarterfinal spot",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Gilas Pilipinas secured a quarterfinals berth in the women’s basketball 5-on-5 event of the Aichi-Nagoya Asian Games 2026 after defeating Hong Kong, 90-73, on Sunday. Stef Berb",
+      "published": "2026-09-20T11:36:00.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/813837242_1777726273712504_1521118957369584565_n-scaled.jpeg",
+      "url": "https://sports.inquirer.net/696263/gilas-women-roll-past-hong-kong-to-book-asian-games-quarterfinal-spot"
+    },
+    {
+      "id": "PBA-bttoewshopestoturnjapanexperienceintogil",
+      "league": "PBA",
+      "title": "BT Toews hopes to turn Japan experience into Gilas Women advantage",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "For BT Toews, facing Japan at the 20th Asian Games is more than a test. It is a return to a place that shaped much of his life. Toews spent 35 years in Japan, building deep ties to the country. Now, just four months after leaving, Toews finds himself back — this time on the The p",
+      "published": "2026-09-20T07:46:27.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/bt-toews-hopes-to-turn-japan-experience-into-gilas-women-advantage/384289"
+    },
+    {
+      "id": "PBA-gilaspilipinaswomennotlosingfocusdespite",
+      "league": "PBA",
+      "title": "Gilas Pilipinas Women not losing focus despite Asian Games QF ticket, brace for Japan",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Gilas Pilipinas Women have already secured a quarterfinals berth in the 2026 Asian Games after a dominant 90-73 win over Hong Kong early Sunday in Nagoya.",
+      "published": "2026-09-20T06:33:47.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1003025/gilas-pilipinas-women-not-losing-focus-despite-asian-games-qf-ticket-brace-for-japan/story/"
+    },
+    {
+      "id": "PBA-quetwoothersreturninictsinegrostilt",
+      "league": "PBA",
+      "title": "Que, two others return in ICTSI Negros tilt",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Angelo Que returns to the Philippine Golf Tour spotlight with his sights set on another championship, while Aidric Chan and multi-titled Clyde Mondilla also rejoin the hunt as a formidable field converges for the ICTSI Negros Occidental Classic beginning Monday, September 21, at ",
+      "published": "2026-09-20T05:41:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/20/2557631/que-two-others-return-ictsi-negros-tilt"
+    },
+    {
+      "id": "PBA-gilaswomenrouthongkongsecurespotinasiang",
+      "league": "PBA",
+      "title": "Gilas Women rout Hong Kong, secure spot in Asian Games quarterfinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Women pulled away in the fourth quarter to defeat Hong Kong, 90-73, and clinch a spot in the quarterfinals of the 20th Asian Games on Sunday morning at the Aichi International Arena in Japan. After maintaining a slim lead through the first three quarters, the Phil",
+      "published": "2026-09-20T04:23:41.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/gilas-women-rout-hong-kong-secure-spot-in-asian-games-quarterfinals/384273"
+    },
+    {
+      "id": "PBA-gilaspilipinaswomenbookasiangamesquarter",
+      "league": "PBA",
+      "title": "Gilas Pilipinas Women book Asian Games quarterfinals spot with rout of Hong Kong",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Women advanced to the 2026 Asian Games quarterfinals after steamrolling Hong Kong, 90-73, on Sunday at the Aichi International Arena in Nagoya, Japan.",
+      "published": "2026-09-20T02:57:35.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1003003/gilas-pilipinas-women-near-asian-games-quarterfinals-after-rout-of-hong-kong/story/"
+    },
+    {
       "id": "PBA-pbaontourimportlessmagnoliaroutsnlex",
       "league": "PBA",
       "title": "PBA on Tour: Import-less Magnolia routs NLEX",
@@ -14450,19 +14531,6 @@
       "url": "https://sports.inquirer.net/696110/jordan-clarkson-wants-to-play-for-gilas-pilipinas-again"
     },
     {
-      "id": "PBA-kenshinpadronespjpalacieloembraceextraha",
-      "league": "PBA",
-      "title": "Kenshin Padrones, PJ Palacielo embrace ‘Extra Half Rice’ tag",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Some comparisons are earned through championships, others through the way players impose themselves on the court. For National University big men Kenshin Padrones and PJ Palacielo, their stocky frames, physicality, and low-post grit have already drawn comparisons to Rain or Shine",
-      "published": "2026-09-19T11:00:09.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/UAAP89-Mens-Basketball-PJ-Palacielo-8288-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/kenshin-padrones-pj-palacielo-embrace-extra-half-rice-tag/384214"
-    },
-    {
       "id": "PBA-jordanclarksonhopestojoingilaspilipinasa",
       "league": "PBA",
       "title": "Jordan Clarkson hopes to join Gilas Pilipinas anew in FIBA World Cup",
@@ -14487,45 +14555,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1002749/who-is-elizabeth-means-gilas-pilipinas-women-s-newcomer/story/"
-    },
-    {
-      "id": "PBA-gilaspilipinaswomentakedownkazakhstantoo",
-      "league": "PBA",
-      "title": "Gilas Pilipinas Women take down Kazakhstan to open 2026 Asian Games campaign",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Gilas Pilipinas Women opened their 2026 Asian Games campaign with a big 86-58 victory over Kazakhstan on Thursday in Japan.",
-      "published": "2026-09-17T09:06:27.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1002727/gilas-pilipinas-women-take-down-kazakhstan-to-open-2026-asian-games-campaign/story/"
-    },
-    {
-      "id": "PBA-oftanasaysgilaspilipinasasiangamesexitsh",
-      "league": "PBA",
-      "title": "Oftana says Gilas Pilipinas’ Asian Games exit should serve as lesson",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Despite being a last-minute inclusion, Calvin Oftana emerges as Gilas Pilipinas' best player, although his Asian Games run ends early as the Philippines fails to reach the quarterfinals",
-      "published": "2026-09-14T13:03:53.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/sports/gilas-pilipinas/calvin-oftana-says-asian-games-exit-should-serve-lesson/"
-    },
-    {
-      "id": "PBA-coneruesabsenceofbestplayersasgilassuffe",
-      "league": "PBA",
-      "title": "Cone rues absence of ‘best players’ as Gilas suffers worst Asian Games finish",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Tim Cone, however, tips his hat to the players who answered Gilas Pilipinas’ call, even as the Philippines’ Asian Games title defense comes to an abrupt end after the team failed to reach the quarterfinals",
-      "published": "2026-09-14T11:59:12.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/sports/gilas-pilipinas/tim-cone-rues-absence-best-players-philippines-worst-finish-asian-games/"
     }
   ],
   "leaders": {
@@ -14994,9 +15023,16 @@
     "teams": "2026-09-20T00:19:42.997Z",
     "rosters": "2026-09-20T00:19:42.997Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
+    "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-20T00:19:42.997Z",
-    "news": "2026-09-20T00:19:42.997Z",
-    "leaders": "2026-09-20T00:19:42.997Z"
-  }
+    "games": "2026-09-20T11:02:33.038Z",
+    "news": "2026-09-20T11:02:33.038Z"
+  },
+  "carriedOver": [
+    "teams",
+    "rosters",
+    "playerStats",
+    "leaders",
+    "standings"
+  ]
 }

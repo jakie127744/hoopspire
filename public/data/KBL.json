@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-19T10:38:12.276Z",
+  "fetchedAt": "2026-09-20T11:01:07.115Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260820&toDate=20261019&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260821&toDate=20261020&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,32 @@
   ],
   "news": [
     {
+      "id": "KBL-leadasiadmensbasketballteammissesshootar",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) Men's basketball team misses shootaround before final due to shuttle no-show",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 20 (Yonhap) -- The men's national basketball team was force...",
+      "published": "2026-09-20T04:26:15.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823290001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260920002051315"
+    },
+    {
+      "id": "KBL-asiadmensbasketballteammissesshootaround",
+      "league": "KBL",
+      "title": "(Asiad) Men's basketball team misses shootaround before final due to shuttle no-show",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 20 (Yonhap) -- The men's national basketball team was force...",
+      "published": "2026-09-20T03:07:12.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823290001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260920002000315"
+    },
+    {
       "id": "KBL-asiadjapanbornbasketballplayerforskorear",
       "league": "KBL",
       "title": "(Asiad) Japan-born basketball player for S. Korea ready to show growth before family, friends",
@@ -8579,97 +8605,6 @@
       "tag": "Report",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091314160001300_P2.jpg",
       "url": "https://en.yna.co.kr/view/AEN20260914009700315"
-    },
-    {
-      "id": "KBL-asiadskoreatobewithouttopcenterforwomens",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea to be without top center for women's basketball tournament",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 14 (Yonhap) -- The women's national basketball team will co...",
-      "published": "2026-09-14T02:24:18.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/09/14/AEN20260914002900315_01_i_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260914002900315"
-    },
-    {
-      "id": "KBL-asiadskoreabasketballcoachpraisesteamfor",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea basketball coach praises team for timely effort in win over Japan",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 13 (Yonhap) -- South Korea head coach Nikolajs Mazurs gave ...",
-      "published": "2026-09-13T13:02:35.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091312010001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260913002900315"
-    },
-    {
-      "id": "KBL-leadasiadskoreadefeatsjapantotopgroupinm",
-      "league": "KBL",
-      "title": "(LEAD) (Asiad) S. Korea defeats Japan to top group in men's basketball",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 13 (Yonhap) -- South Korea defeated its rival Japan 100-83 ...",
-      "published": "2026-09-13T12:48:46.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091312380001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260913002851315"
-    },
-    {
-      "id": "KBL-asiadskoreadefeatsjapantotopgroupinmensb",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea defeats Japan to top group in men's basketball",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 13 (Yonhap) -- South Korea defeated its rival Japan 100-83 ...",
-      "published": "2026-09-13T12:16:42.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/13/PYH2026091312380001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260913002800315"
-    },
-    {
-      "id": "KBL-leadasiadskoreahammersindonesiainmensbas",
-      "league": "KBL",
-      "title": "(LEAD) (Asiad) S. Korea hammers Indonesia in men's basketball, reaches quarterfinals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SEOUL, Sept. 11 (Yonhap) -- South Korea routed Indonesia 102-48 for its second s...",
-      "published": "2026-09-11T12:48:19.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091114890001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260911009351315"
-    },
-    {
-      "id": "KBL-asiadskoreahammersindonesiafor2ndstraigh",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea hammers Indonesia for 2nd straight win in men's basketball",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SEOUL, Sept. 11 (Yonhap) -- South Korea routed Indonesia 102-48 for its second s...",
-      "published": "2026-09-11T08:55:22.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/11/PYH2026091114890001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260911009300315"
-    },
-    {
-      "id": "KBL-asiadskoreabeatssaudiarabiatoopenmensbas",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea beats Saudi Arabia to open men's basketball tournament",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SEOUL, Sept. 10 (Yonhap) -- South Korea cruised to an 82-66 win over Saudi Arabi...",
-      "published": "2026-09-10T09:18:07.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/10/PYH2026091019280001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260910008300315"
     }
   ],
   "leaders": {
@@ -9140,8 +9075,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-19T10:38:12.276Z",
-    "news": "2026-09-19T10:38:12.276Z"
+    "games": "2026-09-20T11:01:07.115Z",
+    "news": "2026-09-20T11:01:07.115Z"
   },
   "carriedOver": [
     "teams",
