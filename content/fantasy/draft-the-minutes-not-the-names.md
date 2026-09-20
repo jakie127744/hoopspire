@@ -62,11 +62,11 @@ The habit worth building: when a ranking surprises you, ask what minutes number 
 
 Roster movement matters in fantasy for a narrower reason than it matters in real basketball. A trade becomes interesting to a manager mainly when it changes who is on the floor and who ends possessions, and those two effects often point in opposite directions.
 
-Hoopspire's [2026-27 projection](/story/NBA-2026-27-Projections) lays out the movement: Giannis Antetokounmpo to Miami, Jaylen Brown and LeBron James to Philadelphia, LaMelo Ball to Minnesota, Ja Morant to Portland, Kawhi Leonard to Toronto, Paul George to Boston, with Kevin Durant staying in Houston alongside Marcus Smart and Bogdan Bogdanovic.
+Hoopspire's [2026-27 projection](/story/NBA-2026-27-Projections) lays out the movement: [Giannis Antetokounmpo](/player/NBA/3032977) to Miami, [Jaylen Brown](/player/NBA/3917376) and [LeBron James](/player/NBA/1966) to Philadelphia, [LaMelo Ball](/player/NBA/4432816) to Minnesota, [Ja Morant](/player/NBA/4279888) to Portland, [Kawhi Leonard](/player/NBA/6450) to Toronto, [Paul George](/player/NBA/4251) to Boston, with [Kevin Durant](/player/NBA/3202) staying in Houston alongside [Marcus Smart](/player/NBA/2990992) and [Bogdan Bogdanovic](/player/NBA/3037789).
 
 Read that list twice, from two directions.
 
-**Arriving stars compress the players around them.** Miami adding Antetokounmpo to a team already built around Bam Adebayo puts two high-usage interior players into the same possessions. The projection expects more rim pressure and more free throw attempts for Miami as a team, and treats the spacing cost as the open question. For fantasy the question narrows further: the shooters and secondary creators who were absorbing those possessions last season are now worth less than their 2025-26 lines suggest. Philadelphia has the same problem twice over, with Brown and James both arriving.
+**Arriving stars compress the players around them.** Miami adding Antetokounmpo to a team already built around [Bam Adebayo](/player/NBA/4066261) puts two high-usage interior players into the same possessions. The projection expects more rim pressure and more free throw attempts for Miami as a team, and treats the spacing cost as the open question. For fantasy the question narrows further: the shooters and secondary creators who were absorbing those possessions last season are now worth less than their 2025-26 lines suggest. Philadelphia has the same problem twice over, with Brown and James both arriving.
 
 **Departing stars are where the free minutes are.** Milwaukee, Charlotte, Memphis and the Los Angeles Clippers each lost a primary option. Those vacancies are the most reliable source of value in a draft, and they are systematically underpriced, because a player's rank is computed from a season in which somebody else was taking his shots.
 
@@ -86,7 +86,7 @@ Three filters, in order of how much they are worth:
 
 **What does he do to your free throw line?** A rookie big who shoots 58% from the line moves your team's free throw percentage across a whole season. In roto that is a category you then have to repair somewhere else.
 
-Cooper Flagg, now in his second season, is the useful counterexample. Hoopspire's projection expects Dallas to improve without a full transformation from a 26-56 team, which describes a player whose minutes are already secure. A second-year player with established minutes has both halves of the projection available, and that is worth more than the upside premium a genuine rookie carries.
+[Cooper Flagg](/player/NBA/5041939), now in his second season, is the useful counterexample. Hoopspire's projection expects Dallas to improve without a full transformation from a 26-56 team, which describes a player whose minutes are already secure. A second-year player with established minutes has both halves of the projection available, and that is worth more than the upside premium a genuine rookie carries.
 
 The general rule: draft one rookie you believe in, late, and let the waiver wire hand you the others in November once the rotations have declared themselves.
 
