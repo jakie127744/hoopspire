@@ -27,6 +27,7 @@ import {
   tpblNews,
   buildLeaders,
   combineConferenceStats,
+  flagShotLineMismatches,
 } from './player-stats.mjs'
 import { translate, saveTranslationCache } from './translate.mjs'
 import { buildCareers } from './careers.mjs'
@@ -893,6 +894,9 @@ async function scrapeAsiaBasketLeague(leagueKey, limit = 80) {
       if (unmatched) notes.push(`${unmatched} players belong to clubs outside this season's table`)
     }
 
+    const mismatch = flagShotLineMismatches(players)
+    if (mismatch) notes.push(mismatch)
+
     const built = buildLeaders(players)
     leaders = built.leaders || {}
     if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
@@ -1601,6 +1605,8 @@ async function pbaExtras(teams, notes) {
       const club = matchTeam(p.teamName || '', teams)
       if (club) p.teamId = club.id
     }
+    const mismatch = flagShotLineMismatches(out.playerStats)
+    if (mismatch) notes.push(mismatch)
     const built = buildLeaders(out.playerStats)
     out.leaders = built.leaders || {}
     notes.push(

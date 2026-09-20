@@ -1,7 +1,7 @@
 {
   "league": "CBA",
-  "season": "2026",
-  "fetchedAt": "2026-09-19T10:39:40.632Z",
+  "season": "2025-2026",
+  "fetchedAt": "2026-09-20T00:20:07.377Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -17,10 +17,9 @@
     }
   ],
   "notes": [
-    "CBA: bot-check page; skipped",
-    "CBA 2026: RealGM returned a bot-check page; skipped",
-    "CBA 2025: RealGM returned a bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
+    "2 results-table labels matched no club unambiguously and were left unattributed: Beijing, Zhejiang",
+    "55 of 379 player rows have a shooting line that does not add up to PPG (flagged shotLineMismatch).",
+    "Leaders require at least 21 games played."
   ],
   "teams": [
     {
@@ -4504,7 +4503,8 @@
       "realgmPlayerId": "84242",
       "realgmUrl": "https://basketball.realgm.com/player/Barry-Brown-Jr/Summary/84242",
       "id": "rg-84242",
-      "teamId": "rg-289"
+      "teamId": "rg-289",
+      "shotLineMismatch": 1.1
     },
     {
       "name": "Terquavion Smith",
@@ -4534,7 +4534,8 @@
       "realgmPlayerId": "150383",
       "realgmUrl": "https://basketball.realgm.com/player/Terquavion-Smith/Summary/150383",
       "id": "rg-150383",
-      "teamId": "rg-93"
+      "teamId": "rg-93",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Lindell Wigginton",
@@ -4564,7 +4565,8 @@
       "realgmPlayerId": "76942",
       "realgmUrl": "https://basketball.realgm.com/player/Lindell-Wigginton/Summary/76942",
       "id": "rg-76942",
-      "teamId": "rg-739"
+      "teamId": "rg-739",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Grant Riller",
@@ -4624,7 +4626,8 @@
       "realgmPlayerId": "83967",
       "realgmUrl": "https://basketball.realgm.com/player/Quinndary-Weatherspoon/Summary/83967",
       "id": "rg-83967",
-      "teamId": "rg-740"
+      "teamId": "rg-740",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Javion Hamlet",
@@ -4654,7 +4657,8 @@
       "realgmPlayerId": "117905",
       "realgmUrl": "https://basketball.realgm.com/player/Javion-Hamlet/Summary/117905",
       "id": "rg-117905",
-      "teamId": "rg-741"
+      "teamId": "rg-741",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Edmond Sumner",
@@ -4684,7 +4688,8 @@
       "realgmPlayerId": "52565",
       "realgmUrl": "https://basketball.realgm.com/player/Edmond-Sumner/Summary/52565",
       "id": "rg-52565",
-      "teamId": "rg-14"
+      "teamId": "rg-14",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Haowen Guo",
@@ -4714,7 +4719,8 @@
       "realgmPlayerId": "133158",
       "realgmUrl": "https://basketball.realgm.com/player/Haowen-Guo/Summary/133158",
       "id": "rg-133158",
-      "teamId": "rg-1623"
+      "teamId": "rg-1623",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Harry Giles",
@@ -4804,7 +4810,8 @@
       "realgmPlayerId": "76281",
       "realgmUrl": "https://basketball.realgm.com/player/Xining-He/Summary/76281",
       "id": "rg-76281",
-      "teamId": "rg-93"
+      "teamId": "rg-93",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Jordan Mickey",
@@ -4864,7 +4871,8 @@
       "realgmPlayerId": "107361",
       "realgmUrl": "https://basketball.realgm.com/player/Benson-Lin/Summary/107361",
       "id": "rg-107361",
-      "teamId": "rg-741"
+      "teamId": "rg-741",
+      "shotLineMismatch": 0.6
     },
     {
       "name": "Lester Quinones",
@@ -4984,7 +4992,8 @@
       "realgmPlayerId": "92849",
       "realgmUrl": "https://basketball.realgm.com/player/Eugene-German/Summary/92849",
       "id": "rg-92849",
-      "teamId": "rg-287"
+      "teamId": "rg-287",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Hamidou Diallo",
@@ -5164,7 +5173,8 @@
       "realgmPlayerId": "90837",
       "realgmUrl": "https://basketball.realgm.com/player/Scottie-James/Summary/90837",
       "id": "rg-90837",
-      "teamId": "rg-741"
+      "teamId": "rg-741",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "D.J. Wilson",
@@ -5284,7 +5294,8 @@
       "realgmPlayerId": "254582",
       "realgmUrl": "https://basketball.realgm.com/player/Zhenglin-Pang/Summary/254582",
       "id": "rg-254582",
-      "teamId": "rg-412"
+      "teamId": "rg-412",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Dallas Moore",
@@ -5314,7 +5325,8 @@
       "realgmPlayerId": "57912",
       "realgmUrl": "https://basketball.realgm.com/player/Dallas-Moore/Summary/57912",
       "id": "rg-57912",
-      "teamId": "rg-372"
+      "teamId": "rg-372",
+      "shotLineMismatch": 0.6
     },
     {
       "name": "DeVaughn Akoon-Purcell",
@@ -5374,7 +5386,8 @@
       "realgmPlayerId": "202807",
       "realgmUrl": "https://basketball.realgm.com/player/Haoran-Wang/Summary/202807",
       "id": "rg-202807",
-      "teamId": "rg-93"
+      "teamId": "rg-93",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Jaelen House",
@@ -5434,7 +5447,8 @@
       "realgmPlayerId": "28741",
       "realgmUrl": "https://basketball.realgm.com/player/Travis-Trice/Summary/28741",
       "id": "rg-28741",
-      "teamId": "rg-290"
+      "teamId": "rg-290",
+      "shotLineMismatch": 1.8
     },
     {
       "name": "Yang Zou",
@@ -5464,7 +5478,8 @@
       "realgmPlayerId": "219398",
       "realgmUrl": "https://basketball.realgm.com/player/Yang-Zou/Summary/219398",
       "id": "rg-219398",
-      "teamId": "rg-290"
+      "teamId": "rg-290",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Jaylen Hands",
@@ -5614,7 +5629,8 @@
       "realgmPlayerId": "91704",
       "realgmUrl": "https://basketball.realgm.com/player/Myles-Powell/Summary/91704",
       "id": "rg-91704",
-      "teamId": "rg-165"
+      "teamId": "rg-165",
+      "shotLineMismatch": 1.7
     },
     {
       "name": "Marcos Knight",
@@ -5674,7 +5690,8 @@
       "realgmPlayerId": "83950",
       "realgmUrl": "https://basketball.realgm.com/player/Marcus-LoVett-Jr/Summary/83950",
       "id": "rg-83950",
-      "teamId": "rg-1623"
+      "teamId": "rg-1623",
+      "shotLineMismatch": 2.5
     },
     {
       "name": "Jaedon LeDee",
@@ -5734,7 +5751,8 @@
       "realgmPlayerId": "81695",
       "realgmUrl": "https://basketball.realgm.com/player/Reggie-Perry/Summary/81695",
       "id": "rg-81695",
-      "teamId": "rg-1624"
+      "teamId": "rg-1624",
+      "shotLineMismatch": 1
     },
     {
       "name": "Dez Wells",
@@ -5794,7 +5812,8 @@
       "realgmPlayerId": "143257",
       "realgmUrl": "https://basketball.realgm.com/player/Jing-Hanyi/Summary/143257",
       "id": "rg-143257",
-      "teamId": "rg-1470"
+      "teamId": "rg-1470",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Gabe York",
@@ -5824,7 +5843,8 @@
       "realgmPlayerId": "27073",
       "realgmUrl": "https://basketball.realgm.com/player/Gabe-York/Summary/27073",
       "id": "rg-27073",
-      "teamId": "rg-371"
+      "teamId": "rg-371",
+      "shotLineMismatch": 1.6
     },
     {
       "name": "Josh Christopher",
@@ -5884,7 +5904,8 @@
       "realgmPlayerId": "88837",
       "realgmUrl": "https://basketball.realgm.com/player/Jaylen-Nowell/Summary/88837",
       "id": "rg-88837",
-      "teamId": "rg-638"
+      "teamId": "rg-638",
+      "shotLineMismatch": 1.2
     },
     {
       "name": "Brady Manek",
@@ -5914,7 +5935,8 @@
       "realgmPlayerId": "88817",
       "realgmUrl": "https://basketball.realgm.com/player/Brady-Manek/Summary/88817",
       "id": "rg-88817",
-      "teamId": "rg-1623"
+      "teamId": "rg-1623",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Kailun Guo",
@@ -6094,7 +6116,8 @@
       "realgmPlayerId": "237676",
       "realgmUrl": "https://basketball.realgm.com/player/Ruiqi-Duan/Summary/237676",
       "id": "rg-237676",
-      "teamId": "rg-1470"
+      "teamId": "rg-1470",
+      "shotLineMismatch": 1.1
     },
     {
       "name": "Brandon Randolph",
@@ -6124,7 +6147,8 @@
       "realgmPlayerId": "106502",
       "realgmUrl": "https://basketball.realgm.com/player/Brandon-Randolph/Summary/106502",
       "id": "rg-106502",
-      "teamId": "rg-371"
+      "teamId": "rg-371",
+      "shotLineMismatch": 0.9
     },
     {
       "name": "Zhao Jiwei",
@@ -6214,7 +6238,8 @@
       "realgmPlayerId": "133152",
       "realgmUrl": "https://basketball.realgm.com/player/Weize-Jiang/Summary/133152",
       "id": "rg-133152",
-      "teamId": "rg-372"
+      "teamId": "rg-372",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Deonte Burton",
@@ -6274,7 +6299,8 @@
       "realgmPlayerId": "138958",
       "realgmUrl": "https://basketball.realgm.com/player/Lin-Qi/Summary/138958",
       "id": "rg-138958",
-      "teamId": "rg-742"
+      "teamId": "rg-742",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Kenny Lofton, Jr.",
@@ -6484,7 +6510,8 @@
       "realgmPlayerId": "6968",
       "realgmUrl": "https://basketball.realgm.com/player/Justin-Holiday/Summary/6968",
       "id": "rg-6968",
-      "teamId": "rg-739"
+      "teamId": "rg-739",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Jared Sullinger",
@@ -6664,7 +6691,8 @@
       "realgmPlayerId": "107310",
       "realgmUrl": "https://basketball.realgm.com/player/Nathan-Knight/Summary/107310",
       "id": "rg-107310",
-      "teamId": "rg-638"
+      "teamId": "rg-638",
+      "shotLineMismatch": 1.4
     },
     {
       "name": "Ben Li",
@@ -6694,7 +6722,8 @@
       "realgmPlayerId": "135120",
       "realgmUrl": "https://basketball.realgm.com/player/Ben-Li/Summary/135120",
       "id": "rg-135120",
-      "teamId": "rg-76"
+      "teamId": "rg-76",
+      "shotLineMismatch": 1
     },
     {
       "name": "Tahjere McCall",
@@ -6844,7 +6873,8 @@
       "realgmPlayerId": "107611",
       "realgmUrl": "https://basketball.realgm.com/player/Kevon-Harris/Summary/107611",
       "id": "rg-107611",
-      "teamId": "rg-742"
+      "teamId": "rg-742",
+      "shotLineMismatch": 0.6
     },
     {
       "name": "Zhelin Wang",
@@ -7114,7 +7144,8 @@
       "realgmPlayerId": "157704",
       "realgmUrl": "https://basketball.realgm.com/player/Wang-Ruize/Summary/157704",
       "id": "rg-157704",
-      "teamId": "rg-740"
+      "teamId": "rg-740",
+      "shotLineMismatch": 1
     },
     {
       "name": "Kyle Fogg",
@@ -7264,7 +7295,8 @@
       "realgmPlayerId": "153554",
       "realgmUrl": "https://basketball.realgm.com/player/Angjun-Duan/Summary/153554",
       "id": "rg-153554",
-      "teamId": "rg-740"
+      "teamId": "rg-740",
+      "shotLineMismatch": 1
     },
     {
       "name": "Jiang Wen",
@@ -7294,7 +7326,8 @@
       "realgmPlayerId": "114727",
       "realgmUrl": "https://basketball.realgm.com/player/Jiang-Wen/Summary/114727",
       "id": "rg-114727",
-      "teamId": "rg-287"
+      "teamId": "rg-287",
+      "shotLineMismatch": 2
     },
     {
       "name": "Jaylon Brown",
@@ -7324,7 +7357,8 @@
       "realgmPlayerId": "57162",
       "realgmUrl": "https://basketball.realgm.com/player/Jaylon-Brown/Summary/57162",
       "id": "rg-57162",
-      "teamId": "rg-288"
+      "teamId": "rg-288",
+      "shotLineMismatch": 2.6
     },
     {
       "name": "Akol Mawein",
@@ -7384,7 +7418,8 @@
       "realgmPlayerId": "107195",
       "realgmUrl": "https://basketball.realgm.com/player/Xu-Jie/Summary/107195",
       "id": "rg-107195",
-      "teamId": "rg-14"
+      "teamId": "rg-14",
+      "shotLineMismatch": 1.2
     },
     {
       "name": "Damian Jones",
@@ -7474,7 +7509,8 @@
       "realgmPlayerId": "74078",
       "realgmUrl": "https://basketball.realgm.com/player/Omari-Spellman/Summary/74078",
       "id": "rg-74078",
-      "teamId": "rg-287"
+      "teamId": "rg-287",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Rob Edwards",
@@ -7744,7 +7780,8 @@
       "realgmPlayerId": "194533",
       "realgmUrl": "https://basketball.realgm.com/player/Zheng-Haoran/Summary/194533",
       "id": "rg-194533",
-      "teamId": "rg-741"
+      "teamId": "rg-741",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Chen Linjian",
@@ -7834,7 +7871,8 @@
       "realgmPlayerId": "99757",
       "realgmUrl": "https://basketball.realgm.com/player/ShiYan-Gao/Summary/99757",
       "id": "rg-99757",
-      "teamId": "rg-165"
+      "teamId": "rg-165",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Lanqin Wang",
@@ -8014,7 +8052,8 @@
       "realgmPlayerId": "151531",
       "realgmUrl": "https://basketball.realgm.com/player/Mingzheng-Zhu/Summary/151531",
       "id": "rg-151531",
-      "teamId": "rg-1623"
+      "teamId": "rg-1623",
+      "shotLineMismatch": 0.9
     },
     {
       "name": "Li Weihao",
@@ -8254,7 +8293,8 @@
       "realgmPlayerId": "195249",
       "realgmUrl": "https://basketball.realgm.com/player/Liu-Yancheng/Summary/195249",
       "id": "rg-195249",
-      "teamId": "rg-739"
+      "teamId": "rg-739",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "K.J. Martin",
@@ -8344,7 +8384,8 @@
       "realgmPlayerId": "30532",
       "realgmUrl": "https://basketball.realgm.com/player/Jarmar-Gulley/Summary/30532",
       "id": "rg-30532",
-      "teamId": "rg-372"
+      "teamId": "rg-372",
+      "shotLineMismatch": 1.1
     },
     {
       "name": "Haoran Jiang",
@@ -8614,7 +8655,8 @@
       "realgmPlayerId": "124494",
       "realgmUrl": "https://basketball.realgm.com/player/Jinxiao-Li/Summary/124494",
       "id": "rg-124494",
-      "teamId": "rg-1470"
+      "teamId": "rg-1470",
+      "shotLineMismatch": 1.3
     },
     {
       "name": "Zhaoyao Yuan",
@@ -8704,7 +8746,8 @@
       "realgmPlayerId": "37860",
       "realgmUrl": "https://basketball.realgm.com/player/Luo-Kaiwen/Summary/37860",
       "id": "rg-37860",
-      "teamId": "rg-86"
+      "teamId": "rg-86",
+      "shotLineMismatch": 0.9
     },
     {
       "name": "Izaiah Brockington",
@@ -8764,7 +8807,8 @@
       "realgmPlayerId": "107199",
       "realgmUrl": "https://basketball.realgm.com/player/Jia-Hao/Summary/107199",
       "id": "rg-107199",
-      "teamId": "rg-372"
+      "teamId": "rg-372",
+      "shotLineMismatch": 0.6
     },
     {
       "name": "Liu Zeyi",
@@ -8884,7 +8928,8 @@
       "realgmPlayerId": "205646",
       "realgmUrl": "https://basketball.realgm.com/player/Lingxuan-Zeng/Summary/205646",
       "id": "rg-205646",
-      "teamId": "rg-290"
+      "teamId": "rg-290",
+      "shotLineMismatch": 1
     },
     {
       "name": "Alondes Williams",
@@ -9034,7 +9079,8 @@
       "realgmPlayerId": "99487",
       "realgmUrl": "https://basketball.realgm.com/player/Lei-Meng/Summary/99487",
       "id": "rg-99487",
-      "teamId": "rg-287"
+      "teamId": "rg-287",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Zhu Junlong",
@@ -9334,7 +9380,8 @@
       "realgmPlayerId": "99510",
       "realgmUrl": "https://basketball.realgm.com/player/Zhang-Fan/Summary/99510",
       "id": "rg-99510",
-      "teamId": "rg-1624"
+      "teamId": "rg-1624",
+      "shotLineMismatch": 1.6
     },
     {
       "name": "Jiaren Zhao",
@@ -9694,7 +9741,8 @@
       "realgmPlayerId": "37686",
       "realgmUrl": "https://basketball.realgm.com/player/Qian-Wu/Summary/37686",
       "id": "rg-37686",
-      "teamId": "rg-371"
+      "teamId": "rg-371",
+      "shotLineMismatch": 0.6
     },
     {
       "name": "Zhengqing Liu",
@@ -9814,7 +9862,8 @@
       "realgmPlayerId": "47904",
       "realgmUrl": "https://basketball.realgm.com/player/Shuai-Yuan/Summary/47904",
       "id": "rg-47904",
-      "teamId": "rg-638"
+      "teamId": "rg-638",
+      "shotLineMismatch": 1.3
     },
     {
       "name": "Saidake Yumiti",
@@ -10744,7 +10793,8 @@
       "realgmPlayerId": "107651",
       "realgmUrl": "https://basketball.realgm.com/player/Kris-Clyburn/Summary/107651",
       "id": "rg-107651",
-      "teamId": "rg-741"
+      "teamId": "rg-741",
+      "shotLineMismatch": 1
     },
     {
       "name": "Zeyu Gu",
@@ -11044,7 +11094,8 @@
       "realgmPlayerId": "92766",
       "realgmUrl": "https://basketball.realgm.com/player/Zikai-Meng/Summary/92766",
       "id": "rg-92766",
-      "teamId": "rg-1624"
+      "teamId": "rg-1624",
+      "shotLineMismatch": 0.7
     },
     {
       "name": "Marcus Georges-Hunt",
@@ -11464,7 +11515,8 @@
       "realgmPlayerId": "222365",
       "realgmUrl": "https://basketball.realgm.com/player/Wenyi-Zhang/Summary/222365",
       "id": "rg-222365",
-      "teamId": "rg-14"
+      "teamId": "rg-14",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Rong Zifeng",
@@ -12274,7 +12326,8 @@
       "realgmPlayerId": "254536",
       "realgmUrl": "https://basketball.realgm.com/player/Jiang-He/Summary/254536",
       "id": "rg-254536",
-      "teamId": "rg-1623"
+      "teamId": "rg-1623",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Liu Dong",
@@ -12484,7 +12537,8 @@
       "realgmPlayerId": "24847",
       "realgmUrl": "https://basketball.realgm.com/player/Zirui-Wang/Summary/24847",
       "id": "rg-24847",
-      "teamId": "rg-86"
+      "teamId": "rg-86",
+      "shotLineMismatch": 0.8
     },
     {
       "name": "Zhang Wenjie",
@@ -16184,8 +16238,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 103,
@@ -16193,9 +16247,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 82,
         "linescores": [],
@@ -16213,17 +16267,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 101,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 93,
@@ -16242,17 +16296,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 77,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 110,
@@ -16271,8 +16325,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 91,
@@ -16280,9 +16334,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 88,
         "linescores": [],
@@ -16300,8 +16354,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 101,
@@ -16309,9 +16363,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 90,
         "linescores": [],
@@ -16329,7 +16383,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -16338,9 +16392,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 97,
         "linescores": [],
@@ -16367,8 +16421,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 99,
@@ -16387,7 +16441,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -16396,9 +16450,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 80,
         "linescores": [],
@@ -16425,8 +16479,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 81,
@@ -16445,16 +16499,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 92,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -16474,8 +16528,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 88,
@@ -16503,16 +16557,16 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 111,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -16532,8 +16586,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 87,
@@ -16561,17 +16615,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 91,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 67,
@@ -16599,8 +16653,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 73,
@@ -16619,8 +16673,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 81,
@@ -16628,9 +16682,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 86,
         "linescores": [],
@@ -16657,7 +16711,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -16677,8 +16731,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 102,
@@ -16706,7 +16760,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -16715,8 +16769,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 96,
@@ -16735,17 +16789,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 90,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 92,
@@ -16764,7 +16818,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -16802,8 +16856,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 94,
@@ -16822,8 +16876,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 84,
@@ -16831,7 +16885,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -16851,8 +16905,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 90,
@@ -16860,8 +16914,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 80,
@@ -16880,7 +16934,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -16889,7 +16943,7 @@
         "leaders": []
       },
       "away": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -16909,8 +16963,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
+        "id": "rg-86",
+        "name": "Ningbo Rockets",
         "abbr": "NIN",
         "logo": null,
         "score": 81,
@@ -16938,8 +16992,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 97,
@@ -16947,7 +17001,7 @@
         "leaders": []
       },
       "away": {
-        "id": "qingdao",
+        "id": "rg-740",
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
@@ -16967,8 +17021,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 64,
@@ -16976,8 +17030,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 85,
@@ -16996,7 +17050,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -17005,7 +17059,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -17025,7 +17079,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "qingdao",
+        "id": "rg-740",
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
@@ -17034,8 +17088,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 90,
@@ -17063,8 +17117,8 @@
         "leaders": []
       },
       "away": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
+        "id": "rg-86",
+        "name": "Ningbo Rockets",
         "abbr": "NIN",
         "logo": null,
         "score": 57,
@@ -17083,8 +17137,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 76,
@@ -17092,8 +17146,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 93,
@@ -17112,7 +17166,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -17121,7 +17175,7 @@
         "leaders": []
       },
       "away": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -17150,8 +17204,8 @@
         "leaders": []
       },
       "away": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
+        "id": "rg-372",
+        "name": "Jilin Northeast",
         "abbr": "JIL",
         "logo": null,
         "score": 55,
@@ -17170,8 +17224,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
+        "id": "rg-290",
+        "name": "Fujian",
         "abbr": "FUJ",
         "logo": null,
         "score": 93,
@@ -17179,8 +17233,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 91,
@@ -17199,8 +17253,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 86,
@@ -17208,7 +17262,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -17228,8 +17282,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
+        "id": "rg-412",
+        "name": "Jiangsu Kendia",
         "abbr": "JIA",
         "logo": null,
         "score": 89,
@@ -17237,7 +17291,7 @@
         "leaders": []
       },
       "away": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -17257,8 +17311,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
+        "id": "rg-86",
+        "name": "Ningbo Rockets",
         "abbr": "NIN",
         "logo": null,
         "score": 94,
@@ -17286,7 +17340,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "qingdao",
+        "id": "rg-740",
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
@@ -17295,8 +17349,8 @@
         "leaders": []
       },
       "away": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
+        "id": "rg-742",
+        "name": "Xinjiang Guanghui",
         "abbr": "XIN",
         "logo": null,
         "score": 84,
@@ -17315,7 +17369,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -17324,8 +17378,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 94,
@@ -17344,8 +17398,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 116,
@@ -17353,8 +17407,8 @@
         "leaders": []
       },
       "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
+        "id": "rg-1623",
+        "name": "Nanjing Tongxi Monkey King",
         "abbr": "NAN",
         "logo": null,
         "score": 96,
@@ -17373,8 +17427,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "sichuan",
-        "name": "Sichuan",
+        "id": "rg-1470",
+        "name": "Sichuan Blue Whales",
         "abbr": "SIC",
         "logo": null,
         "score": 81,
@@ -17402,17 +17456,17 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 103,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "tianjin",
-        "name": "Tianjin",
+        "id": "rg-741",
+        "name": "Tianjin Ronggang",
         "abbr": "TIA",
         "logo": null,
         "score": 93,
@@ -17431,8 +17485,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 101,
@@ -17440,8 +17494,8 @@
         "leaders": []
       },
       "away": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
+        "id": "rg-290",
+        "name": "Fujian",
         "abbr": "FUJ",
         "logo": null,
         "score": 94,
@@ -17460,8 +17514,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
+        "id": "rg-412",
+        "name": "Jiangsu Kendia",
         "abbr": "JIA",
         "logo": null,
         "score": 101,
@@ -17469,8 +17523,8 @@
         "leaders": []
       },
       "away": {
-        "id": "sichuan",
-        "name": "Sichuan",
+        "id": "rg-1470",
+        "name": "Sichuan Blue Whales",
         "abbr": "SIC",
         "logo": null,
         "score": 85,
@@ -17489,8 +17543,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
+        "id": "rg-86",
+        "name": "Ningbo Rockets",
         "abbr": "NIN",
         "logo": null,
         "score": 84,
@@ -17498,8 +17552,8 @@
         "leaders": []
       },
       "away": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
+        "id": "rg-372",
+        "name": "Jilin Northeast",
         "abbr": "JIL",
         "logo": null,
         "score": 65,
@@ -17518,8 +17572,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 114,
@@ -17527,7 +17581,7 @@
         "leaders": []
       },
       "away": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -17547,8 +17601,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 106,
@@ -17556,8 +17610,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 96,
@@ -17585,8 +17639,8 @@
         "leaders": []
       },
       "away": {
-        "id": "tianjin",
-        "name": "Tianjin",
+        "id": "rg-741",
+        "name": "Tianjin Ronggang",
         "abbr": "TIA",
         "logo": null,
         "score": 84,
@@ -17605,7 +17659,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "qingdao",
+        "id": "rg-740",
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
@@ -17634,7 +17688,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -17643,7 +17697,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -17663,9 +17717,9 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 117,
         "linescores": [],
@@ -17692,8 +17746,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
+        "id": "rg-742",
+        "name": "Xinjiang Guanghui",
         "abbr": "XIN",
         "logo": null,
         "score": 109,
@@ -17701,8 +17755,8 @@
         "leaders": []
       },
       "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
+        "id": "rg-1623",
+        "name": "Nanjing Tongxi Monkey King",
         "abbr": "NAN",
         "logo": null,
         "score": 75,
@@ -17721,8 +17775,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 83,
@@ -17730,8 +17784,8 @@
         "leaders": []
       },
       "away": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
+        "id": "rg-290",
+        "name": "Fujian",
         "abbr": "FUJ",
         "logo": null,
         "score": 95,
@@ -17750,8 +17804,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
+        "id": "rg-412",
+        "name": "Jiangsu Kendia",
         "abbr": "JIA",
         "logo": null,
         "score": 87,
@@ -17759,8 +17813,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 86,
@@ -17779,8 +17833,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
+        "id": "rg-372",
+        "name": "Jilin Northeast",
         "abbr": "JIL",
         "logo": null,
         "score": 75,
@@ -17788,8 +17842,8 @@
         "leaders": []
       },
       "away": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 93,
@@ -17808,7 +17862,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -17846,8 +17900,8 @@
         "leaders": []
       },
       "away": {
-        "id": "sichuan",
-        "name": "Sichuan",
+        "id": "rg-1470",
+        "name": "Sichuan Blue Whales",
         "abbr": "SIC",
         "logo": null,
         "score": 71,
@@ -17866,8 +17920,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "nanjing",
-        "name": "Nanjing",
+        "id": "rg-1623",
+        "name": "Nanjing Tongxi Monkey King",
         "abbr": "NAN",
         "logo": null,
         "score": 82,
@@ -17875,9 +17929,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 91,
         "linescores": [],
@@ -17895,7 +17949,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -17924,7 +17978,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -17933,8 +17987,8 @@
         "leaders": []
       },
       "away": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
+        "id": "rg-86",
+        "name": "Ningbo Rockets",
         "abbr": "NIN",
         "logo": null,
         "score": 96,
@@ -17953,8 +18007,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "tianjin",
-        "name": "Tianjin",
+        "id": "rg-741",
+        "name": "Tianjin Ronggang",
         "abbr": "TIA",
         "logo": null,
         "score": 97,
@@ -17962,7 +18016,7 @@
         "leaders": []
       },
       "away": {
-        "id": "qingdao",
+        "id": "rg-740",
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
@@ -17982,8 +18036,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
+        "id": "rg-742",
+        "name": "Xinjiang Guanghui",
         "abbr": "XIN",
         "logo": null,
         "score": 86,
@@ -17991,8 +18045,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 111,
@@ -18011,8 +18065,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
+        "id": "rg-412",
+        "name": "Jiangsu Kendia",
         "abbr": "JIA",
         "logo": null,
         "score": 76,
@@ -18020,8 +18074,8 @@
         "leaders": []
       },
       "away": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
+        "id": "rg-290",
+        "name": "Fujian",
         "abbr": "FUJ",
         "logo": null,
         "score": 84,
@@ -18040,8 +18094,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
+        "id": "rg-372",
+        "name": "Jilin Northeast",
         "abbr": "JIL",
         "logo": null,
         "score": 66,
@@ -18078,7 +18132,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -18098,8 +18152,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 89,
@@ -18107,8 +18161,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
+        "id": "rg-76",
+        "name": "Shanghai Dongfang",
         "abbr": "SHA",
         "logo": null,
         "score": 90,
@@ -18127,7 +18181,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -18136,8 +18190,8 @@
         "leaders": []
       },
       "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
+        "id": "rg-1623",
+        "name": "Nanjing Tongxi Monkey King",
         "abbr": "NAN",
         "logo": null,
         "score": 95,
@@ -18156,8 +18210,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 100,
@@ -18165,9 +18219,9 @@
         "leaders": []
       },
       "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
+        "id": "rg-289",
+        "name": "Zhejiang Guangsha",
+        "abbr": "ZHE",
         "logo": null,
         "score": 91,
         "linescores": [],
@@ -18185,8 +18239,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "tianjin",
-        "name": "Tianjin",
+        "id": "rg-741",
+        "name": "Tianjin Ronggang",
         "abbr": "TIA",
         "logo": null,
         "score": 100,
@@ -18194,8 +18248,8 @@
         "leaders": []
       },
       "away": {
-        "id": "sichuan",
-        "name": "Sichuan",
+        "id": "rg-1470",
+        "name": "Sichuan Blue Whales",
         "abbr": "SIC",
         "logo": null,
         "score": 84,
@@ -18214,8 +18268,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
+        "id": "rg-742",
+        "name": "Xinjiang Guanghui",
         "abbr": "XIN",
         "logo": null,
         "score": 96,
@@ -18223,7 +18277,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -18252,7 +18306,7 @@
         "leaders": []
       },
       "away": {
-        "id": "qingdao",
+        "id": "rg-740",
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
@@ -18272,8 +18326,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
+        "id": "rg-14",
+        "name": "Guangdong Dongguan",
         "abbr": "GUA",
         "logo": null,
         "score": 77,
@@ -18281,8 +18335,8 @@
         "leaders": []
       },
       "away": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
+        "id": "rg-86",
+        "name": "Ningbo Rockets",
         "abbr": "NIN",
         "logo": null,
         "score": 74,
@@ -18310,8 +18364,8 @@
         "leaders": []
       },
       "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
+        "id": "rg-638",
+        "name": "Shanxi Zhongyu",
         "abbr": "SHA",
         "logo": null,
         "score": 89,
@@ -18330,8 +18384,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
+        "id": "rg-290",
+        "name": "Fujian",
         "abbr": "FUJ",
         "logo": null,
         "score": 98,
@@ -18359,8 +18413,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "rg-739",
+        "name": "Guangzhou Loong Lions",
         "abbr": "GUA",
         "logo": null,
         "score": 80,
@@ -18368,8 +18422,8 @@
         "leaders": []
       },
       "away": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
+        "id": "rg-412",
+        "name": "Jiangsu Kendia",
         "abbr": "JIA",
         "logo": null,
         "score": 67,
@@ -18388,8 +18442,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
+        "id": "rg-372",
+        "name": "Jilin Northeast",
         "abbr": "JIL",
         "logo": null,
         "score": 81,
@@ -18397,8 +18451,8 @@
         "leaders": []
       },
       "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
+        "id": "rg-1623",
+        "name": "Nanjing Tongxi Monkey King",
         "abbr": "NAN",
         "logo": null,
         "score": 98,
@@ -18417,7 +18471,7 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "shandong",
+        "id": "rg-165",
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
@@ -18426,7 +18480,7 @@
         "leaders": []
       },
       "away": {
-        "id": "liaoning",
+        "id": "rg-288",
         "name": "Liaoning",
         "abbr": "LIA",
         "logo": null,
@@ -18446,8 +18500,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "sichuan",
-        "name": "Sichuan",
+        "id": "rg-1470",
+        "name": "Sichuan Blue Whales",
         "abbr": "SIC",
         "logo": null,
         "score": 113,
@@ -18455,7 +18509,7 @@
         "leaders": []
       },
       "away": {
-        "id": "shenzhen",
+        "id": "rg-93",
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
@@ -18475,8 +18529,8 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "tianjin",
-        "name": "Tianjin",
+        "id": "rg-741",
+        "name": "Tianjin Ronggang",
         "abbr": "TIA",
         "logo": null,
         "score": 100,
@@ -18484,8 +18538,8 @@
         "leaders": []
       },
       "away": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
+        "id": "rg-742",
+        "name": "Xinjiang Guanghui",
         "abbr": "XIN",
         "logo": null,
         "score": 98,
@@ -18998,19 +19052,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-09-11T01:03:50.387Z",
-    "rosters": "2026-09-11T01:03:50.387Z",
-    "playerStats": "2026-09-11T01:03:50.387Z",
-    "leaders": "2026-09-11T01:03:50.387Z",
-    "standings": "2026-09-11T01:03:50.387Z",
-    "games": "2026-09-19T10:39:40.632Z",
-    "news": "2026-09-19T10:39:40.632Z"
-  },
-  "carriedOver": [
-    "teams",
-    "rosters",
-    "playerStats",
-    "leaders",
-    "standings"
-  ]
+    "teams": "2026-09-20T00:20:07.377Z",
+    "rosters": "2026-09-20T00:20:07.377Z",
+    "playerStats": "2026-09-20T00:20:07.377Z",
+    "standings": "2026-09-20T00:20:07.377Z",
+    "games": "2026-09-20T00:20:07.377Z",
+    "news": "2026-09-20T00:20:07.377Z",
+    "leaders": "2026-09-20T00:20:07.377Z"
+  }
 }

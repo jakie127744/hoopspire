@@ -559,28 +559,83 @@ export async function tpblNews(limit = 12) {
  */
 export function combineConferenceStats(lists) {
   const byPlayer = new Map()
-  const AVERAGED = ['points', 'rebounds', 'assists', 'steals', 'blocks', 'turnovers', 'minutes']
+  // Every per-game counting stat is merged the same way. Merging only some of
+  // them left the shooting line (FGM/3PM/FTM and attempts) from whichever
+  // conference came first while points came from all three, so half the PBA
+  // rows no longer added up (2*FGM + 3PM + FTM != PPG).
+  const AVERAGED = [
+    'minutes', 'points', 'fgMade', 'fgAttempted', 'threeMade', 'threeAttempted',
+    'ftMade', 'ftAttempted', 'offRebounds', 'defRebounds', 'rebounds',
+    'assists', 'steals', 'blocks', 'turnovers', 'fouls',
+  ]
 
   for (const list of lists) {
     for (const p of list) {
       const key = `${p.name}|${p.teamRealgmId || p.teamName || ''}`
       const gp = p.gamesPlayed || 0
       if (!gp) continue
-      const acc = byPlayer.get(key) || { ...p, gamesPlayed: 0, totals: {} }
+      const acc = byPlayer.get(key) || { ...p, gamesPlayed: 0, totals: {}, covered: {} }
       acc.gamesPlayed += gp
       for (const f of AVERAGED) {
-        if (typeof p[f] === 'number') acc.totals[f] = (acc.totals[f] || 0) + p[f] * gp
+        if (typeof p[f] === 'number') {
+          acc.totals[f] = (acc.totals[f] || 0) + p[f] * gp
+          acc.covered[f] = (acc.covered[f] || 0) + gp
+        }
       }
       byPlayer.set(key, acc)
     }
   }
 
+  const pct = (made, att) => (att > 0 ? Number((made / att).toFixed(3)) : null)
+
   return [...byPlayer.values()].map((p) => {
     const out = { ...p }
     for (const f of AVERAGED) {
-      if (p.totals[f] != null) out[f] = Number((p.totals[f] / p.gamesPlayed).toFixed(1))
+      // A stat missing from any conference cannot be averaged over all games.
+      out[f] = p.covered[f] === p.gamesPlayed ? Number((p.totals[f] / p.gamesPlayed).toFixed(1)) : null
     }
+    // Percentages come from the merged totals, never from one conference's.
+    out.fgPct = pct(p.totals.fgMade, p.totals.fgAttempted)
+    out.threePct = pct(p.totals.threeMade, p.totals.threeAttempted)
+    out.ftPct = pct(p.totals.ftMade, p.totals.ftAttempted)
     delete out.totals
+    delete out.covered
     return out
   })
+}
+
+// ───────────────────────────────────────────────────────────────────────────
+// Reconciliation
+// ───────────────────────────────────────────────────────────────────────────
+
+/**
+ * Check that each row's shooting line adds up to its points:
+ * PPG = 2*FGM + 3PM + FTM (FGM includes threes), within rounding.
+ *
+ * A row that fails is flagged `shotLineMismatch` (the size of the gap in
+ * points per game), not repaired or dropped — we cannot know which side is
+ * right. Two known causes: (1) a merge that mixed sources, as PBA once did;
+ * (2) RealGM's CBA table, where shooting averages appear to cover fewer games
+ * than PPG does, so components always exceed points. Consumers that compute
+ * league-wide shooting rates should skip flagged rows or say they did not.
+ *
+ * Returns a note for the fetch log, or null when everything reconciles.
+ */
+export function flagShotLineMismatches(players, tolerance = 0.6) {
+  let checked = 0
+  let flagged = 0
+  for (const p of players) {
+    if (![p.points, p.fgMade, p.threeMade, p.ftMade].every((v) => typeof v === 'number')) continue
+    checked++
+    const gap = 2 * p.fgMade + p.threeMade + p.ftMade - p.points
+    if (Math.abs(gap) > tolerance) {
+      p.shotLineMismatch = Number(gap.toFixed(1))
+      flagged++
+    } else {
+      delete p.shotLineMismatch
+    }
+  }
+  return flagged
+    ? `${flagged} of ${checked} player rows have a shooting line that does not add up to PPG (flagged shotLineMismatch).`
+    : null
 }
