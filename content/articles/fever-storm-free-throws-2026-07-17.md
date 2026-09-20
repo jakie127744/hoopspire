@@ -1,13 +1,13 @@
 ---
 title: "Seattle outscored Indiana by 12 from the field and lost by 3"
-dek: "Indiana beat Seattle 110–107 on July 17 with 28 made free throws to Seattle's 13. Caitlin Clark alone attempted more free throws (19) than the Storm did as a team (18), and scored seven of Indiana's last eight points."
+dek: "Indiana beat Seattle 110-107 on July 17 with 28 made free throws to Seattle's 13. Caitlin Clark alone attempted more free throws (19) than the Storm did as a team (18), and scored seven of Indiana's last eight points."
 league: "WNBA"
 author: "Hoopspire Staff"
 published: "2026-09-19"
 tag: "Analysis"
 ---
 
-Take the free throws out of Indiana's 110–107 win over Seattle on July 17 and the Storm win the game 94–82. Seattle scored 43 field goals to Indiana's 36 and shot 56.6% from the field to the Fever's 50.0%. It lost because Indiana made 28 free throws and Seattle made 13.
+Take the free throws out of Indiana's 110-107 win over Seattle on July 17 and the Storm win the game 94-82. Seattle scored 43 field goals to Indiana's 36 and shot 56.6% from the field to the Fever's 50.0%. It lost because Indiana made 28 free throws and Seattle made 13.
 
 Every number below comes from ESPN's box score and play-by-play for this game at Gainbridge Fieldhouse. Possessions are our estimate from the box score, since ESPN does not publish them.
 
@@ -42,7 +42,7 @@ For Seattle, Dominique Malonga scored 28 on 13-of-22 shooting with 14 rebounds a
 
 ## How the game turned
 
-Indiana opened with 37 points in the first quarter and led by as many as 17. Seattle came back with 30 and 32 in the middle two quarters and led 88–82 going into the fourth. Seattle led from 2:48 of the third quarter until the final minute, apart from that last tie.
+Indiana opened with 37 points in the first quarter and led by as many as 17. Seattle came back with 30 and 32 in the middle two quarters and led 88-82 going into the fourth. Seattle led from 2:48 of the third quarter until the final minute, apart from that last tie.
 
 The quarter scores:
 
@@ -53,7 +53,7 @@ The quarter scores:
 
 Two quarters show the pattern. In the second, Indiana made only 5 field goals but scored 22 points, because it went 10 of 11 at the line, 8 of 9 by Clark. In the fourth, Seattle made 8 field goals, after making 13 in each of the second and third, and turned the ball over six times to Indiana's two.
 
-Seattle led 102–99 with 1:24 left. Monique Billings scored on a layup and was fouled, and her free throw tied it at 102 with 1:11 left. Clark then hit a 25-foot step-back three with 39.1 seconds left, Indiana's first lead since the third quarter. It was the fifth and last lead change of the game. Seattle cut it to 105–106, and ESPN's play log has Seattle committing "personal take fouls" on Clark at 17.1 and 3.5 seconds, sending her to the line for two free throws each time. She made all four.
+Seattle led 102-99 with 1:24 left. Monique Billings scored on a layup and was fouled, and her free throw tied it at 102 with 1:11 left. Clark then hit a 25-foot step-back three with 39.1 seconds left, Indiana's first lead since the third quarter. It was the fifth and last lead change of the game. Seattle cut it to 105-106, and ESPN's play log has Seattle committing "personal take fouls" on Clark at 17.1 and 3.5 seconds, sending her to the line for two free throws each time. She made all four.
 
 That gives the last eight points of the game: Clark scored seven of Indiana's final eight (a three, and two pairs of free throws). Monique Billings had the other, a free throw.
 

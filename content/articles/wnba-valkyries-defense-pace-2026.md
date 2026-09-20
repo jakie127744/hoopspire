@@ -54,7 +54,7 @@ Most of the shooting gap is inside the arc. Opponents make 47.3% of their twos a
 
 **It survives a different possession formula.** With free throws weighted at 0.40 instead of 0.44, Golden State's lead over the second-best team is 5.1 points per 100. At 0.475 it is 4.8. It is first in all three.
 
-**The offense is ordinary.** Golden State scores 105.6 points per 100 possessions, against a league average of 104.8. Its net rating (points scored minus points allowed per 100 possessions) of +9.5 is the best in the league, but Minnesota's is +8.9, and Minnesota has one more win (31–10 against 30–11). Treat those as close to tied.
+**The offense is ordinary.** Golden State scores 105.6 points per 100 possessions, against a league average of 104.8. Its net rating (points scored minus points allowed per 100 possessions) of +9.5 is the best in the league, but Minnesota's is +8.9, and Minnesota has one more win (31-10 against 30-11). Treat those as close to tied.
 
 ## What the numbers show, and what they don't
 

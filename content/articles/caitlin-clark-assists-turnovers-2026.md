@@ -41,7 +41,7 @@ We can't say why from these numbers. It may be that her turnovers are the price 
 
 ## The season got better as it went
 
-| | First 18 games (May 9 – July 9) | Last 19 games (July 13 – Sept. 18) |
+| | First 18 games (May 9 to July 9) | Last 19 games (July 13 to Sept. 18) |
 |---|---|---|
 | Points per game | 20.5 | 24.6 |
 | Assists per game | 7.9 | 9.2 |
@@ -51,21 +51,21 @@ We can't say why from these numbers. It may be that her turnovers are the price 
 | Three-point % | 33.6 (45 of 134) | 39.9 (63 of 158) |
 | Free-throw attempts per game | 5.7 | 6.9 |
 | True shooting % | 57.2 | 64.3 |
-| Fever record in her games | 9–9 | 14–5 |
+| Fever record in her games | 9-9 | 14-5 |
 
 *True shooting percentage* is points divided by twice the shots she takes, counting free throws (field-goal attempts plus 0.44 of free-throw attempts). It gives credit for threes and free throws that plain field-goal percentage does not. Her season figure is 61.0%. The league's qualifying players, pooled, shoot 56.4%.
 
 The gains are real in the box score, but the shooting part may not last. On 134 and 158 three-point attempts, a difference of about six points in three-point percentage is within what luck alone produces. The field-goal difference (about six points as well) is closer to meaningful but still inside the range of chance. What did change more clearly is volume: more minutes, more three-point attempts, more free throws, more assists. Her turnovers did not move.
 
-Her six 30-point games are all in the record, and the Fever won five of them. The biggest was 45 points against Seattle on July 17, on 11-of-18 shooting with six threes and 17 of 19 from the line, in 29 minutes. Indiana won 110–107. Two more came in late August: 37 at Chicago on August 23 and 34 against Connecticut on August 28, when the Fever outscored the Sun by 32 points while she was on the floor.
+Her six 30-point games are all in the record, and the Fever won five of them. The biggest was 45 points against Seattle on July 17, on 11-of-18 shooting with six threes and 17 of 19 from the line, in 29 minutes. Indiana won 110-107. Two more came in late August: 37 at Chicago on August 23 and 34 against Connecticut on August 28, when the Fever outscored the Sun by 32 points while she was on the floor.
 
 ## The four games she wasn't in
 
 ESPN's box scores show no minutes for Clark in four Indiana games: three listed with no minutes played and one where she does not appear in the box score at all. We don't know why, and we won't guess.
 
-The Fever won all four, by an average of 15.0 points. With her, they are 23–14 with an average margin of 5.4.
+The Fever won all four, by an average of 15.0 points. With her, they are 23-14 with an average margin of 5.4.
 
-That is four games. Three of them came against teams now below .500 (Portland 16–26, Los Angeles 15–26, Phoenix 15–27) and one against Las Vegas (28–14). It would be a mistake to read anything about her value into a 4–0 record over four games, in either direction, and we don't.
+That is four games. Three of them came against teams now below .500 (Portland 16-26, Los Angeles 15-26, Phoenix 15-27) and one against Las Vegas (28-14). It would be a mistake to read anything about her value into a 4-0 record over four games, in either direction, and we don't.
 
 ## What the numbers show, and what they don't
 

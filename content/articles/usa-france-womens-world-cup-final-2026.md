@@ -1,13 +1,13 @@
 ---
 title: USA turned a 14-point deficit into gold by changing the possession battle
-dek: A 14-point deficit turned into a 97–79 championship victory as the USA overwhelmed France after halftime, fueled by a 30–12 third quarter and 22 points from Breanna Stewart.
+dek: A 14-point deficit turned into a 97-79 championship victory as the USA overwhelmed France after halftime, fueled by a 30-12 third quarter and 22 points from Breanna Stewart.
 league: FIBA
 author: Hoopspire Staff
 published: 2026-09-13
 tag: Analysis
 ---
 
-BERLIN — September 13, 2026
+BERLIN, September 13, 2026
 
 France spent the opening 16 minutes of the FIBA Women's Basketball World Cup final making the United States look unusually uncomfortable.
 
