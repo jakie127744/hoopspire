@@ -16,7 +16,8 @@
     "cms": "node scripts/cms-server.mjs",
     "new": "node scripts/new-article.mjs",
     "data:careers": "node scripts/fetch-data.mjs careers",
-    "lint:articles": "node scripts/new-article.mjs --lint"
+    "lint:articles": "node scripts/new-article.mjs --lint",
+    "check:standings": "node scripts/check-standings.mjs"
   },
   "dependencies": {
     "marked": "^18.0.12",
