@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useAsync, hasLiveGame } from '../lib/useAsync.js'
 import { getAllNews, getAllGames } from '../lib/api.js'
+import { getOriginals } from '../lib/articles.js'
 import { leaguesByGroup, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
@@ -55,6 +56,10 @@ function Hero({ leadByLeague }) {
                 <Eyebrow className="text-gold">{group}</Eyebrow>
                 <div className="mt-1 divide-y divide-parchment">
                   {leagues.map((l) => {
+                    // Our own piece on this league where we have one, and the
+                    // league's own description where we do not. The wire used
+                    // to fill this rail, which put thirteen other publishers'
+                    // headlines on the first screen of our front page.
                     const lead = leadByLeague?.[l.key]
                     return (
                       <Link
@@ -91,14 +96,27 @@ export default function Home() {
   })
 
   const stories = news || []
-  const lead = stories[0]
-  const alsoToday = stories.slice(1, 6)
-  const grid = stories.slice(1, 10)
 
-  // One representative headline per league for the hero rail.
+  // Our own writing leads the page. It is bundled at build time, so there is
+  // no loading state to design around and nothing that can fail to arrive.
+  const originals = getOriginals(null, 7)
+  const ourLead = originals[0]
+  const ourAlso = originals.slice(1, 4)
+  const ourMore = originals.slice(4, 7)
+
+  // The wire is everyone else's reporting. It sits below our own and links
+  // out to whoever filed it — see ArticleCard, which routes originals inward
+  // and third-party stories to their publisher.
+  //
+  // getAllNews folds our own cross-league pieces into its list, which is
+  // right for a mixed feed and wrong here: without this filter the same
+  // article appears once under Written Here and again under On the Wire.
+  const wire = stories.filter((a) => !a.original).slice(0, 9)
+
+  // One line per league in the hero rail, preferring a piece we wrote.
   const leadByLeague = {}
-  for (const a of stories) {
-    if (!leadByLeague[a.league]) leadByLeague[a.league] = a
+  for (const a of originals) {
+    if (a.league && !leadByLeague[a.league]) leadByLeague[a.league] = a
   }
 
   const finals = (games || []).filter((g) => g.status === 'final').slice(0, 8)
@@ -108,60 +126,81 @@ export default function Home() {
     <>
       <Hero leadByLeague={leadByLeague} />
 
-      <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-        <SectionHead title="The Lead" />
-        {loading ? (
-          <Loading label="Pulling the wire" />
-        ) : !lead ? (
-          <Empty
-            title="The wire is quiet."
-            hint="Live stories load from ESPN; check your connection and reload."
+      {/*
+        The front page leads with what we wrote. It used to open on the wire,
+        which meant the first thing anyone saw on hoopspire.com — a reader, or
+        someone deciding whether this is a publication — was a column of other
+        outlets' headlines with their bylines on them. Our own work was a
+        click away at /margin and invisible from here.
+      */}
+      {ourLead && (
+        <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
+          <SectionHead
+            title="Written Here"
+            action={
+              <Link to="/margin" className="eyebrow text-crimson hover:underline">
+                The Margin →
+              </Link>
+            }
           />
-        ) : (
           <div className="grid gap-10 lg:grid-cols-[1.6fr_1fr]">
-            <ArticleCard article={lead} variant="lead" />
+            <ArticleCard article={ourLead} variant="lead" />
             <div>
-              <Eyebrow className="text-ink/45">Also Today</Eyebrow>
+              <Eyebrow className="text-ink/45">More from our desks</Eyebrow>
               <div className="mt-3">
-                {alsoToday.map((a) => (
+                {ourAlso.map((a) => (
                   <ArticleCard key={a.id} article={a} variant="compact" />
                 ))}
               </div>
             </div>
           </div>
-        )}
-      </section>
-
-      <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-        <SectionHead title="From the Hardwood" />
-        {grid.length ? (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {grid.map((a) => (
-              <ArticleCard key={a.id} article={a} />
-            ))}
-          </div>
-        ) : (
-          !loading && <Empty title="No stories on the wire right now." />
-        )}
-      </section>
+          {ourMore.length > 0 && (
+            <div className="mt-10 grid gap-6 md:grid-cols-3">
+              {ourMore.map((a) => (
+                <ArticleCard key={a.id} article={a} />
+              ))}
+            </div>
+          )}
+        </section>
+      )}
 
       {/*
-        Gated on the wire actually having delivered something. If the feed
-        fails or is still loading, this page is nav and empty states, and an
-        ad on a page with no content is the exact thing AdSense's policy on
-        low-value inventory is written about.
+        The ad now follows our own work rather than the wire. It is gated on
+        that work being on the page: an ad next to a column of other people's
+        headlines is the arrangement AdSense's policy on low-value inventory
+        is written about, and it was the arrangement we had.
 
-        One ad on the home page, between two sections rather than inside
-        either. A Multiplex unit looks like a grid of cards, which is exactly
-        what sits above it — so it is labelled "Advertisement" by AdSlot and
-        given its own band of whitespace, to keep the resemblance from
-        reading as an endorsement.
+        A Multiplex unit looks like a grid of cards, which is what sits above
+        it — so AdSlot labels it "Advertisement" and it gets its own band of
+        whitespace, to keep the resemblance from reading as an endorsement.
       */}
-      {!loading && grid.length > 0 && (
+      {ourLead && (
         <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
           <AdSlot slotId={SITE.adSlots.feed.id} format={SITE.adSlots.feed.format} height={320} />
         </section>
       )}
+
+      {/*
+        Everyone else's reporting, below ours and named as theirs. Each card
+        carries its publisher's byline and links out to them; nothing here is
+        reproduced beyond a headline and the standfirst the feed supplies.
+      */}
+      <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
+        <SectionHead title="On the Wire">
+          <Eyebrow className="text-ink/40">Reported elsewhere</Eyebrow>
+        </SectionHead>
+        {loading ? (
+          <Loading label="Pulling the wire" />
+        ) : wire.length ? (
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {wire.map((a) => (
+              <ArticleCard key={a.id} article={a} />
+            ))}
+          </div>
+        ) : (
+          <Empty title="No stories on the wire right now." />
+        )}
+      </section>
 
       <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
         <SectionHead
