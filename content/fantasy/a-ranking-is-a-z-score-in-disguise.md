@@ -1,6 +1,6 @@
 ---
 title: "A ranking is a z-score in disguise"
-dek: "Preseason fantasy ranks are nine separate judgements compressed into one number, and the compression throws away the part you need. How the list is built, why eight-cat and nine-cat disagree about the same player, and why you should draft tiers instead."
+dek: "Preseason fantasy ranks are nine separate judgements compressed into one number, and the compression throws away the part you need. How the list is built, why eight-cat and nine-cat disagree about the same player, and why you should draft tiers instead. The list itself is a click away."
 league: "NBA"
 author: "Franco Medina"
 published: "2026-09-19"
@@ -10,6 +10,8 @@ tag: "Categories"
 Two players sitting 20 places apart on a preseason ranking can be worth the same amount to your team. Two players sitting one place apart can be worth wildly different amounts. The number next to a name does not tell you which situation you are in, and that is the single most useful thing to understand about rankings before you use one.
 
 The reason is in how the list gets built.
+
+This piece is about the method rather than the players. If you came for the ranked list, it is published separately as [the nine-cat top 50](/story/the-nine-cat-top-50), computed from last season's averages using exactly the arithmetic described below. Reading this one first is what makes that one arguable rather than just a list.
 
 ## What the number actually is
 

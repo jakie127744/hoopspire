@@ -11,7 +11,7 @@ Giannis Antetokounmpo finished 54th in nine-cat value last season.
 
 Not 54th among centres. 54th overall, behind Kel'el Ware and Jalen Suggs, in a pool of 150 players. He had the largest field goal percentage impact of anyone in that pool, and it did not matter.
 
-That number is not a provocation. It is arithmetic, and the arithmetic is the reason this desk exists.
+That number is not a provocation. It is arithmetic, and the arithmetic is the reason this desk exists. If you want the method before the list, it is set out in [a ranking is a z-score in disguise](/story/a-ranking-is-a-z-score-in-disguise).
 
 ## How this list was built
 
