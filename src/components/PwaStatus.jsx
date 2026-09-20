@@ -9,9 +9,14 @@ import { Eyebrow } from './Primitives.jsx'
  * so rather than let the scoreboard look merely quiet, the app says plainly
  * that it is offline and that anything shown is from before.
  *
- * Update: a new version waits for the reader to accept it. Reloading on its
- * own would throw someone out of the article they were in the middle of.
+ * Update: a new version never reloads the page under a reader. But a prompt
+ * alone is not enough, because articles are bundled into the app: a desktop
+ * tab or installed app that stays open would keep serving the old bundle for
+ * days and never show new articles. So the app (1) checks for a new version
+ * every few minutes and whenever the tab regains focus, and (2) applies a
+ * waiting update by itself once the tab is hidden, when nobody is reading.
  */
+const UPDATE_CHECK_MS = 5 * 60 * 1000
 function useOnline() {
   const [online, setOnline] = useState(() =>
     typeof navigator === 'undefined' ? true : navigator.onLine
@@ -34,7 +39,28 @@ export default function PwaStatus() {
   const {
     needRefresh: [needRefresh, setNeedRefresh],
     updateServiceWorker,
-  } = useRegisterSW()
+  } = useRegisterSW({
+    onRegisteredSW(_url, registration) {
+      if (!registration) return
+      const check = () => {
+        if (navigator.onLine) registration.update().catch(() => {})
+      }
+      setInterval(check, UPDATE_CHECK_MS)
+      document.addEventListener('visibilitychange', () => {
+        if (!document.hidden) check()
+      })
+    },
+  })
+
+  // Apply a waiting update while the tab is in the background.
+  useEffect(() => {
+    if (!needRefresh) return
+    const apply = () => {
+      if (document.hidden) updateServiceWorker(true)
+    }
+    document.addEventListener('visibilitychange', apply)
+    return () => document.removeEventListener('visibilitychange', apply)
+  }, [needRefresh, updateServiceWorker])
 
   return (
     <>
