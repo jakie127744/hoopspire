@@ -6,7 +6,8 @@
   "description": "Hoopspire — Heritage of the Hardwood. A global basketball ledger across five leagues.",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/build-sitemap.mjs",
+    "build": "vite build && node scripts/build-sitemap.mjs && node scripts/check-crawler-files.mjs",
+    "check:live": "node scripts/check-crawler-files.mjs --live https://hoopspire.com",
     "preview": "vite preview",
     "data": "node scripts/fetch-data.mjs",
     "data:kbl": "node scripts/fetch-data.mjs kbl",

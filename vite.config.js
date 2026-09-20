@@ -78,7 +78,13 @@ export default defineConfig({
         // Client-side routes resolve to the app shell offline — except the
         // git-based CMS, which is its own page and must never be hijacked.
         navigateFallback: '/index.html',
-        navigateFallbackDenylist: [/^\/admin/],
+        // The CMS is its own page. The three crawler files are not pages at
+        // all: typing /ads.txt into a browser is a *navigation*, so without
+        // this the service worker answers it with the app shell. Google's
+        // crawlers do not run service workers, so this is not what makes
+        // AdSense lose an ads.txt — but it is what makes you check the URL
+        // yourself, see a basketball site, and misdiagnose which layer broke.
+        navigateFallbackDenylist: [/^\/admin/, /^\/ads\.txt$/, /^\/robots\.txt$/, /^\/sitemap\.xml$/],
         runtimeCaching: [
           ...LIVE_API.map((urlPattern) => ({ urlPattern, handler: 'NetworkOnly' })),
           {
