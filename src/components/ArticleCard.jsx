@@ -53,6 +53,7 @@ function TranslatedNote({ article, className = '' }) {
 const DESK_BADGE = {
   margin: 'border-gold text-gold',
   fantasy: 'border-crimson text-crimson',
+  news: 'border-ink text-ink',
 }
 
 export function DeskBadge({ article, className = '' }) {

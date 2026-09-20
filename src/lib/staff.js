@@ -38,13 +38,60 @@ export const STAFF = [
     method:
       'Claims are checked against the box scores, standings and season averages the ledger already keeps.',
   },
+
+  /*
+   * Full Court Press.
+   *
+   * The news desk runs several bylines because it covers thirteen leagues in
+   * four time zones, and "who follows the PBA here" is a question a reader is
+   * entitled to have answered. Each one is a beat, held to the method printed
+   * beneath it — and each is a desk name, on the same terms as every other
+   * byline on this masthead. /about says so in as many words.
+   *
+   * `lead: true` marks the one that fronts the desk page; deskLead() would
+   * otherwise just return whichever happened to be listed first.
+   */
+  {
+    id: 'dana-whitfield',
+    byline: 'Dana Whitfield',
+    desk: 'news',
+    role: 'Full Court Press — Americas',
+    lead: true,
+    beat: 'The NBA, WNBA, G League, NCAA and NBB: signings, movement and what a result changed.',
+    method:
+      'Reported from league releases, official box scores and on-record quotes. Where a report is someone else’s, it is named and linked rather than retold.',
+  },
+  {
+    id: 'tomas-lindqvist',
+    byline: 'Tomas Lindqvist',
+    desk: 'news',
+    role: 'Full Court Press — Europe',
+    beat: 'The EuroLeague and the national competitions that feed it.',
+    method:
+      'Club and federation announcements first, and the competition’s own results service for anything numerical.',
+  },
+  {
+    id: 'marisol-reyes',
+    byline: 'Marisol Reyes',
+    desk: 'news',
+    role: 'Full Court Press — Asia-Pacific',
+    beat: 'The PBA, KBL, B.League, CBA, TPBL and NBL, plus FIBA windows across the region.',
+    method:
+      'Built on each league’s official portal, which is also what the ledger’s snapshots are captured from, so a story and the table behind it cannot disagree.',
+  },
 ]
 
 export function getStaff(byline) {
   return STAFF.find((s) => s.byline === byline) || null
 }
 
-/** The writer who fronts a desk page. */
+/** The writer who fronts a desk page — flagged where a desk has several. */
 export function deskLead(desk) {
-  return STAFF.find((s) => s.desk === desk) || null
+  const onDesk = STAFF.filter((s) => s.desk === desk)
+  return onDesk.find((s) => s.lead) || onDesk[0] || null
+}
+
+/** Everyone on a desk, for a masthead that lists more than one beat. */
+export function deskStaff(desk) {
+  return STAFF.filter((s) => s.desk === desk)
 }

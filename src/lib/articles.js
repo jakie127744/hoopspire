@@ -60,6 +60,12 @@ export const DESKS = {
     path: '/free-minutes',
     accent: 'crimson',
   },
+  news: {
+    key: 'news',
+    name: 'Full Court Press',
+    path: '/press',
+    accent: 'ink',
+  },
 }
 
 /**
@@ -101,6 +107,7 @@ function slugFromPath(path) {
 const files = {
   margin: import.meta.glob('/content/articles/*.md', { query: '?raw', import: 'default', eager: true }),
   fantasy: import.meta.glob('/content/fantasy/*.md', { query: '?raw', import: 'default', eager: true }),
+  news: import.meta.glob('/content/news/*.md', { query: '?raw', import: 'default', eager: true }),
 }
 
 function build(path, raw, desk) {

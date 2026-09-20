@@ -18,6 +18,7 @@ import ConsentBanner from './components/ConsentBanner.jsx'
 import PwaStatus from './components/PwaStatus.jsx'
 import Margin from './pages/Margin.jsx'
 import FreeMinutes from './pages/FreeMinutes.jsx'
+import Press from './pages/Press.jsx'
 import Story from './pages/Story.jsx'
 import Player from './pages/Player.jsx'
 
@@ -60,6 +61,7 @@ export default function App() {
           <Route path="/player/:leagueKey/:playerId" element={<Player />} />
           <Route path="/margin" element={<Margin />} />
           <Route path="/free-minutes" element={<FreeMinutes />} />
+          <Route path="/press" element={<Press />} />
           {/* The desk is about fantasy; people will guess that word first. */}
           <Route path="/fantasy" element={<Navigate to="/free-minutes" replace />} />
           {/* The section was called Originals before it had a name; keep old

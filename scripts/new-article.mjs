@@ -34,6 +34,7 @@ const CONTENT = path.join(__dirname, '..', 'content')
 const DESKS = {
   margin: { dir: path.join(CONTENT, 'articles'), rel: 'content/articles', author: 'Hoopspire Staff' },
   fantasy: { dir: path.join(CONTENT, 'fantasy'), rel: 'content/fantasy', author: 'Franco Medina' },
+  news: { dir: path.join(CONTENT, 'news'), rel: 'content/news', author: 'Hoopspire Staff' },
 }
 
 const LEAGUES = [
@@ -50,6 +51,9 @@ const LEAGUES = [
 const TAGS_BY_DESK = {
   margin: ['Analysis', 'Data', 'Trends', 'Explainer', 'Feature'],
   fantasy: ['Draft', 'Projections', 'Categories', 'Waivers', 'Trades', 'Injuries'],
+  // Full Court Press reports events, so its tags say what KIND of event —
+  // which is what a reader scanning a news index is actually sorting by.
+  news: ['Report', 'Signing', 'Trade', 'Injury', 'Result', 'Preview', 'Feature'],
 }
 const TAGS = TAGS_BY_DESK.margin
 const REQUIRED = ['title', 'dek', 'author', 'published', 'tag']
@@ -233,7 +237,7 @@ if (argv.includes('--lint')) {
 } else {
   const title = argv.find((a) => !a.startsWith('--'))
   if (!title) {
-    console.error('Usage: node scripts/new-article.mjs "Your headline"  [--desk margin|fantasy] [--league KEY] [--tag Analysis]')
+    console.error('Usage: node scripts/new-article.mjs "Your headline"  [--desk margin|fantasy|news] [--league KEY] [--tag Analysis]')
     console.error('       node scripts/new-article.mjs --lint')
     process.exit(1)
   }

@@ -6,6 +6,7 @@ import InstallButton from './InstallButton.jsx'
 const SECTIONS = [
   { to: '/margin', label: 'The Margin' },
   { to: '/free-minutes', label: 'Free Minutes' },
+  { to: '/press', label: 'Full Court Press' },
   { to: '/scores', label: 'Scores' },
   { to: '/stats', label: 'Stats' },
   { to: '/teams', label: 'Teams' },

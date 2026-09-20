@@ -23,6 +23,7 @@ const STATIC = [
   { path: '/', changefreq: 'hourly', priority: '1.0' },
   { path: '/margin', changefreq: 'daily', priority: '0.9' },
   { path: '/free-minutes', changefreq: 'weekly', priority: '0.8' },
+  { path: '/press', changefreq: 'daily', priority: '0.9' },
   { path: '/scores', changefreq: 'hourly', priority: '0.7' },
   { path: '/stats', changefreq: 'daily', priority: '0.7' },
   { path: '/teams', changefreq: 'weekly', priority: '0.6' },
@@ -33,7 +34,7 @@ const STATIC = [
 ]
 
 /** The desks, each a directory of Markdown under content/. */
-const DESKS = ['articles', 'fantasy']
+const DESKS = ['articles', 'fantasy', 'news']
 
 /** Pull one frontmatter field without dragging in a YAML parser. */
 function field(raw, name) {

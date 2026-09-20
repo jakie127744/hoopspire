@@ -71,6 +71,41 @@ export default function About() {
         </div>
       </section>
 
+      {/*
+        staff.js has always said this distinction was "stated plainly on
+        /about". It was not — the page had no byline section at all, while the
+        masthead grew to five names. This is that section, and it is deliberately
+        before Credit rather than after it: a reader wondering who wrote
+        something should not have to reach the last block on the page.
+      */}
+      <section className="mt-16">
+        <SectionHead title="Who writes this" />
+        <div className="space-y-4 text-ink/70">
+          <p>
+            Hoopspire is a very small operation working with machine assistance. The bylines on
+            this site — Hoopspire Staff, Franco Medina on the fantasy desk, and Dana Whitfield,
+            Tomas Lindqvist and Marisol Reyes on Full Court Press — are{' '}
+            <strong className="text-ink">desk names, not people you could call</strong>. Each one
+            marks which desk a piece came from, which beat it belongs to, and the method it is
+            held to. Those methods are printed on the desk pages themselves, not implied.
+          </p>
+          <p>
+            We would rather say that here than let a masthead imply a newsroom that does not
+            exist. What the bylines do mean is that the standard behind a piece is fixed and
+            public: every number is checked against the box scores, standings and season averages
+            this site already keeps, every claim that rests on a sample says how big the sample
+            is, and anything reported by someone else is named and linked rather than retold.
+          </p>
+          <p>
+            Corrections are welcome and are the fastest way to make the ledger better —{' '}
+            <a href="/contact" className="text-crimson underline">
+              tell us
+            </a>{' '}
+            what looks wrong and which page it is on.
+          </p>
+        </div>
+      </section>
+
       <section className="mt-16">
         <SectionHead title="Credit" />
         <p className="text-ink/70">
