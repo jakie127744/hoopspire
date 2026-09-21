@@ -15,6 +15,8 @@ Madrid led 24-15 after the first quarter and 47-43 at halftime. Olympiacos took 
 
 The final was a rematch of the EuroLeague final in May, which Olympiacos won. It was also the first trophy for Madrid under coach Pedro Martínez.
 
+"Congratulations to my players," Martínez said. "They believed. We had a horrible moment in the third quarter when Olympiacos played incredible."
+
 The SuperCup used a four-team format in Abu Dhabi. Madrid reached the final by beating Dubai Basketball 98-95 in overtime in Friday's semifinal. Tavares scored 20 points in that game. Fenerbahce took third place with an 85-77 win over Dubai Basketball.
 
 The EuroLeague regular season opens on Thursday, Sept. 24. Madrid's first game is away to Dubai Basketball at Coca-Cola Arena.
