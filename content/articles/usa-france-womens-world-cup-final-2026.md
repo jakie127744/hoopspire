@@ -79,7 +79,7 @@ That gave the United States a completely different starting point for the second
 
 And then Stewart immediately attacked.
 
-According to the game reconstruction, the United States opened the third quarter with an 11-2 run, with Stewart contributing to the initial response. The Americans moved from 45-43 down to 54-47 ahead.
+The United States opened the third quarter with an 11-2 run, with Stewart contributing to the initial response. The Americans moved from 45-43 down to 54-47 ahead.
 
 The comeback was no longer theoretical.
 
@@ -167,7 +167,7 @@ France: 18.8%
 
 That is a major difference in the number of missed shots that were converted into another American opportunity.
 
-It is also why Stewart's 10 rebounds matter beyond her double-double. Five were offensive rebounds, according to the available box-score data.
+It is also why Stewart's 10 rebounds matter beyond her double-double. Five were offensive rebounds.
 
 The United States was not simply finishing possessions better.
 

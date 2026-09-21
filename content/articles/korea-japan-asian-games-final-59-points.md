@@ -69,4 +69,4 @@ The game as a whole was the same size as the first one in shots and turnovers an
 
 My reading is that the two teams cancelled each other inside the arc, and that Korea's edge was Lee Hyun-jung's five threes and a small advantage at the line. Two games cannot show whether that is a pattern, and the box score cannot show whether Korea changed how it defended Kurokawa and Kirk between the two meetings. That is the question worth asking the coaches, and it is the number to check first the next time these two teams meet.
 
-According to the Korea Times, the win ended South Korea's 12-year wait for men's basketball gold at the Asian Games.
+The win ended South Korea's 12-year wait for men's basketball gold at the Asian Games.
