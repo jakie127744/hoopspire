@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-09-20T11:02:55.137Z",
+  "fetchedAt": "2026-09-21T12:32:00.516Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-flamengo-vence-o-fluminense-na-abertura-",
+      "league": "NBB",
+      "title": "Flamengo beat Fluminense in the opening of Carioca basketball",
+      "originalTitle": "Flamengo vence o Fluminense na abertura do Carioca de basquete",
+      "translatedFrom": "pt",
+      "description": "Flamengo beat Fluminense on Sunday at the opening of the Carioca Men's Basketball Championship 2026. Rubro-Negro's 97-74 victory at the Tijuca gymnasium marked the return of the competition after three years. This year's Cariocão has the participation of only Flamengo, Fluminense and Botafogo.",
+      "published": "2026-09-20T21:25:05.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/xjHHeMJmAIIop114LkUBMbsjDpE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/i/l/ZPJg2fQKA74FwavoOO1A/735202-flamengo-x-fluminense-carioca-basquete-ttc-20-09-2026-foto-julliana-nascimento-crf-14.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/09/20/flamengo-vence-o-fluminense-na-abertura-do-carioca-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-morre-s-rgio-macarr-o-medalhista-ol-mpic",
       "league": "NBB",
       "title": "Sérgio Macarrão, Olympic medalist with Brazil in Tokyo 1964, dies",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/fb77XC92vk_jwYIwchHAzslfW-c=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/y/a/VqhImlTWKgAbQrKKjxXg/55002202158-a4df942f24-k.jpg",
       "url": "https://ge.globo.com/basquete/nbb/noticia/2026/08/17/lnb-confirma-3a-edicao-do-torneio-de-abertura-do-nbb-com-oito-equipes-veja-datas.ghtml"
-    },
-    {
-      "id": "NBB-brasil-estreia-com-derrota-no-qualificat",
-      "league": "NBB",
-      "title": "Brazil debuts with defeat in the Pre-Olympic Qualifier",
-      "originalTitle": "Brasil estreia com derrota no Qualificatório para o Pré-Olímpico",
-      "translatedFrom": "pt",
-      "description": "The first step of the women's basketball team to Los Angeles 2028! The Brazilian women's basketball team debuted on Monday (17) with a defeat in the Qualification for the Los Angeles 2028 Pre-Olympic Games, which takes place in Guadalajara, Mexico. Léo Figueiró's team sought a reaction after",
-      "published": "2026-08-17T20:41:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/MxlppqvFt3aFUzgnuMZA5-VPuxM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/a/UIxjCPRZA9X2bfCTEWMQ/bella-nascimento.webp",
-      "url": "https://ge.globo.com/basquete/noticia/2026/08/17/brasil-estreia-com-derrota-no-qualificatorio-para-o-pre-olimpico.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-09-20T11:02:55.137Z",
-    "news": "2026-09-20T11:02:55.137Z"
+    "games": "2026-09-21T12:32:00.516Z",
+    "news": "2026-09-21T12:32:00.516Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-09-20T11:02:41.804Z",
+  "fetchedAt": "2026-09-21T12:31:44.029Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,158 +16229,13 @@
   },
   "games": [
     {
-      "id": "ab-CBA-2026-06-05-shanghai-guangsha",
+      "id": "ab-CBA-2026-04-05-shenzhen-zhejiang",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-06-05T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 103,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 82,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-06-02-guangsha-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-06-02T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 101,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 93,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-31-guangsha-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-31T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 77,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 110,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-28-shanghai-guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-28T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 88,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-26-shanghai-guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-26T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 101,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-23-shenzhen-guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-23T11:00:00.000Z",
+      "date": "2026-04-05T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16388,442 +16243,7 @@
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
-        "score": 88,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 97,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-22-beijing-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-22T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 85,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 99,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-21-shenzhen-guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-21T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-20-beijing-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 66,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-18-guangsha-shenzhen",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-18T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 92,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 85,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-17-shanghai-beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 88,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 99,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-16-guangsha-shenzhen",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-16T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 111,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 102,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-15-shanghai-beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-15T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 87,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 82,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-13-guangsha-shanxi-l-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 67,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-12-beijing-guangdong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-12T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 88,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 73,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-10-shanxi-l--guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-10T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-10-zhejiang-shenzhen",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-10T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 95,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-09-guangdong-beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-09T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 102,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 99,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-09-shandong-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-09T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 68,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 96,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-07-guangsha-shanxi-l-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-07T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 92,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-07-shenzhen-zhejiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-07T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 108,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -16832,19 +16252,19 @@
         "name": "Zhejiang",
         "abbr": "ZHE",
         "logo": null,
-        "score": 95,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-05-06-beijing-guangdong",
+      "id": "ab-CBA-2026-04-03-beijing-shandong",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-05-06T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16852,36 +16272,7 @@
         "name": "Beijing",
         "abbr": "BEI",
         "logo": null,
-        "score": 102,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-06-shanghai-shandong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-06T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 84,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -16890,338 +16281,19 @@
         "name": "Shandong",
         "abbr": "SHA",
         "logo": null,
-        "score": 79,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-05-03-guangdong-guangzhou",
+      "id": "ab-CBA-2026-04-03-fujian-s--sichuan",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-05-03T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-03-shandong-liaoning",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-03T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 98,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 82,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-02-ningbo-r--zhejiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-02T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
-        "abbr": "NIN",
-        "logo": null,
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 83,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-02-shanxi-l--qingdao",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-02T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 97,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "qingdao",
-        "name": "Qingdao",
-        "abbr": "QIN",
-        "logo": null,
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-01-guangzhou-guangdong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-01T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 64,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 85,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-05-01-liaoning-shandong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-05-01T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 102,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-29-qingdao-shanxi-l-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-29T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "qingdao",
-        "name": "Qingdao",
-        "abbr": "QIN",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-29-zhejiang-ningbo-r-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-29T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 65,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
-        "abbr": "NIN",
-        "logo": null,
-        "score": 57,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-28-guangdong-guangzhou",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-28T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 76,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 93,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-28-shandong-liaoning",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-28T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 67,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 77,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-beijing-jilin-ne",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 105,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
-        "abbr": "JIL",
-        "logo": null,
-        "score": 55,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-fujian-s--guangdong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -17229,297 +16301,7 @@
         "name": "Fujian S.",
         "abbr": "FUJ",
         "logo": null,
-        "score": 93,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-guangzhou-shenzhen",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 99,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-jiangsu-liaoning",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
-        "abbr": "JIA",
-        "logo": null,
-        "score": 89,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 108,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-ningbo-r--beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
-        "abbr": "NIN",
-        "logo": null,
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 78,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-qingdao-xinjiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "qingdao",
-        "name": "Qingdao",
-        "abbr": "QIN",
-        "logo": null,
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
-        "abbr": "XIN",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-shandong-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 88,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-shanxi-l--nanjing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 116,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
-        "abbr": "NAN",
-        "logo": null,
-        "score": 96,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-sichuan-zhejiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "sichuan",
-        "name": "Sichuan",
-        "abbr": "SIC",
-        "logo": null,
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 104,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-24-guangsha-tianjin",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-24T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 103,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "tianjin",
-        "name": "Tianjin",
-        "abbr": "TIA",
-        "logo": null,
-        "score": 93,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-20-guangzhou-fujian-s-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 101,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
-        "abbr": "FUJ",
-        "logo": null,
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-20-jiangsu-sichuan",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
-        "abbr": "JIA",
-        "logo": null,
-        "score": 101,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -17528,280 +16310,19 @@
         "name": "Sichuan",
         "abbr": "SIC",
         "logo": null,
-        "score": 85,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-20-ningbo-r--jilin-ne",
+      "id": "ab-CBA-2026-04-03-jiangsu-nanjing",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
-        "abbr": "NIN",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
-        "abbr": "JIL",
-        "logo": null,
-        "score": 65,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-20-shanghai-liaoning",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 114,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-20-shanxi-l--guangdong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 106,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 96,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-20-zhejiang-tianjin",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-20T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 96,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "tianjin",
-        "name": "Tianjin",
-        "abbr": "TIA",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-19-qingdao-beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-19T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "qingdao",
-        "name": "Qingdao",
-        "abbr": "QIN",
-        "logo": null,
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 95,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-19-shenzhen-shandong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-19T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 95,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 103,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-19-guangsha-beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-19T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 117,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 104,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-19-xinjiang-nanjing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-19T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
-        "abbr": "XIN",
-        "logo": null,
-        "score": 109,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
-        "abbr": "NAN",
-        "logo": null,
-        "score": 75,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-18-guangdong-fujian-s-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-18T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 83,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
-        "abbr": "FUJ",
-        "logo": null,
-        "score": 95,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-18-jiangsu-shanxi-l-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-18T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -17809,28 +16330,28 @@
         "name": "Jiangsu",
         "abbr": "JIA",
         "logo": null,
-        "score": 87,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
         "logo": null,
-        "score": 86,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-18-jilin-ne-guangzhou",
+      "id": "ab-CBA-2026-04-03-jilin-ne-shanghai",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-18T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -17838,210 +16359,7 @@
         "name": "Jilin NE",
         "abbr": "JIL",
         "logo": null,
-        "score": 75,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 93,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-18-liaoning-zhejiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-18T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 71,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 76,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-17-beijing-sichuan",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 93,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "sichuan",
-        "name": "Sichuan",
-        "abbr": "SIC",
-        "logo": null,
-        "score": 71,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-17-nanjing-guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "nanjing",
-        "name": "Nanjing",
-        "abbr": "NAN",
-        "logo": null,
-        "score": 82,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-17-shandong-beijing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 76,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 92,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-17-shenzhen-ningbo-r-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 106,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
-        "abbr": "NIN",
-        "logo": null,
-        "score": 96,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-17-tianjin-qingdao",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "tianjin",
-        "name": "Tianjin",
-        "abbr": "TIA",
-        "logo": null,
-        "score": 97,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "qingdao",
-        "name": "Qingdao",
-        "abbr": "QIN",
-        "logo": null,
-        "score": 106,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-17-xinjiang-shanghai",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
-        "abbr": "XIN",
-        "logo": null,
-        "score": 86,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -18050,230 +16368,85 @@
         "name": "Shanghai",
         "abbr": "SHA",
         "logo": null,
-        "score": 111,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-16-jiangsu-fujian-s-",
+      "id": "ab-CBA-2026-04-03-ningbo-r--beijing",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-16T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
-        "abbr": "JIA",
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
         "logo": null,
-        "score": 76,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
-        "abbr": "FUJ",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-16-jilin-ne-zhejiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-16T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
-        "abbr": "JIL",
-        "logo": null,
-        "score": 66,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 82,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-15-beijing-shandong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-15T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
         "id": "beijing",
         "name": "Beijing",
         "abbr": "BEI",
         "logo": null,
-        "score": 87,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 81,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-15-guangzhou-shanghai",
+      "id": "ab-CBA-2026-04-03-qingdao-guangdong",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-15T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
         "abbr": "GUA",
         "logo": null,
-        "score": 89,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanghai",
-        "name": "Shanghai",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 90,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-15-liaoning-nanjing",
+      "id": "ab-CBA-2026-04-03-zhejiang-shenzhen",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-15T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
         "logo": null,
-        "score": 103,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "nanjing",
-        "name": "Nanjing",
-        "abbr": "NAN",
-        "logo": null,
-        "score": 95,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-15-shanxi-l--guangsha",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-15T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 100,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "guangsha",
-        "name": "Guangsha",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-15-tianjin-sichuan",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-15T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "tianjin",
-        "name": "Tianjin",
-        "abbr": "TIA",
-        "logo": null,
-        "score": 100,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "sichuan",
-        "name": "Sichuan",
-        "abbr": "SIC",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-15-xinjiang-shenzhen",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-15T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "xinjiang",
-        "name": "Xinjiang",
-        "abbr": "XIN",
-        "logo": null,
-        "score": 96,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -18282,19 +16455,396 @@
         "name": "Shenzhen",
         "abbr": "SHE",
         "logo": null,
-        "score": 104,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-14-beijing-qingdao",
+      "id": "ab-CBA-2026-04-03-xinjiang-shanxi-l-",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-14T11:00:00.000Z",
+      "date": "2026-04-03T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-02-guangzhou-liaoning",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-02-guangsha-tianjin",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-01-guangdong-shandong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-01-jiangsu-zhejiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-01-qingdao-fujian-s-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-01-shanghai-nanjing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-01-sichuan-shanxi-l-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-04-01-xinjiang-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-04-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-31-shenzhen-liaoning",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-31-guangsha-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-30-guangzhou-jilin-ne",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-30-ningbo-r--tianjin",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-29-beijing-qingdao",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-29T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -18302,7 +16852,7 @@
         "name": "Beijing",
         "abbr": "BEI",
         "logo": null,
-        "score": 87,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -18311,230 +16861,27 @@
         "name": "Qingdao",
         "abbr": "QIN",
         "logo": null,
-        "score": 70,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
     },
     {
-      "id": "ab-CBA-2026-04-14-guangdong-ningbo-r-",
+      "id": "ab-CBA-2026-03-29-nanjing-xinjiang",
       "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-04-14T11:00:00.000Z",
+      "date": "2026-03-29T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangdong",
-        "name": "Guangdong",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 77,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "ningbo-r-",
-        "name": "Ningbo R.",
-        "abbr": "NIN",
-        "logo": null,
-        "score": 74,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-beijing-shanxi-l-",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "beijing",
-        "name": "Beijing",
-        "abbr": "BEI",
-        "logo": null,
-        "score": 102,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shanxi-l-",
-        "name": "Shanxi L.",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 89,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-fujian-s--zhejiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "fujian-s-",
-        "name": "Fujian S.",
-        "abbr": "FUJ",
-        "logo": null,
-        "score": 98,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 97,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-guangzhou-jiangsu",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "jiangsu",
-        "name": "Jiangsu",
-        "abbr": "JIA",
-        "logo": null,
-        "score": 67,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-jilin-ne-nanjing",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "jilin-ne",
-        "name": "Jilin NE",
-        "abbr": "JIL",
-        "logo": null,
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
         "id": "nanjing",
         "name": "Nanjing",
         "abbr": "NAN",
         "logo": null,
-        "score": 98,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-shandong-liaoning",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 75,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "liaoning",
-        "name": "Liaoning",
-        "abbr": "LIA",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-sichuan-shenzhen",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "sichuan",
-        "name": "Sichuan",
-        "abbr": "SIC",
-        "logo": null,
-        "score": 113,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shenzhen",
-        "name": "Shenzhen",
-        "abbr": "SHE",
-        "logo": null,
-        "score": 126,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-CBA-2026-04-13-tianjin-xinjiang",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-04-13T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "tianjin",
-        "name": "Tianjin",
-        "abbr": "TIA",
-        "logo": null,
-        "score": 100,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -18543,7 +16890,1660 @@
         "name": "Xinjiang",
         "abbr": "XIN",
         "logo": null,
-        "score": 98,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-29-shandong-fujian-s-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-29-shanghai-zhejiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-29-sichuan-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-28-jiangsu-jilin-ne",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-28-liaoning-ningbo-r-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-28-shanxi-l--guangzhou",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-28-shenzhen-guangdong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-28-guangsha-tianjin",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-27-beijing-shandong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-27-nanjing-sichuan",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-27-zhejiang-xinjiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-beijing-guangzhou",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-fujian-s--jiangsu",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-jilin-ne-ningbo-r-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-liaoning-guangsha",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-shanxi-l--shenzhen",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-tianjin-qingdao",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-26-guangdong-shanghai",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-25-zhejiang-sichuan",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-beijing-shenzhen",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-fujian-s--shanghai",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-guangzhou-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-jiangsu-shanxi-l-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-jilin-ne-guangsha",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-ningbo-r--guangdong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-24-tianjin-shandong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-23-nanjing-qingdao",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-23T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-23-xinjiang-liaoning",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-23T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-22-guangzhou-tianjin",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-22-jiangsu-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-22-ningbo-r--fujian-s-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-22-shanghai-shanxi-l-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-22-guangsha-guangdong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-21-qingdao-zhejiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-21-shandong-nanjing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-21-shenzhen-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-21-sichuan-liaoning",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-21-xinjiang-jilin-ne",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-20-shanghai-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-20-shanxi-l--ningbo-r-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-20-guangsha-fujian-s-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-guangzhou-nanjing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-jiangsu-shenzhen",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-liaoning-qingdao",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-shandong-zhejiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-sichuan-jilin-ne",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-tianjin-xinjiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-19-guangdong-beijing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-18-beijing-ningbo-r-",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-18-shanxi-l--guangsha",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-17-beijing-xinjiang",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-17-fujian-s--jiangsu",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-17-guangdong-nanjing",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-17-jilin-ne-tianjin",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-17-qingdao-sichuan",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-17-zhejiang-guangzhou",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-03-16-liaoning-shandong",
+      "league": "CBA",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-03-16T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
@@ -19058,8 +19058,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-09-20T11:02:41.804Z",
-    "news": "2026-09-20T11:02:41.804Z"
+    "games": "2026-09-21T12:31:44.029Z",
+    "news": "2026-09-21T12:31:44.029Z"
   },
   "carriedOver": [
     "teams",
