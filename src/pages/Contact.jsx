@@ -1,4 +1,4 @@
-import { LegalPage, Section, Value } from '../components/Legal.jsx'
+import { LegalPage, Section } from '../components/Legal.jsx'
 import { SITE, isTodo } from '../lib/site.js'
 import { Eyebrow } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
@@ -62,12 +62,6 @@ export default function Contact() {
         <p className="mt-6 text-sm text-ink/55">
           There is no contact form here on purpose: the site has no backend, and a form that
           silently fails is worse than an address that works.
-        </p>
-      </Section>
-
-      <Section title="Who runs it">
-        <p>
-          {SITE.name} is operated by <Value of="legalEntity" />, based in <Value of="address" />.
         </p>
       </Section>
 
