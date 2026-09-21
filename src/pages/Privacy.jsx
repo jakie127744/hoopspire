@@ -76,6 +76,15 @@ export default function Privacy() {
           to us, and we cannot read it.
         </p>
         <p>
+          <strong>Reactions.</strong> If you react to an article, we add one to that reaction's
+          count and store nothing else — not your address, not an identifier, nothing that could
+          tell your reaction from anyone else's. Your browser keeps a note of which reaction you
+          chose, in its own local storage, so that you can change or withdraw it. That note stays
+          on your device and we cannot read it. To stop repeated clicks from inflating the counts,
+          the network checks how often an address is reacting as the request passes through; that
+          check happens in memory and the address is not written anywhere.
+        </p>
+        <p>
           <strong>Server logs.</strong> Whoever hosts this site will keep standard access logs (IP
           address, browser type, page requested, timestamp) as an ordinary part of serving the
           page. These are used for security and troubleshooting only.
@@ -98,8 +107,9 @@ export default function Privacy() {
         </p>
         <ul>
           <li>
-            <strong>Strictly necessary</strong> — just the record of your consent choice. No
-            permission is needed for this, and it is not used to track you.
+            <strong>Strictly necessary</strong> — the record of your consent choice, and, if you
+            react to an article, the note of which reaction you chose. Both stay in your browser.
+            No permission is needed for either, and neither is used to track you.
           </li>
           <li>
             <strong>Analytics</strong> — aggregate page-view counts so we can see which leagues

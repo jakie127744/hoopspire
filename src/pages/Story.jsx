@@ -6,6 +6,7 @@ import { getLeague } from '../lib/leagues.js'
 import { Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import ArticleCard, { DeskBadge } from '../components/ArticleCard.jsx'
 import AdSlot from '../components/AdSlot.jsx'
+import Reactions from '../components/Reactions.jsx'
 import { SITE } from '../lib/site.js'
 import { formatDate } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
@@ -119,15 +120,7 @@ export default function Story() {
         dangerouslySetInnerHTML={{ __html: html }}
       />
 
-      {/*
-        The ad sits after the body, never inside it. An article broken up by
-        an ad reads as if the ad were part of the argument, and Google's own
-        placement policy treats anything that ambiguous as an invitation to
-        accidental clicks.
-      */}
-      <div className="mt-14 border-t border-parchment pt-6">
-        <AdSlot slotId={SITE.adSlots.square.id} format={SITE.adSlots.square.format} />
-      </div>
+      <Reactions slug={article.slug} />
 
       <footer className="mt-14 border-t border-parchment pt-6">
         <p className="text-sm text-ink/55">
@@ -138,6 +131,21 @@ export default function Story() {
           — corrections make the ledger better.
         </p>
       </footer>
+
+      {/*
+        The ad sits after the body, never inside it. An article broken up by
+        an ad reads as if the ad were part of the argument, and Google's own
+        placement policy treats anything that ambiguous as an invitation to
+        accidental clicks.
+
+        It also sits below the corrections line rather than directly under the
+        reactions. An ad pressed against a row of buttons is the other thing
+        that placement policy is about: a reader reaching for "Great read"
+        should not be able to land on an advertisement instead.
+      */}
+      <div className="mt-14 border-t border-parchment pt-6">
+        <AdSlot slotId={SITE.adSlots.square.id} format={SITE.adSlots.square.format} />
+      </div>
 
       <div className="mt-14">
         <NewsletterSignup />

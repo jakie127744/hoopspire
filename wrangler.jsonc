@@ -1,11 +1,15 @@
 {
-  // Hoopspire is a static SPA: `vite build` produces dist/, and the Worker
-  // does nothing but serve it. This file exists mainly so `wrangler deploy`
-  // does NOT run its framework auto-detection, which insists on Vite 6 and
-  // the @cloudflare/vite-plugin we have no use for.
+  // Hoopspire is a static SPA with one small API. `vite build` produces dist/,
+  // which the asset server answers directly; only /api/* runs any code. This
+  // file also keeps `wrangler deploy` from running its framework
+  // auto-detection, which insists on Vite 6 and the @cloudflare/vite-plugin
+  // we have no use for.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hoopspire",
   "compatibility_date": "2026-09-20",
+
+  // The reactions endpoint. See worker/index.js.
+  "main": "worker/index.js",
 
   // The apex only. `www` is deliberately NOT attached here: a second custom
   // domain would serve the identical site from a second hostname, which is
@@ -21,6 +25,30 @@
     // /margin, an article slug) resolve on a cold load. Real files still win:
     // /admin/, /data/*.json and /assets/* are served as themselves.
     "directory": "./dist",
-    "not_found_handling": "single-page-application"
-  }
+    "not_found_handling": "single-page-application",
+    // The Worker reads the sitemap through this to learn which articles exist.
+    "binding": "ASSETS",
+    // Without this the SPA fallback would answer /api/* with index.html and a
+    // 200, and the Worker would never see the request. Everything else stays
+    // on the asset server and costs no Worker invocation at all.
+    "run_worker_first": ["/api/*"]
+  },
+
+  // Reaction counts. No database_id on purpose: given a name, `wrangler
+  // deploy` creates the database on the first deploy that needs it and binds
+  // it, so a git push is enough. If a deploy ever fails at this step, the
+  // build token lacks D1 permission — run `npx wrangler d1 create hoopspire`
+  // once while logged in and paste the id it prints here.
+  "d1_databases": [{ "binding": "DB", "database_name": "hoopspire" }],
+
+  // 20 reactions a minute from one address. A reader clicking around a few
+  // articles never comes near it; a script farming counts does immediately.
+  // The address is checked in Cloudflare's memory and never stored by us.
+  "ratelimits": [
+    {
+      "name": "REACTIONS_LIMIT",
+      "namespace_id": "1001",
+      "simple": { "limit": 20, "period": 60 }
+    }
+  ]
 }

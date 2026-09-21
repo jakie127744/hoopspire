@@ -38,7 +38,7 @@ export const SITE = {
   jurisdiction: 'the State of Florida, United States',
 
   /** Shown as "Last updated" on the legal pages. Bump when you edit them. */
-  lastUpdated: '2026-09-09',
+  lastUpdated: '2026-09-21',
 
   /**
    * Advertising network. Ad slots stay completely inert — no script, no empty

@@ -18,3 +18,7 @@ scripts/.cache/
 # and a throwaway runner, neither of which is source.
 /cba.json
 /t.mjs
+
+# Wrangler's local state: the simulated D1 database `wrangler dev` writes,
+# and build output. Nothing here is source.
+.wrangler/
