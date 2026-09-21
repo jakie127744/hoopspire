@@ -196,21 +196,21 @@ Dallas' second-year Cooper Flagg leap keeps the Mavericks competitive, but the p
 
 ### East
 
-**(1) Detroit vs. (8) Toronto — Detroit wins 4-2**
+**(1) Detroit vs. (8) Toronto: Detroit wins 4-2**
 
 Toronto's size and defensive length create problems, but Detroit's half-court creation and offensive rebounding should eventually separate the teams.
 
-**(2) New York vs. (7) Atlanta — New York wins 4-2**
+**(2) New York vs. (7) Atlanta: New York wins 4-2**
 
 Atlanta can attack New York's second line with Jalen Johnson's transition play, but New York has too many ways to create efficient possessions late in games.
 
-**(3) Philadelphia vs. (6) Orlando — Philadelphia wins 4-3**
+**(3) Philadelphia vs. (6) Orlando: Philadelphia wins 4-3**
 
 This is the projection's highest-variance Eastern first round.
 
 Philadelphia has Maxey, Brown, Embiid and LeBron, but the offensive hierarchy is complicated. The 76ers' new roster is built around four major offensive decision-makers, and the question is whether the possession distribution produces efficiency rather than merely volume.
 
-**(4) Cleveland vs. (5) Miami — Miami wins 4-3**
+**(4) Cleveland vs. (5) Miami: Miami wins 4-3**
 
 The projection gives Miami the matchup because Giannis changes the geometry of Cleveland's defense.
 
@@ -222,19 +222,19 @@ If Miami consistently converts Giannis' rim pressure into corner threes and seco
 
 ### West
 
-**(1) Oklahoma City vs. (8) Phoenix — Oklahoma City wins 4-1**
+**(1) Oklahoma City vs. (8) Phoenix: Oklahoma City wins 4-1**
 
 Phoenix has enough shot-making to steal a game, but Oklahoma City's turnover pressure and defensive versatility should generate too many extra possessions.
 
-**(2) San Antonio vs. (7) Portland — San Antonio wins 4-1**
+**(2) San Antonio vs. (7) Portland: San Antonio wins 4-1**
 
 Portland's Morant-led transition attack creates problems, but San Antonio's rim protection changes the expected value of those attacks.
 
-**(3) Houston vs. (6) Lakers — Houston wins 4-2**
+**(3) Houston vs. (6) Lakers: Houston wins 4-2**
 
 Houston's physicality and defensive rebounding give it a favorable matchup against a Lakers team that will rely heavily on Dončić's creation.
 
-**(4) Denver vs. (5) Minnesota — Denver wins 4-3**
+**(4) Denver vs. (5) Minnesota: Denver wins 4-3**
 
 This is the projection's most volatile Western first-round series.
 
@@ -244,13 +244,13 @@ Denver gets the projection because Nikola Jokić remains the league's most relia
 
 ## Conference semifinals
 
-**Detroit vs. Miami — Detroit wins 4-3**
+**Detroit vs. Miami: Detroit wins 4-3**
 
 The Pistons have the deeper regular-season structure, but Giannis makes every game a matchup problem.
 
 The deciding factor is projected to be Detroit's ability to force Miami into enough jump-shot possessions.
 
-**New York vs. Philadelphia — New York wins 4-2**
+**New York vs. Philadelphia: New York wins 4-2**
 
 Philadelphia has more top-end names than almost any team in the league.
 
@@ -260,11 +260,11 @@ That matters in the playoffs.
 
 The Knicks' offense already survived the 2026 postseason, while Philadelphia has to establish how Maxey, Brown, Embiid and James share creation duties.
 
-**Oklahoma City vs. Denver — Oklahoma City wins 4-2**
+**Oklahoma City vs. Denver: Oklahoma City wins 4-2**
 
 Jokić remains the ultimate half-court problem, but Oklahoma City's perimeter defense and transition pressure should produce more possessions than Denver wants.
 
-**San Antonio vs. Houston — San Antonio wins 4-2**
+**San Antonio vs. Houston: San Antonio wins 4-2**
 
 Houston's defensive strength makes this difficult, but Wembanyama's ability to influence both the rim and perimeter shooting zones creates a problem Houston cannot solve with one matchup.
 
@@ -352,15 +352,15 @@ Opportunity is a major part of rookie awards.
 
 ## Projected All-NBA First Team
 
-**Victor Wembanyama — Spurs**
+**Victor Wembanyama, Spurs**
 
-**Shai Gilgeous-Alexander — Thunder**
+**Shai Gilgeous-Alexander, Thunder**
 
-**Nikola Jokić — Nuggets**
+**Nikola Jokić, Nuggets**
 
-**Jalen Brunson — Knicks**
+**Jalen Brunson, Knicks**
 
-**Luka Dončić — Lakers**
+**Luka Dončić, Lakers**
 
 The first three are the easiest statistical projections.
 
@@ -372,15 +372,15 @@ Dončić's case depends heavily on availability and whether the Lakers can conve
 
 ## Projected All-NBA Second Team
 
-**Anthony Edwards — Timberwolves**
+**Anthony Edwards, Timberwolves**
 
-**Cade Cunningham — Pistons**
+**Cade Cunningham, Pistons**
 
-**Giannis Antetokounmpo — Heat**
+**Giannis Antetokounmpo, Heat**
 
-**Jayson Tatum — Celtics**
+**Jayson Tatum, Celtics**
 
-**Joel Embiid — 76ers**
+**Joel Embiid, 76ers**
 
 Cunningham's case is tied to Detroit's projected 56 wins.
 
@@ -392,15 +392,15 @@ Philadelphia has perhaps the league's highest concentration of offensive talent,
 
 ## Projected All-NBA Third Team
 
-**Tyrese Maxey — 76ers**
+**Tyrese Maxey, 76ers**
 
-**Kevin Durant — Rockets**
+**Kevin Durant, Rockets**
 
-**Jalen Williams — Thunder**
+**Jalen Williams, Thunder**
 
-**Anthony Davis — Wizards**
+**Anthony Davis, Wizards**
 
-**Karl-Anthony Towns — Knicks**
+**Karl-Anthony Towns, Knicks**
 
 Jalen Williams is one of the projection model's highest-variance players because he appeared in only 33 games last season. Oklahoma City's ceiling is substantially higher if he returns to a full-season workload.
 
