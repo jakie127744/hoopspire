@@ -120,6 +120,12 @@ function build(path, raw, desk) {
     desk,
     deskName: DESKS[desk].name,
     league: data.league || null,
+    // The ESPN event id a game recap is about, if it is one — a string,
+    // since some are shaped like "401857201" and treating it as a number
+    // would risk losing precision or dropping a leading digit on the way
+    // through JSON. Lets the Game page find our own recap for a game instead
+    // of showing the wire's.
+    game: data.game || null,
     title: data.title || slug,
     description: data.dek || '',
     byline: data.author || null,
@@ -163,6 +169,17 @@ export function getDesk(desk, leagueKey = null, limit = Infinity) {
 
 export function getOriginal(slug) {
   return all.find((a) => a.slug === slug) || null
+}
+
+/**
+ * Our own recap of a specific game, if we filed one — matched on the ESPN
+ * event id in `game`, scoped to the league so two leagues' ids (both just
+ * strings of digits) can never collide. The Game page uses this to show our
+ * own recap instead of the wire's where one exists.
+ */
+export function getGameRecap(leagueKey, gameId) {
+  if (!gameId) return null
+  return all.find((a) => a.game === String(gameId) && a.league === leagueKey) || null
 }
 
 /**

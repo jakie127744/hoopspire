@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getGame } from '../lib/api.js'
+import { getGameRecap } from '../lib/articles.js'
 import { TeamLogo, Loading, Empty, Eyebrow, SectionHead, StatusPill } from '../components/Primitives.jsx'
 import { formatDate, formatTime } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
@@ -154,6 +155,10 @@ function BoxScore({ side }) {
 export default function Game() {
   const { leagueKey, gameId } = useParams()
   const league = getLeague(leagueKey)
+  // Our own recap, filed by league and this game's ESPN id, if we have one.
+  // Bundled at build time like every other original, so this needs no fetch
+  // and no loading state of its own.
+  const ourRecap = getGameRecap(league?.key, gameId)
   // A game in progress re-reads its own box score every 20 seconds.
   const { data, loading } = useAsync(
     () => getGame(leagueKey, gameId),
@@ -206,19 +211,43 @@ export default function Game() {
         <Scoreline game={game} />
       </div>
 
-      {recap && (
+      {/*
+        Our own recap wins when we have one for this game — same slot, same
+        heading, so nothing about the page's shape changes, only whose
+        writing fills it. Falls back to the wire's recap otherwise: a game we
+        have not covered ourselves is better summarised by someone than left
+        blank.
+      */}
+      {ourRecap ? (
         <section className="mt-16">
           <SectionHead title="Recap" />
-          <h3 className="font-display text-3xl leading-tight">{recap.title}</h3>
+          <h3 className="font-display text-3xl leading-tight">{ourRecap.title}</h3>
           <p className="eyebrow mt-3 text-ink/45">
-            {recap.byline ? `By ${recap.byline} · ` : ''}
-            {formatDate(recap.published)}
+            By {ourRecap.byline} · {formatDate(ourRecap.published)}
           </p>
-          <div
-            className="prose mt-6 max-w-none text-ink/75 [&_a]:text-crimson [&_p]:mb-4"
-            dangerouslySetInnerHTML={{ __html: recap.body }}
-          />
+          <p className="mt-6 text-lg leading-relaxed text-ink/80">{ourRecap.description}</p>
+          <Link
+            to={ourRecap.href}
+            className="eyebrow mt-4 inline-block text-crimson hover:underline"
+          >
+            Read the full recap →
+          </Link>
         </section>
+      ) : (
+        recap && (
+          <section className="mt-16">
+            <SectionHead title="Recap" />
+            <h3 className="font-display text-3xl leading-tight">{recap.title}</h3>
+            <p className="eyebrow mt-3 text-ink/45">
+              {recap.byline ? `By ${recap.byline} · ` : ''}
+              {formatDate(recap.published)}
+            </p>
+            <div
+              className="prose mt-6 max-w-none text-ink/75 [&_a]:text-crimson [&_p]:mb-4"
+              dangerouslySetInnerHTML={{ __html: recap.body }}
+            />
+          </section>
+        )
       )}
 
       {boxscore?.length > 0 ? (

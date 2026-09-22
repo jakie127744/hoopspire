@@ -108,7 +108,7 @@ export function lintArticle(filename, raw, desk = 'margin') {
   // Capitalised keys are the trap: the parser keeps them, the site never reads
   // them, and the field silently vanishes from the page.
   for (const key of Object.keys(data)) {
-    const canonical = [...REQUIRED, 'league', 'image', 'imageCredit', 'draft', 'slug']
+    const canonical = [...REQUIRED, 'league', 'image', 'imageCredit', 'draft', 'slug', 'game']
       .find((f) => f.toLowerCase() === key.toLowerCase())
     if (canonical && canonical !== key) {
       problems.push(`\`${key}\` should be \`${canonical}\` — the site reads the lowercase form`)
@@ -133,6 +133,19 @@ export function lintArticle(filename, raw, desk = 'margin') {
 
   if (data.image && !data.imageCredit) {
     problems.push('image is set without imageCredit')
+  }
+
+  // `game` links this piece to a specific ESPN event so the Game page can
+  // show it instead of the wire's recap — see getGameRecap in articles.js.
+  // The match is scoped to `league`, so `game` without it can never resolve
+  // and the piece silently never appears on its own game page.
+  if (data.game) {
+    if (!data.league) {
+      problems.push('`game` is set without `league` — the recap can never match a game page without it')
+    }
+    if (!/^\d+$/.test(String(data.game))) {
+      problems.push(`game \`${data.game}\` should be the bare ESPN event id (digits only)`)
+    }
   }
 
   const slug = filename.replace(/\.md$/, '')
