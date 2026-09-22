@@ -54,8 +54,14 @@ jobs:
       # own. Add CLOUDFLARE_ACCOUNT_ID and this input back if that ever stops
       # working — a Cloudflare account ID is not sensitive (it's visible in
       # the dashboard's own URL), so it does not need to be a secret at all.
+      # wranglerVersion is pinned because the action's own default installed
+      # Wrangler 3.90.0, which cannot read this project's config at all — a
+      # combined `main` (Worker) with `assets` and D1/rate-limit bindings
+      # needs Wrangler 4. 3.x failed immediately with "Missing entry-point",
+      # unable to see `main` in wrangler.jsonc.
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.HOOPSPIRE }}
+          wranglerVersion: '4'
           command: deploy
