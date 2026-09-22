@@ -61,7 +61,12 @@ export async function translate(text, from) {
     new URLSearchParams({ q: source.slice(0, 480), langpair: `${from}|en` })
 
   try {
-    const res = await fetch(url)
+    // No timeout here left a bad run of this hanging forever: one stalled
+    // MyMemory response, anywhere in a loop of dozens of headlines, and the
+    // whole scraper never finished — found running LNBP's news through this
+    // for the first time, but every league that translates headlines
+    // (BLeague, KBL, CBA, TPBL, NBB) was exposed to the same risk.
+    const res = await fetch(url, { signal: AbortSignal.timeout(10_000) })
     const body = await res.json()
     const out = body?.responseData?.translatedText
 

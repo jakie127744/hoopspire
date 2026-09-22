@@ -38,7 +38,7 @@ const DESKS = {
 }
 
 const LEAGUES = [
-  'FIBA', 'NBA', 'WNBA', 'GLeague', 'NCAAM', 'NBB',
+  'FIBA', 'NBA', 'WNBA', 'GLeague', 'NCAAM', 'NBB', 'LNBP',
   'EuroLeague', 'PBA', 'KBL', 'BLeague', 'CBA', 'TPBL', 'NBL',
 ]
 /**

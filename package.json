@@ -13,6 +13,7 @@
     "data:kbl": "node scripts/fetch-data.mjs kbl",
     "data:bleague": "node scripts/fetch-data.mjs bleague",
     "data:pba": "node scripts/fetch-data.mjs pba",
+    "data:lnbp": "node scripts/fetch-data.mjs lnbp",
     "cms": "node scripts/cms-server.mjs",
     "new": "node scripts/new-article.mjs",
     "data:careers": "node scripts/fetch-data.mjs careers",

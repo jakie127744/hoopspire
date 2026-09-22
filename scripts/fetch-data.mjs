@@ -1234,6 +1234,218 @@ async function scrapeKBL() {
 }
 
 // ───────────────────────────────────────────────────────────────────────────
+// LNBP (Mexico)
+//
+// lnbp.mx is a client-rendered site with no documented API, but its backend
+// (lnbpback.truewisdom.co, found in its own JS bundle) is a plain,
+// unauthenticated JSON API with real standings, a full schedule and news —
+// no Cloudflare check, no HTML to parse. Every endpoint here was found by
+// reading that bundle and confirmed against the live site's own numbers.
+//
+// It has no roster or box-score endpoint. Rosters stay empty for this league
+// rather than guessed from somewhere else — the same rule every other
+// snapshot league follows.
+// ───────────────────────────────────────────────────────────────────────────
+const LNBP_API = 'https://lnbpback.truewisdom.co'
+
+async function lnbpPost(pathname, body = {}) {
+  let lastErr
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await fetch(`${LNBP_API}${pathname}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'User-Agent': UA },
+        body: JSON.stringify(body),
+      })
+      if (!res.ok) throw new Error(`HTTP ${res.status}`)
+      return await res.json()
+    } catch (err) {
+      lastErr = err
+      if (attempt < 3) await sleep(600 * attempt)
+    }
+  }
+  throw new Error(`${LNBP_API}${pathname} — ${lastErr.message}`)
+}
+
+/**
+ * Short code for a team with no official abbreviation of its own. LNBP club
+ * names are almost all one word — Soles, Astros, Dorados — so taking the
+ * first letter of each word the way multi-word names do produced a bare
+ * single letter for nearly every team in the league. Multi-word names still
+ * take one letter per word (first three); a single word takes its own first
+ * four letters instead.
+ */
+const lnbpAbbr = (name) => {
+  const words = String(name).trim().split(/\s+/)
+  const code = words.length > 1 ? words.slice(0, 3).map((w) => w[0]).join('') : words[0].slice(0, 4)
+  return code.toUpperCase()
+}
+
+const lnbpLogo = (url) => (url ? `${LNBP_API}${url}` : null)
+
+/** The current men's ("Varonil") season — seasons/all is newest first. */
+async function currentLNBPSeason() {
+  const { items } = await lnbpPost('/sports/seasons/all')
+  const season = (items || []).find((s) => /varonil/i.test(s.name))
+  if (!season) throw new Error('no men’s ("Varonil") season found')
+  return season
+}
+
+async function scrapeLNBP() {
+  const notes = []
+  const teams = []
+  let standings = { seasonLabel: '', rows: [] }
+  let games = []
+  let news = { articles: [], notes: [] }
+
+  const season = await currentLNBPSeason()
+  try {
+    const { items_standing } = await lnbpPost('/sports/standings/season', { id_season: season.id })
+    for (const row of items_standing || []) {
+      const t = row.team
+      const team = {
+        id: t.id,
+        league: 'LNBP',
+        name: t.name,
+        nameLocal: null,
+        shortName: t.name,
+        abbr: lnbpAbbr(t.name),
+        city: t.description || null,
+        logo: lnbpLogo(t.full_url_logo),
+        color: t.team_color || null,
+      }
+      teams.push(team)
+      standings.rows.push({
+        team: { id: team.id, name: team.name, abbr: team.abbr, logo: team.logo },
+        wins: Number(row.games_won ?? 0),
+        losses: Number(row.games_lost ?? 0),
+        pct: row.games ? (row.games_won / row.games).toFixed(3).replace(/^0/, '') : '—',
+        pointsFor: row.points_in_favor != null ? Number(row.points_in_favor) : null,
+        pointsAgainst: row.points_against != null ? Number(row.points_against) : null,
+        diff:
+          row.points_in_favor != null && row.points_against != null
+            ? row.points_in_favor - row.points_against
+            : null,
+        streak: null,
+        seed: Number(row.place ?? 0) || null,
+      })
+    }
+    standings.rows.sort((a, b) => (a.seed || 99) - (b.seed || 99))
+    standings.seasonLabel = season.name
+  } catch (err) {
+    notes.push(`standings/teams: ${err.message}`)
+  }
+
+  // A ten-week window either side of today. LNBP plays a long round-robin
+  // into a best-of series playoff, so a narrower window (KBL's one month)
+  // regularly missed the start of a round; this one does not.
+  try {
+    const d = (offset) => {
+      const x = new Date()
+      x.setDate(x.getDate() + offset)
+      return x.toISOString().slice(0, 10)
+    }
+    const { items } = await lnbpPost('/sports/games/dates', {
+      date_start: d(-70),
+      date_end: d(70),
+    })
+    games = (items || [])
+      .filter((g) => g.event) // a game with no event has no date and cannot be placed
+      .map((g) => {
+        const played = g.score_1 != null && g.score_2 != null && g.score_1 + g.score_2 > 0
+        const side = (team, participant, score) => ({
+          id: team?.id ?? participant?.id ?? null,
+          name: participant?.name || team?.name || 'TBD',
+          abbr: lnbpAbbr(participant?.name || team?.name || '?'),
+          logo: lnbpLogo(team?.full_url_logo),
+          score: played ? Number(score) : null,
+          linescores: [],
+          leaders: [],
+        })
+        return {
+          id: g.id,
+          league: 'LNBP',
+          // Mexico City time year-round (no DST since 2022); a handful of
+          // northern-border clubs run an hour behind, close enough for a
+          // schedule display.
+          status: g.event.is_live ? 'live' : played ? 'final' : 'scheduled',
+          statusDetail: g.event.is_live ? 'Live' : played ? 'Final' : 'Scheduled',
+          period: null,
+          clock: null,
+          date:
+            g.event.date_start && g.event.time_start
+              ? `${g.event.date_start}T${g.event.time_start}-06:00`
+              : null,
+          venue: g.event.venue || null,
+          city: null,
+          home: side(g.team_1, g.participant_1, g.score_1),
+          away: side(g.team_2, g.participant_2, g.score_2),
+        }
+      })
+  } catch (err) {
+    notes.push(`games: ${err.message}`)
+  }
+
+  try {
+    // MyMemory (the translation service) has been genuinely unreliable
+    // tonight — several direct test calls hung for a full 12 seconds before
+    // failing, one returned a 504. translate() itself now times out after
+    // 10s per call rather than hanging forever, but at 20 items this was
+    // still up to 40 sequential calls — worst case, minutes, for a feature
+    // that is not the point of the ledger. Twelve items, and each item's
+    // title and description translate in parallel rather than one after the
+    // other, so a slow or failing call costs its own ~10s once, not twice.
+    const { items } = await lnbpPost('/communication/news/all', { count: 12 })
+    const articles = []
+    for (const item of items || []) {
+      const title = stripTags(item.title || '')
+      const description = stripTags(item.text || '').slice(0, 280)
+      if (!title) continue
+      const key = title.toLowerCase().replace(/\W+/g, '').slice(0, 60)
+      const [t, d] = await Promise.all([
+        translate(title, 'es'),
+        description ? translate(description, 'es') : Promise.resolve({ text: '' }),
+      ])
+      articles.push({
+        id: `LNBP-${key}`,
+        league: 'LNBP',
+        title: t.translated ? t.text : title,
+        originalTitle: t.translated ? title : null,
+        translatedFrom: t.translated ? 'es' : null,
+        description: d.text || description,
+        published: item.created_at ? new Date(item.created_at.replace(' ', 'T')).toISOString() : null,
+        byline: 'LNBP',
+        tag: 'Report',
+        image: lnbpLogo(item.full_url_image),
+        url: null,
+      })
+    }
+    news = { articles: articles.slice(0, 40), notes: [] }
+  } catch (err) {
+    notes.push(`news: ${err.message}`)
+  }
+
+  if (!teams.length && !games.length) {
+    throw new Error(`no LNBP data available — ${notes.join('; ')}`)
+  }
+
+  return {
+    league: 'LNBP',
+    season: season.name,
+    fetchedAt: new Date().toISOString(),
+    sources: [{ name: 'lnbp.mx', url: 'https://lnbp.mx' }],
+    notes: [...notes, ...news.notes],
+    teams,
+    rosters: {},
+    playerStats: [],
+    standings,
+    games,
+    news: news.articles,
+    leaders: {},
+  }
+}
+
+// ───────────────────────────────────────────────────────────────────────────
 // PBA (Philippines)
 //
 // pba.ph sits behind a Cloudflare bot check that a script cannot pass (and
@@ -1953,6 +2165,7 @@ const SCRAPERS = {
   bleague: { key: 'BLeague', run: scrapeBLeague },
   kbl: { key: 'KBL', run: scrapeKBL },
   pba: { key: 'PBA', run: scrapePBA },
+  lnbp: { key: 'LNBP', run: scrapeLNBP },
   cba: { key: 'CBA', run: scrapeCBA },
   tpbl: { key: 'TPBL', run: scrapeTPBL },
   nbb: { key: 'NBB', run: scrapeNBB },

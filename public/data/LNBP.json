@@ -1,0 +1,6456 @@
+{
+  "league": "LNBP",
+  "season": "2026 Varonil",
+  "fetchedAt": "2026-09-22T01:58:50.238Z",
+  "sources": [
+    {
+      "name": "lnbp.mx",
+      "url": "https://lnbp.mx"
+    }
+  ],
+  "notes": [],
+  "teams": [
+    {
+      "id": 13,
+      "league": "LNBP",
+      "name": "Soles",
+      "nameLocal": null,
+      "shortName": "Soles",
+      "abbr": "SOLE",
+      "city": "Mexicali, Baja California",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+      "color": "#212121"
+    },
+    {
+      "id": 27,
+      "league": "LNBP",
+      "name": "Astros",
+      "nameLocal": null,
+      "shortName": "Astros",
+      "abbr": "ASTR",
+      "city": "Equipo Profesional de Baloncesto de Jalisco.",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+      "color": "#2f3376"
+    },
+    {
+      "id": 28,
+      "league": "LNBP",
+      "name": "Dorados",
+      "nameLocal": null,
+      "shortName": "Dorados",
+      "abbr": "DORA",
+      "city": "Equipo Profesional de Baloncesto de Chihuahua.",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+      "color": "#ffd200"
+    },
+    {
+      "id": 4,
+      "league": "LNBP",
+      "name": "Fuerza Regia",
+      "nameLocal": null,
+      "shortName": "Fuerza Regia",
+      "abbr": "FR",
+      "city": "Monterrey, Nuevo León",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+      "color": "#030303"
+    },
+    {
+      "id": 10,
+      "league": "LNBP",
+      "name": "Panteras",
+      "nameLocal": null,
+      "shortName": "Panteras",
+      "abbr": "PANT",
+      "city": "Aguascalientes, Aguascalientes",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": 50,
+      "league": "LNBP",
+      "name": "Lobos",
+      "nameLocal": null,
+      "shortName": "Lobos",
+      "abbr": "LOBO",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+      "color": null
+    },
+    {
+      "id": 20,
+      "league": "LNBP",
+      "name": "Mineros",
+      "nameLocal": null,
+      "shortName": "Mineros",
+      "abbr": "MINE",
+      "city": "Equipo Profesional de Baloncesto del Estado de Zacatecas",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+      "color": "#ca342e"
+    },
+    {
+      "id": 45,
+      "league": "LNBP",
+      "name": "Diablos Rojos",
+      "nameLocal": null,
+      "shortName": "Diablos Rojos",
+      "abbr": "DR",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+      "color": "#FFFFFF"
+    },
+    {
+      "id": 49,
+      "league": "LNBP",
+      "name": "Gambusinos",
+      "nameLocal": null,
+      "shortName": "Gambusinos",
+      "abbr": "GAMB",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+      "color": null
+    },
+    {
+      "id": 1,
+      "league": "LNBP",
+      "name": "Abejas",
+      "nameLocal": null,
+      "shortName": "Abejas",
+      "abbr": "ABEJ",
+      "city": "León, Guanajuato",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+      "color": "#ffffff"
+    },
+    {
+      "id": 43,
+      "league": "LNBP",
+      "name": "Freseros",
+      "nameLocal": null,
+      "shortName": "Freseros",
+      "abbr": "FRES",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+      "color": "#003ca5"
+    },
+    {
+      "id": 15,
+      "league": "LNBP",
+      "name": "Santos",
+      "nameLocal": null,
+      "shortName": "Santos",
+      "abbr": "SANT",
+      "city": "San Luis Potosí",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+      "color": "#006638"
+    },
+    {
+      "id": 47,
+      "league": "LNBP",
+      "name": "El Calor",
+      "nameLocal": null,
+      "shortName": "El Calor",
+      "abbr": "EC",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+      "color": null
+    },
+    {
+      "id": 3,
+      "league": "LNBP",
+      "name": "Correcaminos",
+      "nameLocal": null,
+      "shortName": "Correcaminos",
+      "abbr": "CORR",
+      "city": "Universidad Autónoma de Tamaulipas de Ciudad Victoria",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+      "color": "#d7d7d7"
+    }
+  ],
+  "rosters": {},
+  "playerStats": [],
+  "standings": {
+    "seasonLabel": "2026 Varonil",
+    "rows": [
+      {
+        "team": {
+          "id": 13,
+          "name": "Soles",
+          "abbr": "SOLE",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png"
+        },
+        "wins": 17,
+        "losses": 4,
+        "pct": ".810",
+        "pointsFor": 1778,
+        "pointsAgainst": 1554,
+        "diff": 224,
+        "streak": null,
+        "seed": 1
+      },
+      {
+        "team": {
+          "id": 27,
+          "name": "Astros",
+          "abbr": "ASTR",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png"
+        },
+        "wins": 15,
+        "losses": 7,
+        "pct": ".682",
+        "pointsFor": 1929,
+        "pointsAgainst": 1778,
+        "diff": 151,
+        "streak": null,
+        "seed": 2
+      },
+      {
+        "team": {
+          "id": 28,
+          "name": "Dorados",
+          "abbr": "DORA",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png"
+        },
+        "wins": 14,
+        "losses": 8,
+        "pct": ".636",
+        "pointsFor": 1884,
+        "pointsAgainst": 1839,
+        "diff": 45,
+        "streak": null,
+        "seed": 3
+      },
+      {
+        "team": {
+          "id": 4,
+          "name": "Fuerza Regia",
+          "abbr": "FR",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png"
+        },
+        "wins": 14,
+        "losses": 7,
+        "pct": ".667",
+        "pointsFor": 1898,
+        "pointsAgainst": 1830,
+        "diff": 68,
+        "streak": null,
+        "seed": 4
+      },
+      {
+        "team": {
+          "id": 10,
+          "name": "Panteras",
+          "abbr": "PANT",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png"
+        },
+        "wins": 13,
+        "losses": 8,
+        "pct": ".619",
+        "pointsFor": 1867,
+        "pointsAgainst": 1791,
+        "diff": 76,
+        "streak": null,
+        "seed": 5
+      },
+      {
+        "team": {
+          "id": 50,
+          "name": "Lobos",
+          "abbr": "LOBO",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png"
+        },
+        "wins": 13,
+        "losses": 8,
+        "pct": ".619",
+        "pointsFor": 1752,
+        "pointsAgainst": 1699,
+        "diff": 53,
+        "streak": null,
+        "seed": 6
+      },
+      {
+        "team": {
+          "id": 20,
+          "name": "Mineros",
+          "abbr": "MINE",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png"
+        },
+        "wins": 11,
+        "losses": 10,
+        "pct": ".524",
+        "pointsFor": 1830,
+        "pointsAgainst": 1787,
+        "diff": 43,
+        "streak": null,
+        "seed": 7
+      },
+      {
+        "team": {
+          "id": 45,
+          "name": "Diablos Rojos",
+          "abbr": "DR",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png"
+        },
+        "wins": 9,
+        "losses": 12,
+        "pct": ".429",
+        "pointsFor": 1760,
+        "pointsAgainst": 1760,
+        "diff": 0,
+        "streak": null,
+        "seed": 8
+      },
+      {
+        "team": {
+          "id": 49,
+          "name": "Gambusinos",
+          "abbr": "GAMB",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png"
+        },
+        "wins": 9,
+        "losses": 12,
+        "pct": ".429",
+        "pointsFor": 1645,
+        "pointsAgainst": 1729,
+        "diff": -84,
+        "streak": null,
+        "seed": 9
+      },
+      {
+        "team": {
+          "id": 1,
+          "name": "Abejas",
+          "abbr": "ABEJ",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png"
+        },
+        "wins": 8,
+        "losses": 13,
+        "pct": ".381",
+        "pointsFor": 1776,
+        "pointsAgainst": 1809,
+        "diff": -33,
+        "streak": null,
+        "seed": 10
+      },
+      {
+        "team": {
+          "id": 43,
+          "name": "Freseros",
+          "abbr": "FRES",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png"
+        },
+        "wins": 8,
+        "losses": 13,
+        "pct": ".381",
+        "pointsFor": 1785,
+        "pointsAgainst": 1898,
+        "diff": -113,
+        "streak": null,
+        "seed": 11
+      },
+      {
+        "team": {
+          "id": 15,
+          "name": "Santos",
+          "abbr": "SANT",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png"
+        },
+        "wins": 7,
+        "losses": 14,
+        "pct": ".333",
+        "pointsFor": 1746,
+        "pointsAgainst": 1874,
+        "diff": -128,
+        "streak": null,
+        "seed": 12
+      },
+      {
+        "team": {
+          "id": 47,
+          "name": "El Calor",
+          "abbr": "EC",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png"
+        },
+        "wins": 6,
+        "losses": 15,
+        "pct": ".286",
+        "pointsFor": 1720,
+        "pointsAgainst": 1825,
+        "diff": -105,
+        "streak": null,
+        "seed": 13
+      },
+      {
+        "team": {
+          "id": 3,
+          "name": "Correcaminos",
+          "abbr": "CORR",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png"
+        },
+        "wins": 4,
+        "losses": 17,
+        "pct": ".190",
+        "pointsFor": 1759,
+        "pointsAgainst": 1956,
+        "diff": -197,
+        "streak": null,
+        "seed": 14
+      }
+    ]
+  },
+  "games": [
+    {
+      "id": 3877,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-15T15:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 107,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3884,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-16T15:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3855,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-30T16:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3806,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3850,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3906,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T16:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3857,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-30T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3913,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-27T16:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3894,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T16:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3813,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3752,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-25T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3759,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-26T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3914,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T16:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3909,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T17:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3916,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-27T17:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3816,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T17:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3859,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-30T17:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3808,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T17:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3793,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-09T17:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 64,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3856,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-30T17:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3903,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T17:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3817,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T18:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3815,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T18:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 66,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3953,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-06T18:00:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3897,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T18:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3951,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-05T18:00:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3861,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-30T18:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3890,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T18:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3912,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T18:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3848,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T18:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3771,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-01T18:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3944,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T18:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3892,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T18:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3819,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T18:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3774,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-01T18:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3947,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-03T18:15:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3949,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-04T18:15:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3875,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-12T18:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3814,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T18:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 108,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3757,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-25T18:15:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3895,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-19T18:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3893,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T18:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Reynosa",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3930,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-03T18:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3901,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-21T18:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Reynosa",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3810,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T19:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3891,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-20T19:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3818,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-16T19:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3852,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T19:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3863,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-10T19:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3870,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-11T19:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3811,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T19:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3765,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3874,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-11T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3766,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-30T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3772,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-01T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 58,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3846,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T19:15:00-06:00",
+      "venue": "Gimnasio Olímpico del Centro Universitario Sur",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3942,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3847,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3929,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3935,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3873,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-11T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3934,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3839,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T19:15:00-06:00",
+      "venue": "Gimnasio Olímpico del Centro Universitario Sur",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3840,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 50,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3928,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3866,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-10T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3812,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3941,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3885,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-16T19:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3902,
+      "league": "LNBP",
+      "status": "live",
+      "statusDetail": "Live",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-21T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3922,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-01T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3801,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-11T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3921,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-01T19:15:00-06:00",
+      "venue": "Gimnasio Multidisciplinario UAT Victoria",
+      "city": null,
+      "home": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3794,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-10T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 69,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3849,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T19:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3773,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3867,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-10T19:15:00-06:00",
+      "venue": "Poliforum Cancún",
+      "city": null,
+      "home": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3898,
+      "league": "LNBP",
+      "status": "live",
+      "statusDetail": "Live",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-21T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3864,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-10T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3918,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3945,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T20:00:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3946,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3940,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T20:00:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3858,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-30T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3876,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-15T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3862,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-10T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3911,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-25T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3899,
+      "league": "LNBP",
+      "status": "live",
+      "statusDetail": "Live",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-21T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3919,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-01T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3926,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3886,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-16T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 109,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3887,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-16T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3883,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-16T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3910,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-25T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3917,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3905,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-25T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3869,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-11T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3889,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-15T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3880,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-15T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3915,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-26T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3939,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3879,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-15T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3882,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-14T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3908,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-25T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3871,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-11T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3943,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T20:00:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3851,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 65,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3754,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-23T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3820,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-19T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3764,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 70,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3783,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3782,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3833,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-20T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3781,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 64,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3826,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-19T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3780,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3807,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3792,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-10T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3809,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-15T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3787,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 69,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3788,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3789,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3790,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3854,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 117,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 129,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3805,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-11T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3798,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-10T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3827,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-20T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 106,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3777,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3799,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-11T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3842,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3755,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-23T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3756,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-23T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3761,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-24T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3763,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-24T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3844,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3762,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-24T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3843,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3750,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-24T20:00:00-06:00",
+      "venue": "Gimnasio Manuel Bernardo Aguirre",
+      "city": null,
+      "home": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3841,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3770,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-30T20:00:00-06:00",
+      "venue": "Inforum Irapuato",
+      "city": null,
+      "home": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3753,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-24T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3834,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3760,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-25T20:00:00-06:00",
+      "venue": "Gimnasio Solidaridad",
+      "city": null,
+      "home": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3835,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T20:00:00-06:00",
+      "venue": "Gimnasio Miguel Hidalgo",
+      "city": null,
+      "home": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3836,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T20:00:00-06:00",
+      "venue": "Domo de la Feria",
+      "city": null,
+      "home": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3837,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T20:00:00-06:00",
+      "venue": "Auditorio Miguel Barragán",
+      "city": null,
+      "home": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3784,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3900,
+      "league": "LNBP",
+      "status": "live",
+      "statusDetail": "Live",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-21T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3933,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3927,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3920,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-01T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3791,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3845,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-25T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3838,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-24T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3872,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-10T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3865,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-09T20:05:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3751,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-23T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3878,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-15T20:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3830,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-28T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3823,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-27T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3868,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-11T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3800,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-10T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3828,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-21T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3767,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 64,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3821,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-20T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3936,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3829,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-20T20:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 106,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3822,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-19T20:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3923,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3779,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3778,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-05T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3785,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 43,
+        "name": "Freseros",
+        "abbr": "FRES",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3786,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-06T20:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3907,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-25T20:15:00-06:00",
+      "venue": "Arena Mobil",
+      "city": null,
+      "home": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 47,
+        "name": "El Calor",
+        "abbr": "EC",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3758,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-24T20:15:00-06:00",
+      "venue": "Gimnasio Olímpico Juan de la Barrera",
+      "city": null,
+      "home": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3802,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-12T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 57,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3795,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-11T20:15:00-06:00",
+      "venue": "Arena Astros",
+      "city": null,
+      "home": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3938,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3952,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-05T20:30:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3853,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-28T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3860,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-29T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 3,
+        "name": "Correcaminos",
+        "abbr": "CORR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3769,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-30T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3797,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-11T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 111,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3932,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3776,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3888,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-17T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3881,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-16T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 27,
+        "name": "Astros",
+        "abbr": "ASTR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3832,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-21T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3825,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-20T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 15,
+        "name": "Santos",
+        "abbr": "SANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3804,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-12T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 50,
+        "name": "Lobos",
+        "abbr": "LOBO",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+        "score": 69,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3925,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-01T20:30:00-06:00",
+      "venue": "Auditorio Hermanos Carreón",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3948,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-03T20:45:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3950,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-04T20:45:00-06:00",
+      "venue": "Gimnasio Marcelino González",
+      "city": null,
+      "home": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": 70,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 28,
+        "name": "Dorados",
+        "abbr": "DORA",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+        "score": 72,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3831,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-21T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3924,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-01T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3824,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-20T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 20,
+        "name": "Mineros",
+        "abbr": "MINE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
+        "score": 68,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3931,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-02T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 45,
+        "name": "Diablos Rojos",
+        "abbr": "DR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3937,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-06T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 4,
+        "name": "Fuerza Regia",
+        "abbr": "FR",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3803,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-12T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3904,
+      "league": "LNBP",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-09-21T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 10,
+        "name": "Panteras",
+        "abbr": "PANT",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3768,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-30T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 69,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 62,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3796,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-08-11T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 1,
+        "name": "Abejas",
+        "abbr": "ABEJ",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+        "score": 68,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": 3775,
+      "league": "LNBP",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-07-31T21:00:00-06:00",
+      "venue": "Auditorio PSF",
+      "city": null,
+      "home": {
+        "id": 13,
+        "name": "Soles",
+        "abbr": "SOLE",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": 49,
+        "name": "Gambusinos",
+        "abbr": "GAMB",
+        "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
+        "score": 57,
+        "linescores": [],
+        "leaders": []
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "LNBP-santosdelpotoscaeenelprimerodelaserieantelobospuebla",
+      "league": "LNBP",
+      "title": "Santos del Potosí cae en el primero de la serie ante Lobos Puebla",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Los Santos del Potosí cayeron en el primer juego de la serie abre Lobos Puebla con marcador de 86 a 95, en un partido correspondiente a la temporada 2026 de la Liga Caliente .MX LNBP, celebrado en la duela del auditorio Miguel Barragán. Aunque de inicio los Santos del Potosí se f",
+      "published": "2026-09-21T17:18:00.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/efc514d67411280b9322d53cfa72ef9d.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-solesmantienepasoinvictoenelpsf",
+      "league": "LNBP",
+      "title": "SOLES MANTIENE PASO INVICTO EN EL PSF",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MEXICALI, B. C., a domingo 20 de septiembre del 2026.- Soles de Mexicali mantuvo su paso invicto en casa durante la temporada 2026 de la Liga Caliente.Mx LNBP al derrotar en duro encuentro a las Panteras de Aguascalientes con marcador de 77 puntos por 67. La tarde-noche de este d",
+      "published": "2026-09-21T17:14:56.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/6b7649b46dc5241cabda405d7c8f13c4.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-caenlosmineros8996antegambusinos",
+      "league": "LNBP",
+      "title": "Caen los Mineros 89-96 ante Gambusinos",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "En un duelo en donde los Mineros de Zacatecas dejaron escapar una ventaja de 10 puntos, los Gambusinos de Fresnillo se llevaron el primer duelo de la serie disputada en el Gimnasio Marcelino González, el marcador final fue de 89-96. Desde el inicio se peleó la pelota en cada cent",
+      "published": "2026-09-21T17:11:48.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/e6a458399d58e39421d49f9b8e52ed01.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-astroscaeporlamnimaantechihuahuaenuncierredealtatensin",
+      "league": "LNBP",
+      "title": "*ASTROS CAE POR LA MÍNIMA ANTE CHIHUAHUA EN UN CIERRE DE ALTA TENSIÓN*",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Astros de Jalisco protagonizó un intenso encuentro en la Arena Astros, donde Dorados de Chihuahua se llevó la victoria por marcador de 79-77, en un duelo que se definió en los últimos minutos. El conjunto visitante tomó ventaja desde el primer cuarto, aunque Astros se mantuvo cer",
+      "published": "2026-09-21T17:07:11.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/7b5b9002461908779b1c8c90b31d6a05.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-domingotriunfalparaelcalordecancnquepegaprimeroenlaserieante",
+      "league": "LNBP",
+      "title": "¡Domingo triunfal para El Calor de Cancún, que pega primero en la serie ante Diablos Rojos del México!",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "La quinteta cancunense, respaldada por su fiel afición, se impuso por 86-73 en el primer compromiso de la Serie 11 de la Temporada 2026 de la Liga Caliente.Mx LNBP DJ Mitchell fue el jugador más destacado de El Calor con 17 puntos; por Diablos Rojos, Tyrone White encabezó la ofen",
+      "published": "2026-09-21T17:05:07.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/609b5640364ec2303ca4a55ba346caf2.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-reaccindoradaparaadjudicarselaseriecompletaanteelcalordecanc",
+      "league": "LNBP",
+      "title": "REACCIÓN DORADA PARA ADJUDICARSE LA SERIE COMPLETA ANTE EL CALOR DE CANCÚN",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "La quinteta del Estado Grande alcanzó su victoria 13 de la campaña tras 20 jornadas Chihuahua, Chih.- (Almer Soto - Prensa Dorados) 16 de septiembre.- Dorados de Chihuahua venció 97-86 a El Calor de Cancún durante la Jornada 20 de la Liga Caliente.mx LNBP 2026, en el duelo disput",
+      "published": "2026-09-17T18:01:34.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/a6dfcbf18675c84d8a9f7fb184578c67.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-astrosypanterasprotagonizanunabatallahastaelltimocuartoenelj",
+      "league": "LNBP",
+      "title": "ASTROS Y PANTERAS PROTAGONIZAN UNA BATALLA HASTA EL ÚLTIMO CUARTO EN EL JUEGO 1 DE LA SERIE",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Panteras se impone a Astros en un intenso cierre en Aguascalientes El conjunto hidrocálido vence 95-83 a Jalisco en el Auditorio Hermanos Carreón. Astros reaccionó durante el segundo y tercer periodo, pero los locales encontraron la definición en los minutos finales. AGUASCALIENT",
+      "published": "2026-09-17T17:59:56.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/5a91ba4345be02cc351de4ba171860fe.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-panterassequedaconelprimerodelaserieencasa",
+      "league": "LNBP",
+      "title": "Panteras se queda con el primero de la serie en casa",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Las Panteras de Aguascalientes y los Astros de Jalisco se veían las caras en el Hermanos Carreón y en un encuentro con sabor a playoffs, ambas quintetas brindaron un gran encuentro terminando con un marcador de 95 a 83 para las Panteras. Para los primeros diez minutos y el gran i",
+      "published": "2026-09-17T17:58:33.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/6c3e6384b80dd67167bc52154804c799.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-lobospueblavienedeatrsybarrelaserieanteabejas",
+      "league": "LNBP",
+      "title": "Lobos Puebla viene de atrás y barre la serie ante Abejas",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "La manada transformó una desventaja de 11 puntos en una victoria de 80-67 para conseguir su segundo triunfo de la serie y hacer pesar la casa. Lobos Puebla volvió a hacer pesar el Miguel Hidalgo y cerró con una nueva victoria su serie ante Abejas de León. La quinteta poblana enco",
+      "published": "2026-09-17T17:42:17.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/aa8e6f8d6792b4bcf936dffef9835fa8.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-diablosganalaserieacorrecaminosconvictoriaeneljuego2",
+      "league": "LNBP",
+      "title": "DIABLOS GANA LA SERIE A CORRECAMINOS CON VICTORIA EN EL JUEGO 2",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Con una segunda mitad de 53 puntos, 26 de ellos en el último cuarto, los Diablos Rojos Basquetbol (9-11) consiguieron una victoria de 96-91 sobre los Correcaminos (4-16) en el segundo duelo realizado en el Gimnasio Juan de la Barrera, con lo que ganaron su primera serie de la cam",
+      "published": "2026-09-17T17:24:35.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/acc7f2c9924708c65440b64a193f5313.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-vibrantevictoria",
+      "league": "LNBP",
+      "title": "Vibrante victoria",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Demostrando garra y corazón, el equipo de CorreBasket de la UAT logró dividir la serie ante Dorados de Chihuahua al imponerse con un marcador de 85-83, en acción de la temporada 2026 de la Liga Caliente.mx de la LNBP Varonil. En un encuentro que mantuvo al filo de la butaca a los",
+      "published": "2026-09-14T17:06:14.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/14fc80fff0291a27f1d91abf609fbfe3.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-lobosyfreserosprotagonizancerradodueloenlaguarida",
+      "league": "LNBP",
+      "title": "Lobos y Freseros protagonizan cerrado duelo en La Guarida",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "La quinteta poblana volverá a la actividad en casa el próximo 15 y 16 de septiembre frente a las Abejas de León. El encuentro inició muy parejo, con una ligera ventaja para la quinteta poblana que encontró en los triples una de sus principales armas desde los primeros minutos. El",
+      "published": "2026-09-14T17:01:11.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/827fefb7acda09abb152c0786c38a348.jpg",
+      "url": null
+    }
+  ],
+  "leaders": {},
+  "sectionsUpdatedAt": {
+    "teams": "2026-09-22T01:58:50.238Z",
+    "rosters": "2026-09-22T01:58:50.238Z",
+    "playerStats": "2026-09-22T01:58:50.238Z",
+    "standings": "2026-09-22T01:58:50.238Z",
+    "games": "2026-09-22T01:58:50.238Z",
+    "news": "2026-09-22T01:58:50.238Z",
+    "leaders": "2026-09-22T01:58:50.238Z"
+  }
+}

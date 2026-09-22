@@ -111,6 +111,20 @@ export const LEAGUES = [
     source: 'snapshot',
     site: 'https://lnb.com.br',
   },
+  {
+    key: 'LNBP',
+    slug: 'LNBP',
+    name: 'LNBP',
+    fullName: 'Liga Nacional de Baloncesto Profesional',
+    region: 'Mexico',
+    group: 'Americas',
+    // lnbp.mx runs on an open, unauthenticated JSON API (no CORS headers, so
+    // it cannot be called from the browser — same constraint as every other
+    // snapshot league). It has no roster or box-score endpoint, so player
+    // data for this league stays empty rather than guessed.
+    source: 'snapshot',
+    site: 'https://lnbp.mx',
+  },
 
   // ── Europe ───────────────────────────────────────────────────────────────
   {
