@@ -124,46 +124,110 @@ function normaliseEvent(event, leagueKey) {
   }
 }
 
-/** Scoreboard for one calendar day, or a `YYYYMMDD-YYYYMMDD` range. */
-export async function fetchScoreboard(league, dates) {
+/**
+ * Scoreboard for one calendar day (`YYYYMMDD`) or one month (`YYYYMM`).
+ *
+ * Not a `YYYYMMDD-YYYYMMDD` range: ESPN used to accept one and now answers
+ * it with a 400. Month queries return every game in the month in a single
+ * request — a full NBA March is 239 games — so the limit is set well above
+ * any month on record rather than at the 100 ESPN applies by default.
+ */
+export async function fetchScoreboard(league, dates, ttlMs = 30_000, limit = 1000) {
   const q = dates instanceof Date ? yyyymmdd(dates) : dates
   const extra = league.espnParams ? `&${league.espnParams}` : ''
-  const url = `${SITE}/${league.espnSlug}/scoreboard?dates=${q}&limit=300${extra}`
-  const data = await getJSON(url, 30_000)
+  const url = `${SITE}/${league.espnSlug}/scoreboard?dates=${q}&limit=${limit}${extra}`
+  const data = await getJSON(url, ttlMs)
   return (data.events || []).map((e) => normaliseEvent(e, league.key))
 }
 
-function shift(days) {
+function shiftDate(days) {
   const d = new Date()
   d.setDate(d.getDate() + days)
-  return yyyymmdd(d)
+  return d
+}
+
+/** Every `YYYYMM` from one date's month to another's, inclusive. */
+function monthsBetween(from, to) {
+  const months = []
+  const d = new Date(from.getFullYear(), from.getMonth(), 1)
+  while (d <= to) {
+    months.push(`${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`)
+    d.setMonth(d.getMonth() + 1)
+  }
+  return months
+}
+
+/** `YYYYMM`, `n` months away from `yyyymm`. */
+function addMonths(yyyymm, n) {
+  const d = new Date(Number(yyyymm.slice(0, 4)), Number(yyyymm.slice(4)) - 1 + n, 1)
+  return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}`
 }
 
 /**
- * Build a usable slate around today.
+ * Build a usable slate around today: recent results and the next fixtures.
  *
- * ESPN accepts a `YYYYMMDD-YYYYMMDD` range, so a whole window costs one
- * request rather than one per day — which matters now that the ledger spans
- * every competition in the ledger.
+ * Fetched a calendar month at a time. It starts with the months either side
+ * of today, then walks backwards for results and forwards for fixtures, one
+ * month per step, stopping as soon as each side has enough. Basketball's long
+ * off-seasons are why the walk exists: in September the NBA's last results
+ * are in June, and its next games in October.
  *
- * Basketball leagues have long off-seasons and dark days, so "today" is often
- * empty. We widen the window in steps until there is something to show, which
- * is what the "Final Whistles" and "Scheduled" rails actually want.
+ * Walking rather than fetching a fixed span matters because a full NBA month
+ * is 271 KB compressed and a quiet one is 6 KB. September pulls four small
+ * months, not ten. A finished month cannot change, so it is cached for ten
+ * minutes; the current one refreshes every 30 seconds, because that is where
+ * live games are.
+ *
+ * This used to ask ESPN for a date range, which ESPN now rejects with a 400.
+ * Each rejection was caught and turned into an empty list, so for as long as
+ * that lasted every ESPN league — the NBA and WNBA among them — showed no
+ * games, and nothing on the page said anything was wrong. Now, if every month
+ * fails, this throws: a broken feed is not a quiet week.
  */
 export async function fetchRecentAndUpcoming(league) {
-  const WINDOWS = [
-    [-7, 7],
-    [-45, 30],
-    [-210, 60],
-  ]
+  const NEED_FINALS = 6
+  const NEED_UPCOMING = 4
+  const MAX_BACK = 8
+  const MAX_FORWARD = 3
 
-  let games = []
-  for (const [back, forward] of WINDOWS) {
-    games = await fetchScoreboard(league, `${shift(back)}-${shift(forward)}`).catch(() => [])
-    const finals = games.filter((g) => g.status === 'final').length
-    const upcoming = games.filter((g) => g.status !== 'final').length
-    if (finals >= 6 && upcoming >= 4) break
+  const thisMonth = yyyymmdd(new Date()).slice(0, 6)
+  const fetched = new Map()
+  let failures = 0
+
+  // `limit` caps a month at its first N games. ESPN returns a month oldest
+  // first, so a cap is safe looking forward — the first fixtures are what we
+  // want — and wrong looking back, where the latest results are at the end.
+  const load = async (months, limit) => {
+    const fresh = months.filter((m) => !fetched.has(m))
+    const results = await Promise.allSettled(
+      fresh.map((m) => fetchScoreboard(league, m, m < thisMonth ? 10 * 60_000 : 30_000, limit))
+    )
+    results.forEach((r, i) => {
+      if (r.status === 'fulfilled') fetched.set(fresh[i], r.value)
+      else failures++
+    })
   }
+
+  // Today's neighbourhood first: the months touched by the week either side.
+  await load(monthsBetween(shiftDate(-7), shiftDate(7)))
+  if (!fetched.size) throw new Error(`ESPN scoreboard unavailable for ${league.key} (${failures} failed)`)
+
+  const now = Date.now()
+  // Adjacent months can both carry a game near midnight UTC, so dedupe by id.
+  const all = () => [...new Map([...fetched.values()].flat().map((g) => [g.id, g])).values()]
+  const countFinals = () => all().filter((g) => g.status === 'final').length
+  const countUpcoming = () => all().filter((g) => g.status !== 'final' && new Date(g.date) >= now).length
+
+  for (let i = 1; i <= MAX_BACK && countFinals() < NEED_FINALS; i++) {
+    await load([addMonths(thisMonth, -i)])
+  }
+  for (let i = 1; i <= MAX_FORWARD && countUpcoming() < NEED_UPCOMING; i++) {
+    // A month of college basketball opens with hundreds of games; four upcoming
+    // are all this needs, so the forward walk never pulls a whole month.
+    await load([addMonths(thisMonth, i)], 100)
+  }
+
+  let games = all()
 
   games.sort((a, b) => new Date(b.date) - new Date(a.date))
 
