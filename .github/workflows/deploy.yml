@@ -1,0 +1,51 @@
+# Builds and deploys Hoopspire to Cloudflare on every push to main.
+#
+# Before this workflow, nothing deployed automatically: a push to GitHub sat
+# there until someone ran `wrangler deploy` by hand. That gap is exactly how
+# five fixed commits — the ESPN scoreboard fix among them — went unpublished
+# for hours while the live site kept showing empty scoreboards.
+#
+# `npm run build` already runs the crawler-file guard (scripts/check-crawler-
+# files.mjs), so a build that would ship a broken ads.txt fails here before
+# it ever reaches wrangler deploy.
+
+name: Deploy to Cloudflare
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# A deploy that starts while an earlier one is still running can race it —
+# whichever finishes last wins, which might not be the newest commit. Queue
+# instead, and drop a superseded run rather than letting it finish afterwards.
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
