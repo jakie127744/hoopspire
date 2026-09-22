@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-21T12:27:35.153Z",
+  "fetchedAt": "2026-09-22T11:18:19.088Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -22,10 +22,11 @@
   ],
   "notes": [
     "fixture unmatched: \"Sunrock.\" vs \"Chiba J.\"",
+    "news Japan Times: https://www.japantimes.co.jp/sports/feed/ — HTTP 403",
     "BLeague 2026: RealGM returned a bot-check page; skipped",
     "BLeague 2025: RealGM returned a bot-check page; skipped",
     "BLeague: bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -18025,56 +18026,17 @@
   ],
   "news": [
     {
-      "id": "BLeague-ajedudwightramoshavefaithallpbagilasteam",
+      "id": "BLeague-revampedjapanbleaguetipsoffnewseasontarg",
       "league": "BLeague",
-      "title": "AJ Edu, Dwight Ramos have faith all-PBA Gilas team will deliver",
+      "title": "Revamped Japan B.League tips off new season, targets lofty goal",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "LIVE: Gilas Pilipinas vs Bahrain – Asian Games 2026 men’s basketball AJ Edu and Dwight Ramos battled from opposite sides on Wednesday night during the preseason feature of the Japan B.League at Mall of Asia Arena. Forty basketball minutes later, the long-time Gilas Pilipinas team",
-      "published": "2026-09-11T05:20:42.000Z",
+      "description": "Japan’s B.League tipped off its 2026-27 season on Tuesday, launching a revamped structure for professional basketball in the country. Aiming to become the world’s No. 2 basketball league behind the NBA in both revenue and quality of play, the B.League has introduced a salary cap ",
+      "published": "2026-09-22T18:52:36.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/07/dwight-ramos-gilas-pilipinas-vs-australia.jpeg",
-      "url": "https://sports.inquirer.net/694560/edu-ramos-have-faith-all-pba-team-will-deliver"
-    },
-    {
-      "id": "BLeague-ajedusversatilitydrawspraisefromgunmatea",
-      "league": "BLeague",
-      "title": "AJ Edu’s versatility draws praise from Gunma teammates, coach",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—AJ Edu is slowly making his mark with the Gunma Crane Thunders, and former NBA journeyman Stanley Johnson has taken notice. Johnson is still finding his way with Gunma after leaving Nagasaki Velca, but he already likes what Edu brings to the Crane Thunders. “H",
-      "published": "2026-09-10T23:38:45.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/0T1A0227.jpg",
-      "url": "https://sports.inquirer.net/694598/aj-edus-versatility-draws-praise-from-gunma-teammates-coach"
-    },
-    {
-      "id": "BLeague-dwightramosfeelsfilipinocrowdslovewherev",
-      "league": "BLeague",
-      "title": "Dwight Ramos feels Filipino crowd’s love wherever he plays",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—Dwight Ramos once again felt the frenzy of the Filipino crowd during the Japan B.League Manila Games. By now, though, the situation is hardly a surprise. READ: Dwight Ramos ‘big piece’ in Levanga’s B.League bid, says Tominaga After playing for Gilas Pilipinas ",
-      "published": "2026-09-10T23:11:34.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/0T1A0385.jpg",
-      "url": "https://sports.inquirer.net/694590/dwight-ramos-feels-filipino-crowds-love-wherever-he-plays"
-    },
-    {
-      "id": "BLeague-bleaguegunmasweepsmanilagamesafterotwino",
-      "league": "BLeague",
-      "title": "B.League: Gunma sweeps Manila games after OT win over Levanga",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—The Gunma Crane Thunders ruled the Japan B.League Manila Games after defeating Levanga Hokkaido, 101-91, in overtime Thursday at Mall of Asia Arena. Gunma followed up its 98-81 win over Hokkaido on Wednesday night to sweep the Manila leg of its preseason. The ",
-      "published": "2026-09-10T22:21:14.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/MagsShot-4-scaled.jpg",
-      "url": "https://sports.inquirer.net/694567/b-league-gunma-sweeps-manila-games-after-ot-win-over-levanga"
+      "image": "https://sports.inquirer.net/files/2026/09/314f2b70-4fc4-4a23-9dde-bc1cd6cfac90-scaled.jpeg",
+      "url": "https://sports.inquirer.net/697029/revamped-japan-b-league-tips-off-new-season-targets-lofty-goal"
     }
   ],
   "leaders": {
@@ -18545,15 +18507,14 @@
     "playerStats": "2026-09-11T01:01:42.107Z",
     "leaders": "2026-09-11T01:01:42.107Z",
     "standings": "2026-09-11T01:01:42.107Z",
-    "games": "2026-09-21T12:27:35.153Z",
-    "news": "2026-09-12T10:24:46.932Z"
+    "games": "2026-09-22T11:18:19.088Z",
+    "news": "2026-09-22T11:18:19.088Z"
   },
   "carriedOver": [
     "teams",
     "rosters",
     "playerStats",
     "leaders",
-    "standings",
-    "news"
+    "standings"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-09-22T01:58:50.238Z",
+  "fetchedAt": "2026-09-22T11:19:52.848Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -31,17 +31,6 @@
       "city": "Equipo Profesional de Baloncesto de Jalisco.",
       "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
       "color": "#2f3376"
-    },
-    {
-      "id": 28,
-      "league": "LNBP",
-      "name": "Dorados",
-      "nameLocal": null,
-      "shortName": "Dorados",
-      "abbr": "DORA",
-      "city": "Equipo Profesional de Baloncesto de Chihuahua.",
-      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
-      "color": "#ffd200"
     },
     {
       "id": 4,
@@ -77,6 +66,17 @@
       "color": null
     },
     {
+      "id": 28,
+      "league": "LNBP",
+      "name": "Dorados",
+      "nameLocal": null,
+      "shortName": "Dorados",
+      "abbr": "DORA",
+      "city": "Equipo Profesional de Baloncesto de Chihuahua.",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
+      "color": "#ffd200"
+    },
+    {
       "id": 20,
       "league": "LNBP",
       "name": "Mineros",
@@ -99,6 +99,17 @@
       "color": "#FFFFFF"
     },
     {
+      "id": 43,
+      "league": "LNBP",
+      "name": "Freseros",
+      "nameLocal": null,
+      "shortName": "Freseros",
+      "abbr": "FRES",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
+      "color": "#003ca5"
+    },
+    {
       "id": 49,
       "league": "LNBP",
       "name": "Gambusinos",
@@ -119,17 +130,6 @@
       "city": "León, Guanajuato",
       "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
       "color": "#ffffff"
-    },
-    {
-      "id": 43,
-      "league": "LNBP",
-      "name": "Freseros",
-      "nameLocal": null,
-      "shortName": "Freseros",
-      "abbr": "FRES",
-      "city": null,
-      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
-      "color": "#003ca5"
     },
     {
       "id": 15,
@@ -178,11 +178,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png"
         },
         "wins": 17,
-        "losses": 4,
-        "pct": ".810",
-        "pointsFor": 1778,
-        "pointsAgainst": 1554,
-        "diff": 224,
+        "losses": 5,
+        "pct": ".773",
+        "pointsFor": 1854,
+        "pointsAgainst": 1631,
+        "diff": 223,
         "streak": null,
         "seed": 1
       },
@@ -204,6 +204,54 @@
       },
       {
         "team": {
+          "id": 4,
+          "name": "Fuerza Regia",
+          "abbr": "FR",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png"
+        },
+        "wins": 15,
+        "losses": 7,
+        "pct": ".682",
+        "pointsFor": 1917,
+        "pointsAgainst": 1799,
+        "diff": 118,
+        "streak": null,
+        "seed": 3
+      },
+      {
+        "team": {
+          "id": 10,
+          "name": "Panteras",
+          "abbr": "PANT",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png"
+        },
+        "wins": 14,
+        "losses": 8,
+        "pct": ".636",
+        "pointsFor": 1944,
+        "pointsAgainst": 1867,
+        "diff": 77,
+        "streak": null,
+        "seed": 4
+      },
+      {
+        "team": {
+          "id": 50,
+          "name": "Lobos",
+          "abbr": "LOBO",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png"
+        },
+        "wins": 14,
+        "losses": 8,
+        "pct": ".636",
+        "pointsFor": 1851,
+        "pointsAgainst": 1783,
+        "diff": 68,
+        "streak": null,
+        "seed": 5
+      },
+      {
+        "team": {
           "id": 28,
           "name": "Dorados",
           "abbr": "DORA",
@@ -216,54 +264,6 @@
         "pointsAgainst": 1839,
         "diff": 45,
         "streak": null,
-        "seed": 3
-      },
-      {
-        "team": {
-          "id": 4,
-          "name": "Fuerza Regia",
-          "abbr": "FR",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png"
-        },
-        "wins": 14,
-        "losses": 7,
-        "pct": ".667",
-        "pointsFor": 1898,
-        "pointsAgainst": 1830,
-        "diff": 68,
-        "streak": null,
-        "seed": 4
-      },
-      {
-        "team": {
-          "id": 10,
-          "name": "Panteras",
-          "abbr": "PANT",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png"
-        },
-        "wins": 13,
-        "losses": 8,
-        "pct": ".619",
-        "pointsFor": 1867,
-        "pointsAgainst": 1791,
-        "diff": 76,
-        "streak": null,
-        "seed": 5
-      },
-      {
-        "team": {
-          "id": 50,
-          "name": "Lobos",
-          "abbr": "LOBO",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png"
-        },
-        "wins": 13,
-        "losses": 8,
-        "pct": ".619",
-        "pointsFor": 1752,
-        "pointsAgainst": 1699,
-        "diff": 53,
-        "streak": null,
         "seed": 6
       },
       {
@@ -273,12 +273,12 @@
           "abbr": "MINE",
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png"
         },
-        "wins": 11,
+        "wins": 12,
         "losses": 10,
-        "pct": ".524",
-        "pointsFor": 1830,
-        "pointsAgainst": 1787,
-        "diff": 43,
+        "pct": ".545",
+        "pointsFor": 1917,
+        "pointsAgainst": 1872,
+        "diff": 45,
         "streak": null,
         "seed": 7
       },
@@ -289,14 +289,30 @@
           "abbr": "DR",
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png"
         },
-        "wins": 9,
+        "wins": 10,
         "losses": 12,
-        "pct": ".429",
-        "pointsFor": 1760,
-        "pointsAgainst": 1760,
-        "diff": 0,
+        "pct": ".455",
+        "pointsFor": 1846,
+        "pointsAgainst": 1843,
+        "diff": 3,
         "streak": null,
         "seed": 8
+      },
+      {
+        "team": {
+          "id": 43,
+          "name": "Freseros",
+          "abbr": "FRES",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png"
+        },
+        "wins": 9,
+        "losses": 13,
+        "pct": ".409",
+        "pointsFor": 1874,
+        "pointsAgainst": 1981,
+        "diff": -107,
+        "streak": null,
+        "seed": 9
       },
       {
         "team": {
@@ -306,13 +322,13 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png"
         },
         "wins": 9,
-        "losses": 12,
-        "pct": ".429",
-        "pointsFor": 1645,
-        "pointsAgainst": 1729,
-        "diff": -84,
+        "losses": 13,
+        "pct": ".409",
+        "pointsFor": 1730,
+        "pointsAgainst": 1816,
+        "diff": -86,
         "streak": null,
-        "seed": 9
+        "seed": 10
       },
       {
         "team": {
@@ -322,27 +338,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png"
         },
         "wins": 8,
-        "losses": 13,
-        "pct": ".381",
-        "pointsFor": 1776,
-        "pointsAgainst": 1809,
-        "diff": -33,
-        "streak": null,
-        "seed": 10
-      },
-      {
-        "team": {
-          "id": 43,
-          "name": "Freseros",
-          "abbr": "FRES",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png"
-        },
-        "wins": 8,
-        "losses": 13,
-        "pct": ".381",
-        "pointsFor": 1785,
+        "losses": 14,
+        "pct": ".364",
+        "pointsFor": 1859,
         "pointsAgainst": 1898,
-        "diff": -113,
+        "diff": -39,
         "streak": null,
         "seed": 11
       },
@@ -354,11 +354,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png"
         },
         "wins": 7,
-        "losses": 14,
-        "pct": ".333",
-        "pointsFor": 1746,
-        "pointsAgainst": 1874,
-        "diff": -128,
+        "losses": 15,
+        "pct": ".318",
+        "pointsFor": 1830,
+        "pointsAgainst": 1973,
+        "diff": -143,
         "streak": null,
         "seed": 12
       },
@@ -370,11 +370,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png"
         },
         "wins": 6,
-        "losses": 15,
-        "pct": ".286",
-        "pointsFor": 1720,
-        "pointsAgainst": 1825,
-        "diff": -105,
+        "losses": 16,
+        "pct": ".273",
+        "pointsFor": 1803,
+        "pointsAgainst": 1911,
+        "diff": -108,
         "streak": null,
         "seed": 13
       },
@@ -386,11 +386,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png"
         },
         "wins": 4,
-        "losses": 17,
-        "pct": ".190",
-        "pointsFor": 1759,
-        "pointsAgainst": 1956,
-        "diff": -197,
+        "losses": 18,
+        "pct": ".182",
+        "pointsFor": 1728,
+        "pointsAgainst": 1975,
+        "diff": -247,
         "streak": null,
         "seed": 14
       }
@@ -1601,7 +1601,7 @@
         "name": "Correcaminos",
         "abbr": "CORR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
-        "score": 83,
+        "score": 0,
         "linescores": [],
         "leaders": []
       },
@@ -1610,7 +1610,7 @@
         "name": "Fuerza Regia",
         "abbr": "FR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
-        "score": 94,
+        "score": 20,
         "linescores": [],
         "leaders": []
       }
@@ -1647,8 +1647,8 @@
     {
       "id": 3901,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-21T18:15:00-06:00",
@@ -1659,7 +1659,7 @@
         "name": "Correcaminos",
         "abbr": "CORR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
-        "score": null,
+        "score": 52,
         "linescores": [],
         "leaders": []
       },
@@ -1668,7 +1668,7 @@
         "name": "Fuerza Regia",
         "abbr": "FR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
-        "score": null,
+        "score": 93,
         "linescores": [],
         "leaders": []
       }
@@ -2401,8 +2401,8 @@
     {
       "id": 3902,
       "league": "LNBP",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-21T19:15:00-06:00",
@@ -2413,7 +2413,7 @@
         "name": "El Calor",
         "abbr": "EC",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
-        "score": null,
+        "score": 83,
         "linescores": [],
         "leaders": []
       },
@@ -2422,7 +2422,7 @@
         "name": "Diablos Rojos",
         "abbr": "DR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
-        "score": null,
+        "score": 86,
         "linescores": [],
         "leaders": []
       }
@@ -2633,8 +2633,8 @@
     {
       "id": 3898,
       "league": "LNBP",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-21T20:00:00-06:00",
@@ -2645,7 +2645,7 @@
         "name": "Abejas",
         "abbr": "ABEJ",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
-        "score": null,
+        "score": 83,
         "linescores": [],
         "leaders": []
       },
@@ -2654,7 +2654,7 @@
         "name": "Freseros",
         "abbr": "FRES",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
-        "score": null,
+        "score": 89,
         "linescores": [],
         "leaders": []
       }
@@ -2923,8 +2923,8 @@
     {
       "id": 3899,
       "league": "LNBP",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-21T20:00:00-06:00",
@@ -2935,7 +2935,7 @@
         "name": "Santos",
         "abbr": "SANT",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
-        "score": null,
+        "score": 84,
         "linescores": [],
         "leaders": []
       },
@@ -2944,7 +2944,7 @@
         "name": "Lobos",
         "abbr": "LOBO",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
-        "score": null,
+        "score": 99,
         "linescores": [],
         "leaders": []
       }
@@ -4663,8 +4663,8 @@
     {
       "id": 3900,
       "league": "LNBP",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-21T20:05:00-06:00",
@@ -4675,7 +4675,7 @@
         "name": "Mineros",
         "abbr": "MINE",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
-        "score": null,
+        "score": 87,
         "linescores": [],
         "leaders": []
       },
@@ -4684,7 +4684,7 @@
         "name": "Gambusinos",
         "abbr": "GAMB",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
-        "score": null,
+        "score": 85,
         "linescores": [],
         "leaders": []
       }
@@ -6171,8 +6171,8 @@
     {
       "id": 3904,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-21T21:00:00-06:00",
@@ -6183,7 +6183,7 @@
         "name": "Soles",
         "abbr": "SOLE",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
-        "score": null,
+        "score": 76,
         "linescores": [],
         "leaders": []
       },
@@ -6192,7 +6192,7 @@
         "name": "Panteras",
         "abbr": "PANT",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
-        "score": null,
+        "score": 77,
         "linescores": [],
         "leaders": []
       }
@@ -6289,11 +6289,11 @@
     {
       "id": "LNBP-santosdelpotoscaeenelprimerodelaserieantelobospuebla",
       "league": "LNBP",
-      "title": "Santos del Potosí cae en el primero de la serie ante Lobos Puebla",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Los Santos del Potosí cayeron en el primer juego de la serie abre Lobos Puebla con marcador de 86 a 95, en un partido correspondiente a la temporada 2026 de la Liga Caliente .MX LNBP, celebrado en la duela del auditorio Miguel Barragán. Aunque de inicio los Santos del Potosí se f",
-      "published": "2026-09-21T17:18:00.000Z",
+      "title": "Santos del Potosí falls in the first of the series against Lobos Puebla",
+      "originalTitle": "Santos del Potosí cae en el primero de la serie ante Lobos Puebla",
+      "translatedFrom": "es",
+      "description": "The Santos del Potosí fell in the first game of the Abre Lobos Puebla series with a score from 86 to 95, in a match corresponding to the 2026 season of the Liga Caliente .MX LNBP, held on the stage of the Miguel Barragán auditorium. Although from the beginning the Saints of Potosí f",
+      "published": "2026-09-21T13:18:00.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/efc514d67411280b9322d53cfa72ef9d.jpg",
@@ -6302,11 +6302,11 @@
     {
       "id": "LNBP-solesmantienepasoinvictoenelpsf",
       "league": "LNBP",
-      "title": "SOLES MANTIENE PASO INVICTO EN EL PSF",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MEXICALI, B. C., a domingo 20 de septiembre del 2026.- Soles de Mexicali mantuvo su paso invicto en casa durante la temporada 2026 de la Liga Caliente.Mx LNBP al derrotar en duro encuentro a las Panteras de Aguascalientes con marcador de 77 puntos por 67. La tarde-noche de este d",
-      "published": "2026-09-21T17:14:56.000Z",
+      "title": "SOLES KEEPS PACE UNDEFEATED IN THE PSF",
+      "originalTitle": "SOLES MANTIENE PASO INVICTO EN EL PSF",
+      "translatedFrom": "es",
+      "description": "MEXICALI, B. C., on Sunday, September 20, 2026.- Soles de Mexicali maintained his unbeaten pace at home during the 2026 season of the Liga Caliente. Mx LNBP by defeating the Aguascalientes Panthers in a tough match with a score of 77 points for 67. The afternoon-night of this d",
+      "published": "2026-09-21T13:14:56.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/6b7649b46dc5241cabda405d7c8f13c4.jpg",
@@ -6315,11 +6315,11 @@
     {
       "id": "LNBP-caenlosmineros8996antegambusinos",
       "league": "LNBP",
-      "title": "Caen los Mineros 89-96 ante Gambusinos",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "En un duelo en donde los Mineros de Zacatecas dejaron escapar una ventaja de 10 puntos, los Gambusinos de Fresnillo se llevaron el primer duelo de la serie disputada en el Gimnasio Marcelino González, el marcador final fue de 89-96. Desde el inicio se peleó la pelota en cada cent",
-      "published": "2026-09-21T17:11:48.000Z",
+      "title": "Miners 89-96 fall before Gambusinos",
+      "originalTitle": "Caen los Mineros 89-96 ante Gambusinos",
+      "translatedFrom": "es",
+      "description": "In a duel in which the Zacatecas Miners lost a 10-point advantage, the Fresnillo Gambusinos took the first duel of the series played at the Marcelino González Gymnasium, the final score was 89-96. From the beginning, the ball was fought in every cent",
+      "published": "2026-09-21T13:11:48.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/e6a458399d58e39421d49f9b8e52ed01.jpg",
@@ -6328,11 +6328,11 @@
     {
       "id": "LNBP-astroscaeporlamnimaantechihuahuaenuncierredealtatensin",
       "league": "LNBP",
-      "title": "*ASTROS CAE POR LA MÍNIMA ANTE CHIHUAHUA EN UN CIERRE DE ALTA TENSIÓN*",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Astros de Jalisco protagonizó un intenso encuentro en la Arena Astros, donde Dorados de Chihuahua se llevó la victoria por marcador de 79-77, en un duelo que se definió en los últimos minutos. El conjunto visitante tomó ventaja desde el primer cuarto, aunque Astros se mantuvo cer",
-      "published": "2026-09-21T17:07:11.000Z",
+      "title": "*STARS DROPS TO A MINIMUM AGAINST CHIHUAHUA IN A HIGH VOLTAGE SHUTDOWN *",
+      "originalTitle": "*ASTROS CAE POR LA MÍNIMA ANTE CHIHUAHUA EN UN CIERRE DE ALTA TENSIÓN*",
+      "translatedFrom": "es",
+      "description": "Astros de Jalisco staged an intense match at the Astros Arena, where Dorados de Chihuahua took the victory by a score of 79-77, in a duel that was defined in the last minutes. The visiting team took advantage from the first quarter, although the Astros remained close",
+      "published": "2026-09-21T13:07:11.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/7b5b9002461908779b1c8c90b31d6a05.jpg",
@@ -6341,11 +6341,11 @@
     {
       "id": "LNBP-domingotriunfalparaelcalordecancnquepegaprimeroenlaserieante",
       "league": "LNBP",
-      "title": "¡Domingo triunfal para El Calor de Cancún, que pega primero en la serie ante Diablos Rojos del México!",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "La quinteta cancunense, respaldada por su fiel afición, se impuso por 86-73 en el primer compromiso de la Serie 11 de la Temporada 2026 de la Liga Caliente.Mx LNBP DJ Mitchell fue el jugador más destacado de El Calor con 17 puntos; por Diablos Rojos, Tyrone White encabezó la ofen",
-      "published": "2026-09-21T17:05:07.000Z",
+      "title": "Triumphal Sunday for El Calor de Cancun, who hits first in the series against Diablos Rojos del México!",
+      "originalTitle": "¡Domingo triunfal para El Calor de Cancún, que pega primero en la serie ante Diablos Rojos del México!",
+      "translatedFrom": "es",
+      "description": "The Cancun quintet, backed by their loyal fans, won 86-73 in the first match of Series 11 of the 2026 Hot League Season. Mx LNBP DJ Mitchell was the most outstanding player in El Calor with 17 points; by Diablos Rojos, Tyrone White led the offence",
+      "published": "2026-09-21T13:05:07.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/609b5640364ec2303ca4a55ba346caf2.jpg",
@@ -6354,11 +6354,11 @@
     {
       "id": "LNBP-reaccindoradaparaadjudicarselaseriecompletaanteelcalordecanc",
       "league": "LNBP",
-      "title": "REACCIÓN DORADA PARA ADJUDICARSE LA SERIE COMPLETA ANTE EL CALOR DE CANCÚN",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "La quinteta del Estado Grande alcanzó su victoria 13 de la campaña tras 20 jornadas Chihuahua, Chih.- (Almer Soto - Prensa Dorados) 16 de septiembre.- Dorados de Chihuahua venció 97-86 a El Calor de Cancún durante la Jornada 20 de la Liga Caliente.mx LNBP 2026, en el duelo disput",
-      "published": "2026-09-17T18:01:34.000Z",
+      "title": "GOLDEN REACTION TO WIN THE ENTIRE SERIES IN THE HEAT OF CANCUN",
+      "originalTitle": "REACCIÓN DORADA PARA ADJUDICARSE LA SERIE COMPLETA ANTE EL CALOR DE CANCÚN",
+      "translatedFrom": "es",
+      "description": "The Quinteta del Estado Grande reached its 13th victory of the campaign after 20 days Chihuahua, Chih.- (Almer Soto - Prensa Dorados) September 16.- Dorados de Chihuahua beat El Calor de Cancun 97-86 during Matchday 20 of the Liga Caliente.mx LNBP 2026, in the disputed duel",
+      "published": "2026-09-17T14:01:34.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/a6dfcbf18675c84d8a9f7fb184578c67.jpg",
@@ -6367,11 +6367,11 @@
     {
       "id": "LNBP-astrosypanterasprotagonizanunabatallahastaelltimocuartoenelj",
       "league": "LNBP",
-      "title": "ASTROS Y PANTERAS PROTAGONIZAN UNA BATALLA HASTA EL ÚLTIMO CUARTO EN EL JUEGO 1 DE LA SERIE",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Panteras se impone a Astros en un intenso cierre en Aguascalientes El conjunto hidrocálido vence 95-83 a Jalisco en el Auditorio Hermanos Carreón. Astros reaccionó durante el segundo y tercer periodo, pero los locales encontraron la definición en los minutos finales. AGUASCALIENT",
-      "published": "2026-09-17T17:59:56.000Z",
+      "title": "ASTROS AND PANTHERS FIGHT TO THE LAST QUARTER IN GAME 1 OF THE SERIES",
+      "originalTitle": "ASTROS Y PANTERAS PROTAGONIZAN UNA BATALLA HASTA EL ÚLTIMO CUARTO EN EL JUEGO 1 DE LA SERIE",
+      "translatedFrom": "es",
+      "description": "Panteras beats Astros in an intense closing in Aguascalientes The hydrocalido set beats Jalisco 95-83 at the Hermanos Carreón Auditorium. Astros reacted during the second and third periods, but the locals found the definition in the final minutes. AGUASCALIENT",
+      "published": "2026-09-17T13:59:56.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/5a91ba4345be02cc351de4ba171860fe.jpg",
@@ -6380,11 +6380,11 @@
     {
       "id": "LNBP-panterassequedaconelprimerodelaserieencasa",
       "league": "LNBP",
-      "title": "Panteras se queda con el primero de la serie en casa",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Las Panteras de Aguascalientes y los Astros de Jalisco se veían las caras en el Hermanos Carreón y en un encuentro con sabor a playoffs, ambas quintetas brindaron un gran encuentro terminando con un marcador de 95 a 83 para las Panteras. Para los primeros diez minutos y el gran i",
-      "published": "2026-09-17T17:58:33.000Z",
+      "title": "Panthers keep the first in the series at home",
+      "originalTitle": "Panteras se queda con el primero de la serie en casa",
+      "translatedFrom": "es",
+      "description": "The Panthers of Aguascalientes and the Astros of Jalisco faced each other in the Hermanos Carreón and in a playoff-flavored matchup, both quintets provided a great matchup finishing with a score of 95 to 83 for the Panthers. For the first ten minutes and the big i",
+      "published": "2026-09-17T13:58:33.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/6c3e6384b80dd67167bc52154804c799.jpg",
@@ -6393,11 +6393,11 @@
     {
       "id": "LNBP-lobospueblavienedeatrsybarrelaserieanteabejas",
       "league": "LNBP",
-      "title": "Lobos Puebla viene de atrás y barre la serie ante Abejas",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "La manada transformó una desventaja de 11 puntos en una victoria de 80-67 para conseguir su segundo triunfo de la serie y hacer pesar la casa. Lobos Puebla volvió a hacer pesar el Miguel Hidalgo y cerró con una nueva victoria su serie ante Abejas de León. La quinteta poblana enco",
-      "published": "2026-09-17T17:42:17.000Z",
+      "title": "Lobos Puebla comes from behind and sweeps the series against Abejas",
+      "originalTitle": "Lobos Puebla viene de atrás y barre la serie ante Abejas",
+      "translatedFrom": "es",
+      "description": "The pack transformed an 11-point deficit into an 80-67 victory to clinch their second win of the series and weigh the house down. Lobos Puebla weighed Miguel Hidalgo again and closed his series against Abejas de León with a new victory. La quinteta poblana ENCO",
+      "published": "2026-09-17T13:42:17.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/aa8e6f8d6792b4bcf936dffef9835fa8.jpg",
@@ -6406,11 +6406,11 @@
     {
       "id": "LNBP-diablosganalaserieacorrecaminosconvictoriaeneljuego2",
       "league": "LNBP",
-      "title": "DIABLOS GANA LA SERIE A CORRECAMINOS CON VICTORIA EN EL JUEGO 2",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Con una segunda mitad de 53 puntos, 26 de ellos en el último cuarto, los Diablos Rojos Basquetbol (9-11) consiguieron una victoria de 96-91 sobre los Correcaminos (4-16) en el segundo duelo realizado en el Gimnasio Juan de la Barrera, con lo que ganaron su primera serie de la cam",
-      "published": "2026-09-17T17:24:35.000Z",
+      "title": "DEVILS WINS SERIES A ROAD RUNNER WITH VICTORY IN GAME 2",
+      "originalTitle": "DIABLOS GANA LA SERIE A CORRECAMINOS CON VICTORIA EN EL JUEGO 2",
+      "translatedFrom": "es",
+      "description": "With a second half of 53 points, 26 of them in the fourth quarter, the Red Devils Basketball (9-11) won a 96-91 victory over the Road Runners (4-16) in the second duel at the Juan de la Barrera Gymnasium, winning their first series of the",
+      "published": "2026-09-17T13:24:35.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/acc7f2c9924708c65440b64a193f5313.jpg",
@@ -6419,11 +6419,11 @@
     {
       "id": "LNBP-vibrantevictoria",
       "league": "LNBP",
-      "title": "Vibrante victoria",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Demostrando garra y corazón, el equipo de CorreBasket de la UAT logró dividir la serie ante Dorados de Chihuahua al imponerse con un marcador de 85-83, en acción de la temporada 2026 de la Liga Caliente.mx de la LNBP Varonil. En un encuentro que mantuvo al filo de la butaca a los",
-      "published": "2026-09-14T17:06:14.000Z",
+      "title": "Vibrant victory",
+      "originalTitle": "Vibrante victoria",
+      "translatedFrom": "es",
+      "description": "Demonstrating claw and heart, the UAT CorreBasket team managed to divide the series against Dorados de Chihuahua by winning with a score of 85-83, in action of the 2026 season of the Liga Caliente.mx of the Men's LNBP. In a meeting that kept the armchair at the edge of its",
+      "published": "2026-09-14T13:06:14.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/14fc80fff0291a27f1d91abf609fbfe3.jpg",
@@ -6432,11 +6432,11 @@
     {
       "id": "LNBP-lobosyfreserosprotagonizancerradodueloenlaguarida",
       "league": "LNBP",
-      "title": "Lobos y Freseros protagonizan cerrado duelo en La Guarida",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "La quinteta poblana volverá a la actividad en casa el próximo 15 y 16 de septiembre frente a las Abejas de León. El encuentro inició muy parejo, con una ligera ventaja para la quinteta poblana que encontró en los triples una de sus principales armas desde los primeros minutos. El",
-      "published": "2026-09-14T17:01:11.000Z",
+      "title": "Wolves and Strawberries star in a close duel in La Den",
+      "originalTitle": "Lobos y Freseros protagonizan cerrado duelo en La Guarida",
+      "translatedFrom": "es",
+      "description": "The quintet from Puebla will return to activity at home on September 15 and 16 in front of the Lion Bees. The match began very evenly, with a slight advantage for the quintet from Puebla who found in the triples one of their main weapons from the first minutes.",
+      "published": "2026-09-14T13:01:11.000Z",
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/827fefb7acda09abb152c0786c38a348.jpg",
@@ -6445,12 +6445,12 @@
   ],
   "leaders": {},
   "sectionsUpdatedAt": {
-    "teams": "2026-09-22T01:58:50.238Z",
-    "rosters": "2026-09-22T01:58:50.238Z",
-    "playerStats": "2026-09-22T01:58:50.238Z",
-    "standings": "2026-09-22T01:58:50.238Z",
-    "games": "2026-09-22T01:58:50.238Z",
-    "news": "2026-09-22T01:58:50.238Z",
-    "leaders": "2026-09-22T01:58:50.238Z"
+    "teams": "2026-09-22T11:19:52.848Z",
+    "rosters": "2026-09-22T11:19:52.848Z",
+    "playerStats": "2026-09-22T11:19:52.848Z",
+    "standings": "2026-09-22T11:19:52.848Z",
+    "games": "2026-09-22T11:19:52.848Z",
+    "news": "2026-09-22T11:19:52.848Z",
+    "leaders": "2026-09-22T11:19:52.848Z"
   }
 }

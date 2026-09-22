@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-21T12:31:34.749Z",
+  "fetchedAt": "2026-09-22T11:19:37.483Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14427,17 +14426,82 @@
   ],
   "news": [
     {
-      "id": "PBA-gilaspilipinasofftounbeatenasiangames33s",
+      "id": "PBA-asiangamesgilaswomenlosetojapanfinishsec",
       "league": "PBA",
-      "title": "Gilas Pilipinas off to unbeaten Asian Games 3×3 start, upsets Mongolia",
+      "title": "Asian Games: Gilas women lose to Japan, finish second in group",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Gilas Pilipinas produced two victories, including an upset of powerhouse Mongolia, on Monday at the start of its men’s 3×3 basketball competition campaign in the Aichi-Nagoya A",
-      "published": "2026-09-21T15:46:34.000Z",
+      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Quarterfinal-bound Gilas Pilipinas fell to fancied host Japan, 89-67, on Tuesday to place second in Group B of the Aichi-Nagoya Asian Games 2026 women’s 5-on-5 basketball compe",
+      "published": "2026-09-22T15:34:35.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/800842045_1385176957102473_1253900264351284819_n.jpeg",
-      "url": "https://sports.inquirer.net/696620/gilas-pilipinas-off-to-unbeaten-asian-games-3x3-start-upsets-mongolia"
+      "image": "https://sports.inquirer.net/files/2026/09/814999203_4107623029543295_7099755332850723823_n.jpeg",
+      "url": "https://sports.inquirer.net/696900/asian-games-gilas-women-lose-to-japan-finish-second-in-group"
+    },
+    {
+      "id": "PBA-asiangameskaceydelarosapowersgilaswomen3",
+      "league": "PBA",
+      "title": "Asian Games: Kacey Dela Rosa powers Gilas women 3×3 to unbeaten start",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Kacey dela Rosa powered Gilas Pilipinas to twin victories over favorite Mongolia and lowly Macau on Tuesday to start its medal bid on a bright note in the women’s 3×3 U-23 bask",
+      "published": "2026-09-22T15:23:01.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/Asian-Games-2026_-Team-Philippines_Gilas-Pilipinas-women_3x3-basketball-20260922-WA0023-scaled.jpg",
+      "url": "https://sports.inquirer.net/696896/asian-games-kacey-dela-rosa-powers-gilas-women-3x3-to-unbeaten-start"
+    },
+    {
+      "id": "PBA-asiangamesqfboundgilaswomenfalltomightyj",
+      "league": "PBA",
+      "title": "Asian Games: QF-bound Gilas Women fall to mighty Japan in final group stage match",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Women closed out the group stage with an 89-67 blowout loss to host Japan on Tuesday, but are still heading into quarterfinals of the 2026 Asian Games in Nagoya, Japan.",
+      "published": "2026-09-22T06:11:04.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1003255/asian-games-qf-bound-gilas-women-fall-to-mighty-japan-in-final-group-stage-match/story/"
+    },
+    {
+      "id": "PBA-asiangamesgilaswomen3x3stunsmongoliadomi",
+      "league": "PBA",
+      "title": "Asian Games: Gilas Women 3x3 stuns Mongolia, dominates Macao to open bid",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Kacey Dela Rosa stood tall to steer Gilas Pilipinas Women to two dominant wins in the 2026 Asian Games women's 3x3 basketball opener on Tuesday at the Kinjo Futo Station Square Venue in Japan.",
+      "published": "2026-09-22T05:54:11.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1003251/asian-games-gilas-women-3x3-stuns-mongolia-dominates-macao-to-open-bid/story/"
+    },
+    {
+      "id": "PBA-asiangames2026teamphilippinesschedulefor",
+      "league": "PBA",
+      "title": "Asian Games 2026: Team Philippines’ schedule for September 22",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Team Philippines continues its campaign in the 2026 Asian Games in Aichi-Nagoya on Tuesday with more athletes seeing action across several sports. The Philippines has a shot at its first gold medal in mixed martial arts, while Filipino swimmers return to actio",
+      "published": "2026-09-22T00:15:24.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/09/Asian-Games-2026_Jean-Claude-Saclag_team-Philippines_MMA-mixed-martial-arts818365592_1818752899124071_4210789395698726695_n.jpeg",
+      "url": "https://sports.inquirer.net/696745/asian-games-2026-team-philippines-schedule-for-september-22"
+    },
+    {
+      "id": "PBA-asiangameskaceydelarosagilaswomenstart33",
+      "league": "PBA",
+      "title": "Asian Games: Kacey Dela Rosa, Gilas women start 3×3 campaign",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Kacey dela Rosa will lead Gilas Pilipinas’ own bid for a medal finish in women’s 3×3 U-23 basketball of the Aichi-Nagoya Asian Games on Tuesday. Dela Rosa teams up with Kennan ",
+      "published": "2026-09-21T22:59:00.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/04/IMG_8243-2.jpg",
+      "url": "https://sports.inquirer.net/696778/asian-games-kacey-dela-rosa-gilas-women-start-3x3-campaign"
     },
     {
       "id": "PBA-asiangamesgilaspilipinas3x3menbeatmongol",
@@ -14451,58 +14515,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003125/asian-games-gilas-pilipinas-3x3-men-beat-mongolia-sri-lanka-to-open-bid/story/"
-    },
-    {
-      "id": "PBA-gilaswomenadvanceatasiangamespickupwhere",
-      "league": "PBA",
-      "title": "Gilas Women advance at Asian Games, pick up where men fell short",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 The Gilas Pilipinas women’s team did what its more prominent male counterparts couldn’t pull off in the Aichi-Nagoya Asian Games. In a first in Team Philippines’ participation at the Games, the fe",
-      "published": "2026-09-21T04:30:17.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/788639421_2299706390841954_3601651070221626964_n-scaled.jpg",
-      "url": "https://sports.inquirer.net/696450/gilas-women-advance-at-asian-games-pick-up-where-men-fell-short"
-    },
-    {
-      "id": "PBA-nlexsenochvaldezinvolvedinheatedexchange",
-      "league": "PBA",
-      "title": "NLEX’s Enoch Valdez involved in heated exchange with KBL player",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–A video of NLEX guard Enoch Valdez figuring in a fight with a player from the visiting Changwon LG Sakers of the Korean Basketball League has gone viral. Valdez was seen in the clip, which appeared to come from a South Korean television station and was later p",
-      "published": "2026-09-20T22:36:22.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2024/01/IMG_0834_PBA-Commissioners-Cup-NLEX-Converge_Enoch-Valdez-scaled.jpg",
-      "url": "https://sports.inquirer.net/696432/nlexs-enoch-valdez-involved-in-heated-exchange-with-kbl-player"
-    },
-    {
-      "id": "PBA-asiangamesniccabanerogilaspilipinas33kic",
-      "league": "PBA",
-      "title": "Asian Games: Nic Cabanero, Gilas Pilipinas 3×3 kick off medal bid",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Nic Cabanero and Gilas Pilipinas begin their medal bid in the men’s U-23 basketball 3×3 competitions of the Aichi-Nagoya Asian Games 2026 with two games slated for Monday. The ",
-      "published": "2026-09-20T22:24:48.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/806687314_1054153230862951_3915590270261814291_n.jpeg",
-      "url": "https://sports.inquirer.net/696476/asian-games-nic-cabanero-gilas-pilipinas-3x3-kick-off-medal-bid"
-    },
-    {
-      "id": "PBA-asiangamesgilaswomenaimforbettershowingv",
-      "league": "PBA",
-      "title": "Asian Games: Gilas women aim for better showing vs Japan",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "READ: Follow Inquirer Sports’ special coverage of the Aichi-Nagoya Asian Games 2026 MANILA, Philippines–Afril Bernardino believes there’s still room for improvement even after Gilas Pilipinas secured its place in the quarterfinals of the Aichi-Nagoya Asian Games 2026 women’s bask",
-      "published": "2026-09-20T20:47:18.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/818902258_908410558771011_2183521636143589447_n-scaled.jpeg",
-      "url": "https://sports.inquirer.net/696408/asian-games-afril-bernardino-gilas-women-eye-better-showing-vs-japan"
     },
     {
       "id": "PBA-gilaspilipinaswomennotlosingfocusdespite",
@@ -14999,8 +15011,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-21T12:31:34.749Z",
-    "news": "2026-09-21T12:31:34.749Z"
+    "games": "2026-09-22T11:19:37.483Z",
+    "news": "2026-09-22T11:19:37.483Z"
   },
   "carriedOver": [
     "teams",
