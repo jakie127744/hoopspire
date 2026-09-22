@@ -43,9 +43,19 @@ jobs:
       - name: Build
         run: npm run build
 
+      # TEMPORARY: reads the token from a secret named HOOPSPIRE rather than
+      # the conventional CLOUDFLARE_API_TOKEN, because GitHub rate-limited
+      # further token changes for one night. Rename the secret to
+      # CLOUDFLARE_API_TOKEN when that clears, and switch the line below back
+      # — GitHub secrets can't be renamed in place, only replaced.
+      #
+      # accountId is omitted rather than hex a secret for it tonight too: a
+      # token scoped to one account lets wrangler resolve the account on its
+      # own. Add CLOUDFLARE_ACCOUNT_ID and this input back if that ever stops
+      # working — a Cloudflare account ID is not sensitive (it's visible in
+      # the dashboard's own URL), so it does not need to be a secret at all.
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.HOOPSPIRE }}
           command: deploy
