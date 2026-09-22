@@ -9,17 +9,36 @@
  * "no data yet, run npm run data" state.
  */
 
+import { fetchWithTimeout, isBackingOff, noteFailure, noteSuccess } from './http.js'
 const cache = new Map()
+
+/**
+ * Keep a loaded snapshot; forget a failed one. These used to cache the failed
+ * promise too, so one dropped connection left a league empty until a full
+ * reload. A failure is now retried once its back-off has passed.
+ */
+function settle(store, key, url, data) {
+  if (data === null) {
+    store.delete(key)
+    noteFailure(url)
+  } else {
+    noteSuccess(url)
+  }
+  return data
+}
 
 export async function loadSnapshot(league) {
   if (cache.has(league.key)) return cache.get(league.key)
+  const url = `${import.meta.env.BASE_URL}data/${league.key}.json`
+  if (isBackingOff(url)) return null
 
-  const promise = fetch(`${import.meta.env.BASE_URL}data/${league.key}.json`)
+  const promise = fetchWithTimeout(url)
     .then((res) => {
       if (!res.ok) throw new Error(`no snapshot for ${league.key}`)
       return res.json()
     })
     .catch(() => null)
+    .then((data) => settle(cache, league.key, url, data))
 
   cache.set(league.key, promise)
   return promise
@@ -95,9 +114,12 @@ const extraCache = new Map()
 
 export async function loadExtra(key) {
   if (extraCache.has(key)) return extraCache.get(key)
-  const promise = fetch(`${import.meta.env.BASE_URL}data/extra/${key}.json`)
+  const url = `${import.meta.env.BASE_URL}data/extra/${key}.json`
+  if (isBackingOff(url)) return null
+  const promise = fetchWithTimeout(url)
     .then((res) => (res.ok ? res.json() : null))
     .catch(() => null)
+    .then((data) => settle(extraCache, key, url, data))
   extraCache.set(key, promise)
   return promise
 }

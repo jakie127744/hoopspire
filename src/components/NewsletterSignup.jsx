@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { SITE } from '../lib/site.js'
 import { Eyebrow } from './Primitives.jsx'
+import { fetchWithTimeout } from '../lib/http.js'
 
 /**
  * Newsletter signup.
@@ -74,7 +75,7 @@ export default function NewsletterSignup({ variant = 'block' }) {
 
     setState({ status: 'submitting', message: '' })
     try {
-      const res = await fetch(action, {
+      const res = await fetchWithTimeout(action, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({ email_address: email }),

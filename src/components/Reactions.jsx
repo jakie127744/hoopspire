@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { REACTIONS } from '../lib/reactions.js'
 import { Eyebrow } from './Primitives.jsx'
+import { fetchWithTimeout } from '../lib/http.js'
 
 /**
  * Reactions under an article: four buttons and their counts.
@@ -50,7 +51,7 @@ export default function Reactions({ slug }) {
     setCounts(null)
     setUnavailable(false)
     setMine(readMine()[slug] ?? null)
-    fetch(`/api/reactions/${encodeURIComponent(slug)}`)
+    fetchWithTimeout(`/api/reactions/${encodeURIComponent(slug)}`)
       .then((res) => (res.ok ? res.json() : Promise.reject(res.status)))
       .then((data) => !cancelled && setCounts(data.counts))
       .catch(() => !cancelled && setUnavailable(true))
@@ -77,7 +78,7 @@ export default function Reactions({ slug }) {
     setError(null)
 
     try {
-      const res = await fetch(`/api/reactions/${encodeURIComponent(slug)}`, {
+      const res = await fetchWithTimeout(`/api/reactions/${encodeURIComponent(slug)}`, {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify({ add, remove }),

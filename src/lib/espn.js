@@ -11,6 +11,8 @@
  * same components.
  */
 
+import { fetchWithTimeout, isBackingOff, noteFailure, noteSuccess, BackingOff } from './http.js'
+
 const SITE = 'https://site.api.espn.com/apis/site/v2/sports/basketball'
 const CORE = 'https://site.api.espn.com/apis/v2/sports/basketball'
 
@@ -31,12 +33,22 @@ async function getJSON(url, ttlMs = 60_000) {
   const pending = inFlight.get(url)
   if (pending) return pending
 
+  // A URL that just failed is left alone for a while. Callers treat this like
+  // any failure, and useAsync keeps the last good data on screen meanwhile.
+  if (isBackingOff(url)) throw new BackingOff(url)
+
   const request = (async () => {
-    const res = await fetch(url)
-    if (!res.ok) throw new Error(`ESPN ${res.status} for ${url}`)
-    const data = await res.json()
-    cache.set(url, { at: Date.now(), data })
-    return data
+    try {
+      const res = await fetchWithTimeout(url)
+      if (!res.ok) throw new Error(`ESPN ${res.status} for ${url}`)
+      const data = await res.json()
+      cache.set(url, { at: Date.now(), data })
+      noteSuccess(url)
+      return data
+    } catch (err) {
+      noteFailure(url)
+      throw err
+    }
   })()
     // A failure must not be cached as a pending request forever, and every
     // waiter has to see the same rejection the first caller sees.

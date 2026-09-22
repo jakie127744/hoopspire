@@ -11,6 +11,8 @@
  * Everything is normalised into the same shapes as ./espn.js.
  */
 
+import { fetchWithTimeout, isBackingOff, noteFailure, noteSuccess, BackingOff } from './http.js'
+
 const FEED = 'https://feeds.incrowdsports.com/provider/euroleague-feeds/v2/competitions/E/seasons'
 const LIVE = 'https://api-live.euroleague.net/v1'
 
@@ -19,11 +21,18 @@ const cache = new Map()
 async function get(url, ttlMs, asText = false) {
   const hit = cache.get(url)
   if (hit && Date.now() - hit.at < ttlMs) return hit.data
-  const res = await fetch(url)
-  if (!res.ok) throw new Error(`EuroLeague ${res.status} for ${url}`)
-  const data = asText ? await res.text() : await res.json()
-  cache.set(url, { at: Date.now(), data })
-  return data
+  if (isBackingOff(url)) throw new BackingOff(url)
+  try {
+    const res = await fetchWithTimeout(url)
+    if (!res.ok) throw new Error(`EuroLeague ${res.status} for ${url}`)
+    const data = asText ? await res.text() : await res.json()
+    cache.set(url, { at: Date.now(), data })
+    noteSuccess(url)
+    return data
+  } catch (err) {
+    noteFailure(url)
+    throw err
+  }
 }
 
 /**

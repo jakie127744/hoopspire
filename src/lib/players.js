@@ -18,15 +18,28 @@
  */
 import { getLeague } from './leagues.js'
 import { loadSnapshot, loadExtra } from './snapshot.js'
+import { fetchWithTimeout, isBackingOff, noteFailure, noteSuccess } from './http.js'
 
 const ESPN_WEB = 'https://site.web.api.espn.com/apis/common/v3/sports/basketball'
 
 const cache = new Map()
 async function getJSON(url) {
   if (cache.has(url)) return cache.get(url)
-  const p = fetch(url)
+  if (isBackingOff(url)) return null
+  const p = fetchWithTimeout(url)
     .then((r) => (r.ok ? r.json() : null))
     .catch(() => null)
+    .then((data) => {
+      // A failure is forgotten after its back-off rather than cached forever,
+      // so a player page that failed once can succeed on the next visit.
+      if (data === null) {
+        cache.delete(url)
+        noteFailure(url)
+      } else {
+        noteSuccess(url)
+      }
+      return data
+    })
   cache.set(url, p)
   return p
 }
