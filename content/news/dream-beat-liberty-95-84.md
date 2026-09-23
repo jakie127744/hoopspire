@@ -16,4 +16,4 @@ New York led 24-23 after the first quarter before Atlanta scored 18 to New York'
 
 New York falls to 26-17, tied with Washington (26-16) and Dallas (26-17) in the crowded group fighting for the sixth, seventh and eighth seeds. The loss leaves the Liberty needing help to climb out of that group with one game to play.
 
-Atlanta and New York play again on September 24 at Barclays Center, the final game of the regular season for both teams. Indiana closes its schedule with two games against Minnesota, already locked into the No. 1 seed race with Golden State. The WNBA playoffs' best-of-three first round is set to begin September 27.
+Atlanta and New York play again on Wednesday, September 23, at Barclays Center, the final game of the regular season for both teams. Indiana closes its schedule with two games against Minnesota, already locked into the No. 1 seed race with Golden State. The WNBA playoffs' best-of-three first round is set to begin September 27.
