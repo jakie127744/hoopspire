@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-22T11:18:42.814Z",
+  "fetchedAt": "2026-09-23T11:10:42.695Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260823&toDate=20261022&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260824&toDate=20261023&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8501,58 +8501,6 @@
       "tag": "Report",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823290001300_P2.jpg",
       "url": "https://en.yna.co.kr/view/AEN20260920002000315"
-    },
-    {
-      "id": "KBL-asiadjapanbornbasketballplayerforskorear",
-      "league": "KBL",
-      "title": "(Asiad) Japan-born basketball player for S. Korea ready to show growth before family, friends",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 19 (Yonhap) -- Playing at an Asian Games is a special occas...",
-      "published": "2026-09-18T22:00:01.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091804710001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260918010400315"
-    },
-    {
-      "id": "KBL-2ndldasiadskoreareachesmensbasketballfin",
-      "league": "KBL",
-      "title": "(2nd LD) (Asiad) S. Korea reaches men's basketball final, Japan up next",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea advanced to the men's basketball...",
-      "published": "2026-09-18T12:39:51.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091819810001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260918010652315"
-    },
-    {
-      "id": "KBL-leadasiadskoreareachesmensbasketballfina",
-      "league": "KBL",
-      "title": "(LEAD) (Asiad) S. Korea reaches men's basketball final",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea advanced to the men's basketball...",
-      "published": "2026-09-18T09:08:34.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091819810001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260918010651315"
-    },
-    {
-      "id": "KBL-asiadskoreareachesmensbasketballfinal",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea reaches men's basketball final",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 18 (Yonhap) -- South Korea advanced to the men's basketball...",
-      "published": "2026-09-18T08:55:23.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091819810001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260918010600315"
     }
   ],
   "leaders": {
@@ -9023,8 +8971,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-22T11:18:42.814Z",
-    "news": "2026-09-22T11:18:42.814Z"
+    "games": "2026-09-23T11:10:42.695Z",
+    "news": "2026-09-23T11:10:42.695Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-09-22T11:18:19.088Z",
+  "fetchedAt": "2026-09-23T11:10:18.861Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -22,11 +22,11 @@
   ],
   "notes": [
     "fixture unmatched: \"Sunrock.\" vs \"Chiba J.\"",
-    "news Japan Times: https://www.japantimes.co.jp/sports/feed/ — HTTP 403",
+    "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "BLeague 2026: RealGM returned a bot-check page; skipped",
     "BLeague 2025: RealGM returned a bot-check page; skipped",
     "BLeague: bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -18507,7 +18507,7 @@
     "playerStats": "2026-09-11T01:01:42.107Z",
     "leaders": "2026-09-11T01:01:42.107Z",
     "standings": "2026-09-11T01:01:42.107Z",
-    "games": "2026-09-22T11:18:19.088Z",
+    "games": "2026-09-23T11:10:18.861Z",
     "news": "2026-09-22T11:18:19.088Z"
   },
   "carriedOver": [
@@ -18515,6 +18515,7 @@
     "rosters",
     "playerStats",
     "leaders",
-    "standings"
+    "standings",
+    "news"
   ]
 }
