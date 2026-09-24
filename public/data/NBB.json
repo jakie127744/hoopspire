@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-09-23T11:12:10.045Z",
+  "fetchedAt": "2026-09-24T11:29:04.990Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,32 @@
   ],
   "news": [
     {
+      "id": "NBB-flamengo-vence-botafogo-e-garante-vaga-n",
+      "league": "NBB",
+      "title": "Flamengo wins Botafogo and guarantees a place in the Carioca basketball final",
+      "originalTitle": "Flamengo vence Botafogo e garante vaga na final do Carioca de basquete",
+      "translatedFrom": "pt",
+      "description": "Flamengo took an important step to win the 19th consecutive title of the Carioca Men's Basketball Championship. After beating Fluminense at the opening of the competition last Sunday at the Tijuca gymnasium, Rubro-Negro returned to the court this Wednesday for the second round. The opponent was Bota",
+      "published": "2026-09-24T01:47:38.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/QLxSirWloFzKLe16Gr1aWlUJEok=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/W/4/QGBdjaQmArXs1TgB08TA/737598-botafogo-x-flamengo-carioca-basquete-ginasio-oscar-zelaya-23-09-2026-foto-julliana-nascimento-crf-5.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/09/23/flamengo-vence-botafogo-e-garante-vaga-na-final-do-carioca-de-basquete.ghtml"
+    },
+    {
+      "id": "NBB-lei-federal-torna-cidade-de-franca-a-cap",
+      "league": "NBB",
+      "title": "Federal law makes the city of Franca the National Basketball Capital",
+      "originalTitle": "Lei federal torna cidade de Franca a Capital Nacional do Basquete",
+      "translatedFrom": "pt",
+      "description": "Franca's passion for basketball crosses generations The Federal Government has signed a law that makes the city of Franca (SP) as the National Capital of Basketball. The document was published in the Federal Official Gazette on Tuesday, with the signature of Vice President Geraldo Alckmin, acting president",
+      "published": "2026-09-23T14:00:19.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/kI2bhQQ9Z9vPNsOkVJphTwXH8iQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/c/d0IwXhSgCf2RxQEPeCFw/whatsapp-image-2026-05-28-at-20.14.45.jpeg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/23/lei-federal-torna-cidade-de-franca-a-capital-nacional-do-basquete.ghtml"
+    },
+    {
       "id": "NBB-flamengo-vence-o-fluminense-na-abertura-",
       "league": "NBB",
       "title": "Flamengo beat Fluminense in the opening of Carioca basketball",
@@ -16080,32 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/fsPSWLSS8JxiGCRuyNbLm7-Ffbo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/H/f/ShQ6ULS0axPB71bYBBcw/whatsapp-image-2026-08-18-at-10.22.48.jpeg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/08/18/reynan-e-helinho-vao-para-selecao-de-basquete-e-desfalcam-franca-no-paulista.ghtml"
-    },
-    {
-      "id": "NBB-brasil-tem-volta-de-raulzinho-nas-elimin",
-      "league": "NBB",
-      "title": "Brazil has Raulzinho back in the basketball World Cup qualifiers; see the squads",
-      "originalTitle": "Brasil tem volta de Raulzinho nas eliminatórias da Copa do Mundo de basquete; veja os convocados",
-      "translatedFrom": "pt",
-      "description": "Raulzinho sights possible 4th Olympiad Brazil is called for the debut of the second phase of the qualifiers for the men's basketball World Cup. On Tuesday, coach Aleksandar Petrovic announced the list of 17 players called for duels against the Dominican Republic and Mexico",
-      "published": "2026-08-18T14:20:04.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/V30Oz6Kc4UkeBkJEkVqXu6RsceQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/Y/S/EFOhayREuHbx7q2tPllQ/basqmasc-gn-2024.08.02-6079.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/08/18/brasil-tem-volta-de-raulzinho-nas-eliminatorias-da-copa-do-mundo-de-basquete-veja-os-convocados.ghtml"
-    },
-    {
-      "id": "NBB-lnb-confirma-3-edi-o-do-torneio-de-abert",
-      "league": "NBB",
-      "title": "LNB confirms 3rd edition of NBB Opening Tournament with eight teams; see dates",
-      "originalTitle": "LNB confirma 3ª edição do Torneio de Abertura do NBB com oito equipes; veja datas",
-      "translatedFrom": "pt",
-      "description": "The National Basketball League (LNB) announced on Monday the third edition of the Opening Tournament of Novo Basquete Brasil (NBB). The competition will be played by eight teams with the games between October 6 and 10, all in the city of Belo Horizonte. Participants are: Botafogo, Brasili",
-      "published": "2026-08-17T20:54:33.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/fb77XC92vk_jwYIwchHAzslfW-c=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/y/a/VqhImlTWKgAbQrKKjxXg/55002202158-a4df942f24-k.jpg",
-      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/08/17/lnb-confirma-3a-edicao-do-torneio-de-abertura-do-nbb-com-oito-equipes-veja-datas.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-09-23T11:12:10.045Z",
-    "news": "2026-09-23T11:12:10.045Z"
+    "games": "2026-09-24T11:29:04.990Z",
+    "news": "2026-09-24T11:29:04.990Z"
   },
   "carriedOver": [
     "teams",

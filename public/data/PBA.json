@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-23T11:11:41.225Z",
+  "fetchedAt": "2026-09-24T11:28:36.929Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
@@ -14427,17 +14428,95 @@
   ],
   "news": [
     {
-      "id": "PBA-unbeatengilaswomendownmalaysianstobargei",
+      "id": "PBA-gilaswomenmissasiangamessemisafterlossto",
       "league": "PBA",
-      "title": "Unbeaten Gilas women down Malaysians to barge into Asiad 3x3 quarterfinals",
+      "title": "Gilas Women miss Asian Games semis after loss to Chinese Taipei",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Flawless pool play for the Gilas Pilipinas women.",
-      "published": "2026-09-23T10:08:00.000Z",
+      "description": "Afril Bernardino leads all scorers, but her effort goes for naught as Gilas Women crash out of the Asian Games quarterfinals for the second time in a row",
+      "published": "2026-09-24T11:18:25.000Z",
+      "byline": "Rappler",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-women-basketball-philippines-chinese-taipei-september-24-2026/"
+    },
+    {
+      "id": "PBA-luispablopowersgilasmenpastchinesetaipei",
+      "league": "PBA",
+      "title": "Luis Pablo powers Gilas Men past Chinese Taipei, into Asiad 3×3 semis",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Luis Pablo took charge in the endgame, lifting Gilas Pilipinas 3×3 to a 21-19 victory over Chinese Taipei and into the semifinals of the 20th Asian Games Men’s 3×3 Basketball Tournament on Thursday at Kinjo Futo Station Square. With the game tied at 19-all, Pablo, the reigning UA",
+      "published": "2026-09-24T10:23:32.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/luis-pablo-powers-gilas-men-past-chinese-taipei-into-asiad-3x3-semis/384692"
+    },
+    {
+      "id": "PBA-gilasmenedgetaiwanesetobookasiangames3x3",
+      "league": "PBA",
+      "title": "Gilas men edge Taiwanese to book Asian Games 3x3 semis berth",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A medal is within reach for Gilas Pilipinas in the 3x3 basketball court.",
+      "published": "2026-09-24T10:15:00.000Z",
       "byline": "PhilStar",
       "tag": "Report",
       "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/23/2558416/unbeaten-gilas-women-down-malaysians-barge-asiad-3x3-quarterfinals"
+      "url": "https://www.philstar.com/sports/2026/09/24/2558659/gilas-men-edge-taiwanese-book-asian-games-3x3-semis-berth"
+    },
+    {
+      "id": "PBA-gilaspilipinasmen3x3dethroneschinesetaip",
+      "league": "PBA",
+      "title": "Gilas Pilipinas Men 3x3 dethrones Chinese Taipei in thriller to reach Asian Games semis",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Men 3x3 pulled off a thrilling 21-19 victory to stun defending champion Chinese Taipei in the 2026 Asian Games men's 3x3 basketball.",
+      "published": "2026-09-24T10:02:22.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1003575/gilas-pilipinas-men-3x3-dethrones-chinese-taipei-in-thriller-to-reach-asian-games-semis/story/"
+    },
+    {
+      "id": "PBA-gilaspilipinaswomenbowoutofasiangamesaft",
+      "league": "PBA",
+      "title": "Gilas Pilipinas Women bow out of Asian Games after quarterfinal loss to Chinese Taipei",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Women's gallant stand was not enough as they absorbed an 83-71 loss to Chinese Taipei to bow out of the 2026 Asian Games on Thursday at the Aichi International Arena in Japan.",
+      "published": "2026-09-24T09:51:53.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1003574/gilas-pilipinas-women-bow-out-of-asian-games-after-quarterfinal-loss-to-chinese-taipei/story/"
+    },
+    {
+      "id": "PBA-gilaswomenlosesteamchinesetaipeiendasian",
+      "league": "PBA",
+      "title": "Gilas women lose steam Chinese Taipei, end Asian Games 5x5 campaign",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "End of the road for Gilas Pilipinas women.",
+      "published": "2026-09-24T09:24:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/24/2558654/gilas-women-lose-steam-chinese-taipei-end-asian-games-5x5-campaign"
+    },
+    {
+      "id": "PBA-gilaswomenbowoutofasiangamesafterquarter",
+      "league": "PBA",
+      "title": "Gilas Women bow out of Asian Games after quarterfinal loss to Chinese Taipei",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Women bowed out in the quarterfinals after suffering an 83-71 loss to Chinese Taipei in the women’s 5-on-5 basketball event of the 20th Asian Games at the Aichi International Arena on Thursday. The Philippines showed flashes of brilliance in the second and third q",
+      "published": "2026-09-24T09:18:19.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/gilas-women-bow-out-of-asian-games-after-quarterfinal-loss-to-chinese-taipei/384676"
     },
     {
       "id": "PBA-asiangamesgilaswomen3x3teamdominatesmala",
@@ -14453,32 +14532,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003442/asian-games-gilas-women-3x3-team-dominates-malaysia-to-book-quarterfinals-spot/story/"
     },
     {
-      "id": "PBA-gilas33capasiangamespoolsweepwithwinover",
-      "league": "PBA",
-      "title": "Gilas 3×3 cap Asian Games pool sweep with win over Kazakhstan",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Men completed a sweep of Pool A in the 3×3 basketball tournament of the 20th Asian Games, beating Kazakhstan, 21-15, on Wednesday at the Kinjo Futo Station Square Venue in Japan. The Philippines entered Wednesday’s game on the heels of two victories on Tuesday, de",
-      "published": "2026-09-23T06:16:54.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-3x3-cap-asian-games-pool-sweep-with-win-over-kazakhstan/384578"
-    },
-    {
-      "id": "PBA-gilasmendominatekazakhsenterasiangames3x",
-      "league": "PBA",
-      "title": "Gilas men dominate Kazakhs, enter Asian Games 3x3 quarterfinals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Gilas Pilipinas men are off to the quarterfinal round of the Asian Games’ 3x3 basketball after blasting Kazakhstan, 21-15, in the final game of pool play Wednesday at the Kinjo Futo Station Square Venue in Japan.",
-      "published": "2026-09-23T05:11:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/23/2558384/gilas-men-dominate-kazakhs-enter-asian-games-3x3-quarterfinals"
-    },
-    {
       "id": "PBA-asiangamesgilasmen3x3beatskazakhstantocl",
       "league": "PBA",
       "title": "Asian Games: Gilas Men 3x3 beats Kazakhstan to clinch quarterfinals berth",
@@ -14490,19 +14543,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003395/asian-games-gilas-men-3x3-beats-kazakhstan-to-clinch-quarterfinals-berth/story/"
-    },
-    {
-      "id": "PBA-jhustinhallarebrucetubongbanuabeginnewch",
-      "league": "PBA",
-      "title": "Jhustin Hallare, Bruce Tubongbanua begin new chapter together at Ateneo",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Jhustin Hallare and Bruce Tubongbanua have gone through so many battles together. From being 15-year-olds facing players four years older than them, competing on both 5-on-5 and 3×3 courts, to representing the country with Gilas Pilipinas Boys, they have experienced it all side b",
-      "published": "2026-09-22T15:08:19.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/03/UAAP88-HS-Basketball-Bruce-Tubongbanua-Jhustin-Hallare-3653-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/jhustin-hallare-bruce-tubongbanua-begin-new-chapter-together-at-ateneo/384556"
     },
     {
       "id": "PBA-asiangamesqfboundgilaswomenfalltomightyj",
@@ -14529,19 +14569,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003251/asian-games-gilas-women-3x3-stuns-mongolia-dominates-macao-to-open-bid/story/"
-    },
-    {
-      "id": "PBA-asiangamesgilaspilipinas3x3menbeatmongol",
-      "league": "PBA",
-      "title": "Asian Games: Gilas Pilipinas 3x3 Men beat Mongolia, Sri Lanka to open bid",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Nic Cabañero and Koji Buenaflor flaunted a familiar chemistry to steer Gilas Pilipinas Men to an unbeaten start in the 2026 Asian Games 3x3 men's basketball on Monday in Japan.",
-      "published": "2026-09-21T06:51:00.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003125/asian-games-gilas-pilipinas-3x3-men-beat-mongolia-sri-lanka-to-open-bid/story/"
     }
   ],
   "leaders": {
@@ -15012,8 +15039,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-23T11:11:41.225Z",
-    "news": "2026-09-23T11:11:41.225Z"
+    "games": "2026-09-24T11:28:36.929Z",
+    "news": "2026-09-24T11:28:36.929Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-23T11:10:42.695Z",
+  "fetchedAt": "2026-09-24T11:27:09.492Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260824&toDate=20261023&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260825&toDate=20261024&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,32 @@
   ],
   "news": [
     {
+      "id": "KBL-leadasiadskoreareacheswomensbasketballse",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea reaches women's basketball semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 24 (Yonhap) -- South Korea blew out Indonesia to grab a tic...",
+      "published": "2026-09-24T05:53:41.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092404070001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260924001451315"
+    },
+    {
+      "id": "KBL-asiadskoreareacheswomensbasketballsemifi",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea reaches women's basketball semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 24 (Yonhap) -- South Korea blew out Indonesia to grab a tic...",
+      "published": "2026-09-24T04:22:06.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092404070001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260924001400315"
+    },
+    {
       "id": "KBL-asiadmotherofmensbasketballchampionproud",
       "league": "KBL",
       "title": "(Asiad) Mother of men's basketball champion proud of son, excited to see further growth",
@@ -8436,71 +8462,6 @@
       "tag": "Report",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092023530001300_P2.jpg",
       "url": "https://en.yna.co.kr/view/AEN20260921000200320"
-    },
-    {
-      "id": "KBL-leadasiadskoreabeatsjapanformensbasketba",
-      "league": "KBL",
-      "title": "(LEAD) (Asiad) S. Korea beats Japan for men's basketball gold",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 20 (Yonhap) -- South Korea defeated the home team Japan 67-...",
-      "published": "2026-09-20T12:49:17.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092020690001301_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260920005651320"
-    },
-    {
-      "id": "KBL-asiadskoreabeatsjapanformensbasketballgo",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea beats Japan for men's basketball gold",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 20 (Yonhap) -- South Korea defeated the home team Japan 67-...",
-      "published": "2026-09-20T12:34:52.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092019640001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260920005600320"
-    },
-    {
-      "id": "KBL-urgentskoreabeatsjapanforasiadgoldinmens",
-      "league": "KBL",
-      "title": "(URGENT) S. Korea beats Japan for Asiad gold in men's basketball",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "(END)",
-      "published": "2026-09-20T12:31:11.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260920005500315"
-    },
-    {
-      "id": "KBL-leadasiadmensbasketballteammissesshootar",
-      "league": "KBL",
-      "title": "(LEAD) (Asiad) Men's basketball team misses shootaround before final due to shuttle no-show",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 20 (Yonhap) -- The men's national basketball team was force...",
-      "published": "2026-09-20T04:26:15.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823290001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260920002051315"
-    },
-    {
-      "id": "KBL-asiadmensbasketballteammissesshootaround",
-      "league": "KBL",
-      "title": "(Asiad) Men's basketball team misses shootaround before final due to shuttle no-show",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 20 (Yonhap) -- The men's national basketball team was force...",
-      "published": "2026-09-20T03:07:12.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/18/PYH2026091823290001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260920002000315"
     }
   ],
   "leaders": {
@@ -8971,8 +8932,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-23T11:10:42.695Z",
-    "news": "2026-09-23T11:10:42.695Z"
+    "games": "2026-09-24T11:27:09.492Z",
+    "news": "2026-09-24T11:27:09.492Z"
   },
   "carriedOver": [
     "teams",
