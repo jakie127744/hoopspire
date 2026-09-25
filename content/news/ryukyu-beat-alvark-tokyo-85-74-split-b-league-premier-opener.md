@@ -23,6 +23,18 @@ Nwaba finished with 27 points, 14 rebounds and four of seven from three in almos
 
 Johnson scored 29 points for Alvark in that game, and D.J. Hogg added 23 with four threes and five free throws without a miss. Nwaba had 24 points and seven steals for Ryukyu.
 
+**Scoring, Wednesday (Ryukyu 85, Alvark 74).**
+
+Ryukyu: David Nwaba 27, Kevin Jones 16, Sota Oura 9, Kiefer Ravena 9, Jack Cooley 8, Yoshiyuki Matsuwaki 6, Ryo Sadohara 4, Masahiro Waki 3, Shota Onodera 3.
+
+Alvark: Keyontae Johnson 16, Lachlan Olbrich 15, D.J. Hogg 11, Ryan Rossiter 11, Taiki Osakabe 8, Shuto Ando 7, Kai Toews 6, Sota Okura 0, Zack Baranski 0, Gen Hiraiwa 0.
+
+**Scoring, Tuesday (Alvark 84, Ryukyu 73).**
+
+Alvark: Keyontae Johnson 29, D.J. Hogg 23, Taiki Osakabe 13, Lachlan Olbrich 7, Shuto Ando 4, Ryan Rossiter 4, Kai Toews 3, Zack Baranski 1, Sota Okura 0, Gen Hiraiwa 0.
+
+Ryukyu: David Nwaba 24, Yoshiyuki Matsuwaki 13, Masahiro Waki 10, Kevin Jones 8, Jack Cooley 8, Sota Oura 5, Kiefer Ravena 3, Ryo Sadohara 2, Shota Onodera 0.
+
 By quarter, Wednesday's game was Alvark 25, 16, 17, 16 and Ryukyu 23, 28, 16, 18. Tuesday's was Alvark 23, 27, 22, 12 and Ryukyu 30, 21, 12, 10.
 
 **What is next.** Alvark play at the Chiba Jets on Friday, October 2, and Sunday, October 4. Ryukyu visit the Shiga Lakes on Saturday, October 3, and Sunday, October 4.

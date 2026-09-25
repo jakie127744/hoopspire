@@ -19,6 +19,12 @@ Dubai took 18 offensive rebounds, twice Madrid's nine and the most by any team i
 
 Timothé Luwawu-Cabarrot and Théo Maledon led Madrid with 11 points each, and Maledon added six assists. Mikael Jantunen and Damian Jones scored 10 each.
 
+**Scoring.**
+
+Dubai: Dwayne Bacon 24, McKinley Wright IV 12, Mfiondu Kabengele 9, Elie Okobo 8, Mamadi Diakite 6, Tornike Shengelia 5, Thomas Walkup 5, Davion Mintz 3, Dāvis Bertāns 3, Filip Petrušev 3, Jaron Blossomgame 0.
+
+Real Madrid: Timothé Luwawu-Cabarrot 11, Théo Maledon 11, Mikael Jantunen 10, Damian Jones 10, Andrés Feliz 9, Walter Tavares 8, Facundo Campazzo 6, Jaime Pradilla 5, Olivier Sarr 4, Alberto Abalde 3, Gabriele Procida 0, Gabriel Deck 0.
+
 By quarter, it was Dubai 20, 18, 25, 15 and Madrid 16, 28, 18, 15. The attendance was 7,269.
 
 Pedro Martínez's Madrid play at Anadolu Efes on Tuesday, September 29, and at Hapoel Tel Aviv, in Sofia, on Thursday, October 1. Dubai host Barcelona on Tuesday, September 29, and play at Fenerbahce on Friday, October 2.
