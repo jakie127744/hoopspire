@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-24T11:27:09.492Z",
+  "fetchedAt": "2026-09-25T11:33:05.186Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260825&toDate=20261024&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260826&toDate=20261025&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,71 @@
   ],
   "news": [
     {
+      "id": "KBL-leadasiadskoreacapturesgoldinmens3x3bask",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea captures gold in men's 3x3 basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 25 (Yonhap) -- South Korea won its first Asian Games gold m...",
+      "published": "2026-09-25T11:29:37.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/25/PYH2026092509950001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260925005551315"
+    },
+    {
+      "id": "KBL-asiadskoreacapturesgoldinmens3x3basketba",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea captures gold in men's 3x3 basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 25 (Yonhap) -- South Korea won its first Asian Games gold m...",
+      "published": "2026-09-25T10:58:55.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925393001009_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260925005500315"
+    },
+    {
+      "id": "KBL-urgentskoreawinsgoldinmens3x3basketballa",
+      "league": "KBL",
+      "title": "(URGENT) S. Korea wins gold in men's 3x3 basketball at Asian Games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "(END)",
+      "published": "2026-09-25T10:53:59.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260925005400315"
+    },
+    {
+      "id": "KBL-asiadskoreabeatschinatoreachwomensbasket",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea beats China to reach women's basketball final",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Sept. 25 (Yonhap) -- South Korea advanced to the women's basketball fina...",
+      "published": "2026-09-25T09:37:58.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925322501009_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260925005000320"
+    },
+    {
+      "id": "KBL-3x3kbl",
+      "league": "KBL",
+      "title": "'All four college students declare professional basketball challenge' 3x3 men's basketball wins final with Qatar, all exempt from military exemption... KBL pandemic reverses",
+      "originalTitle": "'대학생 네 명이 모두 프로농구 도전 선언' 3x3 남자농구, 카타르와 결승전 이기면 전원 병역면제...KBL 판도 뒤집힌다",
+      "translatedFrom": "ko",
+      "description": "The order of the KBL rookie draft depends on it. South Korea's 3x3 men's basketball team is on the verge of winning its first-ever Asian Games gold medal. After defeating the Philippines and reaching the final, Korea now challenges Qatar to the top of the Asian Games. The South Korean men's 3x3 basketball team led by Bae Gil-tae was held on the 25th at the special court of Kinjo Futo Station Plaza at the 2026 Aichi and Nagoya Asian Games 3.",
+      "published": "2026-09-25T06:44:00.000Z",
+      "byline": "Chosun",
+      "tag": "Report",
+      "image": "https://www.chosun.com/resizer/v2/GM4TENZWHAYDOYTBGVRDSMJQGY.jpg?auth=e5a172c13f305c67918a56ff0a84c36528ca1a4598b11e96632e85674e9ec5f4&smart=true&width=530&height=795",
+      "url": "https://www.chosun.com/sports/basketball/2026/09/25/GI3WCNBYGRRDMMBQMVQTKNZYMQ/"
+    },
+    {
       "id": "KBL-leadasiadskoreareacheswomensbasketballse",
       "league": "KBL",
       "title": "(LEAD) (Asiad) S. Korea reaches women's basketball semifinals",
@@ -8436,32 +8501,6 @@
       "tag": "Report",
       "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092404070001300_P2.jpg",
       "url": "https://en.yna.co.kr/view/AEN20260924001400315"
-    },
-    {
-      "id": "KBL-asiadmotherofmensbasketballchampionproud",
-      "league": "KBL",
-      "title": "(Asiad) Mother of men's basketball champion proud of son, excited to see further growth",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 21 (Yonhap) -- Soon after South Korea clinched the Asian Ga...",
-      "published": "2026-09-21T02:41:18.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092023410001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260921004800315"
-    },
-    {
-      "id": "KBL-asiadbusmixupbeforeasiadfinalturnsintoso",
-      "league": "KBL",
-      "title": "(Asiad) Bus mix-up before Asiad final turns into source of motivation for S. Korean basketball team",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 21 (Yonhap) -- Hours before the men's basketball final at t...",
-      "published": "2026-09-20T22:42:23.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/20/PYH2026092023530001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260921000200320"
     }
   ],
   "leaders": {
@@ -8932,8 +8971,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-24T11:27:09.492Z",
-    "news": "2026-09-24T11:27:09.492Z"
+    "games": "2026-09-25T11:33:05.186Z",
+    "news": "2026-09-25T11:33:05.186Z"
   },
   "carriedOver": [
     "teams",

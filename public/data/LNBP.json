@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-09-24T11:28:39.116Z",
+  "fetchedAt": "2026-09-25T11:34:41.962Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -6287,12 +6287,38 @@
   ],
   "news": [
     {
+      "id": "LNBP-elexnbachassonrandlellegaalosdoradosdechihuahua",
+      "league": "LNBP",
+      "title": "THE EX NBA, CHASSON RANDLE ARRIVES AT THE DORADOS OF CHIHUAHUA",
+      "originalTitle": "EL EX NBA, CHASSON RANDLE LLEGA A LOS DORADOS DE CHIHUAHUA",
+      "translatedFrom": "es",
+      "description": "The US base joins the Big State quintet and will strengthen the Chihuahua team, Chih.- (Prensa Dorados) September 22.- Dorados de Chihuahua reinforced its roster with the hiring of US guard Chasson Randle, who joins the roster to",
+      "published": "2026-09-24T12:30:21.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/599d40a9af2d9b5abbf145b96d72181a.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-lalnbpysus14equiposseunenapontepilabotayencesta",
+      "league": "LNBP",
+      "title": "The LNBP and its 14 teams join “¡Ponte Pila! Boot and Basket\"",
+      "originalTitle": "La LNBP y sus 14 equipos se unen a “¡Ponte Pila! Bota y Encesta”",
+      "translatedFrom": "es",
+      "description": "La Liga Caliente.mx LNBP and its 14 teams join “¡Ponte Pila! Bota y Encesta\", an initiative of the National Commission of Physical Culture and Sport (CONADE) that seeks to promote physical activation and strengthen the practice of basketball among girls, boys and young people throughout Mexico.",
+      "published": "2026-09-24T12:28:46.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/95f87cd3d7683ae2f5efa74bf4a43edb.jpg",
+      "url": null
+    },
+    {
       "id": "LNBP-solesterminasurachainvictaencasa",
       "league": "LNBP",
-      "title": "SOLES ENDS THEIR UNBEATEN STREAK AT HOME",
-      "originalTitle": "SOLES TERMINA SU RACHA INVICTA EN CASA",
+      "title": "Soles ends his unbeaten streak at home",
+      "originalTitle": "Soles termina su racha invicta en casa",
       "translatedFrom": "es",
-      "description": "SOLES ENDS its UNBEATEN STREAK AT CASA MEXICALI, B.C., on Monday, September 21, 2026.- Soles de Mexicali lost a HOME game in the regular season for the first time in the season and for the first time since September 27, 2024, yesterday when they fell to Panteras de Aguasc",
+      "description": "Soles de Mexicali lost a home game in the regular season for the first time in the season and for the first time since September 27, 2024, yesterday when they lost to Panteras de Aguascalientes 76-77. The game of matchday 22 of the 2026 season of the Liga Caliente.MX LNBP d",
       "published": "2026-09-22T14:25:41.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -6305,7 +6331,7 @@
       "title": "Vibra Zacatecas with Miners' victory in the classic against Gambusinos",
       "originalTitle": "Vibra Zacatecas con victoria de Mineros en el clásico ante Gambusinos",
       "translatedFrom": "es",
-      "description": "Vibra Zacatecas with victory of Mineros in the classic against Gambusinos -The Zacatecans win 87-85 In a vibrant match, worthy of a classic of the National Professional Basketball League, the Mineros de Zacatecas beat the Gambusinos de Fresnillo 87-85. The best affici",
+      "description": "The Zacatecans win 87-85. In a vibrant match, worthy of a National Professional Basketball League classic, the Mineros de Zacatecas beat the Gambusinos de Fresnillo 87-85. The best fans in the country were present at the Marcelino González and Graci Gymnasium",
       "published": "2026-09-22T14:20:23.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -6318,7 +6344,7 @@
       "title": "The Heat of Cancun and Diablos Rojos del México divide triumphs at the Poliforum Cancun!",
       "originalTitle": "¡El Calor de Cancún y Diablos Rojos del México dividen triunfos en el Poliforum Cancún!",
       "translatedFrom": "es",
-      "description": "The scarlet quintet triumphed 83-86 in the second game of Series 11 of the 2026 Hot League Season.Mx LNBP • The most outstanding by El Calor was BJ Fitzgerald who scored 35 points; by Diablos Devon Scott stood out with 18 units Cancun, Quintana Roo; 21 of s",
+      "description": "The scarlet quintet won 83-86 in the second game of Series 11 of the 2026 Hot League Season. Mx LNBP. The most outstanding for El Calor was BJ Fitzgerald who scored 35 points; for Diablos Devon Scott stood out with 18 points. The Heat of Cancun had a bue",
       "published": "2026-09-22T14:18:26.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -6415,42 +6441,16 @@
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/5a91ba4345be02cc351de4ba171860fe.jpg",
       "url": null
-    },
-    {
-      "id": "LNBP-panterassequedaconelprimerodelaserieencasa",
-      "league": "LNBP",
-      "title": "Panthers keep the first in the series at home",
-      "originalTitle": "Panteras se queda con el primero de la serie en casa",
-      "translatedFrom": "es",
-      "description": "The Panthers of Aguascalientes and the Astros of Jalisco faced each other in the Hermanos Carreón and in a playoff-flavored matchup, both quintets provided a great matchup finishing with a score of 95 to 83 for the Panthers. For the first ten minutes and the big i",
-      "published": "2026-09-17T13:58:33.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/6c3e6384b80dd67167bc52154804c799.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-lobospueblavienedeatrsybarrelaserieanteabejas",
-      "league": "LNBP",
-      "title": "Lobos Puebla comes from behind and sweeps the series against Abejas",
-      "originalTitle": "Lobos Puebla viene de atrás y barre la serie ante Abejas",
-      "translatedFrom": "es",
-      "description": "The pack transformed an 11-point deficit into an 80-67 victory to clinch their second win of the series and weigh the house down. Lobos Puebla weighed Miguel Hidalgo again and closed his series against Abejas de León with a new victory. La quinteta poblana ENCO",
-      "published": "2026-09-17T13:42:17.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/aa8e6f8d6792b4bcf936dffef9835fa8.jpg",
-      "url": null
     }
   ],
   "leaders": {},
   "sectionsUpdatedAt": {
-    "teams": "2026-09-24T11:28:39.116Z",
-    "rosters": "2026-09-24T11:28:39.116Z",
-    "playerStats": "2026-09-24T11:28:39.116Z",
-    "standings": "2026-09-24T11:28:39.116Z",
-    "games": "2026-09-24T11:28:39.116Z",
-    "news": "2026-09-24T11:28:39.116Z",
-    "leaders": "2026-09-24T11:28:39.116Z"
+    "teams": "2026-09-25T11:34:41.962Z",
+    "rosters": "2026-09-25T11:34:41.962Z",
+    "playerStats": "2026-09-25T11:34:41.962Z",
+    "standings": "2026-09-25T11:34:41.962Z",
+    "games": "2026-09-25T11:34:41.962Z",
+    "news": "2026-09-25T11:34:41.962Z",
+    "leaders": "2026-09-25T11:34:41.962Z"
   }
 }
