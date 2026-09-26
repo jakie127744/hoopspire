@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-09-25T11:35:05.450Z",
+  "fetchedAt": "2026-09-26T11:10:09.639Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-exalta-defesa-em-3-melhor-desempe",
+      "league": "NBB",
+      "title": "Franca exalts defense in 3rd best performance in the sector in the season",
+      "originalTitle": "Franca exalta defesa em 3º melhor desempenho do setor na temporada",
+      "translatedFrom": "pt",
+      "description": "Franca's passion for basketball crosses generations Sesi Franca started ahead in the semi-final series of the Campeonato Paulista by beating Paulistano 80 to 59 last Tuesday at the Pedrocão gym. The collective action in the defensive sector marked the performance of the team led by Helinho Garcia: the",
+      "published": "2026-09-25T18:50:10.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/LWI1yyZFQ4WF89WMr8xCnXv5AME=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/8/Y/Ij3KdVTX26Umwp9auLyA/55544163707-b9c1dc89a6-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/25/franca-exalta-defesa-em-3o-melhor-desempenho-do-setor-na-temporada.ghtml"
+    },
+    {
       "id": "NBB-flamengo-vence-botafogo-e-garante-vaga-n",
       "league": "NBB",
       "title": "Flamengo wins Botafogo and guarantees a place in the Carioca basketball final",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/hKrzi6KNALaS6WqUPJmK-JlJGEo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/B/cJlNUlTrmYfU6fhI0I4A/aaliyah-guydon.webp",
       "url": "https://ge.globo.com/basquete/noticia/2026/08/19/brasil-vence-nova-zelandia-em-jogo-apertado-e-segue-vivo-por-vaga-no-pre-olimpico.ghtml"
-    },
-    {
-      "id": "NBB-reynan-e-helinho-v-o-para-sele-o-de-basq",
-      "league": "NBB",
-      "title": "Reynan and Helinho go to the basketball team and embezzle Franca at Paulista",
-      "originalTitle": "Reynan e Helinho vão para seleção de basquete e desfalcam Franca no Paulista",
-      "translatedFrom": "pt",
-      "description": "Franca wins Corinthians and takes the lead of Paulista de Basquete Sesi Franca Basquete will have two embezzlements in the final three games of the first phase of the Paulista Championship. The guard Reynan and the coach Helinho do not face Pinheiros, São José-SP and Mogi because of the call for the selection",
-      "published": "2026-08-18T14:53:28.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/fsPSWLSS8JxiGCRuyNbLm7-Ffbo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/H/f/ShQ6ULS0axPB71bYBBcw/whatsapp-image-2026-08-18-at-10.22.48.jpeg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/08/18/reynan-e-helinho-vao-para-selecao-de-basquete-e-desfalcam-franca-no-paulista.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-09-25T11:35:05.450Z",
-    "news": "2026-09-25T11:35:05.450Z"
+    "games": "2026-09-26T11:10:09.639Z",
+    "news": "2026-09-26T11:10:09.639Z"
   },
   "carriedOver": [
     "teams",

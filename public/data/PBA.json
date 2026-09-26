@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-25T11:34:35.059Z",
+  "fetchedAt": "2026-09-26T11:09:42.610Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
@@ -14428,6 +14427,19 @@
   ],
   "news": [
     {
+      "id": "PBA-mightysportstounveilnewbasketballcourtsa",
+      "league": "PBA",
+      "title": "Mighty Sports to unveil new basketball courts at AcroCity",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Mighty Sports is set to inaugurate its new basketball courts at AcroCity in Guiguinto, Bulacan on Sunday, September 27, in an event highlighted by a charity exhibition featuring former PBA players and Xavier School basketball legends.",
+      "published": "2026-09-26T04:32:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/26/2559069/mighty-sports-unveil-new-basketball-courts-acrocity"
+    },
+    {
       "id": "PBA-gilaswomenfallshortofasiangames33goldvsh",
       "league": "PBA",
       "title": "Gilas Women fall short of Asian Games 3×3 gold vs hot-shooting Japan",
@@ -14439,19 +14451,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-3x3-basketball-philippines-japan-final-september-25-2026/"
-    },
-    {
-      "id": "PBA-gilaswomenlonebrightspotforphilippinehoo",
-      "league": "PBA",
-      "title": "Gilas women lone bright spot for Philippine hoops in Asian Games with 3x3 silver",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Bridesmaid finish for Gilas Pilipinas women in the 3x3 basketball court of the Nagoya Asian Games.",
-      "published": "2026-09-25T10:33:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/25/2558868/gilas-women-lone-bright-spot-philippine-hoops-asian-games-3x3-silver"
     },
     {
       "id": "PBA-asiangamesgilaswomen3x3deliversilvermeda",
@@ -14467,19 +14466,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003717/asian-games-gilas-women-3x3-settle-for-silver-after-falling-to-japan-in-finals/story/"
     },
     {
-      "id": "PBA-gilaswomencapasiangames33runwithsilver",
-      "league": "PBA",
-      "title": "Gilas Women cap Asian Games 3×3 run with silver",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Women could not overcome the experience of host Japan. The Philippines fell to Japan, 21-11, in the gold medal match of the women’s 3×3 basketball tournament at the 20th Asian Games on Friday at Kinjo Futo Station Square in Nagoya. Excellent shot-making by the Jap",
-      "published": "2026-09-25T10:18:13.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-women-cap-asian-games-3x3-run-with-silver/384775"
-    },
-    {
       "id": "PBA-asiangamesheartbreakforgilasmen3x3afterf",
       "league": "PBA",
       "title": "Asian Games: Heartbreak for Gilas Men 3x3 after falling to Iran in bronze medal game",
@@ -14491,32 +14477,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003712/asian-games-heartbreak-for-gilas-men-3x3-after-falling-to-iran-in-bronze-medal-game/story/"
-    },
-    {
-      "id": "PBA-gilasmenfalltoiraniantoendupfourthinasia",
-      "league": "PBA",
-      "title": "Gilas men fall to Iranian to end up fourth in Asiad 3x3 hoops",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "No podium finish for GIlas Pilipinas’ men’s 3x3 team.",
-      "published": "2026-09-25T10:04:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/25/2558864/gilas-men-fall-iranian-end-fourth-asiad-3x3-hoops"
-    },
-    {
-      "id": "PBA-gilasmenfallshortofasiadmedalbowtoiranin",
-      "league": "PBA",
-      "title": "Gilas Men fall short of Asiad medal, bow to Iran in 3×3 bronze match",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Men fell short of a medal after bowing to Iran, 21-10 (8:13), in the 20th Asian Games 3×3 basketball bronze medal match on Friday at Kinjo Futo Station Square. It was a crushing defeat for the Filipino quartet of Nic Cabanero, Luis Pablo, Doy Dungo, and Koji Buena",
-      "published": "2026-09-25T09:57:23.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-falls-short-of-asiad-medal-bows-to-iran-in-3x3-bronze-match/384771"
     },
     {
       "id": "PBA-gilaswomenearnshotatasiangames33goldgila",
@@ -14532,19 +14492,6 @@
       "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-3x3-basketball-philippines-semifinals-september-25-2026/"
     },
     {
-      "id": "PBA-gilasmenbowtokoreamissasiangames33goldme",
-      "league": "PBA",
-      "title": "Gilas Men bow to Korea, miss Asian Games 3×3 gold-medal clash",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Men’s magical run toward an Asian Games gold medal came to an end at the hands of one of the continent’s top 3×3 teams. The quartet of Nic Cabanero, Luis Pablo, Doy Dungo, and Koji Buenaflor bowed to FIBA 3×3 Asia Cup 2026 runner-up South Korea, 21-9, on Friday at",
-      "published": "2026-09-25T05:30:29.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-men-bow-to-korea-miss-asian-games-3x3-gold-medal-clash/384748"
-    },
-    {
       "id": "PBA-asiangamesgilasmen3x3teamdropstobattlefo",
       "league": "PBA",
       "title": "Asian Games: Gilas Men 3x3 team drops to battle for bronze after semis loss to Korea",
@@ -14556,19 +14503,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003671/asian-games-gilas-men-3x3-team-drops-to-battle-for-bronze-after-semis-loss-to-korea/story/"
-    },
-    {
-      "id": "PBA-gilaswomencrushthailandbookspotinasiad33",
-      "league": "PBA",
-      "title": "Gilas Women crush Thailand, book spot in Asiad 3×3 final",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Women assured the Philippines of a top-two finish in the 20th Asian Games 3×3 competition after defeating Thailand, 13-8, in the semifinals on Friday at Kinjo Futo Station Square. The Philippines will face host Japan, which edged China, 17-16, in the other semifin",
-      "published": "2026-09-25T04:57:55.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-women-crush-thailand-book-spot-in-asiad-3x3-final/384745"
     },
     {
       "id": "PBA-gilaswomenadvanceto3x3basketballgoldmeda",
@@ -14584,19 +14518,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003666/gilas-women-advance-to-3x3-basketball-gold-medal-match-assured-of-asian-games-medal/story/"
     },
     {
-      "id": "PBA-unbeatengilas33teamsreachasiangamessemis",
-      "league": "PBA",
-      "title": "Unbeaten Gilas 3×3 teams reach Asian Games semis after contrasting wins",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Women breeze past Singapore, while Gilas Men survive Chinese Taipei as they move within a win of giving the Philippines its first Asian Games medal in 3x3 basketball",
-      "published": "2026-09-24T13:22:43.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-3x3-basketball-philippines-quarterfinals-september-24-2026/"
-    },
-    {
       "id": "PBA-gilaspilipinaswomen3x3teamoustssingapore",
       "league": "PBA",
       "title": "Gilas Pilipinas Women 3x3 team ousts Singapore to clinch Asian Games semis berth",
@@ -14608,19 +14529,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003593/gilas-pilipinas-women-3x3-team-ousts-singapore-to-clinch-asian-games-semis-berth/story/"
-    },
-    {
-      "id": "PBA-gilaswomenmissasiangamessemisafterlossto",
-      "league": "PBA",
-      "title": "Gilas Women miss Asian Games semis after loss to Chinese Taipei",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Afril Bernardino leads all scorers, but her effort goes for naught as Gilas Women crash out of the Asian Games quarterfinals for the second time in a row",
-      "published": "2026-09-24T11:18:25.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-women-basketball-philippines-chinese-taipei-september-24-2026/"
     },
     {
       "id": "PBA-gilaspilipinasmen3x3dethroneschinesetaip",
@@ -14647,32 +14555,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003574/gilas-pilipinas-women-bow-out-of-asian-games-after-quarterfinal-loss-to-chinese-taipei/story/"
-    },
-    {
-      "id": "PBA-asiangamesgilaswomen3x3teamdominatesmala",
-      "league": "PBA",
-      "title": "Asian Games: Gilas Women 3x3 team dominates Malaysia to book quarterfinals spot",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Women 3x3 team's chase for an elusive gold medal continued after it dominated Malaysia, 17-12, to complete a group stage sweep in the 2026 Asian Games.",
-      "published": "2026-09-23T09:46:53.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003442/asian-games-gilas-women-3x3-team-dominates-malaysia-to-book-quarterfinals-spot/story/"
-    },
-    {
-      "id": "PBA-asiangamesgilasmen3x3beatskazakhstantocl",
-      "league": "PBA",
-      "title": "Asian Games: Gilas Men 3x3 beats Kazakhstan to clinch quarterfinals berth",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Men 3x3 pulled away late to carve out a 21-15 win over Kazakhstan and complete a group stage sweep of the 2026 Asian Games 3x3 men's basketball on Wednesday at the Kinjo Futo Station Square Venue in Japan.",
-      "published": "2026-09-23T04:55:33.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003395/asian-games-gilas-men-3x3-beats-kazakhstan-to-clinch-quarterfinals-berth/story/"
     }
   ],
   "leaders": {
@@ -15143,8 +15025,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-25T11:34:35.059Z",
-    "news": "2026-09-25T11:34:35.059Z"
+    "games": "2026-09-26T11:09:42.610Z",
+    "news": "2026-09-26T11:09:42.610Z"
   },
   "carriedOver": [
     "teams",
