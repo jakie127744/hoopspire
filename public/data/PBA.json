@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-26T11:09:42.610Z",
+  "fetchedAt": "2026-09-27T11:47:31.536Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
@@ -14427,19 +14428,6 @@
   ],
   "news": [
     {
-      "id": "PBA-mightysportstounveilnewbasketballcourtsa",
-      "league": "PBA",
-      "title": "Mighty Sports to unveil new basketball courts at AcroCity",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Mighty Sports is set to inaugurate its new basketball courts at AcroCity in Guiguinto, Bulacan on Sunday, September 27, in an event highlighted by a charity exhibition featuring former PBA players and Xavier School basketball legends.",
-      "published": "2026-09-26T04:32:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/09/26/2559069/mighty-sports-unveil-new-basketball-courts-acrocity"
-    },
-    {
       "id": "PBA-gilaswomenfallshortofasiangames33goldvsh",
       "league": "PBA",
       "title": "Gilas Women fall short of Asian Games 3×3 gold vs hot-shooting Japan",
@@ -14479,19 +14467,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003712/asian-games-heartbreak-for-gilas-men-3x3-after-falling-to-iran-in-bronze-medal-game/story/"
     },
     {
-      "id": "PBA-gilaswomenearnshotatasiangames33goldgila",
-      "league": "PBA",
-      "title": "Gilas Women earn shot at Asian Games 3×3 gold; Gilas Men drop to bronze match",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Women stay unbeaten after a low-scoring win over Thailand in the semifinals and assure the Philippines its first-ever 3x3 basketball medal in the Asian Games",
-      "published": "2026-09-25T06:06:16.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/sports/gilas-pilipinas/asian-games-3x3-basketball-philippines-semifinals-september-25-2026/"
-    },
-    {
       "id": "PBA-asiangamesgilasmen3x3teamdropstobattlefo",
       "league": "PBA",
       "title": "Asian Games: Gilas Men 3x3 team drops to battle for bronze after semis loss to Korea",
@@ -14529,32 +14504,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003593/gilas-pilipinas-women-3x3-team-ousts-singapore-to-clinch-asian-games-semis-berth/story/"
-    },
-    {
-      "id": "PBA-gilaspilipinasmen3x3dethroneschinesetaip",
-      "league": "PBA",
-      "title": "Gilas Pilipinas Men 3x3 dethrones Chinese Taipei in thriller to reach Asian Games semis",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Men 3x3 pulled off a thrilling 21-19 victory to stun defending champion Chinese Taipei in the 2026 Asian Games men's 3x3 basketball.",
-      "published": "2026-09-24T10:02:22.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003575/gilas-pilipinas-men-3x3-dethrones-chinese-taipei-in-thriller-to-reach-asian-games-semis/story/"
-    },
-    {
-      "id": "PBA-gilaspilipinaswomenbowoutofasiangamesaft",
-      "league": "PBA",
-      "title": "Gilas Pilipinas Women bow out of Asian Games after quarterfinal loss to Chinese Taipei",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Women's gallant stand was not enough as they absorbed an 83-71 loss to Chinese Taipei to bow out of the 2026 Asian Games on Thursday at the Aichi International Arena in Japan.",
-      "published": "2026-09-24T09:51:53.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003574/gilas-pilipinas-women-bow-out-of-asian-games-after-quarterfinal-loss-to-chinese-taipei/story/"
     }
   ],
   "leaders": {
@@ -15025,8 +14974,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-26T11:09:42.610Z",
-    "news": "2026-09-26T11:09:42.610Z"
+    "games": "2026-09-27T11:47:31.536Z",
+    "news": "2026-09-27T11:47:31.536Z"
   },
   "carriedOver": [
     "teams",

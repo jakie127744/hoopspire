@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-26T11:07:37.828Z",
+  "fetchedAt": "2026-09-27T11:46:05.410Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260827&toDate=20261026&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260828&toDate=20261027&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8412,6 +8412,97 @@
   ],
   "news": [
     {
+      "id": "KBL-asiadwomensbasketballcaptainspeaksgoldme",
+      "league": "KBL",
+      "title": "(Asiad) Women's basketball captain speaks gold medal into existence",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 26 (Yonhap) -- Before her South Korean team faced Japan on ...",
+      "published": "2026-09-26T14:38:35.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092611080001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926007900315"
+    },
+    {
+      "id": "KBL-3rdldasiadskoreawinswomensbasketballgold",
+      "league": "KBL",
+      "title": "(3rd LD) (Asiad) S. Korea wins women's basketball gold medal",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 26 (Yonhap) -- South Korea captured the women's basketball ...",
+      "published": "2026-09-26T14:10:54.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092611020001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926005553315"
+    },
+    {
+      "id": "KBL-asiadmensfencingteamwomensbasketballteam",
+      "league": "KBL",
+      "title": "(Asiad) Men's fencing team, women's basketball team snatch gold medals; gamers capture 1st title",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 26 (Yonhap) -- South Korea earned a trio of gold medals Sat...",
+      "published": "2026-09-26T14:03:53.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092607670001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926007700315"
+    },
+    {
+      "id": "KBL-2ndldasiadskoreawinswomensbasketballgold",
+      "league": "KBL",
+      "title": "(2nd LD) (Asiad) S. Korea wins women's basketball gold medal",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 26 (Yonhap) -- South Korea captured the women's basketball ...",
+      "published": "2026-09-26T13:27:00.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092610590001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926005552315"
+    },
+    {
+      "id": "KBL-leadasiadskoreawinswomensbasketballgoldm",
+      "league": "KBL",
+      "title": "(LEAD) (Asiad) S. Korea wins women's basketball gold medal",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 26 (Yonhap) -- South Korea captured the women's basketball ...",
+      "published": "2026-09-26T12:42:46.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092608900001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926005551315"
+    },
+    {
+      "id": "KBL-asiadskoreawinswomensbasketballgoldmedal",
+      "league": "KBL",
+      "title": "(Asiad) S. Korea wins women's basketball gold medal",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NAGOYA, Japan, Sept. 26 (Yonhap) -- South Korea captured the women's basketball ...",
+      "published": "2026-09-26T12:18:41.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/26/PYH2026092608900001300_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926005500315"
+    },
+    {
+      "id": "KBL-urgentskoreawinsasiangamesgoldmedalinwom",
+      "league": "KBL",
+      "title": "(URGENT) S. Korea wins Asian Games gold medal in women's basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "(END)",
+      "published": "2026-09-26T12:13:38.000Z",
+      "byline": "Yonhap News",
+      "tag": "Report",
+      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+      "url": "https://en.yna.co.kr/view/AEN20260926005400315"
+    },
+    {
       "id": "KBL-leadasiadskoreabeatschinatoreachwomensba",
       "league": "KBL",
       "title": "(LEAD) (Asiad) S. Korea beats China to reach women's basketball final",
@@ -8971,8 +9062,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-26T11:07:37.828Z",
-    "news": "2026-09-26T11:07:37.828Z"
+    "games": "2026-09-27T11:46:05.410Z",
+    "news": "2026-09-27T11:46:05.410Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-09-26T11:09:45.234Z",
+  "fetchedAt": "2026-09-27T11:47:33.837Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -55,6 +55,17 @@
       "color": "#2f3376"
     },
     {
+      "id": 50,
+      "league": "LNBP",
+      "name": "Lobos",
+      "nameLocal": null,
+      "shortName": "Lobos",
+      "abbr": "LOBO",
+      "city": null,
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+      "color": null
+    },
+    {
       "id": 28,
       "league": "LNBP",
       "name": "Dorados",
@@ -66,14 +77,14 @@
       "color": "#ffd200"
     },
     {
-      "id": 50,
+      "id": 49,
       "league": "LNBP",
-      "name": "Lobos",
+      "name": "Gambusinos",
       "nameLocal": null,
-      "shortName": "Lobos",
-      "abbr": "LOBO",
+      "shortName": "Gambusinos",
+      "abbr": "GAMB",
       "city": null,
-      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
       "color": null
     },
     {
@@ -88,15 +99,15 @@
       "color": "#ca342e"
     },
     {
-      "id": 49,
+      "id": 1,
       "league": "LNBP",
-      "name": "Gambusinos",
+      "name": "Abejas",
       "nameLocal": null,
-      "shortName": "Gambusinos",
-      "abbr": "GAMB",
-      "city": null,
-      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
-      "color": null
+      "shortName": "Abejas",
+      "abbr": "ABEJ",
+      "city": "León, Guanajuato",
+      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
+      "color": "#ffffff"
     },
     {
       "id": 45,
@@ -130,17 +141,6 @@
       "city": "San Luis Potosí",
       "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
       "color": "#006638"
-    },
-    {
-      "id": 1,
-      "league": "LNBP",
-      "name": "Abejas",
-      "nameLocal": null,
-      "shortName": "Abejas",
-      "abbr": "ABEJ",
-      "city": "León, Guanajuato",
-      "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
-      "color": "#ffffff"
     },
     {
       "id": 47,
@@ -177,12 +177,12 @@
           "abbr": "SOLE",
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png"
         },
-        "wins": 18,
+        "wins": 19,
         "losses": 5,
-        "pct": ".783",
-        "pointsFor": 1952,
-        "pointsAgainst": 1712,
-        "diff": 240,
+        "pct": ".792",
+        "pointsFor": 2049,
+        "pointsAgainst": 1776,
+        "diff": 273,
         "streak": null,
         "seed": 1
       },
@@ -193,12 +193,12 @@
           "abbr": "FR",
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png"
         },
-        "wins": 16,
+        "wins": 17,
         "losses": 7,
-        "pct": ".696",
-        "pointsFor": 1999,
-        "pointsAgainst": 1873,
-        "diff": 126,
+        "pct": ".708",
+        "pointsFor": 2094,
+        "pointsAgainst": 1962,
+        "diff": 132,
         "streak": null,
         "seed": 2
       },
@@ -209,12 +209,12 @@
           "abbr": "PANT",
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png"
         },
-        "wins": 15,
+        "wins": 16,
         "losses": 8,
-        "pct": ".652",
-        "pointsFor": 2038,
-        "pointsAgainst": 1954,
-        "diff": 84,
+        "pct": ".667",
+        "pointsFor": 2135,
+        "pointsAgainst": 2042,
+        "diff": 93,
         "streak": null,
         "seed": 3
       },
@@ -225,14 +225,30 @@
           "abbr": "ASTR",
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png"
         },
-        "wins": 15,
+        "wins": 16,
         "losses": 7,
-        "pct": ".682",
-        "pointsFor": 1929,
-        "pointsAgainst": 1778,
-        "diff": 151,
+        "pct": ".696",
+        "pointsFor": 2030,
+        "pointsAgainst": 1855,
+        "diff": 175,
         "streak": null,
         "seed": 4
+      },
+      {
+        "team": {
+          "id": 50,
+          "name": "Lobos",
+          "abbr": "LOBO",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png"
+        },
+        "wins": 15,
+        "losses": 8,
+        "pct": ".652",
+        "pointsFor": 1942,
+        "pointsAgainst": 1851,
+        "diff": 91,
+        "streak": null,
+        "seed": 5
       },
       {
         "team": {
@@ -242,29 +258,29 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png"
         },
         "wins": 14,
-        "losses": 9,
-        "pct": ".609",
-        "pointsFor": 1965,
-        "pointsAgainst": 1937,
-        "diff": 28,
+        "losses": 10,
+        "pct": ".583",
+        "pointsFor": 2029,
+        "pointsAgainst": 2034,
+        "diff": -5,
         "streak": null,
-        "seed": 5
+        "seed": 6
       },
       {
         "team": {
-          "id": 50,
-          "name": "Lobos",
-          "abbr": "LOBO",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png"
+          "id": 49,
+          "name": "Gambusinos",
+          "abbr": "GAMB",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png"
         },
-        "wins": 14,
-        "losses": 8,
-        "pct": ".636",
-        "pointsFor": 1851,
-        "pointsAgainst": 1783,
-        "diff": 68,
+        "wins": 11,
+        "losses": 13,
+        "pct": ".458",
+        "pointsFor": 1935,
+        "pointsAgainst": 1989,
+        "diff": -54,
         "streak": null,
-        "seed": 6
+        "seed": 7
       },
       {
         "team": {
@@ -274,29 +290,29 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png"
         },
         "wins": 12,
-        "losses": 10,
-        "pct": ".545",
-        "pointsFor": 1917,
-        "pointsAgainst": 1872,
-        "diff": 45,
+        "losses": 11,
+        "pct": ".522",
+        "pointsFor": 1985,
+        "pointsAgainst": 1963,
+        "diff": 22,
         "streak": null,
-        "seed": 7
+        "seed": 8
       },
       {
         "team": {
-          "id": 49,
-          "name": "Gambusinos",
-          "abbr": "GAMB",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png"
+          "id": 1,
+          "name": "Abejas",
+          "abbr": "ABEJ",
+          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png"
         },
-        "wins": 10,
-        "losses": 13,
-        "pct": ".435",
-        "pointsFor": 1833,
-        "pointsAgainst": 1906,
-        "diff": -73,
+        "wins": 9,
+        "losses": 15,
+        "pct": ".375",
+        "pointsFor": 2037,
+        "pointsAgainst": 2063,
+        "diff": -26,
         "streak": null,
-        "seed": 8
+        "seed": 9
       },
       {
         "team": {
@@ -306,13 +322,13 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png"
         },
         "wins": 10,
-        "losses": 12,
-        "pct": ".455",
-        "pointsFor": 1846,
-        "pointsAgainst": 1843,
-        "diff": 3,
+        "losses": 13,
+        "pct": ".435",
+        "pointsFor": 1923,
+        "pointsAgainst": 1944,
+        "diff": -21,
         "streak": null,
-        "seed": 9
+        "seed": 10
       },
       {
         "team": {
@@ -322,13 +338,13 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png"
         },
         "wins": 9,
-        "losses": 14,
-        "pct": ".391",
-        "pointsFor": 1961,
-        "pointsAgainst": 2075,
-        "diff": -114,
+        "losses": 15,
+        "pct": ".375",
+        "pointsFor": 2049,
+        "pointsAgainst": 2172,
+        "diff": -123,
         "streak": null,
-        "seed": 10
+        "seed": 11
       },
       {
         "team": {
@@ -338,27 +354,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png"
         },
         "wins": 8,
-        "losses": 15,
-        "pct": ".348",
-        "pointsFor": 1917,
-        "pointsAgainst": 2059,
-        "diff": -142,
-        "streak": null,
-        "seed": 11
-      },
-      {
-        "team": {
-          "id": 1,
-          "name": "Abejas",
-          "abbr": "ABEJ",
-          "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png"
-        },
-        "wins": 8,
-        "losses": 15,
-        "pct": ".348",
-        "pointsFor": 1945,
-        "pointsAgainst": 1985,
-        "diff": -40,
+        "losses": 16,
+        "pct": ".333",
+        "pointsFor": 1995,
+        "pointsAgainst": 2151,
+        "diff": -156,
         "streak": null,
         "seed": 12
       },
@@ -370,11 +370,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png"
         },
         "wins": 6,
-        "losses": 17,
-        "pct": ".261",
-        "pointsFor": 1877,
-        "pointsAgainst": 1993,
-        "diff": -116,
+        "losses": 18,
+        "pct": ".250",
+        "pointsFor": 1966,
+        "pointsAgainst": 2088,
+        "diff": -122,
         "streak": null,
         "seed": 13
       },
@@ -386,11 +386,11 @@
           "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png"
         },
         "wins": 4,
-        "losses": 19,
-        "pct": ".174",
-        "pointsFor": 1818,
-        "pointsAgainst": 2078,
-        "diff": -260,
+        "losses": 20,
+        "pct": ".167",
+        "pointsFor": 1901,
+        "pointsAgainst": 2180,
+        "diff": -279,
         "streak": null,
         "seed": 14
       }
@@ -545,8 +545,8 @@
     {
       "id": 3906,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T16:15:00-06:00",
@@ -557,7 +557,7 @@
         "name": "Diablos Rojos",
         "abbr": "DR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/81d8caaa90ad5a8f9a926e131d0bc6cc.png",
-        "score": null,
+        "score": 77,
         "linescores": [],
         "leaders": []
       },
@@ -566,7 +566,7 @@
         "name": "Astros",
         "abbr": "ASTR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
-        "score": null,
+        "score": 101,
         "linescores": [],
         "leaders": []
       }
@@ -748,8 +748,8 @@
     {
       "id": 3914,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T16:15:00-06:00",
@@ -760,7 +760,7 @@
         "name": "Fuerza Regia",
         "abbr": "FR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/786aa765152e65e495e98357a38e51be.png",
-        "score": null,
+        "score": 95,
         "linescores": [],
         "leaders": []
       },
@@ -769,7 +769,7 @@
         "name": "El Calor",
         "abbr": "EC",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e90600851abba86ac6fd7f6ecfa065b5.png",
-        "score": null,
+        "score": 89,
         "linescores": [],
         "leaders": []
       }
@@ -777,8 +777,8 @@
     {
       "id": 3909,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T17:00:00-06:00",
@@ -789,7 +789,7 @@
         "name": "Lobos",
         "abbr": "LOBO",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/c09e944bf62c0c0f15ace5f4c19d1ace.png",
-        "score": null,
+        "score": 91,
         "linescores": [],
         "leaders": []
       },
@@ -798,7 +798,7 @@
         "name": "Mineros",
         "abbr": "MINE",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/42f58feef4f8cb073ea0619bf6cc881e.png",
-        "score": null,
+        "score": 68,
         "linescores": [],
         "leaders": []
       }
@@ -1212,8 +1212,8 @@
     {
       "id": 3912,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T18:00:00-06:00",
@@ -1224,7 +1224,7 @@
         "name": "Dorados",
         "abbr": "DORA",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/5525b7e8ca860bdb136e022638d60ded.png",
-        "score": null,
+        "score": 64,
         "linescores": [],
         "leaders": []
       },
@@ -1233,7 +1233,7 @@
         "name": "Soles",
         "abbr": "SOLE",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
-        "score": null,
+        "score": 97,
         "linescores": [],
         "leaders": []
       }
@@ -2720,8 +2720,8 @@
     {
       "id": 3918,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T20:00:00-06:00",
@@ -2732,7 +2732,7 @@
         "name": "Freseros",
         "abbr": "FRES",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/8c44928f436f176e79d61476694d895b.png",
-        "score": null,
+        "score": 88,
         "linescores": [],
         "leaders": []
       },
@@ -2741,7 +2741,7 @@
         "name": "Panteras",
         "abbr": "PANT",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ed525d931b278327ea35b62ae60536c9.png",
-        "score": null,
+        "score": 97,
         "linescores": [],
         "leaders": []
       }
@@ -2894,8 +2894,8 @@
     {
       "id": 3915,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T20:00:00-06:00",
@@ -2906,7 +2906,7 @@
         "name": "Gambusinos",
         "abbr": "GAMB",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/d2864dcd5ef3cd666605f27114c74387.png",
-        "score": null,
+        "score": 102,
         "linescores": [],
         "leaders": []
       },
@@ -2915,7 +2915,7 @@
         "name": "Correcaminos",
         "abbr": "CORR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/2409e6bf9afddeb48c10e647b73c1254.png",
-        "score": null,
+        "score": 83,
         "linescores": [],
         "leaders": []
       }
@@ -3126,8 +3126,8 @@
     {
       "id": 3917,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-09-26T20:00:00-06:00",
@@ -3138,7 +3138,7 @@
         "name": "Abejas",
         "abbr": "ABEJ",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/ddb60ddbce611019890a749bf39cbc24.png",
-        "score": null,
+        "score": 92,
         "linescores": [],
         "leaders": []
       },
@@ -3147,7 +3147,7 @@
         "name": "Santos",
         "abbr": "SANT",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/e6f1cf001a81f91411d7a7db1533ec09.png",
-        "score": null,
+        "score": 78,
         "linescores": [],
         "leaders": []
       }
@@ -6445,12 +6445,12 @@
   ],
   "leaders": {},
   "sectionsUpdatedAt": {
-    "teams": "2026-09-26T11:09:45.234Z",
-    "rosters": "2026-09-26T11:09:45.234Z",
-    "playerStats": "2026-09-26T11:09:45.234Z",
-    "standings": "2026-09-26T11:09:45.234Z",
-    "games": "2026-09-26T11:09:45.234Z",
-    "news": "2026-09-26T11:09:45.234Z",
-    "leaders": "2026-09-26T11:09:45.234Z"
+    "teams": "2026-09-27T11:47:33.837Z",
+    "rosters": "2026-09-27T11:47:33.837Z",
+    "playerStats": "2026-09-27T11:47:33.837Z",
+    "standings": "2026-09-27T11:47:33.837Z",
+    "games": "2026-09-27T11:47:33.837Z",
+    "news": "2026-09-27T11:47:33.837Z",
+    "leaders": "2026-09-27T11:47:33.837Z"
   }
 }

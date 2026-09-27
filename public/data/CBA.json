@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2025",
-  "fetchedAt": "2026-09-26T11:09:53.902Z",
+  "fetchedAt": "2026-09-27T11:47:43.590Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -20,7 +20,7 @@
     "CBA: bot-check page; skipped",
     "CBA 2026: RealGM returned a bot-check page; skipped",
     "CBA 2025: RealGM returned a bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -16521,30 +16521,17 @@
   ],
   "news": [
     {
-      "id": "CBA-postcardfromnagoyaasiangamesopeninghourn",
+      "id": "CBA-chinasinvinciblezhangziyuhelpswomensbask",
       "league": "CBA",
-      "title": "Postcard from Nagoya: Asian Games opening hour nears, but teething problems remain",
+      "title": "China’s ‘invincible’ Zhang Ziyu helps women’s basketball team claim bronze at Asian Games",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The Asian Games opening ceremony at Paloma Mizuho Stadium on Saturday will fire the starting gun on the first official days of competition in Nagoya and Tokyo, even if some athletes have already finished their events. Various team sports such as basketball, football and volleybal",
-      "published": "2026-09-19T02:15:24.000Z",
+      "description": "Zhang Ziyu played a starring role to drag China to women’s basketball bronze at the Asian Games on Saturday, with her coach predicting the teenager standing 2.2 metres (7-foot-3) will one day be “invincible”. The 19-year-old is already taller than NBA legend Shaquille O’Neal and ",
+      "published": "2026-09-26T13:00:09.000Z",
       "byline": "South China Morning Post",
       "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/19/befb3414-37ee-45bc-b7b0-167387ba6b39_7dcba2e2.jpg?itok=nKGxuALE&v=1789784114",
-      "url": "https://www.scmp.com/sport/other-sport/article/3368086/postcard-nagoya-asian-games-opening-hour-nears-teething-problems-remain?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-chaostepidpublicinterestatasiangamessofa",
-      "league": "CBA",
-      "title": "Chaos, tepid public interest at Asian Games so far, but things will heat up when it counts",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Asian Games open in Japan on Saturday, against a backdrop of complaints over athlete accommodation, venues that have leaked under record rainfall, and a host city still at odds with the Olympic Council of Asia over the ballooning number of those taking part. Chaos has been th",
-      "published": "2026-09-18T15:05:20.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/18/3aec6a73-24c5-4a53-81a2-008ce4c2595a_07986343.jpg?itok=zdpGusnH&v=1789743909",
-      "url": "https://www.scmp.com/sport/other-sport/article/3368067/chaos-tepid-public-interest-asian-games-so-far-things-will-heat-when-it-counts?utm_source=rss_feed"
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/7a955dac-8bfe-40ec-9b1e-ea203550c46d_4786bc3a.jpg?itok=S3yg-9q5&v=1790421158",
+      "url": "https://www.scmp.com/sport/basketball/article/3368907/chinas-invincible-zhang-ziyu-helps-womens-basketball-team-claim-bronze-asian-games?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -17015,15 +17002,14 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-09-26T11:09:53.902Z",
-    "news": "2026-09-25T11:34:50.876Z"
+    "games": "2026-09-27T11:47:43.590Z",
+    "news": "2026-09-27T11:47:43.590Z"
   },
   "carriedOver": [
     "teams",
     "rosters",
     "playerStats",
     "leaders",
-    "standings",
-    "news"
+    "standings"
   ]
 }
