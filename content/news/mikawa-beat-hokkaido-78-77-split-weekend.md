@@ -25,4 +25,12 @@ Saturday belonged to Hokkaido. Tominaga scored 41 points in a 106-97 win, and Ga
 
 Mikawa grabbed 15 offensive rebounds on Sunday to Hokkaido's 12, and turned the ball over eight times to Hokkaido's 11.
 
+**Scoring.**
+
+Mikawa: Sean O'Mara 17, Yudai Nishida 16, Davante Gardner 14, Yutaro Suda 10, Aaron White 8, Yoshiaki Kubota 7, Thomas Kennedy 2, Satoshi Nagano 2, Ryogo Sumino 2.
+
+Hokkaido: Marques Bolden 27, Keisei Tominaga 23, Gary Clark 12, Yuta Osaki 5, Shuto Ichiba 3, Dwight Ramos 2, Hiroto Kikuchi 2, John Harrar 2, Teruchika Naito 1, Kohei Sekino 0, Ren Shimatani 0, Hiroki Matsuzaki 0.
+
+By quarter, it was Mikawa 20, 23, 21, 14 and Hokkaido 16, 24, 20, 17.
+
 **Next.** Both clubs play again on Saturday, October 3, at 14:05. Mikawa visit Osaka Evessa, and Hokkaido host the Sendai 89ers at Hokkai Kita-yale.
