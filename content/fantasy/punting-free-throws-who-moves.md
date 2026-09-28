@@ -1,5 +1,5 @@
 ---
-title: "Punting free throws: six of the top ten stay put, and Giannis jumps 47 places"
+title: "Punting free throws: six of the top ten stay put, and Giannis jumps 46 places"
 dek: "Drop free throw percentage from a nine-category pool of 150 and 43 of the top 50 hold their place in the group. Here is who rises, who falls, and the minutes arithmetic behind it."
 league: "NBA"
 author: "Franco Medina"
