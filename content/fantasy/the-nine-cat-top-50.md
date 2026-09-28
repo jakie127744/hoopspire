@@ -96,14 +96,14 @@ Here is what produced 53rd place. Raw averages on the left, the z-score each one
 | Steals | 0.9 | -0.42 |
 | Blocks | 0.7 | +0.10 |
 | Threes made | 0.4 | -1.34 |
-| Field goal impact | 10.4 of 16.6, 62.7% | +3.75 |
-| Free throw impact | 6.4 of 9.9, 64.6% | -4.70 |
+| Field goal impact | 16.6 attempts, 62.4% | +3.75 |
+| Free throw impact | 9.9 attempts, 65.0% | -4.70 |
 | Turnovers | 3.2 | -1.69 |
 | **Nine-cat total** | | **+0.24** |
 
 Each z-score is rounded to two places, so the nine add to +0.25 against an unrounded total of +0.24. The field goal impact is the best mark in the entire pool. The free throw impact is the worst in the entire pool, ahead of Rudy Gobert at -3.40, and the two very nearly cancel.
 
-That is the whole story. Shooting 64.6% from the line would be survivable on three attempts a game. On 9.9 attempts it drags a whole category down every week, and a category is a category whether you lose it by a point or by 40.
+That is the whole story. Shooting 65.0% from the line would be survivable on three attempts a game. On 9.9 attempts it drags a whole category down every week, and a category is a category whether you lose it by a point or by 40.
 
 None of this says Giannis is a bad player, or even a bad fantasy player. It says he is a bad fantasy player *in nine-cat, in a lineup that intends to compete for free throw percentage*. Remove free throw percentage from the scoring entirely and he ranks 7th of 150, because the -4.70 stops being a cost and the +3.75 stays. This is the clearest case in the league of a rank that is useless without knowing the build it is going into.
 
