@@ -142,10 +142,19 @@ export default function Story() {
         reactions. An ad pressed against a row of buttons is the other thing
         that placement policy is about: a reader reaching for "Great read"
         should not be able to land on an advertisement instead.
+
+        Gated on length. AdSense's low-value-content finding traced to
+        published pieces as short as 167 words carrying an ad — a thin page
+        does not stop being thin because it has a paragraph, and it must
+        never be the one with an ad on it. 500 is the floor the desks are
+        already held to; this is what enforces it in code rather than trusting
+        every future piece to clear it on its own.
       */}
-      <div className="mt-14 border-t border-parchment pt-6">
-        <AdSlot slotId={SITE.adSlots.square.id} format={SITE.adSlots.square.format} />
-      </div>
+      {article.wordCount >= 500 && (
+        <div className="mt-14 border-t border-parchment pt-6">
+          <AdSlot slotId={SITE.adSlots.square.id} format={SITE.adSlots.square.format} />
+        </div>
+      )}
 
       <div className="mt-14">
         <NewsletterSignup />

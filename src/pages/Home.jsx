@@ -6,8 +6,6 @@ import { leaguesByGroup, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
-import AdSlot from '../components/AdSlot.jsx'
-import { SITE } from '../lib/site.js'
 import { useMeta } from '../lib/meta.js'
 
 const HERO_IMAGE =
@@ -165,43 +163,11 @@ export default function Home() {
       )}
 
       {/*
-        The ad now follows our own work rather than the wire. It is gated on
-        that work being on the page: an ad next to a column of other people's
-        headlines is the arrangement AdSense's policy on low-value inventory
-        is written about, and it was the arrangement we had.
-
-        A Multiplex unit looks like a grid of cards, which is what sits above
-        it — so AdSlot labels it "Advertisement" and it gets its own band of
-        whitespace, to keep the resemblance from reading as an endorsement.
+        Our own ledger data — live scores and recent results — comes next,
+        still ahead of anyone else's reporting. It is the site's own database,
+        not linked-out content, so it belongs with "Written Here" at the front
+        of the page rather than after it.
       */}
-      {ourLead && (
-        <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-          <AdSlot slotId={SITE.adSlots.feed.id} format={SITE.adSlots.feed.format} height={320} />
-        </section>
-      )}
-
-      {/*
-        Everyone else's reporting, below ours and named as theirs. Each card
-        carries its publisher's byline and links out to them; nothing here is
-        reproduced beyond a headline and the standfirst the feed supplies.
-      */}
-      <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-        <SectionHead title="On the Wire">
-          <Eyebrow className="text-ink/40">Reported elsewhere</Eyebrow>
-        </SectionHead>
-        {loading ? (
-          <Loading label="Pulling the wire" />
-        ) : wire.length ? (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {wire.map((a) => (
-              <ArticleCard key={a.id} article={a} />
-            ))}
-          </div>
-        ) : (
-          <Empty title="No stories on the wire right now." />
-        )}
-      </section>
-
       <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
         <SectionHead
           title="Final Whistles"
@@ -229,6 +195,32 @@ export default function Home() {
           </div>
         ) : (
           <Empty title="No completed games in the current window." />
+        )}
+      </section>
+
+      {/*
+        Everyone else's reporting goes last, named as theirs, no ad anywhere
+        near it. AdSense flagged the previous arrangement — an ad sitting
+        between our writing and a page's worth of other outlets' headlines —
+        as ads served on replicated, low-value content. The fix is not a
+        different ad position on this section; it is that this section no
+        longer carries an ad at all, and reads at the bottom of the page as
+        what it is: links out, not part of the ledger.
+      */}
+      <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
+        <SectionHead title="On the Wire">
+          <Eyebrow className="text-ink/40">Reported elsewhere</Eyebrow>
+        </SectionHead>
+        {loading ? (
+          <Loading label="Pulling the wire" />
+        ) : wire.length ? (
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {wire.map((a) => (
+              <ArticleCard key={a.id} article={a} />
+            ))}
+          </div>
+        ) : (
+          <Empty title="No stories on the wire right now." />
         )}
       </section>
     </>

@@ -92,8 +92,11 @@ function parseFrontmatter(raw) {
 }
 
 /** Rough reading time, at a conventional 220 words per minute. */
-function readingTime(body) {
-  const words = body.trim().split(/\s+/).filter(Boolean).length
+function wordCount(body) {
+  return body.trim().split(/\s+/).filter(Boolean).length
+}
+
+function readingTime(words) {
   return Math.max(1, Math.round(words / 220))
 }
 
@@ -113,6 +116,7 @@ const files = {
 function build(path, raw, desk) {
   const { data, body } = parseFrontmatter(raw)
   const slug = data.slug || slugFromPath(path)
+  const words = wordCount(body)
   return {
     id: `original-${slug}`,
     slug,
@@ -135,7 +139,12 @@ function build(path, raw, desk) {
     imageCredit: data.imageCredit || null,
     imageCaption: data.imageCredit || null,
     draft: data.draft === true,
-    readingTime: readingTime(body),
+    // Exposed so the Story page can gate ads on it: AdSense flagged Hoopspire
+    // for ads served on low-value content, and several published pieces were
+    // 200 words or less. A thin page is thin regardless of whether an ad sits
+    // on it, but it must never carry one.
+    wordCount: words,
+    readingTime: readingTime(words),
     body,
     /** Internal route — our own pieces never link off-site. */
     href: `/story/${slug}`,
