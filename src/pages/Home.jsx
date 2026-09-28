@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import { useAsync, hasLiveGame } from '../lib/useAsync.js'
-import { getAllNews, getAllGames } from '../lib/api.js'
+import { getAllGames } from '../lib/api.js'
 import { getOriginals } from '../lib/articles.js'
 import { leaguesByGroup, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
-import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
+import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
 
 const HERO_IMAGE =
@@ -86,30 +86,20 @@ function Hero({ leadByLeague }) {
 
 export default function Home() {
   useMeta({ description: 'Live scores, standings, rosters and original analysis across thirteen basketball leagues — the NBA, WNBA, EuroLeague, PBA, KBL, B.League, CBA and more.' })
-  const { data: news, loading } = useAsync(() => getAllNews(6), [], [])
   const { data: games } = useAsync(() => getAllGames(), [], [], {
     refreshMs: 120_000,
     liveMs: 30_000,
     isLive: hasLiveGame,
   })
 
-  const stories = news || []
-
   // Our own writing leads the page. It is bundled at build time, so there is
   // no loading state to design around and nothing that can fail to arrive.
+  // Nothing on this page comes from other outlets any more — that content
+  // moved to its own page, /wire, with no ad anywhere near it. See Wire.jsx.
   const originals = getOriginals(null, 7)
   const ourLead = originals[0]
   const ourAlso = originals.slice(1, 4)
   const ourMore = originals.slice(4, 7)
-
-  // The wire is everyone else's reporting. It sits below our own and links
-  // out to whoever filed it — see ArticleCard, which routes originals inward
-  // and third-party stories to their publisher.
-  //
-  // getAllNews folds our own cross-league pieces into its list, which is
-  // right for a mixed feed and wrong here: without this filter the same
-  // article appears once under Written Here and again under On the Wire.
-  const wire = stories.filter((a) => !a.original).slice(0, 9)
 
   // One line per league in the hero rail, preferring a piece we wrote.
   const leadByLeague = {}
@@ -134,7 +124,7 @@ export default function Home() {
       {ourLead && (
         <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
           <SectionHead
-            title="Written Here"
+            title="Latest"
             action={
               <Link to="/margin" className="eyebrow text-crimson hover:underline">
                 The Margin →
@@ -164,9 +154,8 @@ export default function Home() {
 
       {/*
         Our own ledger data — live scores and recent results — comes next,
-        still ahead of anyone else's reporting. It is the site's own database,
-        not linked-out content, so it belongs with "Written Here" at the front
-        of the page rather than after it.
+        directly after our own writing. It is the site's own database, not
+        linked-out content, so it belongs at the front of the page.
       */}
       <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
         <SectionHead
@@ -195,32 +184,6 @@ export default function Home() {
           </div>
         ) : (
           <Empty title="No completed games in the current window." />
-        )}
-      </section>
-
-      {/*
-        Everyone else's reporting goes last, named as theirs, no ad anywhere
-        near it. AdSense flagged the previous arrangement — an ad sitting
-        between our writing and a page's worth of other outlets' headlines —
-        as ads served on replicated, low-value content. The fix is not a
-        different ad position on this section; it is that this section no
-        longer carries an ad at all, and reads at the bottom of the page as
-        what it is: links out, not part of the ledger.
-      */}
-      <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-        <SectionHead title="On the Wire">
-          <Eyebrow className="text-ink/40">Reported elsewhere</Eyebrow>
-        </SectionHead>
-        {loading ? (
-          <Loading label="Pulling the wire" />
-        ) : wire.length ? (
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {wire.map((a) => (
-              <ArticleCard key={a.id} article={a} />
-            ))}
-          </div>
-        ) : (
-          <Empty title="No stories on the wire right now." />
         )}
       </section>
     </>

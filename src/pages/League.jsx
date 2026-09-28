@@ -63,7 +63,11 @@ export default function League() {
     )
   }
 
-  const stories = news || []
+  // Originals only. getNews mixes in wire content by design for the feed
+  // this hook was built for; a league page is not that feed. Third-party
+  // stories now live on their own page, /wire, and nowhere else — this is
+  // one of the "nowhere else."
+  const stories = (news || []).filter((a) => a.original)
   const lead = stories[0]
   const rest = stories.slice(1)
   const finals = (games || []).filter((g) => g.status !== 'scheduled').slice(0, 4)
@@ -85,7 +89,7 @@ export default function League() {
       <div className="mt-14 grid gap-12 lg:grid-cols-[1.6fr_1fr]">
         <div>
           {newsLoading ? (
-            <Loading label={`Pulling ${league.name} wire`} />
+            <Loading label={`Pulling ${league.name} coverage`} />
           ) : lead ? (
             <>
               <ArticleCard article={lead} variant="lead" />
@@ -101,14 +105,7 @@ export default function League() {
               )}
             </>
           ) : (
-            <Empty
-              title={`No ${league.name} stories on the wire.`}
-              hint={
-                league.source === 'snapshot'
-                  ? 'Run `npm run data` to refresh this league.'
-                  : undefined
-              }
-            />
+            <Empty title={`Nothing written on ${league.name} yet.`} />
           )}
         </div>
 

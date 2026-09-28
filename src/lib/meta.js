@@ -37,7 +37,15 @@ function setTag(selector, attrs) {
  * @param image       Absolute URL for the social card, if the page has one.
  * @param type        Open Graph type: 'website' (default) or 'article'.
  */
-export function useMeta({ title, description, image, type = 'website' } = {}) {
+/**
+ * @param noindex Keeps the page out of search results without blocking the
+ *                crawler from reading it — the right tool for a page like
+ *                /wire, whose entire content is other publishers' headlines.
+ *                Nothing here is ours to rank for, and indexing a page shaped
+ *                like that is the last thing worth doing after an AdSense
+ *                review flagged the site for replicated content.
+ */
+export function useMeta({ title, description, image, type = 'website', noindex = false } = {}) {
   const { pathname } = useLocation()
 
   useEffect(() => {
@@ -53,6 +61,12 @@ export function useMeta({ title, description, image, type = 'website' } = {}) {
     document.title = fullTitle
     setTag('meta[name="description"]', { name: 'description', content: desc })
     setTag('link[rel="canonical"]', { rel: 'canonical', href: canonical })
+
+    if (noindex) {
+      setTag('meta[name="robots"]', { name: 'robots', content: 'noindex, follow' })
+    } else {
+      document.head.querySelector('meta[name="robots"]')?.remove()
+    }
 
     setTag('meta[property="og:title"]', { property: 'og:title', content: fullTitle })
     setTag('meta[property="og:description"]', { property: 'og:description', content: desc })
@@ -75,5 +89,5 @@ export function useMeta({ title, description, image, type = 'website' } = {}) {
       document.head.querySelector('meta[property="og:image"]')?.remove()
       document.head.querySelector('meta[name="twitter:image"]')?.remove()
     }
-  }, [title, description, image, type, pathname])
+  }, [title, description, image, type, noindex, pathname])
 }

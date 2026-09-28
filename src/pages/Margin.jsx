@@ -27,7 +27,7 @@ export default function Margin() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
-      <Eyebrow className="text-gold">Written here</Eyebrow>
+      <Eyebrow className="text-gold">The numbers desk</Eyebrow>
       <h1 className="mt-3 text-6xl md:text-7xl">The Margin</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Basketball argued from the numbers. Every piece here is built on the box scores,
