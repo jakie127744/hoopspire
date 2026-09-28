@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-09-27T11:46:05.410Z",
+  "fetchedAt": "2026-09-28T13:25:32.249Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -22,7 +22,7 @@
   ],
   "notes": [
     "standings/teams: https://api.kbl.or.kr/league/rank/team? — HTTP 400",
-    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260828&toDate=20261027&tcodeList=all — HTTP 400",
+    "fixtures: https://api.kbl.or.kr/match/list?fromDate=20260829&toDate=20261028&tcodeList=all — HTTP 400",
     "api.kbl.or.kr unavailable — clubs from KBL English names, fixtures from asia-basket",
     "KBL: bot-check page; skipped",
     "KBL 2026: RealGM returned a bot-check page; skipped",
@@ -8566,32 +8566,6 @@
       "tag": "Report",
       "image": "https://img.yna.co.kr/photo/reuters/2026/09/25/PRU20260925322501009_P2.jpg",
       "url": "https://en.yna.co.kr/view/AEN20260925005000320"
-    },
-    {
-      "id": "KBL-leadasiadskoreareacheswomensbasketballse",
-      "league": "KBL",
-      "title": "(LEAD) (Asiad) S. Korea reaches women's basketball semifinals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 24 (Yonhap) -- South Korea blew out Indonesia to grab a tic...",
-      "published": "2026-09-24T05:53:41.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092404070001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260924001451315"
-    },
-    {
-      "id": "KBL-asiadskoreareacheswomensbasketballsemifi",
-      "league": "KBL",
-      "title": "(Asiad) S. Korea reaches women's basketball semifinals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NAGOYA, Japan, Sept. 24 (Yonhap) -- South Korea blew out Indonesia to grab a tic...",
-      "published": "2026-09-24T04:22:06.000Z",
-      "byline": "Yonhap News",
-      "tag": "Report",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/09/24/PYH2026092404070001300_P2.jpg",
-      "url": "https://en.yna.co.kr/view/AEN20260924001400315"
     }
   ],
   "leaders": {
@@ -9062,8 +9036,8 @@
     "playerStats": "2026-09-11T01:02:09.580Z",
     "leaders": "2026-09-11T01:02:09.580Z",
     "standings": "2026-09-11T01:02:09.580Z",
-    "games": "2026-09-27T11:46:05.410Z",
-    "news": "2026-09-27T11:46:05.410Z"
+    "games": "2026-09-28T13:25:32.249Z",
+    "news": "2026-09-28T13:25:32.249Z"
   },
   "carriedOver": [
     "teams",
