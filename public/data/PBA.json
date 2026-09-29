@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-28T13:26:37.745Z",
+  "fetchedAt": "2026-09-29T12:31:47.588Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14427,6 +14427,19 @@
   ],
   "news": [
     {
+      "id": "PBA-uaapresumeswithasiadcampaignersbackinfol",
+      "league": "PBA",
+      "title": "UAAP resumes with Asiad campaigners back in fold",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Asian Games heroes led by the silver medalists from the Gilas Pilipinas 3x3 women’s team return to their respective schools Wednesday, September 30, as the UAAP Season 89 resumes at the Mall of Asia Arena.",
+      "published": "2026-09-29T08:14:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/09/29/2559794/uaap-resumes-asiad-campaigners-back-fold"
+    },
+    {
       "id": "PBA-asiangamesgilaswomen3x3deliversilvermeda",
       "league": "PBA",
       "title": "Asian Games: Gilas Women 3x3 deliver silver medal for PH, fall short of gold vs. Japan in finals",
@@ -14438,45 +14451,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1003717/asian-games-gilas-women-3x3-settle-for-silver-after-falling-to-japan-in-finals/story/"
-    },
-    {
-      "id": "PBA-asiangamesheartbreakforgilasmen3x3afterf",
-      "league": "PBA",
-      "title": "Asian Games: Heartbreak for Gilas Men 3x3 after falling to Iran in bronze medal game",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "A podium finish slipped away for Gilas Pilipinas Men after bowing to Iran, 21-10, in the 2026 Asian Games men's 3x3 basketball battle for bronze on Friday at the Kinjo Futo Station Square Venue in Japan.",
-      "published": "2026-09-25T10:06:20.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003712/asian-games-heartbreak-for-gilas-men-3x3-after-falling-to-iran-in-bronze-medal-game/story/"
-    },
-    {
-      "id": "PBA-asiangamesgilasmen3x3teamdropstobattlefo",
-      "league": "PBA",
-      "title": "Asian Games: Gilas Men 3x3 team drops to battle for bronze after semis loss to Korea",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Men fell short of a finals berth after absorbing a 21-9 loss to South Korea in the men's 3x3 basketball semifinals of the 2026 Asian Games on Friday in Japan.",
-      "published": "2026-09-25T05:22:05.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003671/asian-games-gilas-men-3x3-team-drops-to-battle-for-bronze-after-semis-loss-to-korea/story/"
-    },
-    {
-      "id": "PBA-gilaswomenadvanceto3x3basketballgoldmeda",
-      "league": "PBA",
-      "title": "Gilas Women advance to 3x3 basketball gold medal match, assured of Asian Games medal",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Women have assured the country of at least a silver medal as they ousted Thailand, 13-8, in the women's 3x3 basketball semifinals of the 2026 Asian Games on Friday at the Kinjo Futo Station Square Venue in Japan.",
-      "published": "2026-09-25T04:50:42.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1003666/gilas-women-advance-to-3x3-basketball-gold-medal-match-assured-of-asian-games-medal/story/"
     }
   ],
   "leaders": {
@@ -14947,8 +14921,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-28T13:26:37.745Z",
-    "news": "2026-09-28T13:26:37.745Z"
+    "games": "2026-09-29T12:31:47.588Z",
+    "news": "2026-09-29T12:31:47.588Z"
   },
   "carriedOver": [
     "teams",
