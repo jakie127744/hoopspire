@@ -19,7 +19,7 @@ const HERO_IMAGE =
  * "Five" once and went stale as soon as the list grew, so it is no longer
  * typed at all.
  */
-function Hero({ leadByLeague }) {
+function Hero({ leadByLeague, latestByLeague }) {
   const count = LEAGUE_COUNT_WORD
   return (
     <section className="mx-auto max-w-7xl px-4 pt-8 md:px-8">
@@ -54,11 +54,20 @@ function Hero({ leadByLeague }) {
                 <Eyebrow className="text-gold">{group}</Eyebrow>
                 <div className="mt-1 divide-y divide-parchment">
                   {leagues.map((l) => {
-                    // Our own piece on this league where we have one, and the
-                    // league's own description where we do not. The wire used
-                    // to fill this rail, which put thirteen other publishers'
-                    // headlines on the first screen of our front page.
+                    // Our own piece on this league where we have one; the
+                    // league's own latest result where we do not. Both are
+                    // real and change over time. The row used to fall back to
+                    // the league's own full name when neither was fetched
+                    // yet — "NBA G League" sitting there as if it were a
+                    // headline — which for the ten of fourteen leagues with
+                    // no article yet meant the same static boilerplate line,
+                    // swapping only the league name. That is the template
+                    // pattern Google's low-value-content guidance names
+                    // directly, and it was sitting on the first screen of the
+                    // site. A league with neither now shows no second line at
+                    // all rather than filler standing in for one.
                     const lead = leadByLeague?.[l.key]
+                    const blurb = lead?.title || latestByLeague?.[l.key]
                     return (
                       <Link
                         key={l.key}
@@ -68,9 +77,9 @@ function Hero({ leadByLeague }) {
                         <span className="w-24 shrink-0 font-display text-xl leading-tight group-hover:text-crimson">
                           {l.name}
                         </span>
-                        <span className="line-clamp-1 flex-1 text-xs text-ink/55">
-                          {lead?.title || l.fullName}
-                        </span>
+                        {blurb && (
+                          <span className="line-clamp-1 flex-1 text-xs text-ink/55">{blurb}</span>
+                        )}
                       </Link>
                     )
                   })}
@@ -107,12 +116,32 @@ export default function Home() {
     if (a.league && !leadByLeague[a.league]) leadByLeague[a.league] = a
   }
 
+  // The fallback for a league we haven't written about yet. Plain, factual,
+  // and different every day — the score itself, not a description of the
+  // league dressed up as one.
+  const latestByLeague = {}
+  for (const g of games || []) {
+    if (g.status !== 'final' || !g.league || !g.home || !g.away) continue
+    const prior = latestByLeague[g.league]
+    if (prior && new Date(prior.date) >= new Date(g.date)) continue
+    const winner = g.home.score > g.away.score ? g.home : g.away
+    const loser = g.home.score > g.away.score ? g.away : g.home
+    if (winner.score == null || loser.score == null) continue
+    latestByLeague[g.league] = {
+      date: g.date,
+      text: `${winner.name} beat ${loser.name} ${winner.score}-${loser.score}`,
+    }
+  }
+  const latestTextByLeague = Object.fromEntries(
+    Object.entries(latestByLeague).map(([k, v]) => [k, v.text])
+  )
+
   const finals = (games || []).filter((g) => g.status === 'final').slice(0, 8)
   const live = (games || []).filter((g) => g.status === 'live')
 
   return (
     <>
-      <Hero leadByLeague={leadByLeague} />
+      <Hero leadByLeague={leadByLeague} latestByLeague={latestTextByLeague} />
 
       {/*
         The front page leads with what we wrote. It used to open on the wire,
