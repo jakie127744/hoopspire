@@ -13,7 +13,7 @@ Walter Tavares was named the tournament's MVP. Madrid's scoring was spread acros
 
 ## How the final went
 
-Madrid led 24-15 after the first quarter. Olympiacos won the second quarter 28-23 and the third 29-28 and got back to within three, but Madrid still led 47-43 at halftime and 75-72 going into the fourth quarter. Madrid outscored Olympiacos 18-17 in the last ten minutes, enough to keep a margin that reached 10 points at one stage. Evan Fournier hit a three-pointer with about a minute left to make it 91-89, and Feliz finished a layup in the last seconds to settle it at 93-89.
+Madrid led 24-15 after the first quarter. Olympiacos won the second quarter 28-23, so Madrid led only 47-43 at halftime, and it won the third 29-28, so Madrid led just 75-72 going into the fourth quarter. Madrid outscored Olympiacos 18-17 in the last ten minutes. Evan Fournier hit a three-pointer with about a minute left to make it 91-89, and Feliz finished a layup in the last seconds to settle it at 93-89.
 
 Sasha Vezenkov led all scorers with 22 points for Olympiacos, making six of 12 shots and seven of eight free throws, with five rebounds and two steals. Fournier scored 14 with three threes, Jean Montero had 12 points and four assists off the bench, and Donta Hall scored 13 on 4-of-5 shooting from the field, making five of six free throws, with three steals.
 
@@ -21,7 +21,7 @@ Sasha Vezenkov led all scorers with 22 points for Olympiacos, making six of 12 s
 
 The numbers point to two places. Madrid made 20 of 32 two-point shots, 63%, to Olympiacos's 19 of 45, and shot 50% overall (30 of 60) to 40% (27 of 67). Both teams made about the same share of their threes, Madrid 10 of 28 and Olympiacos eight of 22. Madrid also controlled the glass 44-30, with a 30-16 edge on the defensive boards, and made 23 of 26 free throws to Olympiacos's 27 of 37.
 
-The one statistic Olympiacos won was the turnover battle in the defensive sense: its 14 steals were a large part of Madrid's 23 turnovers, and Madrid still had 31 assists to Olympiacos's 24. Madrid gave the ball away that often and still won by four.
+Madrid was careless with the ball, and it was the one real blemish on an otherwise clean night at the line and on the boards. Its 23 turnovers fed 14 Olympiacos steals, but it still had 31 assists to Olympiacos's 24 and won by four.
 
 "Congratulations to my players," Martínez said. "They believed. We had a horrible moment in the third quarter when Olympiacos played incredible."
 
