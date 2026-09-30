@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-09-29T12:32:12.189Z",
+  "fetchedAt": "2026-09-30T12:16:55.128Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5221,6 +5221,45 @@
   ],
   "news": [
     {
+      "id": "TPBL-495",
+      "league": "TPBL",
+      "title": "[100 reasons to like basketball Vol. 039] Wu Zhifeng: Because of basketball, there is always another goal",
+      "originalTitle": "【一百種喜歡籃球的原因 Vol. 039】吳志鍇：因為籃球，永遠還有下一個目標",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-30T07:56:37.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/495/rqC5Ciyer92PqGvbusoeeUQUnKb3oh9lKkag1uiw.jpg?20260930160052",
+      "url": "https://tpbl.basketball/news/495"
+    },
+    {
+      "id": "TPBL-493",
+      "league": "TPBL",
+      "title": "New Taipei CITIC Overseas Support Lineup Change Bridzik Contract Not Effective Serbia Almighty Wei Nadi Joins",
+      "originalTitle": "新北中信特攻外援陣容異動 布里茲克合約未生效 塞爾維亞全能鋒衛奈迪加盟",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-29T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/476/1DMQCMaofjQna88BCQxMP96yAihLhSqWpzFxO6Im.png?20260930111308",
+      "url": "https://tpbl.basketball/news/493"
+    },
+    {
+      "id": "TPBL-494",
+      "league": "TPBL",
+      "title": "Korean support sweetheart Park Yi-eun joins the Dreamers cheerleading team! Taiwan joins Formosa Sexy for the first time across five major professional sports",
+      "originalTitle": "韓國應援甜心朴藝恩加盟夢想家啦啦隊！ 橫跨五大職業運動項目 首度來台加入 Formosa Sexy",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-24T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/474/6xfKiFFCSJ6U5zEvuMpYHwQtExyE69SrLobvxELn.jpg?20260924120727",
+      "url": "https://tpbl.basketball/news/494"
+    },
+    {
       "id": "TPBL-458",
       "league": "TPBL",
       "title": "TPBL \"Unboxing the New Ten Force Pre-Season Warm-Up Tournament\" debuted on October 9 with seven teams rallying and ten forces for the new season",
@@ -5258,6 +5297,32 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/456/DXSOvgplEDIZb6JmzoFQPIRGQHhyzrvv2La01Cbd.jpg?20260911101404",
       "url": "https://tpbl.basketball/news/466"
+    },
+    {
+      "id": "TPBL-492",
+      "league": "TPBL",
+      "title": "CITIC Special thanks Xu Shiqing and Coach Mu Jianhong for accompanying us all the way and strengthening the physical fitness coaching team to establish a perfect detection and recovery system",
+      "originalTitle": "中信特攻感謝許時清及穆建宏教練一路相伴 另補強體能教練團 建立完善檢測及恢復系統",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-09T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/477/UhX58ViV2PqBKOTz1hYnJgE52lvmBNH4RiwEylFf.png?20260930113148",
+      "url": "https://tpbl.basketball/news/492"
+    },
+    {
+      "id": "TPBL-491",
+      "league": "TPBL",
+      "title": "Ma Youcheng joins Citic Special Shirt No. 8 Yellow Shirt Renewal Four stable lineup together to meet the new season",
+      "originalTitle": "馬友程加盟中信特攻 披上8號黃衫 續約四將穩定陣容 攜手迎戰新賽季",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-09-07T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/478/P8f6yeTBvgxoeBZcsKocTqkdhoGWArF9tiHgKD0p.png?20260930113728",
+      "url": "https://tpbl.basketball/news/491"
     },
     {
       "id": "TPBL-465",
@@ -5310,71 +5375,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/453/FPzOYE7ZpMnEzPoKAICcBmZxFmBb0cQpDOo5jwG5.jpg?20260901005126",
       "url": "https://tpbl.basketball/news/464"
-    },
-    {
-      "id": "TPBL-472",
-      "league": "TPBL",
-      "title": "The Dreamer Defensive Core remains the same! Walker renews his contract to fight again for the new season: \"The data is never the key, the key is to become a player that the coach trusts\"",
-      "originalTitle": "夢想家防守核心不變！忻沃克續約再戰新賽季 忻沃克：「數據從來不是重點，重點是成為教練信賴的球員」",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-08-25T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/445/hqpLmuKF4fwi99cwm8hO9NxdUJdOG2FpztGZ7QX3.jpg?20260825132225",
-      "url": "https://tpbl.basketball/news/472"
-    },
-    {
-      "id": "TPBL-471",
-      "league": "TPBL",
-      "title": "Dreamer Continues Young Combat Force Shi Chengping: Because Training Doesn't Deceive!",
-      "originalTitle": "夢想家延續年輕戰力 史承平：因為訓練不會騙人！",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-08-24T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/444/us3T0OMsotK4zqlrJpfAsTQuBaF25bKthN0Gli63.jpg?20260825093458",
-      "url": "https://tpbl.basketball/news/471"
-    },
-    {
-      "id": "TPBL-470",
-      "league": "TPBL",
-      "title": "Popular Cheerleader of the Year Mikami Youa Renewal Dreamer! New Season Continues to Support Shoutoutout Fans' Meet Me at Home '",
-      "originalTitle": "年度人氣啦啦隊員 三上悠亞續約夢想家！ 新賽季持續應援 喊話球迷「主場見」",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-08-21T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/443/p4ILCEQiieEcULA51jsxe9y56QeB0LNgcKlJveEa.jpg?20260821115759",
-      "url": "https://tpbl.basketball/news/470"
-    },
-    {
-      "id": "TPBL-463",
-      "league": "TPBL",
-      "title": "Croatian national hand joins Taipei War God to extend 211 cm mobile center Marley",
-      "originalTitle": "克羅埃西亞國手加盟 臺北戰神延攬211公分機動型中鋒馬利",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-08-20T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/452/yMYnKMMGi4AQcpU1bk05ICVAapAfYE1Jfa7hZu1W.jpg?20260901004934",
-      "url": "https://tpbl.basketball/news/463"
-    },
-    {
-      "id": "TPBL-469",
-      "league": "TPBL",
-      "title": "Champion DNA continues! Jet Zhang Zongxian completes contract renewal and joins the Dreamers in the new season of Swordfinger II",
-      "originalTitle": "冠軍 DNA 延續！噴射機張宗憲完成續約 攜手夢想家迎戰新賽季 劍指二連霸",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-08-20T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/442/f4WfNaTdGHdNWuqceiff5gCBubA0DLPhGeB588pn.jpg?20260820165224",
-      "url": "https://tpbl.basketball/news/469"
     }
   ],
   "leaders": {
@@ -5840,12 +5840,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-09-29T12:32:12.189Z",
-    "rosters": "2026-09-29T12:32:12.189Z",
-    "playerStats": "2026-09-29T12:32:12.189Z",
-    "standings": "2026-09-29T12:32:12.189Z",
-    "games": "2026-09-29T12:32:12.189Z",
-    "news": "2026-09-29T12:32:12.189Z",
-    "leaders": "2026-09-29T12:32:12.189Z"
+    "teams": "2026-09-30T12:16:55.128Z",
+    "rosters": "2026-09-30T12:16:55.128Z",
+    "playerStats": "2026-09-30T12:16:55.128Z",
+    "standings": "2026-09-30T12:16:55.128Z",
+    "games": "2026-09-30T12:16:55.128Z",
+    "news": "2026-09-30T12:16:55.128Z",
+    "leaders": "2026-09-30T12:16:55.128Z"
   }
 }

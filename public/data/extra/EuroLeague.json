@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-09-29T12:32:29.738Z",
+  "fetchedAt": "2026-09-30T12:17:11.359Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,17 +22,95 @@
   ],
   "news": [
     {
-      "id": "EuroLeague-juliusthomasjoinsmemphisgrizzliesasassis",
+      "id": "EuroLeague-pablolasoicameherebelievingwewouldbecome",
       "league": "EuroLeague",
-      "title": "Julius Thomas joins Memphis Grizzlies as assistant coach",
+      "title": "Pablo Laso: “I came here believing we would become EuroLeague champions”",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The former Paris Basketball head coach, the youngest head coach in EuroLeague history, has agreed to join Tuomas Iisalo’s coaching staff. L'articolo Julius Thomas joins Memphis Grizzlies as assistant coach proviene da Sportando .",
-      "published": "2026-09-29T12:25:26.000Z",
+      "description": "The Efes coach reflected on last season’s struggles and roster changes after beating Real Madrid The post Pablo Laso: “I came here believing we would become EuroLeague champions” appeared first on Eurohoops .",
+      "published": "2026-09-29T21:45:34.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/06/7109ecd6-2270156301-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2014133/pablo-laso-i-came-here-believing-we-would-become-euroleague-champions/"
+    },
+    {
+      "id": "EuroLeague-sorkinsignsfouryearextensionwithmaccabit",
+      "league": "EuroLeague",
+      "title": "Sorkin signs four-year extension with Maccabi Tel Aviv",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Israeli big man commits to Maccabi through 2030 following a career-best EuroLeague campaign The post Sorkin signs four-year extension with Maccabi Tel Aviv appeared first on Eurohoops .",
+      "published": "2026-09-29T18:30:42.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2025/10/c2aae812-roman-sorkin-handles-maccabi-v-barcelona.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2013902/sorkin-signs-four-year-extension-with-maccabi-tel-aviv/"
+    },
+    {
+      "id": "EuroLeague-eurocuprounduparisandhapoelbegintheircam",
+      "league": "EuroLeague",
+      "title": "EuroCup roundup: Aris and Hapoel begin their campaigns with wins",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "This Tuesday, the first five matches of the new EuroCup season were played, with wins recorded by Trento, Hapoel Jerusalem, Tofas, Aris, and Venezia The post EuroCup roundup: Aris and Hapoel begin their campaigns with wins appeared first on Eurohoops .",
+      "published": "2026-09-29T18:12:59.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/9739d122-toliopoulos-aris-lemans.jpg",
+      "url": "https://www.eurohoops.net/en/eurocup/2013794/eurocup-roundup-trento-grabs-the-win-after-drama/"
+    },
+    {
+      "id": "EuroLeague-euroleagueroundupolympiacoswinswithshaqc",
+      "league": "EuroLeague",
+      "title": "EuroLeague roundup: Olympiacos wins with Shaq courtside, Dubai and Efes beat Spanish giants, Milan prevails",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Day one of EuroLeague Round 2 brought a meeting between two coaches who swapped clubs over the summer The post EuroLeague roundup: Olympiacos wins with Shaq courtside, Dubai and Efes beat Spanish giants, Milan prevails appeared first on Eurohoops .",
+      "published": "2026-09-29T18:12:30.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/3f4346f3-o-neal-zalgiris.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2013872/euroleague-roundup-round-2-game-reports/"
+    },
+    {
+      "id": "EuroLeague-formerparisheadcoachjuliusthomasjoinsgri",
+      "league": "EuroLeague",
+      "title": "Former Paris head coach Julius Thomas joins Grizzlies staff",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The 29-year-old reunites with Tuomas Iisalo after becoming one of the youngest coaches to lead a EuroLeague team The post Former Paris head coach Julius Thomas joins Grizzlies staff appeared first on Eurohoops .",
+      "published": "2026-09-29T16:18:28.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/06/2c6bd890-thomas.jpg",
+      "url": "https://www.eurohoops.net/en/nba-news/2013823/former-paris-head-coach-julius-thomas-joins-grizzlies-staff/"
+    },
+    {
+      "id": "EuroLeague-marcobelinelliinolongerworkwithvirtusbol",
+      "league": "EuroLeague",
+      "title": "Marco Belinelli: “I no longer work with Virtus Bologna. I’ve barely spoken to them since March”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The former Virtus Bologna captain revealed that he is no longer working with the club and also commented on its new roster. L'articolo Marco Belinelli: “I no longer work with Virtus Bologna. I’ve barely spoken to them since March” proviene da Sportando .",
+      "published": "2026-09-29T16:00:20.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/julius-thomas-joins-memphis-grizzlies-as-assistant-coach/"
+      "url": "https://sportando.basketball/en/marco-belinelli-i-no-longer-work-with-virtus-bologna-ive-barely-spoken-to-them-since-march/"
+    },
+    {
+      "id": "EuroLeague-juanchohernangomezwillmissabout10daysdue",
+      "league": "EuroLeague",
+      "title": "Juancho Hernangomez will miss about 10 days due to injury",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Panathinaikos forward suffered a right adductor injury in the Greek Super Cup semifinal against PAOK The post Juancho Hernangomez will miss about 10 days due to injury appeared first on Eurohoops .",
+      "published": "2026-09-29T13:08:52.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/6abff409-juancho-card.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2013747/juancho-hernangomez-will-miss-about-10-days-due-to-injury/"
     },
     {
       "id": "EuroLeague-shaquilleonealdissesnbastandardstheykind",
@@ -59,32 +137,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/09/ed34ff0d-shaquille-oneal-walks.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2013705/shaquille-oneal-lands-in-lithuania-euroleague/"
-    },
-    {
-      "id": "EuroLeague-realmadridpushesfornbaeuropethesoonerthe",
-      "league": "EuroLeague",
-      "title": "Real Madrid pushes for NBA Europe: “The sooner, the better”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Real Madrid basketball director Juan Carlos Sanchez has openly backed the NBA’s possible expansion into Europe L'articolo Real Madrid pushes for NBA Europe: “The sooner, the better” proviene da Sportando .",
-      "published": "2026-09-29T10:31:09.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/real-madrid-pushes-for-nba-europe-the-sooner-the-better/"
-    },
-    {
-      "id": "EuroLeague-baskoniasignsmrciosantosthrough2028",
-      "league": "EuroLeague",
-      "title": "Baskonia signs Márcio Santos through 2028",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Kosner Baskonia has announced the signing of Brazilian big man Márcio Santos on a two-year deal L'articolo Baskonia signs Márcio Santos through 2028 proviene da Sportando .",
-      "published": "2026-09-29T10:20:12.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/baskonia-signs-marcio-santos-through-2028/"
     },
     {
       "id": "EuroLeague-realmadriddirectorbacksnbaexpansiontoeur",
@@ -137,19 +189,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/08/18e459b0-peters-armani.jpg",
       "url": "https://www.eurohoops.net/en/trademarks/2013603/alec-peters-scottie-wilbekin-euroleague-fantasy-tips/"
-    },
-    {
-      "id": "EuroLeague-euroleagueinjuryreportround2outsandquest",
-      "league": "EuroLeague",
-      "title": "EuroLeague Injury Report, Round 2: outs and questionable players for September 29",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Eight games are scheduled for Tuesday’s EuroLeague action L'articolo EuroLeague Injury Report, Round 2: outs and questionable players for September 29 proviene da Sportando .",
-      "published": "2026-09-29T06:03:51.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-injury-report-round-2-outs-and-questionable-players-for-september-29/"
     }
   ],
   "leaders": {
@@ -10535,7 +10574,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-09-29T12:32:29.738Z",
+    "news": "2026-09-30T12:17:11.359Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
