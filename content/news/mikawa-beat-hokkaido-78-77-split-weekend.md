@@ -23,7 +23,13 @@ Bolden led all scorers with 27 points and 13 rebounds. Tominaga added 23, making
 
 Saturday belonged to Hokkaido. Tominaga scored 41 points in a 106-97 win, and Gardner led Mikawa with 27.
 
-Mikawa grabbed 15 offensive rebounds on Sunday to Hokkaido's 12, and turned the ball over eight times to Hokkaido's 11.
+## The numbers
+
+Both teams made 29 field goals, and the game turned on the small things. Mikawa shot 40% (29 of 72) and Hokkaido 43% (29 of 68). Hokkaido took 29 threes and made seven, while Mikawa made eight of 26. Mikawa grabbed 15 offensive rebounds to Hokkaido's 12, outrebounded the home side 46-43, turned the ball over eight times to Hokkaido's 11 and scored 42 points in the paint to 32. Hokkaido had the edge in assists, 20-17, and in fast-break points, 11-7. Mikawa went to the line 22 times and made 12, Hokkaido 12 of 17.
+
+O'Mara made six of seven shots and added five of eight free throws to his 16 rebounds, five of them offensive. Nishida was four of nine from three. Yutaro Suda scored 10 in 25 minutes and Mikawa outscored Hokkaido by 20 points while he was on the floor. Gardner had eight rebounds and two steals on top of his 14 points, and it was his steal with two seconds left that ended Hokkaido's last chance.
+
+For Hokkaido, Bolden made seven of eight two-point shots and three of eight threes. Tominaga was eight of 15 inside the arc but missed all five of his threes, and Gary Clark's 12 points came with four offensive rebounds. John Harrar picked up his fifth foul in 22 minutes, the one that sent Gardner to the line with nine seconds left.
 
 **Scoring.**
 
