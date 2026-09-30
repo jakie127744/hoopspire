@@ -26,6 +26,12 @@ Las Vegas made its push at the start of the fourth. The Aces scored 10 straight 
 
 The Aces got no closer than five points after that, at 92-87 with 2:11 left. Clark picked up her sixth foul with 2:45 to play and sat out the rest of the game, with Indiana ahead 92-83. Boston's layup with 1:52 left made it 94-87. Mitchell made seven free throws in the fourth quarter and finished 9 of 11 from the line.
 
+## Fan reaction
+
+Fans on social media focused on Clark's emotion. Sportskeeda [collected posts](https://www.sportskeeda.com/us/wnba/news-caitlin-turnt-fake-demon-wnba-fans-go-wild-as-caitlin-clark-shows-emotion-after-ripping-ball-from-a-ja-wilson-s-hand) from late in the first quarter, when, according to that report, Clark defended Wilson and showed visible excitement after a jump ball. Many fans joked that she was fired up. Some who said they often criticize her wrote that they liked the intensity, and others wrote that they wanted Indiana to go down fighting if it was going out.
+
+The posts are fan opinion and are not part of the game record. The play-by-play shows a jump ball violation on Clark at 1:43 of the first quarter with Indiana trailing 17-16.
+
 ## What the box score shows
 
 Indiana shot 52.1% from the field (37 of 71), up from 44.8% (30 of 67) in Game 1. The Fever scored 58 points in the paint to Las Vegas's 26 and had 22 assists on 37 baskets. Las Vegas shot 42.4% (25 of 59) and made 9 of 28 three-pointers.
