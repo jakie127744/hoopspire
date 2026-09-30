@@ -7,13 +7,9 @@ published: 2026-05-24
 tag: Analysis
 ---
 
-Championship games are usually decided in fragments: a stretch of four or five
-possessions that nobody notices until the box score is printed. The 2026
-EuroLeague final, played at Telekom Center Athens on 24 May, is unusually easy
-to read in that respect. Everything that mattered happened in the last twelve
-minutes.
+Championship games are usually decided in fragments: a stretch of four or five possessions that nobody notices until the box score is printed. The 2026 EuroLeague final, played at Telekom Center Athens on 24 May, is unusually easy to read in that respect. Olympiacos Piraeus beat Real Madrid 92-85 to win a fourth EuroLeague title and its first since 2013, and almost everything that mattered happened in the last ten minutes.
 
-Olympiacos Piraeus beat Real Madrid 92-85. Here is how the quarters fell:
+Here is how the quarters fell:
 
 | Quarter | Olympiacos | Real Madrid | Margin |
 |---|---|---|---|
@@ -23,49 +19,34 @@ Olympiacos Piraeus beat Real Madrid 92-85. Here is how the quarters fell:
 | Q4 | 31 | 20 | Olympiacos +11 |
 | **Final** | **92** | **85** | **Olympiacos +7** |
 
-## Three quarters of nothing
+## Three quarters that belonged to Madrid
 
-Add up the first thirty minutes and the game is a coin toss: Olympiacos 61,
-Real Madrid 65. Neither side had led by a decisive margin, and the lead had
-already changed hands across three quarters. Georgios Bartzokas's team had been
-the better side for exactly one of them.
+Add up the first thirty minutes and Real Madrid led 65-61. Olympiacos had been the better side for exactly one of those quarters, the second, when it scored 27, its highest of the night, and held Madrid to 18, its lowest. That nine-point swing turned a seven-point deficit into a 46-44 lead at the break. Then Madrid won the third quarter 21-15 and took a four-point lead into the fourth.
 
-That second quarter is worth pausing on. Olympiacos scored 27, their highest
-of the night, and held Madrid to 18, their lowest. It was a nine-point swing
-that erased a seven-point deficit and bought a lead they promptly gave back.
-For most of the evening it looked like the swing that would be remembered as
-the near-miss.
+Madrid came in short-handed, and it was still getting real production. Trey Lyles scored 24 points with eight rebounds, and made five of six threes. Mario Hezonja added 19 points and Andrés Feliz 13. Madrid made 13 of its 35 threes, and stole the ball 11 times.
 
 ## Then 31
 
-Olympiacos scored 31 points in the fourth quarter. In a championship game.
-Against a Sergio Scariolo defence that had conceded 15 in the third.
+Olympiacos scored 31 points in the fourth quarter. In a championship game, against a team that had conceded 15 in the third.
 
-The scale of that is easier to feel as a rate. Across the first three quarters
-Olympiacos averaged 20.3 points per quarter. In the fourth they scored 31, a
-53% jump, at the exact point in a final when scoring is supposed to get harder,
-not easier, and when Madrid's defensive intensity should have been at its
-peak.
+The scale of that is easier to feel as a rate. Across the first three quarters Olympiacos averaged 20.3 points per quarter. In the fourth it scored 31, a 53% jump, at the point in a final when scoring is supposed to get harder, not easier.
 
-Real Madrid, for their part, did not collapse. Twenty points in a fourth
-quarter is a perfectly respectable number; it is roughly what they had managed
-in each of the preceding three (26, 18, 21). They were not outplayed so much as
-outrun. Madrid played the fourth quarter they had been playing all night.
-Olympiacos played a different game entirely.
+Real Madrid did not collapse. Twenty points in a fourth quarter is a respectable number, and it is roughly what Madrid had managed in each of the preceding three (26, 18, 21). It was outrun more than outplayed. Madrid played the fourth quarter it had been playing all night, and Olympiacos played a different game entirely.
 
-## What the numbers do not say
+## What the box score does show
 
-A quarter-by-quarter line is a blunt instrument. It cannot tell you whether the
-31 came from transition or from the half court, whether Madrid's legs went, or
-whether one player simply decided the thing. Those answers live in a play-by-play
-this article does not have.
+The final box score does not say how the 31 arrived, but it does say where Olympiacos was better over the whole night, and the answer is the same in every column that matters late in a game.
 
-What it can tell you is where to look. Whatever explanation you prefer for how
-Olympiacos won a EuroLeague title, it has to account for eleven points in twelve
-minutes, because everything before that was a draw.
+Olympiacos shot 52% from the field (30 of 58) and made 10 of 20 threes, an even 50%. Madrid shot 30 of 64 and 13 of 35 from three. At the free-throw line Olympiacos made 22 of 27 and Madrid 12 of 18, so the champions got nine more attempts and scored 10 more points from the stripe. The rebounding was lopsided: Olympiacos won it 42-26, with 12 offensive rebounds to Madrid's seven.
 
----
+Olympiacos also gave the ball away 17 times to Madrid's nine, and it still won by seven. That is a team surviving its own mistakes because it kept getting the last shot, and making the ones it took.
 
-*Scores and quarter-by-quarter data from the official EuroLeague Basketball
-feed. This piece analyses publicly published results; it does not reproduce any
-broadcaster's or publisher's coverage.*
+Evan Fournier scored 20 points with five rebounds and four assists, made all five of his free throws, and was named MVP of the Final Four. Alec Peters scored 16 with seven rebounds. "The feeling is even better than I imagined," Fournier said afterward.
+
+## The road to the final
+
+The two finalists arrived by different routes on Friday, 22 May. Olympiacos beat the defending champion Fenerbahçe 79-61 in its semifinal, a margin of 18. Real Madrid beat Valencia 105-90. The final, on Sunday, was much closer than either semifinal, and the only one of the three that turned on a single quarter.
+
+## What it tells you
+
+A quarter-by-quarter line is a blunt instrument. It cannot tell you whether one player decided the thing, and Fournier's MVP says that one probably did. What it can tell you is where to look. Whatever explanation you prefer for how Olympiacos won the EuroLeague, it has to account for 11 points in ten minutes, because everything before that was close to a draw.
