@@ -18,7 +18,7 @@ Jones scored the first seven points, a basket, a three off a Stewart pass and an
 
 The Lynx cut the lead to seven, 56-49, with 4:20 left in the third quarter. The Liberty led 68-56 going into the fourth. In the fourth quarter New York scored eight straight points, from 71-60 with 7:31 left to 79-60 with 6:10 left, its largest lead of the game. Minnesota's last basket was a three by [Kayla McBride](/player/WNBA/2529205) with 1:26 left, and it lost by 16.
 
-## What the box score shows
+## By the numbers
 
 New York shot 46.4% from the field (32 of 69) and made 10 of 32 three-pointers, 31.3%. It made all 13 of its free throws and scored 44 points in the paint to Minnesota's 28. The Liberty had 36 rebounds to 29, with 12 offensive rebounds to 11. Off the bench, [Marine Johannes](/player/WNBA/4038379) scored eight points in eight minutes and [Han Xu](/player/WNBA/4337216) scored six in eight, and each made two three-pointers. New York's reserves scored 16 points to Minnesota's 18. Stewart played 40 minutes, the most of any player in the game.
 

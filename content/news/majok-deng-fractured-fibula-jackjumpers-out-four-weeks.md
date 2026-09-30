@@ -25,9 +25,9 @@ The NBL's [injury list](https://www.nbl.com.au/news/nbl26-the-latest-injury-upda
 
 Deng started the opener and played 16 minutes. He scored six points on 2-of-9 shooting, with three rebounds and a block. Tasmania trailed 52-38 at halftime and won 96-91 by outscoring the Phoenix 58-39 in the second half, as our [report on the game](/story/jackjumpers-beat-phoenix-96-91-nbl-opener) covered at the time.
 
-Two nights later Tasmania lost 93-87 at Cairns, and Deng did not appear in the box score. The club's [round two report](https://www.jackjumpers.com.au/news/rd-2-report-shorthanded-jackjumpers-fight-hard-in-cairns) said Deng was on the sidelines that night, along with four players who were already out. Cairns led 32-16 after the first quarter. Tasmania outscored the Taipans 71-61 over the last three quarters and trailed by six at the end.
+Two nights later Tasmania lost 93-87 at Cairns, and Deng did not play. The club's [round two report](https://www.jackjumpers.com.au/news/rd-2-report-shorthanded-jackjumpers-fight-hard-in-cairns) said Deng was on the sidelines that night, along with four players who were already out. Cairns led 32-16 after the first quarter. Tasmania outscored the Taipans 71-61 over the last three quarters and trailed by six at the end.
 
-[David Johnson](/player/NBL/2451257) started in Cairns and scored 18 points, after scoring 26 off the bench in the opener. Richardson played two minutes at Cairns and did not score. He was not used in the opener. Tasmania used nine players in Cairns, according to the box score. Tasmania is 1-1 after two rounds.
+[David Johnson](/player/NBL/2451257) started in Cairns and scored 18 points, after scoring 26 off the bench in the opener. Richardson played two minutes at Cairns and did not score. He was not used in the opener. Tasmania used nine players in Cairns. Tasmania is 1-1 after two rounds.
 
 ## Who else is out
 

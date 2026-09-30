@@ -8,31 +8,31 @@ tag: "Result"
 game: "401918018"
 ---
 
-The Indiana Fever beat the Las Vegas Aces 99-89 at Gainbridge Fieldhouse on Tuesday and tied their first-round series at 1-1. The deciding Game 3 is in Las Vegas on Thursday. The Fever had come in facing elimination after losing [Game 1 by 102-85](/story/aces-beat-fever-102-85-game-1-wilson-38).
+Caitlin Clark had 27 points and 15 assists, and the Indiana Fever, one loss from the end of their season, beat the Las Vegas Aces 99-89 at Gainbridge Fieldhouse on Tuesday to tie the first-round series at 1-1. Game 3 is Thursday in Las Vegas, and the winner goes to the semifinals.
 
-[Caitlin Clark](/player/WNBA/4433403) scored 27 points on 9-of-18 shooting, with five three-pointers, 15 assists and seven rebounds in 33 minutes. [Kelsey Mitchell](/player/WNBA/3142191) scored 26 points and [Aliyah Boston](/player/WNBA/4432831) had 22 on 10-of-15 shooting. ESPN's injury report had listed Clark and Boston as day-to-day before the game, as our [preview story](/story/fever-host-aces-game-2-must-win-clark-boston-probable) noted. Both played. The league listed the crowd at 16,298, according to ESPN.
+It did not look that way early. The Aces, who won [Game 1 by 102-85](/story/aces-beat-fever-102-85-game-1-wilson-38), led 26-18 after the first quarter and 29-18 early in the second. Then the game turned, and Indiana outscored them 81-60 the rest of the way.
 
-## How the game turned
+[Caitlin Clark](/player/WNBA/4433403) made five of her 11 threes and nine of 18 shots in all, with seven rebounds in 33 minutes. [Kelsey Mitchell](/player/WNBA/3142191) scored 26 and [Aliyah Boston](/player/WNBA/4432831) had 22 on 10-of-15 shooting. ESPN's injury report had listed Clark and Boston as day-to-day before the game, as our [preview story](/story/fever-host-aces-game-2-must-win-clark-boston-probable) noted. Both played. The league listed the crowd at 16,298, according to ESPN.
 
-Las Vegas led 26-18 after the first quarter and by 11 points, 29-18, early in the second. Clark was called for an offensive foul and a technical foul with 8:33 left in the second quarter, with Indiana trailing 29-20. [A'ja Wilson](/player/WNBA/3149391) missed the technical free throw. Indiana outscored Las Vegas 28-14 over the rest of the half and led 48-43 at halftime.
+## The technical, and the turn
 
-The second quarter was 30-17 to Indiana. The Fever scored nine straight points from 7:26, then took the lead for the first time since early in the first quarter, at 38-37 with 3:25 left. The Aces went back in front at 39-38. Indiana scored the next eight points and led for the rest of the game. Clark had 14 points, 11 assists and four rebounds in the first half, according to the play-by-play.
+Clark was called for an offensive foul and a technical foul with 8:33 left in the second quarter, with Indiana down 29-20. [A'ja Wilson](/player/WNBA/3149391) missed the technical free throw, and the game tilted. The Aces pushed it to 33-22, and then Indiana scored nine straight from 7:26 and went ahead 38-37 with 3:25 left. Las Vegas took the lead back for 19 seconds. Indiana then scored eight in a row, and the Aces never led again. The second quarter finished 30-17 Indiana, and the Fever led 48-43 at halftime.
 
-Indiana pushed the lead to 15 at 69-54 with 1:05 left in the third quarter, when Boston finished a Clark pass at the rim. The quarter ended 72-60.
+Clark had 14 points, 11 assists and four rebounds in the first half alone. Indiana stretched the lead to 15, 69-54, with 1:05 left in the third quarter, when Boston finished a Clark pass at the rim. The quarter ended 72-60.
 
-## The fourth quarter
+## The Aces push back
 
-Las Vegas made its push at the start of the fourth. The Aces scored 10 straight points, on free throws by Wilson and [Jackie Young](/player/WNBA/4065870) and threes by Young and [Jewell Loyd](/player/WNBA/2987869), to cut a 13-point lead to 76-73 with 7:34 to play. Indiana answered with an 8-2 run, and Clark hit two threes, a 27-footer with 4:56 left and a 30-footer with 4:30 left, to make it 90-79.
+Las Vegas did not go quietly. Early in the fourth quarter the Aces scored 10 straight points, on free throws by Wilson and [Jackie Young](/player/WNBA/4065870) and threes by Young and [Jewell Loyd](/player/WNBA/2987869), and a 13-point lead shrank to 76-73 with 7:34 to play.
 
-The Aces got no closer than five points after that, at 92-87 with 2:11 left. Clark picked up her sixth foul with 2:45 to play and sat out the rest of the game, with Indiana ahead 92-83. Boston's layup with 1:52 left made it 94-87. Mitchell made seven free throws in the fourth quarter and finished 9 of 11 from the line.
+Indiana answered with an 8-2 run, and then Clark answered from deep. She hit a 27-footer with 4:56 left and a 30-foot step-back with 4:30 left, both set up by Boston, and it was 90-79. The Aces got no closer than five after that, at 92-87 with 2:11 left. Boston's layup with 1:52 left made it 94-87, and Mitchell sealed it at the line, where she made seven free throws in the fourth quarter and finished 9 of 11.
+
+Clark picked up her sixth foul with 2:45 to play and left with the Fever ahead 92-83. She had already done the damage.
 
 ## Fan reaction
 
-Fans on social media focused on Clark's emotion. Sportskeeda [collected posts](https://www.sportskeeda.com/us/wnba/news-caitlin-turnt-fake-demon-wnba-fans-go-wild-as-caitlin-clark-shows-emotion-after-ripping-ball-from-a-ja-wilson-s-hand) from late in the first quarter, when, according to that report, Clark defended Wilson and showed visible excitement after a jump ball. Many fans joked that she was fired up. Some who said they often criticize her wrote that they liked the intensity, and others wrote that they wanted Indiana to go down fighting if it was going out.
+The Clark show was the talk on X. Her fire in the first quarter, around a jump ball with Wilson, had fans joking that she was turned up. Some who say they often criticize her wrote that they liked the intensity, and others wrote that they wanted Indiana to go down swinging if it was going out.
 
-The posts are fan opinion and are not part of the game record. The play-by-play shows a jump ball violation on Clark at 1:43 of the first quarter with Indiana trailing 17-16.
-
-## What the box score shows
+## By the numbers
 
 Indiana shot 52.1% from the field (37 of 71), up from 44.8% (30 of 67) in Game 1. The Fever scored 58 points in the paint to Las Vegas's 26 and had 22 assists on 37 baskets. Las Vegas shot 42.4% (25 of 59) and made 9 of 28 three-pointers.
 

@@ -9,7 +9,7 @@ tag: "Result"
 
 Dubai Basketball beat FC Barcelona 94-87 at Coca-Cola Arena on Tuesday in the second round of the EuroLeague regular season, and now has two wins from two games. The first came five days earlier, when Dubai beat Real Madrid 78-77 in [the opening round](/story/dubai-beat-real-madrid-78-77-euroleague-opener). Barcelona, which won its own opener 89-82 against Anadolu Efes at the Palau Blaugrana, falls to 1-1. The league listed the crowd at 7,313.
 
-Barcelona led 25-23 after the first quarter and did not lead again, according to the league's play-by-play. Dubai opened the second quarter with a 12-0 run, tied the game at 25-25 with 9:41 left and went ahead for good at 26-25 with 8:45 to play. It outscored Barcelona 29-12 over the quarter and led 52-37 at halftime.
+Barcelona led 25-23 after the first quarter and did not lead again. Dubai opened the second quarter with a 12-0 run, tied the game at 25-25 with 9:41 left and went ahead for good at 26-25 with 8:45 to play. It outscored Barcelona 29-12 over the quarter and led 52-37 at halftime.
 
 The lead reached 20 at 76-56 with 1:51 left in the third quarter, when [Jaron Blossomgame](/player/EuroLeague/rg-42292) scored inside. Barcelona then scored the last six points of the quarter and trailed 76-62 going into the fourth.
 
@@ -21,7 +21,7 @@ In the fourth quarter Barcelona cut the gap to eight at 81-73, with 6:56 left. I
 
 ## The free-throw line
 
-The clearest difference in the box score is at the line. Dubai made 25 of 28 free throws. Barcelona made 6 of 8. Barcelona committed 22 fouls to Dubai's 14, and it did not attempt a free throw in the fourth quarter. Dubai made all eight of its free throws in that quarter, two from [Dwayne Bacon](/player/EuroLeague/rg-76232), four from Okobo and two from [Mfiondu Kabengele](/player/EuroLeague/rg-107079).
+The clearest difference is at the line. Dubai made 25 of 28 free throws. Barcelona made 6 of 8. Barcelona committed 22 fouls to Dubai's 14, and it did not attempt a free throw in the fourth quarter. Dubai made all eight of its free throws in that quarter, two from [Dwayne Bacon](/player/EuroLeague/rg-76232), four from Okobo and two from [Mfiondu Kabengele](/player/EuroLeague/rg-107079).
 
 Bacon made all nine of his free throws and finished with 14 points and seven rebounds. Kabengele scored 21 points in under 25 minutes and made 8 of 11 shots, including all three of his three-point attempts. [McKinley Wright IV](/player/EuroLeague/rg-118870) scored 14 with three assists and made 5 of 6 shots.
 
