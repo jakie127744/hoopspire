@@ -16,7 +16,7 @@ Kendric Davis led Sydney with 31 points, 10 of them from 11 free throws, and six
 
 The Kings' bench scored 51 of their 121 points. Sydney outrebounded Illawarra 42-20 and made 27 of 32 free throws to the Hawks' 13 of 17.
 
-"The guys on the bench, the guy sitting next to me [Johnston], brought some energy and pickup and started getting stops," coach Brian Goorjian said, according to [the NBL's report](https://www.nbl.com.au/news/kings-bench-depth-maluach-johnston-nbl27).
+"The guys on the bench, the guy sitting next to me [Johnston], brought some energy and pickup and started getting stops," coach Brian Goorjian said.
 
 Sam Froling and Kelan Martin scored 21 each for Illawarra. Kyle Adnam had 17 off the bench, and Tyler Harvey made four of five threes for 12 points. The loss leaves the Hawks without a win after three games.
 
@@ -28,4 +28,4 @@ Illawarra: Sam Froling 21, Kelan Martin 21, Kyle Adnam 17, Tyler Harvey 12, Milt
 
 By quarter: Illawarra 27, 18, 26, 29. Sydney 31, 34, 33, 23.
 
-**What is next.** Sydney hosts the Brisbane Bullets on Wednesday night in a meeting of two 2-0 teams, [according to the NBL](https://www.nbl.com.au/news/brisbane-bullets-last-to-unbeaten-velicka-mackinnon-kings-nbl27). Goorjian called it "a must-win for us" in the league's report.
+**What is next.** Sydney hosts the Brisbane Bullets on Wednesday night in a meeting of two 2-0 teams. Goorjian called it "a must-win for us."

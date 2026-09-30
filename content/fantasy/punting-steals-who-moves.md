@@ -11,7 +11,7 @@ Dyson Daniels ranks 35th of 150 in a nine-category pool. Remove steals from the 
 
 This column follows the earlier ones on blocks, free throws, turnovers and assists. It is about punting steals. Punting means giving up the category on purpose and building around the other eight. **Format:** nine-category head-to-head, where you win a week by taking five of nine categories. Punt steals and you need five of the remaining eight.
 
-**Pool:** the same 150 players as the nine-cat top 50 and the earlier columns, taken from the 247 NBA players with at least 30 games and 20 minutes a night in 2025-26 (a player traded during the season counts both of his teams), then the top 150 by nine-category value. Every figure is a 2025-26 per-game average at that player's own minutes, from ESPN. Nothing here is a projection of 2026-27.
+**Pool:** the same 150 players as the nine-cat top 50 and the earlier columns, taken from the 247 NBA players with at least 30 games and 20 minutes a night in 2025-26 (a player traded during the season counts both of his teams), then the top 150 by nine-category value. Every figure is a 2025-26 per-game average at that player's own minutes. Nothing here is a projection of 2026-27.
 
 ## How steals are spread
 

@@ -12,7 +12,7 @@ Caitlin Clark had 27 points and 15 assists, and the Indiana Fever, one loss from
 
 It did not look that way early. The Aces, who won [Game 1 by 102-85](/story/aces-beat-fever-102-85-game-1-wilson-38), led 26-18 after the first quarter and 29-18 early in the second. Then the game turned, and Indiana outscored them 81-60 the rest of the way.
 
-[Caitlin Clark](/player/WNBA/4433403) made five of her 11 threes and nine of 18 shots in all, with seven rebounds in 33 minutes. [Kelsey Mitchell](/player/WNBA/3142191) scored 26 and [Aliyah Boston](/player/WNBA/4432831) had 22 on 10-of-15 shooting. ESPN's injury report had listed Clark and Boston as day-to-day before the game, as our [preview story](/story/fever-host-aces-game-2-must-win-clark-boston-probable) noted. Both played. The league listed the crowd at 16,298, according to ESPN.
+[Caitlin Clark](/player/WNBA/4433403) made five of her 11 threes and nine of 18 shots in all, with seven rebounds in 33 minutes. [Kelsey Mitchell](/player/WNBA/3142191) scored 26 and [Aliyah Boston](/player/WNBA/4432831) had 22 on 10-of-15 shooting. Clark and Boston had both been listed as day-to-day before the game, as our [preview story](/story/fever-host-aces-game-2-must-win-clark-boston-probable) noted. Both played. The crowd was 16,298.
 
 ## The technical, and the turn
 
@@ -46,4 +46,4 @@ Las Vegas: [Jackie Young](/player/WNBA/4065870) 31, [A'ja Wilson](/player/WNBA/3
 
 By quarter: Indiana 18, 30, 24, 27. Las Vegas 26, 17, 17, 29.
 
-**What is next.** Game 3 is Thursday, October 1, at 9 p.m. ET in Las Vegas, on USA Network and CNBC, according to ESPN's schedule. The winner advances to the semifinals.
+**What is next.** Game 3 is Thursday, October 1, at 9 p.m. ET in Las Vegas, on USA Network and CNBC. The winner advances to the semifinals.

@@ -11,7 +11,7 @@ The Washington Mystics have won 26 of 42 games and outscored their opponents by 
 
 A record and a margin should tell roughly the same story. Here they do not, and the difference is a single kind of game.
 
-Every figure below is built from ESPN's final scores for the 316 regular-season games completed through Sunday, September 20, 2026. We left out the Commissioner's Cup final on June 30, which is not part of the regular-season standings. With that game out, our wins, losses, points scored and points allowed match the ESPN standings for all 15 teams.
+Every figure below is built from the final scores for the 316 regular-season games completed through Sunday, September 20, 2026. We left out the Commissioner's Cup final on June 30, which is not part of the regular-season standings. With that game out, our wins, losses, points scored and points allowed match the standings for all 15 teams.
 
 ## What the margin predicts
 

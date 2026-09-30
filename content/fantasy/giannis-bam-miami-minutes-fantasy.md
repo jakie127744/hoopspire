@@ -13,7 +13,7 @@ Draft Giannis Antetokounmpo like you drafted him last year. Draft Bam Adebayo on
 
 ## The assumption, stated up front
 
-Miami traded for Antetokounmpo in July, and he now shares a frontcourt with Adebayo, a fellow big who was the team's offensive engine before the trade. Beat reporters covering the Heat's September minicamp (Eastern Herald, September 12) say coach Erik Spoelstra plans to stagger the two rather than play them heavy minutes together at the same time, so one of them is anchoring the center spot whenever the other sits, with Bobby Portis absorbing the rest of the frontcourt bench minutes. Camp opens officially September 29 and nothing is final until real games are played. Treat what follows as a projection built on a reported plan, not a locked rotation.
+Miami traded for Antetokounmpo in July, and he now shares a frontcourt with Adebayo, a fellow big who was the team's offensive engine before the trade. Reports from the Heat's September minicamp say coach Erik Spoelstra plans to stagger the two rather than play them heavy minutes together at the same time, so one of them is anchoring the center spot whenever the other sits, with Bobby Portis absorbing the rest of the frontcourt bench minutes. Camp opens officially September 29 and nothing is final until real games are played. Treat what follows as a projection built on a reported plan, not a locked rotation.
 
 I am assuming Antetokounmpo at 30 minutes a game and Adebayo at 29, both down from where they sat last season (28.9 and 32.4). If the stagger plan does not survive contact with the regular season, the numbers below move with it, and I will revisit them once real games are on the board.
 

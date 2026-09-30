@@ -9,9 +9,9 @@ tag: "Preview"
 
 The Indiana Fever open the WNBA playoffs at the Las Vegas Aces on Sunday at 4 p.m. ET, without guard Ty Harris and with Caitlin Clark listed as probable. Game 1 of the best-of-three first-round series is at Michelob ULTRA Arena.
 
-The Fever [announced on Saturday](https://fever.wnba.com/news/guard-ty-harris-to-miss-remainder-of-2026-season) that Harris will miss the rest of the season. She broke her left fibula in the third quarter of Thursday's 86-66 loss at Minnesota, the last regular-season game for both teams.
+Guard Ty Harris will miss the rest of the season. She broke her left fibula in the third quarter of Thursday's 86-66 loss at Minnesota, the last regular-season game for both teams.
 
-The team's injury report listed Clark as probable with a back injury and Aliyah Boston as questionable with a right lower leg injury, according to [Heavy](https://heavy.com/sports/wnba/indiana-fever/make-caitlin-clark-injury-aces-series/) and [FanSided](https://fansided.com/wnba/are-caitlin-clark-and-aliyah-boston-playing-tonight-latest-injury-update-for-fever-vs-aces-game-1). Boston played 13 minutes in the finale and Clark played 18.
+The team's injury report listed Clark as probable with a back injury and Aliyah Boston as questionable with a right lower leg injury. Boston played 13 minutes in the finale and Clark played 18.
 
 Las Vegas is the third seed at 31-13 and won its last seven regular-season games. Indiana is the sixth seed at 28-16. The league seeds its top eight teams by record, regardless of conference.
 

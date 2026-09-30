@@ -11,7 +11,7 @@ Deni Avdija ranks 66th of 150 in a nine-category pool. Remove turnovers from the
 
 This column is about punting turnovers, which means giving up the category on purpose and building around the other eight. **Format:** nine-category head-to-head, where you win a week by taking five of nine categories. Punt turnovers and you need five of the remaining eight.
 
-**Pool:** the same 150 players as in the nine-cat top 50 and the earlier columns on blocks and free throws, taken from 467 NBA players with a 2025-26 season row (a player traded during the season counts both of his teams), keeping the 247 with at least 30 games and 20 minutes a night, then the top 150 by nine-category value. Every figure is a 2025-26 per-game average at that player's own minutes, from ESPN. Nothing here is a projection of 2026-27.
+**Pool:** the same 150 players as in the nine-cat top 50 and the earlier columns on blocks and free throws, taken from 467 NBA players with a 2025-26 season row (a player traded during the season counts both of his teams), keeping the 247 with at least 30 games and 20 minutes a night, then the top 150 by nine-category value. Every figure is a 2025-26 per-game average at that player's own minutes. Nothing here is a projection of 2026-27.
 
 ## Why turnovers are different
 

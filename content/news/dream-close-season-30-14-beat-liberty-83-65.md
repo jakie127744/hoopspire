@@ -18,4 +18,4 @@ Atlanta finishes the season 30-14. New York finishes 26-18.
 
 ## What is next
 
-The WNBA regular season concludes Thursday, September 24, with the remaining slate of games. The playoffs begin Sunday, September 27, with the top eight teams in the league, regardless of conference, seeded by regular season record for a best-of-three first round, according to the league's own postseason FAQ. Final seeding was not yet set at the time of this game.
+The WNBA regular season concludes Thursday, September 24, with the remaining slate of games. The playoffs begin Sunday, September 27, with the top eight teams in the league, regardless of conference, seeded by regular season record for a best-of-three first round. Final seeding was not yet set at the time of this game.

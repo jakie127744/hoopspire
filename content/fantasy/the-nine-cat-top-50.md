@@ -15,7 +15,7 @@ That number is not a provocation. It is arithmetic, and the arithmetic is the re
 
 ## How this list was built
 
-Every rank below comes from ESPN's 2025-26 per-game averages for all 30 rosters, with a player traded during the season counted across both of his teams, run through the standard nine-cat method rather than through anyone's recollection of who is good.
+Every rank below comes from 2025-26 per-game averages for all 30 rosters, with a player traded during the season counted across both of his teams, run through the standard nine-cat method rather than through anyone's recollection of who is good.
 
 The details, because a ranking without them is not checkable:
 
@@ -150,7 +150,7 @@ Four things, and they are the four that matter in September.
 
 **It does not know about minutes.** Wembanyama produced second place on 29.2 minutes a night. [Chet Holmgren](/player/NBA/4433255) produced 15th on 28.9. Both of those numbers could move by four in either direction this season, and four minutes is worth more than 20 places in the middle of this list. The minutes column is there so you can do that arithmetic yourself, which is the argument [the first column on this desk](/story/draft-the-minutes-not-the-names) made at length.
 
-**It does not know about players who did not play.** [Tyrese Haliburton](/player/NBA/4396993) has no 2025-26 row in ESPN's record at all, so he cannot appear here at any rank. His most recent season is 2024-25, at 73 games and 33.6 minutes. A list built from last season will always show a missing player as absent rather than as cheap, and that gap is the most reliable value in a draft.
+**It does not know about players who did not play.** [Tyrese Haliburton](/player/NBA/4396993) has no 2025-26 row in the record at all, so he cannot appear here at any rank. His most recent season is 2024-25, at 73 games and 33.6 minutes. A list built from last season will always show a missing player as absent rather than as cheap, and that gap is the most reliable value in a draft.
 
 **It does not know about rookies.** No first-year player has a line to rank, which is not a flaw to correct. It is an accurate statement that the rate half of a rookie projection does not exist yet.
 

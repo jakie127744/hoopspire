@@ -11,7 +11,7 @@ If you plan to punt points, cross Jaylen Brown off your board. He ranks 50th of 
 
 This column is the next in the punt series. Punting means giving up a category on purpose and building around the rest. **Format:** nine-category head-to-head, where you win a week by taking five of nine categories. Punt points and you need five of the remaining eight: rebounds, assists, steals, blocks, threes, field goal percentage, free throw percentage and turnovers.
 
-**Pool:** the 150 players with the most nine-category value among the 247 NBA players who played at least 30 games and 20 minutes a night in 2025-26. Every figure is a 2025-26 per-game average at that player's own minutes, built from ESPN's box score totals. A player traded during the season counts his games for both teams. Nothing here is a projection of 2026-27.
+**Pool:** the 150 players with the most nine-category value among the 247 NBA players who played at least 30 games and 20 minutes a night in 2025-26. Every figure is a 2025-26 per-game average at that player's own minutes, built from box score totals. A player traded during the season counts his games for both teams. Nothing here is a projection of 2026-27.
 
 ## How points are scored
 

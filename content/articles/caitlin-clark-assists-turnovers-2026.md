@@ -11,7 +11,7 @@ Caitlin Clark averages 8.5 assists per game, the most in the WNBA. She also aver
 
 A quick read of those two numbers gives two opposite verdicts: she is the league's best creator, and she is its most careless ball handler. The rest of the box score suggests they are the same fact, and that the cost is one the Fever have been able to afford.
 
-Every figure below is computed from ESPN's box scores for the 310 regular-season games completed through September 19, 2026. Indiana has played 41 of its 44 games. ESPN's schedule shows the rest: Washington on September 20, then Minnesota twice.
+Every figure below is computed from box scores for the 310 regular-season games completed through September 19, 2026. Indiana has played 41 of its 44 games. The rest of the schedule: Washington on September 20, then Minnesota twice.
 
 ## Two league-leading numbers, one workload
 
@@ -61,7 +61,7 @@ Her six 30-point games are all in the record, and the Fever won five of them. Th
 
 ## The four games she wasn't in
 
-ESPN's box scores show no minutes for Clark in four Indiana games: three listed with no minutes played and one where she does not appear in the box score at all. We don't know why, and we won't guess.
+The box scores show no minutes for Clark in four Indiana games: three listed with no minutes played and one where she does not appear in the box score at all. We don't know why, and we won't guess.
 
 The Fever won all four, by an average of 15.0 points. With her, they are 23-14 with an average margin of 5.4.
 
@@ -71,6 +71,6 @@ That is four games. Three of them came against teams now below .500 (Portland 16
 
 The numbers show that Clark's assist and turnover totals are both league-best, that they sit on the second-largest possession load in the league, and that Indiana's offense is the league's best with an ordinary turnover rate.
 
-They do not show whether her passing is why the offense is good. Assists depend on teammates making shots, and ESPN's box scores carry no tracking data, no shot quality and no split of live-ball and dead-ball turnovers. The improvement between the two halves of her season is clearest in workload and free throws, and least clear in shooting percentage, where the sample sizes are too small to separate skill from luck.
+They do not show whether her passing is why the offense is good. Assists depend on teammates making shots, and box scores carry no tracking data, no shot quality and no split of live-ball and dead-ball turnovers. The improvement between the two halves of her season is clearest in workload and free throws, and least clear in shooting percentage, where the sample sizes are too small to separate skill from luck.
 
-Rankings here are among the 124 players with at least 30 games played; a different cutoff would change who appears in the top five. The league's qualifying-player figures for true shooting and turnover rate are pooled totals, not averages of player averages. ESPN does not publish possession counts, so possessions used and team ratings are estimates from box-score totals.
+Rankings here are among the 124 players with at least 30 games played; a different cutoff would change who appears in the top five. The league's qualifying-player figures for true shooting and turnover rate are pooled totals, not averages of player averages. Possession counts are not published, so possessions used and team ratings are estimates from box-score totals.

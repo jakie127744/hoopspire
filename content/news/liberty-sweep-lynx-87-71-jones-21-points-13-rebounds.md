@@ -8,9 +8,9 @@ tag: "Result"
 game: "401918017"
 ---
 
-The New York Liberty beat the Minnesota Lynx 87-71 at Barclays Center on Tuesday night and won their first-round series 2-0. New York was the eighth seed and Minnesota the first, according to the [WNBA's playoff bracket](https://www.wnba.com/playoffs/2026). The Liberty scored first, never trailed and never tied, and led by as many as 19 points.
+The New York Liberty beat the Minnesota Lynx 87-71 at Barclays Center on Tuesday night and won their first-round series 2-0. New York was the eighth seed and Minnesota the first. The Liberty scored first, never trailed and never tied, and led by as many as 19 points.
 
-[Jonquel Jones](/player/WNBA/2999101) scored the Liberty's first seven points and finished with 21 points and 13 rebounds, six of them offensive, on 9-of-14 shooting. [Breanna Stewart](/player/WNBA/2998928) also scored 21 and made all nine of her free throws. [Sabrina Ionescu](/player/WNBA/4066533) had 18 points and seven assists. The league listed the crowd at 17,593, according to ESPN.
+[Jonquel Jones](/player/WNBA/2999101) scored the Liberty's first seven points and finished with 21 points and 13 rebounds, six of them offensive, on 9-of-14 shooting. [Breanna Stewart](/player/WNBA/2998928) also scored 21 and made all nine of her free throws. [Sabrina Ionescu](/player/WNBA/4066533) had 18 points and seven assists. The crowd was 17,593.
 
 ## How the game went
 

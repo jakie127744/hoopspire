@@ -11,7 +11,7 @@ The Golden State Valkyries have allowed 75.2 points per game over 41 games. The 
 
 A gap that size invites a cheap explanation: Golden State plays slowly, so there are fewer possessions and fewer points for everyone. That explanation is partly right. It is also incomplete, and the split between the two halves is the story.
 
-Every figure below is computed from ESPN's box scores for the 310 regular-season games completed through September 19, 2026 (620 team-games). As a consistency check, the points we rebuilt from each team's field goals, threes and free throws matched the final score in all 620. Golden State's 3,083 points allowed matches ESPN's standings.
+Every figure below is computed from box scores for the 310 regular-season games completed through September 19, 2026 (620 team-games). As a consistency check, the points we rebuilt from each team's field goals, threes and free throws matched the final score in all 620. Golden State's 3,083 points allowed matches the standings.
 
 ## Part one: the clock
 
@@ -62,6 +62,6 @@ The numbers show that Golden State's defense is elite on a per-possession basis 
 
 They do not show why opponents shoot worse inside the arc. Box scores carry no shot locations, no measure of how tightly shots were contested, and no rim-protection data. Anything we said about the cause would be a guess. Our reading is that the two-point number is the one to watch, because it is the largest piece of the gap, but the data here can't say what produces it.
 
-The ratings are also not adjusted for opponent strength, and the league average includes Golden State itself. We estimate possessions from box-score totals; ESPN's box scores do not include possession counts. And we can't tell from box scores whether the slow pace is Golden State's choice or something its defense imposes on opponents, since pace is shared by both teams in a game.
+The ratings are also not adjusted for opponent strength, and the league average includes Golden State itself. We estimate possessions from box-score totals; box scores do not include possession counts. And we can't tell from box scores whether the slow pace is Golden State's choice or something its defense imposes on opponents, since pace is shared by both teams in a game.
 
-Golden State has three regular-season games left, according to ESPN's schedule.
+Golden State has three regular-season games left.

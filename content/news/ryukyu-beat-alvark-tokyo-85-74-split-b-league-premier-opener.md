@@ -9,7 +9,7 @@ tag: "Result"
 
 Kiefer Ravena's three with 7:57 left in the second quarter put the Ryukyu Golden Kings ahead of Alvark Tokyo 29-27 on Wednesday afternoon, and they never gave the lead back. Ryukyu won 85-74 at Toyota Arena Tokyo, a day after Alvark had won the first game of the B.League Premier season 84-73 in the same building.
 
-The B.League opened its 2026-27 season with a revamped structure and a salary cap, [the Inquirer reported](https://sports.inquirer.net/697029/revamped-japan-b-league-tips-off-new-season-targets-lofty-goal). Tuesday's game between Alvark and Ryukyu was the only one on the league's opening day, in front of 9,514 fans. Wednesday's drew 9,591.
+The B.League opened its 2026-27 season with a revamped structure and a salary cap. Tuesday's game between Alvark and Ryukyu was the only one on the league's opening day, in front of 9,514 fans. Wednesday's drew 9,591.
 
 **The second game.** Alvark opened Wednesday's game with a 9-0 run to lead 11-4 in the first quarter. Ryukyu answered in the second quarter with three three-pointers in 78 seconds, from Ravena, Kevin Jones and David Nwaba, to go from 27-26 down to 35-27 up. Nwaba added a three with 45 seconds left in the half, and Ryukyu led 51-41 at the break. The lead reached 15 in the third quarter at 58-43.
 

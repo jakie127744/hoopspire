@@ -25,17 +25,17 @@ The final men's ranking: 1. Korea, 2. Japan, 3. Iran, 4. China, 5. Chinese Taipe
 
 ## The bad
 
-**The Philippines went from champions to ninth.** They lost their opener 89-85 to Bahrain, beat Kazakhstan 109-78 and lost 105-61 to China, which left them third in Group C. Ninth is their lowest placing in the event. The previous low was seventh, in 2014, according to [Rappler](https://www.rappler.com/sports/gilas-pilipinas/asian-games-men-basketball-philippines-china-september-14-2026/).
+**The Philippines went from champions to ninth.** They lost their opener 89-85 to Bahrain, beat Kazakhstan 109-78 and lost 105-61 to China, which left them third in Group C. Ninth is their lowest placing in the event. The previous low was seventh, in 2014.
 
 The Bahrain game was the closest of the three. The Philippines took 81 shots to Bahrain's 62 and won the offensive rebounding 21-7, but shot 38.3 percent to Bahrain's 53.2 and lost by four. They last led 43-41 in the second quarter and trailed by as many as 16.
 
 The margin against China then decided their fate. Three teams finished third in their groups on four points: Jordan at minus-5 on point differential, Saudi Arabia at minus-11 and the Philippines at minus-17. Jordan and Saudi Arabia took the last two quarterfinal places. A loss to China by 37 or fewer would have left the Philippines at minus-10, ahead of Saudi Arabia. They lost by 44.
 
-Coach Tim Cone said the team in Nagoya was not the full pool. "We brought some really good players, but we didn't bring our best players," Cone said, [Rappler reported](https://www.rappler.com/sports/gilas-pilipinas/tim-cone-rues-absence-best-players-philippines-worst-finish-asian-games/). The Asian Games is not on the FIBA calendar, so clubs in Japan and Korea did not have to release their players. [Tiebreaker Times](https://tiebreakertimes.com.ph/tbt/tim-cone-gilas-wont-excel-without-best-players-in-international-meets/383845) reported that Cone had split the program, with the main pool playing FIBA World Cup qualifiers at home while an all-PBA squad went to Aichi. The official rosters put the Philippines at an average height of 193.0 cm, tied with Kazakhstan for eighth of 12. China's 200.3 cm was the tallest.
+Coach Tim Cone said the team in Nagoya was not the full pool. "We brought some really good players, but we didn't bring our best players," Cone said. The Asian Games is not on the FIBA calendar, so clubs in Japan and Korea did not have to release their players. Cone had split the program, with the main pool playing FIBA World Cup qualifiers at home while an all-PBA squad went to Aichi. The official rosters put the Philippines at an average height of 193.0 cm, tied with Kazakhstan for eighth of 12. China's 200.3 cm was the tallest.
 
-**China missed the podium.** It finished fourth, its second-lowest placing in the event and above only fifth in 2014, [China Daily reported](https://www.chinadaily.com.cn/a/202609/20/WS6aafce06e4b06d4aa055f162.html). China won its three group games by an average of 42.7 points, then went 1-2 in the knockout rounds. It beat Saudi Arabia 87-78 in the quarterfinals, trailed Japan 49-30 at halftime in the semifinals and never led, then lost the bronze game to Iran. In that game China attempted 32 free throws to Iran's 11, shot 37.7 percent from the field and turned the ball over 16 times to Iran's 11.
+**China missed the podium.** It finished fourth, its second-lowest placing in the event and above only fifth in 2014. China won its three group games by an average of 42.7 points, then went 1-2 in the knockout rounds. It beat Saudi Arabia 87-78 in the quarterfinals, trailed Japan 49-30 at halftime in the semifinals and never led, then lost the bronze game to Iran. In that game China attempted 32 free throws to Iran's 11, shot 37.7 percent from the field and turned the ball over 16 times to Iran's 11.
 
-"It is indeed a pity. During the game, we did not do as well as our opponents, so we lost," head coach Guo Shiqiang said, according to China Daily.
+"It is indeed a pity. During the game, we did not do as well as our opponents, so we lost," head coach Guo Shiqiang said.
 
 ## The ugly
 
@@ -47,6 +47,6 @@ Coach Tim Cone said the team in Nagoya was not the full pool. "We brought some r
 
 The three disqualifications came in three different situations. Iran's Aghajanpour was disqualified in the tournament's first game, a 59-53 loss to Qatar, with Qatar ahead 20-17 in the second quarter. Korea's Choi Jun-yong went with 6:24 left in the quarterfinal against Jordan, when Korea led 99-60. Bahrain's Mustafa Rashed went with 1.3 seconds left in the quarterfinal against Iran, with Iran ahead 77-74.
 
-**Off the court.** Hours before the final, Korea's shuttle bus to its practice gym did not arrive and the team cancelled its morning shootaround, the [Korea Herald reported](https://www.koreaherald.com/article/10880078). [SBS](https://news.sbs.co.kr/english/article.do?news_id=N1008762147) reported that no explanation was given. "The bus didn't come, and we went for a walk and enjoyed the good weather," captain Lee Seoung-hyun said at the official press conference.
+**Off the court.** Hours before the final, Korea's shuttle bus to its practice gym did not arrive and the team cancelled its morning shootaround. No explanation was given. "The bus didn't come, and we went for a walk and enjoyed the good weather," captain Lee Seoung-hyun said at the official press conference.
 
 **What is next.** The women's tournament continues with group games on Sept. 21 and 22 in Japan. Its quarterfinals are set for Sept. 24, starting at 10 a.m. local time, which is 9 p.m. Eastern on Sept. 23.

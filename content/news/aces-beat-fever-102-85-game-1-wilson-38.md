@@ -12,13 +12,13 @@ The Las Vegas Aces beat the Indiana Fever 102-85 on Sunday in Game 1 of their be
 
 Wilson made 15 of 19 shots from the field, both of her threes and six of seven free throws in 35 minutes. Jackie Young added 21 points and 10 assists. Chelsea Gray had 14 points and eight assists.
 
-Caitlin Clark, listed as probable with a back injury before the game, according to [Heavy](https://heavy.com/sports/wnba/indiana-fever/make-caitlin-clark-injury-aces-series/), started and played 34 minutes. She finished with 15 points and 10 assists, shot 6 of 17 from the field and 3 of 10 from three, and had six turnovers. Aliyah Boston, listed as questionable with a right lower leg injury, according to [FanSided](https://fansided.com/wnba/are-caitlin-clark-and-aliyah-boston-playing-tonight-latest-injury-update-for-fever-vs-aces-game-1), started and led Indiana with 18 points and eight rebounds in 25 minutes. Kelsey Mitchell scored 12 on 4-of-16 shooting.
+Caitlin Clark, listed as probable with a back injury before the game, started and played 34 minutes. She finished with 15 points and 10 assists, shot 6 of 17 from the field and 3 of 10 from three, and had six turnovers. Aliyah Boston, listed as questionable with a right lower leg injury, started and led Indiana with 18 points and eight rebounds in 25 minutes. Kelsey Mitchell scored 12 on 4-of-16 shooting.
 
 Indiana led 34-33 early in the second quarter, and the game was tied 36-36 with 7:20 left in the half. Las Vegas outscored the Fever 26-11 from there to lead 62-47 at halftime. The Aces stretched the lead to 27 points, 85-58, late in the third quarter. Indiana won the fourth quarter 20-16.
 
 The Aces shot 59% from the field (38 of 64). The Fever shot 45% (30 of 67). Both teams committed 17 turnovers.
 
-The Fever played without guard Ty Harris, who broke her left fibula in the regular-season finale. The team [announced on Saturday](https://fever.wnba.com/news/guard-ty-harris-to-miss-remainder-of-2026-season) that she will miss the rest of the season.
+The Fever played without guard Ty Harris, who broke her left fibula in the regular-season finale and will miss the rest of the season.
 
 ## Scoring
 
