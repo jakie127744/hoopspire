@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-09-30T12:16:55.128Z",
+  "fetchedAt": "2026-10-01T12:50:52.851Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5161,13 +5161,13 @@
   },
   "games": [
     {
-      "id": "ab-TPBL-2025-10-18-dreamers-kaohsiung",
+      "id": "ab-TPBL-2026-10-18-dreamers-kaohsiung",
       "league": "TPBL",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-18T11:00:00.000Z",
+      "date": "2026-10-18T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -5190,13 +5190,13 @@
       }
     },
     {
-      "id": "ab-TPBL-2025-10-17-dreamers-kings",
+      "id": "ab-TPBL-2026-10-17-dreamers-kings",
       "league": "TPBL",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-17T11:00:00.000Z",
+      "date": "2026-10-17T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -5840,12 +5840,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-09-30T12:16:55.128Z",
-    "rosters": "2026-09-30T12:16:55.128Z",
-    "playerStats": "2026-09-30T12:16:55.128Z",
-    "standings": "2026-09-30T12:16:55.128Z",
-    "games": "2026-09-30T12:16:55.128Z",
-    "news": "2026-09-30T12:16:55.128Z",
-    "leaders": "2026-09-30T12:16:55.128Z"
+    "teams": "2026-10-01T12:50:52.851Z",
+    "rosters": "2026-10-01T12:50:52.851Z",
+    "playerStats": "2026-10-01T12:50:52.851Z",
+    "standings": "2026-10-01T12:50:52.851Z",
+    "games": "2026-10-01T12:50:52.851Z",
+    "news": "2026-10-01T12:50:52.851Z",
+    "leaders": "2026-10-01T12:50:52.851Z"
   }
 }

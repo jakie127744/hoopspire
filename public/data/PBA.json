@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-09-30T12:16:35.770Z",
+  "fetchedAt": "2026-10-01T12:50:37.356Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14427,43 +14427,30 @@
   ],
   "news": [
     {
-      "id": "PBA-kojibuenaflorcherishesgilas33sonceinalif",
+      "id": "PBA-pbatohaltactionafterquartersforgilaswind",
       "league": "PBA",
-      "title": "Koji Buenaflor cherishes Gilas 3×3’s ‘once-in-a-lifetime’ Asian Games journey",
+      "title": "PBA to halt action after quarters for Gilas Window 5 games",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Koji Buenaflor’s experience with the Gilas Pilipinas 3×3 squad was one that he will never forget. Despite the Philippines falling just short of a medal at the 20th Asian Games Aichi-Nagoya 2026, the UST sophomore described the entire journey as a once-in-a-lifetime experience. Gi",
-      "published": "2026-09-30T11:15:53.000Z",
+      "description": "The PBA is set to enter another lengthy break to help Gilas Pilipinas prepare for Window 5 of the FIBA Basketball World Cup 2027 Asian Qualifiers. Commissioner Willie Marcial told Tiebreaker Times Tuesday that the league will pause the Season 50 Governors’ Cup after the best-of-f",
+      "published": "2026-10-01T10:47:47.000Z",
       "byline": "Tiebreaker Times",
       "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/UAAP89-MBB-KOJI-BUENAFLOR-7390-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/koji-buenaflor-cherishes-gilas-3x3s-once-in-a-lifetime-asian-games-journey/385345"
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/07/2026-PBA-Governors-Cup-Macau-vs-NLEX-Damian-Chongqui-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/pba-to-halt-action-after-quarters-for-gilas-window-5-games/385449"
     },
     {
-      "id": "PBA-palmeradyproudasespanolpasilangearnasiad",
+      "id": "PBA-uaapkojibuenaflorreadjustsonreturntoustc",
       "league": "PBA",
-      "title": "Palmera-Dy proud as Espanol, Pasilang earn Asiad medal she never had",
+      "title": "UAAP: Koji Buenaflor readjusts on return to UST, carries lessons from Asian Games 3x3 basketball",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Far Eastern University head coach Raiza Palmera-Dy is no stranger to Gilas Pilipinas Women, having represented the country as a player for several years. Now taking up the mantle as a coach, Palmera-Dy could not have been prouder to see two of her players help bring the Philippin",
-      "published": "2026-09-30T10:14:09.000Z",
-      "byline": "Tiebreaker Times",
+      "description": "After donning national team colors in the 2026 Asian Games for the Gilas Pilipinas 3x3 Basketball Team, Koji Buenaflor is back in University of Santo Tomas gold, contributing to his team\"s 98-87 win over the University of the East.",
+      "published": "2026-09-30T13:52:38.000Z",
+      "byline": "GMA News",
       "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/UAAP89-WBB-AMYAH-ESPANOL-7324-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/palmera-dy-proud-as-espanol-pasilang-earn-asiad-medal-she-never-had/385338"
-    },
-    {
-      "id": "PBA-fivedaysafterasiadsilverkennankakaceydel",
-      "league": "PBA",
-      "title": "Five days after Asiad silver, Kennan Ka, Kacey Dela Rosa find themselves on opposite sides",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Teammates to rivals in less than a week. That became the reality for Kennan Ka and Kacey dela Rosa, who were part of the historic Gilas Women 3×3 team that captured the silver medal at the 20th Asian Games last Friday at Kinjo Futo Station Square in Nagoya. Just five days after t",
-      "published": "2026-09-30T08:03:34.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/UAAP89-WBB-KACEY-DELA-ROSA-KENNAN-KA-6736-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/five-days-after-asiad-silver-kennan-ka-kacey-dela-rosa-find-themselves-on-opposite-sides/385311"
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1004336/uaap-koji-buenaflor-readjusts-on-return-to-ust-carries-lessons-from-asian-games-3x3-basketball/story/"
     }
   ],
   "leaders": {
@@ -14934,8 +14921,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-09-30T12:16:35.770Z",
-    "news": "2026-09-30T12:16:35.770Z"
+    "games": "2026-10-01T12:50:37.356Z",
+    "news": "2026-10-01T12:50:37.356Z"
   },
   "carriedOver": [
     "teams",

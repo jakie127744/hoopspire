@@ -1,7 +1,7 @@
 {
   "league": "CBA",
-  "season": "2025",
-  "fetchedAt": "2026-09-30T12:16:46.874Z",
+  "season": "2026",
+  "fetchedAt": "2026-10-01T12:50:48.118Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,13 +16229,13 @@
   },
   "games": [
     {
-      "id": "ab-CBA-2025-10-18-guangzhou-zhejiang",
+      "id": "ab-CBA-2026-10-18-guangzhou-zhejiang",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-18T11:00:00.000Z",
+      "date": "2026-10-18T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16258,13 +16258,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-18-jilin-ne-beijing",
+      "id": "ab-CBA-2026-10-18-jilin-ne-beijing",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-18T11:00:00.000Z",
+      "date": "2026-10-18T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16287,13 +16287,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-18-nanjing-guangdong",
+      "id": "ab-CBA-2026-10-18-nanjing-guangdong",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-18T11:00:00.000Z",
+      "date": "2026-10-18T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16316,13 +16316,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-18-shandong-liaoning",
+      "id": "ab-CBA-2026-10-18-shandong-liaoning",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-18T11:00:00.000Z",
+      "date": "2026-10-18T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16345,13 +16345,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-17-jiangsu-fujian-s-",
+      "id": "ab-CBA-2026-10-17-jiangsu-fujian-s-",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-17T11:00:00.000Z",
+      "date": "2026-10-17T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16374,13 +16374,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-17-ningbo-r--beijing",
+      "id": "ab-CBA-2026-10-17-ningbo-r--beijing",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-17T11:00:00.000Z",
+      "date": "2026-10-17T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16403,13 +16403,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-17-sichuan-tianjin",
+      "id": "ab-CBA-2026-10-17-sichuan-tianjin",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-17T11:00:00.000Z",
+      "date": "2026-10-17T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16432,13 +16432,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-17-guangsha-shanxi-l-",
+      "id": "ab-CBA-2026-10-17-guangsha-shanxi-l-",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-17T11:00:00.000Z",
+      "date": "2026-10-17T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16461,13 +16461,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-17-xinjiang-qingdao",
+      "id": "ab-CBA-2026-10-17-xinjiang-qingdao",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-17T11:00:00.000Z",
+      "date": "2026-10-17T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -16490,13 +16490,13 @@
       }
     },
     {
-      "id": "ab-CBA-2025-10-16-shanghai-shenzhen",
+      "id": "ab-CBA-2026-10-16-shanghai-shenzhen",
       "league": "CBA",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2025-10-16T11:00:00.000Z",
+      "date": "2026-10-16T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -17002,8 +17002,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-09-30T12:16:46.874Z",
-    "news": "2026-09-30T12:16:46.874Z"
+    "games": "2026-10-01T12:50:48.118Z",
+    "news": "2026-10-01T12:50:48.118Z"
   },
   "carriedOver": [
     "teams",

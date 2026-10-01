@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-09-30T12:17:04.466Z",
+  "fetchedAt": "2026-10-01T12:51:04.014Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-fluminense-derrota-botafogo-e-vai-enfren",
+      "league": "NBB",
+      "title": "Fluminense defeats Botafogo and will face Flamengo in the final of Carioca de Basquete",
+      "originalTitle": "Fluminense derrota Botafogo e vai enfrentar Flamengo na final do Carioca de Basquete",
+      "translatedFrom": "pt",
+      "description": "Fluminense beat Botafogo 84-74 on Wednesday night (30), in the second game of the Campeonato Carioca. With the triumph at home, at the João Coelho Netto Gymnasium in Laranjeiras, the tricolor secured the spot in the final of the tournament, in a clash against Flamengo. Fluminense wins Botafogo on C",
+      "published": "2026-10-01T00:27:04.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/YU5c3wWTzHRAKO83ZBAd5OMdYQY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/p/UD99Y4RG2uCJ6XDbtoNw/55560663272-033b9d485f-k.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/09/30/fluminense-derrota-botafogo-e-vai-enfrentar-flamengo-na-final-do-carioca-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-franca-exalta-defesa-em-3-melhor-desempe",
       "league": "NBB",
       "title": "Franca exalts defense in 3rd best performance in the sector in the season",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/Y61OYOUrwebTH3uZbKkbJNidFk0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/4/z/0b2CjLSryOZbFATKXvrg/oscar.png",
       "url": "https://ge.globo.com/basquete/noticia/2026/08/19/oscar-schmidt-ganha-homenagem-em-camisa-da-selecao-brasileira-de-basquete-veja.ghtml"
-    },
-    {
-      "id": "NBB-brasil-vence-nova-zel-ndia-em-jogo-apert",
-      "league": "NBB",
-      "title": "Brazil beats New Zealand in a tight match and remains alive for a place in the Pre-Olympic",
-      "originalTitle": "Brasil vence Nova Zelândia em jogo apertado e segue vivo por vaga no Pré-Olímpico",
-      "translatedFrom": "pt",
-      "description": "The first step of the women's basketball team to Los Angeles 2028! Brazil is alive in the fight for a place in the Los Angeles 2028 Pre-Olympic. The women's national team beat New Zealand 56-53 on Tuesday in Guadalajara, Mexico, and bounced back from defeat in their Qualificat debut",
-      "published": "2026-08-19T05:09:46.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/hKrzi6KNALaS6WqUPJmK-JlJGEo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/B/cJlNUlTrmYfU6fhI0I4A/aaliyah-guydon.webp",
-      "url": "https://ge.globo.com/basquete/noticia/2026/08/19/brasil-vence-nova-zelandia-em-jogo-apertado-e-segue-vivo-por-vaga-no-pre-olimpico.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-09-30T12:17:04.466Z",
-    "news": "2026-09-30T12:17:04.466Z"
+    "games": "2026-10-01T12:51:04.014Z",
+    "news": "2026-10-01T12:51:04.014Z"
   },
   "carriedOver": [
     "teams",
