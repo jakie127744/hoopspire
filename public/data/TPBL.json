@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-01T12:50:52.851Z",
+  "fetchedAt": "2026-10-02T12:14:54.101Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -773,7 +773,7 @@
         "weight": "113 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/14843/70fnGK5vHmzc02wqKt8zVIK2wDqWNmAyr8FgFKWv.png?20260304222021"
+        "headshot": "https://assets.tpbl.basketball/production/players/14843/DehMF2DwPkdb95gbXFX4MlOhMVsErayIyejXFv1B.png?20261002164001"
       },
       {
         "id": "13778",
@@ -1501,7 +1501,7 @@
         "weight": "75 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/1/eMcRtHoU8mJs351dyXkX7a2TiISFXZJx4vv4eUKE.png?20251003164229"
+        "headshot": "https://assets.tpbl.basketball/production/players/1/D1hSiZ5tzg0O1aGL9qJo5pUlUx9YN557fpqIuA5x.png?20261002154348"
       },
       {
         "id": "13907",
@@ -1525,7 +1525,7 @@
         "weight": "72 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10863/MeiHOjHnu98ohtvkkieQBTWpyOBghl6qqH7ltiJB.png?20251003172148"
+        "headshot": "https://assets.tpbl.basketball/production/players/10863/UilI9KF5XyiObOiRhuGbV6A7w7g90MOUiDOGCOSQ.png?20261002154604"
       },
       {
         "id": "2",
@@ -1537,7 +1537,7 @@
         "weight": "93 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/2/UwjPRt8Ejyz2YeTroQzwc4LAFYtu7eG9LTjQTWxN.png?20251003170847"
+        "headshot": "https://assets.tpbl.basketball/production/players/2/BvLr4qRLu6erYKtD027VQZpLKwcRNTD3Z7ZQssbA.png?20261002154927"
       },
       {
         "id": "10864",
@@ -1549,7 +1549,7 @@
         "weight": "96 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10864/5bTZbqv8C3OM9nHmHzzTnDidKIHj5injhOZOPvaf.png?20251003173046"
+        "headshot": "https://assets.tpbl.basketball/production/players/10864/ROJRx7hMUHNieGPs8wCeHRlqNIOkCsSoJZjh28Q9.png?20261002155528"
       },
       {
         "id": "3",
@@ -1561,7 +1561,7 @@
         "weight": "98 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/3/6bOHpHC9ovq2m3ljMUHHUVJqpTcvM6B24F6vHr7W.png?20251003175914"
+        "headshot": "https://assets.tpbl.basketball/production/players/3/91uC8uNfmyaCXLcJkPzDrwwOpk6VSRgvgOYF92gN.png?20261002155820"
       },
       {
         "id": "4",
@@ -1597,7 +1597,7 @@
         "weight": "96 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/5/0pvH9IF4f6sRVeh7OgV4kPaOZlHvDNT04i7MX7cK.png?20251003165153"
+        "headshot": "https://assets.tpbl.basketball/production/players/5/DEKiS3UUFws3R9CKNfDIzxfVCacRXxNkUm8fJekE.png?20261002160627"
       },
       {
         "id": "14437",
@@ -1621,7 +1621,7 @@
         "weight": "85 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10865/ZvEbn38z4lEHynDYRaMP8Ptaxia532ql5gmGFfzL.png?20251003175045"
+        "headshot": "https://assets.tpbl.basketball/production/players/10865/iloV7CbzGDiOeTFN1hHmUxJE4Fboc6kOzAVoweLA.png?20261002161752"
       },
       {
         "id": "7",
@@ -1693,7 +1693,7 @@
         "weight": "91 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10/KeFFtp2DMM0wQzS0eA2LteAMOlzWsnMKK8OuH2kU.png?20251003181734"
+        "headshot": "https://assets.tpbl.basketball/production/players/10/Xe0VcWG2dYhtPgESeLWCoCawIWXlLIiFy0tRAM5O.png?20261002163756"
       },
       {
         "id": "13400",
@@ -1741,7 +1741,7 @@
         "weight": "105 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/13/NIywOFHmnJAtd0YRx304ZaV6qTjORzj78nAeVZAD.png?20251003175543"
+        "headshot": "https://assets.tpbl.basketball/production/players/13/2dL5QkDMJuuzp9hCU4AvHMI5VUW35flCHkLg7s48.png?20261002164205"
       }
     ]
   },
@@ -2187,7 +2187,7 @@
       "height": "193 cm",
       "weight": "96 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/5/0pvH9IF4f6sRVeh7OgV4kPaOZlHvDNT04i7MX7cK.png?20251003165153",
+      "headshot": "https://assets.tpbl.basketball/production/players/5/DEKiS3UUFws3R9CKNfDIzxfVCacRXxNkUm8fJekE.png?20261002160627",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 31,
@@ -2307,7 +2307,7 @@
       "height": "197 cm",
       "weight": "105 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/13/NIywOFHmnJAtd0YRx304ZaV6qTjORzj78nAeVZAD.png?20251003175543",
+      "headshot": "https://assets.tpbl.basketball/production/players/13/2dL5QkDMJuuzp9hCU4AvHMI5VUW35flCHkLg7s48.png?20261002164205",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 20,
@@ -2571,7 +2571,7 @@
       "height": "174 cm",
       "weight": "75 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/1/eMcRtHoU8mJs351dyXkX7a2TiISFXZJx4vv4eUKE.png?20251003164229",
+      "headshot": "https://assets.tpbl.basketball/production/players/1/D1hSiZ5tzg0O1aGL9qJo5pUlUx9YN557fpqIuA5x.png?20261002154348",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 29,
@@ -2595,7 +2595,7 @@
       "height": "188 cm",
       "weight": "98 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/3/6bOHpHC9ovq2m3ljMUHHUVJqpTcvM6B24F6vHr7W.png?20251003175914",
+      "headshot": "https://assets.tpbl.basketball/production/players/3/91uC8uNfmyaCXLcJkPzDrwwOpk6VSRgvgOYF92gN.png?20261002155820",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 30,
@@ -3051,7 +3051,7 @@
       "height": "196 cm",
       "weight": "96 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10864/5bTZbqv8C3OM9nHmHzzTnDidKIHj5injhOZOPvaf.png?20251003173046",
+      "headshot": "https://assets.tpbl.basketball/production/players/10864/ROJRx7hMUHNieGPs8wCeHRlqNIOkCsSoJZjh28Q9.png?20261002155528",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 18,
@@ -3339,7 +3339,7 @@
       "height": "197 cm",
       "weight": "91 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10/KeFFtp2DMM0wQzS0eA2LteAMOlzWsnMKK8OuH2kU.png?20251003181734",
+      "headshot": "https://assets.tpbl.basketball/production/players/10/Xe0VcWG2dYhtPgESeLWCoCawIWXlLIiFy0tRAM5O.png?20261002163756",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 29,
@@ -3675,7 +3675,7 @@
       "height": "177 cm",
       "weight": "72 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10863/MeiHOjHnu98ohtvkkieQBTWpyOBghl6qqH7ltiJB.png?20251003172148",
+      "headshot": "https://assets.tpbl.basketball/production/players/10863/UilI9KF5XyiObOiRhuGbV6A7w7g90MOUiDOGCOSQ.png?20261002154604",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 24,
@@ -4347,7 +4347,7 @@
       "height": "190 cm",
       "weight": "85 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10865/ZvEbn38z4lEHynDYRaMP8Ptaxia532ql5gmGFfzL.png?20251003175045",
+      "headshot": "https://assets.tpbl.basketball/production/players/10865/iloV7CbzGDiOeTFN1hHmUxJE4Fboc6kOzAVoweLA.png?20261002161752",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 32,
@@ -4443,7 +4443,7 @@
       "height": "211 cm",
       "weight": "113 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/14843/70fnGK5vHmzc02wqKt8zVIK2wDqWNmAyr8FgFKWv.png?20260304222021",
+      "headshot": "https://assets.tpbl.basketball/production/players/14843/DehMF2DwPkdb95gbXFX4MlOhMVsErayIyejXFv1B.png?20261002164001",
       "teamId": "4",
       "teamName": "Lioneers",
       "gamesPlayed": 14,
@@ -4467,7 +4467,7 @@
       "height": "193 cm",
       "weight": "93 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/2/UwjPRt8Ejyz2YeTroQzwc4LAFYtu7eG9LTjQTWxN.png?20251003170847",
+      "headshot": "https://assets.tpbl.basketball/production/players/2/BvLr4qRLu6erYKtD027VQZpLKwcRNTD3Z7ZQssbA.png?20261002154927",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 17,
@@ -5492,7 +5492,7 @@
       {
         "name": "Marin Marić",
         "playerId": "14843",
-        "headshot": "https://assets.tpbl.basketball/production/players/14843/70fnGK5vHmzc02wqKt8zVIK2wDqWNmAyr8FgFKWv.png?20260304222021",
+        "headshot": "https://assets.tpbl.basketball/production/players/14843/DehMF2DwPkdb95gbXFX4MlOhMVsErayIyejXFv1B.png?20261002164001",
         "team": "Lioneers",
         "teamId": "4",
         "value": "11.8",
@@ -5566,7 +5566,7 @@
       {
         "name": "Ting Sheng Ju",
         "playerId": "1",
-        "headshot": "https://assets.tpbl.basketball/production/players/1/eMcRtHoU8mJs351dyXkX7a2TiISFXZJx4vv4eUKE.png?20251003164229",
+        "headshot": "https://assets.tpbl.basketball/production/players/1/D1hSiZ5tzg0O1aGL9qJo5pUlUx9YN557fpqIuA5x.png?20261002154348",
         "team": "Mars",
         "teamId": "8",
         "value": "7.7",
@@ -5712,7 +5712,7 @@
       {
         "name": "Marin Marić",
         "playerId": "14843",
-        "headshot": "https://assets.tpbl.basketball/production/players/14843/70fnGK5vHmzc02wqKt8zVIK2wDqWNmAyr8FgFKWv.png?20260304222021",
+        "headshot": "https://assets.tpbl.basketball/production/players/14843/DehMF2DwPkdb95gbXFX4MlOhMVsErayIyejXFv1B.png?20261002164001",
         "team": "Lioneers",
         "teamId": "4",
         "value": "1.6",
@@ -5840,12 +5840,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-01T12:50:52.851Z",
-    "rosters": "2026-10-01T12:50:52.851Z",
-    "playerStats": "2026-10-01T12:50:52.851Z",
-    "standings": "2026-10-01T12:50:52.851Z",
-    "games": "2026-10-01T12:50:52.851Z",
-    "news": "2026-10-01T12:50:52.851Z",
-    "leaders": "2026-10-01T12:50:52.851Z"
+    "teams": "2026-10-02T12:14:54.101Z",
+    "rosters": "2026-10-02T12:14:54.101Z",
+    "playerStats": "2026-10-02T12:14:54.101Z",
+    "standings": "2026-10-02T12:14:54.101Z",
+    "games": "2026-10-02T12:14:54.101Z",
+    "news": "2026-10-02T12:14:54.101Z",
+    "leaders": "2026-10-02T12:14:54.101Z"
   }
 }

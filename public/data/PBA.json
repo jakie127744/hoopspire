@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-01T12:50:37.356Z",
+  "fetchedAt": "2026-10-02T12:14:39.126Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
@@ -14427,19 +14428,6 @@
   ],
   "news": [
     {
-      "id": "PBA-pbatohaltactionafterquartersforgilaswind",
-      "league": "PBA",
-      "title": "PBA to halt action after quarters for Gilas Window 5 games",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The PBA is set to enter another lengthy break to help Gilas Pilipinas prepare for Window 5 of the FIBA Basketball World Cup 2027 Asian Qualifiers. Commissioner Willie Marcial told Tiebreaker Times Tuesday that the league will pause the Season 50 Governors’ Cup after the best-of-f",
-      "published": "2026-10-01T10:47:47.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/07/2026-PBA-Governors-Cup-Macau-vs-NLEX-Damian-Chongqui-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/pba-to-halt-action-after-quarters-for-gilas-window-5-games/385449"
-    },
-    {
       "id": "PBA-uaapkojibuenaflorreadjustsonreturntoustc",
       "league": "PBA",
       "title": "UAAP: Koji Buenaflor readjusts on return to UST, carries lessons from Asian Games 3x3 basketball",
@@ -14921,8 +14909,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-01T12:50:37.356Z",
-    "news": "2026-10-01T12:50:37.356Z"
+    "games": "2026-10-02T12:14:39.126Z",
+    "news": "2026-10-02T12:14:39.126Z"
   },
   "carriedOver": [
     "teams",
