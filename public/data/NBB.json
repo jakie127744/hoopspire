@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-02T12:15:03.813Z",
+  "fetchedAt": "2026-10-03T11:25:05.847Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-sele-o-masculina-de-basquete-volta-ao-ib",
+      "league": "NBB",
+      "title": "Men's basketball team returns to Ibirapuera after 42 years for World Cup spot",
+      "originalTitle": "Seleção masculina de basquete volta ao Ibirapuera após 42 anos por vaga na Copa do Mundo",
+      "translatedFrom": "pt",
+      "description": "Gui Santos, from the NBA and the National Team, entertains basketball fans on the pitch The Brazilian men's basketball team resumes the FIBA 2027 World Cup Qualifiers on November 27 and 30 playing at home. Brazil will face the United States and Mexico on one of the most traditional stages",
+      "published": "2026-10-02T20:59:52.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/BNgGO7aQyaJqfBltfJccunzVuzc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/k/z/ox6h80SIiO9SC5Tip3tg/treino-jogo-das-estrelas-sexta-feira-27.03.2029-1693-1200x800.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/10/02/selecao-masculina-de-basquete-volta-ao-ibirapuera-apos-42-anos-por-vaga-na-copa-do-mundo.ghtml"
+    },
+    {
       "id": "NBB-fluminense-derrota-botafogo-e-vai-enfren",
       "league": "NBB",
       "title": "Fluminense defeats Botafogo and will face Flamengo in the final of Carioca de Basquete",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/w3tEmfH_ZtA5WeEWG76IbOkvuh8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/O/s/B4svJJQv6XT6SnWiAwpg/whatsapp-image-2026-08-13-at-21.47.21-1-.jpeg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/08/20/parodi-e-mais-um-desfalque-do-franca-por-conta-das-eliminatorias-da-copa.ghtml"
-    },
-    {
-      "id": "NBB-oscar-schmidt-ganha-homenagem-em-camisa-",
-      "league": "NBB",
-      "title": "Oscar Schmidt wins tribute on the jersey of the Brazilian basketball team; see",
-      "originalTitle": "Oscar Schmidt ganha homenagem em camisa da seleção brasileira de basquete; veja",
-      "translatedFrom": "pt",
-      "description": "Oscar Schmidt's son lives his first Father's Day without his father and uses AI to recreate moments An idol of Brazilian sport, Oscar Schmidt will be honored by the Brazilian basketball team, which he has honored so much. Deceased last April, at the age of 68, Mão Santa will print a patch on his uniform in B",
-      "published": "2026-08-19T21:11:58.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/Y61OYOUrwebTH3uZbKkbJNidFk0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/4/z/0b2CjLSryOZbFATKXvrg/oscar.png",
-      "url": "https://ge.globo.com/basquete/noticia/2026/08/19/oscar-schmidt-ganha-homenagem-em-camisa-da-selecao-brasileira-de-basquete-veja.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-02T12:15:03.813Z",
-    "news": "2026-10-02T12:15:03.813Z"
+    "games": "2026-10-03T11:25:05.847Z",
+    "news": "2026-10-03T11:25:05.847Z"
   },
   "carriedOver": [
     "teams",

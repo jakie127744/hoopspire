@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-02T12:14:49.641Z",
+  "fetchedAt": "2026-10-03T11:24:49.850Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16532,19 +16532,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/01/ef1d04d1-ac76-43f2-8564-b53f0e53baa0_48f9c3b3.jpg?itok=lovJb3eW&v=1790857501",
       "url": "https://www.scmp.com/sport/china/article/3369472/hangzhou-launch-project-b-league-january-just-part-busy-chinese-sports-year?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-chinasinvinciblezhangziyuhelpswomensbask",
-      "league": "CBA",
-      "title": "China’s ‘invincible’ Zhang Ziyu helps women’s basketball team claim bronze at Asian Games",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Zhang Ziyu played a starring role to drag China to women’s basketball bronze at the Asian Games on Saturday, with her coach predicting the teenager standing 2.2 metres (7-foot-3) will one day be “invincible”. The 19-year-old is already taller than NBA legend Shaquille O’Neal and ",
-      "published": "2026-09-26T13:00:09.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/7a955dac-8bfe-40ec-9b1e-ea203550c46d_4786bc3a.jpg?itok=S3yg-9q5&v=1790421158",
-      "url": "https://www.scmp.com/sport/basketball/article/3368907/chinas-invincible-zhang-ziyu-helps-womens-basketball-team-claim-bronze-asian-games?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -17015,8 +17002,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-02T12:14:49.641Z",
-    "news": "2026-10-02T12:14:49.641Z"
+    "games": "2026-10-03T11:24:49.850Z",
+    "news": "2026-10-03T11:24:49.850Z"
   },
   "carriedOver": [
     "teams",

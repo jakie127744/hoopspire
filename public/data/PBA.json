@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-02T12:14:39.126Z",
+  "fetchedAt": "2026-10-03T11:24:33.219Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14428,6 +14428,19 @@
   ],
   "news": [
     {
+      "id": "PBA-zaydhenrosanoracesfromnuwintogilasgirlsd",
+      "league": "PBA",
+      "title": "Zaydhen Rosano races from NU win to Gilas Girls duty",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Zaydhen Rosano showed maturity beyond her years, helping National University secure its second straight win in the UAAP Season 89 collegiate women’s basketball tournament on Saturday at the Philsports Arena. The 17-year-old rookie from the NU Nazareth School girls’ program delive",
+      "published": "2026-10-03T07:32:53.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/06/2026-FIBA-U18-Asia-Cup-SEABA-Gilas-Women-def-Vietnam-Zaydhen-Rosano-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/zaydhen-rosano-races-from-nu-win-to-gilas-girls-duty/385569"
+    },
+    {
       "id": "PBA-uaapkojibuenaflorreadjustsonreturntoustc",
       "league": "PBA",
       "title": "UAAP: Koji Buenaflor readjusts on return to UST, carries lessons from Asian Games 3x3 basketball",
@@ -14909,8 +14922,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-02T12:14:39.126Z",
-    "news": "2026-10-02T12:14:39.126Z"
+    "games": "2026-10-03T11:24:33.219Z",
+    "news": "2026-10-03T11:24:33.219Z"
   },
   "carriedOver": [
     "teams",
