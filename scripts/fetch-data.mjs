@@ -32,6 +32,7 @@ import {
 import { translate, saveTranslationCache } from './translate.mjs'
 import { buildCareers } from './careers.mjs'
 import { keepPrevious } from './keep-previous.mjs'
+import { bleagueStandings } from './official-standings.mjs'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT_DIR = path.join(__dirname, '..', 'public', 'data')
@@ -294,7 +295,12 @@ async function scrapeBLeague() {
 
   if (!teams.length) throw new Error('no B.League teams parsed')
 
-  const fixtures = await asiaBasketFixtures('BLeague', teams)
+  // Games from bleague.jp's own schedule; asia-basket only if that fails.
+  let fixtures = await bleagueSchedule(teams)
+  if (!fixtures.games.length) {
+    notes.push(...fixtures.notes)
+    fixtures = await asiaBasketFixtures('BLeague', teams)
+  }
   notes.push(...fixtures.notes)
 
   const news = await fetchLeagueNews('BLeague', NEWS_FEEDS.BLeague, NEWS_TERMS.BLeague)
@@ -306,6 +312,18 @@ async function scrapeBLeague() {
   let playerStats = []
   let leaders = {}
   try {
+    const finished = fixtures.games.filter((g) => g.status === 'final' && g.id?.startsWith('bl-')).map((g) => g.id.slice(3))
+    playerStats = await bleagueOfficialPlayerStats(teams, rosters, finished, notes)
+    if (playerStats.length) {
+      notes.push(`player stats from bleague.jp (${playerStats.length} players)`)
+      const built = buildLeaders(playerStats)
+      leaders = built.leaders || {}
+      if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
+    }
+  } catch (err) {
+    notes.push(`bleague.jp player stats: ${err.message}`)
+  }
+  if (!playerStats.length) try {
     const st = await realgmPlayerStats('BLeague')
     playerStats = st.players
     notes.push(...st.notes)
@@ -335,7 +353,7 @@ async function scrapeBLeague() {
     teams,
     rosters,
     playerStats,
-    standings: await standingsFor('BLeague', teams, notes),
+    standings: await bleagueOfficialStandings(teams, notes),
     games: fixtures.games,
     news: news.articles,
     leaders,
@@ -994,6 +1012,239 @@ const scrapeCBA = () => scrapeAsiaBasketLeague('CBA')
 const scrapeTPBL = () => scrapeAsiaBasketLeague('TPBL')
 const scrapeNBB = () => scrapeAsiaBasketLeague('NBB')
 
+// B.League short names as bleague.jp's schedule prints them, mapped to the
+// TeamID the club pages use. Taken from the game JSON's HomeTeamShortNameJ /
+// HomeTeamID fields (2026-10-04), covering all 26 B.League Premier clubs.
+const BLEAGUE_SHORT = {
+  北海道: '702', 仙台: '692', 秋田: '693', 茨城: '712', 宇都宮: '703', 群馬: '713',
+  千葉J: '704', A千葉: '2486', A東京: '706', 東京SR: '726', 川崎: '727', 横浜BC: '694',
+  信州: '716', 富山: '696', 三遠: '697', 三河: '728', 名古屋D: '729', 滋賀: '698',
+  京都: '699', 大阪: '700', 神戸: '718', 島根: '720', 広島: '721', 佐賀: '1638',
+  長崎: '2488', 琉球: '701',
+}
+
+/**
+ * Results and fixtures from bleague.jp, two weeks either side of today.
+ *
+ * The month page lists which days have games (data-day); the day JSON then
+ * gives each game's ScheduleKey, teams (home first), score and status. A day
+ * with no games returns the NEXT game day's list, so only listed days are
+ * requested and every game is dated from the day it was listed under.
+ */
+async function bleagueSchedule(teams) {
+  const notes = []
+  const games = new Map()
+  const byId = new Map(teams.map((t) => [String(t.id), t]))
+  const jstNow = new Date(Date.now() + 9 * 3600e3)
+  const from = new Date(jstNow.getTime() - 14 * 86400e3)
+  const to = new Date(jstNow.getTime() + 21 * 86400e3)
+  const months = []
+  for (let d = new Date(Date.UTC(from.getUTCFullYear(), from.getUTCMonth(), 1)); d <= to; d.setUTCMonth(d.getUTCMonth() + 1)) {
+    months.push([d.getUTCFullYear(), d.getUTCMonth() + 1])
+  }
+  const side = (short, score) => {
+    const id = BLEAGUE_SHORT[short] || null
+    const t = id ? byId.get(id) : null
+    return {
+      id: id || short,
+      name: t?.name || short,
+      abbr: t?.abbr || short,
+      logo: t?.logo || null,
+      score: score === '' || score == null ? null : Number(score),
+      linescores: [],
+      leaders: [],
+    }
+  }
+  try {
+    for (const [y, m] of months) {
+      const html = await get(`https://www.bleague.jp/schedule/?year=${y}&mon=${m}&event=2&tab=1`)
+      const days = [...new Set([...html.matchAll(/data-day="(\d{1,2})"/g)].map((x) => Number(x[1])))]
+      for (const day of days) {
+        const date = new Date(Date.UTC(y, m - 1, day))
+        if (date < new Date(Date.UTC(from.getUTCFullYear(), from.getUTCMonth(), from.getUTCDate())) || date > to) continue
+        const mm = String(m).padStart(2, '0')
+        const dd = String(day).padStart(2, '0')
+        const body = await get(
+          `https://www.bleague.jp/schedule/?data_format=json&year=${y}&mon=${mm}&day=${dd}&event=2&club=&tab=1&ha=&fb=`,
+          { json: true },
+        )
+        for (const topic of body?.topics || []) {
+          const key = (topic.match(/id="(\d+)"/) || [])[1]
+          if (!key || games.has(key)) continue
+          const names = [...topic.matchAll(/team-name">([^<]+)/g)].map((x) => x[1].trim())
+          const scores = [...topic.matchAll(/number (?:home|away)-score[^"]*"><span>(\d*)<\/span>/g)].map((x) => x[1])
+          const time = (topic.match(/info-arena">[\s\S]*?<span>[^<]*<\/span><span>(\d{1,2}:\d{2})<\/span>/) || [])[1] || '19:00'
+          const state = ((topic.match(/scorestate"><span>([^<]+)/) || [])[1] || '').trim()
+          if (names.length < 2) continue
+          const final = /FINAL/i.test(state)
+          const hasScore = scores.length === 2 && scores[0] !== '' && scores[1] !== ''
+          games.set(key, {
+            id: `bl-${key}`,
+            league: 'BLeague',
+            status: final ? 'final' : hasScore ? 'live' : 'scheduled',
+            statusDetail: final ? 'Final' : hasScore ? state || 'Live' : 'Scheduled',
+            period: null,
+            clock: null,
+            date: `${y}-${mm}-${dd}T${time.padStart(5, '0')}:00+09:00`,
+            venue: null,
+            city: null,
+            url: `https://www.bleague.jp/game_detail/?ScheduleKey=${key}`,
+            home: side(names[0], hasScore ? scores[0] : null),
+            away: side(names[1], hasScore ? scores[1] : null),
+          })
+        }
+        await sleep(300)
+      }
+    }
+  } catch (err) {
+    notes.push(`bleague.jp schedule: ${err.message}`)
+  }
+  const unmapped = [...games.values()].filter((g) => !BLEAGUE_SHORT[g.home.id] && !byId.has(String(g.home.id))).length
+  if (unmapped) notes.push(`${unmapped} B.League games have a club short name with no TeamID mapping`)
+  return { games: [...games.values()].sort((a, b) => a.date.localeCompare(b.date)), notes }
+}
+
+/**
+ * Current-season B.League player averages from bleague.jp/stats (official).
+ *
+ * The stats feed pages 50 rows at a time (index=0, 50, ...) and names players
+ * in katakana. English names come from each finished game's embedded JSON
+ * (PlayerID + PlayerNameE), cached in scripts/.cache/bleague-names.json so each
+ * game is read once. The same names replace the kanji/katakana roster names.
+ * A player keeps a RealGM profile link only when his English name matches a
+ * RealGM-backed player in the previous snapshot.
+ */
+async function bleagueOfficialPlayerStats(teams, rosters, finishedKeys, notes) {
+  const cacheFile = path.join(__dirname, '.cache', 'bleague-names.json')
+  let cache = { names: {}, games: [] }
+  try {
+    cache = { names: {}, games: [], ...JSON.parse(await fs.readFile(cacheFile, 'utf8')) }
+  } catch {}
+  const seen = new Set(cache.games)
+  for (const key of finishedKeys) {
+    if (seen.has(key)) continue
+    try {
+      const html = await get(`https://www.bleague.jp/game_detail/?ScheduleKey=${key}&tab=4`)
+      for (const m of html.matchAll(/"PlayerID":"(\d+)"[^{}]*?"PlayerNameE":"([^"]+)"/g)) cache.names[m[1]] = m[2].trim()
+      cache.games.push(key)
+      await sleep(300)
+    } catch {}
+  }
+  await fs.mkdir(path.dirname(cacheFile), { recursive: true })
+  await fs.writeFile(cacheFile, JSON.stringify(cache, null, 1))
+
+  // Rosters: English names where a game has given us one.
+  for (const list of Object.values(rosters)) {
+    for (const p of list) {
+      const en = cache.names[p.id]
+      if (en && en !== p.name) {
+        p.nameLocal = p.nameLocal || p.name
+        p.name = en
+      }
+    }
+  }
+
+  let prev = []
+  try {
+    prev = JSON.parse(await fs.readFile(path.join(__dirname, '..', 'public', 'data', 'BLeague.json'), 'utf8')).playerStats || []
+  } catch {}
+  const nkey = (n) => (n || '').toLowerCase().replace(/ (jr\.?|sr\.?|ii|iii|iv)$/i, '').replace(/[^a-z]/g, '')
+  const rgByName = new Map()
+  for (const p of prev) if (p.realgmPlayerId) rgByName.set(nkey(p.name), p)
+
+  const byId = new Map(teams.map((t) => [String(t.id), t]))
+  const num = (v) => {
+    const n = parseFloat(String(v).replace('%', ''))
+    return Number.isFinite(n) ? n : null
+  }
+  const out = []
+  const kst = new Date(Date.now() + 9 * 3600e3)
+  const year = kst.getUTCMonth() >= 8 ? kst.getUTCFullYear() : kst.getUTCFullYear() - 1
+  for (let index = 0; index < 2000; index += 50) {
+    const body = await get(`https://www.bleague.jp/stats/?data_format=json&tab=1&year=${year}&event=2&index=${index}`, { json: true })
+    const rows = body?.topics || []
+    if (!rows.length) break
+    for (const row of rows) {
+      const pid = (row.match(/PlayerID=(\d+)/) || [])[1]
+      const tds = [...row.matchAll(/<td[^>]*>([\s\S]*?)<\/td>/g)].map((m) => m[1].replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim())
+      if (!pid || tds.length < 29) continue
+      const local = (row.match(/link-line text[^>]*>([^<]+)</) || [])[1] || null
+      const jersey = (row.match(/table-player-number"><span>#?(\d+)/) || [])[1] || null
+      const pos = (row.match(/table-player-pos"><span>([^<]+)/) || [])[1] || null
+      const teamId = BLEAGUE_SHORT[tds[2]] || null
+      const t = teamId ? byId.get(teamId) : null
+      const en = cache.names[pid] || null
+      const rg = en ? rgByName.get(nkey(en)) : null
+      const [mm, ss] = (tds[6] || '0:0').split(':').map(Number)
+      const pct = (v) => (num(v) == null ? null : Math.round(num(v) * 10) / 1000)
+      out.push({
+        id: rg ? `rg-${rg.realgmPlayerId}` : null,
+        name: en || local,
+        nameLocal: local,
+        bleaguePlayerId: pid,
+        teamAbbr: t?.abbr || tds[2],
+        teamId: t?.id || null,
+        teamName: t?.name || tds[2],
+        jersey,
+        position: pos,
+        gamesPlayed: num(tds[3]),
+        minutes: Math.round(((mm || 0) + (ss || 0) / 60) * 10) / 10,
+        points: num(tds[7]),
+        fgMade: num(tds[8]),
+        fgAttempted: num(tds[9]),
+        fgPct: pct(tds[10]),
+        threeMade: num(tds[14]),
+        threeAttempted: num(tds[15]),
+        threePct: pct(tds[16]),
+        ftMade: num(tds[17]),
+        ftAttempted: num(tds[18]),
+        ftPct: pct(tds[19]),
+        offRebounds: num(tds[20]),
+        defRebounds: num(tds[21]),
+        rebounds: num(tds[22]),
+        assists: num(tds[23]),
+        turnovers: num(tds[24]),
+        steals: num(tds[25]),
+        blocks: num(tds[26]),
+        fouls: num(tds[28]),
+        realgmPlayerId: rg?.realgmPlayerId || null,
+      })
+    }
+    await sleep(300)
+  }
+  const missing = out.filter((p) => p.name === p.nameLocal).length
+  if (missing) notes.push(`${missing} B.League players have no English name yet (shown in Japanese)`)
+  return out.sort((a, b) => (b.points ?? 0) - (a.points ?? 0))
+}
+
+/**
+ * Standings from bleague.jp/standings (official), RealGM only as a fallback.
+ * Rows carry the same TeamID as the club records, so names, abbreviations and
+ * logos are taken from those.
+ */
+async function bleagueOfficialStandings(teams, notes) {
+  try {
+    const st = await bleagueStandings({ translate: (jp) => BLEAGUE_EN[jp] || null })
+    if (st.rows.length) {
+      const byId = new Map(teams.map((t) => [String(t.id), t]))
+      const fix = (r) => {
+        const club = byId.get(String(r.team.id))
+        return club ? { ...r, team: { ...r.team, id: club.id, name: club.name, abbr: club.abbr, logo: club.logo || r.team.logo } } : r
+      }
+      notes.push(`standings from bleague.jp (${st.seasonLabel})`)
+      return {
+        seasonLabel: st.seasonLabel,
+        rows: st.rows.map(fix),
+        conferences: (st.conferences || []).map((c) => ({ ...c, rows: c.rows.map(fix) })),
+      }
+    }
+    notes.push('bleague.jp standings returned no rows; trying RealGM')
+  } catch (err) {
+    notes.push(`bleague.jp standings: ${err.message}`)
+  }
+  return standingsFor('BLeague', teams, notes)
+}
+
 // ───────────────────────────────────────────────────────────────────────────
 // KBL (South Korea)
 //
@@ -1022,12 +1273,126 @@ const kblEnglish = (name) => {
   return KBL_EN[key] || name
 }
 
+// The API answers 400 "required header missing" (-1101) without the headers
+// the website's own axios interceptor adds: Channel=WEB and a TeamCode (empty
+// on www.kbl.or.kr; any value is accepted). Found 2026-10-04 in the site bundle.
+const KBL_HEADERS = { Channel: 'WEB', TeamCode: '00', lang: 'ko', 'X-Requested-With': 'XMLHttpRequest' }
+
 async function kblGet(pathname) {
-  const body = await get(`${KBL_API}${pathname}`, { json: true, retries: 4 })
+  const body = await get(`${KBL_API}${pathname}`, { json: true, retries: 4, headers: KBL_HEADERS })
   if (body?.resultCode && body.resultCode !== 'Success') {
     throw new Error(body.message || 'KBL API error')
   }
   return body?.object ?? body?.data ?? body
+}
+
+/**
+ * KBL publishes Korean players' English names in capitals, family name first
+ * ("BYUN JUN HYUNG"), and imports under their full legal names ("Paris
+ * Nickolas Bass"). House style is "Byun Jun-hyung" and "Paris Bass".
+ */
+function kblDisplayName(raw) {
+  const n = (raw || '').trim().replace(/\s+/g, ' ')
+  if (!n) return n
+  const parts = n.split(' ')
+  if (n === n.toUpperCase()) {
+    const cap = (w) => w.charAt(0) + w.slice(1).toLowerCase()
+    if (parts.length === 3) return `${cap(parts[0])} ${cap(parts[1])}-${parts[2].toLowerCase()}`
+    return parts.map(cap).join(' ')
+  }
+  const suffix = /^(Jr\.?|Sr\.?|II|III|IV)$/i.test(parts[parts.length - 1]) ? parts.pop() : null
+  const short = parts.length > 2 ? [parts[0], parts[parts.length - 1]] : parts
+  return suffix ? `${short.join(' ')} ${suffix}` : short.join(' ')
+}
+
+/**
+ * Current-season KBL player averages from the league's own API.
+ *
+ * /leagues/{glkey}/stats/players gives season totals per player (Korean names
+ * only). English names come from each finished game's /match/{gmkey}/player-stat
+ * feed, cached in scripts/.cache/kbl-names.json so each game is read once.
+ * A player keeps a RealGM profile link only when his English name matches a
+ * RealGM-backed player in the previous snapshot exactly.
+ */
+async function kblOfficialPlayerStats(glkey, finishedGames, byCode) {
+  const cacheFile = path.join(path.dirname(fileURLToPath(import.meta.url)), '.cache', 'kbl-names.json')
+  let cache = { names: {}, games: [] }
+  try {
+    cache = { names: {}, games: [], ...JSON.parse(await fs.readFile(cacheFile, 'utf8')) }
+  } catch {}
+  const seen = new Set(cache.games)
+  for (const gmkey of finishedGames) {
+    if (seen.has(gmkey)) continue
+    try {
+      const rows = await kblGet(`/match/${gmkey}/player-stat`)
+      for (const r of Array.isArray(rows) ? rows : []) {
+        if (r.player?.pcode && r.player?.ename) cache.names[r.player.pcode] = r.player.ename
+      }
+      cache.games.push(gmkey)
+      await sleep(200)
+    } catch {}
+  }
+  await fs.mkdir(path.dirname(cacheFile), { recursive: true })
+  await fs.writeFile(cacheFile, JSON.stringify(cache, null, 1))
+
+  let prev = []
+  try {
+    const old = JSON.parse(await fs.readFile(path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'public', 'data', 'KBL.json'), 'utf8'))
+    prev = old.playerStats || []
+  } catch {}
+  const key = (n) => (n || '').toLowerCase().replace(/[^a-z]/g, '')
+  const rgByName = new Map()
+  for (const p of prev) if (p.realgmPlayerId) rgByName.set(key(p.name), p)
+
+  const nice = kblDisplayName
+  const raw = await kblGet(`/leagues/${glkey}/stats/players`)
+  const out = []
+  for (const row of Array.isArray(raw) ? raw : []) {
+    const p = row.player || {}
+    const r = row.records || {}
+    const gp = Number(row.gameCount || 0)
+    if (!gp) continue
+    const en = cache.names[p.pcode] ? nice(cache.names[p.pcode]) : null
+    const name = en || p.pname
+    const rg = en ? rgByName.get(key(en)) || rgByName.get(key(en.replace(/ (Jr\.?|Sr\.?|II|III|IV)$/i, ''))) : null
+    const t = byCode.get(String(p.tcode))
+    const avg = (v) => Math.round((Number(v || 0) / gp) * 10) / 10
+    const rate = (m, a) => (Number(a) ? Math.round((Number(m) / Number(a)) * 1000) / 1000 : null)
+    out.push({
+      id: rg ? `rg-${rg.realgmPlayerId}` : null,
+      name,
+      nameLocal: p.pname || null,
+      kblPlayerId: p.pcode || null,
+      teamAbbr: t?.abbr || null,
+      teamId: t?.id || null,
+      teamName: t?.name || p.tname || null,
+      jersey: p.backNum ?? null,
+      position: p.pos || null,
+      headshot: p.img || null,
+      gamesPlayed: gp,
+      minutes: Math.round(((Number(r.playMin || 0) * 60 + Number(r.playSec || 0)) / 60 / gp) * 10) / 10,
+      points: avg(r.score),
+      fgMade: avg(r.fgt),
+      fgAttempted: avg(r.fgtA),
+      fgPct: rate(r.fgt, r.fgtA),
+      threeMade: avg(r.threep),
+      threeAttempted: avg(r.threepA),
+      threePct: rate(r.threep, r.threepA),
+      ftMade: avg(r.ft),
+      ftAttempted: avg(r.ftA),
+      ftPct: rate(r.ft, r.ftA),
+      offRebounds: avg(r.offr),
+      defRebounds: avg(r.defr),
+      rebounds: avg(r.rb),
+      assists: avg(r.ast),
+      steals: avg(r.stl),
+      blocks: avg(r.bs),
+      turnovers: avg(r.to),
+      fouls: avg(r.foul),
+      realgmPlayerId: rg?.realgmPlayerId || null,
+    })
+  }
+  return out.sort((a, b) => b.points - a.points)
 }
 
 async function scrapeKBL() {
@@ -1037,85 +1402,97 @@ async function scrapeKBL() {
   let standings = { seasonLabel: '', rows: [] }
   let games = []
 
-  // Standings double as the club list.
+  // Standings double as the club list. Field names are the API's own
+  // (tcode, tname/tnameF, win, loss, winDiff, contiWin/contiLoss). Club ids
+  // stay the English-name slugs the site has always used, so /team URLs and
+  // links in published articles keep working; tcode maps API rows onto them.
+  const slug = (name) => name.replace(/\W+/g, '-').toLowerCase()
+  const kblName = (full, short) => {
+    const a = kblEnglish(full)
+    if (a !== full) return a
+    const b = kblEnglish(short)
+    return b !== short ? b : full || short
+  }
+  const byCode = new Map()
+  let kblGlkey = null
   try {
-    const rank = await kblGet('/league/rank/team?')
+    const rank = await kblGet('/league/rank/team')
     const list = Array.isArray(rank) ? rank : rank?.list || []
     for (const r of list) {
-      const local = r.teamName || r.teamNameFull || ''
-      const name = kblEnglish(local)
-      const id = r.teamCode || r.tcode || name
-      teams.push({
-        id,
-        league: 'KBL',
-        name,
-        nameLocal: local || null,
-        shortName: name,
-        abbr: String(id).toUpperCase(),
-        city: null,
-        logo: r.teamLogo || r.logoImg || null,
-      })
+      const name = kblName(r.tnameF || '', r.tname || '')
+      const id = slug(name)
+      const abbr = name.split(/\s+/).map((w) => w[0]).join('').slice(0, 4).toUpperCase()
+      const team = { id, league: 'KBL', name, nameLocal: r.tnameF || r.tname || null, shortName: name, abbr, city: null, logo: null }
+      byCode.set(String(r.tcode), team)
+      teams.push(team)
+      const wins = Number(r.win ?? 0)
+      const losses = Number(r.loss ?? 0)
       standings.rows.push({
-        team: { id, name, abbr: String(id).toUpperCase(), logo: r.teamLogo || null },
-        wins: Number(r.winCnt ?? r.win ?? 0),
-        losses: Number(r.loseCnt ?? r.lose ?? 0),
-        pct: r.winRate != null ? String(r.winRate) : '—',
-        pointsFor: r.scoreAvg != null ? Number(r.scoreAvg) : null,
-        pointsAgainst: r.lossScoreAvg != null ? Number(r.lossScoreAvg) : null,
+        team: { id, name, abbr, logo: null },
+        wins,
+        losses,
+        pct: wins + losses ? (wins / (wins + losses)).toFixed(3).replace(/^0/, '') : '—',
+        gamesBehind: r.winDiff != null ? (Number(r.winDiff) === 0 ? '—' : String(r.winDiff)) : null,
+        pointsFor: null,
+        pointsAgainst: null,
         diff: null,
-        streak: null,
+        streak: r.contiWin ? `W ${r.contiWin}` : r.contiLoss ? `L ${r.contiLoss}` : null,
         seed: Number(r.rank ?? 0) || null,
       })
+    }
+    if (standings.rows.length) {
+      const year = new Date(Date.now() + 9 * 3600e3)
+      const y = year.getUTCMonth() >= 8 ? year.getUTCFullYear() : year.getUTCFullYear() - 1
+      standings.seasonLabel = `${y}-${y + 1}`
+      notes.push(`standings from api.kbl.or.kr (${standings.seasonLabel})`)
     }
   } catch (err) {
     notes.push(`standings/teams: ${err.message}`)
   }
 
-  // Recent and upcoming fixtures, a month either side of today.
+  // Results and fixtures, two weeks back and three ahead.
   try {
     const d = (offset) => {
-      const x = new Date()
-      x.setDate(x.getDate() + offset)
+      const x = new Date(Date.now() + 9 * 3600e3 + offset * 86400e3)
       return x.toISOString().slice(0, 10).replace(/-/g, '')
     }
-    const raw = await kblGet(`/match/list?fromDate=${d(-30)}&toDate=${d(30)}&tcodeList=all`)
+    const raw = await kblGet(`/match/list?fromDate=${d(-14)}&toDate=${d(21)}&tcodeList=all`)
+    kblGlkey = (Array.isArray(raw) ? raw : []).find((g) => g.seasonCategory === 'R')?.glkey || null
     const list = Array.isArray(raw) ? raw : raw?.list || []
-    games = list.map((g) => {
-      const homeName = kblEnglish(g.homeTeamName)
-      const awayName = kblEnglish(g.awayTeamName)
-      const played = g.homeScore != null && Number(g.homeScore) > 0
+    const side = (code, full, short, score) => {
+      const t = byCode.get(String(code))
+      const name = t?.name || kblName(full || '', short || '')
       return {
-        id: g.gameSq ?? g.gameCode ?? `${g.gameDate}-${g.homeTeamCode}`,
-        league: 'KBL',
-        status: g.gameStatus === 'L' ? 'live' : played ? 'final' : 'scheduled',
-        statusDetail: played ? 'Final' : 'Scheduled',
-        period: null,
-        clock: null,
-        date: g.gameDate
-          ? `${String(g.gameDate).slice(0, 4)}-${String(g.gameDate).slice(4, 6)}-${String(g.gameDate).slice(6, 8)}T${(g.gameTime || '1900').slice(0, 2)}:${(g.gameTime || '1900').slice(2, 4)}:00+09:00`
-          : null,
-        venue: g.gymName || null,
-        city: null,
-        home: {
-          id: g.homeTeamCode,
-          name: homeName,
-          abbr: String(g.homeTeamCode || '').toUpperCase(),
-          logo: null,
-          score: g.homeScore != null ? Number(g.homeScore) : null,
-          linescores: [],
-          leaders: [],
-        },
-        away: {
-          id: g.awayTeamCode,
-          name: awayName,
-          abbr: String(g.awayTeamCode || '').toUpperCase(),
-          logo: null,
-          score: g.awayScore != null ? Number(g.awayScore) : null,
-          linescores: [],
-          leaders: [],
-        },
+        id: t?.id || slug(name),
+        name,
+        abbr: t?.abbr || String(code || '').toUpperCase(),
+        logo: null,
+        score: score != null ? Number(score) : null,
+        linescores: [],
+        leaders: [],
       }
-    })
+    }
+    games = list
+      .filter((g) => g.seasonCategory === 'R' || g.seasonCategoryName === '정규시즌' || g.glkey?.endsWith('01'))
+      .map((g) => {
+        const ended = Number(g.isEnded) === 1
+        const started = Number(g.isStarted) === 1
+        const t = String(g.gameStart || '1900').padStart(4, '0')
+        return {
+          id: g.gmkey || `${g.gameDate}-${g.tcodeH}-${g.tcodeA}`,
+          league: 'KBL',
+          status: ended ? 'final' : started ? 'live' : 'scheduled',
+          statusDetail: ended ? 'Final' : started ? 'Live' : 'Scheduled',
+          period: null,
+          clock: null,
+          date: `${String(g.gameDate).slice(0, 4)}-${String(g.gameDate).slice(4, 6)}-${String(g.gameDate).slice(6, 8)}T${t.slice(0, 2)}:${t.slice(2, 4)}:00+09:00`,
+          venue: g.stadiumnameEn || g.stadiumnameF || null,
+          city: null,
+          url: g.gmkey ? `https://www.kbl.or.kr/match/record/${g.gmkey}/${g.gameDate}` : null,
+          home: side(g.tcodeH, g.tnameFH, g.tnameH, started ? g.scoreH : null),
+          away: side(g.tcodeA, g.tnameFA, g.tnameA, started ? g.scoreA : null),
+        }
+      })
   } catch (err) {
     notes.push(`fixtures: ${err.message}`)
   }
@@ -1140,7 +1517,8 @@ async function scrapeKBL() {
       if (players.length) rosters[t.id] = players
       await sleep(250)
     } catch (err) {
-      notes.push(`roster ${t.name}: ${err.message}`)
+      notes.push(`rosters: ${err.message}`)
+      break
     }
   }
 
@@ -1167,9 +1545,11 @@ async function scrapeKBL() {
   // KBL table fills the gap until it recovers.
   if (!standings.rows.length) standings = await standingsFor('KBL', teams, notes)
 
-  const fixtures = await asiaBasketFixtures('KBL', teams)
-  notes.push(...fixtures.notes)
-  if (!games.length) games = fixtures.games
+  if (!games.length) {
+    const fixtures = await asiaBasketFixtures('KBL', teams)
+    notes.push(...fixtures.notes)
+    games = fixtures.games
+  }
 
   const news = await fetchLeagueNews('KBL', NEWS_FEEDS.KBL, NEWS_TERMS.KBL)
   notes.push(...news.notes)
@@ -1178,7 +1558,49 @@ async function scrapeKBL() {
   // build, so averages come from RealGM, which publishes the full KBL table.
   let playerStats = []
   let leaders = {}
-  try {
+  if (kblGlkey) {
+    try {
+      // Every game of the season so far, to collect English names once each.
+      const kst = new Date(Date.now() + 9 * 3600e3)
+      const startYear = kst.getUTCMonth() >= 8 ? kst.getUTCFullYear() : kst.getUTCFullYear() - 1
+      const today = kst.toISOString().slice(0, 10).replace(/-/g, '')
+      const season = await kblGet(`/match/list?fromDate=${startYear}0901&toDate=${today}&tcodeList=all`)
+      const finished = (Array.isArray(season) ? season : []).filter((g) => g.glkey === kblGlkey && Number(g.isEnded) === 1).map((g) => g.gmkey)
+      playerStats = await kblOfficialPlayerStats(kblGlkey, finished, byCode)
+      if (playerStats.length) {
+        notes.push(`player stats from api.kbl.or.kr (${kblGlkey}, ${finished.length} games)`)
+        // The roster endpoint answers 500; everyone who has played is listed here.
+        if (!Object.keys(rosters).length) {
+          for (const p of playerStats) {
+            if (!p.teamId) continue
+            ;(rosters[p.teamId] ||= []).push({
+              id: p.id || `kbl-${p.kblPlayerId}`,
+              name: p.name,
+              nameLocal: p.nameLocal,
+              jersey: p.jersey != null ? String(p.jersey) : null,
+              position: p.position,
+              height: null,
+              weight: null,
+              age: null,
+              country: null,
+              headshot: p.headshot,
+            })
+          }
+          // A club that has not played yet keeps its previous roster.
+          try {
+            const old = JSON.parse(await fs.readFile(path.join(__dirname, '..', 'public', 'data', 'KBL.json'), 'utf8'))
+            for (const t of teams) if (!rosters[t.id] && old.rosters?.[t.id]?.length) rosters[t.id] = old.rosters[t.id]
+          } catch {}
+        }
+        const built = buildLeaders(playerStats)
+        leaders = built.leaders || {}
+        if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
+      }
+    } catch (err) {
+      notes.push(`official player stats: ${err.message}`)
+    }
+  }
+  if (!playerStats.length) try {
     const s = await realgmPlayerStats('KBL')
     playerStats = s.players
     notes.push(...s.notes)
@@ -1207,6 +1629,36 @@ async function scrapeKBL() {
     if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
   } catch (err) {
     notes.push(`player stats: ${err.message}`)
+  }
+
+  // RealGM refuses GitHub's servers. The league's own season-leader list is
+  // current, so it fills the leaders when RealGM gives nothing. These players
+  // carry no RealGM id, so they are shown without a profile link.
+  if (!Object.keys(leaders).length) {
+    try {
+      const parts = { score: 'avgPoints', rb: 'avgRebounds', ast: 'avgAssists', stl: 'avgSteals', bs: 'avgBlocks' }
+      const raw = await kblGet('/league/season-leader')
+      const nice = kblDisplayName
+      for (const part of Array.isArray(raw) ? raw : []) {
+        const key = parts[part.part]
+        if (!key) continue
+        leaders[key] = (part.list || []).map((x) => {
+          const t = byCode.get(String(x.player?.tcode))
+          return {
+            name: nice(x.player?.ename) || x.player?.pname,
+            playerId: null,
+            headshot: x.player?.img || null,
+            team: t?.abbr || x.player?.tname || null,
+            teamId: t?.id || null,
+            value: String(x.value),
+            gamesPlayed: x.gameCount ?? null,
+          }
+        })
+      }
+      if (Object.keys(leaders).length) notes.push('leaders from api.kbl.or.kr season-leader list')
+    } catch (err) {
+      notes.push(`season leaders: ${err.message}`)
+    }
   }
 
   if (!teams.length && !games.length) {

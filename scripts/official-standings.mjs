@@ -15,8 +15,9 @@
  * publishing a table of zeros.
  *
  * Not here, and why:
- *   KBL  its official API (api.kbl.or.kr) returns HTTP 500 to everyone,
- *        including its own website. The KBL scraper already tries it first.
+ *   KBL  its official API (api.kbl.or.kr) answers once it gets the headers
+ *        the website sends (Channel, TeamCode); see kblGet in fetch-data.mjs,
+ *        which now reads standings, fixtures and player stats from it.
  *   PBA  pba.ph sits behind a Cloudflare challenge. Not worked around.
  *   CBA  data-server.cbaleague.com encrypts its responses, which are
  *        decrypted by the site's own script. Not reverse-engineered — the
