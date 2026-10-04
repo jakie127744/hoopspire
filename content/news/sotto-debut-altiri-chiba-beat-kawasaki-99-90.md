@@ -43,4 +43,4 @@ By quarter, Chiba 23, 20, 26, 30 and Kawasaki 22, 30, 21, 17.
 
 ## What is next
 
-The teams play again on Sunday, October 4, at 2:05 p.m. Japan time at Chibagin Arena. Chiba then travels to Sendai for a Monday game on October 5 at 7:05 p.m.
+The teams play again on Sunday, October 4, at 2:05 p.m. Japan time at Chibagin Arena. Chiba then plays at the Sendai 89ers on Wednesday, October 7, at 7:05 p.m.
