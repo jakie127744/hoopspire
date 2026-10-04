@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-03T11:25:12.213Z",
+  "fetchedAt": "2026-10-04T12:07:14.360Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,6 +22,84 @@
   ],
   "news": [
     {
+      "id": "EuroLeague-hapoeltelavivthreewinsinfivedaysredstarr",
+      "league": "EuroLeague",
+      "title": "Hapoel Tel Aviv, three wins in five days: Red Star, Real Madrid and Nes Ziona beaten",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Dimitris Itoudis’ team capped a perfect week by winning two EuroLeague games during the double week before following that up with a Winner League Cup victory. L'articolo Hapoel Tel Aviv, three wins in five days: Red Star, Real Madrid and Nes Ziona beaten proviene da Sportando .",
+      "published": "2026-10-04T07:17:47.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/hapoel-tel-aviv-three-wins-in-five-days-red-star-real-madrid-and-nes-ziona-beaten/"
+    },
+    {
+      "id": "EuroLeague-euroleagueownersboardtomeetincernobbioth",
+      "league": "EuroLeague",
+      "title": "EuroLeague, owners’ board to meet in Cernobbio: the future of European basketball on the table",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Olimpia Milano will host the meeting of the 13 shareholder clubs at Villa d’Este: the expansion of the league and NBA’s acquisition offer will be discussed. L'articolo EuroLeague, owners’ board to meet in Cernobbio: the future of European basketball on the table proviene da Sport",
+      "published": "2026-10-04T06:47:09.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/euroleague-owners-board-to-meet-in-cernobbio-the-future-of-european-basketball-on-the-table/"
+    },
+    {
+      "id": "EuroLeague-arenasfiresbackatjokicourtrashgototheeur",
+      "league": "EuroLeague",
+      "title": "Arenas Fires Back at Jokic: “Our Trash Go to the EuroLeague and Become the Best Players”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "\"Who won Euroleague last year? I’m sure that team had an American as its leading scorer too\" L'articolo Arenas Fires Back at Jokic: “Our Trash Go to the EuroLeague and Become the Best Players” proviene da Sportando .",
+      "published": "2026-10-03T18:45:41.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/arenas-fires-back-at-jokic-our-trash-go-to-the-euroleague-and-become-the-best-players/"
+    },
+    {
+      "id": "EuroLeague-motleysuffersaninjurybaldwinjrsettodebut",
+      "league": "EuroLeague",
+      "title": "Motley suffers an injury, Baldwin Jr. set to debut for Crvena zvezda",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The EuroLeague member from Serbia announced three good informations but also on bad news for the fans on Saturday The post Motley suffers an injury, Baldwin Jr. set to debut for Crvena zvezda appeared first on Eurohoops .",
+      "published": "2026-10-03T15:40:21.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/cba2dfef-zvezda-zalgiris-sponsors_05_sb8yvtrx_20260925120955-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2015931/motley-suffers-an-injury-baldwin-jr-set-to-debut-for-crvena-zvezda/"
+    },
+    {
+      "id": "EuroLeague-gilbertarenasrespondstojokicourtrashbeco",
+      "league": "EuroLeague",
+      "title": "Gilbert Arenas responds to Jokic: “Our trash becomes EuroLeague’s best”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The former NBA guard pushed back against Jokic’s comments about playing in Europe, while Tyrese Rice argued that his point had been missed The post Gilbert Arenas responds to Jokic: “Our trash becomes EuroLeague’s best” appeared first on Eurohoops .",
+      "published": "2026-10-03T12:37:46.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/44aebae9-arenas-and-jokić-face-off-950x500.png",
+      "url": "https://www.eurohoops.net/en/nba-news/2015844/gilbert-arenas-responds-to-jokic-our-trash-becomes-euroleagues-best/"
+    },
+    {
+      "id": "EuroLeague-pattymillsbringshisscoringsparktotheeuro",
+      "league": "EuroLeague",
+      "title": "Patty Mills brings his scoring spark to the EuroLeague",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Australian veteran lit up Valencia with 26 points as he continues to repay Tony Parker’s trust at ASVEL The post Patty Mills brings his scoring spark to the EuroLeague appeared first on Eurohoops .",
+      "published": "2026-10-03T11:50:10.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/1daf24dd-hr2p_gjboaaarli.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2015826/patty-mills-brings-his-scoring-spark-to-the-euroleague/"
+    },
+    {
       "id": "EuroLeague-elijahbryantclaimssecondstraighteuroleag",
       "league": "EuroLeague",
       "title": "Elijah Bryant claims second straight EuroLeague MVP award",
@@ -35,19 +113,6 @@
       "url": "https://www.eurohoops.net/en/euroleague/2015812/elijah-bryant-claims-second-straight-euroleague-mvp-award/"
     },
     {
-      "id": "EuroLeague-anadoluefesofficiallysignscameronpayne",
-      "league": "EuroLeague",
-      "title": "Anadolu Efes officially signs Cameron Payne",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The American point guard has signed through the end of the 2026-27 season after playing for Partizan last season. L'articolo Anadolu Efes officially signs Cameron Payne proviene da Sportando .",
-      "published": "2026-10-03T08:17:04.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/anadolu-efes-officially-signs-cameron-payne/"
-    },
-    {
       "id": "EuroLeague-anadoluefessignscameronpayneaftermikejam",
       "league": "EuroLeague",
       "title": "Anadolu Efes signs Cameron Payne after Mike James injury",
@@ -59,84 +124,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/03/69edec0f-cameron-cam-payne-philadelphia-950x500.png",
       "url": "https://www.eurohoops.net/en/euroleague/2015769/anadolu-efes-signs-cameron-payne-after-mike-james-injury/"
-    },
-    {
-      "id": "EuroLeague-virtusbolognazanettithenewteamilikeityou",
-      "league": "EuroLeague",
-      "title": "Virtus Bologna, Zanetti: “The new team? I like it, young and fun. We came close to signing Melli and Shields in the past”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Virtus president was interviewed by “Il Resto del Carlino”. L'articolo Virtus Bologna, Zanetti: “The new team? I like it, young and fun. We came close to signing Melli and Shields in the past” proviene da Sportando .",
-      "published": "2026-10-03T07:31:41.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/virtus-bologna-zanetti-the-new-team-i-like-it-young-and-fun-we-came-close-to-signing-melli-and-shields-in-the-past/"
-    },
-    {
-      "id": "EuroLeague-fenerbahcejasikeviciusweplayedmorecreati",
-      "league": "EuroLeague",
-      "title": "Fenerbahce, Jasikevicius: “We played more creatively in the second half. Larkin’s return? Soon”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Fener head coach’s post-game comments. L'articolo Fenerbahce, Jasikevicius: “We played more creatively in the second half. Larkin’s return? Soon” proviene da Sportando .",
-      "published": "2026-10-03T07:07:12.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/fenerbahce-jasikevicius-we-played-more-creatively-in-the-second-half-larkins-return-soon/"
-    },
-    {
-      "id": "EuroLeague-valenciaxavialberttheplayerscharactermad",
-      "league": "EuroLeague",
-      "title": "Valencia, Xavi Albert: “The players’ character made the difference”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Valencia head coach’s post-game comments. L'articolo Valencia, Xavi Albert: “The players’ character made the difference” proviene da Sportando .",
-      "published": "2026-10-03T06:55:19.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/valencia-xavi-albert-the-players-character-made-the-difference/"
-    },
-    {
-      "id": "EuroLeague-partizanpearroyaforthisteamwasessentialt",
-      "league": "EuroLeague",
-      "title": "Partizan, Peñarroya:”For this team was essential to fight for the full 40 minutes”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Partizan head coach’s post-game comments. L'articolo Partizan, Peñarroya:”For this team was essential to fight for the full 40 minutes” proviene da Sportando .",
-      "published": "2026-10-03T06:38:33.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/partizan-penarroyafor-this-team-was-essential-to-fight-for-the-full-40-minutes/"
-    },
-    {
-      "id": "EuroLeague-mikejamesseveralplayersvisithiminhospita",
-      "league": "EuroLeague",
-      "title": "Mike James, several players visit him in hospital after surgery",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Efes star shared an image on his Instagram Stories showing several players visiting him following his Achilles tendon surgery. L'articolo Mike James, several players visit him in hospital after surgery proviene da Sportando .",
-      "published": "2026-10-03T06:29:34.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/mike-james-several-players-visit-him-in-hospital-after-surgery/"
-    },
-    {
-      "id": "EuroLeague-fenerbahcestaysunbeatenwith7666winoverdu",
-      "league": "EuroLeague",
-      "title": "Fenerbahce stays unbeaten with 76-66 win over Dubai",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Fenerbahce beat Dubai 76-66 to remain unbeaten in EuroLeague, led by Marcus Bingham Jr.’s 20 points and 8 rebounds L'articolo Fenerbahce stays unbeaten with 76-66 win over Dubai proviene da Sportando .",
-      "published": "2026-10-02T20:11:34.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/fenerbahce-stays-unbeaten-with-76-66-win-over-dubai/"
     },
     {
       "id": "EuroLeague-kevinpangosannouncesretirementat33",
@@ -189,45 +176,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/06/29cee53d-dimitris-giannakopoulos-panathinaikos.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2015451/panathinaikos-officially-asked-euroleague-to-open-a-disciplinary-proceeding-against-giorgos-bartzokas/"
-    },
-    {
-      "id": "EuroLeague-lamarstevenssidelinedforseventotendayswi",
-      "league": "EuroLeague",
-      "title": "Lamar Stevens sidelined for seven to ten days with hand injury",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Tests ruled out a fracture after the Partizan forward was injured against Paris The post Lamar Stevens sidelined for seven to ten days with hand injury appeared first on Eurohoops .",
-      "published": "2026-10-02T15:06:10.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/41194b1d-stevens.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2015368/lamar-stevens-sidelined-for-seven-to-ten-days-with-hand-injury/"
-    },
-    {
-      "id": "EuroLeague-danilogallinariseeksnbaeuroleagueagreeme",
-      "league": "EuroLeague",
-      "title": "Danilo Gallinari seeks NBA-Euroleague agreement: “That’s crucial”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Awaiting developments, Danilo Gallinari confirms support in establishing a new top-flight European league, urging an agreement between the NBA and Euroleague Basketball The post Danilo Gallinari seeks NBA-Euroleague agreement: “That’s crucial” appeared first on Eurohoops .",
-      "published": "2026-10-02T10:07:42.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2024/06/413adf73-danilo-gallinari-awudu-abass-giampaolo-ricci-italy-georgia-friendly-game-2024.jpeg",
-      "url": "https://www.eurohoops.net/en/nba-news/2015298/danilo-gallinari-talks-nba-europe-euroleague/"
-    },
-    {
-      "id": "EuroLeague-sretenradovictheeuroleaguerefereesareane",
-      "league": "EuroLeague",
-      "title": "Sreten Radovic: “The EuroLeague referees are an exceptional group”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The newly re-elected president of UEBO talks to Eurohoops about his career, EuroLeague referees, the notorious Campazzo call and more The post Sreten Radovic: “The EuroLeague referees are an exceptional group” appeared first on Eurohoops .",
-      "published": "2026-10-02T09:25:49.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/2c370bf9-sreten-radovic-euroleague-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/trademarks/2014692/sreten-radovic-the-euroleague-referees-are-an-exceptional-group/"
     }
   ],
   "leaders": {
@@ -10613,7 +10561,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-03T11:25:12.213Z",
+    "news": "2026-10-04T12:07:14.360Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
