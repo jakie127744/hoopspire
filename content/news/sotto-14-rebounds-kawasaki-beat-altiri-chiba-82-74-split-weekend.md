@@ -1,5 +1,5 @@
 ---
-title: "Kai Sotto grabs 14 rebounds but Kawasaki beat Altiri Chiba 82-74 to split the opening weekend"
+title: "Kai Sotto grabs 14 rebounds but Kawasaki beat Altiri Chiba 82-74 to split the weekend series"
 dek: "Sotto scored 12 points on 6-of-9 shooting and took five offensive rebounds. Kawasaki led from the first quarter on, by as many as 16, and made 17 of 18 free throws to Chiba's three."
 league: "BLeague"
 author: "Marisol Reyes"
@@ -9,7 +9,7 @@ tag: "Result"
 
 [Kai Sotto](/player/BLeague/rg-133946) went after the first miss of the game, a [Kotetsu Kurokawa](/player/BLeague/rg-219375) jumper, three times in six seconds. He grabbed the offensive rebound, missed the layup, grabbed it again, missed again, then grabbed a third and put it in. A minute later he grabbed another offensive rebound and dunked it for a 4-0 Altiri Chiba lead. Chiba never led by more. The Kawasaki Brave Thunders took the lead late in the first quarter, never gave it back and won 82-74 on Sunday at Chibagin Arena, a day after losing 99-90 in the same building.
 
-The opening weekend of the B.League Premier season ends 1-1. Sotto's second game for Chiba gave him 12 points on 6-of-9 shooting, 14 rebounds, five of them offensive, and four assists in 30 minutes and 42 seconds. The crowd was 4,453.
+The weekend series ends 1-1. Sotto's second game for Chiba gave him 12 points on 6-of-9 shooting, 14 rebounds, five of them offensive, and four assists in 30 minutes and 42 seconds. The crowd was 4,453.
 
 ## Kawasaki take over
 
