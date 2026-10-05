@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-04T12:06:43.676Z",
+  "fetchedAt": "2026-10-05T14:10:37.172Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,13 +30,12 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
     "PBA_GOV: bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -14909,7 +14908,7 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-04T12:06:43.676Z",
+    "games": "2026-10-05T14:10:37.172Z",
     "news": "2026-10-04T12:06:43.676Z"
   },
   "carriedOver": [
@@ -14917,6 +14916,7 @@
     "rosters",
     "playerStats",
     "leaders",
-    "standings"
+    "standings",
+    "news"
   ]
 }
