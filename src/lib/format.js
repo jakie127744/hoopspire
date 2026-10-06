@@ -31,6 +31,28 @@ export function formatTime(value) {
   return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
 }
 
+/**
+ * "Today" / "Yesterday" / "3 days ago" for a calendar date.
+ *
+ * Article frontmatter carries a date, not a time, so relativeTime would read
+ * this morning's piece as "9h ago" — counted from midnight, which is a time
+ * nobody filed it at. Counting whole days claims only what the date says.
+ */
+export function relativeDay(value) {
+  if (!value) return ''
+  const d = toDate(value)
+  if (Number.isNaN(d.getTime())) return ''
+  const today = new Date()
+  today.setHours(0, 0, 0, 0)
+  const day = new Date(d)
+  day.setHours(0, 0, 0, 0)
+  const days = Math.round((today - day) / 86_400_000)
+  if (days <= 0) return 'Today'
+  if (days === 1) return 'Yesterday'
+  if (days < 7) return `${days} days ago`
+  return formatDate(value)
+}
+
 /** "3h ago" / "2d ago" — used on wire copy where recency is the point. */
 export function relativeTime(value) {
   if (!value) return ''

@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { LeagueTag, Eyebrow } from './Primitives.jsx'
-import { formatDate, relativeTime } from '../lib/format.js'
+import { formatDate, relativeTime, relativeDay } from '../lib/format.js'
+import { getLeague } from '../lib/leagues.js'
 
 /**
  * Article card.
@@ -62,6 +63,27 @@ export function DeskBadge({ article, className = '' }) {
     <span className={`border px-1.5 py-0.5 ${DESK_BADGE[desk] || DESK_BADGE.margin} ${className}`}>
       <Eyebrow className="font-bold">{article.deskName || 'The Margin'}</Eyebrow>
     </span>
+  )
+}
+
+/**
+ * Stand-in thumbnail for a piece with no photo — which is nearly all of
+ * them. A stock photo would be decoration posing as coverage; the league
+ * name set large says the one thing a thumbnail is for here: which league
+ * this is, readable before the headline.
+ */
+function LeagueThumb({ article }) {
+  const league = getLeague(article.league)
+  const label = league?.name || article.league || 'Hoopspire'
+  return (
+    <div className="relative flex aspect-[5/2] items-center justify-center overflow-hidden bg-ink md:aspect-[16/9]">
+      <span className="font-display text-6xl leading-none text-cream/15 transition-colors duration-500 group-hover:text-cream/25 md:text-7xl">
+        {label}
+      </span>
+      {league?.region && (
+        <span className="eyebrow absolute bottom-3 left-4 text-gold">{league.region}</span>
+      )}
+    </div>
   )
 }
 
@@ -142,6 +164,45 @@ export default function ArticleCard({ article, variant = 'list' }) {
           {relativeTime(article.published)}
         </p>
         <TranslatedNote article={article} className="mt-1" />
+      </Wrapper>
+    )
+  }
+
+  /*
+   * Tile: the front-page grid. Always has a thumbnail — the photo when there
+   * is one, the league's name when there is not — so a row of cards lines up
+   * instead of ragging between pieces with images and pieces without.
+   */
+  if (variant === 'tile') {
+    return (
+      <Wrapper {...linkProps} className="group card flex flex-col overflow-hidden">
+        {showImage ? (
+          <div className="aspect-[16/9] overflow-hidden bg-parchment">
+            <img
+              src={article.image}
+              alt={article.imageCaption || ''}
+              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+              loading="lazy"
+              onError={() => setImageOk(false)}
+            />
+          </div>
+        ) : (
+          <LeagueThumb article={article} />
+        )}
+        <div className="flex flex-1 flex-col p-5">
+          <Kicker />
+          <h3 className="mt-3 font-display text-2xl leading-tight">
+            <span className="link-underline">{article.title}</span>
+          </h3>
+          {article.description && (
+            <p className="mt-3 line-clamp-3 text-base text-ink/65">{article.description}</p>
+          )}
+          <p className="eyebrow mt-auto pt-5 text-ink/45">
+            {isOriginal ? relativeDay(article.published) : relativeTime(article.published)}
+            {isOriginal && article.readingTime ? ` · ${article.readingTime} min read` : ''}
+          </p>
+          <TranslatedNote article={article} className="mt-1" />
+        </div>
       </Wrapper>
     )
   }
