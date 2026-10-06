@@ -206,7 +206,10 @@ export const STAFF = [
   /*
    * Opinion (owner, 2026-10-06). Two columnists across all fourteen leagues,
    * one column every other day between them: Second Look (Ashby), Hot Hand
-   * (Haddad), and Jump Ball when they take opposite sides of one question. Opinion is a desk of its own so a reader can
+   * (Haddad), and Jump Ball when they take opposite sides of one question.
+   * The split is by region (owner, 2026-10-06): Ashby the Americas and FIBA in
+   * the Americas, Haddad everywhere else and FIBA outside the Americas. FIBA is
+   * on both lists because the region is the competition, not the league key. Opinion is a desk of its own so a reader can
    * never mistake an argument for a report: the news desk states facts, this
    * one says what it thinks of them, and every fact it leans on is checked the
    * same way.
@@ -217,7 +220,8 @@ export const STAFF = [
     desk: 'opinion',
     role: 'Second Look',
     lead: true,
-    beat: 'Columns on the decisions that shape a league: coaches, front offices, rules and the calendar.',
+    leagues: ['NBA', 'WNBA', 'GLeague', 'NCAAM', 'NBB', 'LNBP', 'FIBA'],
+    beat: 'Columns on the Americas: the NBA, WNBA, G League, NCAA, Brazil and Mexico, and FIBA in the Americas.',
     method:
       'The opinions are his. Every fact under them is checked against the record before it runs, and the column says where the evidence stops.',
   },
@@ -226,7 +230,8 @@ export const STAFF = [
     byline: 'Noor Haddad',
     desk: 'opinion',
     role: 'Hot Hand',
-    beat: 'Columns on players, styles of play and the game outside the NBA, from Manila to Madrid.',
+    leagues: ['EuroLeague', 'PBA', 'KBL', 'BLeague', 'CBA', 'TPBL', 'NBL', 'FIBA'],
+    beat: 'Columns on the rest of the basketball world, from Madrid to Manila to Melbourne, and FIBA outside the Americas, World Cup included.',
     method:
       'The opinions are hers. Every fact under them is checked against the record before it runs, and the column says where the evidence stops.',
   },

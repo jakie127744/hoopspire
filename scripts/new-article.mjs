@@ -146,6 +146,14 @@ export function lintArticle(filename, raw, desk = 'margin') {
 
   // A column belongs to its columnist.
   const COLUMN_OWNER = { 'Second Look': 'Victor Ashby', 'Hot Hand': 'Noor Haddad' }
+  // And a columnist writes about his or her own region. Jump Ball pieces are
+  // exempt: both sides of one question, possibly anywhere.
+  if (desk === 'opinion' && data.tag !== 'Jump Ball' && data.league && data.author) {
+    const w = getStaff(data.author)
+    if (w && w.leagues && !w.leagues.includes(data.league)) {
+      problems.push(`${data.author} covers ${w.leagues.join(', ')}, not ${data.league}`)
+    }
+  }
   if (desk === 'opinion' && COLUMN_OWNER[data.tag] && data.author !== COLUMN_OWNER[data.tag]) {
     problems.push(`${data.tag} is ${COLUMN_OWNER[data.tag]}'s column, not ${data.author}'s`)
   }
