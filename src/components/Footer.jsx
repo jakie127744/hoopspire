@@ -48,6 +48,7 @@ export default function Footer() {
               ['/margin', 'The Margin'],
               ['/free-minutes', 'Free Minutes'],
               ['/press', 'Full Court Press'],
+              ['/opinion', 'Opinion'],
               ['/archive', 'Archive & Search'],
               ['/scores', 'Live Scores'],
               ['/stats', 'Statistics'],

@@ -66,6 +66,12 @@ export const DESKS = {
     path: '/press',
     accent: 'ink',
   },
+  opinion: {
+    key: 'opinion',
+    name: 'Opinion',
+    path: '/opinion',
+    accent: 'ink',
+  },
 }
 
 /**
@@ -111,6 +117,7 @@ const files = {
   margin: import.meta.glob('/content/articles/*.md', { query: '?raw', import: 'default', eager: true }),
   fantasy: import.meta.glob('/content/fantasy/*.md', { query: '?raw', import: 'default', eager: true }),
   news: import.meta.glob('/content/news/*.md', { query: '?raw', import: 'default', eager: true }),
+  opinion: import.meta.glob('/content/opinion/*.md', { query: '?raw', import: 'default', eager: true }),
 }
 
 function build(path, raw, desk) {

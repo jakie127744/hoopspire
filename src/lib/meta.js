@@ -52,7 +52,7 @@ export function useMeta({ title, description, image, type = 'website', noindex =
     const fullTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`
     const desc =
       description ||
-      `Scores, standings, rosters and stats across thirteen basketball leagues, from Manila to Madrid to São Paulo.`
+      `Scores, standings, rosters and stats across fourteen basketball leagues, from Manila to Madrid to São Paulo.`
 
     // The canonical is built from the path, never from window.location, so a
     // visit carrying ?utm_source=… does not declare itself a separate page.

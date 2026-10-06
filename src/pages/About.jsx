@@ -11,7 +11,7 @@ const SOURCES = {
 }
 
 export default function About() {
-  useMeta({ title: 'About', description: 'What Hoopspire is, where its numbers come from, and how a global basketball ledger across thirteen leagues is put together.' })
+  useMeta({ title: 'About', description: 'What Hoopspire is, where its numbers come from, and how a global basketball ledger across fourteen leagues is put together.' })
   return (
     <div className="mx-auto max-w-3xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">The Ledger</Eyebrow>
@@ -83,8 +83,9 @@ export default function About() {
         <div className="space-y-4 text-ink/70">
           <p>
             Hoopspire is a very small operation working with machine assistance. The bylines on
-            this site — Hoopspire Staff, Franco Medina on the fantasy desk, and Dana Whitfield,
-            Tomas Lindqvist and Marisol Reyes on Full Court Press — are{' '}
+            this site — Hoopspire Staff on The Margin, Franco Medina on the fantasy desk, a beat
+            writer for each league on Full Court Press (two on the NBA), and Victor Ashby and Noor
+            Haddad on Opinion — are{' '}
             <strong className="text-ink">desk names, not people you could call</strong>. Each one
             marks which desk a piece came from, which beat it belongs to, and the method it is
             held to. Those methods are printed on the desk pages themselves, not implied.
@@ -94,7 +95,7 @@ export default function About() {
             exist. What the bylines do mean is that the standard behind a piece is fixed and
             public: every number is checked against the box scores, standings and season averages
             this site already keeps, every claim that rests on a sample says how big the sample
-            is, and anything reported by someone else is named and linked rather than retold.
+            is, and nothing reported by a single unofficial source is published as fact.
           </p>
           <p>
             Corrections are welcome and are the fastest way to make the ledger better —{' '}

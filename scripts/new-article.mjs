@@ -27,6 +27,7 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
+import { getStaff, beatWriters } from '../src/lib/staff.js'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const CONTENT = path.join(__dirname, '..', 'content')
 
@@ -35,6 +36,7 @@ const DESKS = {
   margin: { dir: path.join(CONTENT, 'articles'), rel: 'content/articles', author: 'Hoopspire Staff' },
   fantasy: { dir: path.join(CONTENT, 'fantasy'), rel: 'content/fantasy', author: 'Franco Medina' },
   news: { dir: path.join(CONTENT, 'news'), rel: 'content/news', author: 'Hoopspire Staff' },
+  opinion: { dir: path.join(CONTENT, 'opinion'), rel: 'content/opinion', author: 'Victor Ashby' },
 }
 
 const LEAGUES = [
@@ -54,6 +56,8 @@ const TAGS_BY_DESK = {
   // Full Court Press reports events, so its tags say what KIND of event —
   // which is what a reader scanning a news index is actually sorting by.
   news: ['Report', 'Signing', 'Trade', 'Injury', 'Result', 'Preview', 'Feature'],
+  // Opinion says what it thinks, so its tags say what kind of argument it is.
+  opinion: ['Column', 'Argument', 'Debate', 'Feature'],
 }
 const TAGS = TAGS_BY_DESK.margin
 const REQUIRED = ['title', 'dek', 'author', 'published', 'tag']
@@ -121,6 +125,22 @@ export function lintArticle(filename, raw, desk = 'margin') {
         ? `league \`${data.league}\` is a list — it must be a single key, or omitted for a cross-league story`
         : `league \`${data.league}\` is not a key in src/lib/leagues.js`,
     )
+  }
+
+  // Bylines must exist on the masthead, sit on this desk, and on the news
+  // desk cover the league (from 2026-10-07, when the per-league beats began).
+  if (data.author) {
+    const writer = getStaff(data.author)
+    if (!writer) {
+      problems.push(`author \`${data.author}\` is not on the masthead in src/lib/staff.js`)
+    } else if (writer.desk !== desk && !(desk === 'news' && data.author === 'Hoopspire Staff')) {
+      problems.push(`author \`${data.author}\` writes for the ${writer.desk} desk, not ${desk}`)
+    } else if (
+      desk === 'news' && writer.leagues && data.league && (data.published || '') >= '2026-10-07' &&
+      !writer.leagues.includes(data.league)
+    ) {
+      problems.push(`author \`${data.author}\` does not cover ${data.league}; use ${beatWriters(data.league).map((s) => s.byline).join(' or ') || 'Hoopspire Staff'}`)
+    }
   }
 
   if (data.tag && !tags.includes(data.tag)) {
@@ -250,7 +270,7 @@ if (argv.includes('--lint')) {
 } else {
   const title = argv.find((a) => !a.startsWith('--'))
   if (!title) {
-    console.error('Usage: node scripts/new-article.mjs "Your headline"  [--desk margin|fantasy|news] [--league KEY] [--tag Analysis]')
+    console.error('Usage: node scripts/new-article.mjs "Your headline"  [--desk margin|fantasy|news|opinion] [--league KEY] [--tag Analysis]')
     console.error('       node scripts/new-article.mjs --lint')
     process.exit(1)
   }

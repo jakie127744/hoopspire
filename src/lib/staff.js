@@ -10,7 +10,7 @@
  * once.
  *
  * A byline still does real work: readers use it to learn whose judgement they
- * are reading, and to know that the fantasy desk's numbers are built to a
+ * are reading, and to know that the fantasy desk’s numbers are built to a
  * different brief than the Margin's.
  */
 export const STAFF = [
@@ -34,7 +34,7 @@ export const STAFF = [
     byline: 'Hoopspire Staff',
     desk: 'margin',
     role: 'The Margin',
-    beat: 'Basketball argued from the numbers, across all thirteen leagues in the ledger.',
+    beat: 'Basketball argued from the numbers, across all fourteen leagues in the ledger.',
     method:
       'Claims are checked against the box scores, standings and season averages the ledger already keeps.',
   },
@@ -42,30 +42,92 @@ export const STAFF = [
   /*
    * Full Court Press.
    *
-   * The news desk runs several bylines because it covers thirteen leagues in
-   * four time zones, and "who follows the PBA here" is a question a reader is
-   * entitled to have answered. Each one is a beat, held to the method printed
-   * beneath it — and each is a desk name, on the same terms as every other
-   * byline on this masthead. /about says so in as many words.
+   * One permanent beat writer per league, two on the NBA (owner, 2026-10-06),
+   * because "who follows the PBA here" is a question a reader is entitled to
+   * have answered. Each is a desk name, on the same terms as every other byline
+   * on this masthead, and /about says so in as many words.
    *
-   * `lead: true` marks the one that fronts the desk page; deskLead() would
-   * otherwise just return whichever happened to be listed first.
+   * `leagues` is the beat. `npm run lint:articles` checks that a news piece
+   * published from 2026-10-07 carries a byline whose beat includes its league.
+   * `lead: true` marks the one that fronts the desk page.
    */
   {
     id: 'dana-whitfield',
     byline: 'Dana Whitfield',
     desk: 'news',
-    role: 'Full Court Press — Americas',
+    role: 'Full Court Press — NBA',
     lead: true,
-    beat: 'The NBA, WNBA, G League, NCAA and NBB: signings, movement and what a result changed.',
+    leagues: ['NBA'],
+    beat: 'The NBA: results, signings, trades, injuries and what a night changed in the standings.',
     method:
-      'Reported from league releases, official box scores and on-record quotes. Where a report is someone else’s, it is named and linked rather than retold.',
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'marcus-oyelaran',
+    byline: 'Marcus Oyelaran',
+    desk: 'news',
+    role: 'Full Court Press — NBA',
+    leagues: ['NBA'],
+    beat: 'The NBA, second chair: the rest of the slate, front offices, the cap and the transaction wire.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'renee-castellano',
+    byline: 'Renee Castellano',
+    desk: 'news',
+    role: 'Full Court Press — WNBA',
+    leagues: ['WNBA'],
+    beat: 'The WNBA: games, playoffs, free agency and the expansion clubs.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'caleb-brandt',
+    byline: 'Caleb Brandt',
+    desk: 'news',
+    role: 'Full Court Press — G League',
+    leagues: ['GLeague'],
+    beat: 'The NBA G League: call-ups, two-way contracts, assignments and results.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'owen-hatcher',
+    byline: 'Owen Hatcher',
+    desk: 'news',
+    role: 'Full Court Press — NCAA',
+    leagues: ['NCAAM'],
+    beat: 'NCAA men’s basketball: results, the polls, transfers and the road to March.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'rafael-moura',
+    byline: 'Rafael Moura',
+    desk: 'news',
+    role: 'Full Court Press — Brazil',
+    leagues: ['NBB'],
+    beat: 'The Novo Basquete Brasil: results, signings and the Brazilians abroad.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'ines-garduno',
+    byline: 'Inés Garduño',
+    desk: 'news',
+    role: 'Full Court Press — Mexico',
+    leagues: ['LNBP'],
+    beat: 'Mexico’s LNBP: results, the table and roster moves.',
+    method:
+      'Built on the league’s own results service. The LNBP publishes no box scores, so its pieces carry none.',
   },
   {
     id: 'tomas-lindqvist',
     byline: 'Tomas Lindqvist',
     desk: 'news',
-    role: 'Full Court Press — Europe',
+    role: 'Full Court Press — EuroLeague',
+    leagues: ['EuroLeague'],
     beat: 'The EuroLeague and the national competitions that feed it.',
     method:
       'Club and federation announcements first, and the competition’s own results service for anything numerical.',
@@ -74,10 +136,98 @@ export const STAFF = [
     id: 'marisol-reyes',
     byline: 'Marisol Reyes',
     desk: 'news',
-    role: 'Full Court Press — Asia-Pacific',
-    beat: 'The PBA, KBL, B.League, CBA, TPBL and NBL, plus FIBA windows across the region.',
+    role: 'Full Court Press — PBA',
+    leagues: ['PBA'],
+    beat: 'The PBA: the conferences, the Gilas pool and the Filipino players abroad.',
     method:
-      'Built on each league’s official portal, which is also what the ledger’s snapshots are captured from, so a story and the table behind it cannot disagree.',
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'han-ji-woo',
+    byline: 'Han Ji-woo',
+    desk: 'news',
+    role: 'Full Court Press — KBL',
+    leagues: ['KBL'],
+    beat: 'Korea’s KBL: results from the league’s own game records, signings and the table.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'kenji-arakawa',
+    byline: 'Kenji Arakawa',
+    desk: 'news',
+    role: 'Full Court Press — B.League',
+    leagues: ['BLeague'],
+    beat: 'Japan’s B.League: results from the league’s game data, signings and the Asian-quota players.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'lin-haoran',
+    byline: 'Lin Haoran',
+    desk: 'news',
+    role: 'Full Court Press — CBA',
+    leagues: ['CBA'],
+    beat: 'China’s CBA: results, signings and the national team pool.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'tsai-pei-shan',
+    byline: 'Tsai Pei-shan',
+    desk: 'news',
+    role: 'Full Court Press — TPBL',
+    leagues: ['TPBL'],
+    beat: 'Taiwan’s TPBL: results, imports and the table.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'lachlan-pryor',
+    byline: 'Lachlan Pryor',
+    desk: 'news',
+    role: 'Full Court Press — NBL',
+    leagues: ['NBL'],
+    beat: 'Australia’s NBL: results, injuries, the Next Stars and the import market.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+  {
+    id: 'amara-diallo',
+    byline: 'Amara Diallo',
+    desk: 'news',
+    role: 'Full Court Press — FIBA',
+    leagues: ['FIBA'],
+    beat: 'FIBA: qualifying windows, World Cup and continental cups, and federation rulings.',
+    method:
+      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+  },
+
+  /*
+   * Opinion (owner, 2026-10-06). Two columnists across all fourteen leagues,
+   * each filing twice a week. Opinion is a desk of its own so a reader can
+   * never mistake an argument for a report: the news desk states facts, this
+   * one says what it thinks of them, and every fact it leans on is checked the
+   * same way.
+   */
+  {
+    id: 'victor-ashby',
+    byline: 'Victor Ashby',
+    desk: 'opinion',
+    role: 'Opinion',
+    lead: true,
+    beat: 'Columns on the decisions that shape a league: coaches, front offices, rules and the calendar.',
+    method:
+      'The opinions are his. Every fact under them is checked against the record before it runs, and the column says where the evidence stops.',
+  },
+  {
+    id: 'noor-haddad',
+    byline: 'Noor Haddad',
+    desk: 'opinion',
+    role: 'Opinion',
+    beat: 'Columns on players, styles of play and the game outside the NBA, from Manila to Madrid.',
+    method:
+      'The opinions are hers. Every fact under them is checked against the record before it runs, and the column says where the evidence stops.',
   },
 ]
 
@@ -94,4 +244,9 @@ export function deskLead(desk) {
 /** Everyone on a desk, for a masthead that lists more than one beat. */
 export function deskStaff(desk) {
   return STAFF.filter((s) => s.desk === desk)
+}
+
+/** The news writers whose beat includes a league key. */
+export function beatWriters(leagueKey) {
+  return STAFF.filter((s) => s.desk === 'news' && (s.leagues || []).includes(leagueKey))
 }

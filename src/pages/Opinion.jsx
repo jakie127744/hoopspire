@@ -8,6 +8,14 @@ import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
 
 /**
+ * Opinion — the column desk (owner, 2026-10-06).
+ *
+ * Built on the Press page so the two read as siblings, and kept separate from
+ * it so an argument is never filed next to a report as if it were one. The
+ * columnists' facts are checked like everyone else's; the opinions are theirs.
+ *
+ * (Below: the original Full Court Press notes this page was adapted from.)
+ *
  * Full Court Press — the news desk.
  *
  * The other two desks argue from numbers: The Margin from box scores, Free
@@ -21,15 +29,15 @@ import { useMeta } from '../lib/meta.js'
  * to know on sight who covers which corner of thirteen leagues — and on what
  * terms. See /about for what a byline on this site means.
  */
-export default function Press() {
+export default function Opinion() {
   useMeta({
-    title: 'Full Court Press',
+    title: 'Opinion',
     description:
-      'Basketball news across fourteen leagues — signings, movement, results and the decisions behind them, from the NBA and WNBA to the PBA, KBL, B.League and EuroLeague.',
+      'Columns on basketball across fourteen leagues: what we think of the decisions, the players and the game, with every fact underneath checked.',
   })
   const [league, setLeague] = useState('ALL')
-  const all = getDesk('news')
-  const staff = deskStaff('news')
+  const all = getDesk('opinion')
+  const staff = deskStaff('opinion')
 
   const written = LEAGUES.filter((l) => all.some((a) => a.league === l.key))
   const shown = league === 'ALL' ? all : all.filter((a) => a.league === league)
@@ -37,21 +45,21 @@ export default function Press() {
 
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
-      <Eyebrow className="text-ink/50">Reported here</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">Full Court Press</h1>
+      <Eyebrow className="text-ink/50">Argued here</Eyebrow>
+      <h1 className="mt-3 text-6xl md:text-7xl">Opinion</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
-        What happened, and what it changed. News from all{' '}
-        {LEAGUE_COUNT_WORD.toLowerCase()} leagues in the ledger — not only the one everybody
-        covers, and not a week later.
+        What we think, and why. Columns across all{' '}
+        {LEAGUE_COUNT_WORD.toLowerCase()} leagues in the ledger. The opinions belong to the
+        columnist. The facts under them are checked like everything else here.
       </p>
 
       {staff.length > 0 && (
-        <div className="mt-10 grid gap-px border border-parchment bg-parchment sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-px border border-parchment bg-parchment sm:grid-cols-2">
           {staff.map((s) => (
             <div key={s.id} className="bg-paper p-5">
               <p className="font-display text-xl">{s.byline}</p>
               <Eyebrow className="mt-1 block text-ink/40">
-                {s.role.replace('Full Court Press — ', '')}
+                {s.role}
               </Eyebrow>
               <p className="mt-3 text-sm leading-relaxed text-ink/65">{s.beat}</p>
               <p className="mt-3 border-t border-parchment pt-3 text-xs leading-relaxed text-ink/45">
@@ -85,7 +93,7 @@ export default function Press() {
         <div className="mt-12">
           <Empty
             title="Nothing filed yet."
-            hint="Add a Markdown file to /content/news — or run `npm run new -- &quot;Headline&quot; --desk news`."
+            hint="The first columns are on the way."
           />
         </div>
       ) : (
