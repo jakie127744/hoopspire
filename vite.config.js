@@ -39,7 +39,7 @@ export default defineConfig({
         short_name: 'Hoopspire',
         description:
           'Scores, standings, rosters and stats across thirteen basketball leagues, from Manila to Madrid to São Paulo.',
-        theme_color: '#1A1A1A',
+        theme_color: '#13233B',
         background_color: '#F3EFE7',
         display: 'standalone',
         orientation: 'portrait-primary',
