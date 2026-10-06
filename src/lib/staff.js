@@ -205,7 +205,8 @@ export const STAFF = [
 
   /*
    * Opinion (owner, 2026-10-06). Two columnists across all fourteen leagues,
-   * each filing twice a week. Opinion is a desk of its own so a reader can
+   * one column every other day between them: Second Look (Ashby), Hot Hand
+   * (Haddad), and Jump Ball when they take opposite sides of one question. Opinion is a desk of its own so a reader can
    * never mistake an argument for a report: the news desk states facts, this
    * one says what it thinks of them, and every fact it leans on is checked the
    * same way.
@@ -214,7 +215,7 @@ export const STAFF = [
     id: 'victor-ashby',
     byline: 'Victor Ashby',
     desk: 'opinion',
-    role: 'Opinion',
+    role: 'Second Look',
     lead: true,
     beat: 'Columns on the decisions that shape a league: coaches, front offices, rules and the calendar.',
     method:
@@ -224,7 +225,7 @@ export const STAFF = [
     id: 'noor-haddad',
     byline: 'Noor Haddad',
     desk: 'opinion',
-    role: 'Opinion',
+    role: 'Hot Hand',
     beat: 'Columns on players, styles of play and the game outside the NBA, from Manila to Madrid.',
     method:
       'The opinions are hers. Every fact under them is checked against the record before it runs, and the column says where the evidence stops.',

@@ -48,7 +48,7 @@ export default function Opinion() {
       <Eyebrow className="text-ink/50">Argued here</Eyebrow>
       <h1 className="mt-3 text-6xl md:text-7xl">Opinion</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
-        What we think, and why. Columns across all{' '}
+        What we think, and why. Second Look, Hot Hand and Jump Ball, across all{' '}
         {LEAGUE_COUNT_WORD.toLowerCase()} leagues in the ledger. The opinions belong to the
         columnist. The facts under them are checked like everything else here.
       </p>

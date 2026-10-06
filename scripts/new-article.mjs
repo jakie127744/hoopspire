@@ -56,8 +56,9 @@ const TAGS_BY_DESK = {
   // Full Court Press reports events, so its tags say what KIND of event —
   // which is what a reader scanning a news index is actually sorting by.
   news: ['Report', 'Signing', 'Trade', 'Injury', 'Result', 'Preview', 'Feature'],
-  // Opinion says what it thinks, so its tags say what kind of argument it is.
-  opinion: ['Column', 'Argument', 'Debate', 'Feature'],
+  // Opinion: the tag is the column. Second Look is Victor Ashby's, Hot Hand
+  // is Noor Haddad's, Jump Ball is the two of them on opposite sides.
+  opinion: ['Second Look', 'Hot Hand', 'Jump Ball'],
 }
 const TAGS = TAGS_BY_DESK.margin
 const REQUIRED = ['title', 'dek', 'author', 'published', 'tag']
@@ -141,6 +142,12 @@ export function lintArticle(filename, raw, desk = 'margin') {
     ) {
       problems.push(`author \`${data.author}\` does not cover ${data.league}; use ${beatWriters(data.league).map((s) => s.byline).join(' or ') || 'Hoopspire Staff'}`)
     }
+  }
+
+  // A column belongs to its columnist.
+  const COLUMN_OWNER = { 'Second Look': 'Victor Ashby', 'Hot Hand': 'Noor Haddad' }
+  if (desk === 'opinion' && COLUMN_OWNER[data.tag] && data.author !== COLUMN_OWNER[data.tag]) {
+    problems.push(`${data.tag} is ${COLUMN_OWNER[data.tag]}'s column, not ${data.author}'s`)
   }
 
   if (data.tag && !tags.includes(data.tag)) {
