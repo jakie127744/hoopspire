@@ -67,12 +67,12 @@ jobs:
       - name: Refresh league data
         run: npm run data 2>&1 | tee data-run.log
 
-      # The search box's player list, rebuilt from the rosters just fetched.
+      # The search box's player and team lists, rebuilt from the data just fetched.
       # A league whose source fails keeps yesterday's rows, so this never
       # empties search — and it is allowed to fail without failing the job.
-      - name: Rebuild player search index
+      - name: Rebuild search index
         continue-on-error: true
-        run: npm run data:players 2>&1 | tee -a data-run.log
+        run: npm run data:search 2>&1 | tee -a data-run.log
 
       # Careers: weekly on Sundays, or when asked for on a manual run. One page
       # per player at twice RealGM's crawl delay, resumable, stops cleanly on a

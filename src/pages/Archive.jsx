@@ -4,7 +4,7 @@ import { getOriginals, DESKS } from '../lib/articles.js'
 import { LEAGUES, getLeague } from '../lib/leagues.js'
 import { formatDate } from '../lib/format.js'
 import { playerHref } from '../lib/players.js'
-import { LeagueTag, Eyebrow } from '../components/Primitives.jsx'
+import { LeagueTag, Eyebrow, TeamLogo } from '../components/Primitives.jsx'
 import { DeskBadge } from '../components/ArticleCard.jsx'
 import { useMeta } from '../lib/meta.js'
 
@@ -90,59 +90,84 @@ function snippet(body, terms) {
 }
 
 /**
- * The player index (public/data/players-index.json, built by
- * scripts/build-player-index.mjs): every player with a profile page, about
- * 75 KB gzipped. Fetched the first time someone types, not on page load, so
+ * The search index (public/data/search-index.json, built by
+ * scripts/build-search-index.mjs): every player and team with a page, about
+ * 95 KB gzipped. Fetched the first time someone types, not on page load, so
  * browsing the archive costs nothing extra.
  */
-let playersPromise = null
-function loadPlayers() {
-  playersPromise ??= fetch('/data/players-index.json')
-    .then((r) => (r.ok ? r.json() : { fields: [], rows: [] }))
-    .then(({ fields, rows }) =>
-      rows.map((r) => {
-        const p = Object.fromEntries(fields.map((f, i) => [f, r[i]]))
-        return { ...p, folded: fold(`${p.name} ${p.nameLocal || ''}`) }
-      })
-    )
-    .catch(() => {
-      playersPromise = null
-      return []
+let indexPromise = null
+function loadIndex() {
+  const unpack = (block, text) =>
+    (block?.rows || []).map((r) => {
+      const x = Object.fromEntries(block.fields.map((f, i) => [f, r[i]]))
+      return { ...x, folded: fold(text(x)) }
     })
-  return playersPromise
+  indexPromise ??= fetch('/data/search-index.json')
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((data) => ({
+      players: unpack(data.players, (p) => `${p.name} ${p.nameLocal || ''}`),
+      // A team's abbreviation is searchable too: people type "LAL" and "OKC".
+      teams: unpack(data.teams, (t) => `${t.name} ${t.nameLocal || ''} ${t.abbr || ''}`),
+    }))
+    .catch(() => {
+      indexPromise = null
+      return { players: [], teams: [] }
+    })
+  return indexPromise
 }
 
-function usePlayers(active) {
-  const [players, setPlayers] = useState(null)
+function useSearchIndex(active) {
+  const [index, setIndex] = useState(null)
   useEffect(() => {
-    if (!active || players) return
+    if (!active || index) return
     let alive = true
-    loadPlayers().then((list) => alive && setPlayers(list))
+    loadIndex().then((data) => alive && setIndex(data))
     return () => {
       alive = false
     }
-  }, [active, players])
-  return players
+  }, [active, index])
+  return index
 }
 
 const PLAYER_LIMIT = 12
+const TEAM_LIMIT = 6
 
 /**
- * Players whose name contains every word typed. A name that starts with the
- * query ranks first, then one where a word starts with it — so "james" puts
- * LeBron James above Jameson Smith.
+ * Rows whose text contains every word typed. One that starts with the query
+ * ranks first, then one where every word starts a word — so "james" puts
+ * James Harden above Jameson Smith, and "kings" puts the Kings above
+ * Kingston.
  */
-function matchPlayers(players, terms, leagueKey) {
-  if (!players || !terms.length) return []
+function matchRows(list, terms, leagueKey) {
+  if (!list || !terms.length) return []
   const q = terms.join(' ')
-  return players
-    .filter((p) => (!leagueKey || p.league === leagueKey) && terms.every((t) => p.folded.includes(t)))
-    .map((p) => ({
-      p,
-      rank: p.folded.startsWith(q) ? 0 : terms.every((t) => ` ${p.folded}`.includes(` ${t}`)) ? 1 : 2,
+  return list
+    .filter((x) => (!leagueKey || x.league === leagueKey) && terms.every((t) => x.folded.includes(t)))
+    .map((x) => ({
+      x,
+      rank: x.folded.startsWith(q) ? 0 : terms.every((t) => ` ${x.folded}`.includes(` ${t}`)) ? 1 : 2,
     }))
-    .sort((a, b) => a.rank - b.rank || a.p.name.localeCompare(b.p.name))
-    .map((x) => x.p)
+    .sort((a, b) => a.rank - b.rank || a.x.name.localeCompare(b.x.name))
+    .map(({ x }) => x)
+}
+
+function ResultCard({ to, logo, title, local, sub, league }) {
+  return (
+    <Link
+      to={to}
+      className="card flex min-h-14 items-center gap-3 px-4 py-2.5 transition-shadow hover:shadow-[4px_4px_0_0_var(--color-parchment)]"
+    >
+      {logo}
+      <span className="min-w-0 flex-1">
+        <span className="block truncate font-medium">
+          {title}
+          {local && <span className="ml-2 text-sm text-ink/45">{local}</span>}
+        </span>
+        {sub && <span className="block truncate text-sm text-ink/55">{sub}</span>}
+      </span>
+      <span className="eyebrow shrink-0 font-bold text-crimson">{league}</span>
+    </Link>
+  )
 }
 
 function Select({ label, value, onChange, children }) {
@@ -227,10 +252,11 @@ export default function Archive() {
     ? LEAGUES.filter((l) => terms.every((t) => fold(`${l.name} ${l.fullName} ${l.key}`).includes(t)))
     : []
 
-  // Player search needs at least two letters — one letter matches half the index.
+  // Player and team search need two letters — one letter matches half the index.
   const playerQuery = terms.join('').length >= 2
-  const players = usePlayers(playerQuery)
-  const playerHits = playerQuery ? matchPlayers(players, terms, leagueParam) : []
+  const searchIndex = useSearchIndex(playerQuery)
+  const playerHits = playerQuery ? matchRows(searchIndex?.players, terms, leagueParam) : []
+  const teamHits = playerQuery ? matchRows(searchIndex?.teams, terms, leagueParam) : []
 
   // Grouped by month for browsing; ranked flat for a search.
   const groups = terms.length
@@ -245,12 +271,12 @@ export default function Archive() {
       <h1 className="mt-3 text-5xl md:text-6xl">Archive</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Every piece we have published — {index.length} so far — across all three desks, and
-        every player with a profile in the ledger.
+        every player and team with a page in the ledger.
       </p>
 
       <form role="search" onSubmit={(e) => e.preventDefault()} className="mt-8">
         <label htmlFor="archive-q" className="sr-only">
-          Search stories and players
+          Search stories, players and teams
         </label>
         <input
           id="archive-q"
@@ -322,6 +348,36 @@ export default function Archive() {
         </div>
       )}
 
+      {teamHits.length > 0 && (
+        <section className="mt-8">
+          <h2 className="mb-3 text-3xl">
+            Teams <span className="font-mono text-sm text-ink/40">{teamHits.length}</span>
+          </h2>
+          <ul className="grid gap-2 sm:grid-cols-2">
+            {teamHits.slice(0, TEAM_LIMIT).map((t) => {
+              const lg = getLeague(t.league)
+              return (
+                <li key={`${t.league}-${t.id}`}>
+                  <ResultCard
+                    to={`/team/${t.league}/${encodeURIComponent(t.id)}`}
+                    logo={<TeamLogo team={t} size={28} />}
+                    title={t.name}
+                    local={t.nameLocal}
+                    sub={lg?.fullName}
+                    league={lg?.name || t.league}
+                  />
+                </li>
+              )
+            })}
+          </ul>
+          {teamHits.length > TEAM_LIMIT && (
+            <p className="mt-3 text-sm text-ink/55">
+              {teamHits.length - TEAM_LIMIT} more — add a word or pick a league to narrow it.
+            </p>
+          )}
+        </section>
+      )}
+
       {playerHits.length > 0 && (
         <section className="mt-8">
           <h2 className="mb-3 text-3xl">
@@ -332,22 +388,14 @@ export default function Archive() {
               const lg = getLeague(pl.league)
               return (
                 <li key={`${pl.league}-${pl.id}`}>
-                  <Link
+                  <ResultCard
                     to={playerHref(pl.league, pl.id)}
-                    className="card flex min-h-14 items-center gap-3 px-4 py-2.5 transition-shadow hover:shadow-[4px_4px_0_0_var(--color-parchment)]"
-                  >
-                    {lg?.logo && <img src={lg.logo} alt="" className="h-7 w-7 shrink-0 object-contain" />}
-                    <span className="min-w-0 flex-1">
-                      <span className="block truncate font-medium">
-                        {pl.name}
-                        {pl.nameLocal && <span className="ml-2 text-sm text-ink/45">{pl.nameLocal}</span>}
-                      </span>
-                      <span className="block truncate text-sm text-ink/55">
-                        {[pl.position, pl.team].filter(Boolean).join(' · ')}
-                      </span>
-                    </span>
-                    <span className="eyebrow shrink-0 font-bold text-crimson">{lg?.name || pl.league}</span>
-                  </Link>
+                    logo={lg?.logo && <img src={lg.logo} alt="" className="h-7 w-7 shrink-0 object-contain" />}
+                    title={pl.name}
+                    local={pl.nameLocal}
+                    sub={[pl.position, pl.team].filter(Boolean).join(' · ')}
+                    league={lg?.name || pl.league}
+                  />
                 </li>
               )
             })}
@@ -360,11 +408,11 @@ export default function Archive() {
         </section>
       )}
 
-      {results.length > 0 && playerHits.length > 0 && <h2 className="mt-10 text-3xl">Stories</h2>}
+      {results.length > 0 && (playerHits.length > 0 || teamHits.length > 0) && <h2 className="mt-10 text-3xl">Stories</h2>}
 
       {results.length === 0 ? (
         <p className="mt-10 text-base text-ink/60">
-          {playerHits.length ? 'No stories mention that yet. ' : 'Nothing we have written matches that. '}
+          {playerHits.length || teamHits.length ? 'No stories mention that yet. ' : 'Nothing we have written matches that. '}
           Try fewer words, or{' '}
           <Link to="/scores" className="text-crimson hover:underline">
             the scoreboard

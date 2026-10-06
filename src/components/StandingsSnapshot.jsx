@@ -3,7 +3,6 @@ import { useAsync } from '../lib/useAsync.js'
 import { getStandings } from '../lib/api.js'
 import { LEAGUES } from '../lib/leagues.js'
 import StandingsTable from './StandingsTable.jsx'
-import { SectionHead } from './Primitives.jsx'
 
 const FEATURED = 2
 const RECENT_DAYS = 14
@@ -40,9 +39,9 @@ const played = (rows) => rows.some((r) => (r.wins ?? 0) + (r.losses ?? 0) > 0)
  *
  * Tables are fetched in rotation order and stop at the first two that pass:
  * rows exist, games have been played, and it is not ESPN's fallback to the
- * previous season. If none pass, the section does not render.
+ * previous season. If none pass, the list is empty and the caller shows nothing.
  */
-export default function StandingsSnapshot({ games, league }) {
+export function useStandingsTables(games, league) {
   let candidates
   if (league) {
     // A league the reader picked gets more slack than the rotation: the PBA
@@ -73,33 +72,24 @@ export default function StandingsSnapshot({ games, league }) {
     []
   )
 
-  if (!tables?.length) return null
+  return tables || []
+}
 
+/** The tables, side by side on a wide screen. */
+export function StandingsGrid({ tables }) {
   return (
-    <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-      <SectionHead
-        title="Standings"
-        action={
-          <Link to={`/league/${tables[0].league.slug}`} className="eyebrow text-crimson hover:underline">
-            {league ? `All ${league.name} standings →` : 'Full tables on each league page →'}
-          </Link>
-        }
-      />
-      <div className={`grid gap-8 ${tables.length > 1 ? 'lg:grid-cols-2' : ''}`}>
-        {tables.map(({ league: l, standings }) => (
-          <div key={l.key} className="card p-5">
-            <div className="mb-3 flex items-baseline justify-between gap-3">
-              <Link to={`/league/${l.slug}`} className="font-display text-2xl hover:text-crimson">
-                {l.name}
-              </Link>
-              {standings.seasonLabel && (
-                <span className="eyebrow text-ink/45">{standings.seasonLabel}</span>
-              )}
-            </div>
-            <StandingsTable standings={standings} leagueKey={l.key} limit={5} compact />
+    <div className={`grid gap-8 ${tables.length > 1 ? 'lg:grid-cols-2' : ''}`}>
+      {tables.map(({ league: l, standings }) => (
+        <div key={l.key} className="card p-5">
+          <div className="mb-3 flex items-baseline justify-between gap-3">
+            <Link to={`/league/${l.slug}`} className="font-display text-2xl hover:text-crimson">
+              {l.name}
+            </Link>
+            {standings.seasonLabel && <span className="eyebrow text-ink/45">{standings.seasonLabel}</span>}
           </div>
-        ))}
-      </div>
-    </section>
+          <StandingsTable standings={standings} leagueKey={l.key} limit={5} compact />
+        </div>
+      ))}
+    </div>
   )
 }

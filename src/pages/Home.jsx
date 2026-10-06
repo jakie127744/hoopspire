@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useAsync, hasLiveGame } from '../lib/useAsync.js'
 import { getAllGames } from '../lib/api.js'
@@ -6,8 +7,8 @@ import { LEAGUES, LEAGUE_COUNT_WORD, getLeague } from '../lib/leagues.js'
 import { SITE } from '../lib/site.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreStrip from '../components/ScoreStrip.jsx'
-import TodaysGames from '../components/TodaysGames.jsx'
-import StandingsSnapshot from '../components/StandingsSnapshot.jsx'
+import { GamesGrid, pickSlate, SHOW as GAMES_SHOWN } from '../components/TodaysGames.jsx'
+import { useStandingsTables, StandingsGrid } from '../components/StandingsSnapshot.jsx'
 import { SectionHead, Wordmark } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
 
@@ -97,6 +98,86 @@ function LeagueSwitcher({ leagues, active, onPick, label, className = '' }) {
   )
 }
 
+/**
+ * The day's games and the standings, as two tabs of one panel at the foot of
+ * the page.
+ *
+ * Both answer "where do things stand", and stacked one above the other they
+ * pushed the stories a long way down. A tab only appears when it has
+ * something in it; with one, it is a plain section with no tabs at all.
+ */
+function GamesAndStandings({ games, allGames, league }) {
+  const slate = pickSlate(games)
+  const tables = useStandingsTables(allGames, league)
+  const tabs = [
+    slate && { key: 'games', label: slate.title },
+    tables.length > 0 && { key: 'standings', label: 'Standings' },
+  ].filter(Boolean)
+  const [picked, setPicked] = useState(null)
+  if (!tabs.length) return null
+  const active = tabs.some((t) => t.key === picked) ? picked : tabs[0].key
+
+  const more = slate ? slate.items.length - GAMES_SHOWN : 0
+  const action =
+    active === 'games' ? (
+      <Link to="/scores" className="eyebrow text-crimson hover:underline">
+        {more > 0 ? `${more} more →` : 'Full schedule →'}
+      </Link>
+    ) : (
+      <Link to={`/league/${(league || tables[0].league).slug}`} className="eyebrow text-crimson hover:underline">
+        {league ? `All ${league.name} standings →` : 'Full table →'}
+      </Link>
+    )
+
+  return (
+    <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
+      <div className="section-head">
+        {tabs.length > 1 ? (
+          <div role="tablist" aria-label="Games and standings" className="flex gap-6">
+            {tabs.map((t) => (
+              <button
+                key={t.key}
+                type="button"
+                role="tab"
+                id={`tab-${t.key}`}
+                aria-selected={active === t.key}
+                aria-controls={`panel-${t.key}`}
+                onClick={() => setPicked(t.key)}
+                className={`-mb-[0.8rem] min-h-11 border-b-2 pb-2 font-display text-[1.7rem] transition-colors sm:text-3xl md:text-4xl ${
+                  active === t.key
+                    ? 'border-crimson text-ink'
+                    : 'border-transparent text-ink/35 hover:text-ink/70'
+                }`}
+              >
+                {t.label}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <h2 className="text-3xl md:text-4xl">{tabs[0].label}</h2>
+        )}
+        {/* On a phone the two tabs fill the row, so the link moves below the
+            panel rather than wrapping under the tabs and lifting the active
+            tab's underline off the rule. */}
+        <div className="ml-auto hidden sm:block">{action}</div>
+      </div>
+
+      <div
+        role={tabs.length > 1 ? 'tabpanel' : undefined}
+        id={`panel-${active}`}
+        aria-labelledby={tabs.length > 1 ? `tab-${active}` : undefined}
+      >
+        {active === 'games' ? (
+          <GamesGrid items={slate.items.slice(0, GAMES_SHOWN)} />
+        ) : (
+          <StandingsGrid tables={tables} />
+        )}
+      </div>
+      <div className="mt-5 sm:hidden">{action}</div>
+    </section>
+  )
+}
+
 export default function Home() {
   useMeta({
     description: `Live scores, standings, rosters and original analysis across ${LEAGUE_COUNT_WORD.toLowerCase()} basketball leagues — the NBA, WNBA, EuroLeague, PBA, KBL, B.League, CBA and more.`,
@@ -174,8 +255,6 @@ export default function Home() {
 
       <Masthead />
 
-      <TodaysGames games={leagueGames} />
-
       {/*
         Our own writing comes before anything else that is not a score. The
         page used to open on the wire, which meant the first thing anyone saw
@@ -217,7 +296,7 @@ export default function Home() {
         </section>
       )}
 
-      <StandingsSnapshot games={allGames} league={league} />
+      <GamesAndStandings games={leagueGames} allGames={allGames} league={league} />
     </>
   )
 }

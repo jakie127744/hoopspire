@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
-import { SectionHead, TeamLogo } from './Primitives.jsx'
+import { TeamLogo } from './Primitives.jsx'
 
-const SHOW = 8
+export const SHOW = 8
 const LOOKAHEAD_DAYS = 3
 
 const dayKey = (d) => `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`
@@ -48,26 +48,14 @@ export function pickSlate(games, now = new Date()) {
   return { title, items }
 }
 
-export default function TodaysGames({ games }) {
-  const slate = pickSlate(games)
-  if (!slate) return null
-  const shown = slate.items.slice(0, SHOW)
-  const more = slate.items.length - shown.length
-
+/** The day's games as cards: a swipeable row on a phone, a grid from tablet up. */
+export function GamesGrid({ items }) {
   return (
-    <section className="mx-auto max-w-7xl px-4 pt-12 md:px-8">
-      <SectionHead
-        title={slate.title}
-        action={
-          <Link to="/scores" className="eyebrow text-crimson hover:underline">
-            {more > 0 ? `${more} more →` : 'Full schedule →'}
-          </Link>
-        }
-      />
+    <>
       {/* A row to swipe on a phone, where eight stacked cards would be a
           screen and a half of scrolling; a grid from tablet width up. */}
       <div className="no-scrollbar -mx-4 flex snap-x gap-3 overflow-x-auto px-4 pb-1 sm:mx-0 sm:grid sm:grid-cols-2 sm:gap-4 sm:overflow-visible sm:px-0 lg:grid-cols-4">
-        {shown.map(({ g, d }) => (
+        {items.map(({ g, d }) => (
           <Link
             key={`${g.league}-${g.id}`}
             to={`/game/${g.league}/${g.id}`}
@@ -95,6 +83,6 @@ export default function TodaysGames({ games }) {
           </Link>
         ))}
       </div>
-    </section>
+    </>
   )
 }
