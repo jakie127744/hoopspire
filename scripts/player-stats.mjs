@@ -70,6 +70,7 @@ export const REALGM_LEAGUES = {
   NBB: { id: 59, slug: 'Brazilian-NBB' },
   NBL: { id: 5, slug: 'Australian-NBL' },
   EuroLeague: { id: 1, slug: 'Euroleague' },
+  LNBP: { id: 76, slug: 'Mexican-LNBP' },
 }
 
 /**

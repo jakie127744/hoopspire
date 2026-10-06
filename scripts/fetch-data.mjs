@@ -1694,9 +1694,10 @@ async function scrapeKBL() {
 // no Cloudflare check, no HTML to parse. Every endpoint here was found by
 // reading that bundle and confirmed against the live site's own numbers.
 //
-// It has no roster or box-score endpoint. Rosters stay empty for this league
-// rather than guessed from somewhere else — the same rule every other
-// snapshot league follows.
+// It has no roster or box-score endpoint — only a top-five leaders list —
+// so rosters and season averages come from RealGM, as they do for the CBA
+// and NBB. See lnbpRosters() below for how RealGM's clubs are tied to the
+// league's own.
 // ───────────────────────────────────────────────────────────────────────────
 const LNBP_API = 'https://lnbpback.truewisdom.co'
 
@@ -1743,6 +1744,105 @@ async function currentLNBPSeason() {
   return season
 }
 
+const lnbpKey = (s) =>
+  String(s || '')
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+
+/**
+ * LNBP rosters and season averages, from RealGM.
+ *
+ * Which season: RealGM files the LNBP under the year a season would end if
+ * it straddled New Year, so the league's 2026 season is RealGM's "2026-27",
+ * at year 2027 — asking for the current year returns last season. Rather
+ * than hard-code that offset, both candidates are fetched and the one whose
+ * clubs match the league's own table wins. In 2026 that test is decisive:
+ * last season had Halcones UV Xalapa, this one has Lobos.
+ *
+ * Which club: the league calls its clubs "Astros", "Panteras", "El Calor";
+ * RealGM calls them "Astros de Jalisco", "Panteras de Aguascalientes", "El
+ * Calor de Cancun". A RealGM club belongs to a league club only when the
+ * league's name is the whole leading words of RealGM's and the pairing is
+ * unique both ways. Anything else — RealGM also lists a player's stint at a
+ * club in another country — is left off the rosters, not guessed at.
+ */
+async function lnbpRosters(teams) {
+  const notes = []
+  const year = new Date().getFullYear()
+  let best = null
+
+  for (const season of [year + 1, year]) {
+    let st
+    try {
+      st = await realgmPlayerStats('LNBP', { season })
+    } catch (err) {
+      notes.push(`RealGM ${season}: ${err.message}`)
+      continue
+    }
+    const rgClubs = new Map(st.players.map((p) => [p.teamRealgmId, p.teamName]))
+    const pairs = new Map()
+    for (const team of teams) {
+      const k = lnbpKey(team.name)
+      const hits = [...rgClubs].filter(([, name]) => {
+        const rk = lnbpKey(name)
+        return rk === k || rk.startsWith(`${k} `)
+      })
+      if (hits.length === 1) pairs.set(hits[0][0], team)
+    }
+    // Unique both ways: two league clubs claiming one RealGM club is a tie.
+    const claimed = [...pairs.values()].map((t) => t.id)
+    if (new Set(claimed).size !== claimed.length) continue
+    if (!best || pairs.size > best.pairs.size) best = { season, st, pairs }
+  }
+
+  // Most of the table must match, or this is the wrong season (or RealGM's
+  // page changed) — either way the rosters would be wrong.
+  if (!best || best.pairs.size < Math.ceil(teams.length * 0.8)) {
+    notes.push(
+      `RealGM: no season matched the league's clubs (best ${best?.pairs.size ?? 0} of ${teams.length})`
+    )
+    return { rosters: {}, playerStats: [], leaders: {}, notes, matched: false }
+  }
+
+  const rosters = {}
+  const playerStats = []
+  for (const p of best.st.players) {
+    const team = best.pairs.get(p.teamRealgmId)
+    if (!team) continue
+    p.teamId = team.id
+    p.teamName = team.name
+    playerStats.push(p)
+    if (!rosters[team.id]) rosters[team.id] = []
+    rosters[team.id].push({
+      id: p.id,
+      name: p.name,
+      jersey: null,
+      position: null,
+      height: null,
+      weight: null,
+      age: null,
+      country: null,
+      headshot: null,
+    })
+  }
+  for (const team of teams) {
+    const rg = [...best.pairs].find(([, t]) => t.id === team.id)
+    if (rg) team.realgmId = rg[0]
+  }
+
+  const unmatchedClubs = teams.filter((t) => !t.realgmId).map((t) => t.name)
+  if (unmatchedClubs.length) notes.push(`RealGM has no unique club for: ${unmatchedClubs.join(', ')}`)
+  const mismatch = flagShotLineMismatches(playerStats)
+  if (mismatch) notes.push(mismatch)
+  const built = buildLeaders(playerStats)
+  if (built.minGames) notes.push(`Leaders require at least ${built.minGames} games played.`)
+
+  return { rosters, playerStats, leaders: built.leaders || {}, notes, matched: true }
+}
+
 async function scrapeLNBP() {
   const notes = []
   const teams = []
@@ -1786,6 +1886,16 @@ async function scrapeLNBP() {
     standings.seasonLabel = season.name
   } catch (err) {
     notes.push(`standings/teams: ${err.message}`)
+  }
+
+  let players = { rosters: {}, playerStats: [], leaders: {} }
+  if (teams.length) {
+    try {
+      players = await lnbpRosters(teams)
+      notes.push(...players.notes)
+    } catch (err) {
+      notes.push(`rosters: ${err.message}`)
+    }
   }
 
   // A ten-week window either side of today. LNBP plays a long round-robin
@@ -1885,15 +1995,20 @@ async function scrapeLNBP() {
     league: 'LNBP',
     season: season.name,
     fetchedAt: new Date().toISOString(),
-    sources: [{ name: 'lnbp.mx', url: 'https://lnbp.mx' }],
+    sources: [
+      { name: 'lnbp.mx', url: 'https://lnbp.mx' },
+      ...(players.playerStats.length
+        ? [{ name: 'RealGM', url: 'https://basketball.realgm.com/international/league/76/Mexican-LNBP' }]
+        : []),
+    ],
     notes: [...notes, ...news.notes],
     teams,
-    rosters: {},
-    playerStats: [],
+    rosters: players.rosters,
+    playerStats: players.playerStats,
     standings,
     games,
     news: news.articles,
-    leaders: {},
+    leaders: players.leaders,
   }
 }
 
