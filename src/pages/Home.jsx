@@ -8,7 +8,7 @@ import { SITE } from '../lib/site.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreStrip from '../components/ScoreStrip.jsx'
 import { GamesGrid, pickSlate, SHOW as GAMES_SHOWN } from '../components/TodaysGames.jsx'
-import { useStandingsTables, StandingsGrid } from '../components/StandingsSnapshot.jsx'
+import { useStandingsTables, StandingsGrid, StandingsPicker } from '../components/StandingsSnapshot.jsx'
 import { SectionHead, Wordmark } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
 
@@ -108,10 +108,10 @@ function LeagueSwitcher({ leagues, active, onPick, label, className = '' }) {
  */
 function GamesAndStandings({ games, allGames, league }) {
   const slate = pickSlate(games)
-  const tables = useStandingsTables(allGames, league)
+  const { tables, picker } = useStandingsTables(allGames, league)
   const tabs = [
     slate && { key: 'games', label: slate.title },
-    tables.length > 0 && { key: 'standings', label: 'Standings' },
+    (tables.length > 0 || picker) && { key: 'standings', label: 'Standings' },
   ].filter(Boolean)
   const [picked, setPicked] = useState(null)
   if (!tabs.length) return null
@@ -124,9 +124,16 @@ function GamesAndStandings({ games, allGames, league }) {
         {more > 0 ? `${more} more →` : 'Full schedule →'}
       </Link>
     ) : (
-      <Link to={`/league/${(league || tables[0].league).slug}`} className="eyebrow text-crimson hover:underline">
-        {league ? `All ${league.name} standings →` : 'Full table →'}
-      </Link>
+      // With several tables, each one's league name already links to its
+      // full table; a single link here could only point at one of them.
+      (league || tables.length === 1) && (
+        <Link
+          to={`/league/${(league || tables[0].league).slug}`}
+          className="eyebrow text-crimson hover:underline"
+        >
+          {league ? `All ${league.name} standings →` : 'Full table →'}
+        </Link>
+      )
     )
 
   return (
@@ -170,7 +177,10 @@ function GamesAndStandings({ games, allGames, league }) {
         {active === 'games' ? (
           <GamesGrid items={slate.items.slice(0, GAMES_SHOWN)} />
         ) : (
-          <StandingsGrid tables={tables} />
+          <>
+            {picker && <StandingsPicker picker={picker} />}
+            <StandingsGrid tables={tables} />
+          </>
         )}
       </div>
       <div className="mt-5 sm:hidden">{action}</div>

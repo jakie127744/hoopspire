@@ -28,7 +28,7 @@ export default function StandingsTable({ standings, leagueKey, limit, compact, s
               <th
                 key={h}
                 className={`eyebrow py-2 text-ink/50 ${
-                  i === 1 ? 'text-left' : i === 0 ? 'w-10 text-left' : 'text-right'
+                  i === 1 ? 'text-left' : i === 0 ? 'w-10 text-left' : 'pl-3 text-right'
                 }`}
               >
                 {h}
@@ -61,22 +61,22 @@ export default function StandingsTable({ standings, leagueKey, limit, compact, s
                   )}
                 </Link>
               </td>
-              <td className="py-2.5 text-right font-mono text-sm font-bold">{r.wins}</td>
-              <td className="py-2.5 text-right font-mono text-sm">{r.losses}</td>
-              <td className="py-2.5 text-right font-mono text-sm">{r.pct}</td>
+              <td className="py-2.5 pl-3 text-right font-mono text-sm font-bold">{r.wins}</td>
+              <td className="py-2.5 pl-3 text-right font-mono text-sm">{r.losses}</td>
+              <td className="py-2.5 pl-3 text-right font-mono text-sm">{r.pct}</td>
               {!compact && (
                 <>
-                  <td className="py-2.5 text-right font-mono text-xs text-ink/60">
+                  <td className="py-2.5 pl-3 text-right font-mono text-xs text-ink/60">
                     {r.gamesBehind ?? '—'}
                   </td>
                   <td
-                    className={`py-2.5 text-right font-mono text-xs ${
+                    className={`py-2.5 pl-3 text-right font-mono text-xs ${
                       String(r.diff).startsWith('-') ? 'text-ink/50' : 'text-crimson'
                     }`}
                   >
                     {r.diff ?? '—'}
                   </td>
-                  <td className="py-2.5 text-right font-mono text-xs text-ink/50">
+                  <td className="py-2.5 pl-3 text-right font-mono text-xs text-ink/50">
                     {r.streak ?? '—'}
                   </td>
                 </>

@@ -324,8 +324,18 @@ function previousSeasonParam(label) {
   return Number.isFinite(end) ? end - 1 : null
 }
 
-/** `?season=` only when we are deliberately asking for an older table. */
-const seasonQuery = (season) => (season ? `&season=${season}` : '')
+/**
+ * `&season=` only when we are deliberately asking for an older table — and
+ * always `&seasontype=2`, the regular season.
+ *
+ * Without it ESPN answers with whichever phase is running, and in October
+ * that is the preseason: the NBA "2026-27" table read Pistons 1-0, Lakers
+ * 1-0, eight exhibition games presented as the standings. Asking for the
+ * regular season returns 0-0 until opening night, which is what lets
+ * withPreviousSeason() fall back to last season's real table, labelled as
+ * such. Every other ESPN league returns the same table either way.
+ */
+const seasonQuery = (season) => `${season ? `&season=${season}` : ''}&seasontype=2`
 
 /**
  * Fall back to the last season that was actually played.
