@@ -198,7 +198,7 @@ export const STAFF = [
     desk: 'news',
     role: 'Full Court Press — FIBA',
     leagues: ['FIBA'],
-    beat: 'FIBA: qualifying windows, World Cup and continental cups, and federation rulings.',
+    beat: 'FIBA at every level: senior windows, World Cup and continental cups, the age-group tournaments from U16 up, the zonal championships, and federation rulings.',
     method:
       'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
   },
