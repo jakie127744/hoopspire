@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-05T14:10:37.172Z",
+  "fetchedAt": "2026-10-06T13:07:36.654Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -35,7 +35,7 @@
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
     "PBA_GOV: bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -14427,17 +14427,56 @@
   ],
   "news": [
     {
-      "id": "PBA-uaapkojibuenaflorreadjustsonreturntoustc",
+      "id": "PBA-amyahespanoldiscoversherfilipinoheartthr",
       "league": "PBA",
-      "title": "UAAP: Koji Buenaflor readjusts on return to UST, carries lessons from Asian Games 3x3 basketball",
+      "title": "Amyah Espanol discovers her Filipino heart through Gilas journey",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "After donning national team colors in the 2026 Asian Games for the Gilas Pilipinas 3x3 Basketball Team, Koji Buenaflor is back in University of Santo Tomas gold, contributing to his team\"s 98-87 win over the University of the East.",
-      "published": "2026-09-30T13:52:38.000Z",
+      "description": "Less than a month ago, Amyah Espanol was simply grateful that the main goal that brought her home to the Philippines had been achieved earlier than expected. When Tiebreaker Times first caught up with the Fil-American winger on September 8 during the UAAP Season 89 press conferen",
+      "published": "2026-10-06T10:27:51.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/08/2026-FIBA-3x3-Nations-League-Asia-SEA-Stop-4-Gilas-Women-vs-New-Zealand-Amyah-Espanol-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/amyah-espanol-discovers-her-filipino-heart-through-gilas-journey/385832"
+    },
+    {
+      "id": "PBA-gilasgirlsescapenewzealandforfirstwininf",
+      "league": "PBA",
+      "title": "Gilas Girls escape New Zealand for first win in FIBA U18 Asia Cup Division A",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas Girls secured their maiden win in the 2026 FIBA U18 Asia Cup Division A after a thrilling 69-64 win over New Zealand on Tuesday at the Karisma Arena in Malaysia.",
+      "published": "2026-10-06T08:36:37.000Z",
       "byline": "GMA News",
       "tag": "Report",
       "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1004336/uaap-koji-buenaflor-readjusts-on-return-to-ust-carries-lessons-from-asian-games-3x3-basketball/story/"
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1004946/gilas-girls-escape-new-zealand-for-first-win-in-fiba-u18-asia-cup-division-a/story/"
+    },
+    {
+      "id": "PBA-alapagjoinshoopcollectivepodcastasdisney",
+      "league": "PBA",
+      "title": "Alapag joins 'Hoop Collective' podcast as Disney+ Philippines drums up new NBA season",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The much-awaited 2026-2026 NBA Season is almost here, and Filipino fans got the feel of it with no less than Gilas Pilipinas legend and NLEX head coach Jimmy Alapag leading the way.",
+      "published": "2026-10-06T08:31:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/06/2561338/alapag-joins-hoop-collective-podcast-disney-philippines-drums-new-nba-season"
+    },
+    {
+      "id": "PBA-gilasgirlsstunnewzealandsealspotinu18asi",
+      "league": "PBA",
+      "title": "Gilas Girls stun New Zealand, seal spot in U18 Asia Cup play-in",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Philippines’ wait for a breakthrough in the FIBA U18 Women’s Asia Cup 2026 came to an end following a come-from-behind 69-64 victory over New Zealand on Tuesday at the Karisma Arena in Seremban, Malaysia. Gilas Girls raced from down nine at the half with a massive 20-4 third-",
+      "published": "2026-10-06T08:04:15.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-FIBA-U18-Asia-Cup-Gilas-Girls-def-New-Zealand-Zaydhen-Rosano-2-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/gilas-girls-stun-new-zealand-seal-spot-in-u18-asia-cup-play-in/385792"
     }
   ],
   "leaders": {
@@ -14908,15 +14947,14 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-05T14:10:37.172Z",
-    "news": "2026-10-04T12:06:43.676Z"
+    "games": "2026-10-06T13:07:36.654Z",
+    "news": "2026-10-06T13:07:36.654Z"
   },
   "carriedOver": [
     "teams",
     "rosters",
     "playerStats",
     "leaders",
-    "standings",
-    "news"
+    "standings"
   ]
 }
