@@ -17,7 +17,7 @@ Start with last season, because it is the only season we can check. Leonard play
 
 Ingram is No. 41. He played 77 games for Toronto and averaged 21.5 points. Dick played 76 games but only 14.0 minutes a night, and averaged 6.0 points.
 
-That team went 46-36, finished fifth in the East, and lost a seven-game first-round series to Cleveland. A team that close does not need a rebuild. It needs a better best player, and the Raptors bought the best one they could get.
+That team went 46-36, finished fifth in the East, and lost a seven-game first-round series to Cleveland. A team that close does not need a rebuild. It needs a better best player, and the Raptors went and got one.
 
 ## The objection, taken seriously
 
