@@ -67,14 +67,35 @@ export function DeskBadge({ article, className = '' }) {
 }
 
 /**
- * Stand-in thumbnail for a piece with no photo — which is nearly all of
- * them. A stock photo would be decoration posing as coverage; the league
- * name set large says the one thing a thumbnail is for here: which league
- * this is, readable before the headline.
+ * Thumbnail for a piece with no photo — which is nearly all of them. The
+ * league's official logo where we have one, on a light panel because several
+ * (the NBL, the G League) are black marks that vanish on dark. Otherwise the
+ * league name set large. Either way it says the one thing a thumbnail is for
+ * here: which league this is, readable before the headline.
  */
 function LeagueThumb({ article }) {
+  const [logoOk, setLogoOk] = useState(true)
   const league = getLeague(article.league)
   const label = league?.name || article.league || 'Hoopspire'
+  const showLogo = !!league?.logo && logoOk
+
+  if (showLogo) {
+    return (
+      <div className="relative flex aspect-[5/2] items-center justify-center overflow-hidden border-b border-parchment bg-cream md:aspect-[16/9]">
+        <img
+          src={league.logo}
+          alt={`${league.fullName || label} logo`}
+          loading="lazy"
+          className="h-3/4 w-auto max-w-[60%] object-contain transition-transform duration-500 group-hover:scale-105"
+          onError={() => setLogoOk(false)}
+        />
+        {league.region && (
+          <span className="eyebrow absolute bottom-3 left-4 text-ink/45">{league.region}</span>
+        )}
+      </div>
+    )
+  }
+
   return (
     <div className="relative flex aspect-[5/2] items-center justify-center overflow-hidden bg-ink md:aspect-[16/9]">
       <span className="font-display text-6xl leading-none text-cream/15 transition-colors duration-500 group-hover:text-cream/25 md:text-7xl">

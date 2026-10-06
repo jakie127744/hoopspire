@@ -85,8 +85,14 @@ export default defineConfig({
           Excluding it here keeps the file served at its URL, which is all an
           og:image or an icon pipeline needs: those are fetched by crawlers
           and build steps, neither of which goes through a service worker.
+
+
+          The league logos are left out for the same reason: fourteen PNGs,
+          372 KB, of which a visitor sees the few on the front page. They load
+          and cache like any image, and offline a card that cannot reach its
+          logo falls back to the league's name.
         */
-        globIgnores: ['**/logo/Hoopspire_logo.png'],
+        globIgnores: ['**/logo/Hoopspire_logo.png', '**/logo/leagues/**'],
         // Client-side routes resolve to the app shell offline — except the
         // git-based CMS, which is its own page and must never be hijacked.
         navigateFallback: '/index.html',

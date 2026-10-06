@@ -22,3 +22,6 @@ scripts/.cache/
 # Wrangler's local state: the simulated D1 database `wrangler dev` writes,
 # and build output. Nothing here is source.
 .wrangler/
+
+# Design review drafts and mockups — working files, not source.
+/UI Review/

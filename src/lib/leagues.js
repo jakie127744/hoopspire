@@ -9,6 +9,11 @@
  *                three Asian leagues, which have no CORS-open public API.
  *
  * `group` drives the navigation menu and the home-page rail.
+ * `logo` is the league's official mark, served from /public/logo/leagues
+ * rather than hotlinked, so a front page full of cards never depends on
+ * another site staying up. The NBA, WNBA, G League, PBA and NBL marks are
+ * ESPN's; the rest are the files on each league's Wikipedia page. ESPN's
+ * "FIBA" image is 2023 World Cup event art, so FIBA uses FIBA's own mark.
  * `tier: 'core'` marks the founding leagues. Every league appears on the home
  * page; nothing is second-class.
  */
@@ -16,6 +21,7 @@ export const LEAGUES = [
   // ── International ────────────────────────────────────────────────────────
   {
     key: 'FIBA',
+    logo: '/logo/leagues/FIBA.png',
     slug: 'FIBA',
     name: 'FIBA',
     fullName: 'FIBA Basketball World Cup',
@@ -30,6 +36,7 @@ export const LEAGUES = [
   // ── North America ────────────────────────────────────────────────────────
   {
     key: 'NBA',
+    logo: '/logo/leagues/NBA.png',
     slug: 'NBA',
     name: 'NBA',
     fullName: 'National Basketball Association',
@@ -62,6 +69,7 @@ export const LEAGUES = [
   },
   {
     key: 'WNBA',
+    logo: '/logo/leagues/WNBA.png',
     slug: 'WNBA',
     name: 'WNBA',
     fullName: "Women's National Basketball Association",
@@ -73,6 +81,7 @@ export const LEAGUES = [
   },
   {
     key: 'GLeague',
+    logo: '/logo/leagues/GLeague.png',
     slug: 'GLeague',
     name: 'G League',
     fullName: 'NBA G League',
@@ -84,6 +93,7 @@ export const LEAGUES = [
   },
   {
     key: 'NCAAM',
+    logo: '/logo/leagues/NCAAM.png',
     slug: 'NCAAM',
     name: 'NCAA',
     fullName: "NCAA Men's Basketball",
@@ -100,6 +110,7 @@ export const LEAGUES = [
   // ── South America ────────────────────────────────────────────────────────
   {
     key: 'NBB',
+    logo: '/logo/leagues/NBB.png',
     slug: 'NBB',
     name: 'NBB',
     fullName: 'Novo Basquete Brasil',
@@ -113,6 +124,7 @@ export const LEAGUES = [
   },
   {
     key: 'LNBP',
+    logo: '/logo/leagues/LNBP.png',
     slug: 'LNBP',
     name: 'LNBP',
     fullName: 'Liga Nacional de Baloncesto Profesional',
@@ -129,6 +141,7 @@ export const LEAGUES = [
   // ── Europe ───────────────────────────────────────────────────────────────
   {
     key: 'EuroLeague',
+    logo: '/logo/leagues/EuroLeague.png',
     slug: 'EuroLeague',
     name: 'EuroLeague',
     fullName: 'Turkish Airlines EuroLeague',
@@ -143,6 +156,7 @@ export const LEAGUES = [
   // ── Asia-Pacific (no CORS-open API — snapshot-backed) ────────────────────
   {
     key: 'PBA',
+    logo: '/logo/leagues/PBA.png',
     slug: 'PBA',
     name: 'PBA',
     fullName: 'Philippine Basketball Association',
@@ -154,6 +168,7 @@ export const LEAGUES = [
   },
   {
     key: 'KBL',
+    logo: '/logo/leagues/KBL.png',
     slug: 'KBL',
     name: 'KBL',
     fullName: 'Korean Basketball League',
@@ -165,6 +180,7 @@ export const LEAGUES = [
   },
   {
     key: 'BLeague',
+    logo: '/logo/leagues/BLeague.png',
     slug: 'BLeague',
     name: 'B.League',
     fullName: 'Japan Professional Basketball League',
@@ -176,6 +192,7 @@ export const LEAGUES = [
   },
   {
     key: 'CBA',
+    logo: '/logo/leagues/CBA.png',
     slug: 'CBA',
     name: 'CBA',
     fullName: 'Chinese Basketball Association',
@@ -186,6 +203,7 @@ export const LEAGUES = [
   },
   {
     key: 'TPBL',
+    logo: '/logo/leagues/TPBL.png',
     slug: 'TPBL',
     name: 'TPBL',
     fullName: 'Taiwan Professional Basketball League',
@@ -196,6 +214,7 @@ export const LEAGUES = [
   },
   {
     key: 'NBL',
+    logo: '/logo/leagues/NBL.png',
     slug: 'NBL',
     name: 'NBL',
     fullName: 'National Basketball League (Australia)',
