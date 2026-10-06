@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { NavLink, Link, useLocation } from 'react-router-dom'
 import { leaguesByGroup } from '../lib/leagues.js'
 import InstallButton from './InstallButton.jsx'
+import { Wordmark } from './Primitives.jsx'
 
 const SECTIONS = [
   { to: '/margin', label: 'The Margin' },
@@ -94,7 +95,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-parchment bg-cream/95 backdrop-blur">
-      <div className="mx-auto flex max-w-7xl items-center gap-8 px-4 py-3 md:px-8">
+      <div className="mx-auto flex max-w-7xl items-center gap-6 px-4 py-3 md:px-8">
         {/*
           The mark is an <img> of an SVG rather than the full badge in
           /public/logo: the badge carries a wordmark, a tagline and a URL that
@@ -104,12 +105,13 @@ export default function Header() {
         */}
         <Link to="/" className="flex shrink-0 items-center gap-2">
           <img src="/logo/mark.svg" alt="" width="32" height="32" className="h-8 w-8" />
-          <span className="font-display text-2xl leading-none">
-            Hoop<span className="text-crimson">spire</span>
-          </span>
+          <Wordmark className="text-xl" />
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        {/* Nine sections and a dropdown need about 1,200px on one line with the
+            wordmark and search. Below that the menu button takes over, rather
+            than the labels wrapping onto two lines or running off the edge. */}
+        <nav className="hidden items-center gap-5 whitespace-nowrap xl:flex 2xl:gap-7">
           <NavLink to="/" end className={linkClass}>
             Home
           </NavLink>
@@ -122,8 +124,19 @@ export default function Header() {
         </nav>
 
         <Link
+          to="/archive?focus=1"
+          aria-label="Search stories"
+          className="ml-auto flex h-11 w-11 items-center justify-center text-ink/70 transition-colors hover:text-crimson xl:h-9 xl:w-9"
+        >
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" strokeLinecap="round" />
+          </svg>
+        </Link>
+
+        <Link
           to="/about"
-          className="ml-auto hidden border border-ink px-4 py-1.5 transition-colors hover:bg-ink hover:text-cream lg:block"
+          className="hidden shrink-0 whitespace-nowrap border border-ink px-4 py-1.5 transition-colors hover:bg-ink hover:text-cream xl:block"
         >
           <span className="eyebrow">The Ledger</span>
         </Link>
@@ -133,14 +146,14 @@ export default function Header() {
           onClick={() => setOpen((v) => !v)}
           aria-expanded={open}
           aria-label="Toggle navigation"
-          className="ml-auto border border-ink px-3 py-1.5 lg:hidden"
+          className="min-h-11 border border-ink px-3 py-1.5 xl:hidden"
         >
           <span className="eyebrow">{open ? 'Close' : 'Menu'}</span>
         </button>
       </div>
 
       {open && (
-        <nav className="border-t border-parchment px-4 py-5 lg:hidden">
+        <nav className="border-t border-parchment px-4 py-5 xl:hidden">
           <div className="flex flex-wrap gap-x-6 gap-y-3">
             <NavLink to="/" end className={linkClass} onClick={() => setOpen(false)}>
               Home

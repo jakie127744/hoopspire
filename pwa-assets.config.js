@@ -11,10 +11,10 @@ export default defineConfig({
   headLinkOptions: { preset: '2023' },
   preset: {
     ...minimal2023Preset,
-    // The art already carries its own ink background; pad maskable and
-    // Apple icons with the same ink so no white edge appears when cropped.
-    maskable: { ...minimal2023Preset.maskable, padding: 0, resizeOptions: { background: '#1A1A1A' } },
-    apple: { ...minimal2023Preset.apple, padding: 0, resizeOptions: { background: '#1A1A1A' } },
+    // The art already carries its own navy background; pad maskable and
+    // Apple icons with the same navy so no white edge appears when cropped.
+    maskable: { ...minimal2023Preset.maskable, padding: 0, resizeOptions: { background: '#13233B' } },
+    apple: { ...minimal2023Preset.apple, padding: 0, resizeOptions: { background: '#13233B' } },
   },
   images: ['public/icon.svg'],
 })

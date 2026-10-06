@@ -16,6 +16,7 @@
     "data:lnbp": "node scripts/fetch-data.mjs lnbp",
     "cms": "node scripts/cms-server.mjs",
     "new": "node scripts/new-article.mjs",
+    "data:players": "node scripts/build-player-index.mjs",
     "data:careers": "node scripts/fetch-data.mjs careers",
     "lint:articles": "node scripts/new-article.mjs --lint",
     "check:standings": "node scripts/check-standings.mjs"

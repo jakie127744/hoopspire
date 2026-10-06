@@ -5,8 +5,10 @@ import { getOriginals } from '../lib/articles.js'
 import { LEAGUES, LEAGUE_COUNT_WORD, getLeague } from '../lib/leagues.js'
 import { SITE } from '../lib/site.js'
 import ArticleCard from '../components/ArticleCard.jsx'
-import ScoreCard from '../components/ScoreCard.jsx'
-import { SectionHead, Eyebrow } from '../components/Primitives.jsx'
+import ScoreStrip from '../components/ScoreStrip.jsx'
+import TodaysGames from '../components/TodaysGames.jsx'
+import StandingsSnapshot from '../components/StandingsSnapshot.jsx'
+import { SectionHead, Wordmark } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
 
 const HERO_IMAGE =
@@ -38,8 +40,8 @@ function Masthead() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/85 to-ink/40" />
         <div className="relative px-6 py-8 text-cream md:px-10 md:py-10">
-          <h1 className="font-display text-5xl leading-none md:text-6xl">
-            Hoop<span className="text-gold">spire</span>
+          <h1>
+            <Wordmark onDark className="text-[2.6rem] sm:text-5xl md:text-6xl" />
           </h1>
           <p className="mt-2 font-display text-xl italic text-gold md:text-2xl">{SITE.tagline}</p>
           <p className="mt-3 max-w-2xl text-base text-cream/75">
@@ -53,17 +55,20 @@ function Masthead() {
 }
 
 /**
- * League filter for the story grid.
+ * League switcher, shared by the scoreboard and the story grid.
  *
- * Only leagues we have actually written about get a chip. A chip for every
- * league in the ledger would mean most of them filter the grid down to
- * nothing, and an empty grid on the front page reads as a broken site. The
- * choice lives in the URL (?league=PBA) so a filtered front page can be
- * bookmarked and shared.
+ * One choice drives the whole front page: pick PBA and the scoreboard, the
+ * day's games, the stories and the standings all narrow to the PBA. It
+ * lives in the URL (?league=PBA) so a reader who only follows one league can
+ * bookmark their own front page.
+ *
+ * Only leagues with something to show get a chip: a story, or a game in the
+ * current window. A chip for every league in the ledger would mean most of
+ * them narrow the page down to nothing.
  */
-function LeagueFilter({ leagues, active, onPick }) {
+function LeagueSwitcher({ leagues, active, onPick, label, className = '' }) {
   const chip = (selected) =>
-    `eyebrow inline-flex min-h-11 shrink-0 items-center border px-4 transition-colors ${
+    `eyebrow inline-flex min-h-11 shrink-0 snap-start items-center border px-4 transition-colors ${
       selected
         ? 'border-ink bg-ink text-cream'
         : 'border-parchment bg-paper text-ink/70 hover:border-ink hover:text-ink'
@@ -71,17 +76,17 @@ function LeagueFilter({ leagues, active, onPick }) {
   return (
     <div
       role="group"
-      aria-label="Filter stories by league"
-      className="-mx-4 mb-8 flex snap-x gap-2 overflow-x-auto px-4 [scrollbar-width:none] md:mx-0 md:flex-wrap md:px-0"
+      aria-label={label}
+      className={`no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 md:mx-0 md:flex-wrap md:px-0 ${className}`}
     >
-      <button type="button" className={`${chip(!active)} snap-start`} aria-pressed={!active} onClick={() => onPick(null)}>
+      <button type="button" className={chip(!active)} aria-pressed={!active} onClick={() => onPick(null)}>
         All
       </button>
       {leagues.map((l) => (
         <button
           key={l.key}
           type="button"
-          className={`${chip(active === l.key)} snap-start`}
+          className={chip(active === l.key)}
           aria-pressed={active === l.key}
           onClick={() => onPick(l.key)}
         >
@@ -101,21 +106,37 @@ export default function Home() {
     liveMs: 30_000,
     isLive: hasLiveGame,
   })
+  const allGames = games || []
 
-  // Our own writing leads the page. It is bundled at build time, so there is
-  // no loading state to design around and nothing that can fail to arrive.
-  // Nothing on this page comes from other outlets any more — that content
-  // moved to its own page, /wire, with no ad anywhere near it. See Wire.jsx.
+  // Our own writing leads the page's content. It is bundled at build time, so
+  // there is no loading state to design around and nothing that can fail to
+  // arrive. Nothing on this page comes from other outlets any more — that
+  // content moved to its own page, /wire, with no ad anywhere near it.
   const originals = getOriginals()
 
-  // Chips in ledger order, for the leagues that have at least one piece.
-  const covered = new Set(originals.map((a) => a.league).filter(Boolean))
-  const filterLeagues = LEAGUES.filter((l) => covered.has(l.key))
+  // What the front page counts as current: anything live, results from the
+  // last fortnight, and fixtures in the next. A league between seasons still
+  // has its last results in the feed — the NBB's are from June — and those
+  // are history, not a scoreboard. A scheduled game whose tip passed hours
+  // ago is a snapshot that never learned the result, so it is out too.
+  const now = Date.now()
+  const WINDOW = 14 * 86_400_000
+  const showable = allGames.filter((g) => {
+    const t = new Date(g.date).getTime()
+    if (g.status === 'live') return true
+    if (g.status === 'final') return t >= now - WINDOW
+    return t > now - 3 * 3600_000 && t <= now + WINDOW
+  })
+
+  const withStories = new Set(originals.map((a) => a.league).filter(Boolean))
+  const withGames = new Set(showable.map((g) => g.league))
+  const switcherLeagues = LEAGUES.filter((l) => withStories.has(l.key) || withGames.has(l.key))
 
   const [params, setParams] = useSearchParams()
-  // An unknown or uncovered ?league= falls back to All rather than an empty grid.
+  // An unknown ?league=, or one with nothing to show, falls back to All.
   const picked = getLeague(params.get('league'))
-  const active = picked && covered.has(picked.key) ? picked.key : null
+  const league = picked && switcherLeagues.some((l) => l.key === picked.key) ? picked : null
+  const active = league?.key || null
   const pick = (key) => {
     const next = new URLSearchParams(params)
     if (key) next.set('league', key)
@@ -123,94 +144,80 @@ export default function Home() {
     setParams(next, { replace: true, preventScrollReset: true })
   }
 
+  const leagueGames = active ? showable.filter((g) => g.league === active) : showable
   const stories = (active ? originals.filter((a) => a.league === active) : originals).slice(
     0,
     GRID_SIZE
   )
-  const activeLeague = active ? getLeague(active) : null
 
-  const finals = (games || []).filter((g) => g.status === 'final').slice(0, 8)
-  const live = (games || []).filter((g) => g.status === 'live')
+  const switcher = (label, className) =>
+    switcherLeagues.length > 1 && (
+      <LeagueSwitcher
+        leagues={switcherLeagues}
+        active={active}
+        onPick={pick}
+        label={label}
+        className={className}
+      />
+    )
 
   return (
     <>
+      {/*
+        Scores first. They are the site's own ledger, not linked-out content,
+        and checking them is why most people open a sports front page — so
+        they sit above everything, where the marquee ticker used to run.
+      */}
+      {(showable.length > 0 || active) && (
+        <ScoreStrip games={leagueGames} league={league} tabs={switcher('Filter the front page by league')} />
+      )}
+
       <Masthead />
 
+      <TodaysGames games={leagueGames} />
+
       {/*
-        The front page leads with what we wrote. It used to open on the wire,
-        which meant the first thing anyone saw on hoopspire.com — a reader, or
-        someone deciding whether this is a publication — was a column of other
-        outlets' headlines with their bylines on them. Our own work was a
-        click away at /margin and invisible from here.
+        Our own writing comes before anything else that is not a score. The
+        page used to open on the wire, which meant the first thing anyone saw
+        on hoopspire.com — a reader, or someone deciding whether this is a
+        publication — was a column of other outlets' headlines with their
+        bylines on them.
       */}
       {originals.length > 0 && (
         <section className="mx-auto max-w-7xl px-4 pt-12 md:px-8">
           <SectionHead
             title="Latest"
             action={
-              activeLeague ? (
-                <Link
-                  to={`/league/${activeLeague.slug}`}
-                  className="eyebrow text-crimson hover:underline"
-                >
-                  All {activeLeague.name} →
+              league ? (
+                <Link to={`/league/${league.slug}`} className="eyebrow text-crimson hover:underline">
+                  All {league.name} →
                 </Link>
               ) : (
-                <Link to="/margin" className="eyebrow text-crimson hover:underline">
-                  The Margin →
+                <Link to="/archive" className="eyebrow text-crimson hover:underline">
+                  Archive →
                 </Link>
               )
             }
           />
-          {filterLeagues.length > 1 && (
-            <LeagueFilter leagues={filterLeagues} active={active} onPick={pick} />
-          )}
-          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {stories.map((a) => (
-              <ArticleCard key={a.id} article={a} variant="tile" />
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/*
-        Our own ledger data — live scores and recent results — comes next,
-        directly after our own writing. It is the site's own database, not
-        linked-out content, so it belongs at the front of the page.
-
-        The section only renders when it has a game to show. It used to stand
-        empty between windows with "No completed games in the current window",
-        which on the front page reads as a site that is broken, not idle.
-      */}
-      {(live.length > 0 || finals.length > 0) && (
-        <section className="mx-auto max-w-7xl px-4 pt-20 md:px-8">
-          <SectionHead
-            title="Final Whistles"
-            action={
-              <Link to="/scores" className="eyebrow text-crimson hover:underline">
-                All Scores →
-              </Link>
-            }
-          />
-          {live.length > 0 && (
-            <div className="mb-6">
-              <Eyebrow className="text-crimson">Live Now · {live.length}</Eyebrow>
-              <div className="mt-3 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {live.map((g) => (
-                  <ScoreCard key={g.id} game={g} />
-                ))}
-              </div>
-            </div>
-          )}
-          {finals.length > 0 && (
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-              {finals.map((g) => (
-                <ScoreCard key={`${g.league}-${g.id}`} game={g} />
+          {switcher('Filter stories by league', 'mb-8')}
+          {stories.length ? (
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {stories.map((a) => (
+                <ArticleCard key={a.id} article={a} variant="tile" />
               ))}
             </div>
+          ) : (
+            <p className="text-base text-ink/60">
+              We have not written about the {league.name} yet.{' '}
+              <Link to={`/league/${league.slug}`} className="text-crimson hover:underline">
+                {league.name} scores, standings and teams →
+              </Link>
+            </p>
           )}
         </section>
       )}
+
+      <StandingsSnapshot games={allGames} league={league} />
     </>
   )
 }

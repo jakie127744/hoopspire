@@ -5,8 +5,8 @@
     Drawn rather than cropped out of the badge, for three reasons. It has to
     read at 32px, where the badge is an unreadable blob. It has to sit on
     cream (#f3efe7) without a white plate or a drop shadow behind it. And it
-    has to be in the site's own palette — ink and gold — instead of importing
-    a navy-and-orange scheme that shares no hue with anything else on the page.
+    has to be in the brand's own navy and orange, taken from the badge, so
+    the header mark and the full logo read as the same thing.
 
     Colours are literal rather than `currentColor`: the header loads this
     through an <img>, and an external SVG referenced that way resolves
@@ -16,7 +16,7 @@
   -->
 
   <!-- Net: two crossing sets of strands, drawn first so the rim caps them. -->
-  <g stroke="#c89e56" stroke-width="1" fill="none" opacity="0.75" stroke-linecap="round">
+  <g stroke="#e05818" stroke-width="1" fill="none" opacity="0.75" stroke-linecap="round">
     <path d="M8.4 22.2 L11 28.4" />
     <path d="M12.5 22.9 L14 28.9" />
     <path d="M19.5 22.9 L18 28.9" />
@@ -27,7 +27,7 @@
 
   <!-- Ball, sitting in the rim. -->
   <g>
-    <circle cx="16" cy="13" r="8" fill="#1a1a1a" />
+    <circle cx="16" cy="13" r="8" fill="#13233b" />
     <!-- Seams, cut in the background colour so they read at small sizes. -->
     <g stroke="#f3efe7" stroke-width="1.1" fill="none" stroke-linecap="round">
       <path d="M16 5 L16 21" />
@@ -38,5 +38,5 @@
   </g>
 
   <!-- Rim, over the ball so the ball reads as passing through it. -->
-  <ellipse cx="16" cy="21.4" rx="8.4" ry="2.5" fill="none" stroke="#c89e56" stroke-width="1.9" />
+  <ellipse cx="16" cy="21.4" rx="8.4" ry="2.5" fill="none" stroke="#e05818" stroke-width="1.9" />
 </svg>

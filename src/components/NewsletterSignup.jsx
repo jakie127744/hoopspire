@@ -163,7 +163,7 @@ export default function NewsletterSignup({ variant = 'block' }) {
               setConsent(e.target.checked)
               if (state.status === 'error') setState({ status: 'idle', message: '' })
             }}
-            className="mt-0.5 h-4 w-4 shrink-0 accent-[#8A0000]"
+            className="mt-0.5 h-4 w-4 shrink-0 accent-crimson"
           />
           <span>
             Email me the newsletter. I can unsubscribe from any issue, and my address will not

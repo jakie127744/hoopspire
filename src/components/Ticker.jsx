@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { useAsync, hasLiveGame } from '../lib/useAsync.js'
 import { getAllGames } from '../lib/api.js'
 
@@ -14,8 +14,16 @@ function shortDate(value) {
  *
  * The track is rendered twice and translated -50% so the loop is seamless;
  * hovering pauses it so a score can actually be read.
+ *
+ * Not on the front page, which has its own scoreboard strip in this spot —
+ * two rows of the same scores, one of them moving, is one too many.
  */
 export default function Ticker() {
+  if (useLocation().pathname === '/') return null
+  return <TickerRail />
+}
+
+function TickerRail() {
   const { data: games } = useAsync(() => getAllGames(), [], [], {
     refreshMs: 120_000,
     liveMs: 30_000,

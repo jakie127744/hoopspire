@@ -13,6 +13,28 @@ export function SectionHead({ title, action, children }) {
   )
 }
 
+/**
+ * The Hoopspire wordmark, set the way the badge sets it: heavy uppercase
+ * sans, HOOP in the base colour and SPIRE in the brand orange.
+ *
+ * One component for every place the name appears as a logo, so the header,
+ * the front-page masthead and the footer cannot drift apart again — they had
+ * three different treatments, with "spire" crimson in one and gold in another.
+ *
+ * @param onDark  HOOP in cream instead of navy, for dark backgrounds.
+ */
+export function Wordmark({ onDark = false, className = '' }) {
+  return (
+    <span
+      className={`font-brand font-extrabold uppercase leading-none tracking-[0.02em] ${
+        onDark ? 'text-cream' : 'text-ink'
+      } ${className}`}
+    >
+      Hoop<span className="text-brand">spire</span>
+    </span>
+  )
+}
+
 export function Eyebrow({ children, className = '' }) {
   return <span className={`eyebrow ${className}`}>{children}</span>
 }

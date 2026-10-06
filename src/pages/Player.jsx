@@ -166,7 +166,7 @@ export default function Player() {
             (p.team.id ? (
               <Link
                 to={`/team/${p.league}/${p.team.id}`}
-                className="mt-4 inline-flex items-center gap-2 hover:text-crimson"
+                className="mt-2 inline-flex min-h-11 items-center gap-2 hover:text-crimson"
               >
                 <TeamLogo team={p.team} size={24} />
                 <span className="text-sm font-medium">{p.team.name}</span>

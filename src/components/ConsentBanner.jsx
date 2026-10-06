@@ -110,7 +110,7 @@ export default function ConsentBanner() {
                     type="checkbox"
                     checked={!!draft[c.key]}
                     onChange={(e) => setDraft((d) => ({ ...d, [c.key]: e.target.checked }))}
-                    className="mt-1 h-4 w-4 shrink-0 accent-[#8A0000]"
+                    className="mt-1 h-4 w-4 shrink-0 accent-crimson"
                   />
                   <div>
                     <p className="font-medium">{c.label}</p>

@@ -7,12 +7,29 @@
 @theme {
   --color-cream: #f3efe7;
   --color-parchment: #e2dccf;
-  --color-ink: #1a1a1a;
-  --color-crimson: #8a0000;
-  --color-gold: #c89e56;
   --color-paper: #ffffff;
 
+  /* Brand colours, taken from the Hoopspire badge (navy #102038, orange
+     #e05818). The token names predate the badge and are kept so the classes
+     across the site (text-ink, bg-crimson, text-gold) did not all have to
+     change; what each one now holds is below.
+
+     ink      navy — text, rules, dark panels. 13.8:1 on cream.
+     crimson  the badge's orange, darkened until small text clears WCAG AA:
+              4.7:1 on cream, 5.4:1 with white type on it. Links, labels,
+              the Live badge. The badge orange itself is only 3.3:1 on cream.
+     gold     the badge's orange, lightened for use on navy: 6.3:1 there.
+     brand    the badge's exact orange, for the wordmark only — large type,
+              where 3:1 is the bar. */
+  --color-ink: #13233b;
+  --color-crimson: #b8440e;
+  --color-gold: #f08a4b;
+  --color-brand: #e05818;
+
   --font-display: 'Instrument Serif', ui-serif, Georgia, serif;
+  /* The wordmark: a heavy geometric sans, as on the badge. One weight is
+     loaded, and only the wordmark uses it. */
+  --font-brand: 'Montserrat', 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
   --font-sans: 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
 }
@@ -52,6 +69,17 @@
     font-size: 0.625rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
+  }
+
+  /* The small-caps links ("All scores →", "← Scoreboard") are 13–15px of
+     text, a third of a fingertip. On touch screens the hit area grows to
+     44px+ by padding out and pulling the margin back in by the same amount,
+     so the tap target is a thumb's height and the layout does not move. */
+  @media (pointer: coarse) {
+    a.eyebrow {
+      padding-block: 0.9375rem;
+      margin-block: -0.9375rem;
+    }
   }
 
   .rule {

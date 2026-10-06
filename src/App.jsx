@@ -22,6 +22,7 @@ import FreeMinutes from './pages/FreeMinutes.jsx'
 import Press from './pages/Press.jsx'
 import Story from './pages/Story.jsx'
 import Player from './pages/Player.jsx'
+import Archive from './pages/Archive.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -29,6 +30,12 @@ function ScrollToTop() {
     window.scrollTo(0, 0)
   }, [pathname])
   return null
+}
+
+/** /search?q=… is the address people guess; the page lives at /archive. */
+function SearchRedirect() {
+  const { search } = useLocation()
+  return <Navigate to={`/archive${search}`} replace />
 }
 
 function NotFound() {
@@ -70,6 +77,8 @@ export default function App() {
               links working rather than 404ing anyone who saved one. */}
           <Route path="/originals" element={<Navigate to="/margin" replace />} />
           <Route path="/story/:slug" element={<Story />} />
+          <Route path="/archive" element={<Archive />} />
+          <Route path="/search" element={<SearchRedirect />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
