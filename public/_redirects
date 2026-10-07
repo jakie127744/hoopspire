@@ -1,0 +1,3 @@
+# Cloudflare's asset server reads this; vercel.json carries the same rule.
+# On the Wire was retired after the AdSense review — send old links home.
+/wire / 301
