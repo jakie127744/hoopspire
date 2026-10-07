@@ -1,6 +1,6 @@
 ---
-title: "Sendai close on a 6-0 run to beat Kai Sotto and Altiri Chiba 81-74"
-dek: "Sotto had 11 rebounds and five assists but five points in his first road game. Seiya Funyu scored all 13 of his points after half-time, and Sendai won the fourth quarter 30-21."
+title: "Sendai close on a 6-0 run to beat Altiri Chiba 81-74"
+dek: "Seiya Funyu scored all 13 of his points after half-time, and Sendai won a fourth quarter with seven lead changes 30-21. Both teams came in at 1-3."
 league: "BLeague"
 author: "Kenji Arakawa"
 published: "2026-10-07"
@@ -8,8 +8,6 @@ tag: "Result"
 ---
 
 With 52 seconds left at Xebio Arena Sendai, Altiri Chiba were a point behind and the game had already been tied five times in the fourth quarter. They did not score again. [Nathan Boothe](/player/BLeague/51000144) finished a layup with 16 seconds left, [Seiya Funyu](/player/BLeague/8737) made two free throws with seven seconds left, and Boothe scored again with one second left. The Sendai 89ers beat Chiba 81-74 on Wednesday night in front of 4,279 fans.
-
-It was [Kai Sotto](/player/BLeague/51000259)'s first road game for Chiba. The 7-foot-3 Filipino center started and had 11 rebounds and five assists in 24 minutes, his most assists in three games for the club. He scored five points, on 2-of-4 shooting and 1-of-3 from the free-throw line, and committed four of Chiba's 17 turnovers.
 
 Both teams came in at 1-3 in the B.League Premier. Sendai are now 2-3, Chiba 1-4.
 
@@ -23,7 +21,7 @@ Chiba's passing ran the second quarter. They had eight assists in the period and
 
 Funyu had not scored in the first half. He opened the third quarter with a three, added two free throws and another three, and Sendai ran off 15 of the first 17 points of the half. Layman's second three made it 50-41 with 5:25 left in the quarter, Sendai's biggest lead.
 
-Chiba took it straight back with a 12-1 run. [Seiya Ando](/player/BLeague/8467) and [D.J. Newbill](/player/BLeague/33085) hit threes, and Sotto scored the last four points of the quarter. His jumper in the paint with 1:23 left put Chiba ahead 53-51 going into the fourth.
+Chiba took it straight back with a 12-1 run. [Seiya Ando](/player/BLeague/8467) and [D.J. Newbill](/player/BLeague/33085) hit threes, and [Kai Sotto](/player/BLeague/51000259) scored the last four points of the quarter. His jumper in the paint with 1:23 left put Chiba ahead 53-51 going into the fourth.
 
 ## Seven lead changes in the fourth
 
@@ -39,7 +37,7 @@ Chiba outrebounded Sendai 40-31 and had 21 assists to Sendai's 14. They lost the
 
 Culver led Sendai with 18 points, seven of them from the line. Funyu finished with 13 on 3-of-4 from three, and his team was 23 points better than Chiba in his 20 minutes. Ando led Chiba with 19 and Newbill had 17 with five assists.
 
-Sotto has now played three games for Chiba and taken at least 11 rebounds in each: 11, 14 and 11.
+Sotto finished with five points, 11 rebounds and five assists in 24 minutes.
 
 **Scoring**
 
@@ -51,4 +49,4 @@ By quarter: Sendai 16, 19, 16, 30. Altiri Chiba 15, 24, 14, 21.
 
 ## What is next
 
-Chiba are home for both of their weekend games: Osaka Evessa on Friday, October 9, then the Toyama Grouses on Sunday, October 11, which would put Sotto against Thirdy Ravena, another of the Filipino players in the league.
+Chiba are home for both of their weekend games: Osaka Evessa on Friday, October 9, then the Toyama Grouses on Sunday, October 11.
