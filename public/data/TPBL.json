@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-06T13:08:00.105Z",
+  "fetchedAt": "2026-10-07T13:03:08.235Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -1621,7 +1621,7 @@
         "weight": "85 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10865/iloV7CbzGDiOeTFN1hHmUxJE4Fboc6kOzAVoweLA.png?20261002161752"
+        "headshot": "https://assets.tpbl.basketball/production/players/10865/z77bwsMSNGKaLwOFtc8OZKUjrQ0XhbE5bAy1HwCn.png?20261007103452"
       },
       {
         "id": "7",
@@ -4347,7 +4347,7 @@
       "height": "190 cm",
       "weight": "85 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10865/iloV7CbzGDiOeTFN1hHmUxJE4Fboc6kOzAVoweLA.png?20261002161752",
+      "headshot": "https://assets.tpbl.basketball/production/players/10865/z77bwsMSNGKaLwOFtc8OZKUjrQ0XhbE5bAy1HwCn.png?20261007103452",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 32,
@@ -5221,6 +5221,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-500",
+      "league": "TPBL",
+      "title": "TPBL Season 3 \"Come True\"! The shrimp skin shopping title is officially unveiled together with the new season's main axis and annual layout",
+      "originalTitle": "TPBL第三季「來真的」！ 蝦皮購物冠名攜手 新賽季主軸與年度布局正式揭曉",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-07T11:08:52.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/500/i7iyTI7vLtupPsZzTfh7bLar3AFtOHELlJu0k9Wu.jpg?20261007193124",
+      "url": "https://tpbl.basketball/news/500"
+    },
+    {
       "id": "TPBL-497",
       "league": "TPBL",
       "title": "TPBL's Inaugural Referee Consensus Camp Completes Two Days of Training From Case Studies to Physical and Mental Capacity Building Cohesion New Season Law Enforcement Consensus",
@@ -5362,19 +5375,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/447/tLCnY4CNPXjUZWd0KI6T6tO59All1M9wW4aUB9rD.jpg?20260828175639",
       "url": "https://tpbl.basketball/news/447"
-    },
-    {
-      "id": "TPBL-473",
-      "league": "TPBL",
-      "title": "The champion flank keeps firing! Ma Jianhao once again put on a green war robe and experienced the baptism of the first crown. Growing up, the heavy guns of the new season were aimed at the reigning",
-      "originalTitle": "冠軍側翼火力不熄！馬建豪再度披上綠色戰袍 經歷首冠洗禮成長 新賽季重砲瞄準衛冕",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-08-27T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/446/Rr8noLIKms6xC4kKnugMDiUcTiiqqsPyZEkUCA4C.jpg?20260827113602",
-      "url": "https://tpbl.basketball/news/473"
     }
   ],
   "leaders": {
@@ -5840,12 +5840,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-06T13:08:00.105Z",
-    "rosters": "2026-10-06T13:08:00.105Z",
-    "playerStats": "2026-10-06T13:08:00.105Z",
-    "standings": "2026-10-06T13:08:00.105Z",
-    "games": "2026-10-06T13:08:00.105Z",
-    "news": "2026-10-06T13:08:00.105Z",
-    "leaders": "2026-10-06T13:08:00.105Z"
+    "teams": "2026-10-07T13:03:08.235Z",
+    "rosters": "2026-10-07T13:03:08.235Z",
+    "playerStats": "2026-10-07T13:03:08.235Z",
+    "standings": "2026-10-07T13:03:08.235Z",
+    "games": "2026-10-07T13:03:08.235Z",
+    "news": "2026-10-07T13:03:08.235Z",
+    "leaders": "2026-10-07T13:03:08.235Z"
   }
 }

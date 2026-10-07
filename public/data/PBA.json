@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-06T13:07:36.654Z",
+  "fetchedAt": "2026-10-07T13:02:38.021Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
@@ -14427,17 +14428,56 @@
   ],
   "news": [
     {
-      "id": "PBA-amyahespanoldiscoversherfilipinoheartthr",
+      "id": "PBA-nlexbooksqfspotafterroutingdepletedmacau",
       "league": "PBA",
-      "title": "Amyah Espanol discovers her Filipino heart through Gilas journey",
+      "title": "NLEX books QF spot after routing depleted Macau in PBA's most lopsided game",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Less than a month ago, Amyah Espanol was simply grateful that the main goal that brought her home to the Philippines had been achieved earlier than expected. When Tiebreaker Times first caught up with the Fil-American winger on September 8 during the UAAP Season 89 press conferen",
-      "published": "2026-10-06T10:27:51.000Z",
+      "description": "NLEX punched its PBA Season 50 Governors' Cup quartefinal ticket in a record-breaking fashion after a 138-78 victory---the biggest win margin in league history---against a depleted Macau on Wednesday at the Ninoy Aquino Stadium.",
+      "published": "2026-10-07T11:45:39.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005135/nlex-books-qf-spot-after-routing-depleted-macau-in-pba-s-most-lopsided-game/story/"
+    },
+    {
+      "id": "PBA-nlexsetspbarecordwith60pointroutofmacau",
+      "league": "PBA",
+      "title": "NLEX sets PBA record with 60-point rout of Macau",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NLEX reset the record for the biggest winning margin in the PBA following a 138-78 decimation of Macau at the Ninoy Aquino Stadium, Wednesday. The Road Warriors leapt to a 30-8 lead to start the match, and that was all they needed to set the tone for the massive 60-point victory ",
+      "published": "2026-10-07T11:35:40.000Z",
       "byline": "Tiebreaker Times",
       "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/08/2026-FIBA-3x3-Nations-League-Asia-SEA-Stop-4-Gilas-Women-vs-New-Zealand-Amyah-Espanol-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/amyah-espanol-discovers-her-filipino-heart-through-gilas-journey/385832"
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/nlex-sets-pba-record-with-60-point-rout-of-macau/385918"
+    },
+    {
+      "id": "PBA-roadwarriorsturngiantpandasintoroadkill",
+      "league": "PBA",
+      "title": "Road Warriors turn Giant Pandas into road kill",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Complete annihilation by the NLEX Road Warriors.",
+      "published": "2026-10-07T11:22:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/07/2561582/road-warriors-turn-giant-pandas-road-kill"
+    },
+    {
+      "id": "PBA-fiveteamstapnewimportsaspbagovernorscupr",
+      "league": "PBA",
+      "title": "Five teams tap new imports as PBA Governors' Cup resumes after break",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Top seed NLEX alongside four other teams will parade new imports when the PBA Season 50 Governors' Cup resumes on Wednesday after a lengthy break.",
+      "published": "2026-10-07T07:04:45.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005070/five-teams-tap-new-imports-as-pba-governors-cup-resumes-after-break/story/"
     },
     {
       "id": "PBA-gilasgirlsescapenewzealandforfirstwininf",
@@ -14451,32 +14491,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1004946/gilas-girls-escape-new-zealand-for-first-win-in-fiba-u18-asia-cup-division-a/story/"
-    },
-    {
-      "id": "PBA-alapagjoinshoopcollectivepodcastasdisney",
-      "league": "PBA",
-      "title": "Alapag joins 'Hoop Collective' podcast as Disney+ Philippines drums up new NBA season",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The much-awaited 2026-2026 NBA Season is almost here, and Filipino fans got the feel of it with no less than Gilas Pilipinas legend and NLEX head coach Jimmy Alapag leading the way.",
-      "published": "2026-10-06T08:31:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/06/2561338/alapag-joins-hoop-collective-podcast-disney-philippines-drums-new-nba-season"
-    },
-    {
-      "id": "PBA-gilasgirlsstunnewzealandsealspotinu18asi",
-      "league": "PBA",
-      "title": "Gilas Girls stun New Zealand, seal spot in U18 Asia Cup play-in",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Philippines’ wait for a breakthrough in the FIBA U18 Women’s Asia Cup 2026 came to an end following a come-from-behind 69-64 victory over New Zealand on Tuesday at the Karisma Arena in Seremban, Malaysia. Gilas Girls raced from down nine at the half with a massive 20-4 third-",
-      "published": "2026-10-06T08:04:15.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-FIBA-U18-Asia-Cup-Gilas-Girls-def-New-Zealand-Zaydhen-Rosano-2-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/gilas-girls-stun-new-zealand-seal-spot-in-u18-asia-cup-play-in/385792"
     }
   ],
   "leaders": {
@@ -14947,8 +14961,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-06T13:07:36.654Z",
-    "news": "2026-10-06T13:07:36.654Z"
+    "games": "2026-10-07T13:02:38.021Z",
+    "news": "2026-10-07T13:02:38.021Z"
   },
   "carriedOver": [
     "teams",

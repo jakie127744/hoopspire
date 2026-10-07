@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-06T13:08:08.992Z",
+  "fetchedAt": "2026-10-07T13:03:21.491Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-x-mogi-no-jogo-1-da-final-do-paul",
+      "league": "NBB",
+      "title": "Franca vs. Mogi in game 1 of the Paulista final: where to watch live and time",
+      "originalTitle": "Franca x Mogi no jogo 1 da final do Paulista: onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Franca wins Paulistano and advances to the final of the São Paulo Basketball Championship Sesi Franca Basquete and Mogi Basquete start on Wednesday the decision of the São Paulo 2026 Championship. The first match of the best-of-five series takes place at Pedrocão, in Franca (SP). The confrontation is a reissue of the decision",
+      "published": "2026-10-07T07:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/ZbETe6yRdvA8d1fWBE-nackKEXM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/m/a/h0TtjWRbSDu40MBcxxew/54383060986-b29178fe07-5k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/07/franca-x-mogi-no-jogo-1-da-final-do-paulista-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
       "id": "NBB-sele-o-masculina-de-basquete-volta-ao-ib",
       "league": "NBB",
       "title": "Men's basketball team returns to Ibirapuera after 42 years for World Cup spot",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/INvAF8tBxpEwZjdtnQaYS_8ff5M=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/P/p/pUfCaNRNqEQnbmFBzj4w/dsc-2495.jpg",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/08/23/ex-jogador-da-selecao-exalta-base-mas-alerta-sobre-torneios-nao-vejo-o-brasil-no-mesmo-nivel.ghtml"
-    },
-    {
-      "id": "NBB-parodi-mais-um-desfalque-do-franca-por-c",
-      "league": "NBB",
-      "title": "Parodi is yet another embezzlement of Franca on account of the World Cup Qualifiers",
-      "originalTitle": "Parodi é mais um desfalque do Franca por conta das Eliminatórias da Copa",
-      "translatedFrom": "pt",
-      "description": "Franca wins Corinthians and takes the lead of Paulista de Basquete Sesi Franca Basquete reported on Thursday morning that there will be another embezzlement in the final stretch of the first phase of the Paulista Championship. The point guard Luciano Parodi was summoned by Uruguay's national team for the games against Baha",
-      "published": "2026-08-20T13:49:07.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/w3tEmfH_ZtA5WeEWG76IbOkvuh8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/O/s/B4svJJQv6XT6SnWiAwpg/whatsapp-image-2026-08-13-at-21.47.21-1-.jpeg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/08/20/parodi-e-mais-um-desfalque-do-franca-por-conta-das-eliminatorias-da-copa.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-06T13:08:08.992Z",
-    "news": "2026-10-06T13:08:08.992Z"
+    "games": "2026-10-07T13:03:21.491Z",
+    "news": "2026-10-07T13:03:21.491Z"
   },
   "carriedOver": [
     "teams",
