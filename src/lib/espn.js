@@ -572,15 +572,9 @@ export async function fetchGameSummary(league, gameId) {
     game,
     boxscore,
     lastFive: data.lastFiveGames || null,
-    recap: data.article
-      ? {
-          title: data.article.headline,
-          body: data.article.story || data.article.description || '',
-          byline: data.article.byline || null,
-          published: data.article.published || null,
-          image: data.article.images?.[0]?.url || null,
-        }
-      : null,
+    // ESPN's game story is deliberately not carried over: reproduced on our
+    // game pages it was replicated content. See the note in Game.jsx.
+    recap: null,
     winProbability: data.winprobability || null,
   }
 }

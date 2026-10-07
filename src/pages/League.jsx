@@ -64,9 +64,8 @@ export default function League() {
   }
 
   // Originals only. getNews mixes in wire content by design for the feed
-  // this hook was built for; a league page is not that feed. Third-party
-  // stories now live on their own page, /wire, and nowhere else — this is
-  // one of the "nowhere else."
+  // this hook was built for; a league page is not that feed, and the site
+  // no longer shows third-party stories anywhere.
   const stories = (news || []).filter((a) => a.original)
   const lead = stories[0]
   const rest = stories.slice(1)

@@ -96,34 +96,6 @@ export async function getNews(leagueKey, limit = 12) {
   return [...originals, ...wire].slice(0, limit)
 }
 
-export async function getAllNews(perLeague = 6) {
-  const lists = await Promise.all(LEAGUES.map((l) => getNews(l.key, perLeague)))
-  // Cross-league Margin pieces carry no league key, so they are added directly.
-  lists.push(getOriginals(null).filter((a) => !a.league))
-
-  // ESPN syndicates one story across several league feeds — a FIBA World Cup
-  // report shows up under FIBA, WNBA and NBA alike. Keep the first copy
-  // (leagues are ordered by prominence) so the front page isn't three
-  // versions of the same headline.
-  const seen = new Set()
-  const unique = []
-  for (const article of lists.flat()) {
-    if (!article.title) continue
-    const key = article.url || article.title.toLowerCase().replace(/\W+/g, '')
-    if (seen.has(key)) continue
-    seen.add(key)
-    unique.push(article)
-  }
-
-  // Newest first, but an original always outranks a wire item published the
-  // same day — it is the reason someone would come here rather than to ESPN.
-  return unique.sort((a, b) => {
-    const day = (x) => String(x.published || '').slice(0, 10)
-    if (day(a) === day(b) && !!a.original !== !!b.original) return a.original ? -1 : 1
-    return new Date(b.published || 0) - new Date(a.published || 0)
-  })
-}
-
 export async function getTeams(leagueKey) {
   const league = getLeague(leagueKey)
   if (!league) return []

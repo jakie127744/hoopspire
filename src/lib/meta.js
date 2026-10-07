@@ -39,11 +39,10 @@ function setTag(selector, attrs) {
  */
 /**
  * @param noindex Keeps the page out of search results without blocking the
- *                crawler from reading it — the right tool for a page like
- *                /wire, whose entire content is other publishers' headlines.
- *                Nothing here is ours to rank for, and indexing a page shaped
- *                like that is the last thing worth doing after an AdSense
- *                review flagged the site for replicated content.
+ *                crawler from reading it — the right tool for the pages
+ *                generated from upstream feeds (games, players, teams).
+ *                After an AdSense review flagged the site for replicated and
+ *                low-value content, only our own writing is put up for search.
  */
 export function useMeta({ title, description, image, type = 'website', noindex = false } = {}) {
   const { pathname } = useLocation()

@@ -8,7 +8,6 @@ import League from './pages/League.jsx'
 import Scores from './pages/Scores.jsx'
 import Stats from './pages/Stats.jsx'
 import Teams from './pages/Teams.jsx'
-import Wire from './pages/Wire.jsx'
 import Team from './pages/Team.jsx'
 import Game from './pages/Game.jsx'
 import About from './pages/About.jsx'
@@ -65,7 +64,8 @@ export default function App() {
           <Route path="/scores" element={<Scores />} />
           <Route path="/stats" element={<Stats />} />
           <Route path="/teams" element={<Teams />} />
-          <Route path="/wire" element={<Wire />} />
+          {/* On the Wire was retired; send old links somewhere that is ours. */}
+          <Route path="/wire" element={<Navigate to="/" replace />} />
           <Route path="/team/:leagueKey/:teamId" element={<Team />} />
           <Route path="/game/:leagueKey/:gameId" element={<Game />} />
           <Route path="/player/:leagueKey/:playerId" element={<Player />} />

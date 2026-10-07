@@ -12,7 +12,6 @@ const SECTIONS = [
   { to: '/scores', label: 'Scores' },
   { to: '/stats', label: 'Stats' },
   { to: '/teams', label: 'Teams' },
-  { to: '/wire', label: 'On the Wire' },
 ]
 
 /**

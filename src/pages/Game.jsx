@@ -178,6 +178,10 @@ export default function Game() {
     description: matchup
       ? `${matchup} — box score, quarter-by-quarter scoring and player lines${league ? ` from the ${league.name}` : ''}.`
       : undefined,
+    // A box score alone is a feed rendered as a table — thousands of them,
+    // and nothing a reader could not get from the league. Only a game we
+    // have written up is ours to rank for.
+    noindex: !ourRecap,
   })
 
   if (loading) {
@@ -199,7 +203,7 @@ export default function Game() {
     )
   }
 
-  const { game, boxscore, recap } = data
+  const { game, boxscore } = data
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-14 md:px-8">
@@ -212,13 +216,12 @@ export default function Game() {
       </div>
 
       {/*
-        Our own recap wins when we have one for this game — same slot, same
-        heading, so nothing about the page's shape changes, only whose
-        writing fills it. Falls back to the wire's recap otherwise: a game we
-        have not covered ourselves is better summarised by someone than left
-        blank.
+        Only our own recap appears here. ESPN's used to fill the slot for games
+        we had not covered, reproduced in full — on an indexable page, once per
+        game — and AdSense flagged the site for replicated content. A game we
+        have not written up shows its scoreline and box score and nothing else.
       */}
-      {ourRecap ? (
+      {ourRecap && (
         <section className="mt-16">
           <SectionHead title="Recap" />
           <h3 className="font-display text-3xl leading-tight">{ourRecap.title}</h3>
@@ -233,21 +236,6 @@ export default function Game() {
             Read the full recap →
           </Link>
         </section>
-      ) : (
-        recap && (
-          <section className="mt-16">
-            <SectionHead title="Recap" />
-            <h3 className="font-display text-3xl leading-tight">{recap.title}</h3>
-            <p className="eyebrow mt-3 text-ink/45">
-              {recap.byline ? `By ${recap.byline} · ` : ''}
-              {formatDate(recap.published)}
-            </p>
-            <div
-              className="prose mt-6 max-w-none text-ink/75 [&_a]:text-crimson [&_p]:mb-4"
-              dangerouslySetInnerHTML={{ __html: recap.body }}
-            />
-          </section>
-        )
       )}
 
       {boxscore?.length > 0 ? (

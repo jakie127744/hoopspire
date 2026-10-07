@@ -53,7 +53,6 @@ export default function Footer() {
               ['/scores', 'Live Scores'],
               ['/stats', 'Statistics'],
               ['/teams', 'Teams & Rosters'],
-              ['/wire', 'On the Wire'],
               ['/about', 'The Ledger'],
               ['/contact', 'Contact'],
               ['/privacy', 'Privacy'],

@@ -122,6 +122,9 @@ export default function Player() {
     description: p?.name
       ? `${p.name}${p.team?.name ? `, ${p.team.name}` : ''} — season averages, game log and career numbers${league ? ` in the ${league.name}` : ''}.`
       : undefined,
+    // Generated from upstream feeds, one per player — kept out of search so
+    // the site is judged on its writing. Same reasoning as Game.jsx.
+    noindex: true,
   })
 
   if (loading) {

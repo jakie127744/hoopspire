@@ -42,6 +42,9 @@ export default function Team() {
     description: roster?.team?.name
       ? `${roster.team.name} roster, results and season numbers${league ? ` in the ${league.name}` : ''} — every player, with links to their file.`
       : undefined,
+    // Generated from upstream feeds, one per team — kept out of search so
+    // the site is judged on its writing. Same reasoning as Game.jsx.
+    noindex: true,
   })
 
   const teamGames = (games || [])

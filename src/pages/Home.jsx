@@ -201,8 +201,8 @@ export default function Home() {
 
   // Our own writing leads the page's content. It is bundled at build time, so
   // there is no loading state to design around and nothing that can fail to
-  // arrive. Nothing on this page comes from other outlets any more — that
-  // content moved to its own page, /wire, with no ad anywhere near it.
+  // arrive. Nothing on this page comes from other outlets — the site no
+  // longer carries anyone else's headlines anywhere.
   const originals = getOriginals()
 
   // What the front page counts as current: anything live, results from the
