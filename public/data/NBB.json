@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-07T13:03:21.491Z",
+  "fetchedAt": "2026-10-08T13:10:29.521Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,12 +15913,51 @@
   ],
   "news": [
     {
+      "id": "NBB-calouro-de-2-21m-brilha-com-100-de-aprov",
+      "league": "NBB",
+      "title": "2.21 m rookie shines with 100% performance in NBA preseason match",
+      "originalTitle": "Calouro de 2,21m brilha com 100% de aproveitamento em partida na pré-temporada da NBA",
+      "translatedFrom": "pt",
+      "description": "Random rollercoaster: LeBron's NBA coach watches game at Aflitos Oklahoma City Thunder freshman Aday Mara has been drawing attention in the team's NBA preseason. At the age of 21, the 2.21 -meter Spaniard scored 22 points and scored 100% in the loss to the Milwaukee Bucks, 128 to 126 in the last",
+      "published": "2026-10-08T12:22:19.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/eS0-AhXYjepxLGt-h2MX5LKG_bU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/T/K/khNcgeTBiyyTZZ8fSXAA/2026-10-08t011315z-329841582-mt1usatoday30024099-rtrmadp-3-nba-preseason-milwaukee-bucks-at-oklahoma-city-thunder.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/08/calouro-de-221m-brilha-com-100percent-de-aproveitamento-em-partida-na-pre-temporada-da-nba.ghtml"
+    },
+    {
+      "id": "NBB-tiago-splitter-vence-primeira-partida-co",
+      "league": "NBB",
+      "title": "Tiago Splitter wins first match as Bulls head coach in U-turn against Suns",
+      "originalTitle": "Tiago Splitter vence primeira partida como treinador dos Bulls em virada contra os Suns",
+      "translatedFrom": "pt",
+      "description": "Tiago Splitter talks about the opportunity to develop talent as a Bulls coach Tiago Splitter won the first game as a Chicago Bulls coach. Last Wednesday, for the NBA pre-season, the Brazilian team defeated the Phoenix Suns by 124 to 117. First of Bras",
+      "published": "2026-10-08T11:11:54.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/_TmImrLEz34oi6lNyXZPyOf1nSA=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/s/H/Jf9eKHR3eSUfW2rw5yHA/2026-10-08t012746z-1017305656-mt1usatoday30024171-rtrmadp-3-nba-preseason-phoenix-suns-at-chicago-bulls.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/08/tiago-splitter-vence-primeira-partida-como-treinador-dos-bulls-em-virada-contra-os-suns.ghtml"
+    },
+    {
+      "id": "NBB-com-lei-do-ex-de-georginho-mogi-bate-fra",
+      "league": "NBB",
+      "title": "With Georginho's \"ex-law\", Mogi beats Franca in Pedrocão and opens 1-0 in the Paulista final",
+      "originalTitle": "Com \"lei do ex\" de Georginho, Mogi bate Franca no Pedrocão e abre 1 a 0 na final do Paulista",
+      "translatedFrom": "pt",
+      "description": "Franca meets Georginho again in the decision of the Campeonato Paulista Mogi beat Sesi Franca 86-80, on Wednesday night, at Pedrocão, and came out ahead in the final of the Campeonato Paulista. In addition to opening 1-0 in the decisive series, the Mogiana team imposed Franca's first defeat in their dominance",
+      "published": "2026-10-08T01:08:42.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/tM4FLYar0KO348NFUFqK1QeeG4Y=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/f/59sB5qRX27BZxssCnhew/55575958623-d9e0cadd24-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/07/com-lei-do-ex-de-georginho-mogi-bate-franca-no-pedrocao-e-abre-1-a-0-na-final-do-paulista.ghtml"
+    },
+    {
       "id": "NBB-franca-x-mogi-no-jogo-1-da-final-do-paul",
       "league": "NBB",
       "title": "Franca vs. Mogi in game 1 of the Paulista final: where to watch live and time",
       "originalTitle": "Franca x Mogi no jogo 1 da final do Paulista: onde assistir ao vivo e horário",
       "translatedFrom": "pt",
-      "description": "Franca wins Paulistano and advances to the final of the São Paulo Basketball Championship Sesi Franca Basquete and Mogi Basquete start on Wednesday the decision of the São Paulo 2026 Championship. The first match of the best-of-five series takes place at Pedrocão, in Franca (SP). The confrontation is a reissue of the decision",
+      "description": "Franca wins Paulistano and advances to the final of the Campeonato Paulista de Basquete Sesi Franca Basquete and Mogi Basquete start on Wednesday the decision of the Campeonato Paulista 2026. The first match of the best-of-five series takes place at Pedrocão, in Franca (SP), . The confrontation is a reissue of the deci",
       "published": "2026-10-07T07:00:00.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -16067,45 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/PA-V9l2I5Kbm5v4JA_L-nYWBRc4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/A/l/Qkqpp1RHCjv1pADNBt9Q/brasil.jpg",
       "url": "https://ge.globo.com/basquete/noticia/2026/09/01/brasil-perde-para-o-mexico-nas-eliminatorias-da-copa-do-mundo-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-brasil-homenageia-oscar-schmidt-em-duelo",
-      "league": "NBB",
-      "title": "Brazil honors Oscar Schmidt in a duel against the Dominican Republic for the Qualifiers",
-      "originalTitle": "Brasil homenageia Oscar Schmidt em duelo contra a República Dominicana pelas Eliminatórias",
-      "translatedFrom": "pt",
-      "description": "The Brazilian National Team experienced an exciting night on Thursday (27), at the Nilson Nelson Arena, in Brasilia. In addition to the clash against the Dominican Republic in the FIBA 2027 World Cup Qualifiers, the match was marked by a tribute to Oscar Schmidt, one of the greatest names in the history of",
-      "published": "2026-08-27T23:03:20.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/Y61OYOUrwebTH3uZbKkbJNidFk0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/4/z/0b2CjLSryOZbFATKXvrg/oscar.png",
-      "url": "https://ge.globo.com/basquete/noticia/2026/08/27/brasil-homenageia-oscar-schmidt-em-duelo-contra-a-republica-dominicana-pelas-eliminatorias.ghtml"
-    },
-    {
-      "id": "NBB-pato-basquete-anuncia-jogador-franc-s-co",
-      "league": "NBB",
-      "title": "Duck Basketball announces French player as reinforcement for NBB",
-      "originalTitle": "Pato Basquete anuncia jogador francês como reforço para o NBB",
-      "translatedFrom": "pt",
-      "description": "Gui Santos, from the Warriors, sends a message to Pato Basquete after renewal with coach Pato Basquete has a new wingman/point guard for the 2026/27 season. Frenchman Franck Kamgain, 27, arrives in Pato Branco to reinforce the team in the NBB and Campeonato Paranaense. ✅ Click here and follow the can",
-      "published": "2026-08-25T15:38:30.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/ummSLgRsEjoxGMp1vIhWmbz4sm4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/W/V/WEprwzSVK8F47szlLHsw/whatsapp-image-2026-08-25-at-11.24.26.jpeg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/08/25/pato-basquete-anuncia-jogador-frances-como-reforco-para-o-nbb.ghtml"
-    },
-    {
-      "id": "NBB-ex-jogador-da-sele-o-exalta-base-mas-ale",
-      "league": "NBB",
-      "title": "Former national team player exalts base, but warns about tournaments: “I don't see Brazil at the same level”",
-      "originalTitle": "Ex-jogador da seleção exalta base, mas alerta sobre torneios: “Não vejo o Brasil no mesmo nível”",
-      "translatedFrom": "pt",
-      "description": "Retired as a player since the end of the 2024/2025 season of Novo Basquete Brasil (NBB), Marquinhos has dedicated the new phase of his career to training athletes. He is part of the team responsible for the selection of the NBA Basketball School Next Gen Clinic, which had the last real qualifying stage",
-      "published": "2026-08-23T08:00:19.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/INvAF8tBxpEwZjdtnQaYS_8ff5M=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/P/p/pUfCaNRNqEQnbmFBzj4w/dsc-2495.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/08/23/ex-jogador-da-selecao-exalta-base-mas-alerta-sobre-torneios-nao-vejo-o-brasil-no-mesmo-nivel.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-07T13:03:21.491Z",
-    "news": "2026-10-07T13:03:21.491Z"
+    "games": "2026-10-08T13:10:29.521Z",
+    "news": "2026-10-08T13:10:29.521Z"
   },
   "carriedOver": [
     "teams",

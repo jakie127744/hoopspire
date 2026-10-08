@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-07T13:02:38.021Z",
+  "fetchedAt": "2026-10-08T13:09:43.720Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
@@ -3766,6 +3765,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-07-nlex-rw-macau-bb",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "nlex-road-warriors",
+        "name": "NLEX Road Warriors",
+        "abbr": "NLE",
+        "logo": null,
+        "score": 138,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "macau-bb",
+        "name": "Macau BB",
+        "abbr": "MAC",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-07-terrafi--tnt-trop-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-07T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "terrafirma-dyip",
+        "name": "Terrafirma Dyip",
+        "abbr": "TER",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tnt-tropang-5g",
+        "name": "TNT Tropang 5G",
+        "abbr": "TNT",
+        "logo": null,
+        "score": 116,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-08-14-fiberxers-nlex-rw",
       "league": "PBA",
@@ -14428,6 +14485,71 @@
   ],
   "news": [
     {
+      "id": "PBA-gilaspilipinasgirlsu18losetochinaby63poi",
+      "league": "PBA",
+      "title": "Gilas Pilipinas Girls U18 lose to China by 63 points, relegated to FIBA U18 Women's Asia Cup classification round",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Gilas Pilipinas Girls U18 absorbed a 63-point loss to China, 112-49, in the FIBA U18 Women\"s Asia Cup qualification to the semifinals on Thursday in Malaysia.",
+      "published": "2026-10-08T12:59:34.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005276/gilas-pilipinas-girls-u18-lose-to-china-by-63-points-relegated-to-classification-round/story/"
+    },
+    {
+      "id": "PBA-conesaysjustinbrownleehasheartissuesthat",
+      "league": "PBA",
+      "title": "Cone says Justin Brownlee has 'heart issues' that forced him to miss Asian Games, PBA",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas and Barangay Ginebra head coach Tim Cone revealed on Thursday that Justin Brownlee has health concerns that have forced him to miss the Asian Games and the ongoing PBA Governors\" Cup.",
+      "published": "2026-10-08T08:52:37.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005239/cone-says-justin-brownlee-has-heart-issues-that-forced-him-to-miss-asian-games-pba/story/"
+    },
+    {
+      "id": "PBA-bloodpressureheartissuesputbrownleeoutof",
+      "league": "PBA",
+      "title": "Blood pressure, heart issues put Brownlee out of Gilas commission for Asian Games -- Cone",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Health concerns dashed Justin Brownlee out of the 2026 Asian Games, Gilas Pilipinas head coach Tim Cone said.",
+      "published": "2026-10-08T05:40:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/08/2561787/blood-pressure-heart-issues-put-brownlee-out-gilas-commission-asian-games-cone"
+    },
+    {
+      "id": "PBA-calvinoftanaprouddespitegilasnightmareas",
+      "league": "PBA",
+      "title": "Calvin Oftana. proud despite Gilas’ nightmare Asiad campaign",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Calvin Oftana could have become the first Philippine team player since 1962 to snag back-to-back Asian Games men’s basketball championships. The TNT star winger could have joined all-time greats Caloy Loyzaga and Kurt Bachman in truly elite company, had he and Gilas Pilipinas kep",
+      "published": "2026-10-07T14:58:28.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-TNT-def-Terrafirma-Calvin-Oftana-1-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/calvin-oftana-proud-despite-gilas-nightmare-asiad-campaign/385974"
+    },
+    {
+      "id": "PBA-pbacalvinoftanamakesconferencedebuttohel",
+      "league": "PBA",
+      "title": "PBA: Calvin Oftana makes conference debut to help TNT thrash Terrafirma",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Calvin Oftana suited up for TNT in the PBA Season 50 Governors' Cup for the first time, starring in a 116-92 takedown of Terrafirma on Wednesday at the Ninoy Aquino Stadium.",
+      "published": "2026-10-07T13:39:11.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005148/pba-calvin-oftana-makes-conference-debut-to-help-tnt-thrash-terrafirma/story/"
+    },
+    {
       "id": "PBA-nlexbooksqfspotafterroutingdepletedmacau",
       "league": "PBA",
       "title": "NLEX books QF spot after routing depleted Macau in PBA's most lopsided game",
@@ -14439,32 +14561,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005135/nlex-books-qf-spot-after-routing-depleted-macau-in-pba-s-most-lopsided-game/story/"
-    },
-    {
-      "id": "PBA-nlexsetspbarecordwith60pointroutofmacau",
-      "league": "PBA",
-      "title": "NLEX sets PBA record with 60-point rout of Macau",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX reset the record for the biggest winning margin in the PBA following a 138-78 decimation of Macau at the Ninoy Aquino Stadium, Wednesday. The Road Warriors leapt to a 30-8 lead to start the match, and that was all they needed to set the tone for the massive 60-point victory ",
-      "published": "2026-10-07T11:35:40.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/nlex-sets-pba-record-with-60-point-rout-of-macau/385918"
-    },
-    {
-      "id": "PBA-roadwarriorsturngiantpandasintoroadkill",
-      "league": "PBA",
-      "title": "Road Warriors turn Giant Pandas into road kill",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Complete annihilation by the NLEX Road Warriors.",
-      "published": "2026-10-07T11:22:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/07/2561582/road-warriors-turn-giant-pandas-road-kill"
     },
     {
       "id": "PBA-fiveteamstapnewimportsaspbagovernorscupr",
@@ -14961,8 +15057,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-07T13:02:38.021Z",
-    "news": "2026-10-07T13:02:38.021Z"
+    "games": "2026-10-08T13:09:43.720Z",
+    "news": "2026-10-08T13:09:43.720Z"
   },
   "carriedOver": [
     "teams",
