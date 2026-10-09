@@ -2,7 +2,7 @@
 title: "Ryukyu beat Alvark Tokyo 85-74 to split the B.League Premier opening series"
 dek: "A day after losing 84-73 while making three of 12 free throws, the Golden Kings hit 14 threes to Alvark's four, and David Nwaba scored 51 points across the two games."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-09-25"
 tag: "Result"
 ---

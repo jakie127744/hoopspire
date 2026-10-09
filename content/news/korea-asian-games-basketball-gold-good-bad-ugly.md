@@ -2,7 +2,7 @@
 title: "Korea wins Asian Games basketball gold: the good, the bad and the ugly"
 dek: "Korea beat host Japan 67-57 in Nagoya to finish 6-0, while the Philippines had their worst finish and China missed the podium."
 league: FIBA
-author: Marisol Reyes
+author: Amara Diallo
 published: 2026-09-20
 tag: Feature
 ---

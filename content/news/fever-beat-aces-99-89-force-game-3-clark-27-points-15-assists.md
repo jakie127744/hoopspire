@@ -2,7 +2,7 @@
 title: "Fever beat Aces 99-89 to force Game 3 in Las Vegas"
 dek: "Caitlin Clark had 27 points and 15 assists as Indiana outscored Las Vegas 30-17 in the second quarter and led from late in the first half. The series is tied 1-1."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-29"
 tag: "Result"
 game: "401918018"

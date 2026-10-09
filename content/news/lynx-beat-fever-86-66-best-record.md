@@ -2,7 +2,7 @@
 title: "Lynx beat Fever 86-66 to finish with the WNBA's best record"
 dek: "Minnesota never trailed, led by 36, and Indiana's starters shot 9 of 37. Caitlin Clark went 1 of 12 in 18 minutes, and Indiana, 28-16, opens the playoffs at Las Vegas on Sunday."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-25"
 tag: "Result"
 game: "401857217"

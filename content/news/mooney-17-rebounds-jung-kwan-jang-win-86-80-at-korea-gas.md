@@ -2,7 +2,7 @@
 title: "John Mooney grabs 17 rebounds as Jung Kwan Jang win 86-80 at Korea Gas and stand alone at 2-0"
 dek: "Jung Kwan Jang scored 15 straight points in the first quarter and never trailed again. Mooney had 23 points and six assists. SJ Belangel scored 23 for Korea Gas, who made 13 threes and lost the boards 40-28."
 league: "KBL"
-author: "Marisol Reyes"
+author: Han Ji-woo
 published: "2026-10-05"
 tag: "Result"
 ---

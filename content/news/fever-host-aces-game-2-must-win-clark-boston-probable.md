@@ -2,7 +2,7 @@
 title: "Fever host Aces in Game 2 needing a win to stay alive"
 dek: "Indiana trails the best-of-three first-round series 1-0 after a 102-85 loss in Las Vegas. The Fever list Caitlin Clark and Aliyah Boston among their probable starters."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-29"
 tag: "Preview"
 ---

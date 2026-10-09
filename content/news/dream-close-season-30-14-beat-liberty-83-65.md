@@ -2,7 +2,7 @@
 title: "Dream close the regular season 30-14, beat Liberty 83-65"
 dek: "Allisha Gray scored 24, and Atlanta outscored New York 23-7 in the second quarter to turn a one-point game into a 15-point halftime lead."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-24"
 tag: "Result"
 game: "401857213"

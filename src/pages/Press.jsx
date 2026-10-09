@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { getDesk } from '../lib/articles.js'
-import { deskStaff } from '../lib/staff.js'
 import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
@@ -16,10 +15,9 @@ import { useMeta } from '../lib/meta.js'
  * that only ever publishes analysis has nothing to say on the day a league
  * actually does something.
  *
- * The masthead is printed on the page rather than buried, because a news desk
- * asks to be trusted in a way an analysis desk does not, and a reader deserves
- * to know on sight who covers which corner of thirteen leagues — and on what
- * terms. See /about for what a byline on this site means.
+ * Bylines and their method notes appear on each article, not here: a grid of
+ * every writer on the desk page pushed the stories below the fold (owner,
+ * 2026-10-08). See /about for what a byline on this site means.
  */
 export default function Press() {
   useMeta({
@@ -29,7 +27,6 @@ export default function Press() {
   })
   const [league, setLeague] = useState('ALL')
   const all = getDesk('news')
-  const staff = deskStaff('news')
 
   const written = LEAGUES.filter((l) => all.some((a) => a.league === l.key))
   const shown = league === 'ALL' ? all : all.filter((a) => a.league === league)
@@ -44,23 +41,6 @@ export default function Press() {
         {LEAGUE_COUNT_WORD.toLowerCase()} leagues in the ledger — not only the one everybody
         covers, and not a week later.
       </p>
-
-      {staff.length > 0 && (
-        <div className="mt-10 grid gap-px border border-parchment bg-parchment sm:grid-cols-2 lg:grid-cols-4">
-          {staff.map((s) => (
-            <div key={s.id} className="bg-paper p-5">
-              <p className="font-display text-xl">{s.byline}</p>
-              <Eyebrow className="mt-1 block text-ink/40">
-                {s.role.replace('Full Court Press — ', '')}
-              </Eyebrow>
-              <p className="mt-3 text-sm leading-relaxed text-ink/65">{s.beat}</p>
-              <p className="mt-3 border-t border-parchment pt-3 text-xs leading-relaxed text-ink/45">
-                {s.method}
-              </p>
-            </div>
-          ))}
-        </div>
-      )}
 
       {written.length > 1 && (
         <div className="no-scrollbar mt-8 flex gap-2 overflow-x-auto border-b border-parchment pb-4">

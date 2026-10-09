@@ -2,7 +2,7 @@
 title: "B.League Sunday: Mikawa win by 44, Kyoto hold Nagasaki to two first-quarter points, Shiga and Utsunomiya hit back"
 dek: "Every other B.League Premier game from Sunday, October 4, in brief. Mikawa, Kyoto, Nagoya, Hokkaido, the SunRockers, San-en and Gunma finished weekend sweeps, while Shiga, Utsunomiya and Shinshu split their series."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-10-04"
 tag: "Result"
 ---

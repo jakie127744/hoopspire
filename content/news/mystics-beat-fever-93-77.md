@@ -2,7 +2,7 @@
 title: "Mystics beat Fever 93-77 to close within a game of fifth place"
 dek: "Washington led by 26 in the second quarter and Indiana never led, leaving the Fever with two games left, both against the league-best Lynx."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-20"
 tag: "Result"
 game: "401857203"

@@ -2,7 +2,7 @@
 title: "Kai Sotto dunks on his debut as Altiri Chiba climb out of a 14-point hole to beat Kawasaki 99-90"
 dek: "Chiba won the fourth quarter 30-17. Kotetsu Kurokawa scored 30, D.J. Newbill had 18 points and eight assists, and the 7-foot-3 Sotto finished with 13 points and 11 rebounds in 25 minutes."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-10-03"
 tag: "Result"
 ---

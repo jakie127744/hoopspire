@@ -2,7 +2,7 @@
 title: "Aces beat Fever 102-85 in Game 1 as A'ja Wilson scores 38"
 dek: "Wilson made 15 of 19 shots. Caitlin Clark had 15 points and 10 assists for Indiana, which must win at home on Tuesday to force a third game."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-28"
 tag: "Result"
 game: "401918015"

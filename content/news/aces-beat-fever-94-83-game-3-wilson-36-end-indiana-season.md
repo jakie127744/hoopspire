@@ -2,7 +2,7 @@
 title: "Aces beat Fever 94-83 in Game 3 behind Wilson's 36 and end Indiana's season"
 dek: "A'ja Wilson scored 36 and Las Vegas made 28 of 35 free throws, 14 of 15 in the fourth quarter, to take the series 2-1 and reach a semifinal that opens Sunday."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-10-02"
 tag: "Result"
 game: "401918022"

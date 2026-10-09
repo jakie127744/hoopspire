@@ -2,7 +2,7 @@
 title: "Kai Sotto grabs 14 rebounds but Kawasaki beat Altiri Chiba 82-74 to split the weekend series"
 dek: "Sotto scored 12 points on 6-of-9 shooting and took five offensive rebounds. Kawasaki led from the first quarter on, by as many as 16, and made 17 of 18 free throws to Chiba's three."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-10-04"
 tag: "Result"
 ---

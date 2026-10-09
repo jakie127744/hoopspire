@@ -2,7 +2,7 @@
 title: "Taipans score the first 11 of the fourth and beat Melbourne United 107-95 despite Cole Anthony's 40"
 dek: "Cairns trailed 79-67 late in the third quarter, then won the fourth 35-14. Jaylon Brown scored 14 of his 20 in the last 10 minutes after making one of nine shots before it."
 league: "NBL"
-author: "Marisol Reyes"
+author: Lachlan Pryor
 published: "2026-10-03"
 tag: "Result"
 game: "401875260"

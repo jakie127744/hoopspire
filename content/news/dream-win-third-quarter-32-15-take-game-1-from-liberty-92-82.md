@@ -2,7 +2,7 @@
 title: "Dream win the third quarter 32-15 and take Game 1 from the Liberty 92-82"
 dek: "Jordin Canada scored 25, 12 of them in the third, and DeWanna Bonner added 23 off the bench. Atlanta had 14 steals and outscored New York 18-0 on the fast break. Sabrina Ionescu scored 27 for the Liberty."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-10-04"
 tag: "Result"
 game: "401918295"

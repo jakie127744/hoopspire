@@ -2,7 +2,7 @@
 title: "Yokohama score 11 of the last 12 points to beat Utsunomiya 74-71 and split their opening series"
 dek: "Narito Namizato made the go-ahead jumper with 23 seconds left and two free throws to seal it, a day after the Brex won the first game 88-78."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-09-28"
 tag: "Result"
 ---

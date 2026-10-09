@@ -2,7 +2,7 @@
 title: "Dream beat Liberty 95-84, take control of the four seed"
 dek: "Atlanta outscored New York 32-24 in the third quarter and committed four turnovers all night to move to 29-14, pushing New York to 26-17 with one game left in the season series."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-22"
 tag: "Result"
 game: "401857206"

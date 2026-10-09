@@ -2,7 +2,7 @@
 title: "Eighth-seeded Liberty sweep top-seeded Lynx with 87-71 win in Game 2"
 dek: "New York never trailed or tied, led by as many as 19 and moves on to the semifinals, which start Sunday, Oct. 4. Jonquel Jones had 21 points and 13 rebounds."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-30"
 tag: "Result"
 game: "401918017"

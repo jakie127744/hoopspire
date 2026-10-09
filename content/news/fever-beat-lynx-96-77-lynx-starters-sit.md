@@ -2,7 +2,7 @@
 title: "Fever beat Lynx 96-77 as four Minnesota starters miss the second half"
 dek: "Caitlin Clark scored 27 with nine assists as Indiana led by 29 in the first half. Minnesota clinched the No. 1 seed later that night when Portland beat Golden State."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-23"
 tag: "Result"
 game: "401857209"

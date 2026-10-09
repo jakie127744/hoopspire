@@ -2,7 +2,7 @@
 title: "Valkyries out-rebound Aces 52-25 and take Game 1 of the semifinals 71-60"
 dek: "Gabby Williams scored 25 with 11 rebounds, and Golden State took 17 offensive rebounds to Las Vegas' two. A'ja Wilson scored 24 but the Aces shot 34% after sweeping the regular-season series 3-0."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-10-04"
 tag: "Result"
 game: "401918296"

@@ -2,7 +2,7 @@
 title: "Minnesota never trailed Connecticut, despite losing two of the four quarters"
 dek: "The Lynx built a 20-point second-quarter lead and never gave it back, even while Connecticut won the second and third quarters outright. Final: 101-89, and Minnesota stays a game up on Golden State for the league's top seed."
 league: WNBA
-author: Dana Whitfield
+author: Renee Castellano
 published: 2026-09-21
 tag: Result
 game: "401857201"

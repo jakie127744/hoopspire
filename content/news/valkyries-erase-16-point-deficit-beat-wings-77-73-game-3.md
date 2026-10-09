@@ -2,7 +2,7 @@
 title: "Valkyries erase a 16-point deficit, beat Wings 77-73 in Game 3 and move on to the Aces"
 dek: "Dallas led 53-37 in the third quarter after a 20-0 run. Golden State outscored the Wings 40-20 the rest of the way, and Gabby Williams scored eight of the Valkyries' last 10 points."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-10-03"
 tag: "Result"
 game: "401918294"

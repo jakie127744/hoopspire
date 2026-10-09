@@ -129,7 +129,7 @@ export function lintArticle(filename, raw, desk = 'margin') {
   }
 
   // Bylines must exist on the masthead, sit on this desk, and on the news
-  // desk cover the league (from 2026-10-07, when the per-league beats began).
+  // desk cover the league. Older pieces were re-bylined to their beat on 2026-10-08.
   if (data.author) {
     const writer = getStaff(data.author)
     if (!writer) {
@@ -137,7 +137,7 @@ export function lintArticle(filename, raw, desk = 'margin') {
     } else if (writer.desk !== desk && !(desk === 'news' && data.author === 'Hoopspire Staff')) {
       problems.push(`author \`${data.author}\` writes for the ${writer.desk} desk, not ${desk}`)
     } else if (
-      desk === 'news' && writer.leagues && data.league && (data.published || '') >= '2026-10-07' &&
+      desk === 'news' && writer.leagues && data.league &&
       !writer.leagues.includes(data.league)
     ) {
       problems.push(`author \`${data.author}\` does not cover ${data.league}; use ${beatWriters(data.league).map((s) => s.byline).join(' or ') || 'Hoopspire Staff'}`)

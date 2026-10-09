@@ -2,7 +2,7 @@
 title: "Fever open playoffs at Las Vegas with Clark probable and Harris out"
 dek: "Ty Harris broke her left fibula in the regular-season finale and will miss the rest of the season. Aliyah Boston is questionable for Game 1 of the best-of-three series."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-27"
 tag: "Preview"
 game: "401918015"

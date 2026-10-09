@@ -2,7 +2,7 @@
 title: "Archie Goodwin scores 25 as Changwon LG open the KBL season with a 103-68 rout of Busan KCC"
 dek: "LG outscored KCC 28-10 in the second quarter, led by as many as 36 and shot 55% from the field. Yang Hong-seok added 22, and Assem Marei had 14 points, 14 rebounds and eight assists."
 league: "KBL"
-author: "Marisol Reyes"
+author: Han Ji-woo
 published: "2026-10-03"
 tag: "Result"
 ---

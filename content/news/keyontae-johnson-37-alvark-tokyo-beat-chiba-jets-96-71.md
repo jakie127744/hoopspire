@@ -2,7 +2,7 @@
 title: "Keyontae Johnson scores 37 as Alvark Tokyo run away from the Chiba Jets 96-71"
 dek: "Johnson had 27 of Alvark's 47 points by halftime, part of a 13-0 run that turned a three-point deficit into a lead the visitors never gave back. D.J. Hogg then scored 10 in 83 seconds in the third quarter."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-10-04"
 tag: "Result"
 ---

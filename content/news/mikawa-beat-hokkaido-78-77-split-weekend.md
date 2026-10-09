@@ -2,7 +2,7 @@
 title: "SeaHorses Mikawa beat Levanga Hokkaido 78-77 to split the weekend"
 dek: "Marques Bolden's three with seven seconds left cut it to one, but Hokkaido never got another shot. A day earlier Keisei Tominaga scored 41 in a 106-97 Hokkaido win."
 league: "BLeague"
-author: "Marisol Reyes"
+author: Kenji Arakawa
 published: "2026-09-27"
 tag: "Result"
 ---

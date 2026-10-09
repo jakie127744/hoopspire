@@ -2,7 +2,7 @@
 title: "JackJumpers beat South East Melbourne 96-91 in NBL opener"
 dek: "Tasmania did not lead until 2:26 was left in the third quarter, then outscored the Phoenix 58-39 in the second half to come back from 14 points down, with David Johnson scoring 26."
 league: "NBL"
-author: "Marisol Reyes"
+author: Lachlan Pryor
 published: "2026-09-21"
 tag: "Result"
 game: "401875253"

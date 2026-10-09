@@ -2,7 +2,7 @@
 title: "Kerem Kanter scores 30 as Samsung win at KT 81-76 despite Paris Bass's 35"
 dek: "Kanter scored nine straight Samsung points early in the fourth quarter and finished with 13 rebounds. Bass scored 15 KT points in a row across the third and fourth, but KT never led after halftime."
 league: "KBL"
-author: "Marisol Reyes"
+author: Han Ji-woo
 published: "2026-10-04"
 tag: "Result"
 ---

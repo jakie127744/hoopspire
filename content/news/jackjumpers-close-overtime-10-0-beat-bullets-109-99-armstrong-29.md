@@ -2,7 +2,7 @@
 title: "JackJumpers close overtime on a 10-0 run and beat the Bullets 109-99 behind Taran Armstrong's 29"
 dek: "Brisbane erased an 11-point deficit with 11 straight points late in the fourth quarter. Josh Bannan tied it with 22 seconds left, and Tasmania scored the last 10 of overtime to move to 3-1 without four injured players."
 league: "NBL"
-author: "Marisol Reyes"
+author: Lachlan Pryor
 published: "2026-10-03"
 tag: "Result"
 game: "401875250"

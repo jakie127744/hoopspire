@@ -2,7 +2,7 @@
 title: "KBL opening weekend: DB come back on Sono 95-86, Sono beat Korea Gas 82-73"
 dek: "The rest of the KBL's first weekend in brief. Kang Sang-jae's back-to-back threes turned a Wonju comeback into a lead, and Johnny O'Bryant III scored 26 in both of Goyang Sono's games."
 league: "KBL"
-author: "Marisol Reyes"
+author: Han Ji-woo
 published: "2026-10-04"
 tag: "Result"
 ---

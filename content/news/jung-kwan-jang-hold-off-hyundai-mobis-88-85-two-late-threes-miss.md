@@ -2,7 +2,7 @@
 title: "Jung Kwan Jang hold off Hyundai Mobis 88-85 as two late threes miss"
 dek: "Anyang led by 16 with 8:41 left. Ulsan scored 20 of the last 27 points and cut it to 87-85, then missed two threes in the final three seconds. John Mooney had 25 points and 10 rebounds, Gaige Prim 33 for Mobis."
 league: "KBL"
-author: "Marisol Reyes"
+author: Han Ji-woo
 published: "2026-10-04"
 tag: "Result"
 ---

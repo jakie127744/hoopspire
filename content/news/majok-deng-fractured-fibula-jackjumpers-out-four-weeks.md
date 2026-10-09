@@ -2,7 +2,7 @@
 title: "JackJumpers forward Majok Deng out at least four weeks with fractured fibula"
 dek: "Deng played on after the contact in the season opener and scored a tying layup before leaving the game. The club aims for a return in four to six weeks."
 league: "NBL"
-author: "Marisol Reyes"
+author: Lachlan Pryor
 published: "2026-09-29"
 tag: "Injury"
 ---

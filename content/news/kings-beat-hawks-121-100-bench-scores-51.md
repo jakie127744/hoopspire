@@ -2,7 +2,7 @@
 title: "Kings beat Hawks 121-100 as Sydney's bench scores 51"
 dek: "Makuach Maluach made all six of his shots off the bench. Sydney is 2-0 and hosts unbeaten Brisbane on Wednesday, while Illawarra falls to 0-3."
 league: "NBL"
-author: "Marisol Reyes"
+author: Lachlan Pryor
 published: "2026-09-28"
 tag: "Result"
 game: "401875277"

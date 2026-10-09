@@ -2,7 +2,7 @@
 title: "Soles lead the LNBP by 2.5 games, and Astros are the only team playing them close"
 dek: "Mexicali is 17-4 with the league's best scoring margin by 73 points — except against Astros, who split a three-game stretch with Soles this month."
 league: LNBP
-author: Dana Whitfield
+author: Inés Garduño
 published: 2026-09-21
 tag: Report
 ---

@@ -2,7 +2,7 @@
 title: "Ogwumike reaches 8,000 career points as Sparks beat Fire 105-84"
 dek: "The 2016 MVP, who will retire after this season, became the fourth player in WNBA history to reach the mark, with 20 points and 12 rebounds against Portland."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-09-21"
 tag: "Result"
 game: "401857204"

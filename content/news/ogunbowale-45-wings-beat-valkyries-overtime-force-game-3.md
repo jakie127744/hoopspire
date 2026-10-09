@@ -2,7 +2,7 @@
 title: "Ogunbowale scores a playoff-record 45 as Wings beat Valkyries in overtime to force Game 3"
 dek: "Dallas lost Game 1 by 24. In Game 2, Arike Ogunbowale made 16 of 18 free throws, hit a tying three with 4.1 seconds left, and added 11 more in overtime to even the series 1-1."
 league: "WNBA"
-author: "Dana Whitfield"
+author: Renee Castellano
 published: "2026-10-01"
 tag: "Result"
 game: "401918020"
