@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-08T13:10:29.521Z",
+  "fetchedAt": "2026-10-09T12:57:28.254Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-georginho-desabafa-ap-s-vaias-da-torcida",
+      "league": "NBB",
+      "title": "Georginho vents after boos from the fans in the reunion with Franca: \"Lack of maturity\"",
+      "originalTitle": "Georginho desabafa após vaias da torcida no reencontro com Franca: \"Falta de maturidade\"",
+      "translatedFrom": "pt",
+      "description": "Franca suffers with Georginho and loses to Mogi the 1st game of the final by 86 to 82 Multi-champion with the shirt of Sesi Franca, the point guard Georginho lived a night of contrasting feelings on his return to Pedrocão on Wednesday. Decisive, jersey 14 led Mogi to an 86-82 victory in the game",
+      "published": "2026-10-08T18:05:52.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/NHuTT2VuqvyNG3R4gZ6pEuUp29A=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/J/eOzuWOQ5e7wBr4tQOqfw/georginho-mogi-das-cruzes-1.webp",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/08/georginho-desabafa-apos-vaias-da-torcida-no-reencontro-com-franca-falta-de-maturidade.ghtml"
+    },
+    {
       "id": "NBB-calouro-de-2-21m-brilha-com-100-de-aprov",
       "league": "NBB",
       "title": "2.21 m rookie shines with 100% performance in NBA preseason match",
@@ -15944,7 +15957,7 @@
       "title": "With Georginho's \"ex-law\", Mogi beats Franca in Pedrocão and opens 1-0 in the Paulista final",
       "originalTitle": "Com \"lei do ex\" de Georginho, Mogi bate Franca no Pedrocão e abre 1 a 0 na final do Paulista",
       "translatedFrom": "pt",
-      "description": "Franca meets Georginho again in the decision of the Campeonato Paulista Mogi beat Sesi Franca 86-80, on Wednesday night, at Pedrocão, and came out ahead in the final of the Campeonato Paulista. In addition to opening 1-0 in the decisive series, the Mogiana team imposed Franca's first defeat in their dominance",
+      "description": "Franca meets Georginho again in the decision of the Campeonato Paulista Mogi beat Sesi Franca 86-82, on Wednesday night, at Pedrocão, and came out ahead in the final of the Campeonato Paulista. In addition to opening 1-0 in the decisive series, the Mogiana team imposed Franca's first defeat in their dominance",
       "published": "2026-10-08T01:08:42.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/jeDymxlLXDAzF74l5CrDDpX0Bcc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2023/b/P/dlZxZPT5CpZ6dVPVAI5g/52820406281-d86b4c35bf-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/01/com-tres-brasileiros-veja-grupos-da-champions-league-das-americas-de-basquete-202627.ghtml"
-    },
-    {
-      "id": "NBB-brasil-perde-para-o-m-xico-nas-eliminat-",
-      "league": "NBB",
-      "title": "Brazil loses to Mexico in basketball World Cup Qualifiers",
-      "originalTitle": "Brasil perde para o México nas Eliminatórias da Copa do Mundo de basquete",
-      "translatedFrom": "pt",
-      "description": "Carlos Massoni, o Mosquito dies - world basketball champion for Brazil Brazil lost to Mexico 79-74 on Monday in Zacatecas for the FIBA 2027 World Cup Qualifiers. The Brazilian team had a first half below, reacted after the break, but was unable to",
-      "published": "2026-09-01T08:13:58.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/PA-V9l2I5Kbm5v4JA_L-nYWBRc4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/A/l/Qkqpp1RHCjv1pADNBt9Q/brasil.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/09/01/brasil-perde-para-o-mexico-nas-eliminatorias-da-copa-do-mundo-de-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-08T13:10:29.521Z",
-    "news": "2026-10-08T13:10:29.521Z"
+    "games": "2026-10-09T12:57:28.254Z",
+    "news": "2026-10-09T12:57:28.254Z"
   },
   "carriedOver": [
     "teams",

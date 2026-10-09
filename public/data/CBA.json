@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-08T13:10:07.902Z",
+  "fetchedAt": "2026-10-09T12:57:09.390Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -20,7 +20,7 @@
     "CBA: bot-check page; skipped",
     "CBA 2026: RealGM returned a bot-check page; skipped",
     "CBA 2025: RealGM returned a bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -16521,17 +16521,30 @@
   ],
   "news": [
     {
-      "id": "CBA-hangzhoulaunchforprojectbleagueinjanuary",
+      "id": "CBA-nbachinagamesdrawfansfromnearandfarirvin",
       "league": "CBA",
-      "title": "Hangzhou launch for Project B league in January just part of busy Chinese sports year",
+      "title": "NBA China Games draw fans from near and far, Irving just one of the star attractions",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The newly founded basketball league Project B earlier this week announced the first stop of its inaugural global basketball grand prix: in Hangzhou in January next year. While the debut of the global basketball tour has seen a slight delay – from its intended start this November ",
-      "published": "2026-10-02T00:00:22.000Z",
+      "description": "Basketball fans draped in the red of Houston and blue of Dallas flooded into The Venetian Macau on Friday ahead of the first of this year’s NBA China Games. The exhibition between the Rockets and Mavericks forms the centrepiece of a five-day basketball festival that tipped off on",
+      "published": "2026-10-09T12:48:02.000Z",
       "byline": "South China Morning Post",
       "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/01/ef1d04d1-ac76-43f2-8564-b53f0e53baa0_48f9c3b3.jpg?itok=lovJb3eW&v=1790857501",
-      "url": "https://www.scmp.com/sport/china/article/3369472/hangzhou-launch-project-b-league-january-just-part-busy-chinese-sports-year?utm_source=rss_feed"
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/09/7b9ca723-fa6a-4ac2-93ee-c91751c2ac2b_8385cc1d.jpg?itok=rozu0FHK&v=1791550081",
+      "url": "https://www.scmp.com/sport/basketball/article/3370391/nba-china-games-draw-fans-near-and-far-irving-just-one-star-attractions?utm_source=rss_feed"
+    },
+    {
+      "id": "CBA-homebodiesportlandtippedtofacewelltravel",
+      "league": "CBA",
+      "title": "Homebodies Portland tipped to face well-travelled Pacers in 2027 NBA China Games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Chinese basketball fans wanting to catch a glimpse of Yang Hansen in a Portland Trail Blazers uniform might get their wish next year, with the centre’s side reportedly one of the two teams tipped to play in the 2027 NBA China Games in Macau. The Trail Blazers, who opened their pr",
+      "published": "2026-10-09T09:30:06.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/09/a0d4eed4-946d-4e49-8721-add8a244ed7d_7d6ca51d.jpg?itok=Fq8ND82G&v=1791536138",
+      "url": "https://www.scmp.com/sport/basketball/article/3370334/homebodies-portland-tipped-face-well-travelled-pacers-2027-nba-china-games?utm_source=rss_feed"
     }
   ],
   "leaders": {
@@ -17002,15 +17015,14 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-08T13:10:07.902Z",
-    "news": "2026-10-07T13:03:01.427Z"
+    "games": "2026-10-09T12:57:09.390Z",
+    "news": "2026-10-09T12:57:09.390Z"
   },
   "carriedOver": [
     "teams",
     "rosters",
     "playerStats",
     "leaders",
-    "standings",
-    "news"
+    "standings"
   ]
 }

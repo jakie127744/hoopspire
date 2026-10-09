@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-08T13:09:43.720Z",
+  "fetchedAt": "2026-10-09T12:56:48.020Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "news Inquirer Sports: https://sports.inquirer.net/feed — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14485,6 +14484,136 @@
   ],
   "news": [
     {
+      "id": "PBA-pbamagnoliasustainshotstreakinreturnedge",
+      "league": "PBA",
+      "title": "PBA: Magnolia sustains hot streak in return, edges Blackwater",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Magnolia extended its winning streak to four straight games in the resumption of its 2026 PBA Governors’ Cup campaign after holding off Blackwater, 107-101, on Friday at Ninoy Aquino Stadium. Jerom Lastimosa leaned on a strong first half on his way to 24 point",
+      "published": "2026-10-09T20:19:49.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-16.jpg",
+      "url": "https://sports.inquirer.net/700643/pba-magnolia-sustains-hot-streak-in-return-edges-blackwater"
+    },
+    {
+      "id": "PBA-gilasgirlsfibau18asiacuprunendswithsixth",
+      "league": "PBA",
+      "title": "Gilas Girls’ Fiba U18 Asia Cup run ends with sixth-place finish",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—Gilas Pilipinas Women’s Youth team finished in sixth place in the Fiba U18 Women’s Asia Cup 2026 and missed out on a spot in next year’s Fiba U19 Women’s Basketball World Cup. Gilas girls lost to Chinese Taipei, 86-55, on Friday in the fifth-place classificati",
+      "published": "2026-10-09T19:53:46.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/gilas-girls-vs-china-taipei.jpeg",
+      "url": "https://sports.inquirer.net/700623/gilas-girls-fiba-u18-asia-cup-run-ends-with-sixth-place-finish"
+    },
+    {
+      "id": "PBA-pbabuffeneruptsfor2020asmagnoliafendsoff",
+      "league": "PBA",
+      "title": "PBA: Buffen erupts for 20-20 as Magnolia fends off Blackwater for fourth straight win",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "KJ Buffen delivered a rare 20-20 showing to lead Magnolia past a hard-fighting Blackwater, 107-101, to notch their fourth straight win in the PBA Season 50 Governors’ Cup at the Ninoy Aquino Stadium on Friday evening. The athletic winger finished with 24 points and 20 rebounds, c",
+      "published": "2026-10-09T12:23:20.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/pba-buffen-erupts-for-20-20-as-magnolia-fends-off-blackwater-for-fourth-straight-win/386098"
+    },
+    {
+      "id": "PBA-hotshotsquellbossingrallyforfourthstraig",
+      "league": "PBA",
+      "title": "Hotshots quell Bossing rally for fourth straight win",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Magnolia Hotshots thwarted the furious comeback rally of the Blackwater Bossing, holding on, 107-101, to roll to their fourth consecutive victory in the PBA Governors’ Cup Friday at the Ninoy Aquino Stadium in Manila.",
+      "published": "2026-10-09T11:46:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/09/2562079/hotshots-quell-bossing-rally-fourth-straight-win"
+    },
+    {
+      "id": "PBA-conecallsformechanismtoreleasegilasplaye",
+      "league": "PBA",
+      "title": "Cone calls for mechanism to release Gilas players abroad to avoid another Asian Games setback",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas\" failure to defend its gold medal at the recent Asian Games was partly attributed to the absence of its core players, as the tournament did not coincide with the FIBA window.",
+      "published": "2026-10-09T10:34:38.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005377/cone-calls-for-mechanism-to-release-gilas-players-abroad-to-avoid-another-asian-games-setback/story/"
+    },
+    {
+      "id": "PBA-jordanmurphysetforginebradebutagainstrai",
+      "league": "PBA",
+      "title": "Jordan Murphy set for Ginebra debut against Rain or Shine",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Eyes will surely be on Jordan Murphy when Barangay Ginebra San Miguel figures in another rivalry affair with Rain or Shine as PBA Season 50 Governors’ Cup action continues later tonight at the Ninoy Aquino Stadium. Game time is set at 7:30 p.m., with fans and observers alike curi",
+      "published": "2026-10-09T07:41:47.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/jordan-murphy-set-for-ginebra-debut-against-rain-or-shine/386069"
+    },
+    {
+      "id": "PBA-timconesaysgilasplayeravailabilitywoeswi",
+      "league": "PBA",
+      "title": "Tim Cone says Gilas’ player availability woes will continue if not addressed",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Tim Cone said Gilas Pilipinas had hoped to bring its regular national team core to the Aichi-Nagoya Asian Games but was prevented from doing so after Japanese and South Korean clubs refused to release their Filipino players for the tournament. The national coach explained during ",
+      "published": "2026-10-09T05:25:01.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/Sports1305749.png",
+      "url": "https://sports.inquirer.net/700548/tim-cone-says-gilas-player-availability-woes-will-continue-if-not-addressed"
+    },
+    {
+      "id": "PBA-gilasgirlsfallbigtochinaturnfocustokey5t",
+      "league": "PBA",
+      "title": "Gilas girls fall big to China, turn focus to key 5th-place match",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Gilas Pilipinas Youth women’s team lost to China by 63 points, 112-49, on Thursday in the qualification for the semifinals of the Fiba U18 Women’s Asia Cup 2026 Division A in Seremban, Malaysia. But despite the loss, the Gilas girls still have a shot at bookin",
+      "published": "2026-10-08T22:28:30.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/dnngxh2qdvdtqec5tiyq.jpeg",
+      "url": "https://sports.inquirer.net/700538/gilas-girls-fall-big-to-china-turn-focus-to-key-5th-place-match"
+    },
+    {
+      "id": "PBA-gilasasiangamesstruggleshighlightplayera",
+      "league": "PBA",
+      "title": "Gilas’ Asian Games struggles highlight player availability issue anew",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines– Gilas Pilipinas’ campaign in the Asian Games again exposed a problem that has followed the national team through the years: the availability of Filipino players based abroad. Without the team’s mainstays and naturalized star Justin Brownlee, the Nationals wen",
+      "published": "2026-10-08T17:19:12.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/08/IMG_0252_FIBA-World-Cup-Asian-Qualifiers-4th-Window-Philippines-Jordan_Coach-Tim-Cone.jpg",
+      "url": "https://sports.inquirer.net/700497/gilas-asian-games-struggles-highlight-player-availability-issue-anew"
+    },
+    {
+      "id": "PBA-gilasjustinbrownleesidelinedbybloodpress",
+      "league": "PBA",
+      "title": "Gilas’ Justin Brownlee sidelined by blood pressure, heart concerns",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—Gilas Pilipinas star Justin Brownlee is dealing with health issues involving his heart that have kept him from playing for the national team and Ginebra in the PBA, coach Tim Cone revealed Thursday. In a Senate hearing evaluating Team Philippines’ campaign in ",
+      "published": "2026-10-08T15:05:20.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/06/IMG_0124_Gilas-Pilipinas-press-con-and-open-practice_Justin-Brownlee-scaled.jpg",
+      "url": "https://sports.inquirer.net/700464/justin-brownlee-sidelined-by-blood-pressure-heart-concerns"
+    },
+    {
       "id": "PBA-gilaspilipinasgirlsu18losetochinaby63poi",
       "league": "PBA",
       "title": "Gilas Pilipinas Girls U18 lose to China by 63 points, relegated to FIBA U18 Women's Asia Cup classification round",
@@ -14496,6 +14625,19 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005276/gilas-pilipinas-girls-u18-lose-to-china-by-63-points-relegated-to-classification-round/story/"
+    },
+    {
+      "id": "PBA-pbalegendspatrimonioduremdesfaceoffinkor",
+      "league": "PBA",
+      "title": "PBA legends Patrimonio, Duremdes face off in Koronadal hometown game",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "KORONADAL CITY, South Cotabato — Two Philippine Basketball Association (PBA) legends with roots in this city squared off for an exhibition game as part of the locality’s 26th city charter anniversary celebrations. But for Alvin “The Captain” Patrimonio, it was more than just anot",
+      "published": "2026-10-08T12:11:38.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PHOTO-ALVIN.jpg",
+      "url": "https://sports.inquirer.net/700456/pba-legends-patrimonio-duremdes-face-off-in-koronadal-hometown-game"
     },
     {
       "id": "PBA-conesaysjustinbrownleehasheartissuesthat",
@@ -14511,30 +14653,30 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005239/cone-says-justin-brownlee-has-heart-issues-that-forced-him-to-miss-asian-games-pba/story/"
     },
     {
-      "id": "PBA-bloodpressureheartissuesputbrownleeoutof",
+      "id": "PBA-nlexentersquarterfinalsbehind60pointbeat",
       "league": "PBA",
-      "title": "Blood pressure, heart issues put Brownlee out of Gilas commission for Asian Games -- Cone",
+      "title": "NLEX enters quarterfinals behind 60-point beating of Macau",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Health concerns dashed Justin Brownlee out of the 2026 Asian Games, Gilas Pilipinas head coach Tim Cone said.",
-      "published": "2026-10-08T05:40:00.000Z",
-      "byline": "PhilStar",
+      "description": "The Macau Giant Pandas were hardly competitive going into the long break in the PBA Governors’ Cup. With their top players signed by other clubs, they were even more terrible. And NLEX took advantage, cruising to a record-setting 138-78 rout of the league’s guest team on Wednesda",
+      "published": "2026-10-08T05:25:30.000Z",
+      "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/08/2561787/blood-pressure-heart-issues-put-brownlee-out-gilas-commission-asian-games-cone"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-15.jpg",
+      "url": "https://sports.inquirer.net/700406/nlex-enters-quarterfinals-behind-60-point-beating-of-macau"
     },
     {
-      "id": "PBA-calvinoftanaprouddespitegilasnightmareas",
+      "id": "PBA-calvinoftanatakesprideingilasfightashere",
       "league": "PBA",
-      "title": "Calvin Oftana. proud despite Gilas’ nightmare Asiad campaign",
+      "title": "Calvin Oftana takes pride in Gilas’ fight as he returns to TNT",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Calvin Oftana could have become the first Philippine team player since 1962 to snag back-to-back Asian Games men’s basketball championships. The TNT star winger could have joined all-time greats Caloy Loyzaga and Kurt Bachman in truly elite company, had he and Gilas Pilipinas kep",
-      "published": "2026-10-07T14:58:28.000Z",
-      "byline": "Tiebreaker Times",
+      "description": "MANILA, Philippines–Calvin Oftana returned to PBA duties in a big way on Wednesday, firing 31 points as TNT boosted its Governors’ Cup quarterfinals bid with a 116-92 rout of Terrafirma. His ninth career 30-point game enabled Oftana to pick up where he left off from the Aichi-Nag",
+      "published": "2026-10-07T23:31:25.000Z",
+      "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-TNT-def-Terrafirma-Calvin-Oftana-1-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/calvin-oftana-proud-despite-gilas-nightmare-asiad-campaign/385974"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-13.jpg",
+      "url": "https://sports.inquirer.net/700426/calvin-oftana-takes-pride-in-gilas-fight-as-he-returns-to-tnt"
     },
     {
       "id": "PBA-pbacalvinoftanamakesconferencedebuttohel",
@@ -14548,45 +14690,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005148/pba-calvin-oftana-makes-conference-debut-to-help-tnt-thrash-terrafirma/story/"
-    },
-    {
-      "id": "PBA-nlexbooksqfspotafterroutingdepletedmacau",
-      "league": "PBA",
-      "title": "NLEX books QF spot after routing depleted Macau in PBA's most lopsided game",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX punched its PBA Season 50 Governors' Cup quartefinal ticket in a record-breaking fashion after a 138-78 victory---the biggest win margin in league history---against a depleted Macau on Wednesday at the Ninoy Aquino Stadium.",
-      "published": "2026-10-07T11:45:39.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005135/nlex-books-qf-spot-after-routing-depleted-macau-in-pba-s-most-lopsided-game/story/"
-    },
-    {
-      "id": "PBA-fiveteamstapnewimportsaspbagovernorscupr",
-      "league": "PBA",
-      "title": "Five teams tap new imports as PBA Governors' Cup resumes after break",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Top seed NLEX alongside four other teams will parade new imports when the PBA Season 50 Governors' Cup resumes on Wednesday after a lengthy break.",
-      "published": "2026-10-07T07:04:45.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005070/five-teams-tap-new-imports-as-pba-governors-cup-resumes-after-break/story/"
-    },
-    {
-      "id": "PBA-gilasgirlsescapenewzealandforfirstwininf",
-      "league": "PBA",
-      "title": "Gilas Girls escape New Zealand for first win in FIBA U18 Asia Cup Division A",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas Girls secured their maiden win in the 2026 FIBA U18 Asia Cup Division A after a thrilling 69-64 win over New Zealand on Tuesday at the Karisma Arena in Malaysia.",
-      "published": "2026-10-06T08:36:37.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1004946/gilas-girls-escape-new-zealand-for-first-win-in-fiba-u18-asia-cup-division-a/story/"
     }
   ],
   "leaders": {
@@ -15057,8 +15160,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-08T13:09:43.720Z",
-    "news": "2026-10-08T13:09:43.720Z"
+    "games": "2026-10-09T12:56:48.020Z",
+    "news": "2026-10-09T12:56:48.020Z"
   },
   "carriedOver": [
     "teams",
