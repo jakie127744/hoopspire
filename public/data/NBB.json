@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-10T12:16:18.265Z",
+  "fetchedAt": "2026-10-11T12:29:21.074Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,45 @@
   ],
   "news": [
     {
+      "id": "NBB-helinho-cita-processo-de-reformula-o-e-p",
+      "league": "NBB",
+      "title": "Helinho cites reformulation process and loss of defensive control in new defeat to Mogi",
+      "originalTitle": "Helinho cita processo de reformulação e perda de controle defensivo em nova derrota para Mogi",
+      "translatedFrom": "pt",
+      "description": "Georginho shines and Franca loses to Mogi at Pedrocão Coach Helinho Garcia recognized the drop in performance of Sesi Franca in the 92-60 defeat to Mogi, played on Saturday night, at Hugo Ramos gymnasium, in game 2 of the São Paulo Basketball Championship final. The negative result by 3",
+      "published": "2026-10-11T11:25:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/EoIQZZFwULOaeSnKXWQeVtow-hw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/6/d/03h4hKSTCv3mLQBSWI9w/55581772615-dadd7e8dbe-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/11/helinho-cita-processo-de-reformulacao-e-perda-de-controle-defensivo-em-nova-derrota-para-mogi.ghtml"
+    },
+    {
+      "id": "NBB-flamengo-vence-bras-lia-e-conquista-o-bi",
+      "league": "NBB",
+      "title": "Flamengo wins Brasilia and wins the two-time championship of the NBB Opening Tournament",
+      "originalTitle": "Flamengo vence Brasília e conquista o bicampeonato do Torneio Abertura do NBB",
+      "translatedFrom": "pt",
+      "description": "Flamengo won, on Saturday, the double championship of the Opening Tournament of the NBB (Novo Basquete Brasil). The title was sealed with a 78-73 victory over Brasilia at the Dona Salomé Gymnasium in Belo Horizonte. Created in 2024, the Opening Tournament serves as preparation for the NBB season. The",
+      "published": "2026-10-11T01:49:11.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/SWCtJbJlKodYJD2zr4_pBVo8YMs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/f/l/OT8MYdTXuOuxedT8qfVg/flamengo-campeao-torneio-abertura-nbb.jpg",
+      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/10/flamengo-vence-brasilia-e-conquista-o-bicampeonato-do-torneio-abertura-do-nbb.ghtml"
+    },
+    {
+      "id": "NBB-mogi-domina-o-franca-abre-2-a-0-e-fica-a",
+      "league": "NBB",
+      "title": "Mogi dominates Franca, opens 2-0 and is one victory away from the São Paulo basketball title",
+      "originalTitle": "Mogi domina o Franca, abre 2 a 0 e fica a uma vitória do título paulista de basquete",
+      "translatedFrom": "pt",
+      "description": "Mogi Basquete took an important step towards the São Paulo Championship title. On Saturday night (10), the Mogiana team beat Franca 92 to 60, at the Hugo Ramos Gymnasium, and opened 2-0 ahead in the best-of-five series of the grand final. Mogi Basketball receives Franca for the second game of the final d",
+      "published": "2026-10-11T00:02:12.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/qOBFEizfT7S6gg2ed-0gFnUqB3U=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/C/hQbyisSuOMlkRFMt5UkA/55581362171-12856a1e23-h.jpg",
+      "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/10/mogi-domina-o-franca-abre-2-a-0-e-fica-a-uma-vitoria-do-titulo-paulista-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-em-ascens-o-nos-playoffs-reynan-assume-p",
       "league": "NBB",
       "title": "On the rise in the playoffs, Reynan takes the lead in Franca and focuses on the reaction in Mogi",
@@ -16067,45 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/QLxSirWloFzKLe16Gr1aWlUJEok=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/W/4/QGBdjaQmArXs1TgB08TA/737598-botafogo-x-flamengo-carioca-basquete-ginasio-oscar-zelaya-23-09-2026-foto-julliana-nascimento-crf-5.jpg",
       "url": "https://ge.globo.com/basquete/noticia/2026/09/23/flamengo-vence-botafogo-e-garante-vaga-na-final-do-carioca-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-lei-federal-torna-cidade-de-franca-a-cap",
-      "league": "NBB",
-      "title": "Federal law makes the city of Franca the National Basketball Capital",
-      "originalTitle": "Lei federal torna cidade de Franca a Capital Nacional do Basquete",
-      "translatedFrom": "pt",
-      "description": "Franca's passion for basketball crosses generations The Federal Government has signed a law that makes the city of Franca (SP) as the National Capital of Basketball. The document was published in the Federal Official Gazette on Tuesday, with the signature of Vice President Geraldo Alckmin, acting president",
-      "published": "2026-09-23T14:00:19.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/kI2bhQQ9Z9vPNsOkVJphTwXH8iQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/c/d0IwXhSgCf2RxQEPeCFw/whatsapp-image-2026-05-28-at-20.14.45.jpeg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/23/lei-federal-torna-cidade-de-franca-a-capital-nacional-do-basquete.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-vence-o-fluminense-na-abertura-",
-      "league": "NBB",
-      "title": "Flamengo beat Fluminense in the opening of Carioca basketball",
-      "originalTitle": "Flamengo vence o Fluminense na abertura do Carioca de basquete",
-      "translatedFrom": "pt",
-      "description": "Flamengo beat Fluminense on Sunday at the opening of the Carioca Men's Basketball Championship 2026. Rubro-Negro's 97-74 victory at the Tijuca gymnasium marked the return of the competition after three years. This year's Cariocão has the participation of only Flamengo, Fluminense and Botafogo.",
-      "published": "2026-09-20T21:25:05.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/xjHHeMJmAIIop114LkUBMbsjDpE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/i/l/ZPJg2fQKA74FwavoOO1A/735202-flamengo-x-fluminense-carioca-basquete-ttc-20-09-2026-foto-julliana-nascimento-crf-14.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/09/20/flamengo-vence-o-fluminense-na-abertura-do-carioca-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-morre-s-rgio-macarr-o-medalhista-ol-mpic",
-      "league": "NBB",
-      "title": "Sérgio Macarrão, Olympic medalist with Brazil in Tokyo 1964, dies",
-      "originalTitle": "Morre Sérgio Macarrão, medalhista olímpico com o Brasil em Tóquio 1964",
-      "translatedFrom": "pt",
-      "description": "Former basketball player, Macarrão, talks about the chances of Brazil's medal in the modality The Brazilian Basketball Confederation (CBB) announced, on Saturday (12), the death of Sérgio Macarrão, former player of the Brazilian National Team and Olympic medalist. He was part of the team that won the Meda",
-      "published": "2026-09-12T03:20:15.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/wT2B-PYGWp1N-z_Z5iTpx96EONw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/8/z/Zhr1PzTnGB5kxseCRT0g/saveclip.app-806415649-18628912561015376-3697809191121698065-n.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/09/12/morre-sergio-macarrao-medalhista-olimpico-com-o-brasil-em-toquio-1964.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-10T12:16:18.265Z",
-    "news": "2026-10-10T12:16:18.265Z"
+    "games": "2026-10-11T12:29:21.074Z",
+    "news": "2026-10-11T12:29:21.074Z"
   },
   "carriedOver": [
     "teams",

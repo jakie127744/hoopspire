@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-10T12:16:25.010Z",
+  "fetchedAt": "2026-10-11T12:29:27.132Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,6 +22,136 @@
   ],
   "news": [
     {
+      "id": "EuroLeague-realmadridstopsat120pointsineasyhomewino",
+      "league": "EuroLeague",
+      "title": "Real Madrid stops at 120 points in easy home win over Murcia",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The \"Whites\" put on a show and registered an early season high The post Real Madrid stops at 120 points in easy home win over Murcia appeared first on Eurohoops .",
+      "published": "2026-10-11T12:19:24.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/68c84223-procida-manresa.jpg",
+      "url": "https://www.eurohoops.net/en/acb/2019419/real-madrid-scored-120-points-in-easy-home-win-over-murcia/"
+    },
+    {
+      "id": "EuroLeague-markushowardsettoleavebaskoniazenitmoveo",
+      "league": "EuroLeague",
+      "title": "Markus Howard set to leave Baskonia, Zenit move on the horizon",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Markus Howard could leave Spain to join coach Ivanovic at Zenit. L'articolo Markus Howard set to leave Baskonia, Zenit move on the horizon proviene da Sportando .",
+      "published": "2026-10-11T09:29:30.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/markus-howard-set-to-leave-baskonia-zenit-move-on-the-horizon/"
+    },
+    {
+      "id": "EuroLeague-hapoeltelavivandeuroleagueexecutivesmeet",
+      "league": "EuroLeague",
+      "title": "Hapoel Tel Aviv and EuroLeague executives meet in Tel Aviv: “Positive talks aimed at bringing games back to Israel”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Hapoel IBI Tel Aviv owner Ofer Yannay and club chairman Stav Shacham met for breakfast in Tel Aviv on Sunday morning with EuroLeague CEO Chus Bueno and Director of Competitions Diego Guillen. L'articolo Hapoel Tel Aviv and EuroLeague executives meet in Tel Aviv: “Positive talks a",
+      "published": "2026-10-11T09:18:21.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/hapoel-tel-aviv-and-euroleague-executives-meet-in-tel-aviv-positive-talks-aimed-at-bringing-games-back-to-israel/"
+    },
+    {
+      "id": "EuroLeague-virtusbolognafaceakeydecisiononforeignpl",
+      "league": "EuroLeague",
+      "title": "Virtus Bologna face a key decision on foreign-player rotation ahead of Venice clash",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The road game against Reyer Venezia represents an important test for Virtus Bologna. L'articolo Virtus Bologna face a key decision on foreign-player rotation ahead of Venice clash proviene da Sportando .",
+      "published": "2026-10-11T09:01:35.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/virtus-bologna-face-a-key-decision-on-foreign-player-rotation-ahead-of-venice-clash/"
+    },
+    {
+      "id": "EuroLeague-goransasiconnbaeuropethereitsalotabouten",
+      "league": "EuroLeague",
+      "title": "Goran Sasic on NBA Europe: “There, it’s a lot about entertainment and here it’s about devotion”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The executive director of the EuroLeague Head Coaches Board talked about the negotiations between EuroLeague and the NBA The post Goran Sasic on NBA Europe: “There, it’s a lot about entertainment and here it’s about devotion” appeared first on Eurohoops .",
+      "published": "2026-10-11T08:48:33.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/2cb29e49-sasic-bodiroga-despoina-giannakopoulos-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2019337/goran-sasic-on-nba-europe-there-its-a-lot-about-entertainment-and-here-its-about-devotion/"
+    },
+    {
+      "id": "EuroLeague-olimpiamilanopoetaseeksanswersafterconse",
+      "league": "EuroLeague",
+      "title": "Olimpia Milano, Poeta seeks answers after consecutive losses. Jabari Parker emerges as a potential target",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The club has reaffirmed its confidence in Peppe Poeta, while rumors have linked Olimpia with a possible move for Jabari Parker. L'articolo Olimpia Milano, Poeta seeks answers after consecutive losses. Jabari Parker emerges as a potential target proviene da Sportando .",
+      "published": "2026-10-11T08:10:07.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/olimpia-milano-poeta-seeks-answers-after-consecutive-losses-jabari-parker-emerges-as-a-potential-target/"
+    },
+    {
+      "id": "EuroLeague-euroleagueround4sportandosidealfive",
+      "league": "EuroLeague",
+      "title": "EuroLeague Round #4 | Sportando’s ideal five",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Sportando’s ideal five L'articolo EuroLeague Round #4 | Sportando’s ideal five proviene da Sportando .",
+      "published": "2026-10-11T07:06:27.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/euroleague-round-4-sportandos-ideal-five/"
+    },
+    {
+      "id": "EuroLeague-crvenazvezdaralliespastbuducnostasjordan",
+      "league": "EuroLeague",
+      "title": "Crvena Zvezda rallies past Buducnost as Jordan Nwora shines",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "After an opening loss in the ABA League, Ibon Navarro's team secured their first victory The post Crvena Zvezda rallies past Buducnost as Jordan Nwora shines appeared first on Eurohoops .",
+      "published": "2026-10-10T21:09:50.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/02/c2a21443-nwora-buducnost-crvena-zvezda.jpg",
+      "url": "https://www.eurohoops.net/en/aba/2019289/zvezda-rallies-past-buducnost-as-nwora-shines/"
+    },
+    {
+      "id": "EuroLeague-fenerbahcescores100pointsandsecuresaneas",
+      "league": "EuroLeague",
+      "title": "Fenerbahce scores 100 points and secures an easy victory",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "After an unsuccessful start in the domestic championship, Fener has achieved their second consecutive victory The post Fenerbahce scores 100 points and secures an easy victory appeared first on Eurohoops .",
+      "published": "2026-10-10T19:52:05.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/1e0fa289-shane-larkin-fenerbahçe-tarfin.jpg",
+      "url": "https://www.eurohoops.net/en/tbl/2019267/fenerbahce-scores-100-points-and-secures-an-easy-victory/"
+    },
+    {
+      "id": "EuroLeague-convincingwinsforpanathinaikosandolympia",
+      "league": "EuroLeague",
+      "title": "Convincing wins for Panathinaikos and Olympiacos ahead of the EuroLeague double gameweek",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The two top contenders continue to achieve excellent results, securing their second win in the domestic league The post Convincing wins for Panathinaikos and Olympiacos ahead of the EuroLeague double gameweek appeared first on Eurohoops .",
+      "published": "2026-10-10T18:17:20.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/63d03bd3-promitheas-panathinaikos.jpg",
+      "url": "https://www.eurohoops.net/en/heba/2019215/convincing-victory-for-panathinaikos-ahead-of-the-euroleague-double-gameweek/"
+    },
+    {
       "id": "EuroLeague-panathinaikoscentermathiaslessortpicksup",
       "league": "EuroLeague",
       "title": "Panathinaikos center Mathias Lessort picks up EuroLeague Round 4 MVP award",
@@ -33,19 +163,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/10/82197155-lessort-panathinaikos.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2018970/mathias-lessort-round-4-mvp-euroleague/"
-    },
-    {
-      "id": "EuroLeague-virtusbolognacostasettobecomeeuroleaguej",
-      "league": "EuroLeague",
-      "title": "Virtus Bologna, Costa set to become EuroLeague jersey sponsor",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The brand, already featured on Virtus’ domestic league jerseys, could soon become the team’s main sponsor in Europe as well. An announcement is expected shortly. L'articolo Virtus Bologna, Costa set to become EuroLeague jersey sponsor proviene da Sportando .",
-      "published": "2026-10-10T09:34:43.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/virtus-bologna-costa-set-to-become-euroleague-jersey-sponsor/"
     },
     {
       "id": "EuroLeague-messinabridgingnbaandeuroleaguepreservet",
@@ -61,32 +178,6 @@
       "url": "https://www.eurohoops.net/en/nba-news/2018981/ettore-messina-talks-nba-euroleague-atlanta-hawks-europe/"
     },
     {
-      "id": "EuroLeague-lasoafterlosstoolympiacoswehavetounderst",
-      "league": "EuroLeague",
-      "title": "Laso after loss to Olympiacos: “We have to understand that Mike James is not coming back”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Efes head coach addressed the star's injury following the team's heavy 89-66 defeat to Olympiacos, urging the squad to move forward. L'articolo Laso after loss to Olympiacos: “We have to understand that Mike James is not coming back” proviene da Sportando .",
-      "published": "2026-10-10T07:43:50.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/laso-after-loss-to-olympiacos-we-have-to-understand-that-mike-james-is-not-coming-back/"
-    },
-    {
-      "id": "EuroLeague-olympiacoscondemnsgraffitiatsunelarenaan",
-      "league": "EuroLeague",
-      "title": "Olympiacos condemns graffiti at Sunel Arena and vows to identify those responsible",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Following their win over Anadolu Efes, some Olympiacos fans left graffiti in the communal areas of AEK's arena. The club has ordered repairs to the damage. L'articolo Olympiacos condemns graffiti at Sunel Arena and vows to identify those responsible proviene da Sportando .",
-      "published": "2026-10-10T07:22:58.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/olympiacos-condemns-graffiti-at-sunel-arena-and-vows-to-identify-those-responsible/"
-    },
-    {
       "id": "EuroLeague-doncicbackedromahorizoneuroleagueornbait",
       "league": "EuroLeague",
       "title": "Doncic-backed Roma horizon: “EuroLeague or NBA, it would make no difference”",
@@ -100,19 +191,6 @@
       "url": "https://www.eurohoops.net/en/eurocup/2018958/valerio-bianchini-talks-bc-roma-luka-doncic-italy-euroleague-nba/"
     },
     {
-      "id": "EuroLeague-valeriobianchiniromewantedbasketballback",
-      "league": "EuroLeague",
-      "title": "Valerio Bianchini: «Rome wanted basketball back. EuroLeague or NBA Europe, BC is here to stay»",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "After 46 years, a Serie A derby returns to Rome as Maxima Roma faces BC Roma at the PalaEur. Bianchini, BC’s honorary president, discusses the excitement surrounding the game, the city’s basketball history and the ambitions of the project led by Donnie Nelson. L'articolo Valerio ",
-      "published": "2026-10-10T05:46:25.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/valerio-bianchini-rome-wanted-basketball-back-euroleague-or-nba-europe-bc-is-here-to-stay/"
-    },
-    {
       "id": "EuroLeague-olympiacosfansstiruptroublewithsunelaren",
       "league": "EuroLeague",
       "title": "Olympiacos fans stir up trouble with Sunel Arena graffiti incident",
@@ -124,71 +202,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/10/4ca20a94-sunel-arena-olympiacos-logo.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2018920/olympiacos-aek-friction-greece-euroleague/"
-    },
-    {
-      "id": "EuroLeague-pablolasowehavetoacceptthatmikejamesisnt",
-      "league": "EuroLeague",
-      "title": "Pablo Laso: “We have to accept that Mike James isn’t going to come back”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Efes coach spoke out after his team suffered their third defeat of the season, this time against Olympiacos The post Pablo Laso: “We have to accept that Mike James isn’t going to come back” appeared first on Eurohoops .",
-      "published": "2026-10-09T21:04:38.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/06/676720e8-2269823006-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2018826/pablo-laso-we-have-to-accept-that-mike-james-will-not-return/"
-    },
-    {
-      "id": "EuroLeague-euroleagueroundupolympiacosbouncesbackal",
-      "league": "EuroLeague",
-      "title": "EuroLeague roundup: Olympiacos bounces back, Žalgiris rallies past Barcelona",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Round 4 concludes with three games as Olympiacos improves to 3-1 The post EuroLeague roundup: Olympiacos bounces back, Žalgiris rallies past Barcelona appeared first on Eurohoops .",
-      "published": "2026-10-09T20:11:46.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/070e0822-milu-oly-efes.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2018715/euroleague-roundup-olympiacos-bounces-back-with-emphatic-win-over-efes/"
-    },
-    {
-      "id": "EuroLeague-olimpiamilanobelievesinpeppepoetaandmove",
-      "league": "EuroLeague",
-      "title": "Olimpia Milano believes in Peppe Poeta and moves forward with him",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Although Milano has started poorly in the EuroLeague, the management still trusts the Italian coach The post Olimpia Milano believes in Peppe Poeta and moves forward with him appeared first on Eurohoops .",
-      "published": "2026-10-09T15:00:08.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/03/25f047bd-peppe-poeta-olimpia-milano.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2018590/olimpia-milano-believes-in-peppe-poeta-and-moves-forward-with-him/"
-    },
-    {
-      "id": "EuroLeague-adamsilverconfidentineuroleaguedealgoing",
-      "league": "EuroLeague",
-      "title": "Adam Silver confident in Euroleague deal: “Going to get something worked out with them”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "With the NBA planning an expansion in Europe, commissioner Adam Silver is optimistic about reaching a deal with Euroleague Basketball The post Adam Silver confident in Euroleague deal: “Going to get something worked out with them” appeared first on Eurohoops .",
-      "published": "2026-10-09T12:58:01.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/779d7c36-adam-silver-talks-press-nba.jpg",
-      "url": "https://www.eurohoops.net/en/nba-news/2018530/adam-silver-talks-nba-euroleague-nba-european/"
-    },
-    {
-      "id": "EuroLeague-theguardianrealmadridpushesfornbaeuropet",
-      "league": "EuroLeague",
-      "title": "The Guardian: Real Madrid pushes for NBA Europe to protect cross-sport interests",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Changes at the top-tier level of European basketball can help Real Madrid secure a similar league structure in football The post The Guardian: Real Madrid pushes for NBA Europe to protect cross-sport interests appeared first on Eurohoops .",
-      "published": "2026-10-09T09:14:38.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/06/d266bb43-florentino-perez-luka-doncic-championship.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2018476/real-madrid-nba-europe-update-euroleague/"
     }
   ],
   "leaders": {
@@ -10574,7 +10587,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-10T12:16:25.010Z",
+    "news": "2026-10-11T12:29:27.132Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
