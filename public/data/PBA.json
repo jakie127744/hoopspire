@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-11T12:28:42.819Z",
+  "fetchedAt": "2026-10-12T14:58:38.663Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -3764,6 +3764,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-11-titan-ugr-fiberxers",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "titan-ultra-giant-risers",
+        "name": "Titan Ultra Giant Risers",
+        "abbr": "TIT",
+        "logo": null,
+        "score": 119,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "converge-fiberxers",
+        "name": "Converge FiberXers",
+        "abbr": "CON",
+        "logo": null,
+        "score": 152,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-11-hotshots-ginebra-k",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "magnolia-chicken-timplados-hotshots",
+        "name": "Magnolia Chicken Timplados Hotshots",
+        "abbr": "MAG",
+        "logo": null,
+        "score": 112,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "barangay-ginebra-san-miguel",
+        "name": "Barangay Ginebra San Miguel",
+        "abbr": "BAR",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-10-10-macau-bb-terrafi-",
       "league": "PBA",
@@ -14600,6 +14658,97 @@
   ],
   "news": [
     {
+      "id": "PBA-tntwelcomesbackrondaehollisjeffersonahea",
+      "league": "PBA",
+      "title": "TNT welcomes back Rondae Hollis-Jefferson ahead of PBA Govs Cup playoffs",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "After three switches, TNT is finally activating its resident import in Rondae Hollis-Jefferson.",
+      "published": "2026-10-12T09:10:29.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005636/tnt-welcomes-back-rondae-hollis-jefferson-ahead-of-pba-govs-cup-playoffs/story/"
+    },
+    {
+      "id": "PBA-fiberxersridejuangdlstdonwaytoquarterfin",
+      "league": "PBA",
+      "title": "FiberXers ride Juan GDL’s T-D on way to quarterfinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Juan Gomez de Liaño marked his one-year PBA anniversary with the same feat: a triple-double. The Converge rookie put together 32 points, 12 rebounds and 13 assists in helping the FiberXers blow out Titan Ultra, 152-119, and secure a quarterfinals berth in the PBA Governors’ Cup. ",
+      "published": "2026-10-12T04:20:40.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/Alec-Stockton-12october2026.jpg",
+      "url": "https://sports.inquirer.net/701068/fiberxers-ride-juan-gdls-t-d-on-way-to-quarterfinals"
+    },
+    {
+      "id": "PBA-tntbringsbackrondaehollisjeffersonaheado",
+      "league": "PBA",
+      "title": "TNT brings back Rondae Hollis-Jefferson ahead of Macau clash",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The long wait for TNT is finally over. Rondae Hollis-Jefferson was activated by the Tropang 5G on Monday, replacing Nick Hornsby, who played two games for the team. Hornsby he tallied 26 points, 10 rebounds, six assists, and five steals in a 116-92 win over Terrafirma and produce",
+      "published": "2026-10-12T04:11:10.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/tnt-brings-back-rondae-hollis-jefferson-ahead-of-macau-clash/386374"
+    },
+    {
+      "id": "PBA-pbaginebrashiftsintomustwinmodeafterloss",
+      "league": "PBA",
+      "title": "PBA: Ginebra shifts into must-win mode after loss to Magnolia",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Jordan Murphy and Barangay Ginebra will now have to play like there’s no tomorrow after their bid to qualify for the PBA Governors’ Cup suffered a big blow with a 112-93 loss to Magnolia on Sunday. Murphy had 18 points, seven rebounds and three assists but the",
+      "published": "2026-10-12T00:07:02.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image6-3.jpg",
+      "url": "https://sports.inquirer.net/701103/pba-ginebra-shifts-into-must-win-mode-after-loss-to-magnolia"
+    },
+    {
+      "id": "PBA-pbatenoriolaudsmagnoliadefenseinlatestro",
+      "league": "PBA",
+      "title": "PBA: Tenorio lauds Magnolia defense in latest rout of Ginebra",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Coach LA Tenorio commended the defensive effort Magnolia put up in routing Barangay Ginebra anew in the second “Manila Clasico” of the PBA Governors’ Cup. The Hotshots blew out the Gin Kings, 112-93, on Sunday at Smart Araneta Coliseum to become the first team",
+      "published": "2026-10-11T23:07:15.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-5.jpg",
+      "url": "https://sports.inquirer.net/701093/pba-tenorio-lauds-magnolia-defense-in-latest-rout-of-ginebra"
+    },
+    {
+      "id": "PBA-pbamagnoliawhipsginebratoclinchgroupbqua",
+      "league": "PBA",
+      "title": "PBA: Magnolia whips Ginebra to clinch Group B quarterfinal spot",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Magnolia became the first team in a tight Group B to secure its place in the quarterfinals of the PBA Governors’ Cup after blowing out sibling rival Barangay Ginebra anew, 112-93, on Sunday at Smart Araneta Coliseum. The latest chapter of the derby dubbed as “",
+      "published": "2026-10-11T22:35:00.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image13-5.jpg",
+      "url": "https://sports.inquirer.net/701079/pba-magnolia-whips-ginebra-to-clinch-group-b-quarterfinal-spot"
+    },
+    {
+      "id": "PBA-pbatitanultrahasanewcoachagain",
+      "league": "PBA",
+      "title": "PBA: Titan Ultra has a new coach again",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Titan Ultra resumed its PBA Governors’ Cup campaign on Sunday with a new coach in Raymond Valenzona. Valenzona was installed on an interim basis after the Giant Risers let go of Rensy Bajar, who has been calling the shots since the Commissioner’s Cup. The form",
+      "published": "2026-10-11T21:30:45.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image14-3.jpg",
+      "url": "https://sports.inquirer.net/701020/pba-titan-ultra-has-a-new-coach-again"
+    },
+    {
       "id": "PBA-pbaconvergeclaimsquartersberthbehindjgdl",
       "league": "PBA",
       "title": "PBA: Converge claims quarters berth behind JGDL triple-double",
@@ -14613,6 +14762,32 @@
       "url": "https://sports.inquirer.net/701014/pba-converge-claims-quarters-berth-behind-jgdl-triple-double"
     },
     {
+      "id": "PBA-paulleeeasesinjuryfearseyesmagnoliaretur",
+      "league": "PBA",
+      "title": "Paul Lee eases injury fears, eyes Magnolia return before playoffs",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Paul Lee allayed fears of a major calf injury after sitting out Magnolia’s eventual group-phase sweep of Ginebra on Sunday in the PBA Season 50 Governors’ Cup. The veteran guard said he suffered no tear and has only felt tightness in his right calf, which is why he hasn’t played ",
+      "published": "2026-10-11T16:04:21.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/paul-lee-eases-injury-fears-eyes-magnolia-return-before-playoffs/386366"
+    },
+    {
+      "id": "PBA-pbastreakingmagnoliablowsoutrivalginebra",
+      "league": "PBA",
+      "title": "PBA: Streaking Magnolia blows out rival Ginebra to clinch QF spot",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Red-hot Magnolia continued to roll in the PBA Season 50 Governors' Cup by decimating longtime rival Barangay Ginebra, 112-93, on Sunday at the Smart Araneta Coliseum.",
+      "published": "2026-10-11T14:20:52.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1005553/pba-streaking-magnolia-blows-out-rival-ginebra-to-clinch-qf-spot/story/"
+    },
+    {
       "id": "PBA-pbajuangomezdeliaodropstripledoubleascon",
       "league": "PBA",
       "title": "PBA: Juan Gomez de Liaño drops triple-double as Converge eliminates Titan Ultra",
@@ -14624,58 +14799,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005547/pba-juan-gomez-de-lia-o-drops-triple-double-as-converge-eliminates-titan-ultra/story/"
-    },
-    {
-      "id": "PBA-convergeclinchespbaquarterfinalberthwith",
-      "league": "PBA",
-      "title": "Converge clinches PBA quarterfinal berth with rout of Titan Ultra",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Converge clinched a quarterfinal berth in the PBA Governors’ Cup following a 150-119 mauling of Titan Ultra on Sunday at the SMART Araneta Coliseum. The FiberXers scored the game’s first 11 points before breaking away in the third, never to look back on the way to notching their ",
-      "published": "2026-10-11T11:29:24.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/converge-clinches-pba-quarterfinal-berth-with-rout-of-titan-ultra/386298"
-    },
-    {
-      "id": "PBA-pvlpbastarsgracemightysportsvolleyballco",
-      "league": "PBA",
-      "title": "PVL, PBA stars grace Mighty Sports volleyball courts inauguration",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "In response to the rapid growth of volleyball in the country, Mighty Sports inaugurated its new volleyball courts at AcroCity in Guiguinto, Bulacan on Saturday, October 10, drawing a good mix of young and old fans.",
-      "published": "2026-10-11T08:30:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/11/2562472/pvl-pba-stars-grace-mighty-sports-volleyball-courts-inauguration"
-    },
-    {
-      "id": "PBA-jordanmurphyfacesfirstmanilaclasicotesta",
-      "league": "PBA",
-      "title": "Jordan Murphy faces first Manila Clasico test as Ginebra, Magnolia clash anew",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Jordan Murphy will be put to the test once again as he gets to experience the Manila Clasico for the first time when Ginebra and Magnolia figure in a PBA Season 50 Governors’ Cup rematch later at the SMART Araneta Coliseum. Eyes will definitely be on the new import, especially af",
-      "published": "2026-10-11T07:15:09.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-Ginebra-vs-Magnolia-LA-Tenorio-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/jordan-murphy-faces-first-manila-clasico-test-as-ginebra-magnolia-clash-anew/386266"
-    },
-    {
-      "id": "PBA-zuscoffeescottiethompsonbringstarpowerto",
-      "league": "PBA",
-      "title": "ZUS Coffee, Scottie Thompson bring star power to AcroCity",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "In response to the rapid growth of volleyball in the country, Mighty Sports inaugurated its new volleyball courts at AcroCity in Guiguinto, Bulacan, on Saturday, Oct. 10, drawing a diverse crowd of fans, young and old alike. Adding to the occasion was the presence of the ZUS Coff",
-      "published": "2026-10-11T06:17:11.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/zus-coffee-scottie-thompson-bring-star-power-to-acrocity/386258"
     },
     {
       "id": "PBA-learningexperiencesayslamasdyiprunoverha",
@@ -14704,32 +14827,6 @@
       "url": "https://sports.inquirer.net/700917/pba-nick-hornsby-embraces-temporary-tnt-role-as-rondae-recovers"
     },
     {
-      "id": "PBA-pbatntsealsquarterfinalsberthafterbeatin",
-      "league": "PBA",
-      "title": "PBA: TNT seals quarterfinals berth after beating San Miguel anew",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—TNT, behind the hot shooting of RR Pogoy and the all-around play of import Nick Hornsby, secured a quarterfinals berth in the 2026 PBA Governors’ Cup after repeating over San Miguel Beer, 116-98, on Saturday at Ynares Center here. Pogoy fired 21 points on five three-poin",
-      "published": "2026-10-10T22:54:16.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image15-6.jpg",
-      "url": "https://sports.inquirer.net/700906/pba-tnt-seals-quarterfinals-berth-after-beating-san-miguel-anew"
-    },
-    {
-      "id": "PBA-pbaterrafirmastaysinplayoffhuntroutsmaca",
-      "league": "PBA",
-      "title": "PBA: Terrafirma stays in playoff hunt, routs Macau",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Terrafirma kept its slim quarterfinal hopes alive in the PBA Governors’ Cup after blowing out guest team Macau, 146-127, on Saturday at Ynares Center here. Import Justin Strings, Juami Tiongson, rookies Geo Chiu and JM Bravo and Maverick Ahanmisi conspired in giving the ",
-      "published": "2026-10-10T19:55:00.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/IMG_9245.jpeg",
-      "url": "https://sports.inquirer.net/700817/pba-terrafirma-stays-in-playoff-hunt-routs-macau"
-    },
-    {
       "id": "PBA-pbatntpullsawaytorepeatoversanmiguel",
       "league": "PBA",
       "title": "PBA: TNT pulls away to repeat over San Miguel",
@@ -14741,45 +14838,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005467/pba-tnt-pulls-away-to-repeat-over-san-miguel/story/"
-    },
-    {
-      "id": "PBA-pbajuamitiongsongeochiusteerterrafirmapa",
-      "league": "PBA",
-      "title": "PBA: Juami Tiongson, Geo Chiu steer Terrafirma past struggling Macau",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Juami Tiongson and Geo Chiu led the local support as Terrafirma piled on Macau\"s woes with a 146-127 beatdown in the PBA Season 50 Governors\" Cup on Saturday at the Ynares Center Antipolo.",
-      "published": "2026-10-10T12:36:39.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005459/pba-juami-tiongson-geo-chiu-steer-terrafirma-past-struggling-macau/story/"
-    },
-    {
-      "id": "PBA-pbarjabarrientosnewimportjordanmurphypow",
-      "league": "PBA",
-      "title": "PBA: RJ Abarrientos, new import Jordan Murphy power Ginebra past Rain or Shine",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "RJ Abarrientos caught fire from the field, drilling three four-pointers and six triples on his way to a 34-point outing, while new import Jordan Murphy added 30 points to power Barangay Ginebra past Rain or Shine, 129-111, in the PBA Governors\" Cup on Friday.",
-      "published": "2026-10-09T14:29:12.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005401/pba-rj-abarrientos-new-import-jordan-murphy-power-ginebra-past-rain-or-shine/story/"
-    },
-    {
-      "id": "PBA-pbajeromlastimosakjbuffenleadmagnoliapas",
-      "league": "PBA",
-      "title": "PBA: Jerom Lastimosa, KJ Buffen lead Magnolia past Blackwater",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Jerom Lastimosa and import KJ Buffen powered the Magnolia Hotshots to their fourth consecutive win in the PBA Governors\" Cup, escaping the Blackwater Bossing, 107-101, on Friday.",
-      "published": "2026-10-09T14:09:51.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005400/pba-jerom-lastimosa-kj-buffen-lead-magnolia-past-blackwater/story/"
     }
   ],
   "leaders": {
@@ -15250,8 +15308,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-11T12:28:42.819Z",
-    "news": "2026-10-11T12:28:42.819Z"
+    "games": "2026-10-12T14:58:38.663Z",
+    "news": "2026-10-12T14:58:38.663Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-11T12:29:21.074Z",
+  "fetchedAt": "2026-10-12T14:59:15.199Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,32 @@
   ],
   "news": [
     {
+      "id": "NBB-mogi-x-franca-no-jogo-3-da-final-do-paul",
+      "league": "NBB",
+      "title": "Mogi vs. Franca in game 3 of the Paulista final: where to watch live and time",
+      "originalTitle": "Mogi x Franca no jogo 3 da final do Paulista: onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Mogi Basquete faces Franca in the second game of the final of Paulista Mogi and Franca face each other this Monday (12), at 4 pm, for game 3 of the final of the Paulista Basketball Championship. The duel, which can define the state champion, will be held at the Hugo Ramos gymnasium in Mogi das Cruzes. The match will",
+      "published": "2026-10-12T07:02:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/9Eg4BmX1ybs_LRZdOfmkNfmjgZU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/Q/BAH9X9SSmXBzjv0ArAtg/55581579858-459cab835c-k.jpg",
+      "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/12/mogi-x-franca-no-jogo-3-da-final-do-paulista-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
+      "id": "NBB-gui-santos-brilha-nas-jogadas-faz-15-pon",
+      "league": "NBB",
+      "title": "Gui Santos shines on the plays, scores 15 points in the Warriors' victory and receives applause from Curry; see",
+      "originalTitle": "Gui Santos brilha nas jogadas, faz 15 pontos na vitória dos Warriors e recebe aplausos de Curry; veja",
+      "translatedFrom": "pt",
+      "description": "Gui Santos, NBA and National Team, entertains basketball fans in Gramado Gui Santos gave a play show in the Golden State Warriors' preseason win over the Sacramento Kings in the NBA. Last Saturday, the Brazilian scored 15 points and was the third highest scorer of the Warriors, who won a",
+      "published": "2026-10-11T13:13:57.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/BtoXTWZMHsjtV3yV67GymckD7uo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/2/oA2rZbSIOQFToQ8URWMQ/2026-10-11t033931z-1664179466-mt1usatoday30055014-rtrmadp-3-nba-preseason-sacramento-kings-at-golden-state-warriors.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/11/gui-santos-brilha-nas-jogadas-faz-15-pontos-na-vitoria-dos-warriors-e-recebe-aplausos-de-curry-veja.ghtml"
+    },
+    {
       "id": "NBB-helinho-cita-processo-de-reformula-o-e-p",
       "league": "NBB",
       "title": "Helinho cites reformulation process and loss of defensive control in new defeat to Mogi",
@@ -16080,32 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/YU5c3wWTzHRAKO83ZBAd5OMdYQY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/p/UD99Y4RG2uCJ6XDbtoNw/55560663272-033b9d485f-k.jpg",
       "url": "https://ge.globo.com/basquete/noticia/2026/09/30/fluminense-derrota-botafogo-e-vai-enfrentar-flamengo-na-final-do-carioca-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-franca-exalta-defesa-em-3-melhor-desempe",
-      "league": "NBB",
-      "title": "Franca exalts defense in 3rd best performance in the sector in the season",
-      "originalTitle": "Franca exalta defesa em 3º melhor desempenho do setor na temporada",
-      "translatedFrom": "pt",
-      "description": "Franca's passion for basketball crosses generations Sesi Franca started ahead in the semi-final series of the Campeonato Paulista by beating Paulistano 80 to 59 last Tuesday at the Pedrocão gym. The collective action in the defensive sector marked the performance of the team led by Helinho Garcia: the",
-      "published": "2026-09-25T18:50:10.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/LWI1yyZFQ4WF89WMr8xCnXv5AME=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/8/Y/Ij3KdVTX26Umwp9auLyA/55544163707-b9c1dc89a6-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/09/25/franca-exalta-defesa-em-3o-melhor-desempenho-do-setor-na-temporada.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-vence-botafogo-e-garante-vaga-n",
-      "league": "NBB",
-      "title": "Flamengo wins Botafogo and guarantees a place in the Carioca basketball final",
-      "originalTitle": "Flamengo vence Botafogo e garante vaga na final do Carioca de basquete",
-      "translatedFrom": "pt",
-      "description": "Flamengo took an important step to win the 19th consecutive title of the Carioca Men's Basketball Championship. After beating Fluminense at the opening of the competition last Sunday at the Tijuca gymnasium, Rubro-Negro returned to the court this Wednesday for the second round. The opponent was Bota",
-      "published": "2026-09-24T01:47:38.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/QLxSirWloFzKLe16Gr1aWlUJEok=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/W/4/QGBdjaQmArXs1TgB08TA/737598-botafogo-x-flamengo-carioca-basquete-ginasio-oscar-zelaya-23-09-2026-foto-julliana-nascimento-crf-5.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/09/23/flamengo-vence-botafogo-e-garante-vaga-na-final-do-carioca-de-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-11T12:29:21.074Z",
-    "news": "2026-10-11T12:29:21.074Z"
+    "games": "2026-10-12T14:59:15.199Z",
+    "news": "2026-10-12T14:59:15.199Z"
   },
   "carriedOver": [
     "teams",
