@@ -1,14 +1,14 @@
 ---
-title: "JackJumpers beat South East Melbourne 96-91 in NBL opener"
+title: "JackJumpers beat South East Melbourne 96-91 in their NBL season opener"
 dek: "Tasmania did not lead until 2:26 was left in the third quarter, then outscored the Phoenix 58-39 in the second half to come back from 14 points down, with David Johnson scoring 26."
 league: "NBL"
-author: Lachlan Pryor
+author: "Lachlan Pryor"
 published: "2026-09-21"
 tag: "Result"
 game: "401875253"
 ---
 
-For more than 27 minutes the Tasmania JackJumpers never led. Then [Dakota Mathias](/player/NBL/3136991) hit a step-back three with 2:26 left in the third quarter, it was 68-67, and the home side did not stop. Tasmania beat the South East Melbourne Phoenix 96-91 at MyState Bank Arena on Monday night to win the opening game of the 2026-27 NBL season, after trailing by 14 at halftime.
+For more than 27 minutes the Tasmania JackJumpers never led. Then [Dakota Mathias](/player/NBL/3136991) hit a step-back three with 2:26 left in the third quarter, it was 68-67, and the home side did not stop. Tasmania beat the South East Melbourne Phoenix 96-91 at MyState Bank Arena on Monday night to win their first game of the 2026-27 NBL season, after trailing by 14 at halftime.
 
 South East Melbourne led 52-38 at the break. The Phoenix had been ahead by as many as 16, 47-31, after a 12-0 run late in the second quarter, and Tasmania's only tie before the third quarter was at 3-3 in the first. Tasmania scored 36 points in the third quarter, its best of the night, and the score was 74-74 going into the fourth. The JackJumpers won the second half 58-39. By quarter, it was Tasmania 15, 23, 36, 22 and South East Melbourne 24, 28, 22, 17.
 
@@ -30,7 +30,7 @@ Johnson, who came off the bench, led Tasmania with 26 points in 27 minutes, maki
 
 Tasmania: [David Johnson](/player/NBL/2451257) 26, [Taran Armstrong](/player/NBL/5447897) 19, [Will Magnay](/player/NBL/4066480) 14, [Dakota Mathias](/player/NBL/3136991) 14, [Nick Marshall](/player/NBL/5090851) 10, [Majok Deng](/player/NBL/3143550) 6, [Ben Gold](/player/NBL/5447899) 5, [Nicholas Stoddart](/player/NBL/5157586) 2.
 
-South East Melbourne: [Angus Glover](/player/NBL/5090490) 21, [Skylar Mays](/player/NBL/5440831) 18, [D'Shawn Schwartz](/player/NBL/5402935) 12, [Dash Daniels](/player/NBL/5308884) 11, [Jordan Hunter](/player/NBL/5090701) 9, [Yannis Morin](/player/NBL/5440832) 7, [Akech Aliir](/player/NBL/5165254) 5, [Tanner Krebs](/player/NBL/5091604) 4, [Hunter Goodrick](/player/NBL/4593836) 2, [Daniel Foster](/player/NBL/4702876) 2.
+South East Melbourne: [Angus Glover](/player/NBL/5090490) 21, [Skylar Mays](/player/NBL/5440831) 18, [D'Shawn Schwartz](/player/NBL/5402935) 12, [Dash Daniels](/player/NBL/5308884) 11, [Jordan Hunter](/player/NBL/5090701) 9, [Yannis Morin](/player/NBL/5440832) 7, Akech Aliir 5, [Tanner Krebs](/player/NBL/5091604) 4, [Hunter Goodrick](/player/NBL/4593836) 2, [Daniel Foster](/player/NBL/4702876) 2.
 
 By quarter: Tasmania 15, 23, 36, 22. South East Melbourne 24, 28, 22, 17.
 

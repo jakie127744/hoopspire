@@ -61,7 +61,7 @@ The lead changed hands four times in the fourth quarter, the last when United we
 
 Melbourne United: Luke Travers 24, Josh Oduro 21, Cole Anthony 18, Malith Machar 13, Sam Waardenburg 10, Joe Ingles 9, Fabijan Krslovic 4, Tom Wilson 3, Shea Ili 2, Kyle Bowen 0, Austin Shelley 0.
 
-South East Melbourne: Nathan Sobey 24, D'Shawn Schwartz 19, Skylar Mays 15, Angus Glover 12, Yannis Morin 9, Jordan Hunter 7, Dash Daniels 6, Tanner Krebs 5, Akech Allir 2.
+South East Melbourne: Nathan Sobey 24, D'Shawn Schwartz 19, Skylar Mays 15, Angus Glover 12, Yannis Morin 9, Jordan Hunter 7, Dash Daniels 6, Tanner Krebs 5, Akech Aliir 2.
 
 **By quarter:** South East Melbourne 30, 23, 21, 25. Melbourne United 17, 28, 29, 30.
 
