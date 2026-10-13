@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-12T14:58:38.663Z",
+  "fetchedAt": "2026-10-13T13:56:33.764Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14658,6 +14659,110 @@
   ],
   "news": [
     {
+      "id": "PBA-pbahollisjeffersoneyesanotherdeeprunwith",
+      "league": "PBA",
+      "title": "PBA: Hollis-Jefferson eyes another deep run with TNT, one game at a time",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Rondae Hollis-Jefferson is setting his sights on another deep playoff run after making his long-awaited return for TNT during Tuesday’s 142-87 rout of guest team Macau in the 2026 PBA Governors’ Cup. Hollis-Jefferson had 22 points, six rebounds, five assists a",
+      "published": "2026-10-13T21:52:11.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-10.jpg",
+      "url": "https://sports.inquirer.net/701411/pba-hollis-jefferson-eyes-another-deep-run-with-tnt-one-game-at-a-time"
+    },
+    {
+      "id": "PBA-pbarondaehollisjeffersonreturnsastntroll",
+      "league": "PBA",
+      "title": "PBA: Rondae Hollis-Jefferson returns as TNT rolls past Macau",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–TNT nearly reset the six-day record for the most lopsided game in history in the 142-87 demolition of hapless Macau that marked Rondae Hollis-Jefferson’s long-awaited return in the 2026 PBA Governors’ Cup on Tuesday at Ninoy Aquino Stadium. Hollis-Jefferson fi",
+      "published": "2026-10-13T20:23:08.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-17.jpg",
+      "url": "https://sports.inquirer.net/701387/pba-rondae-hollis-jefferson-returns-as-tnt-rolls-past-macau"
+    },
+    {
+      "id": "PBA-rondaehollisjeffersonrelishesreturnruess",
+      "league": "PBA",
+      "title": "Rondae Hollis-Jefferson relishes return, rues shortened Justin Brownlee reunion",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Hollis-Jefferson is finally in action again after 10 months of recovering from an Achilles tear, although his return may feel quite incomplete for some. Because at least in the ongoing PBA Season 50 Governors’ Cup, one of his toughest adversaries won’t be around to welcome",
+      "published": "2026-10-13T13:36:58.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2023/03/2023-PBA-Governors-Cup-TNT-vs-Ginebra-Rondae-Hollis-Jefferson-vs-Justin-Brownlee-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/rondae-hollis-jefferson-relishes-return-rues-shortened-justin-brownlee-reunion/386510"
+    },
+    {
+      "id": "PBA-pbajoshuamunzonhappyaftersigningdealtost",
+      "league": "PBA",
+      "title": "PBA: Joshua Munzon ‘happy’ after signing deal to stay with Titan Ultra",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–It appears that all’s well that ends well between Joshua Munzon and Titan Ultra. Munzon bared that he agreed to sign a three-year contract to remain with the Giant Risers after being the subject of trade rumors. And Munzon is pleased that the two sides were ab",
+      "published": "2026-10-13T12:22:53.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image15-1.jpg",
+      "url": "https://sports.inquirer.net/701273/pba-joshua-munzon-happy-after-signing-deal-to-stay-with-titan-ultra"
+    },
+    {
+      "id": "PBA-pbarondaehollisjeffersonsetfortntreturnv",
+      "league": "PBA",
+      "title": "PBA: Rondae Hollis-Jefferson set for TNT return vs Macau",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Rondae Hollis-Jefferson will make his much-awaited return on Tuesday when TNT takes on hapless Macau in the PBA Governors’ Cup at Ninoy Aquino Stadium. The Tropang 5G activated the three-time Best Import on the eve of the 5:15 p.m. contest after a lengthy reco",
+      "published": "2026-10-13T12:15:42.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2025/03/IMG_0968_PBA-49-Commissioners-Cup-Finals-Game-7-TNT-Ginebra_Rondae-Hollis-Jefferson-scaled.jpg",
+      "url": "https://sports.inquirer.net/701271/pba-rondae-hollis-jefferson-set-for-tnt-return-vs-macau"
+    },
+    {
+      "id": "PBA-pbarhjreturnsinstyleastntblastsmacauby55",
+      "league": "PBA",
+      "title": "PBA: RHJ returns in style as TNT blasts Macau by 55",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Hollis-Jefferson came back strong as TNT cruised to an easy 142-87 victory over the luckless Macau for its third successive win in the PBA Season 50 Governors’ Cup, Tuesday at the Ninoy Aquino Stadium. Back in action for the first time in 10 months, the three-time Best Imp",
+      "published": "2026-10-13T11:11:08.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/pba-rhj-returns-in-style-as-tnt-blasts-macau-by-55/386478"
+    },
+    {
+      "id": "PBA-tntwelcomesbackrondaehollisjeffersonagai",
+      "league": "PBA",
+      "title": "TNT welcomes back Rondae Hollis-Jefferson against Macau",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Hollis-Jefferson is ready to make his highly anticipated comeback when TNT takes on the hopeless Macau in a bid to better their placing in Group A of the PBA Season 50 Governors’ Cup later at the Ninoy Aquino Stadium. The reigning conference champions have already clinched",
+      "published": "2026-10-13T08:19:23.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2025/12/2025-26-EASL-Meralco-vs-Macau-Rondae-Hollis-Jefferson-1-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/tnt-welcomes-back-rondae-hollis-jefferson-against-macau/386458"
+    },
+    {
+      "id": "PBA-pbaplayeroftheweeklucerostarsforsizzling",
+      "league": "PBA",
+      "title": "PBA Player of the Week Lucero stars for sizzling Hotshots",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The long break didn’t prevent Magnolia from keeping its momentum going in the PBA Governors’ Cup. And Zavier Lucero was one of the reasons why the Hotshots stretched their winning streak to five straight games following a 1-3 start.",
+      "published": "2026-10-13T06:18:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/13/2562924/pba-player-week-lucero-stars-sizzling-hotshots"
+    },
+    {
       "id": "PBA-tntwelcomesbackrondaehollisjeffersonahea",
       "league": "PBA",
       "title": "TNT welcomes back Rondae Hollis-Jefferson ahead of PBA Govs Cup playoffs",
@@ -14684,19 +14789,6 @@
       "url": "https://sports.inquirer.net/701068/fiberxers-ride-juan-gdls-t-d-on-way-to-quarterfinals"
     },
     {
-      "id": "PBA-tntbringsbackrondaehollisjeffersonaheado",
-      "league": "PBA",
-      "title": "TNT brings back Rondae Hollis-Jefferson ahead of Macau clash",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The long wait for TNT is finally over. Rondae Hollis-Jefferson was activated by the Tropang 5G on Monday, replacing Nick Hornsby, who played two games for the team. Hornsby he tallied 26 points, 10 rebounds, six assists, and five steals in a 116-92 win over Terrafirma and produce",
-      "published": "2026-10-12T04:11:10.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/tnt-brings-back-rondae-hollis-jefferson-ahead-of-macau-clash/386374"
-    },
-    {
       "id": "PBA-pbaginebrashiftsintomustwinmodeafterloss",
       "league": "PBA",
       "title": "PBA: Ginebra shifts into must-win mode after loss to Magnolia",
@@ -14708,71 +14800,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/PBA-Image6-3.jpg",
       "url": "https://sports.inquirer.net/701103/pba-ginebra-shifts-into-must-win-mode-after-loss-to-magnolia"
-    },
-    {
-      "id": "PBA-pbatenoriolaudsmagnoliadefenseinlatestro",
-      "league": "PBA",
-      "title": "PBA: Tenorio lauds Magnolia defense in latest rout of Ginebra",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Coach LA Tenorio commended the defensive effort Magnolia put up in routing Barangay Ginebra anew in the second “Manila Clasico” of the PBA Governors’ Cup. The Hotshots blew out the Gin Kings, 112-93, on Sunday at Smart Araneta Coliseum to become the first team",
-      "published": "2026-10-11T23:07:15.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-5.jpg",
-      "url": "https://sports.inquirer.net/701093/pba-tenorio-lauds-magnolia-defense-in-latest-rout-of-ginebra"
-    },
-    {
-      "id": "PBA-pbamagnoliawhipsginebratoclinchgroupbqua",
-      "league": "PBA",
-      "title": "PBA: Magnolia whips Ginebra to clinch Group B quarterfinal spot",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Magnolia became the first team in a tight Group B to secure its place in the quarterfinals of the PBA Governors’ Cup after blowing out sibling rival Barangay Ginebra anew, 112-93, on Sunday at Smart Araneta Coliseum. The latest chapter of the derby dubbed as “",
-      "published": "2026-10-11T22:35:00.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image13-5.jpg",
-      "url": "https://sports.inquirer.net/701079/pba-magnolia-whips-ginebra-to-clinch-group-b-quarterfinal-spot"
-    },
-    {
-      "id": "PBA-pbatitanultrahasanewcoachagain",
-      "league": "PBA",
-      "title": "PBA: Titan Ultra has a new coach again",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Titan Ultra resumed its PBA Governors’ Cup campaign on Sunday with a new coach in Raymond Valenzona. Valenzona was installed on an interim basis after the Giant Risers let go of Rensy Bajar, who has been calling the shots since the Commissioner’s Cup. The form",
-      "published": "2026-10-11T21:30:45.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image14-3.jpg",
-      "url": "https://sports.inquirer.net/701020/pba-titan-ultra-has-a-new-coach-again"
-    },
-    {
-      "id": "PBA-pbaconvergeclaimsquartersberthbehindjgdl",
-      "league": "PBA",
-      "title": "PBA: Converge claims quarters berth behind JGDL triple-double",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Juan Gomez de Liano registered the fourth triple-double of his rookie season as Converge blew out Titan Ultra, 152-119, to secure the last quarterfinals berth in Group A of the PBA Governors’ Cup on Sunday at Smart Araneta Coliseum. Gomez de Liano matched his ",
-      "published": "2026-10-11T20:03:19.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image19-2.jpg",
-      "url": "https://sports.inquirer.net/701014/pba-converge-claims-quarters-berth-behind-jgdl-triple-double"
-    },
-    {
-      "id": "PBA-paulleeeasesinjuryfearseyesmagnoliaretur",
-      "league": "PBA",
-      "title": "Paul Lee eases injury fears, eyes Magnolia return before playoffs",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Paul Lee allayed fears of a major calf injury after sitting out Magnolia’s eventual group-phase sweep of Ginebra on Sunday in the PBA Season 50 Governors’ Cup. The veteran guard said he suffered no tear and has only felt tightness in his right calf, which is why he hasn’t played ",
-      "published": "2026-10-11T16:04:21.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/paul-lee-eases-injury-fears-eyes-magnolia-return-before-playoffs/386366"
     },
     {
       "id": "PBA-pbastreakingmagnoliablowsoutrivalginebra",
@@ -14799,45 +14826,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005547/pba-juan-gomez-de-lia-o-drops-triple-double-as-converge-eliminates-titan-ultra/story/"
-    },
-    {
-      "id": "PBA-learningexperiencesayslamasdyiprunoverha",
-      "league": "PBA",
-      "title": "Learning experience, says Lam as Dyip run over hapless Pandas",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Coming off a shameful 60-point defeat, the Macau Giant Pandas made every effort to be competitive on Saturday. They managed to stay in the game until halftime. The hapless guest team absorbed a 146-127 defeat to Terrafirma, becoming the first team to bow out of contentio",
-      "published": "2026-10-11T05:17:01.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/1307400.jpg",
-      "url": "https://sports.inquirer.net/700882/learning-experience-says-lam-as-dyip-run-over-hapless-pandas"
-    },
-    {
-      "id": "PBA-pbanickhornsbyembracestemporarytntroleas",
-      "league": "PBA",
-      "title": "PBA: Nick Hornsby embraces temporary TNT role as Rondae recovers",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Nick Hornsby understands that the duration of his stint with TNT depends on if and when Rondae Hollis-Jefferson is ready to make his long-awaited return in the 2026 PBA Governors’ Cup. Regardless of whether his stint turns out to be short or lengthy, Hornsby is keen on h",
-      "published": "2026-10-10T23:27:49.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image10-15.jpg",
-      "url": "https://sports.inquirer.net/700917/pba-nick-hornsby-embraces-temporary-tnt-role-as-rondae-recovers"
-    },
-    {
-      "id": "PBA-pbatntpullsawaytorepeatoversanmiguel",
-      "league": "PBA",
-      "title": "PBA: TNT pulls away to repeat over San Miguel",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "No overtime needed this time as TNT broke away in the fourth to complete a 116-98 win against San Miguel in the PBA Season 50 Governors\" Cup on Saturday at the Ynares Center Antipolo.",
-      "published": "2026-10-10T14:14:43.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005467/pba-tnt-pulls-away-to-repeat-over-san-miguel/story/"
     }
   ],
   "leaders": {
@@ -15308,8 +15296,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-12T14:58:38.663Z",
-    "news": "2026-10-12T14:58:38.663Z"
+    "games": "2026-10-13T13:56:33.764Z",
+    "news": "2026-10-13T13:56:33.764Z"
   },
   "carriedOver": [
     "teams",

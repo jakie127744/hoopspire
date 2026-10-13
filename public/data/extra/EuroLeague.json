@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-12T14:59:22.720Z",
+  "fetchedAt": "2026-10-13T13:57:15.451Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,17 +22,95 @@
   ],
   "news": [
     {
-      "id": "EuroLeague-fenerbahcesjasikeviciusdefendsrostermove",
+      "id": "EuroLeague-devonhallisaeuroleaguefantasyoasisinthea",
       "league": "EuroLeague",
-      "title": "Fenerbahce’s Jasikevicius defends roster moves and calls for patience",
+      "title": "Devon Hall is a EuroLeague Fantasy oasis in the Armani desert",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The Lithuanian coach urges caution despite a 3-1 EuroLeague start, backs the team’s veteran signings and criticizes the short preseason disrupted by two Super Cups. L'articolo Fenerbahce’s Jasikevicius defends roster moves and calls for patience proviene da Sportando .",
-      "published": "2026-10-12T12:59:16.000Z",
+      "description": "Euroleague Fantasy tips off yet another double-game week in the 2026–27 EuroLeague Regular Season, which starts with Round 5 The post Devon Hall is a EuroLeague Fantasy oasis in the Armani desert appeared first on Eurohoops .",
+      "published": "2026-10-13T07:53:35.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/386e018b-gcr20969_5vtxgyfb_20260929104321.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2020077/devon-hall-euroleague-fantasy-tips/"
+    },
+    {
+      "id": "EuroLeague-barkasbreakdownjeanmonteroreturnsasabona",
+      "league": "EuroLeague",
+      "title": "Barkas Breakdown: Jean Montero returns as a bona fide star",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Last season’s EuroLeague Rising Star and Playoffs MVP is back in Valencia with a different jersey and a different goal The post Barkas Breakdown: Jean Montero returns as a bona fide star appeared first on Eurohoops .",
+      "published": "2026-10-13T07:17:28.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/0a2110a6-jean-montero-olympiacos-anadolu-efes-hyped.jpg",
+      "url": "https://www.eurohoops.net/en/voices/2020061/barkas-breakdown-jean-montero-returns-as-a-bona-fide-star/"
+    },
+    {
+      "id": "EuroLeague-lonniewalkerivconsideringeuroleagueretur",
+      "league": "EuroLeague",
+      "title": "Lonnie Walker IV considering EuroLeague return, Besiktas leads race",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Lonnie Walker IV is considering a EuroLeague return after being waived by Denver, with Besiktas reportedly leading the race L'articolo Lonnie Walker IV considering EuroLeague return, Besiktas leads race proviene da Sportando .",
+      "published": "2026-10-13T06:05:45.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/fenerbahces-jasikevicius-defends-roster-moves-and-calls-for-patience/"
+      "url": "https://sportando.basketball/en/lonnie-walker-iv-considering-euroleague-return-besiktas-leads-race/"
+    },
+    {
+      "id": "EuroLeague-lonniewalkerivconsiderseuropeanoptionsbe",
+      "league": "EuroLeague",
+      "title": "Lonnie Walker IV considers European options, Besiktas emerges as main suitor",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Besiktas leads the race for Lonnie Walker IV as 27-year-old shooting guard eyes EuroLeague return The post Lonnie Walker IV considers European options, Besiktas emerges as main suitor appeared first on Eurohoops .",
+      "published": "2026-10-13T04:47:45.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/414d20a6-lonnie-walker-iv-dribbles-denver-nuggets-at-utah-jazz-preseason.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2020023/lonnie-walker-iv-free-agency-update-denver-nuggets-besiktas-euroleague/"
+    },
+    {
+      "id": "EuroLeague-realmadridgabrieldecktoundergoleftshould",
+      "league": "EuroLeague",
+      "title": "Real Madrid: Gabriel Deck to undergo left shoulder surgery",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gabriel Deck will undergo left shoulder surgery after being diagnosed with anterior instability following a joint dislocation L'articolo Real Madrid: Gabriel Deck to undergo left shoulder surgery proviene da Sportando .",
+      "published": "2026-10-12T19:04:04.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/real-madrid-gabriel-deck-to-undergo-left-shoulder-surgery/"
+    },
+    {
+      "id": "EuroLeague-gabrieldecktoundergoshouldersurgery",
+      "league": "EuroLeague",
+      "title": "Gabriel Deck to undergo shoulder surgery",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Real Madrid confirms the Argentine forward will have surgery in the coming days following a left shoulder dislocation The post Gabriel Deck to undergo shoulder surgery appeared first on Eurohoops .",
+      "published": "2026-10-12T15:56:44.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/cf82231a-gabriel-deck-battles-real-madrid-vs-olympiacos-final-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2019907/gabriel-deck-to-undergo-shoulder-surgery/"
+    },
+    {
+      "id": "EuroLeague-izunduinjuryleavescrvenazvezdawithdeplet",
+      "league": "EuroLeague",
+      "title": "Izundu injury leaves Crvena Zvezda with depleted frontcourt: “The club is looking for a player”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "With Jonathan Motley and Ebuka Izundu sidelined, Ibon Navarro will have to turn to smaller lineups in France The post Izundu injury leaves Crvena Zvezda with depleted frontcourt: “The club is looking for a player” appeared first on Eurohoops .",
+      "published": "2026-10-12T15:54:22.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/d57a69ca-chima.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2019901/izundu-injury-leaves-crvena-zvezda-with-depleted-frontcourt-the-club-is-looking-for-a-player/"
     },
     {
       "id": "EuroLeague-euroleaguebreaksdownround5injuryreportwi",
@@ -46,32 +124,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/09/5ae2f71c-nigel-williams-goss-crvena-zvezda-zalgiris-kaunas.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2019799/nigel-williams-goss-justin-minaya-euroleague-injury-report-round-5/"
-    },
-    {
-      "id": "EuroLeague-baskoniareportedlymakesoffertochristiank",
-      "league": "EuroLeague",
-      "title": "Baskonia reportedly makes offer to Christian Koloko",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Baskonia have reportedly made an offer to former Lakers center Christian Koloko after he was waived by the Pelicans L'articolo Baskonia reportedly makes offer to Christian Koloko proviene da Sportando .",
-      "published": "2026-10-12T10:19:58.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/baskonia-reportedly-makes-offer-to-christian-koloko/"
-    },
-    {
-      "id": "EuroLeague-giannakopouloskeepsjokicdreamalivehowmuc",
-      "league": "EuroLeague",
-      "title": "Giannakopoulos keeps Jokic dream alive: “How much budget would it take to bring him to Athens?”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Dimitris Giannakopoulos keeps the Nikola Jokic dream alive, joking on social media about the budget needed to bring him to Panathinaikos L'articolo Giannakopoulos keeps Jokic dream alive: “How much budget would it take to bring him to Athens?” proviene da Sportando .",
-      "published": "2026-10-12T09:42:51.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/giannakopoulos-keeps-jokic-dream-alive-how-much-budget-would-it-take-to-bring-him-to-athens/"
     },
     {
       "id": "EuroLeague-baskoniareportedlymakesoffertoformernbac",
@@ -98,110 +150,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/07/e4c542b8-gettyimages-2267850459-950x500.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2019696/dimitris-giannakopoulos-continues-to-target-nikola-jokic-panathinaikos-euroleague-nba/"
-    },
-    {
-      "id": "EuroLeague-adamsilvernbaeuropewillmoveforwardwithor",
-      "league": "EuroLeague",
-      "title": "Adam Silver: NBA Europe will move forward with or without EuroLeague, but I think we’ll work something out",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Adam Silver says NBA Europe will move forward with or without EuroLeague but expects a deal, with franchises valued at hundreds of millions L'articolo Adam Silver: NBA Europe will move forward with or without EuroLeague, but I think we’ll work something out proviene da Sportando ",
-      "published": "2026-10-12T06:07:46.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/adam-silver-nba-europe-will-move-forward-with-or-without-euroleague-but-i-think-well-work-something-out/"
-    },
-    {
-      "id": "EuroLeague-tonyparkergetshisrevengeagainstbrothertj",
-      "league": "EuroLeague",
-      "title": "Tony Parker gets his revenge against brother TJ",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ASVEL beats Roanne in the Parker brothers’ rematch, while Paris defeats Strasbourg The post Tony Parker gets his revenge against brother TJ appeared first on Eurohoops .",
-      "published": "2026-10-11T19:11:13.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/0b8c4ce9-tony-parker-talks-players-asvel-at-panathinaikos.jpg",
-      "url": "https://www.eurohoops.net/en/proa/2019602/tony-parker-gets-his-revenge-against-brother-tj/"
-    },
-    {
-      "id": "EuroLeague-gabrieldecksshoulderinjurymoreserioustha",
-      "league": "EuroLeague",
-      "title": "Gabriel Deck’s shoulder injury more serious than Real Madrid expected",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Real Madrid coach says the Argentine forward’s recovery timeline and treatment remain unclear The post Gabriel Deck’s shoulder injury more serious than Real Madrid expected appeared first on Eurohoops .",
-      "published": "2026-10-11T16:42:54.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/d88180e7-deck.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2019547/gabriel-decks-shoulder-injury-more-serious-than-real-madrid-expected/"
-    },
-    {
-      "id": "EuroLeague-alphadialloreadytomakehismarkalongsidejo",
-      "league": "EuroLeague",
-      "title": "Alpha Diallo ready to make his mark alongside Jokic: “They’ll find out who I am very quickly”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The reigning EuroLeague Best Defender aims to earn a role alongside Nikola Jokic in Denver after five seasons with Monaco The post Alpha Diallo ready to make his mark alongside Jokic: “They’ll find out who I am very quickly” appeared first on Eurohoops .",
-      "published": "2026-10-11T16:40:05.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2024/11/8882fadb-alpha-diallo-monaco.jpg",
-      "url": "https://www.eurohoops.net/en/nba-news/2019544/alpha-diallo-ready-to-make-his-mark-alongside-nikola-jokic-theyll-find-out-who-i-am-very-quickly/"
-    },
-    {
-      "id": "EuroLeague-milanocruisesvirtusstaysunbeatenmaximawi",
-      "league": "EuroLeague",
-      "title": "Milano cruises, Virtus stays unbeaten, Maxima wins Rome derby thriller",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Jason Burnell scored 19 points as the Italian champions handed Treviso its first league defeat The post Milano cruises, Virtus stays unbeaten, Maxima wins Rome derby thriller appeared first on Eurohoops .",
-      "published": "2026-10-11T16:07:39.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/4eb8d585-olimpia-milano-rj-cole.jpg",
-      "url": "https://www.eurohoops.net/en/legabasket/2019535/milano-cruises-past-treviso/"
-    },
-    {
-      "id": "EuroLeague-euroleagueceochusbuenovisitsisrael",
-      "league": "EuroLeague",
-      "title": "EuroLeague CEO Chus Bueno visits Israel",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Chus Bueno and competitions manager Diego Guillen have traveled to Tel Aviv to access the situation The post EuroLeague CEO Chus Bueno visits Israel appeared first on Eurohoops .",
-      "published": "2026-10-11T12:54:28.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/34d5081c-bueno-israel-e1791722856527-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2019451/euroleague-ceo-chus-bueno-visits-israel/"
-    },
-    {
-      "id": "EuroLeague-realmadridstopsat120pointsineasyhomebarc",
-      "league": "EuroLeague",
-      "title": "Real Madrid stops at 120 points in easy home, Barcelona survives late Valencia comeback",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The \"Whites\" put on a show and registered an early season high The post Real Madrid stops at 120 points in easy home, Barcelona survives late Valencia comeback appeared first on Eurohoops .",
-      "published": "2026-10-11T12:19:24.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/68c84223-procida-manresa.jpg",
-      "url": "https://www.eurohoops.net/en/acb/2019419/real-madrid-scored-120-points-in-easy-home-win-over-murcia/"
-    },
-    {
-      "id": "EuroLeague-goransasiconnbaeuropeitsalotaboutenterta",
-      "league": "EuroLeague",
-      "title": "Goran Sasic on NBA Europe: “It’s a lot about entertainment and here it’s about devotion”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The executive director of the EuroLeague Head Coaches Board talked about the negotiations between EuroLeague and the NBA The post Goran Sasic on NBA Europe: “It’s a lot about entertainment and here it’s about devotion” appeared first on Eurohoops .",
-      "published": "2026-10-11T08:48:33.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/2cb29e49-sasic-bodiroga-despoina-giannakopoulos-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2019337/goran-sasic-on-nba-europe-there-its-a-lot-about-entertainment-and-here-its-about-devotion/"
     }
   ],
   "leaders": {
@@ -10587,7 +10535,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-12T14:59:22.720Z",
+    "news": "2026-10-13T13:57:15.451Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },

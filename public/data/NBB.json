@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-12T14:59:15.199Z",
+  "fetchedAt": "2026-10-13T13:57:08.402Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-vence-mogi-de-virada-e-ganha-sobr",
+      "league": "NBB",
+      "title": "Franca wins Mogi by a landslide and gains survival in the Paulista basketball final",
+      "originalTitle": "Franca vence Mogi de virada e ganha sobrevida na final do Paulista de basquete",
+      "translatedFrom": "pt",
+      "description": "Franca won survival in the best of five series of the São Paulo Basketball Championship final by beating Mogi 68-66, on Monday (12), in game 3, played at Hugo Ramos gymnasium, in Mogi das Cruzes. With the result, the team decreased the disadvantage in the series to 2 to 1. The",
+      "published": "2026-10-12T21:31:16.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/0xoEDubCn2sqKk-F88ungxeL2CM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/s/7/Ii9AV3Su20CyBJZP68ZQ/55585695553-0c5b0c0487-k.jpg",
+      "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/12/franca-vence-o-mogi-de-virada-e-ganha-sobrevida-na-final-do-paulista-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-mogi-x-franca-no-jogo-3-da-final-do-paul",
       "league": "NBB",
       "title": "Mogi vs. Franca in game 3 of the Paulista final: where to watch live and time",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/BNgGO7aQyaJqfBltfJccunzVuzc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/k/z/ox6h80SIiO9SC5Tip3tg/treino-jogo-das-estrelas-sexta-feira-27.03.2029-1693-1200x800.jpg",
       "url": "https://ge.globo.com/basquete/noticia/2026/10/02/selecao-masculina-de-basquete-volta-ao-ibirapuera-apos-42-anos-por-vaga-na-copa-do-mundo.ghtml"
-    },
-    {
-      "id": "NBB-fluminense-derrota-botafogo-e-vai-enfren",
-      "league": "NBB",
-      "title": "Fluminense defeats Botafogo and will face Flamengo in the final of Carioca de Basquete",
-      "originalTitle": "Fluminense derrota Botafogo e vai enfrentar Flamengo na final do Carioca de Basquete",
-      "translatedFrom": "pt",
-      "description": "Fluminense beat Botafogo 84-74 on Wednesday night (30), in the second game of the Campeonato Carioca. With the triumph at home, at the João Coelho Netto Gymnasium in Laranjeiras, the tricolor secured the spot in the final of the tournament, in a clash against Flamengo. Fluminense wins Botafogo on C",
-      "published": "2026-10-01T00:27:04.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/YU5c3wWTzHRAKO83ZBAd5OMdYQY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/p/UD99Y4RG2uCJ6XDbtoNw/55560663272-033b9d485f-k.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/09/30/fluminense-derrota-botafogo-e-vai-enfrentar-flamengo-na-final-do-carioca-de-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-12T14:59:15.199Z",
-    "news": "2026-10-12T14:59:15.199Z"
+    "games": "2026-10-13T13:57:08.402Z",
+    "news": "2026-10-13T13:57:08.402Z"
   },
   "carriedOver": [
     "teams",
