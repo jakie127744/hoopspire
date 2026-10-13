@@ -5,6 +5,8 @@ league: "NBL"
 author: Lachlan Pryor
 published: "2026-09-29"
 tag: "Injury"
+image: "/images/majok-deng-fractured-fibula-jackjumpers-out-four-weeks.jpg"
+imageCredit: "Photo: DaHuzyBru / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 [Majok Deng](/player/NBL/3143550) scored a layup that tied the NBL season opener at 65-65, about 35 seconds after contact that fractured his fibula. The Tasmania JackJumpers announced on Tuesday that the forward will be out for at least four weeks.

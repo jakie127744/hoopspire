@@ -6,6 +6,8 @@ author: Renee Castellano
 published: "2026-09-27"
 tag: "Preview"
 game: "401918015"
+image: "/images/fever-open-playoffs-at-aces-clark-probable.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 The Indiana Fever open the WNBA playoffs at the Las Vegas Aces on Sunday at 4 p.m. ET, without guard Ty Harris and with [Caitlin Clark](/player/WNBA/4433403) listed as probable. Game 1 of the best-of-three first-round series is at Michelob ULTRA Arena.

@@ -5,6 +5,8 @@ league: "WNBA"
 author: "Renee Castellano"
 published: "2026-10-06"
 tag: "Preview"
+image: "/images/dream-rule-out-allisha-gray-game-2-liberty-semifinals-resume-wednesday.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 2.0)"
 ---
 
 [Allisha Gray](/player/WNBA/3058901) scored 19.0 points a game for the Atlanta Dream this season, more than anyone on the team, and played in all 44 games. She will not play in Game 2 of the WNBA semifinals against the New York Liberty on Wednesday. Dream coach Karl Smesko ruled her out on Tuesday with an injury to her left hand, which she hurt in Game 1.

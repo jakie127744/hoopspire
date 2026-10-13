@@ -6,6 +6,8 @@ author: Renee Castellano
 published: "2026-10-02"
 tag: "Result"
 game: "401918022"
+image: "/images/aces-beat-fever-94-83-game-3-wilson-36-end-indiana-season.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 2.0)"
 ---
 
 The Las Vegas Aces beat the Indiana Fever 94-83 on Thursday night at Michelob ULTRA Arena to win their first-round series 2-1 and end the Fever's season. [A'ja Wilson](/player/WNBA/3149391) scored 36 points, and the Aces made 28 of 35 free throws to Indiana's 14 of 20. The third-seeded Aces, the defending champions, move on to the best-of-five semifinals. The sixth-seeded Fever are out. The crowd was 10,388.

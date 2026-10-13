@@ -6,6 +6,8 @@ author: Renee Castellano
 published: "2026-09-30"
 tag: "Result"
 game: "401918017"
+image: "/images/liberty-sweep-lynx-87-71-jones-21-points-13-rebounds.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 The New York Liberty beat the Minnesota Lynx 87-71 at Barclays Center on Tuesday night and won their first-round series 2-0. New York was the eighth seed and Minnesota the first. The Liberty scored first, never trailed and never tied, and led by as many as 19 points.

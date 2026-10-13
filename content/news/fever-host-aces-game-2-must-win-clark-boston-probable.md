@@ -5,6 +5,8 @@ league: "WNBA"
 author: Renee Castellano
 published: "2026-09-29"
 tag: "Preview"
+image: "/images/fever-host-aces-game-2-must-win-clark-boston-probable.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 The Indiana Fever host the Las Vegas Aces on Tuesday in Game 2 of their first-round series, and a loss ends their season. Tipoff is at 6:30 p.m. ET at Gainbridge Fieldhouse, with the game on Prime Video.

@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-10-08"
 tag: "Draft"
+image: "/images/the-draft-cliff-comes-after-sixth-slots-7-to-12-worth-almost-the-same.jpg"
+imageCredit: "Photo: U.S. Embassy Ljubljana / Wikimedia Commons (Public domain)"
 ---
 
 Here is the draft-slot rule for a 12-team snake draft: a top-six pick is worth chasing, and anything from seventh to 12th is one tier. If your league lets you pick a slot or trade picks before the draft, do not pay to move from 12th up to seventh. Do pay, within reason, to get into the top six.

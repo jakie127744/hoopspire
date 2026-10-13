@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-09-28"
 tag: "Categories"
+image: "/images/punting-rebounds-who-moves.jpg"
+imageCredit: "Photo: Sandro Halank / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 Shai Gilgeous-Alexander ranks third of 150 in a nine-category pool. Remove rebounds from the scoring and he ranks first, ahead of Nikola Jokić. Rudy Gobert goes the other way, from 79th to 147th. If you plan to punt rebounds, take Gilgeous-Alexander with the first pick and let Gobert go to someone else.

@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-10-07"
 tag: "Draft"
+image: "/images/before-you-pick-a-punt-pick-the-flexible-player-bridges-22-daniels-84.jpg"
+imageCredit: "Photo: Yes Network / Wikimedia Commons (CC BY 3.0)"
 ---
 
 Here is the rule for the early rounds this week: until you know which category you are punting, draft the player who holds his value in every build. When two names sit within a few places of each other on your board, take the one whose worst case is smaller.

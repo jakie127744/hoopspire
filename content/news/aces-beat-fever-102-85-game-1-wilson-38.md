@@ -6,6 +6,8 @@ author: Renee Castellano
 published: "2026-09-28"
 tag: "Result"
 game: "401918015"
+image: "/images/aces-beat-fever-102-85-game-1-wilson-38.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 2.0)"
 ---
 
 The Las Vegas Aces beat the Indiana Fever 102-85 on Sunday in Game 1 of their best-of-three first-round series. [A'ja Wilson](/player/WNBA/3149391) scored 38 points with 16 rebounds at Michelob ULTRA Arena, and the Aces were plus-29 with her on the floor. Las Vegas leads the series 1-0. The crowd was 10,207.

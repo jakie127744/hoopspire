@@ -5,6 +5,8 @@ league: "NBA"
 author: "Victor Ashby"
 published: "2026-10-06"
 tag: "Second Look"
+image: "/images/toronto-was-right-to-bring-kawhi-leonard-back-bill-arrives-2031.jpg"
+imageCredit: "Photo: U.S. Marine Corps photo by Lance Cpl. Mhecaela J. Watts / Wikimedia Commons (Public domain)"
 ---
 
 The Toronto Raptors made the right call when they traded for [Kawhi Leonard](/player/NBA/6450). I say that knowing he is 35, knowing how many games he has missed, and knowing exactly what they paid. The case against the trade is real. It is just about the wrong years.

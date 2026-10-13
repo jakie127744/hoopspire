@@ -5,6 +5,8 @@ league: "BLeague"
 author: "Kenji Arakawa"
 published: "2026-10-11"
 tag: "Result"
+image: "/images/jarrett-culver-scores-sendais-last-three-baskets-70-68-at-sunrockers-nagoya-stay-unbeaten.jpg"
+imageCredit: "Photo: Ellerad / Wikimedia Commons (CC BY 4.0)"
 ---
 
 The SunRockers led 68-66 with 3:41 left, in front of 7,723 at Toyota Arena Tokyo. They did not score again. [Jarrett Culver](/player/BLeague/51000531) tied the game with a jumper in the lane with 2:45 to play, and after Nathan Boothe stole the ball from Josh Hawkinson, Culver hit a jumper with 41 seconds left. The Sendai 89ers won 70-68 on Sunday.

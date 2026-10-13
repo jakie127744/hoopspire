@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-09-27"
 tag: "Categories"
+image: "/images/punting-threes-who-moves.jpg"
+imageCredit: "Photo: Clément Bardot / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 Jalen Duren ranks 28th of 150 in a nine-category pool. Remove three-pointers from the scoring and he ranks 10th. Stephen Curry goes the other way, from 11th to 40th. If you plan to punt threes, take Duren in the first round and let someone else take Curry.

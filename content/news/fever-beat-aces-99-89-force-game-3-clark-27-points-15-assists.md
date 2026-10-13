@@ -6,6 +6,8 @@ author: Renee Castellano
 published: "2026-09-29"
 tag: "Result"
 game: "401918018"
+image: "/images/fever-beat-aces-99-89-force-game-3-clark-27-points-15-assists.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 Caitlin Clark had 27 points and 15 assists, and the Indiana Fever, one loss from the end of their season, beat the Las Vegas Aces 99-89 at Gainbridge Fieldhouse on Tuesday to tie the first-round series at 1-1. Game 3 is Thursday in Las Vegas, and the winner goes to the semifinals.

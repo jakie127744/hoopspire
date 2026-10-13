@@ -6,6 +6,8 @@ author: "Dana Whitfield"
 published: "2026-10-07"
 tag: "Result"
 game: "401898390"
+image: "/images/warriors-rout-lakers-124-98-preseason-rookie-yaxel-lendeborg-17.jpg"
+imageCredit: "Photo: TonyTheTiger / Wikimedia Commons (CC0)"
 ---
 
 [Yaxel Lendeborg](/player/NBA/5175737), the 11th pick in the 2026 draft, scored 17 points with nine rebounds as the Golden State Warriors beat the Los Angeles Lakers 124-98 in a preseason game at Chase Center on Tuesday night. Golden State never trailed. The game was never tied.

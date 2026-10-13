@@ -5,6 +5,8 @@ league: "WNBA"
 author: "Hoopspire Staff"
 published: "2026-09-19"
 tag: "Analysis"
+image: "/images/caitlin-clark-assists-turnovers-2026.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 Caitlin Clark averages 8.5 assists per game, the most in the WNBA. She also averages 4.6 turnovers per game, the most in the WNBA. Both figures come from 37 games and rank first among the 124 players who have appeared in at least 30.

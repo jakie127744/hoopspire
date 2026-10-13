@@ -6,6 +6,8 @@ author: Renee Castellano
 published: "2026-09-21"
 tag: "Result"
 game: "401857204"
+image: "/images/ogwumike-reaches-8000-points-sparks-beat-fire.jpg"
+imageCredit: "Photo: John Mac / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 [Nneka Ogwumike](/player/WNBA/1068) of the Los Angeles Sparks became the fourth player in WNBA history to score 8,000 career points on Sunday night, in a 105-84 win over the Portland Fire at Crypto.com Arena. She needed seven points to get there. She scored 20.

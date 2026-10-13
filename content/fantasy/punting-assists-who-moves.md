@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-09-23"
 tag: "Categories"
+image: "/images/punting-assists-who-moves.jpg"
+imageCredit: "Photo: Erik Drost / Wikimedia Commons (CC BY 2.0)"
 ---
 
 Josh Giddey ranks 61st of 150 in a nine-category pool. Remove assists from the scoring and he ranks 146th. Cade Cunningham goes from 18th to 71st, a fall of 53 places. If you plan to punt assists, do not pay draft-day prices for either of them.

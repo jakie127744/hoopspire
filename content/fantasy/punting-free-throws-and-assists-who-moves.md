@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-10-01"
 tag: "Categories"
+image: "/images/punting-free-throws-and-assists-who-moves.jpg"
+imageCredit: "Photo: Erik Drost / Wikimedia Commons (CC BY 2.0)"
 ---
 
 If you plan to punt free throws and assists together, you are drafting centers. [Rudy Gobert](/player/NBA/3032976) goes from 79th of 150 to 9th. [Jalen Duren](/player/NBA/4433621) goes from 28th to 11th, [Donovan Clingan](/player/NBA/5105565) from 27th to 12th and [Evan Mobley](/player/NBA/4432158) from 45th to 13th. On the other side, [James Harden](/player/NBA/3992) falls from 21st to 116th, and [Devin Booker](/player/NBA/3136193) from 59th to 143rd.

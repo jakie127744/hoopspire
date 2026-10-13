@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-09-30"
 tag: "Categories"
+image: "/images/punting-blocks-who-moves.jpg"
+imageCredit: "Photo: Frenchieinportland / Wikimedia Commons (CC BY 4.0)"
 ---
 
 If you plan to punt blocks, you can still take [Victor Wembanyama](/player/NBA/5104157) with the ninth pick. Do not take a center for his blocks. [Rudy Gobert](/player/NBA/3032976) goes from 79th to 140th. [Alex Sarr](/player/NBA/5160992) goes from 43rd to 128th and [Evan Mobley](/player/NBA/4432158) from 45th to 112th. On the other side, [Jalen Brunson](/player/NBA/3934672) climbs from 48th to 28th, and he blocks 0.1 shots a game, so the category you gave up was never his.

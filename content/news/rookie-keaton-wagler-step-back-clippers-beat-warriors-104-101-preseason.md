@@ -6,6 +6,8 @@ author: "Dana Whitfield"
 published: "2026-10-05"
 tag: "Result"
 game: "401918010"
+image: "/images/rookie-keaton-wagler-step-back-clippers-beat-warriors-104-101-preseason.jpg"
+imageCredit: "Photo: Maybemintz / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
 With 14 seconds left in Honolulu, [Keaton Wagler](/player/NBA/5254165) stepped back from 19 feet and put the Los Angeles Clippers ahead 102-101. The 19-year-old rookie, the fifth pick in the 2026 draft, had made two of his first 14 shots. The Clippers held on and beat the Golden State Warriors 104-101 on Sunday at the Stan Sheriff Center in the preseason opener for both teams.

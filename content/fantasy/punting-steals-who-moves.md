@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-09-24"
 tag: "Categories"
+image: "/images/punting-steals-who-moves.jpg"
+imageCredit: "Photo: 404x404 / Wikimedia Commons (CC BY 4.0)"
 ---
 
 Dyson Daniels ranks 35th of 150 in a nine-category pool. Remove steals from the scoring and he ranks 119th, a fall of 84 places. If you plan to punt steals, do not pay a top-40 price for him.

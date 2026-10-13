@@ -5,6 +5,8 @@ league: "NBA"
 author: "Franco Medina"
 published: "2026-10-10"
 tag: "Draft"
+image: "/images/28-of-the-top-150-changed-teams-draft-them-at-four-minutes-fewer-except-leonard.jpg"
+imageCredit: "Photo: U.S. Marine Corps photo by Lance Cpl. Mhecaela J. Watts / Wikimedia Commons (Public domain)"
 ---
 
 Here is the rule for the players who changed teams this summer: rank them where they land at four minutes fewer than last season, and take them there. Their value is built on minutes they played for a different coach, next to different teammates. None of them has played a regular-season minute for the new team yet. If they beat that number, you got a bargain. If they do not, you did not overpay.
