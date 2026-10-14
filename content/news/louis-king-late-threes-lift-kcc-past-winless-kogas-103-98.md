@@ -46,3 +46,5 @@ By quarter: KCC 30, 28, 29, 16. KOGAS 32, 18, 28, 20.
 ## What is next
 
 Both teams play on Saturday, October 10. KCC host the Wonju DB Promy at 2 p.m. Korea time, then the Suwon KT Sonicboom on Sunday. KOGAS visit the Ulsan Hyundai Mobis Phoebus at 4:30 p.m., still looking for their first win.
+
+Update: a week later King scored 44 in the East Asia Super League, [as KCC beat Nagasaki Velca 98-83](/story/louis-king-44-points-kcc-beat-nagasaki-velca-98-83-easl-champions-meeting).

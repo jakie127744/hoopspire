@@ -90,3 +90,5 @@ Shimane: Dexter Dennis 16, Yuta Okada 14, Shunsuke Ueda 10, Nick Kay 9, Jordan H
 ## What is next
 
 Five games are on Sunday, October 11: Ibaraki host Nagoya Diamond Dolphins, Utsunomiya host Akita, Altiri Chiba host Toyama, Tokyo SunRockers host Sendai and Kyoto host Mikawa.
+
+Update: Nagasaki played its first East Asia Super League game on October 14 and [lost 98-83 to KCC](/story/louis-king-44-points-kcc-beat-nagasaki-velca-98-83-easl-champions-meeting).
