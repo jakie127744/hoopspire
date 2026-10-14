@@ -49,7 +49,7 @@ function useIndex() {
           title: fold(a.title),
           dek: fold(a.description),
           text: fold(body),
-          meta: fold([league?.name, league?.fullName, a.league, a.tag, a.byline, a.deskName].filter(Boolean).join(' ')),
+          meta: fold([league?.name, league?.fullName, a.league, a.league2, getLeague(a.league2)?.name, a.tag, a.byline, a.deskName].filter(Boolean).join(' ')),
         }
       }),
     []
@@ -230,7 +230,7 @@ export default function Archive() {
   }
 
   // Filter options come from what exists, so no choice leads to nothing.
-  const leagues = LEAGUES.filter((l) => index.some((e) => e.a.league === l.key))
+  const leagues = LEAGUES.filter((l) => index.some((e) => e.a.leagues.includes(l.key)))
   const months = [...new Set(index.map((e) => e.month).filter(Boolean))].sort().reverse()
   const desks = Object.values(DESKS).filter((d) => index.some((e) => e.a.desk === d.key))
 
@@ -238,7 +238,7 @@ export default function Archive() {
   const results = index
     .filter(
       (e) =>
-        (!leagueParam || e.a.league === leagueParam) &&
+        (!leagueParam || e.a.leagues.includes(leagueParam)) &&
         (!deskParam || e.a.desk === deskParam) &&
         (!monthParam || e.month === monthParam)
     )

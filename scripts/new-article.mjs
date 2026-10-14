@@ -113,7 +113,7 @@ export function lintArticle(filename, raw, desk = 'margin') {
   // Capitalised keys are the trap: the parser keeps them, the site never reads
   // them, and the field silently vanishes from the page.
   for (const key of Object.keys(data)) {
-    const canonical = [...REQUIRED, 'league', 'image', 'imageCredit', 'draft', 'slug', 'game']
+    const canonical = [...REQUIRED, 'league', 'league2', 'image', 'imageCredit', 'draft', 'slug', 'game']
       .find((f) => f.toLowerCase() === key.toLowerCase())
     if (canonical && canonical !== key) {
       problems.push(`\`${key}\` should be \`${canonical}\` — the site reads the lowercase form`)
@@ -127,6 +127,14 @@ export function lintArticle(filename, raw, desk = 'margin') {
         : `league \`${data.league}\` is not a key in src/lib/leagues.js`,
     )
   }
+  // league2: the second club's home league, for a cross-league club game
+  // (East Asia Super League). Needs a primary league, a valid key, and a
+  // different one.
+  if (data.league2) {
+    if (!data.league) problems.push('`league2` is set without `league`')
+    else if (!LEAGUES.includes(data.league2)) problems.push(`league2 \`${data.league2}\` is not a key in src/lib/leagues.js`)
+    else if (data.league2 === data.league) problems.push('`league2` repeats `league`')
+  }
 
   // Bylines must exist on the masthead, sit on this desk, and on the news
   // desk cover the league. Older pieces were re-bylined to their beat on 2026-10-08.
@@ -138,7 +146,8 @@ export function lintArticle(filename, raw, desk = 'margin') {
       problems.push(`author \`${data.author}\` writes for the ${writer.desk} desk, not ${desk}`)
     } else if (
       desk === 'news' && writer.leagues && data.league &&
-      !writer.leagues.includes(data.league)
+      !writer.leagues.includes(data.league) &&
+      !(data.league2 && writer.leagues.includes(data.league2))
     ) {
       problems.push(`author \`${data.author}\` does not cover ${data.league}; use ${beatWriters(data.league).map((s) => s.byline).join(' or ') || 'Hoopspire Staff'}`)
     }

@@ -28,8 +28,8 @@ export default function Press() {
   const [league, setLeague] = useState('ALL')
   const all = getDesk('news')
 
-  const written = LEAGUES.filter((l) => all.some((a) => a.league === l.key))
-  const shown = league === 'ALL' ? all : all.filter((a) => a.league === league)
+  const written = LEAGUES.filter((l) => all.some((a) => a.leagues.includes(l.key)))
+  const shown = league === 'ALL' ? all : all.filter((a) => a.leagues.includes(league))
   const [lead, ...rest] = shown
 
   return (

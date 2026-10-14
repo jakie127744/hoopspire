@@ -219,7 +219,7 @@ export default function Home() {
     return t > now - 3 * 3600_000 && t <= now + WINDOW
   })
 
-  const withStories = new Set(originals.map((a) => a.league).filter(Boolean))
+  const withStories = new Set(originals.flatMap((a) => a.leagues))
   const withGames = new Set(showable.map((g) => g.league))
   const switcherLeagues = LEAGUES.filter((l) => withStories.has(l.key) || withGames.has(l.key))
 
@@ -236,7 +236,7 @@ export default function Home() {
   }
 
   const leagueGames = active ? showable.filter((g) => g.league === active) : showable
-  const stories = (active ? originals.filter((a) => a.league === active) : originals).slice(
+  const stories = (active ? originals.filter((a) => a.leagues.includes(active)) : originals).slice(
     0,
     GRID_SIZE
   )

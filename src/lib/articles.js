@@ -28,6 +28,8 @@
  *   title:  Why the Chiba Jets keep winning the fourth quarter
  *   dek:    A short standfirst, one or two sentences.
  *   league: BLeague          # a key from leagues.js, or omit for cross-league
+ *   league2: KBL             # optional second home league, for a game between
+ *                            # clubs from two leagues (East Asia Super League)
  *   author: Your Name
  *   published: 2026-09-09    # ISO date
  *   tag: Analysis            # Analysis | Data | Trends | Explainer | Feature
@@ -131,6 +133,10 @@ function build(path, raw, desk) {
     desk,
     deskName: DESKS[desk].name,
     league: data.league || null,
+    // A cross-league club game (EASL) is tagged with both clubs' home leagues,
+    // so it shows on both league pages. `league` stays the primary key.
+    league2: data.league2 || null,
+    leagues: [data.league, data.league2].filter(Boolean),
     // The ESPN event id a game recap is about, if it is one — a string,
     // since some are shaped like "401857201" and treating it as a number
     // would risk losing precision or dropping a leading digit on the way
@@ -172,14 +178,14 @@ const all = Object.entries(files)
  * has no reason to care which desk filed it.
  */
 export function getOriginals(leagueKey = null, limit = Infinity) {
-  const list = leagueKey ? all.filter((a) => a.league === leagueKey) : all
+  const list = leagueKey ? all.filter((a) => a.leagues.includes(leagueKey)) : all
   return list.slice(0, limit)
 }
 
 /** One desk's output, for its own section page. */
 export function getDesk(desk, leagueKey = null, limit = Infinity) {
   return all
-    .filter((a) => a.desk === desk && (!leagueKey || a.league === leagueKey))
+    .filter((a) => a.desk === desk && (!leagueKey || a.leagues.includes(leagueKey)))
     .slice(0, limit)
 }
 
@@ -224,7 +230,7 @@ export function relatedOriginals(article, limit = 3) {
     .sort((a, b) => {
       const score = (x) =>
         (x.desk === article.desk ? 4 : 0) +
-        (x.league === article.league ? 2 : 0) +
+        (x.leagues.some((l) => article.leagues.includes(l)) ? 2 : 0) +
         (x.tag === article.tag ? 1 : 0)
       return score(b) - score(a) || new Date(b.published || 0) - new Date(a.published || 0)
     })

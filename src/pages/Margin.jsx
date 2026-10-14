@@ -20,8 +20,8 @@ export default function Margin() {
   const all = getDesk('margin')
 
   // Only offer filters for leagues we have actually written about.
-  const written = LEAGUES.filter((l) => all.some((a) => a.league === l.key))
-  const shown = league === 'ALL' ? all : all.filter((a) => a.league === league)
+  const written = LEAGUES.filter((l) => all.some((a) => a.leagues.includes(l.key)))
+  const shown = league === 'ALL' ? all : all.filter((a) => a.leagues.includes(league))
 
   const [lead, ...rest] = shown
 
