@@ -49,3 +49,5 @@ If Portland or Toronto improves by 10 wins next season mostly through its offens
 ## What they should do
 
 The Tempo and the Fire should judge every offseason move by one question: does it make us better at stopping people? A defender who cannot score much is a better buy for them this winter than a scorer who cannot guard. The Valkyries are in the Finals with a middle-of-the-pack offense. That is the template, and it is sitting on the court at Chase Center on Saturday.
+
+**Update, October 14:** the Valkyries reached the Finals, and I have [picked the Dream to beat them](/story/ignore-the-3-0-pick-the-dream-to-win-the-wnba-finals). The defense is still the best case against my pick.
