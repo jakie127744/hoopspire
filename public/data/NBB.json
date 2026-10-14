@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-13T13:57:08.402Z",
+  "fetchedAt": "2026-10-14T11:35:11.655Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,32 @@
   ],
   "news": [
     {
+      "id": "NBB-helinho-celebra-rea-o-do-franca-em-mogi-",
+      "league": "NBB",
+      "title": "Helinho celebrates Franca's reaction in Mogi and values defense: \"Firm and confident\"",
+      "originalTitle": "Helinho celebra reação do Franca em Mogi e valoriza defesa: \"Firmes e confiantes\"",
+      "translatedFrom": "pt",
+      "description": "Victory in Mogi leads the decision of the Campeonato Paulista back to Franca Coach Helinho Garcia highlighted the posture of Sesi Franca in the 68-66 victory over Mogi das Cruzes, on Monday, at Hugo Ramos gymnasium. The result avoided the early title of the opponent, who led the series f",
+      "published": "2026-10-13T20:47:42.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/2RjZultoJ7-VBvAoVjpXfWMZA60=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/r/K/wSmLtjSTAduARaYi2YCQ/55585492033-e2b17ca71c-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/13/helinho-celebra-reacao-do-franca-em-mogi-e-valoriza-defesa-firmes-e-confiantes.ghtml"
+    },
+    {
+      "id": "NBB-nbb-flamengo-estuda-jogar-na-tijuca-ou-i",
+      "league": "NBB",
+      "title": "NBB: Flamengo studies playing in Tijuca or reversing orders against Botafogo after court decision",
+      "originalTitle": "NBB: Flamengo estuda jogar na Tijuca ou inverter mando contra Botafogo após decisão judicial",
+      "translatedFrom": "pt",
+      "description": "Novo Basquete Brasil (NBB) 2026/27 has not yet started, but Flamengo already have an impasse to resolve. Scheduled for October 20 (Tuesday) at 8:30 pm at Maracanãzinho, the classic between Rubro-Negro and Botafogo may change places. This is because the Court of Rio de Janeiro determined on this second q",
+      "published": "2026-10-13T18:00:55.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/hHuZYzgBcDvB23xJKwPN85ozIX8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/m/7/B8qBIPQl6SgWXaveVxWg/flamengo-x-botafogo-nbb-maracanazinho-26-04-2024-23.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/10/13/vasco-x-boca-na-sul-americana-pode-desalojar-classico-flamengo-x-botafogo-no-nbb.ghtml"
+    },
+    {
       "id": "NBB-franca-vence-mogi-de-virada-e-ganha-sobr",
       "league": "NBB",
       "title": "Franca wins Mogi by a landslide and gains survival in the Paulista basketball final",
@@ -16080,32 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/tM4FLYar0KO348NFUFqK1QeeG4Y=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/f/59sB5qRX27BZxssCnhew/55575958623-d9e0cadd24-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/07/com-lei-do-ex-de-georginho-mogi-bate-franca-no-pedrocao-e-abre-1-a-0-na-final-do-paulista.ghtml"
-    },
-    {
-      "id": "NBB-franca-x-mogi-no-jogo-1-da-final-do-paul",
-      "league": "NBB",
-      "title": "Franca vs. Mogi in game 1 of the Paulista final: where to watch live and time",
-      "originalTitle": "Franca x Mogi no jogo 1 da final do Paulista: onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Franca wins Paulistano and advances to the final of the Campeonato Paulista de Basquete Sesi Franca Basquete and Mogi Basquete start on Wednesday the decision of the Campeonato Paulista 2026. The first match of the best-of-five series takes place at Pedrocão, in Franca (SP), . The confrontation is a reissue of the deci",
-      "published": "2026-10-07T07:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/ZbETe6yRdvA8d1fWBE-nackKEXM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/m/a/h0TtjWRbSDu40MBcxxew/54383060986-b29178fe07-5k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/07/franca-x-mogi-no-jogo-1-da-final-do-paulista-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-sele-o-masculina-de-basquete-volta-ao-ib",
-      "league": "NBB",
-      "title": "Men's basketball team returns to Ibirapuera after 42 years for World Cup spot",
-      "originalTitle": "Seleção masculina de basquete volta ao Ibirapuera após 42 anos por vaga na Copa do Mundo",
-      "translatedFrom": "pt",
-      "description": "Gui Santos, from the NBA and the National Team, entertains basketball fans on the pitch The Brazilian men's basketball team resumes the FIBA 2027 World Cup Qualifiers on November 27 and 30 playing at home. Brazil will face the United States and Mexico on one of the most traditional stages",
-      "published": "2026-10-02T20:59:52.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/BNgGO7aQyaJqfBltfJccunzVuzc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/k/z/ox6h80SIiO9SC5Tip3tg/treino-jogo-das-estrelas-sexta-feira-27.03.2029-1693-1200x800.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/02/selecao-masculina-de-basquete-volta-ao-ibirapuera-apos-42-anos-por-vaga-na-copa-do-mundo.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-13T13:57:08.402Z",
-    "news": "2026-10-13T13:57:08.402Z"
+    "games": "2026-10-14T11:35:11.655Z",
+    "news": "2026-10-14T11:35:11.655Z"
   },
   "carriedOver": [
     "teams",

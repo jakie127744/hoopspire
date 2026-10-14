@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-13T13:56:56.078Z",
+  "fetchedAt": "2026-10-14T11:34:59.145Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -1585,7 +1585,7 @@
         "weight": "101 kg",
         "age": null,
         "country": null,
-        "headshot": null
+        "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215"
       },
       {
         "id": "5",
@@ -4875,7 +4875,7 @@
       "height": "202 cm",
       "weight": "101 kg",
       "country": null,
-      "headshot": null,
+      "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 17,
@@ -5221,6 +5221,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-508",
+      "league": "TPBL",
+      "title": "[One Hundred Reasons Why You Love Basketball Vol. 040] A Basketball Road of Dreams: Refining Your Authentic Self in the Face of Challenges and Low Tide",
+      "originalTitle": "【一百種喜歡籃球的原因 Vol. 040】逐夢不息的籃球路：在挑戰與低潮中淬鍊的真實自我",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-14T07:58:50.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/508/DQPQ0MgFSgB3g11YtWzE9XCQ4WfTDsvbdr3sEtG9.jpg?20261014161011",
+      "url": "https://tpbl.basketball/news/508"
+    },
+    {
       "id": "TPBL-503",
       "league": "TPBL",
       "title": "2026-27 TPBL Unboxing the New Ten Strengths Pre-Season Warm-Up Tournament Wrapping Up War Gods and Kings Welcome the Season with Two Consecutive Victories",
@@ -5362,19 +5375,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/456/DXSOvgplEDIZb6JmzoFQPIRGQHhyzrvv2La01Cbd.jpg?20260911101404",
       "url": "https://tpbl.basketball/news/466"
-    },
-    {
-      "id": "TPBL-492",
-      "league": "TPBL",
-      "title": "CITIC Special thanks Xu Shiqing and Coach Mu Jianhong for accompanying us all the way and strengthening the physical fitness coaching team to establish a perfect detection and recovery system",
-      "originalTitle": "中信特攻感謝許時清及穆建宏教練一路相伴 另補強體能教練團 建立完善檢測及恢復系統",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-09T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/477/UhX58ViV2PqBKOTz1hYnJgE52lvmBNH4RiwEylFf.png?20260930113148",
-      "url": "https://tpbl.basketball/news/492"
     }
   ],
   "leaders": {
@@ -5418,7 +5418,7 @@
       {
         "name": "基德",
         "playerId": "10869",
-        "headshot": null,
+        "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215",
         "team": "Mars",
         "teamId": "8",
         "value": "21.3",
@@ -5730,7 +5730,7 @@
       {
         "name": "基德",
         "playerId": "10869",
-        "headshot": null,
+        "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215",
         "team": "Mars",
         "teamId": "8",
         "value": "1.5",
@@ -5840,12 +5840,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-13T13:56:56.078Z",
-    "rosters": "2026-10-13T13:56:56.078Z",
-    "playerStats": "2026-10-13T13:56:56.078Z",
-    "standings": "2026-10-13T13:56:56.078Z",
-    "games": "2026-10-13T13:56:56.078Z",
-    "news": "2026-10-13T13:56:56.078Z",
-    "leaders": "2026-10-13T13:56:56.078Z"
+    "teams": "2026-10-14T11:34:59.145Z",
+    "rosters": "2026-10-14T11:34:59.145Z",
+    "playerStats": "2026-10-14T11:34:59.145Z",
+    "standings": "2026-10-14T11:34:59.145Z",
+    "games": "2026-10-14T11:34:59.145Z",
+    "news": "2026-10-14T11:34:59.145Z",
+    "leaders": "2026-10-14T11:34:59.145Z"
   }
 }

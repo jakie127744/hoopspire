@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-10-13T13:55:12.745Z",
+  "fetchedAt": "2026-10-14T11:33:44.777Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -6140,8 +6140,8 @@
     {
       "id": "S49G01N20",
       "league": "KBL",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-14T19:00:00+09:00",
@@ -6153,7 +6153,7 @@
         "name": "Daegu Korea Gas Corporation",
         "abbr": "DKGC",
         "logo": null,
-        "score": null,
+        "score": 62,
         "linescores": [],
         "leaders": []
       },
@@ -6162,7 +6162,7 @@
         "name": "Suwon KT Sonicboom",
         "abbr": "SKS",
         "logo": null,
-        "score": null,
+        "score": 55,
         "linescores": [],
         "leaders": []
       }
@@ -7126,6 +7126,36 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S49G01N53",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-04T19:00:00+09:00",
+      "venue": "Jamsil Student Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N53/20261104",
+      "home": {
+        "id": "seoul-sk-knights",
+        "name": "Seoul SK Knights",
+        "abbr": "SSK",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "daegu-korea-gas-corporation",
+        "name": "Daegu Korea Gas Corporation",
+        "abbr": "DKGC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -7606,13 +7636,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-13T13:55:12.745Z",
-    "rosters": "2026-10-13T13:55:12.745Z",
-    "playerStats": "2026-10-13T13:55:12.745Z",
-    "standings": "2026-10-13T13:55:12.745Z",
-    "games": "2026-10-13T13:55:12.745Z",
+    "teams": "2026-10-14T11:33:44.777Z",
+    "rosters": "2026-10-14T11:33:44.777Z",
+    "playerStats": "2026-10-14T11:33:44.777Z",
+    "standings": "2026-10-14T11:33:44.777Z",
+    "games": "2026-10-14T11:33:44.777Z",
     "news": "2026-10-08T13:08:38.842Z",
-    "leaders": "2026-10-13T13:55:12.745Z"
+    "leaders": "2026-10-14T11:33:44.777Z"
   },
   "carriedOver": [
     "news"

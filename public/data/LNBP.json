@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-10-13T13:56:43.089Z",
+  "fetchedAt": "2026-10-14T11:34:44.068Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -16811,6 +16811,45 @@
   ],
   "news": [
     {
+      "id": "LNBP-doradosavanzaalosplayoffsalsuperaragambusinos",
+      "league": "LNBP",
+      "title": "DORADOS ADVANCES TO THE PLAYOFFS BY BEATING GAMBUSINOS",
+      "originalTitle": "DORADOS AVANZA A LOS PLAYOFFS AL SUPERAR A GAMBUSINOS",
+      "translatedFrom": "es",
+      "description": "- The Chihuahua quintet won its ticket for the seventh time in the recent eight seasons Chihuahua, Chih.- (Almer Soto - Prensa Dorados) October 12.- Dorados de Chihuahua defeated the Gambusinos de Fresnillo 88-87 in Play-in Game 2 on Monday night in",
+      "published": "2026-10-13T11:58:25.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/e6520f43c0322bb4e1cf69fefdede99b.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-minerosempatalaseriedeplayinantediablosrojos",
+      "league": "LNBP",
+      "title": "Mineros ties the series of play in ante Diablos Rojos",
+      "originalTitle": "Mineros empata la serie de play in ante Diablos Rojos",
+      "translatedFrom": "es",
+      "description": "-Anyelo Cisneros scored 28 points in the victory of the Zacatecanos With claw, defense and the support of the best fans in the country, the Mineros de Zacatecas beat Diablos Rojos del México 97-86 and tied the play-in series in the 2026 season of the",
+      "published": "2026-10-13T11:57:05.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/80ea4880f8fda19f58302ba5d96dce7c.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-lobospueblasellasupasealosplayoffs",
+      "league": "LNBP",
+      "title": "Lobos Puebla Seals Playoff Pass",
+      "originalTitle": "Lobos Puebla sella su pase a los Playoffs",
+      "translatedFrom": "es",
+      "description": "The pack came from behind to prevail in the second game of the Play-In and will now face the Aguascalientes Panthers in the next stage of the postseason. Puebla, Mexico on October 12, 2026 Lobos Puebla got their ticket to the LNBP Zone Semifinals after expiration",
+      "published": "2026-10-13T11:54:23.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/9b5c4040efb5716541a7f3922c251839.jpg",
+      "url": null
+    },
+    {
       "id": "LNBP-pierdenlosmineros9298antediablosrojosenelprimerjuegodelplayi",
       "league": "LNBP",
       "title": "Miners lose 92-98 to Red Devils in the first game of the play in",
@@ -16925,45 +16964,6 @@
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/df9c096c745d8148f8ca53c9b8c2ee5f.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-solesaseguraelprimerlugaralderrotaramonterrey",
-      "league": "LNBP",
-      "title": "Soles secures first place by defeating Monterrey",
-      "originalTitle": "Soles asegura el primer lugar al derrotar a Monterrey",
-      "translatedFrom": "es",
-      "description": "Soles de Mexicali secured first place in the 2026 Liga Caliente.Mx LNBP season standings by beating Fuerza Regia de Monterrey with a 88-86 slate in a dramatic match. The stage of the PSF Auditorium was the scene of a match worthy of play offs, with",
-      "published": "2026-10-07T14:05:15.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/5d91cca300006f97961d136074f80ccb.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-victoriadramticaparalosdeaguascalientesenlosltimossegundos",
-      "league": "LNBP",
-      "title": "Dramatic victory for Aguascalientes in the last seconds",
-      "originalTitle": "Victoria dramática para los de Aguascalientes en los últimos segundos",
-      "translatedFrom": "es",
-      "description": "The last series of the regular season of the Aguascalientes Panthers began, receiving the Diablos Rojos del México in an intense first game that was defined in the last seconds with victory for the locals 77 to 76. In the first ten minutes, Jhamir Brickus engages",
-      "published": "2026-10-07T14:03:08.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/a59adf23255a90003bec9fee5f8b402a.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-freserosbsquetbolsejuegalaclasificacinenelltimopartidodelate",
-      "league": "LNBP",
-      "title": "Strawberries Basketball qualification is played in the last game of the season",
-      "originalTitle": "Freseros Básquetbol se juega la clasificación en el último partido de la temporada",
-      "translatedFrom": "es",
-      "description": "Irapuato, Guanajuato — October 06 Freseros Basketball lost 85-105 to Dorados de Chihuahua at Inforum Irapuato, in a match in which the visiting team took advantage from the first period and managed to keep it until the end. Dorados started more effectively and c",
-      "published": "2026-10-07T13:56:50.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/8f774f74e5e9eb256fe6fa458a1f8808.jpg",
       "url": null
     }
   ],
@@ -17430,12 +17430,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-13T13:56:43.089Z",
+    "teams": "2026-10-14T11:34:44.068Z",
     "rosters": "2026-10-06T20:33:41.149Z",
     "playerStats": "2026-10-06T20:33:41.149Z",
-    "standings": "2026-10-13T13:56:43.089Z",
-    "games": "2026-10-13T13:56:43.089Z",
-    "news": "2026-10-13T13:56:43.089Z",
+    "standings": "2026-10-14T11:34:44.068Z",
+    "games": "2026-10-14T11:34:44.068Z",
+    "news": "2026-10-14T11:34:44.068Z",
     "leaders": "2026-10-06T20:33:41.149Z"
   },
   "carriedOver": [
