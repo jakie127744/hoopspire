@@ -50,3 +50,5 @@ If Antetokounmpo is on the board in the range you had him penciled in before the
 ## What would change this
 
 A blowout preseason, an injury to either big, or Spoelstra abandoning the stagger plan in favor of playing them 15 to 20 minutes together a night would all move these numbers, in either direction. Recheck both players' minutes after the first two weeks of the regular season rather than trusting a September projection into November.
+
+**Update, October 14:** in two preseason games Miami started Antetokounmpo and Adebayo together both times, and they shared 22.7 of Antetokounmpo's 32 minutes. [Here is the revised call: take back half of the Bam discount](/story/giannis-and-bam-shared-23-of-32-preseason-minutes-take-back-half-the-bam-discount).
