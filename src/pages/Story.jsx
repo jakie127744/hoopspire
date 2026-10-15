@@ -84,7 +84,7 @@ export default function Story() {
       {article.image && (
         <figure className="mt-10">
           <div className="aspect-[16/9] overflow-hidden border border-parchment bg-parchment">
-            <img src={article.image} alt="" className="h-full w-full object-cover" />
+            <img src={article.image} alt="" className="h-full w-full object-cover object-[50%_20%]" />
           </div>
           {article.imageCredit && (
             <figcaption className="eyebrow mt-2 text-ink/35">{article.imageCredit}</figcaption>

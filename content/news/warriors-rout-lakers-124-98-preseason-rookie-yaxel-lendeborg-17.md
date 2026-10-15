@@ -6,7 +6,7 @@ author: "Dana Whitfield"
 published: "2026-10-07"
 tag: "Result"
 game: "401898390"
-image: "/images/warriors-rout-lakers-124-98-preseason-rookie-yaxel-lendeborg-17.jpg"
+image: "/images/warriors-rout-lakers-124-98-preseason-rookie-yaxel-lendeborg-17-v2.jpg"
 imageCredit: "Photo: TonyTheTiger / Wikimedia Commons (CC0)"
 ---
 

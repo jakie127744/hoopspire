@@ -5,7 +5,7 @@ league: "PBA"
 author: "Marisol Reyes"
 published: "2026-10-14"
 tag: "Result"
-image: "/images/june-mar-fajardo-25-12-san-miguel-rout-terrafirma-135-105.jpg"
+image: "/images/june-mar-fajardo-25-12-san-miguel-rout-terrafirma-135-105-v2.jpg"
 imageCredit: "Photo: MarcusAbacus / Wikimedia Commons (CC BY 4.0)"
 ---
 

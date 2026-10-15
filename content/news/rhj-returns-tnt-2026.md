@@ -5,7 +5,7 @@ league: "PBA"
 author: "Marisol Reyes"
 published: "2026-10-12"
 tag: "Report"
-image: "/images/rhj-returns-tnt-2026.jpg"
+image: "/images/rhj-returns-tnt-2026-v2.jpg"
 imageCredit: "Photo: Agararol81 / Wikimedia Commons (CC BY 4.0)"
 ---
 

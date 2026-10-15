@@ -5,7 +5,7 @@ league: "BLeague"
 author: "Kenji Arakawa"
 published: "2026-10-11"
 tag: "Result"
-image: "/images/jarrett-culver-scores-sendais-last-three-baskets-70-68-at-sunrockers-nagoya-stay-unbeaten.jpg"
+image: "/images/jarrett-culver-scores-sendais-last-three-baskets-70-68-at-sunrockers-nagoya-stay-unbeaten-v2.jpg"
 imageCredit: "Photo: Ellerad / Wikimedia Commons (CC BY 4.0)"
 ---
 

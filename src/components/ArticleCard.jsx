@@ -151,7 +151,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
               <img
                 src={article.image}
                 alt={article.imageCaption || ''}
-                className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                className="h-full w-full object-cover object-[50%_20%] transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
                 onError={() => setImageOk(false)}
               />
@@ -203,7 +203,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
             <img
               src={article.image}
               alt={article.imageCaption || ''}
-              className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+              className="h-full w-full object-cover object-[50%_20%] transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
               onError={() => setImageOk(false)}
             />
@@ -236,7 +236,7 @@ export default function ArticleCard({ article, variant = 'list' }) {
           <img
             src={article.image}
             alt={article.imageCaption || ''}
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className="h-full w-full object-cover object-[50%_20%] transition-transform duration-700 group-hover:scale-105"
             loading="lazy"
             onError={() => setImageOk(false)}
           />

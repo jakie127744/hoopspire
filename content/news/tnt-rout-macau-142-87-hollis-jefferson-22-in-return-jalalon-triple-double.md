@@ -5,7 +5,7 @@ league: "PBA"
 author: "Marisol Reyes"
 published: "2026-10-13"
 tag: "Result"
-image: "/images/tnt-rout-macau-142-87-hollis-jefferson-22-in-return-jalalon-triple-double.jpg"
+image: "/images/tnt-rout-macau-142-87-hollis-jefferson-22-in-return-jalalon-triple-double-v2.jpg"
 imageCredit: "Photo: Agararol81 / Wikimedia Commons (CC BY 4.0)"
 ---
 
