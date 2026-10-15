@@ -66,3 +66,5 @@ By quarter: TNT 27, 30, 22, 37. Terrafirma 22, 20, 20, 30.
 ## What is next
 
 Group B returns on Friday, October 9: Blackwater play Magnolia, and Barangay Ginebra play Rain or Shine. On Saturday, October 10, Macau play Terrafirma and TNT play San Miguel.
+
+Update: Terrafirma were knocked out of the playoff race at 4-7 after a [135-105 loss to San Miguel on October 14](/story/june-mar-fajardo-25-12-san-miguel-rout-terrafirma-135-105).
