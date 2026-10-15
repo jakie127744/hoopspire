@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-14T11:34:52.782Z",
+  "fetchedAt": "2026-10-15T11:10:57.735Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16521,6 +16521,19 @@
   ],
   "news": [
     {
+      "id": "CBA-promisingchineseteenbasketballplayerjoin",
+      "league": "CBA",
+      "title": "Promising Chinese teen basketball player joins top US high school, sparking training debate",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A top American high school snapping up a talented Chinese teen basketball player once deemed “too short” to represent the national team has sparked debate online about the country’s rigid training and selection criteria. Zhang Yuchen, who has drawn similarities to Golden State Wa",
+      "published": "2026-10-15T06:55:28.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/15/1e6544e5-e3ad-44ac-a4c4-228ea43aec1b_9f6e4dd2.jpg?itok=RqksbHYY&v=1792047320",
+      "url": "https://www.scmp.com/sport/basketball/article/3370976/promising-chinese-teen-basketball-player-joins-top-us-high-school-sparking-training-debate?utm_source=rss_feed"
+    },
+    {
       "id": "CBA-chinabasketballchiefguowarnsnationalteam",
       "league": "CBA",
       "title": "China basketball chief Guo warns national team, domestic league entering critical time",
@@ -17041,8 +17054,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-14T11:34:52.782Z",
-    "news": "2026-10-14T11:34:52.782Z"
+    "games": "2026-10-15T11:10:57.735Z",
+    "news": "2026-10-15T11:10:57.735Z"
   },
   "carriedOver": [
     "teams",
