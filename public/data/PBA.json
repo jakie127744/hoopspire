@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-15T11:10:41.376Z",
+  "fetchedAt": "2026-10-16T11:05:40.436Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14774,6 +14774,58 @@
   ],
   "news": [
     {
+      "id": "PBA-jordanclarksonhopingforanothergilasstint",
+      "league": "PBA",
+      "title": "Jordan Clarkson hoping for another Gilas stint before 'hanging it up'",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Jordan Clarkson has already reached the NBA mountaintop, but the Filipino-American guard still has unfinished business with Gilas Pilipinas.",
+      "published": "2026-10-16T05:34:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/16/2563650/jordan-clarkson-hoping-another-gilas-stint-hanging-it-up"
+    },
+    {
+      "id": "PBA-convergegetsshotatnastysendoffformacau",
+      "league": "PBA",
+      "title": "Converge gets shot at nasty sendoff for Macau",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Converge coach Delta Pineda was talking about adjustments the team still needs despite coming off a decisive rout of Titan Ultra in the PBA Governors’ Cup recently. “We need to find a way to maintain our intensity, especially on defense,” Pineda said in Filipino after the 152-119",
+      "published": "2026-10-16T05:20:34.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image17-6.jpg",
+      "url": "https://sports.inquirer.net/701759/converge-gets-shot-at-nasty-sendoff-for-macau"
+    },
+    {
+      "id": "PBA-roadwarriorsfightknowingtheyhavealottopr",
+      "league": "PBA",
+      "title": "Road Warriors fight knowing they have a lot to prove",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Robert Bolick understood where Jimmy Alapag was coming from when the NLEX coach made sure he would get his message across after a sluggish first half against Titan Ultra on Wednesday. The Road Warriors would eventually wake up from their slumber to secure a 147-115 victory at Nin",
+      "published": "2026-10-16T05:15:34.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-20.jpg",
+      "url": "https://sports.inquirer.net/701765/road-warriors-fight-knowing-they-have-a-lot-to-prove"
+    },
+    {
+      "id": "PBA-pbaburtonseesadifferentsideofalapagafter",
+      "league": "PBA",
+      "title": "PBA: Burton sees a different side of Alapag after NLEX’s slow start",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–NLEX import Deonte Burton admitted that it was his first time seeing coach Jimmy Alapag lose a bit of his usual calm and collected manner after the Road Warriors went through some rough patches before cruising past the Titan Ultra Giant Risers, 147-115, on Wed",
+      "published": "2026-10-15T20:18:23.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-11.jpg",
+      "url": "https://sports.inquirer.net/701753/pba-burton-sees-a-different-side-of-alapag-after-nlexs-slow-start"
+    },
+    {
       "id": "PBA-pbajiojalalonmakesmostofchancewithtriple",
       "league": "PBA",
       "title": "PBA: Jio Jalalon makes most of chance with triple-double for TNT",
@@ -14813,71 +14865,6 @@
       "url": "https://sports.inquirer.net/701602/fajardo-nears-milestone-after-smb-victory"
     },
     {
-      "id": "PBA-pbadontplaywiththegamejimmyalapagreminds",
-      "league": "PBA",
-      "title": "PBA: ‘Don’t play with the game,’ Jimmy Alapag reminds NLEX",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Coach Jimmy Alapag made his feelings known after a rough first-half showing by NLEX in its 147-115 victory over Titan Ultra in the 2026 PBA Governors’ Cup on Wednesday at Ninoy Aquino Stadium. A moment early in the contest encapsulated Alapag’s frustrations wh",
-      "published": "2026-10-14T23:56:01.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-19.jpg",
-      "url": "https://sports.inquirer.net/701639/pba-dont-play-with-the-game-jimmy-alapag-reminds-nlex"
-    },
-    {
-      "id": "PBA-pbanlexracespasttitanultramovesclosertog",
-      "league": "PBA",
-      "title": "PBA: NLEX races past Titan Ultra, moves closer to Group A top seed",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–NLEX flipped the switch in the second half and pummeled Titan Ultra into oblivion with a 147-115 victory to close in on the top seed in Group A of the 2026 PBA Governors’ Cup on Wednesday at Ninoy Aquino Stadium. Import Deonte Burton had 21 points, nine reboun",
-      "published": "2026-10-14T22:45:17.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-20.jpg",
-      "url": "https://sports.inquirer.net/701636/pba-nlex-races-past-titan-ultra-moves-closer-to-group-a-top-seed"
-    },
-    {
-      "id": "PBA-pbajunemarfajardonears10000pointsbutputs",
-      "league": "PBA",
-      "title": "PBA: June Mar Fajardo nears 10,000 points but puts team first",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–June Mar Fajardo moved five points shy of becoming the 19th player in history to reach the 10,000-point club after scoring 25 in San Miguel Beer’s 135-105 win over Terrafirma in the 2026 PBA Governors’ Cup. Fajardo’s conference-high allowed him to move closer ",
-      "published": "2026-10-14T21:25:52.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-19.jpg",
-      "url": "https://sports.inquirer.net/701586/pba-june-mar-fajardo-nears-10000-points-but-puts-team-first"
-    },
-    {
-      "id": "PBA-pbasanmigueltrouncesterrafirmabehindgeor",
-      "league": "PBA",
-      "title": "PBA: San Miguel trounces Terrafirma behind George King’s 44",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–San Miguel Beer bounced back from its stinging loss to TNT by running roughshod over Terrafirma, 135-105, on Wednesday in the 2026 PBA Governors’ Cup at Ninoy Aquino Stadium. George King dropped 44 points while June Mar Fajardo had his best game of the confere",
-      "published": "2026-10-14T20:30:48.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-14-1.jpg",
-      "url": "https://sports.inquirer.net/701549/pba-san-miguel-trounces-terrafirma-behind-george-kings-44"
-    },
-    {
-      "id": "PBA-pbameralcokeepspaceincrowdedquarterfinal",
-      "league": "PBA",
-      "title": "PBA: Meralco keeps pace in crowded quarterfinal chase",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Meralco knows anything can still happen, even as it gained ground in the wild chase for the three remaining quarterfinal spots in Group B of the 2026 PBA Governors’ Cup. The Bolts came away with a 120-115 win over the Blackwater Bossing on Tuesday to climb int",
-      "published": "2026-10-14T17:39:59.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-18.jpg",
-      "url": "https://sports.inquirer.net/701507/pba-meralco-keeps-pace-in-crowded-quarterfinal-chase"
-    },
-    {
       "id": "PBA-pbanlexpullsawayinsecondhalftorouttitanu",
       "league": "PBA",
       "title": "PBA: NLEX pulls away in second half to rout Titan Ultra",
@@ -14889,19 +14876,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005960/pba-nlex-pulls-away-in-second-half-to-rout-titan-ultra/story/"
-    },
-    {
-      "id": "PBA-nlexblaststitanultramovesclosertopbagrou",
-      "league": "PBA",
-      "title": "NLEX blasts Titan Ultra, moves closer to PBA Group A top seed",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX kept the lead in Group A of the PBA Season 50 Governors’ Cup after beating Titan Ultra, 147-115, on Wednesday night at the Ninoy Aquino Stadium. The game was tied at the half, but the Road Warriors suddenly roared in the third with 37 big points for a 102-79 lead entering th",
-      "published": "2026-10-14T13:54:00.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-NLEX-def-Terrafirma-Kevin-Alas-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/nlex-blasts-titan-ultra-moves-closer-to-pba-group-a-top-seed/386636"
     },
     {
       "id": "PBA-pbageorgekingpowerssanmiguelto30pointdem",
@@ -14928,19 +14902,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005842/pba-meralco-spared-from-major-breakdown-after-holding-off-blackwater/story/"
-    },
-    {
-      "id": "PBA-pbatntcrushesmacauby55pointsasrondaeholl",
-      "league": "PBA",
-      "title": "PBA: TNT crushes Macau by 55 points as Rondae Hollis-Jefferson makes resounding return",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "TNT unloaded a huge second quarter to pull away and pull off a 142-87 win against Macau and mark Rondae Hollis-Jefferson's return in the PBA Season 50 Governors' Cup on Tuesday.",
-      "published": "2026-10-13T16:13:39.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005840/pba-tnt-crushes-macau-by-55-points-as-rondae-hollis-jefferson-makes-resounding-return/story/"
     }
   ],
   "leaders": {
@@ -15411,8 +15372,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-15T11:10:41.376Z",
-    "news": "2026-10-15T11:10:41.376Z"
+    "games": "2026-10-16T11:05:40.436Z",
+    "news": "2026-10-16T11:05:40.436Z"
   },
   "carriedOver": [
     "teams",
