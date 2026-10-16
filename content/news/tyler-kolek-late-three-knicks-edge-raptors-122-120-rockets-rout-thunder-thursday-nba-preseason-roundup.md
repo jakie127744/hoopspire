@@ -42,3 +42,5 @@ Rockets: Bogdan Bogdanovic 15, Alperen Sengun 14, Amen Thompson 12, Tari Eason 1
 Thunder: Jalen Williams 18, Shai Gilgeous-Alexander 17, Brooks Barnhizer 9, Jared McCain 8, Ajay Mitchell 7, Isaiah Hartenstein 6, Aday Mara 6, Bennett Stirtz 5, Kenrich Williams 4, Josh Dix 4, Alex Caruso 3, Andrew Holifield 2, Christoph Tilly 0, Anthony Pritchard 0.
 
 **By quarter:** Rockets 33, 21, 25, 37. Thunder 15, 32, 22, 20.
+
+Opinion: [why neither Knicks-Raptors score this week meant much](/story/knicks-lost-by-50-then-won-ignore-the-preseason-scoreboard).

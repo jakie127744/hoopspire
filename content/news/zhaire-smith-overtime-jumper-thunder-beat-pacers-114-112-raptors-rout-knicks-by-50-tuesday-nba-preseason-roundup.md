@@ -82,3 +82,5 @@ Kings: Jonathan Mogbo 15, Tristen Newton 15, Precious Achiuwa 12, Emanuel Sharp 
 Toronto and New York meet again on Thursday, October 15, at Madison Square Garden at 7:30 p.m. ET. Oklahoma City plays at Houston that night at 8:30 p.m. ET. On Friday, October 16, Milwaukee visits Indiana at 7 p.m. ET, Miami visits Orlando at 7 p.m., Sacramento plays at San Antonio at 8 p.m., Portland plays at Golden State at 10 p.m. and Denver visits the Lakers at 10:30 p.m. Cleveland has finished its preseason and opens at Philadelphia on Thursday, October 22. The regular season starts on Tuesday, October 20.
 
 Update: two nights later, with their starters back, [the Knicks beat the Raptors 122-120 at Madison Square Garden](/story/tyler-kolek-late-three-knicks-edge-raptors-122-120-rockets-rout-thunder-thursday-nba-preseason-roundup).
+
+Opinion: [why neither Knicks-Raptors score this week meant much](/story/knicks-lost-by-50-then-won-ignore-the-preseason-scoreboard).

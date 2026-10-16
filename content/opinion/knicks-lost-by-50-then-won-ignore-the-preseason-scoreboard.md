@@ -7,7 +7,7 @@ published: "2026-10-17"
 tag: "Second Look"
 ---
 
-On Tuesday night in Toronto, the Raptors beat the New York Knicks 148-98. They led by 53 late in the game. Two nights later, at Madison Square Garden, the same Knicks beat the same Raptors 122-120.
+On Tuesday night in Toronto, the Raptors [beat the New York Knicks 148-98](/story/zhaire-smith-overtime-jumper-thunder-beat-pacers-114-112-raptors-rout-knicks-by-50-tuesday-nba-preseason-roundup). They led by 53 late in the game. Two nights later, at Madison Square Garden, the same Knicks [beat the same Raptors 122-120](/story/tyler-kolek-late-three-knicks-edge-raptors-122-120-rockets-rout-thunder-thursday-nba-preseason-roundup).
 
 If you took the first score seriously, you spent Wednesday worrying about New York. If you took the second one seriously, you spent Friday feeling better. I think both reactions were wrong, and the reason is worth getting straight before the season starts, because the same thing will happen again next October.
 
