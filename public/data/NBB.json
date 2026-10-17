@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-16T11:06:19.628Z",
+  "fetchedAt": "2026-10-17T10:28:28.692Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,58 @@
   ],
   "news": [
     {
+      "id": "NBB-comentarista-aponta-dois-favoritos-ao-t-",
+      "league": "NBB",
+      "title": "Commentator points out two favorites for the NBB title, which starts this Saturday; see analysis",
+      "originalTitle": "Comentarista aponta dois favoritos ao título do NBB, que começa neste sábado; veja análise",
+      "translatedFrom": "pt",
+      "description": "Pedro Maia points out favorites for the NBB 2026/2027 title The wait of just over four months has ended. This Saturday (17), three games will decree the beginning of the 19th season of Novo Basquete Brasil (NBB). In all, 18 teams will face each other in turn and return, in a format of running points, with an eye on",
+      "published": "2026-10-17T07:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/JTTsf1fBQolba_i5eV9TizGtqtQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/f/sHr88yQiaZjwmJAZRoqA/snapinsta.to-713463596-18592233067050814-8432888352337586977-n.jpg",
+      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/17/comentarista-aponta-dois-favoritos-ao-titulo-do-nbb-que-comeca-neste-sabado-veja-analise.ghtml"
+    },
+    {
+      "id": "NBB-helinho-exalta-evolu-o-de-jovens-ap-s-vi",
+      "league": "NBB",
+      "title": "Helinho exalts the evolution of young people after Franca's vice and projects NBB with reinforcements",
+      "originalTitle": "Helinho exalta evolução de jovens após vice do Franca e projeta NBB com reforços",
+      "translatedFrom": "pt",
+      "description": "Franca loses to Mogi and takes second place at Paulista Despite the 68-53 defeat at Pedrocão and the São Paulo vice-championship against Mogi das Cruzes – which closed the final series 3-1 last Thursday — coach Helinho Garcia positively evaluated the trajectory of Sesi Franca",
+      "published": "2026-10-16T21:33:33.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/EGXD9lhadnmuQh4j6Ymxr1lLvRs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/t/l/BiQ0aQSWSJyJbbmheeHg/55592334563-1ed21f9338-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/16/helinho-exalta-evolucao-de-jovens-apos-vice-do-franca-e-projeta-nbb-com-reforcos.ghtml"
+    },
+    {
+      "id": "NBB-ap-s-decep-o-no-nbb-flamengo-investe-em-",
+      "league": "NBB",
+      "title": "After disappointment in the NBB, Flamengo invests in a younger cast and returns from Yago to \"win it all\"",
+      "originalTitle": "Após decepção no NBB, Flamengo investe em elenco mais jovem e volta de Yago para \"ganhar tudo\"",
+      "translatedFrom": "pt",
+      "description": "Yago Mateus says that Flamengo basketball thinks about winning everything in the season Novo Basquete Brasil (NBB) 's greatest champion, with seven cups, Flamengo arrives at the 2026/2027 edition willing to start again. Last season, the Rio club finished the qualifying round outside the top 4 and was eliminated in",
+      "published": "2026-10-16T19:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/2CiN5eYgJl-ysdLFP3I-dgBQ-J8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/A/dXnyqlRkAsIKRbtJKGow/por-yurireuters-yrs05932.jpg",
+      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/16/apos-decepcao-no-nbb-flamengo-investe-em-elenco-mais-jovem-e-volta-de-yago-para-ganhar-tudo.ghtml"
+    },
+    {
+      "id": "NBB-yago-mateus-assume-favoritismo-do-flamen",
+      "league": "NBB",
+      "title": "Yago Mateus assumes Flamengo's favoritism before the NBB debut",
+      "originalTitle": "Yago Mateus assume favoritismo do Flamengo antes da estreia no NBB",
+      "translatedFrom": "pt",
+      "description": "Yago Mateus talks about the conquest of Carioca by Flamengo Two cups in just one week. This is Flamengo's balance at the beginning of the season. Back at the club after four years, Yago Mateus is sincere when talking about Rubro-Negro's favoritism in NBB (Novo Basquete Brasil) 2026/27, which begins in",
+      "published": "2026-10-16T11:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/3V-s4FqdPHd8GIVGb5zaMdIKMpc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/I/n/oJN3PHTA2zPKAOPeAACg/dur6748.jpeg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/10/16/yago-mateus-assume-favoritismo-do-flamengo-antes-da-estreia-no-nbb.ghtml"
+    },
+    {
       "id": "NBB-pato-basquete-no-nbb-veja-a-agenda-de-jo",
       "league": "NBB",
       "title": "Basketball Duck on the NBB: see the schedule of games of the first round in the 2026/2027 season",
@@ -16054,58 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/9Eg4BmX1ybs_LRZdOfmkNfmjgZU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/Q/BAH9X9SSmXBzjv0ArAtg/55581579858-459cab835c-k.jpg",
       "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/12/mogi-x-franca-no-jogo-3-da-final-do-paulista-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-gui-santos-brilha-nas-jogadas-faz-15-pon",
-      "league": "NBB",
-      "title": "Gui Santos shines on the plays, scores 15 points in the Warriors' victory and receives applause from Curry; see",
-      "originalTitle": "Gui Santos brilha nas jogadas, faz 15 pontos na vitória dos Warriors e recebe aplausos de Curry; veja",
-      "translatedFrom": "pt",
-      "description": "Gui Santos, NBA and National Team, entertains basketball fans in Gramado Gui Santos gave a play show in the Golden State Warriors' preseason win over the Sacramento Kings in the NBA. Last Saturday, the Brazilian scored 15 points and was the third highest scorer of the Warriors, who won a",
-      "published": "2026-10-11T13:13:57.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/BtoXTWZMHsjtV3yV67GymckD7uo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/2/oA2rZbSIOQFToQ8URWMQ/2026-10-11t033931z-1664179466-mt1usatoday30055014-rtrmadp-3-nba-preseason-sacramento-kings-at-golden-state-warriors.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/11/gui-santos-brilha-nas-jogadas-faz-15-pontos-na-vitoria-dos-warriors-e-recebe-aplausos-de-curry-veja.ghtml"
-    },
-    {
-      "id": "NBB-helinho-cita-processo-de-reformula-o-e-p",
-      "league": "NBB",
-      "title": "Helinho cites reformulation process and loss of defensive control in new defeat to Mogi",
-      "originalTitle": "Helinho cita processo de reformulação e perda de controle defensivo em nova derrota para Mogi",
-      "translatedFrom": "pt",
-      "description": "Georginho shines and Franca loses to Mogi at Pedrocão Coach Helinho Garcia recognized the drop in performance of Sesi Franca in the 92-60 defeat to Mogi, played on Saturday night, at Hugo Ramos gymnasium, in game 2 of the São Paulo Basketball Championship final. The negative result by 3",
-      "published": "2026-10-11T11:25:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/EoIQZZFwULOaeSnKXWQeVtow-hw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/6/d/03h4hKSTCv3mLQBSWI9w/55581772615-dadd7e8dbe-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/11/helinho-cita-processo-de-reformulacao-e-perda-de-controle-defensivo-em-nova-derrota-para-mogi.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-vence-bras-lia-e-conquista-o-bi",
-      "league": "NBB",
-      "title": "Flamengo wins Brasilia and wins the two-time championship of the NBB Opening Tournament",
-      "originalTitle": "Flamengo vence Brasília e conquista o bicampeonato do Torneio Abertura do NBB",
-      "translatedFrom": "pt",
-      "description": "Flamengo won, on Saturday, the double championship of the Opening Tournament of the NBB (Novo Basquete Brasil). The title was sealed with a 78-73 victory over Brasilia at the Dona Salomé Gymnasium in Belo Horizonte. Created in 2024, the Opening Tournament serves as preparation for the NBB season. The",
-      "published": "2026-10-11T01:49:11.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/SWCtJbJlKodYJD2zr4_pBVo8YMs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/f/l/OT8MYdTXuOuxedT8qfVg/flamengo-campeao-torneio-abertura-nbb.jpg",
-      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/10/flamengo-vence-brasilia-e-conquista-o-bicampeonato-do-torneio-abertura-do-nbb.ghtml"
-    },
-    {
-      "id": "NBB-mogi-domina-o-franca-abre-2-a-0-e-fica-a",
-      "league": "NBB",
-      "title": "Mogi dominates Franca, opens 2-0 and is one victory away from the São Paulo basketball title",
-      "originalTitle": "Mogi domina o Franca, abre 2 a 0 e fica a uma vitória do título paulista de basquete",
-      "translatedFrom": "pt",
-      "description": "Mogi Basquete took an important step towards the São Paulo Championship title. On Saturday night (10), the Mogiana team beat Franca 92 to 60, at the Hugo Ramos Gymnasium, and opened 2-0 ahead in the best-of-five series of the grand final. Mogi Basketball receives Franca for the second game of the final d",
-      "published": "2026-10-11T00:02:12.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/qOBFEizfT7S6gg2ed-0gFnUqB3U=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/C/hQbyisSuOMlkRFMt5UkA/55581362171-12856a1e23-h.jpg",
-      "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/10/mogi-domina-o-franca-abre-2-a-0-e-fica-a-uma-vitoria-do-titulo-paulista-de-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-16T11:06:19.628Z",
-    "news": "2026-10-16T11:06:19.628Z"
+    "games": "2026-10-17T10:28:28.692Z",
+    "news": "2026-10-17T10:28:28.692Z"
   },
   "carriedOver": [
     "teams",

@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-16T11:06:26.269Z",
+  "fetchedAt": "2026-10-17T10:28:35.852Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,17 +22,82 @@
   ],
   "news": [
     {
-      "id": "EuroLeague-euroleaguebasketballunveils10yearbusines",
+      "id": "EuroLeague-sashavezenkovstandsoutaseuroleagueround6",
       "league": "EuroLeague",
-      "title": "Euroleague Basketball unveils 10-year business plan",
+      "title": "Sasha Vezenkov stands out as EuroLeague Round 6 MVP",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "€3.4 billion to be distributed among the participating teams over the next 10 years L'articolo Euroleague Basketball unveils 10-year business plan proviene da Sportando .",
-      "published": "2026-10-16T10:25:44.000Z",
+      "description": "His latest stellar performance guides Sasha Vezenkov to Most Valuable Player honors in Round 6 of the 2026–27 EuroLeague Regular Season The post Sasha Vezenkov stands out as EuroLeague Round 6 MVP appeared first on Eurohoops .",
+      "published": "2026-10-17T10:02:05.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/bce8fa22-sasha-vezenkov-teammates-celebrate-olympiacos-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2022132/sasha-vezenkov-round-6-mvp-euroleague/"
+    },
+    {
+      "id": "EuroLeague-euroleaguereportedlysettoapprovevalencia",
+      "league": "EuroLeague",
+      "title": "EuroLeague reportedly set to approve Valencia, Paris, Dubai and PAOK as first new franchises",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Valencia, Paris, Dubai and PAOK are reportedly set to become the first four new EuroLeague franchises, paying around €300 million in total fees L'articolo EuroLeague reportedly set to approve Valencia, Paris, Dubai and PAOK as first new franchises proviene da Sportando .",
+      "published": "2026-10-17T09:55:47.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/euroleague-basketball-unveils-10-year-business-plan/"
+      "url": "https://sportando.basketball/en/euroleague-reportedly-set-to-approve-valencia-paris-dubai-and-paok-as-first-new-franchises/"
+    },
+    {
+      "id": "EuroLeague-euroleagueround6sportandosallroundteam",
+      "league": "EuroLeague",
+      "title": "EuroLeague Round #6 | Sportando’s All-Round Team",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Best Players of the Sixth Round of the EuroLeague, According to Sportando L'articolo EuroLeague Round #6 | Sportando’s All-Round Team proviene da Sportando .",
+      "published": "2026-10-17T09:45:26.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/euroleague-round-6-sportandos-all-round-team/"
+    },
+    {
+      "id": "EuroLeague-euroleaguerounduproadwinsforolympiacosef",
+      "league": "EuroLeague",
+      "title": "EuroLeague roundup: Road wins for Olympiacos, Efes, Hapoel – Zvezda, Virtus and Besiktas prevail at home",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "On Friday, the sixth round of the EuroLeague concludes with three important road wins registered The post EuroLeague roundup: Road wins for Olympiacos, Efes, Hapoel – Zvezda, Virtus and Besiktas prevail at home appeared first on Eurohoops .",
+      "published": "2026-10-16T19:15:01.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/6880a5d6-mbaye-ndiaye-sasha-vezenkov-barcelona-olympiacos.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2021683/euroleague-roundup-strazel-shines-in-efes-win-besiktas-beats-bayern/"
+    },
+    {
+      "id": "EuroLeague-tylerdorseygaveolympiacosmanagementanexp",
+      "league": "EuroLeague",
+      "title": "Tyler Dorsey gave Olympiacos’ management an explanation after his social media comments",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The future of Olympiacos' guard, who won the EuroLeague with the Piraeus giants last season, remains uncertain The post Tyler Dorsey gave Olympiacos’ management an explanation after his social media comments appeared first on Eurohoops .",
+      "published": "2026-10-16T13:46:15.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/03/c494016e-dorsey-panathinaikos-olympiakos.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2021651/tyler-dorsey-gave-olympiacos-management-an-explanation-after-his-social-media-comments/"
+    },
+    {
+      "id": "EuroLeague-sanogomakeshistorytogetbclplayerofthewee",
+      "league": "EuroLeague",
+      "title": "Sanogo makes history to get BCL Player of the Week nod",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A stellar performance for Hapoel Maoz Daniel Holon sends former NCAA champion Adama Sanogo to Basketball Champions League Player of the Week honors The post Sanogo makes history to get BCL Player of the Week nod appeared first on Eurohoops .",
+      "published": "2026-10-16T11:22:16.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/6044e31f-adama-sanogo-celebrates-runs-hapoel-holon-at-spartak-basketball-champions-league.jpg",
+      "url": "https://www.eurohoops.net/en/fiba-champions-league/2021597/adama-sanogo-player-of-the-week-basketball-champions-league/"
     },
     {
       "id": "EuroLeague-euroleagueupdatesofficialinjuryreportjus",
@@ -61,95 +126,17 @@
       "url": "https://www.eurohoops.net/en/euroleague/2021553/euroleague-to-distribute-e3-4b-to-the-teams-in-the-next-decade/"
     },
     {
-      "id": "EuroLeague-officialvalenciabasketandyankubasimapart",
+      "id": "EuroLeague-yankubasimapartswayswithvalenciaandjoins",
       "league": "EuroLeague",
-      "title": "Official: Valencia Basket and Yankuba Sima part ways",
+      "title": "Yankuba Sima parts ways with Valencia and joins ALBA",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Valencia Basket and Yankuba Sima have mutually agreed to terminate the contract that was set to run through 2028 L'articolo Official: Valencia Basket and Yankuba Sima part ways proviene da Sportando .",
-      "published": "2026-10-16T09:55:34.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/official-valencia-basket-and-yankuba-sima-part-ways/"
-    },
-    {
-      "id": "EuroLeague-yankubasimapartswayswithvalenciareported",
-      "league": "EuroLeague",
-      "title": "Yankuba Sima parts ways with Valencia, reportedly heading to ALBA",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Valencia and Yankuba Sima mutually terminate contract immediately, with the 30-year-old center expected to join ALBA Berlin The post Yankuba Sima parts ways with Valencia, reportedly heading to ALBA appeared first on Eurohoops .",
+      "description": "Valencia and Yankuba Sima mutually terminate their contract, with the 30-year-old center taking his talents to ALBA Berlin The post Yankuba Sima parts ways with Valencia and joins ALBA appeared first on Eurohoops .",
       "published": "2026-10-16T08:27:49.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/10/2b29c3f5-yankuba-sima-handles-valencia-at-paris-euroleague.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2021533/yankuba-sima-parts-ways-with-valencia-euroleague/"
-    },
-    {
-      "id": "EuroLeague-tonyparkeronfelizseighttripleshewasplayi",
-      "league": "EuroLeague",
-      "title": "Tony Parker on Feliz’s eight triples: “He was playing against his idol”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Real Madrid guard set EuroLeague career highs in points and three-pointers against ASVEL The post Tony Parker on Feliz’s eight triples: “He was playing against his idol” appeared first on Eurohoops .",
-      "published": "2026-10-15T21:26:49.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/0b8c4ce9-tony-parker-talks-players-asvel-at-panathinaikos.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2021449/tony-parker-on-felizs-eight-triples-he-was-playing-against-his-idol/"
-    },
-    {
-      "id": "EuroLeague-jasikeviciusjokesafterhistoricnightcanyo",
-      "league": "EuroLeague",
-      "title": "Jasikevicius jokes after historic night: “Can you imagine how bad of a defense we’re playing?”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Lithuanian coach offered a humorous take after his team blocked a EuroLeague-record 14 shots against Partizan The post Jasikevicius jokes after historic night: “Can you imagine how bad of a defense we’re playing?” appeared first on Eurohoops .",
-      "published": "2026-10-15T20:35:29.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/02/f39afac1-saras-jasikevicius-950x500.jpeg",
-      "url": "https://www.eurohoops.net/en/euroleague/2021406/jasikevicius-on-fenerbahces-blocks-record-can-you-imagine-how-bad-of-a-defense-were-playing/"
-    },
-    {
-      "id": "EuroLeague-euroleagueroundupfenerbahcesetsblocksrec",
-      "league": "EuroLeague",
-      "title": "EuroLeague roundup: Fenerbahce sets blocks record, Feliz leads Real, Maccabi and Dubai win away",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "A dominant defensive display and Talen Horton-Tucker’s third-quarter surge lifted Sarunas Jasikevicius’ team The post EuroLeague roundup: Fenerbahce sets blocks record, Feliz leads Real, Maccabi and Dubai win away appeared first on Eurohoops .",
-      "published": "2026-10-15T19:51:20.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/36fc8615-shavon-shields.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2021367/euroleague-roundup-fenerbahce-blocks-partizan-with-record-14-rejections/"
-    },
-    {
-      "id": "EuroLeague-euroleagueinjuryreportround6outsanddoubt",
-      "league": "EuroLeague",
-      "title": "EuroLeague Injury Report, Round 6: outs and doubts for October 15",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Tip-off times, outs and questionable players for all four EuroLeague games on October 15, 2026 L'articolo EuroLeague Injury Report, Round 6: outs and doubts for October 15 proviene da Sportando .",
-      "published": "2026-10-15T13:32:38.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-injury-report-round-6-outs-and-doubts-for-october-15/"
-    },
-    {
-      "id": "EuroLeague-euroleagueround5sportandosallroundteam",
-      "league": "EuroLeague",
-      "title": "EuroLeague Round #5 | Sportando’s All-Round Team",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Sportando's All-Star Five after the fifth round of the EuroLeague L'articolo EuroLeague Round #5 | Sportando’s All-Round Team proviene da Sportando .",
-      "published": "2026-10-15T13:02:16.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-round-5-sportandos-all-round-team/"
     }
   ],
   "leaders": {
@@ -10535,7 +10522,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-16T11:06:26.269Z",
+    "news": "2026-10-17T10:28:35.852Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },

@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-16T11:06:01.417Z",
+  "fetchedAt": "2026-10-17T10:28:09.630Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -1573,7 +1573,7 @@
         "weight": "97 kg",
         "age": null,
         "country": null,
-        "headshot": null
+        "headshot": "https://assets.tpbl.basketball/production/players/4/w4jZiYVO0T8dnZExYHGyA4jE2OAC1I4JS1L0wRTM.png?20261017165502"
       },
       {
         "id": "10869",
@@ -1657,7 +1657,7 @@
         "weight": "88 kg",
         "age": null,
         "country": null,
-        "headshot": null
+        "headshot": "https://assets.tpbl.basketball/production/players/14/fCe14hbrNRVaKjT3gvOw9XiXJShKz3CwsIAFh87v.png?20261017171800"
       },
       {
         "id": "9",
@@ -3843,7 +3843,7 @@
       "height": "196 cm",
       "weight": "97 kg",
       "country": null,
-      "headshot": null,
+      "headshot": "https://assets.tpbl.basketball/production/players/4/w4jZiYVO0T8dnZExYHGyA4jE2OAC1I4JS1L0wRTM.png?20261017165502",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 21,
@@ -3891,7 +3891,7 @@
       "height": "186 cm",
       "weight": "88 kg",
       "country": null,
-      "headshot": null,
+      "headshot": "https://assets.tpbl.basketball/production/players/14/fCe14hbrNRVaKjT3gvOw9XiXJShKz3CwsIAFh87v.png?20261017171800",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 34,
@@ -5221,6 +5221,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-511",
+      "league": "TPBL",
+      "title": "Stretch from the pitch to the fashion stand! TPBL joins forces with INMORIES TO show 14 members OF Taipei fashion week 7 team how differently basketball charms don 'T stop AT the stadium",
+      "originalTitle": "從球場跨足時尚伸展台！TPBL 攜手 INMORIES 登上臺北時裝週 七隊 14 位成員展現不同面貌 讓籃球魅力不只停留在球場",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-16T11:40:32.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/511/FKrmmcbkSpOvEjWcX723dfnuGgIZvyzP1YfUgnJw.jpg?20261016194207",
+      "url": "https://tpbl.basketball/news/511"
+    },
+    {
       "id": "TPBL-508",
       "league": "TPBL",
       "title": "[One Hundred Reasons Why You Love Basketball Vol. 040] A Basketball Road of Dreams: Refining Your Authentic Self in the Face of Challenges and Low Tide",
@@ -5362,19 +5375,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/457/PFiGY4bT0lAkej5uXDK1CdZfQctbPUuIpbwH2QdI.jpg?20260911120421",
       "url": "https://tpbl.basketball/news/457"
-    },
-    {
-      "id": "TPBL-466",
-      "league": "TPBL",
-      "title": "Taipei God of War Coach Group adds more power to extend Xu Shiqing's role as assistant coach",
-      "originalTitle": "臺北戰神教練團再添戰力 延攬許時清出任助理教練",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-10T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/456/DXSOvgplEDIZb6JmzoFQPIRGQHhyzrvv2La01Cbd.jpg?20260911101404",
-      "url": "https://tpbl.basketball/news/466"
     }
   ],
   "leaders": {
@@ -5840,12 +5840,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-16T11:06:01.417Z",
-    "rosters": "2026-10-16T11:06:01.417Z",
-    "playerStats": "2026-10-16T11:06:01.417Z",
-    "standings": "2026-10-16T11:06:01.417Z",
-    "games": "2026-10-16T11:06:01.417Z",
-    "news": "2026-10-16T11:06:01.417Z",
-    "leaders": "2026-10-16T11:06:01.417Z"
+    "teams": "2026-10-17T10:28:09.630Z",
+    "rosters": "2026-10-17T10:28:09.630Z",
+    "playerStats": "2026-10-17T10:28:09.630Z",
+    "standings": "2026-10-17T10:28:09.630Z",
+    "games": "2026-10-17T10:28:09.630Z",
+    "news": "2026-10-17T10:28:09.630Z",
+    "leaders": "2026-10-17T10:28:09.630Z"
   }
 }

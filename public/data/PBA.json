@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-16T11:05:40.436Z",
+  "fetchedAt": "2026-10-17T10:27:44.301Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -3764,6 +3765,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-16-fiberxers-macau-bb",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-16T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "converge-fiberxers",
+        "name": "Converge FiberXers",
+        "abbr": "CON",
+        "logo": null,
+        "score": 162,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "macau-bb",
+        "name": "Macau BB",
+        "abbr": "MAC",
+        "logo": null,
+        "score": 108,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-16-phoenix-meralco-b",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-16T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "phoenix-super-lpg-fuel-masters",
+        "name": "Phoenix Super LPG Fuel Masters",
+        "abbr": "PHO",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "meralco-bolts",
+        "name": "Meralco Bolts",
+        "abbr": "MER",
+        "logo": null,
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-10-14-terrafi--sm-beer-",
       "league": "PBA",
@@ -14774,95 +14833,108 @@
   ],
   "news": [
     {
-      "id": "PBA-jordanclarksonhopingforanothergilasstint",
+      "id": "PBA-uaapsbpteamupforefibaxuaapegilastalentdi",
       "league": "PBA",
-      "title": "Jordan Clarkson hoping for another Gilas stint before 'hanging it up'",
+      "title": "UAAP, SBP team up for eFIBA x UAAP eGilas talent discovery tournament",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Jordan Clarkson has already reached the NBA mountaintop, but the Filipino-American guard still has unfinished business with Gilas Pilipinas.",
-      "published": "2026-10-16T05:34:00.000Z",
-      "byline": "PhilStar",
+      "description": "The UAAP esports season will culminate in the league’s first-ever eFIBA x UAAP eGilas Talent Discovery Tournament presented by SBP, adding a new dimension to this year’s collegiate esports calendar. Aside from serving as the season’s console sports simulation tournament, the comp",
+      "published": "2026-10-17T06:54:40.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/07/2026-eFIBA-World-Finals-eGilas-Pilipinas-1-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/uaap-sbp-team-up-for-efiba-x-uaap-egilas-talent-discovery-tournament/386844"
+    },
+    {
+      "id": "PBA-convergemakessurelosingisallmacauremembe",
+      "league": "PBA",
+      "title": "Converge makes sure losing is all Macau remembers in ending PBA stint",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Converge made sure that Macau’s rough and humiliating participation as a guest team in the PBA Governors’ Cup would come to an end in the same stinking manner that characterized the Giant Pandas’ stint. The FiberXers battered the Giant Pandas to near-submission in carving out a 1",
+      "published": "2026-10-17T05:30:16.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-21.jpg",
+      "url": "https://sports.inquirer.net/701908/converge-makes-sure-losing-is-all-macau-remembers-in-ending-pba-stint"
+    },
+    {
+      "id": "PBA-cardsturntodefenseinoutlastingaltasforfi",
+      "league": "PBA",
+      "title": "Cards turn to defense in outlasting Altas for fifth straight win",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Coach Chito Victolero has instilled a mentality in his Mapua Cardinals crew in the NCAA that made him a successful coach in the pro league. “The defensive mentality and the character of our players are very similar,” he said at San Juan Arena on Friday. “The system we built at Ma",
+      "published": "2026-10-17T05:15:16.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/IMG_9715-scaled.jpg",
+      "url": "https://sports.inquirer.net/701899/cards-turn-to-defense-in-outlasting-altas-for-fifth-straight-win"
+    },
+    {
+      "id": "PBA-pbamarcellusearlingtonimpressesphoenixwi",
+      "league": "PBA",
+      "title": "PBA: Marcellus Earlington impresses Phoenix with strong debut",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Phoenix coach Charles Tiu liked what he saw from Marcellus Earlington in a winning debut against Meralco in the 2026 PBA Governors’ Cup after pondering tapping two players who would go on to play in the ongoing conference. Earlington had 20 points, 14 rebounds",
+      "published": "2026-10-16T22:43:37.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-15.jpg",
+      "url": "https://sports.inquirer.net/701923/pba-marcellus-earlington-impresses-phoenix-with-strong-debut"
+    },
+    {
+      "id": "PBA-pbaricciriveroleadsphoenixcomebackwinove",
+      "league": "PBA",
+      "title": "PBA: Ricci Rivero leads Phoenix comeback win over Meralco",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Phoenix, with Ricci Rivero playing the lead role, assured itself a spot in the quarterfinals of the 2026 PBA Governors’ Cup after coming back to defeat Meralco, 105-101, on Friday at Ynares Center in Antipolo. Rivero had 26 points, nine rebounds, seven assists, three steals and t",
+      "published": "2026-10-16T22:21:24.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image7-10.jpg",
+      "url": "https://sports.inquirer.net/701911/pba-ricci-rivero-leads-phoenix-comeback-win-over-meralco"
+    },
+    {
+      "id": "PBA-pbaconvergesendsmacauoffwith54pointbeati",
+      "league": "PBA",
+      "title": "PBA: Converge sends Macau off with 54-point beating",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Converge gave hapless Macau a rough ending to its two-conference participation as guest team after taking a 162-108 victory in Friday’s 2026 PBA Governors’ Cup action at Ynares Center in Antipolo City. Import Cam Clark scored 32 points, Juan Gomez de Liano had",
+      "published": "2026-10-16T19:58:36.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-21.jpg",
+      "url": "https://sports.inquirer.net/701851/pba-converge-sends-macau-off-with-54-point-beating"
+    },
+    {
+      "id": "PBA-pbaphoenixovercomesmeralcotobookqfticket",
+      "league": "PBA",
+      "title": "PBA: Phoenix overcomes Meralco to book QF ticket",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Phoenix erased an early 13-point deficit to beat Meralco, 105-101, on Friday at the Ynares Center in Antipolo and secure a spot in the PBA Governors\" Cup quarterfinals.",
+      "published": "2026-10-16T14:16:23.000Z",
+      "byline": "GMA News",
       "tag": "Report",
       "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/16/2563650/jordan-clarkson-hoping-another-gilas-stint-hanging-it-up"
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1006182/pba-phoenix-overcomes-meralco-to-book-qf-ticket/story/"
     },
     {
-      "id": "PBA-convergegetsshotatnastysendoffformacau",
+      "id": "PBA-pbaconvergeroutmacauingiantpandasfinalga",
       "league": "PBA",
-      "title": "Converge gets shot at nasty sendoff for Macau",
+      "title": "PBA: Converge rout Macau in Giant Pandas' final game",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Converge coach Delta Pineda was talking about adjustments the team still needs despite coming off a decisive rout of Titan Ultra in the PBA Governors’ Cup recently. “We need to find a way to maintain our intensity, especially on defense,” Pineda said in Filipino after the 152-119",
-      "published": "2026-10-16T05:20:34.000Z",
-      "byline": "Inquirer Sports",
+      "description": "Converge annihilated Macau, beating the Giant Pandas, 162-108, in the latter\"s final game in the PBA Governors\" Cup on Friday at the Ynares Center in Antipolo.",
+      "published": "2026-10-16T11:40:20.000Z",
+      "byline": "GMA News",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image17-6.jpg",
-      "url": "https://sports.inquirer.net/701759/converge-gets-shot-at-nasty-sendoff-for-macau"
-    },
-    {
-      "id": "PBA-roadwarriorsfightknowingtheyhavealottopr",
-      "league": "PBA",
-      "title": "Road Warriors fight knowing they have a lot to prove",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Robert Bolick understood where Jimmy Alapag was coming from when the NLEX coach made sure he would get his message across after a sluggish first half against Titan Ultra on Wednesday. The Road Warriors would eventually wake up from their slumber to secure a 147-115 victory at Nin",
-      "published": "2026-10-16T05:15:34.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-20.jpg",
-      "url": "https://sports.inquirer.net/701765/road-warriors-fight-knowing-they-have-a-lot-to-prove"
-    },
-    {
-      "id": "PBA-pbaburtonseesadifferentsideofalapagafter",
-      "league": "PBA",
-      "title": "PBA: Burton sees a different side of Alapag after NLEX’s slow start",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–NLEX import Deonte Burton admitted that it was his first time seeing coach Jimmy Alapag lose a bit of his usual calm and collected manner after the Road Warriors went through some rough patches before cruising past the Titan Ultra Giant Risers, 147-115, on Wed",
-      "published": "2026-10-15T20:18:23.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-11.jpg",
-      "url": "https://sports.inquirer.net/701753/pba-burton-sees-a-different-side-of-alapag-after-nlexs-slow-start"
-    },
-    {
-      "id": "PBA-pbajiojalalonmakesmostofchancewithtriple",
-      "league": "PBA",
-      "title": "PBA: Jio Jalalon makes most of chance with triple-double for TNT",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–The 55-point rout of listless Macau in the 2026 PBA Governors’ Cup on Tuesday allowed TNT to give some of its players the chance to have minutes that they rarely get. And veteran guard Jio Jalalon took advantage of that opportunity, resulting in only his third",
-      "published": "2026-10-15T18:22:34.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image10-16.jpg",
-      "url": "https://sports.inquirer.net/701725/pba-jio-jalalon-makes-most-of-chance-with-triple-double-for-tnt"
-    },
-    {
-      "id": "PBA-pbageorgekingturnstofilmtosharpensanmigu",
-      "league": "PBA",
-      "title": "PBA: George King turns to film to sharpen San Miguel ahead of playoffs",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Coming off a loss and with the playoffs fast approaching, George King made sure that San Miguel Beer would fix every kink in its armor. King made sure of that when he brought his laptop to show clips of what he and the rest of the Beermen can address and fine-",
-      "published": "2026-10-15T18:00:18.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image13-11.jpg",
-      "url": "https://sports.inquirer.net/701723/pba-george-king-turns-to-film-to-sharpen-san-miguel-ahead-of-playoffs"
-    },
-    {
-      "id": "PBA-fajardonearsmilestoneaftersmbvictory",
-      "league": "PBA",
-      "title": "Fajardo nears milestone after SMB victory",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "June Mar Fajardo doesn’t mind waiting another game for a chance to reach another PBA milestone. San Miguel Beer’s 135-105 win served not just as another step towards gearing up for the quarterfinals of the PBA Governors’ Cup, but also put Fajardo on the cusp of joining the exclus",
-      "published": "2026-10-15T05:19:19.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/Sports1308866.jpg",
-      "url": "https://sports.inquirer.net/701602/fajardo-nears-milestone-after-smb-victory"
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1006163/pba-converge-rout-macau-in-giant-pandas-final-game/story/"
     },
     {
       "id": "PBA-pbanlexpullsawayinsecondhalftorouttitanu",
@@ -14889,19 +14961,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1005942/pba-george-king-powers-san-miguel-to-30-point-demolition-of-terrafirma/story/"
-    },
-    {
-      "id": "PBA-pbameralcosparedfrommajorbreakdownafterh",
-      "league": "PBA",
-      "title": "PBA: Meralco spared from major breakdown after holding off Blackwater",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Meralco let its advantage slip away but still managed to find ways to fend off Blackwater's fightback for a 120-115 victory in the PBA Season 50 Governors' Cup on Tuesday at the Ninoy Aquino Stadium.",
-      "published": "2026-10-13T16:35:35.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005842/pba-meralco-spared-from-major-breakdown-after-holding-off-blackwater/story/"
     }
   ],
   "leaders": {
@@ -15372,8 +15431,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-16T11:05:40.436Z",
-    "news": "2026-10-16T11:05:40.436Z"
+    "games": "2026-10-17T10:27:44.301Z",
+    "news": "2026-10-17T10:27:44.301Z"
   },
   "carriedOver": [
     "teams",
