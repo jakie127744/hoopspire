@@ -46,3 +46,5 @@ Phoenix: Rivero 26, Earlington 20, Ballungay 17, Tuffin 16, Mamuyac 13, Tio 10, 
 Meralco: Varnado 36, Cansino 18, Quinto 14, Brickman 10, Newsome 7, Hodge 6, Banchero 6, Bates 4, Mocon 0.
 
 **By quarter:** Phoenix 20, 22, 32, 31. Meralco 27, 25, 24, 25.
+
+Update: two days later, [Ginebra beat Phoenix 106-89](/story/alec-stockton-ties-it-at-0-4-wins-it-in-ot-converge-beat-tnt-114-112-ginebra-rain-or-shine-win), with Rivero held to 10.
