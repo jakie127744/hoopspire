@@ -59,7 +59,7 @@ export default function About() {
         <SectionHead title="Who writes this" />
         <div className="space-y-4 text-ink/70">
           <p>
-            Hoopspire is a very small operation working with machine assistance. The bylines on
+            Hoopspire is a very small operation. The bylines on
             this site — Hoopspire Staff on The Margin, Franco Medina on the fantasy desk, a beat
             writer for each league on Full Court Press (two on the NBA), and Victor Ashby and Noor
             Haddad on Opinion — are{' '}
