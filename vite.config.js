@@ -33,7 +33,7 @@ export default defineConfig({
       // "prompt" rather than "autoUpdate": a new version waits for the reader
       // to accept it instead of reloading the page out from under an article.
       registerType: 'prompt',
-      includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'icon.svg'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png', 'pwa-192x192.png'],
       manifest: {
         name: 'Hoopspire — Heritage of the Hardwood',
         short_name: 'Hoopspire',
