@@ -46,3 +46,5 @@ Watch the first two games in San Francisco. If Golden State hold Atlanta under 8
 ## My pick
 
 Dream in six. If you are making a pick with friends, do not let three games from June and early July make the choice for you. Look at the 44 games and the five playoff wins, and pick Atlanta. Then check back with me after Game 2 on Monday.
+
+Update: [the Valkyries won Game 1, 68-64](/story/gabby-williams-26-valkyries-close-7-0-beat-dream-68-64-wnba-finals-game-1), after Atlanta led by three with 3:12 left.

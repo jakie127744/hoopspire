@@ -54,3 +54,5 @@ Atlanta lost all three by a combined 19 points, and two of the three by five or 
 Game 1 tips off on Saturday afternoon in San Francisco, Eastern time 3:30 p.m.
 
 Opinion: Victor Ashby argues the 3-0 regular-season series is the weakest evidence in this matchup, and [picks the Dream to win the Finals](/story/ignore-the-3-0-pick-the-dream-to-win-the-wnba-finals).
+
+Update: [Game 1 went to Golden State, 68-64](/story/gabby-williams-26-valkyries-close-7-0-beat-dream-68-64-wnba-finals-game-1), with Gabby Williams scoring 26.
