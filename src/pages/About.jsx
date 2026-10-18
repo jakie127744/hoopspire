@@ -60,17 +60,13 @@ export default function About() {
         <div className="space-y-4 text-ink/70">
           <p>
             Hoopspire is a very small operation. The bylines on
-            this site — Hoopspire Staff on The Margin, Franco Medina on the fantasy desk, a beat
+            this site are Hoopspire Staff on The Margin, Franco Medina on the fantasy desk, a beat
             writer for each league on Full Court Press (two on the NBA), Victor Ashby and Noor
             Haddad on Opinion, and the same FIBA writer and columnists on Heritage Line, the
-            scouting desk — are{' '}
-            <strong className="text-ink">desk names, not people you could call</strong>. Each one
-            marks which desk a piece came from, which beat it belongs to, and the method it is
-            held to. Those methods are printed on the desk pages themselves, not implied.
+            scouting desk.
           </p>
           <p>
-            We would rather say that here than let a masthead imply a newsroom that does not
-            exist. What the bylines do mean is that the standard behind a piece is fixed and
+            What the bylines mean is that the standard behind a piece is fixed and
             public: every number is checked against the box scores, standings and season averages
             this site already keeps, every claim that rests on a sample says how big the sample
             is, and nothing reported by a single unofficial source is published as fact.
