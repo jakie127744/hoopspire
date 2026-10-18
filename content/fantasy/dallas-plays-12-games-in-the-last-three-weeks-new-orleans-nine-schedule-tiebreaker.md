@@ -68,3 +68,5 @@ In roto, you are scored on season totals. Every team plays 82 games, so over a f
 - **Check again in December.** The two unassigned games do not change these counts, but trades and injuries change who plays the minutes. A good schedule is worth nothing to a player out of the rotation.
 
 The check I would run next: back-to-backs inside the playoff weeks. Dallas, for one, plays on consecutive nights three times between March 21 and April 7. Whether a coach rests anyone on those nights is not on any schedule, and that is the part of this you will only learn in March.
+
+Update: the first week has its own schedule edge. [Philadelphia plays four games in the first week, Portland two](/story/philadelphia-plays-four-in-week-one-portland-two-use-thursday).
