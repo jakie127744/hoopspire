@@ -42,3 +42,5 @@ PBA clubs already work under roster rules. A guest team, which has no local fan 
 Macau were 2-6 and competitive in August. They are 2-9 and losing by 45 in October. The league did nothing wrong by inviting them. It will do something wrong if it invites the next guest without a promise that the team it sees in July is the team that plays in October.
 
 If a guest team cannot keep its import and its core together for one conference, the PBA should give the seat to someone who can.
+
+Update: Macau will not be invited back. [Why that is right, and why the guest seat should stay](/story/pba-right-to-drop-macau-wrong-to-drop-guest-seat).
