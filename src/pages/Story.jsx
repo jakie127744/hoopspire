@@ -74,9 +74,15 @@ export default function Story() {
           <p className="mt-5 text-xl leading-relaxed text-ink/70">{article.description}</p>
         )}
 
-        {/* Heritage Line's eligibility file: the three facts every report is built on. */}
+        {/* Heritage Line's eligibility file: the player and the facts every report is built on. */}
         {article.desk === 'scouting' && article.nation && (
-          <dl className="mt-6 grid gap-x-8 gap-y-2 border-l-2 border-gold bg-paper px-5 py-4 text-sm sm:grid-cols-3">
+          <dl className="mt-6 grid gap-x-8 gap-y-2 border-l-2 border-gold bg-paper px-5 py-4 text-sm sm:grid-cols-2 lg:grid-cols-4">
+            {article.player && (
+              <div>
+                <dt className="eyebrow text-ink/45">Player</dt>
+                <dd className="mt-1 text-ink">{article.player}</dd>
+              </div>
+            )}
             <div>
               <dt className="eyebrow text-ink/45">National team</dt>
               <dd className="mt-1 text-ink">{article.nation}</dd>

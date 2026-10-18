@@ -3,6 +3,7 @@ title: Headline that says who the player is and which national team
 dek: One or two sentences. Where the player grows up and plays, the verified tie to the other country, and where FIBA's rules leave them.
 league: FIBA
 league2: NCAAM
+player: Full name of the one player this piece is about
 nation: Philippines
 connection: parent
 status: pending
@@ -21,6 +22,15 @@ Filing rules (checked by `npm run lint:articles` where marked):
 
 - `league: FIBA` on every piece (lint). Set `league2` to the league the
   player plays in, so the piece also shows on that league page.
+- One player per piece. `player` is that player's full name, and the
+  headline must name them (lint, once `draft: true` is off). Other players
+  can come up in the body, but the piece is about this one.
+- Link to at least two other Hoopspire articles with `/story/<slug>` links
+  (lint: they must exist and be published). A player's earlier Heritage Line
+  report, the league desk's coverage of their club, a FIBA report on the
+  national team they could join.
+- Two pieces a week, one from each writer. The lint stops a writer filing a
+  second Heritage Line piece in the same ISO week.
 - `nation`: the national team the piece is about (lint: required).
 - `connection`: `passport`, `parent`, `grandparent` or `birth` (lint). It must
   be verified from a federation, club, league or official roster record, or

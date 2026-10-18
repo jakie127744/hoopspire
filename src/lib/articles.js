@@ -169,6 +169,7 @@ function build(path, raw, desk) {
     draft: data.draft === true,
     // Heritage Line only: the national team a player could represent, how
     // the connection runs, and where FIBA's eligibility rules leave them.
+    player: data.player || null,
     nation: data.nation || null,
     connection: data.connection || null,
     fibaStatus: data.status || null,

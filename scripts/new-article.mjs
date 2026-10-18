@@ -67,6 +67,9 @@ const TAGS_BY_DESK = {
   scouting: ['Scouting Report', 'Eligibility', 'Second Look', 'Hot Hand'],
 }
 
+/** Other Hoopspire articles a Heritage Line piece must link to. */
+const SCOUTING_MIN_LINKS = 2
+
 /** Which home desk a Heritage Line tag belongs to. */
 const SCOUTING_KIND = {
   'Scouting Report': 'news',
@@ -94,6 +97,12 @@ function parseFrontmatter(raw) {
   return data
 }
 
+/** The Markdown after the frontmatter. */
+function bodyOf(raw) {
+  const match = raw.match(/^---\r?\n[\s\S]*?\r?\n---\r?\n?([\s\S]*)$/)
+  return match ? match[1] : raw
+}
+
 function slugify(title) {
   return title
     .toLowerCase()
@@ -104,7 +113,12 @@ function slugify(title) {
 }
 
 /** Returns a list of human-readable problems; empty means the file is clean. */
-export function lintArticle(filename, raw, desk = 'margin') {
+/**
+ * `published` maps the slug of every article on every desk to whether it is
+ * live (not a draft). lint() fills it before checking any file, so a link is
+ * checked against the whole site rather than one desk.
+ */
+export function lintArticle(filename, raw, desk = 'margin', { published = new Map() } = {}) {
   const tags = TAGS_BY_DESK[desk]
   const problems = []
   const data = parseFrontmatter(raw)
@@ -127,7 +141,7 @@ export function lintArticle(filename, raw, desk = 'margin') {
   // Capitalised keys are the trap: the parser keeps them, the site never reads
   // them, and the field silently vanishes from the page.
   for (const key of Object.keys(data)) {
-    const canonical = [...REQUIRED, 'league', 'league2', 'image', 'imageCredit', 'draft', 'slug', 'game', 'nation', 'connection', 'status']
+    const canonical = [...REQUIRED, 'league', 'league2', 'image', 'imageCredit', 'draft', 'slug', 'game', 'nation', 'connection', 'status', 'player']
       .find((f) => f.toLowerCase() === key.toLowerCase())
     if (canonical && canonical !== key) {
       problems.push(`\`${key}\` should be \`${canonical}\` — the site reads the lowercase form`)
@@ -191,6 +205,34 @@ export function lintArticle(filename, raw, desk = 'margin') {
     if (!data.nation) problems.push('missing `nation`: the national team the player could represent')
     if (!CONNECTIONS[data.connection]) problems.push(`\`connection\` must be one of ${Object.keys(CONNECTIONS).join(', ')}`)
     if (!FIBA_STATUS[data.status]) problems.push(`\`status\` must be one of ${Object.keys(FIBA_STATUS).join(', ')}`)
+
+    // Ready to publish (owner, 2026-10-18): one player per piece, named in
+    // the headline, and linked into the rest of the site. Drafts are exempt,
+    // so a fresh scaffold does not fail the lint before anyone has written it.
+    if (data.draft !== true) {
+      const player = String(data.player || '').trim()
+      if (!player) {
+        problems.push('missing `player`: the one player this piece is about')
+      } else if (/[,;&/]|\band\b/i.test(player)) {
+        problems.push(`\`player\` is \`${player}\`: one player per piece; others can be mentioned in the body`)
+      } else {
+        const surname = player.split(/\s+/).pop().toLowerCase()
+        if (!String(data.title || '').toLowerCase().includes(surname)) {
+          problems.push(`the headline does not name ${player}`)
+        }
+      }
+
+      const self = data.slug || filename.replace(/\.md$/, '')
+      const links = [...bodyOf(raw).matchAll(/\]\(\/story\/([^)#?\s]+)/g)].map((m) => m[1])
+      const others = [...new Set(links.filter((s) => s !== self))]
+      for (const s of others) {
+        if (!published.has(s)) problems.push(`links to /story/${s}, which does not exist`)
+        else if (!published.get(s)) problems.push(`links to /story/${s}, which is still a draft`)
+      }
+      if (others.length < SCOUTING_MIN_LINKS) {
+        problems.push(`links to ${others.length} other article(s); Heritage Line pieces link to at least ${SCOUTING_MIN_LINKS}`)
+      }
+    }
   }
 
   if (data.tag && !tags.includes(data.tag)) {
@@ -226,39 +268,79 @@ export function lintArticle(filename, raw, desk = 'margin') {
   return problems
 }
 
-async function lint() {
-  let failed = 0
-  let total = 0
+/** ISO week of a YYYY-MM-DD date, as "2026-W42". */
+function isoWeek(date) {
+  const d = new Date(`${date}T00:00:00Z`)
+  const day = d.getUTCDay() || 7
+  d.setUTCDate(d.getUTCDate() + 4 - day) // the Thursday decides the week
+  const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1))
+  const week = Math.ceil(((d - yearStart) / 86_400_000 + 1) / 7)
+  return `${d.getUTCFullYear()}-W${String(week).padStart(2, '0')}`
+}
 
+/**
+ * Heritage Line publishes two pieces a week, one from each writer (owner,
+ * 2026-10-18). The lint can't make a writer file; it can stop one writer
+ * filing twice in a week, which is how a two-writer desk turns into one.
+ */
+function scoutingCadence(files) {
+  const seen = new Map()
+  const problems = []
+  // Oldest first, so the piece flagged is the second one filed that week.
+  const byDate = [...files].sort((a, b) => String(a.data?.published).localeCompare(String(b.data?.published)))
+  for (const { desk, rel, file, data } of byDate) {
+    if (desk !== 'scouting' || !data || data.draft === true || !data.author || !data.published) continue
+    const key = `${data.author} ${isoWeek(data.published)}`
+    if (seen.has(key)) {
+      problems.push([`${rel}/${file}`, `${data.author} already filed ${seen.get(key)} in ${isoWeek(data.published)}; Heritage Line runs one piece per writer per week`])
+    } else {
+      seen.set(key, file)
+    }
+  }
+  return problems
+}
+
+async function lint() {
+  // Read every desk first: a link on one desk can point at another.
+  const files = []
   for (const [desk, { dir, rel }] of Object.entries(DESKS)) {
     // A desk with no directory yet is not an error — it just has nothing filed.
-    let files = []
+    let names = []
     try {
-      files = (await fs.readdir(dir)).filter((f) => f.endsWith('.md') && !f.startsWith('_'))
+      names = (await fs.readdir(dir)).filter((f) => f.endsWith('.md') && !f.startsWith('_'))
     } catch {
       continue
     }
-    total += files.length
-
-    for (const file of files) {
+    for (const file of names) {
       const raw = await fs.readFile(path.join(dir, file), 'utf8')
-      const problems = lintArticle(file, raw, desk)
-      if (problems.length) {
-        failed++
-        console.error(`
-  ${rel}/${file}`)
-        for (const p of problems) console.error(`    - ${p}`)
-      }
+      files.push({ desk, rel, file, raw, data: parseFrontmatter(raw) })
     }
   }
+  const published = new Map(
+    files.map(({ file, data }) => [data?.slug || file.replace(/\.md$/, ''), data?.draft !== true])
+  )
 
-  if (failed) {
+  const report = new Map()
+  for (const { desk, rel, file, raw } of files) {
+    const problems = lintArticle(file, raw, desk, { published })
+    if (problems.length) report.set(`${rel}/${file}`, problems)
+  }
+  for (const [where, problem] of scoutingCadence(files)) {
+    report.set(where, [...(report.get(where) || []), problem])
+  }
+
+  for (const [where, problems] of report) {
     console.error(`
-${failed} of ${total} articles have problems.
+  ${where}`)
+    for (const p of problems) console.error(`    - ${p}`)
+  }
+  if (report.size) {
+    console.error(`
+${report.size} of ${files.length} articles have problems.
 `)
     process.exit(1)
   }
-  console.log(`${total} articles across ${Object.keys(DESKS).length} desks, all clean.`)
+  console.log(`${files.length} articles across ${Object.keys(DESKS).length} desks, all clean.`)
 }
 
 async function create(title, opts) {
@@ -297,7 +379,7 @@ async function create(title, opts) {
     'dek: One or two sentences of standfirst. This shows on cards and in search results, so make it say something.',
     ...(opts.league || opts.desk === 'scouting' ? [`league: ${opts.league || 'FIBA'}`] : []),
     ...(opts.desk === 'scouting'
-      ? ['nation: Country the player could represent', 'connection: parent', 'status: pending']
+      ? ['player: Full name of the one player this piece is about', 'nation: Country the player could represent', 'connection: parent', 'status: pending']
       : []),
     `author: ${opts.author || desk.author}`,
     `published: ${today}`,
