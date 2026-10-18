@@ -33,6 +33,9 @@ export default function ConsentBanner() {
   }, [choices])
 
   if (decided && !managing) return null
+  // The prerender cannot know what this reader chose, so the static HTML
+  // carries no banner; the browser draws it once it has read the choice.
+  if (typeof window === 'undefined') return null
 
   return (
     <div

@@ -19,7 +19,9 @@ import { Eyebrow } from './Primitives.jsx'
 const UPDATE_CHECK_MS = 5 * 60 * 1000
 function useOnline() {
   const [online, setOnline] = useState(() =>
-    typeof navigator === 'undefined' ? true : navigator.onLine
+    // Node has a `navigator` with no onLine, so the build-time prerender
+    // would otherwise bake an "offline" banner into every page.
+    typeof navigator === 'undefined' || navigator.onLine !== false
   )
   useEffect(() => {
     const up = () => setOnline(true)

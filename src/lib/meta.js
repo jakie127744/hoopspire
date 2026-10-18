@@ -31,6 +31,22 @@ function setTag(selector, attrs) {
 }
 
 /**
+ * The title, description and canonical a page ends up with. Shared with the
+ * build-time prerender, so the static HTML and the live page cannot disagree.
+ */
+export function resolveMeta({ title, description } = {}, pathname = '/') {
+  const fullTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`
+  const desc =
+    description ||
+    `Scores, standings, rosters and stats across fourteen basketball leagues, from Manila to Madrid to São Paulo.`
+
+  // The canonical is built from the path, never from window.location, so a
+  // visit carrying ?utm_source=… does not declare itself a separate page.
+  const canonical = `${ORIGIN}${pathname === '/' ? '/' : pathname.replace(/\/$/, '')}`
+  return { fullTitle, desc, canonical }
+}
+
+/**
  * @param title       Page title, without the site name — it is appended.
  *                    Pass null on the home page, which is already named.
  * @param description One or two sentences. Falls back to the site default.
@@ -47,15 +63,16 @@ function setTag(selector, attrs) {
 export function useMeta({ title, description, image, type = 'website', noindex = false } = {}) {
   const { pathname } = useLocation()
 
-  useEffect(() => {
-    const fullTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`
-    const desc =
-      description ||
-      `Scores, standings, rosters and stats across fourteen basketball leagues, from Manila to Madrid to São Paulo.`
+  // The build-time prerender (scripts/prerender.mjs) renders on the server,
+  // where effects never run. It reads what the page asked for from here and
+  // writes the same tags into the static HTML, so the head a crawler sees
+  // before JavaScript matches the one the browser sets after it.
+  if (typeof document === 'undefined' && globalThis.__HOOPSPIRE_META__) {
+    globalThis.__HOOPSPIRE_META__.value = { title, description, image, type, noindex }
+  }
 
-    // The canonical is built from the path, never from window.location, so a
-    // visit carrying ?utm_source=… does not declare itself a separate page.
-    const canonical = `${ORIGIN}${pathname === '/' ? '/' : pathname.replace(/\/$/, '')}`
+  useEffect(() => {
+    const { fullTitle, desc, canonical } = resolveMeta({ title, description }, pathname)
 
     document.title = fullTitle
     setTag('meta[name="description"]', { name: 'description', content: desc })

@@ -1,11 +1,12 @@
 import { NavLink, useParams, Link } from 'react-router-dom'
 import { getLeague, LEAGUES } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
-import { getNews, getGames, getStandings } from '../lib/api.js'
+import { getGames, getStandings } from '../lib/api.js'
+import { getOriginals } from '../lib/articles.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 import StandingsPanel from '../components/StandingsPanel.jsx'
-import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
+import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
 
@@ -40,11 +41,6 @@ export default function League() {
       : undefined,
   })
 
-  const { data: news, loading: newsLoading } = useAsync(
-    () => (league ? getNews(league.key, 9) : []),
-    [key],
-    []
-  )
   const { data: games } = useAsync(() => (league ? getGames(league.key) : []), [key], [])
   const { data: standings } = useAsync(
     () => (league ? getStandings(league.key) : null),
@@ -63,10 +59,11 @@ export default function League() {
     )
   }
 
-  // Originals only. getNews mixes in wire content by design for the feed
-  // this hook was built for; a league page is not that feed, and the site
-  // no longer shows third-party stories anywhere.
-  const stories = (news || []).filter((a) => a.original)
+  // Originals only, read straight from the bundle. This used to go through
+  // getNews, which also fetches the wire only for the page to throw it away —
+  // and being async, it left the prerendered page with a loading state where
+  // the league's articles should be.
+  const stories = league ? getOriginals(league.key, 9) : []
   const lead = stories[0]
   const rest = stories.slice(1)
   const finals = (games || []).filter((g) => g.status !== 'scheduled').slice(0, 4)
@@ -87,9 +84,7 @@ export default function League() {
 
       <div className="mt-14 grid gap-12 lg:grid-cols-[1.6fr_1fr]">
         <div>
-          {newsLoading ? (
-            <Loading label={`Pulling ${league.name} coverage`} />
-          ) : lead ? (
+          {lead ? (
             <>
               <ArticleCard article={lead} variant="lead" />
               {rest.length > 0 && (
