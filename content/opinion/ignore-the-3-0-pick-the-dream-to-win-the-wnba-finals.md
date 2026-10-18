@@ -37,7 +37,7 @@ Golden State are 5-1. Dallas beat them 108-100 in overtime in the first round, a
 
 The strongest argument for the Valkyries is not the 3-0. It is their defense, the thing I said on October 11 that [Toronto and Portland should copy](/story/toronto-and-portland-should-copy-the-valkyries-defense-first). Look at what it did to Las Vegas. The Aces scored 91.5 points a game in the regular season. In the semifinals Golden State held them to 60, 81 and, in regulation of Game 3, 71. If that defense does to Atlanta what it did to Las Vegas, my pick is wrong.
 
-Here is why I do not think it will. Atlanta's defense, at 100.5 per 100 possessions, is the second-best in the league by the same estimate and the best Golden State have met in these playoffs. Dallas allowed 104.3 and Las Vegas 105.2. When both defenses are good, the better offense decides it, and Atlanta's scored 2.5 more points per 100 than Golden State's. Atlanta have also not scored fewer than 85 in a playoff game. That is a small edge, which is why I say six games and not five.
+I do not think it will. Atlanta's defense, at 100.5 per 100 possessions, is the second-best in the league by the same estimate and the best Golden State have met in these playoffs. Dallas allowed 104.3 and Las Vegas 105.2. When both defenses are good, the better offense decides it, and Atlanta's scored 2.5 more points per 100 than Golden State's. Atlanta have also not scored fewer than 85 in a playoff game. That is a small edge, which is why I say six games and not five.
 
 ## What would prove me wrong
 

@@ -7,7 +7,7 @@ published: "2026-10-12"
 tag: "Draft"
 ---
 
-Draft [James Harden](/player/NBA/3992) where he is going, at the back end of the third round in 12-team leagues, in 9-category head-to-head. Do not reach above that, and do not let him slide past it. Here is the arithmetic.
+Draft [James Harden](/player/NBA/3992) where he is going, at the back end of the third round in 12-team leagues, in 9-category head-to-head. Do not reach above that, and do not let him slide past it. The arithmetic follows.
 
 **Format:** 9-category head-to-head, 12 teams. **Sample:** one preseason game, 26 minutes. **Minutes assumption:** 32 a night, written down below so you can see where it breaks.
 

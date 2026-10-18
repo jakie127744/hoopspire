@@ -7,7 +7,7 @@ published: "2026-10-11"
 tag: "Draft"
 ---
 
-Here is the rule for this week's drafts: when two players sit close together on your board, take the one whose team plays more games in your fantasy playoffs. Do not move a player up a round for it. The schedule is a tiebreaker, and in a head-to-head league it is a good one.
+The rule for this week's drafts: when two players sit close together on your board, take the one whose team plays more games in your fantasy playoffs. Do not move a player up a round for it. The schedule is a tiebreaker, and in a head-to-head league it is a good one.
 
 **Format:** head-to-head categories, weekly matchups, and the same logic for head-to-head points. If your league caps games per week, the edge shrinks. In roto it does not apply, and I explain why below. **Weeks:** Monday to Sunday, with every game placed on its Eastern time date. **Data:** each team's 2026-27 regular-season schedule, all 30 teams, pulled on October 11.
 

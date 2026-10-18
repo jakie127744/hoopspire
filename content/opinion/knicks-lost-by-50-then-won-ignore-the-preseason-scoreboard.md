@@ -1,6 +1,6 @@
 ---
 title: "The Knicks lost by 50, then won two nights later. Ignore the preseason scoreboard"
-dek: "Same two teams, two games, a 52-point swing in the margin. The difference was who played, not how good anyone is. Here is what preseason games can tell you, and the one number they cannot."
+dek: "Same two teams, two games, a 52-point swing in the margin. The difference was who played, not how good anyone is. What preseason games can tell you, and the one number they cannot."
 league: "NBA"
 author: "Victor Ashby"
 published: "2026-10-17"

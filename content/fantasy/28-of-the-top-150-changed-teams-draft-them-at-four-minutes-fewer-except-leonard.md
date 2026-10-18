@@ -9,7 +9,7 @@ image: "/images/28-of-the-top-150-changed-teams-draft-them-at-four-minutes-fewer
 imageCredit: "Photo: U.S. Marine Corps photo by Lance Cpl. Mhecaela J. Watts / Wikimedia Commons (Public domain)"
 ---
 
-Here is the rule for the players who changed teams this summer: rank them where they land at four minutes fewer than last season, and take them there. Their value is built on minutes they played for a different coach, next to different teammates. None of them has played a regular-season minute for the new team yet. If they beat that number, you got a bargain. If they do not, you did not overpay.
+The rule for the players who changed teams this summer: rank them where they land at four minutes fewer than last season, and take them there. Their value is built on minutes they played for a different coach, next to different teammates. None of them has played a regular-season minute for the new team yet. If they beat that number, you got a bargain. If they do not, you did not overpay.
 
 **Format:** head-to-head nine-category or roto, 12 teams. **Pool:** the same 150 players as our recent columns. **Minutes:** every value is a 2025-26 per-game z-score at that player's own minutes. A z-score is how far a player sits above or below the pool average in one category, and the nine are added up. For the ranges, I scaled every stat in proportion to four minutes fewer and four minutes more, the method from our [four-minutes column](/story/four-minutes-either-way-jokic-moves-two-places-jay-huff-moves-105). Games missed are not priced in.
 

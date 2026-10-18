@@ -9,7 +9,7 @@ tag: "Second Look"
 
 The Golden State Valkyries play the Atlanta Dream in Game 1 of the WNBA Finals on Saturday, October 17, at Chase Center, in only their second season. My advice to the league's two newest teams, the Toronto Tempo and the Portland Fire, is simple. Study how Golden State got there, and copy the order. Defense first. The offense can come later.
 
-That is my opinion. Here are the numbers it rests on.
+That is my opinion. The numbers it rests on are below.
 
 ## How I measured it
 

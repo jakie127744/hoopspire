@@ -1,6 +1,6 @@
 ---
 title: "Points or categories: Giannis Antetokounmpo jumps from 53rd to 7th, Kel'el Ware falls from 47th to 103rd"
-dek: "Score the same 150 players with ESPN's default points system instead of nine categories and 41 of the top 50 stay put. The nine who leave averaged 29.6 minutes a night. The nine who arrive averaged 32.6, and Giannis leads them."
+dek: "Score the same 150 players with the standard default points system instead of nine categories and 41 of the top 50 stay put. The nine who leave averaged 29.6 minutes a night. The nine who arrive averaged 32.6, and Giannis leads them."
 league: "NBA"
 author: "Franco Medina"
 published: "2026-10-03"
@@ -13,7 +13,7 @@ The punting series and the games-missed column were all written for nine-categor
 
 ## The scoring I used
 
-ESPN's default points system gives:
+The standard default points system gives:
 
 - 1 for each point and 1 more for each made three
 - 2 for each made field goal and minus 1 for each field goal attempt

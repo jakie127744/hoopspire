@@ -11,7 +11,7 @@ A Real Madrid team with no wins after three EuroLeague games looks like a crisis
 
 ## Look at where they lost, and by how much
 
-Here are Madrid's first three games:
+Madrid's first three games:
 
 - Round 1: lost 78-77 at Dubai.
 - Round 2: lost 94-84 at Anadolu Efes in Istanbul.

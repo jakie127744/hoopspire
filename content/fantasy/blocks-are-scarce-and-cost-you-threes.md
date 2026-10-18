@@ -17,7 +17,7 @@ Blocks have the thinnest supply in the pool. Only 17 players sit a full standard
 
 The pool averaged 0.65 blocks a game, with a standard deviation of 0.46 (a typical spread around that average). Victor Wembanyama averaged 3.1, which sits 5.3 standard deviations above the mean and is the largest single-category figure in the pool. The next best, Alex Sarr, averaged 2.0.
 
-Here are all eleven players at 1.5 or better, with their nine-category rank in the pool of 150:
+All eleven players at 1.5 or better are below, with their nine-category rank in the pool of 150:
 
 | Player | Nine-cat rank | Blocks | Minutes | Games |
 |---|---:|---:|---:|---:|

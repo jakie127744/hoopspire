@@ -9,7 +9,7 @@ tag: "Result"
 
 Kang Sang-jae hit a three with 51 seconds left in the third quarter in Wonju to tie the game at 71. Twenty-seven seconds later he hit another. Wonju DB never trailed again and beat Goyang Sono 95-86 on Sunday, a day after Sono had opened its season by beating Daegu Korea Gas 82-73.
 
-Five games made up the KBL's first weekend. We covered three of them separately: [Changwon LG's 103-68 rout of Busan KCC](/story/goodwin-25-changwon-lg-open-kbl-season-103-68-busan-kcc), [Anyang Jung Kwan Jang's 88-85 win over Ulsan Hyundai Mobis](/story/jung-kwan-jang-hold-off-hyundai-mobis-88-85-two-late-threes-miss) and [Seoul Samsung's 81-76 win at Suwon KT](/story/kanter-30-samsung-win-at-kt-81-76-despite-bass-35). Here are the other two.
+Five games made up the KBL's first weekend. We covered three of them separately: [Changwon LG's 103-68 rout of Busan KCC](/story/goodwin-25-changwon-lg-open-kbl-season-103-68-busan-kcc), [Anyang Jung Kwan Jang's 88-85 win over Ulsan Hyundai Mobis](/story/jung-kwan-jang-hold-off-hyundai-mobis-88-85-two-late-threes-miss) and [Seoul Samsung's 81-76 win at Suwon KT](/story/kanter-30-samsung-win-at-kt-81-76-despite-bass-35). The other two went like this.
 
 ## DB 95, Sono 86 (Sunday, Wonju)
 

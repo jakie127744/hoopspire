@@ -9,7 +9,7 @@ image: "/images/giannis-and-bam-shared-23-of-32-preseason-minutes-take-back-half
 imageCredit: "Photo: Gatorfan252525 / Wikimedia Commons (CC BY-SA 4.0)"
 ---
 
-Move [Bam Adebayo](/player/NBA/4066261) up half a round in your nine-category draft. Leave [Giannis Antetokounmpo](/player/NBA/3032977) exactly where you had him. Here is the arithmetic, and the one number from two preseason games that I am not yet willing to believe.
+Move [Bam Adebayo](/player/NBA/4066261) up half a round in your nine-category draft. Leave [Giannis Antetokounmpo](/player/NBA/3032977) exactly where you had him. Below is the arithmetic, plus the one number from two preseason games I am not yet willing to believe.
 
 **Format:** 9-category head-to-head, 12 teams. **Sample:** two Miami preseason games, 32 minutes for Antetokounmpo and 29 for Adebayo, against 36 games and 73 games last season. **Minutes assumption:** 30 for Antetokounmpo, moved from 29 to 31 for Adebayo, with the range written out below.
 

@@ -7,7 +7,7 @@ published: "2026-10-13"
 tag: "Draft"
 ---
 
-Draft [LaMelo Ball](/player/NBA/4432816) as an assists and threes guard in nine-category head-to-head, and plan your roster around his turnovers instead of fearing them. Here is why, and the number that would change my mind.
+Draft [LaMelo Ball](/player/NBA/4432816) as an assists and threes guard in nine-category head-to-head, and plan your roster around his turnovers instead of fearing them. The reasons are below, along with the number that would change my mind.
 
 **Format:** 9-category head-to-head, 12 teams. **Sample:** three Minnesota preseason games, 59 minutes, against 72 games and 2,016 minutes for Charlotte last season. **Minutes assumption:** 30 a night, written down below so you can see where it breaks.
 
