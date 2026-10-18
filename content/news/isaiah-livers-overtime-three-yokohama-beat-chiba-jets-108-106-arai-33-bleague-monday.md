@@ -86,3 +86,5 @@ Hiroshima (6-0), Nagoya (5-0) and San-en (5-0) are the unbeaten teams. Alvark To
 ## What is next
 
 Yokohama host Ryukyu on Friday, October 16, the first of 13 games over three days. On Saturday, Gunma host Alvark Tokyo with both teams at 6-1, and the Chiba Jets host Shimane.
+
+Update: [the B.League weekend roundup](/story/keisei-tominaga-35-hokkaido-109-again-culver-34-sendai-hiroshima-7-0-bleague-weekend), with Yokohama's 87-85 win over Ryukyu and a 109-78 loss to Hokkaido.
