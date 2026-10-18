@@ -13,8 +13,6 @@ Ten months after his right Achilles gave out, Rondae Hollis-Jefferson played bas
 
 It was TNT's third straight win and the second time in a week that Macau lost by more than 50. TNT moved to 7-4, third in Group A behind NLEX (8-2) and San Miguel Beer (7-3). Macau fell to 2-9 with a fifth straight loss.
 
-"Ever since, our plan was to bring him in before the playoffs," coach Chot Reyes said. "We found an opportunity to ease him in slowly."
-
 Hollis-Jefferson is a three-time Best Import, and TNT won the title in all three of those conferences: the 2023 and 2024 Governors' Cups and the 2024-25 Commissioner's Cup. He ruptured the tendon on December 6, 2025, playing for Meralco against the Macau Black Bears in the East Asia Super League. TNT activated him on Monday in place of Nick Hornsby, the fourth import the team has used this conference. Oftana called him "a trusted import."
 
 ## A close first quarter

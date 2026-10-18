@@ -19,8 +19,6 @@ Magnolia won every quarter but the last. The Hotshots led 63-46 at half-time and
 
 Six Hotshots scored in double figures. Zavier Lucero led them with 21 points and nine rebounds. Jerom Lastimosa added 16 off the bench, Mark Barroca 15, and import KJ Buffen 14 with 10 rebounds. Jordan Murphy scored 18 for Ginebra and RJ Abarrientos 12.
 
-Magnolia coach LA Tenorio had watched Ginebra's win over Rain or Shine. "Honestly, I was watching their game against Rain or Shine and I told my team that the Ginebra I saw is the Ginebra I see every time they play a championship," he said.
-
 It was Magnolia's second win over Ginebra in the conference, after their first meeting on August 2.
 
 **Scoring**
@@ -38,10 +36,6 @@ Converge led all game, but Titan Ultra would not go away in the third quarter. T
 Then Converge scored 53 points in the fourth quarter, against 29.
 
 Gómez de Liaño's triple-double led seven FiberXers in double figures. Import Cameron Clark scored 30, and Justine Baltazar had 20 points and 11 rebounds. Alec Stockton added 16 and Calvin Abueva 15. Tirrell Brown scored 31 for Titan Ultra, Joshua Munzon 22 and Aris Dionisio 16.
-
-"I just want to give credit to my team, the whole staff and management, for giving me the trust to be able to kind of just play my game and give me the green light to lead the team," Gómez de Liaño said.
-
-Converge coach Delta Pineda was less pleased with the third quarter. "They can score. If they want to score, they can score but sometimes there are quarters that they tend to relax after establishing a good lead. And that is something that we really need to adjust," he said.
 
 Converge are 6-4, tied with TNT for third in Group A. They are the fourth and last team from the group to reach the quarterfinals, joining NLEX (8-2), San Miguel (7-3) and TNT. Titan Ultra fell to 2-8.
 

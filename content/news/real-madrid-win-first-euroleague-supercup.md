@@ -19,11 +19,9 @@ Sasha Vezenkov led all scorers with 22 points for Olympiacos, making six of 12 s
 
 ## Why Madrid won
 
-The numbers point to two places. Madrid made 20 of 32 two-point shots, 63%, to Olympiacos's 19 of 45, and shot 50% overall (30 of 60) to 40% (27 of 67). Both teams made about the same share of their threes, Madrid 10 of 28 and Olympiacos eight of 22. Madrid also controlled the glass 44-30, with a 30-16 edge on the defensive boards, and made 23 of 26 free throws to Olympiacos's 27 of 37.
+The numbers point to two places. Madrid made 20 of 32 two-point shots, 63%, to Olympiacos's 19 of 45, and shot 50% overall (30 of 60) to 40% (27 of 67). Both teams made about the same share of their threes, Madrid 10 of 28 and Olympiacos eight of 22. Madrid also controlled the glass 44-30, with a 30-16 edge on the defensive boards, and made 23 of 26 free throws to Olympiacos's 27 of 37, which is 88% at the line against 73%.
 
 Madrid was careless with the ball, and it was the one real blemish on an otherwise clean night at the line and on the boards. Its 23 turnovers fed 14 Olympiacos steals, but it still had 31 assists to Olympiacos's 24 and won by four.
-
-"Congratulations to my players," Martínez said. "They believed. We had a horrible moment in the third quarter when Olympiacos played incredible."
 
 ## The weekend
 

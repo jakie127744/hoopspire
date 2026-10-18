@@ -55,7 +55,7 @@ export default function About() {
         before Credit rather than after it: a reader wondering who wrote
         something should not have to reach the last block on the page.
       */}
-      <section className="mt-16">
+      <section id="bylines" className="mt-16 scroll-mt-24">
         <SectionHead title="Who writes this" />
         <div className="space-y-4 text-ink/70">
           <p>

@@ -38,8 +38,6 @@ Cheatham finished with eight points, all in the last 2:54.
 
 Anthony, United's import guard, finished with 24 points, five rebounds, four assists and two steals, and made four of his seven threes and eight of 10 free throws. [Josh Oduro](/player/NBL/5402939) scored 16 on 6-of-6 shooting and Travers 16 with seven rebounds. Ingles, back in Adelaide, had 11 points and four assists.
 
-"I loved our intent and urgency for the first three quarters," United coach Jacob Chance said.
-
 United went to the line 23 times and made 20. Adelaide made nine of 16.
 
 The teams met on opening night in Melbourne, when Adelaide won by two.

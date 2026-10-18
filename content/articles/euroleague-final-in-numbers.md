@@ -41,7 +41,7 @@ Olympiacos shot 52% from the field (30 of 58) and made 10 of 20 threes, an even 
 
 Olympiacos also gave the ball away 17 times to Madrid's nine, and it still won by seven. That is a team surviving its own mistakes because it kept getting the last shot, and making the ones it took.
 
-Evan Fournier scored 20 points with five rebounds and four assists, made all five of his free throws, and was named MVP of the Final Four. Alec Peters scored 16 with seven rebounds. "The feeling is even better than I imagined," Fournier said afterward.
+Evan Fournier scored 20 points with five rebounds and four assists, made all five of his free throws, and was named MVP of the Final Four. Alec Peters scored 16 with seven rebounds.
 
 ## The road to the final
 

@@ -24,8 +24,6 @@ Sydney shot 56% (42 of 75), made 10 of 25 threes and 27 of 32 free throws, and o
 
 The Kings' bench scored 51 of their 121 points.
 
-"The guys on the bench, the guy sitting next to me [Johnston], brought some energy and pickup and started getting stops," coach Brian Goorjian said.
-
 [Sam Froling](/player/NBL/5091613) and Martin scored 21 each for Illawarra. Froling made nine of 13 shots. Adnam had 17 off the bench on 6-of-9 shooting, and [Tyler Harvey](/player/NBL/5090641) made four of five threes for 12 points. [Johny Narkle](/player/NBL/5161002) started and missed all three of his shots in 19 minutes. The loss leaves the Hawks without a win after three games.
 
 **Scoring.**

@@ -3,7 +3,7 @@ import { getDesk, DESKS } from '../lib/articles.js'
 import { deskLead } from '../lib/staff.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
-import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
+import { SectionHead, Empty, Eyebrow, DeskTag } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
 
@@ -55,7 +55,10 @@ export default function FreeMinutes() {
       */}
       {lead && (
         <div className="mt-8 flex flex-wrap items-baseline gap-x-4 gap-y-2 border-l-2 border-crimson bg-paper px-5 py-4">
-          <p className="font-display text-xl leading-none">{lead.byline}</p>
+          <p className="font-display text-xl leading-none">
+            {lead.byline}
+            <DeskTag className="font-sans" />
+          </p>
           <Eyebrow className="text-ink/45">{lead.role}</Eyebrow>
           <p className="w-full text-sm text-ink/60">{lead.method}</p>
         </div>

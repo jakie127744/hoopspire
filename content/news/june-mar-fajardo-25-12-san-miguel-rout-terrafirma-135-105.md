@@ -33,9 +33,7 @@ It was Terrafirma's seventh loss in 11 games. The Dyip had beaten Macau 146-127 
 
 ## Why it mattered to San Miguel
 
-San Miguel had already secured a quarterfinal place, but the seeding was still open. The Beermen came in off a [116-98 loss to TNT](/story/rhj-returns-tnt-2026) on Saturday, October 10. Fajardo said coach Leo Austria had told the team it was a must-win game because of the standings.
-
-"We wanted to bounce back from our loss in the previous game and maintain our position in the top two, or wherever we might end up in the next few days," Austria said.
+San Miguel had already secured a quarterfinal place, but the seeding was still open. The Beermen came in off a [116-98 loss to TNT](/story/rhj-returns-tnt-2026) on Saturday, October 10. A loss would have dropped them to 7-4, level with TNT, the team that had just beaten them, in the race for a top-two seed.
 
 **Scoring: San Miguel 135-105 Terrafirma**
 

@@ -4,7 +4,7 @@ import { disclosureText } from '../lib/affiliate.js'
 import { getStaff } from '../lib/staff.js'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { getLeague } from '../lib/leagues.js'
-import { Eyebrow, SectionHead } from '../components/Primitives.jsx'
+import { Eyebrow, SectionHead, DeskTag } from '../components/Primitives.jsx'
 import ArticleCard, { DeskBadge } from '../components/ArticleCard.jsx'
 import AdSlot from '../components/AdSlot.jsx'
 import Reactions from '../components/Reactions.jsx'
@@ -73,7 +73,13 @@ export default function Story() {
 
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-parchment pt-5">
           <p className="eyebrow text-ink/45">
-            {article.byline ? `By ${article.byline} · ` : ''}
+            {article.byline && (
+              <>
+                By {article.byline}
+                <DeskTag />
+                {' · '}
+              </>
+            )}
             {formatDate(article.published, { month: 'long' })}
             {article.readingTime ? ` · ${article.readingTime} min read` : ''}
           </p>
@@ -136,7 +142,8 @@ export default function Story() {
         {/* The writer's standing method note lives here, not on the desk page. */}
         {writer && (
           <p className="mb-3 text-xs leading-relaxed text-ink/45">
-            <span className="font-semibold text-ink/60">{writer.byline}</span>, {writer.role}.{' '}
+            <span className="font-semibold text-ink/60">{writer.byline}</span>
+            <DeskTag />, {writer.role}.{' '}
             {writer.method}
           </p>
         )}

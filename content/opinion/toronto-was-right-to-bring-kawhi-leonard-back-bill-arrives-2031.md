@@ -37,7 +37,7 @@ The objection I cannot answer is the picks. The 2031 and 2033 drafts come after 
 
 That is a real cost. It is also the right kind of cost for a team that just won 46 games. Toronto spent its distant future, which nobody can price, on its near future, which it can.
 
-Raptors general manager Bobby Webster said Leonard's "leadership, experience and talent will help us as we continue building toward our next championship." That sentence sets the test, and it is the right one.
+Toronto announced Leonard as a player to build toward the next championship with. That sets the test, and it is the right one.
 
 ## What Toronto should do now
 

@@ -17,8 +17,6 @@ The Fuel Masters are now 5-3 and alone in second place in Group B, ahead of Rain
 
 Meralco started faster. The Bolts led 27-20 after one quarter, got to 35-22 in the second, and were up 52-42 at half-time.
 
-Phoenix coach Charles Tiu said the half-time talk was blunt. "We challenged the team that this is not the team that we know," he told reporters after the game.
-
 The third quarter belonged to Phoenix. The Fuel Masters outscored Meralco 32-24 and went into the fourth trailing only 76-74.
 
 The fourth quarter stayed close for the first half of it. Then Phoenix scored nine straight points to go up 101-91 with about two and a half minutes to go. Earlington and [Gian Mamuyac](/player/PBA/rg-199590) both scored in the run, and Phoenix held on from there.
@@ -27,7 +25,7 @@ Phoenix scored 31 points in the fourth quarter to Meralco's 25. Over the second 
 
 ## The numbers
 
-[Kai Ballungay](/player/PBA/rg-155502) added 17 points for Phoenix, [Kenneth Tuffin](/player/PBA/rg-168680) 16, Mamuyac 13 and [Tyler Tio](/player/PBA/rg-199682) 10. Six Phoenix players scored in double figures.
+[Kai Ballungay](/player/PBA/rg-155502) added 17 points for Phoenix, [Kenneth Tuffin](/player/PBA/rg-168680) 16, Mamuyac 13 and [Tyler Tio](/player/PBA/rg-199682) 10. Six Phoenix players scored in double figures, and together they had 102 of the team's 105 points.
 
 [Jordon Varnado](/player/PBA/rg-89323) led Meralco with 36 points, seven rebounds and four assists. His 36 were more than a third of Meralco's total, and no other Bolt scored more than 18. [CJ Cansino](/player/PBA/rg-236900) scored 18, [Bong Quinto](/player/PBA/rg-148314) 14 and [Jason Brickman](/player/PBA/rg-23222) 10.
 

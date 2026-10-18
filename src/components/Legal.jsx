@@ -29,11 +29,6 @@ export function LegalPage({ kicker, title, intro, children }) {
       )}
 
       <div className="mt-10 space-y-10">{children}</div>
-
-      <p className="mt-16 border-t border-parchment pt-6 text-sm text-ink/45">
-        These documents are a starting point drafted for a sports data and news-aggregation site.
-        They are not legal advice — have a lawyer review them before you rely on them.
-      </p>
     </div>
   )
 }

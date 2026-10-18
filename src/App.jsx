@@ -25,10 +25,14 @@ import Player from './pages/Player.jsx'
 import Archive from './pages/Archive.jsx'
 
 function ScrollToTop() {
-  const { pathname } = useLocation()
+  const { pathname, hash } = useLocation()
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [pathname])
+    // A link to a section (the byline tag points at /about#bylines) lands
+    // on that section; every other navigation starts at the top.
+    const target = hash && document.getElementById(hash.slice(1))
+    if (target) target.scrollIntoView()
+    else window.scrollTo(0, 0)
+  }, [pathname, hash])
   return null
 }
 

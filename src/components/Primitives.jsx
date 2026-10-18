@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { initials } from '../lib/format.js'
 
 /** Serif section heading with the hairline rule, as used across the design. */
@@ -118,4 +119,21 @@ export function StatusPill({ game }) {
     return <span className="eyebrow text-ink/45">Final</span>
   }
   return <span className="eyebrow text-ink/45">{game.statusDetail || 'Scheduled'}</span>
+}
+
+/**
+ * Marks a byline as a desk name rather than a person. Every byline on the
+ * site is one, and /about says so; this puts the same fact next to the name
+ * itself, where a reader meets it. Inside a card (already a link) it renders
+ * as plain text, because an anchor cannot nest inside another.
+ */
+export function DeskTag({ link = true, className = '' }) {
+  const cls = `ml-1.5 inline-block border border-ink/25 px-1 py-px align-middle text-[0.6rem] leading-none tracking-wider text-ink/50 ${className}`
+  return link ? (
+    <Link to="/about#bylines" className={`${cls} hover:border-crimson hover:text-crimson`} title="Bylines on Hoopspire are editorial desk names">
+      Desk name
+    </Link>
+  ) : (
+    <span className={cls} title="Bylines on Hoopspire are editorial desk names">Desk name</span>
+  )
 }

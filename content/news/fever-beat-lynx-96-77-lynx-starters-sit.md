@@ -18,8 +18,6 @@ Minnesota scored first, and Indiana took the lead for good at 9-7 with 6:52 left
 
 The four starters who sat were [Napheesa Collier](/player/WNBA/3917450), [Kayla McBride](/player/WNBA/2529205), [Courtney Williams](/player/WNBA/2987891) and [Natasha Howard](/player/WNBA/2529130). They each played between nine and 13 minutes, and none of them played after halftime. Collier scored 9 points in 13 minutes, Howard had six and Williams two, and McBride missed all four of her shots. Rookie guard Olivia Miles was out with a calf injury, and [Maya Caldwell](/player/WNBA/4280850), who also started, played 19 minutes.
 
-Coach Cheryl Reeve explained the decision after the game. "I'm old enough to know that chasing wins is a really bad idea when you play every other day and start in playoffs on Sunday," Reeve said.
-
 ## The second half
 
 Without those four, Minnesota won the third quarter 30-14, after a 17-0 run that started with 1:03 left in the second quarter and ran from 57-28 to 57-45 early in the third. The Lynx cut the deficit to seven, 71-64, in the final seconds of the period, and to eight, 74-66, with 8:15 left in the fourth. Indiana answered with an 8-0 run, from 74-66 to 82-66, and outscored the Lynx 25-13 in the fourth.

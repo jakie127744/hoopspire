@@ -17,7 +17,7 @@ Scans later showed that the 33-year-old has a hairline fracture in his fibula, t
 
 ## The timeline
 
-JackJumpers Head of High Performance Ryan Carroll said Deng is resting and doing rehabilitation. "For this kind of injury we would aim for a return in four to six weeks," Carroll said. "Time is one thing, but there will be constant assessment and rehabilitation to ensure Majok can return to his high level of performance."
+The club put the expected recovery at four to six weeks, with Deng resting and in rehabilitation, and said his return will depend on ongoing assessment rather than a fixed date. Counted from the injury on September 21, four to six weeks runs from October 19 to November 2.
 
 The club did not give a return date or name a game. It said Development Player [Jed Richardson](/player/NBL/5332168) will step up for extra game time while Deng recovers.
 

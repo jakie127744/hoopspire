@@ -27,9 +27,9 @@ Ruan Miranda had a double-double for Flamengo: 14 points and 12 rebounds, seven 
 
 Zu Jr. led CAIXA/Brasília with 21 points and made five of seven threes. Kauan Raymundo scored 17 with nine rebounds, and Fernández scored 14. CAIXA/Brasília made 11 threes to Flamengo's seven, but went to the line 16 times to Flamengo's 21.
 
-Franco Baralle lifted the trophy for Flamengo, coached by Demétrius Ferracciú.
+That is the game in two numbers. CAIXA/Brasília's 11 threes were worth 33 points to Flamengo's 21, a 12-point edge from outside. Flamengo made it back on the glass, where its 23 offensive rebounds meant 23 extra chances in a game decided by five points.
 
-After the game, Yago said that a final is not something you play but something you win, however it happens. He also said the team knows it has to play better, and that the season has only just started.
+Franco Baralle lifted the trophy for Flamengo, coached by Demétrius Ferracciú.
 
 **Scoring**
 

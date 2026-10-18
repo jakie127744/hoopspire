@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import { LeagueTag, Eyebrow } from './Primitives.jsx'
+import { LeagueTag, Eyebrow, DeskTag } from './Primitives.jsx'
 import { formatDate, relativeTime, relativeDay } from '../lib/format.js'
 import { getLeague } from '../lib/leagues.js'
 
@@ -129,7 +129,13 @@ export default function ArticleCard({ article, variant = 'list' }) {
 
   const Meta = ({ className = '' }) => (
     <p className={`eyebrow text-ink/40 ${className}`}>
-      {article.byline ? `${article.byline} · ` : ''}
+      {article.byline && (
+        <>
+          {article.byline}
+          <DeskTag link={false} />
+          {' · '}
+        </>
+      )}
       {formatDate(article.published)}
       {isOriginal && article.readingTime ? ` · ${article.readingTime} min read` : ''}
     </p>
@@ -182,7 +188,13 @@ export default function ArticleCard({ article, variant = 'list' }) {
           <span className="link-underline">{article.title}</span>
         </h4>
         <p className="eyebrow mt-2 text-ink/40">
-          {article.byline ? `${article.byline} · ` : ''}
+          {article.byline && (
+            <>
+              {article.byline}
+              <DeskTag link={false} />
+              {' · '}
+            </>
+          )}
           {relativeTime(article.published)}
         </p>
         <TranslatedNote article={article} className="mt-1" />

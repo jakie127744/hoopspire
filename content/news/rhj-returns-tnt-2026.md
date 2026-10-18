@@ -13,15 +13,11 @@ The last time Rondae Hollis-Jefferson played a competitive game, he left it on D
 
 TNT activated Hollis-Jefferson on Monday, October 12. He will play against the Macau Giant Pandas on Tuesday at 5:15 p.m. at the Ninoy Aquino Stadium in the PBA Governors' Cup. He takes the import slot of Nick Hornsby.
 
-"After recovering from injury, RHJ is ready to rejoin the TNT Tropang 5G," the team said.
-
 ## The fourth import of the conference
 
 Hollis-Jefferson is TNT's fourth import of this Governors' Cup. Darius Days opened the conference. Rahlir Hollis-Jefferson, Rondae's brother, replaced him. Hornsby came in after that and played two games, both wins.
 
 TNT beat Terrafirma 116-92 on October 7 and San Miguel Beer 116-98 on Saturday, October 10. Those wins lifted TNT to 6-4, tied with Converge in Group A behind NLEX at 8-2 and San Miguel Beer at 7-3. TNT have two group games left.
-
-"Rondae Hollis-Jefferson has been the gold standard for imports for a while now after Justin Brownlee," Lastimosa said. "He brings his leadership, energy, versatility and competitive fire in the game. He makes everyone play hard and involve."
 
 ## What he has won
 
@@ -31,15 +27,19 @@ Hollis-Jefferson is a three-time Best Import. He won it in the 2023 Governors' C
 
 He is not the only TNT player back from injury. Calvin Oftana and Jayson Castro have both returned this conference.
 
-"The guys are coming back slowly. We didn't have Calvin at the start, now he's back," coach Chot Reyes said after the San Miguel Beer win. "We didn't have Jayson, now Jayson's back. I think we're just reaping the benefits of having a full roster."
+## The numbers around his return
 
-Reyes said the last group games are for sharpening. "So, we really have to take advantage of these games to sharpen, that's number one," he said. He also looked ahead to the knockout round: "Whoever it is we face in the quarterfinals, it's going to be a tough match-up."
+Tuesday's game comes 311 days after the injury. In that time TNT have gone through three other imports this conference, and the team he rejoins is playing well without him: the two wins under Hornsby came by 24 and 18 points, 232-190 combined, an average margin of 21.
+
+The standings leave less room. At 6-4, TNT are two games behind NLEX and one behind San Miguel Beer with two group games left, so even two wins would not guarantee a top-two finish. The first of those games is the easiest on paper.
 
 ## The opponent
 
 Macau are 2-8, tied with Titan Ultra at the bottom of Group A. They have lost four straight, including a 138-78 defeat to NLEX on October 7 and a 146-127 loss to Terrafirma on Saturday. They have played recent games with nine players.
 
 TNT and Macau met once already this conference. TNT won 106-103 on July 19.
+
+Macau's last two games show why. They gave up 138 and 146 points, an average of 142, and lost them by a combined 79 points. The one close result in their season against TNT, a three-point loss in July, came before the losing streak started.
 
 The team has not said how many minutes Hollis-Jefferson will play on Tuesday.
 

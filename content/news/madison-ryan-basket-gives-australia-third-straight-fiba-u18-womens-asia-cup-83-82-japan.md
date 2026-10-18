@@ -21,10 +21,6 @@ Australia took the ball out on the sideline. Olivia Olechnowicz threw the inboun
 
 Ryan, a 17-year-old forward, finished with 17 points and 17 rebounds.
 
-"It was really important for me that we try to win this game because it will be the last Asia Cup for some of these girls," Australia head coach Kristi Harrower said. "So, I wanted to make sure that they won today."
-
-"When Maddy put up that final shot, and it went in, it was an amazing feeling," said Isabel Smith, who was on the floor for the last play.
-
 ## How the game turned
 
 Japan led 23-19 after the first quarter. Australia won the second quarter 22-14 and led 41-37 at half-time.

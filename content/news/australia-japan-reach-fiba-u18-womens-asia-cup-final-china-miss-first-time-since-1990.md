@@ -17,8 +17,6 @@ Australia won the first quarter 31-9. They had a 16-0 run in the game and led by
 
 Isabel Smith scored 22 points with five rebounds. Madison Ryan had 17 points and 12 rebounds, and Olivia Olechnowicz 14 points, five assists and three steals. He Siyao led China with 22, Li Yuanshan scored 16 and Zhao Zirui had 10 points and nine rebounds.
 
-"Australia has won the last two Asia Cups so it's important for us to make sure that we continue to try to do that," Australia coach Kristi Harrower said.
-
 **Scoring**
 
 Australia: Isabel Smith 22, Madison Ryan 17, Olivia Olechnowicz 14, Jemyma Manyok 8, Sophie Richardson 5, Eliza Shanahan 5, Matilda Trout 5, Lily Mapp 2, Cheyenne Bobongie 0, Taryn Bond 0, Jade Sherrington 0, Aspen Crase 0.

@@ -32,8 +32,6 @@ Brisbane led 96-95 with three minutes left in the extra period, and Tasmania wen
 
 Then the JackJumpers closed it. Magnay's nine-foot hook at 1:24 made it 101-99. Armstrong scored and drew the foul at 0:45, made both free throws at 0:16, and found Magnay for the last three. Tasmania won overtime 18-8.
 
-"I say we're way ahead of schedule," Brisbane coach Will Weaver said.
-
 ## The numbers
 
 Armstrong made nine of 17 shots, four of seven threes and all seven of his free throws, and had four assists. Magnay scored 22 on 10-of-14 shooting with nine rebounds, six assists and four blocks. Bannan had 22 points, 11 rebounds and five assists, and [Dakota Mathias](/player/NBL/3136991) 19 points and three steals. Tasmania was plus-24 with Mathias on the floor, the best mark in the game.
@@ -42,7 +40,7 @@ Harrison led Brisbane with 24 points and 12 rebounds. [Nate Hinton](/player/NBL/
 
 Brisbane won the boards 41-32 and had 27 assists to Tasmania's 22. Tasmania turned it over 10 times to Brisbane's 16 and went to the line 27 times to Brisbane's 14.
 
-Chris Fagan, the Tasmanian who has just coached the Brisbane Lions to a third straight AFL premiership, sat courtside in a JackJumpers jersey. "His record is undefeated, every time he seems to show up we end up winning," Tasmania coach Scott Roth said.
+Chris Fagan, the Tasmanian who has just coached the Brisbane Lions to a third straight AFL premiership, sat courtside in a JackJumpers jersey.
 
 ## Scoring
 

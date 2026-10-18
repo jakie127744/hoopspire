@@ -24,19 +24,15 @@ Melbourne still led 81-72 after three.
 
 [Keanu Pinder](/player/NBL/5402797) scored on a layup from [Jaylon Brown](/player/NBL/5447257) at 9:25. [Reyne Smith](/player/NBL/4896994) buried a three from 31 feet, set up by Pinder, at 8:57. [Jack McVeigh](/player/NBL/3911893) hit a turnaround jumper and the free throw that came with it at 8:26, and it was 81-80. By 7:44 Cairns led 83-81, and Melbourne had not scored in the quarter.
 
-Cairns coach Adam Forde said his team "started the fourth quarter with six defensive stops in a row."
+Cairns started the fourth quarter with six defensive stops in a row.
 
 Anthony tied it at 83 with a 20-foot pull-up at 7:03. United never led again.
-
-"We lost the game in five minutes," Melbourne coach Jacob Chance said.
 
 ## Brown's ten minutes
 
 Brown had six points on one-of-nine shooting through three quarters. He scored 14 in the fourth, with two threes. A 27-foot step-back three at 5:20 made it 92-87. Two free throws at 3:28 made it 95-89, and an 18-foot step-back at 2:16 made it 99-91. He finished with 20 points, nine of 10 at the line, four rebounds and four assists.
 
 Pinder closed it out. He scored on a turnaround at 3:05, hit two free throws at 0:39 and laid in the last basket with 17 seconds left for the final 12-point margin. He led Cairns with 27 points on 10-of-14 shooting.
-
-"This is not a team that will operate through fear and then we find ourselves down 12, the emotions are heightened and this is where you respond," Forde said.
 
 ## The numbers
 
