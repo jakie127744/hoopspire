@@ -62,7 +62,7 @@ The habit worth building: when a ranking surprises you, ask what minutes number 
 
 Roster movement matters in fantasy for a narrower reason than it matters in real basketball. A trade becomes interesting to a manager mainly when it changes who is on the floor and who ends possessions, and those two effects often point in opposite directions.
 
-Hoopspire's [2026-27 projection](/story/NBA-2026-27-Projections) lays out the movement: [Giannis Antetokounmpo](/player/NBA/3032977) to Miami, [Jaylen Brown](/player/NBA/3917376) and [LeBron James](/player/NBA/1966) to Philadelphia, [LaMelo Ball](/player/NBA/4432816) to Minnesota, [Ja Morant](/player/NBA/4279888) to Portland, [Kawhi Leonard](/player/NBA/6450) to Toronto, [Paul George](/player/NBA/4251) to Boston, with [Kevin Durant](/player/NBA/3202) staying in Houston alongside [Marcus Smart](/player/NBA/2990992) and [Bogdan Bogdanovic](/player/NBA/3037789).
+Hoopspire's [2026-27 projection](/story/nba-2026-27-projections) lays out the movement: [Giannis Antetokounmpo](/player/NBA/3032977) to Miami, [Jaylen Brown](/player/NBA/3917376) and [LeBron James](/player/NBA/1966) to Philadelphia, [LaMelo Ball](/player/NBA/4432816) to Minnesota, [Ja Morant](/player/NBA/4279888) to Portland, [Kawhi Leonard](/player/NBA/6450) to Toronto, [Paul George](/player/NBA/4251) to Boston, with [Kevin Durant](/player/NBA/3202) staying in Houston alongside [Marcus Smart](/player/NBA/2990992) and [Bogdan Bogdanovic](/player/NBA/3037789).
 
 Read that list twice, from two directions.
 

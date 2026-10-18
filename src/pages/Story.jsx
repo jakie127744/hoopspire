@@ -1,5 +1,5 @@
-import { useParams, Link } from 'react-router-dom'
-import { getOriginal, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
+import { useParams, Link, Navigate } from 'react-router-dom'
+import { getOriginal, findOriginalIgnoringCase, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
 import { CONNECTIONS, FIBA_STATUS } from '../lib/scouting.js'
 import { disclosureText } from '../lib/affiliate.js'
 import { getStaff } from '../lib/staff.js'
@@ -34,6 +34,8 @@ export default function Story() {
   })
 
   if (!article) {
+    const meant = findOriginalIgnoringCase(slug)
+    if (meant) return <Navigate to={meant.href} replace />
     return (
       <div className="mx-auto max-w-3xl px-4 py-24 md:px-8">
         <h1 className="text-4xl">That story isn't in the ledger.</h1>

@@ -1,3 +1,6 @@
 # Cloudflare's asset server reads this; vercel.json carries the same rule.
 # On the Wire was retired after the AdSense review — send old links home.
 /wire / 301
+# The 2026-27 projection was published under a capitalised filename and
+# renamed to the lowercase convention on 2026-10-18; keep its old address.
+/story/NBA-2026-27-Projections /story/nba-2026-27-projections 301

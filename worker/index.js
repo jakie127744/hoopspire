@@ -39,6 +39,17 @@ const json = (body, status = 200) =>
  * CREATE TABLE IF NOT EXISTS is idempotent, and it runs once per isolate.
  * The schema lives here and nowhere else.
  */
+/*
+ * Articles whose slug changed after readers had already reacted to them. The
+ * counts are folded into the new slug once, in the same pass that ensures the
+ * table: the batch is one transaction and deletes the old rows, so running it
+ * again (another isolate, a later deploy) finds nothing left to move.
+ */
+const RENAMED = [
+  // 2026-10-18: lowercase, like every other slug.
+  ['NBA-2026-27-Projections', 'nba-2026-27-projections'],
+]
+
 let schemaReady = null
 function ensureSchema(db) {
   schemaReady ??= db
@@ -46,6 +57,18 @@ function ensureSchema(db) {
       'CREATE TABLE IF NOT EXISTS reactions (slug TEXT NOT NULL, reaction TEXT NOT NULL, count INTEGER NOT NULL DEFAULT 0, PRIMARY KEY (slug, reaction))'
     )
     .run()
+    .then(() =>
+      db.batch(
+        RENAMED.flatMap(([from, to]) => [
+          db
+            .prepare(
+              'INSERT INTO reactions (slug, reaction, count) SELECT ?, reaction, count FROM reactions WHERE slug = ? AND true ON CONFLICT (slug, reaction) DO UPDATE SET count = count + excluded.count'
+            )
+            .bind(to, from),
+          db.prepare('DELETE FROM reactions WHERE slug = ?').bind(from),
+        ])
+      )
+    )
     .catch((err) => {
       schemaReady = null // let the next request try again
       throw err

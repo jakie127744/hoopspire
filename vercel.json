@@ -4,7 +4,14 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "redirects": [{ "source": "/wire", "destination": "/", "permanent": true }],
+  "redirects": [
+    { "source": "/wire", "destination": "/", "permanent": true },
+    {
+      "source": "/story/NBA-2026-27-Projections",
+      "destination": "/story/nba-2026-27-projections",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!admin/|admin$|data/|assets/).*)",

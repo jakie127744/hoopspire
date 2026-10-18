@@ -214,6 +214,17 @@ export function getOriginal(slug) {
 }
 
 /**
+ * The article a mis-cased slug means, if any. Slugs are lowercase, but one
+ * piece went live as /story/NBA-2026-27-Projections, and a returning reader's
+ * service worker answers that address itself, before the 301 in _redirects
+ * can. Story uses this to send them on to the real address.
+ */
+export function findOriginalIgnoringCase(slug) {
+  const lower = String(slug || '').toLowerCase()
+  return all.find((a) => a.slug.toLowerCase() === lower) || null
+}
+
+/**
  * Our own recap of a specific game, if we filed one — matched on the ESPN
  * event id in `game`, scoped to the league so two leagues' ids (both just
  * strings of digits) can never collide. The Game page uses this to show our
