@@ -45,3 +45,5 @@ Kings: Torrey Craig 28, Makuach Maluach 19, Xavier Cooks 18, Kendric Davis 17, A
 ## What is next
 
 The Kings host the Perth Wildcats in Sydney on Saturday, October 17 at 7:30 p.m. The Breakers stay on the road and play the Tasmania JackJumpers on Sunday, October 18 at 3 p.m.
+
+Update: both teams played again at the weekend. [The Kings beat Perth 102-81 and the Breakers lost 98-92 in Tasmania](/story/makur-maker-late-three-hawks-hold-off-united-91-89-nbl-weekend).
