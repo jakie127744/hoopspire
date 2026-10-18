@@ -45,7 +45,8 @@ Filing rules (checked by `npm run lint:articles` where marked):
 - Tag says news or opinion (lint). The weekly pieces are columns:
   `Second Look` by Victor Ashby and `Hot Hand` by Noor Haddad, split as on
   Opinion by the national team's FIBA region, not where the player plays
-  (Ashby the Americas, Haddad everywhere else; the lint does not check it). `Eligibility` is
+  (Ashby the Americas, Haddad everywhere else), unless the owner assigns a
+  list of players to alternate between them. The lint does not check it. `Eligibility` is
   news, by Amara Diallo, only when there is a ruling to report, and does not
   count toward the weekly two.
 
