@@ -59,3 +59,5 @@ The Americans also moved the ball better, with 21 assists to France's 15, and ha
 The box score does not show which coverages France used or what the Americans changed on defense at halftime, and we will not guess. What it does show is that France was the better team for most of the first half and was beaten over one stretch, not for 40 minutes. Williams and Malonga combined for 41 points. France shot 45.8% from three and 64% at the line, against 42.1% and 68% for the United States.
 
 France reached its first World Cup final and leaves with its first medal at the event. It lost to a team that took ten more shots, made 13 more twos and grabbed twice as many offensive rebounds. Those are gaps France can measure and work on.
+
+Related: the Philippines played in the qualifying tournaments for this World Cup, and missed [Naomi Panganiban when they got there](/story/naomi-panganiban-did-her-gilas-paperwork-early-the-philippines-problem-is-march).

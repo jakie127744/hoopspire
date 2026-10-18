@@ -42,3 +42,5 @@ By quarter: Philippines 9, 21, 20, 19. New Zealand 16, 23, 4, 21.
 ## What is next
 
 On Thursday, October 8, Korea play Chinese Taipei and China play the Philippines in the Qualification to Semi-Finals, and New Zealand play Malaysia for seventh place. The semi-finals are on Friday, October 9, with Australia and Japan waiting, and the final is on Saturday, October 10.
+
+Update: this team played Division A because the 2024 group won promotion. One of its leaders, [Naomi Panganiban, is now a San Diego State guard and a senior national team player](/story/naomi-panganiban-did-her-gilas-paperwork-early-the-philippines-problem-is-march).
