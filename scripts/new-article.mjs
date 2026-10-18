@@ -38,7 +38,7 @@ const DESKS = {
   fantasy: { dir: path.join(CONTENT, 'fantasy'), rel: 'content/fantasy', author: 'Franco Medina' },
   news: { dir: path.join(CONTENT, 'news'), rel: 'content/news', author: 'Hoopspire Staff' },
   opinion: { dir: path.join(CONTENT, 'opinion'), rel: 'content/opinion', author: 'Victor Ashby' },
-  scouting: { dir: path.join(CONTENT, 'scouting'), rel: 'content/scouting', author: 'Amara Diallo' },
+  scouting: { dir: path.join(CONTENT, 'scouting'), rel: 'content/scouting', author: 'Victor Ashby' },
 }
 
 const LEAGUES = [
@@ -61,10 +61,10 @@ const TAGS_BY_DESK = {
   // Opinion: the tag is the column. Second Look is Victor Ashby's, Hot Hand
   // is Noor Haddad's, Jump Ball is the two of them on opposite sides.
   opinion: ['Second Look', 'Hot Hand', 'Jump Ball'],
-  // Heritage Line runs news and opinion side by side, and the tag says which
-  // a piece is: a report or an eligibility ruling is news, filed by the FIBA
-  // beat writer; Second Look and Hot Hand are columns, filed by their owners.
-  scouting: ['Scouting Report', 'Eligibility', 'Second Look', 'Hot Hand'],
+  // Heritage Line (owner, 2026-10-18): the weekly scouting pieces are columns,
+  // Second Look by Victor Ashby and Hot Hand by Noor Haddad. Eligibility is
+  // news, filed by Amara Diallo only when there is a ruling to report.
+  scouting: ['Second Look', 'Hot Hand', 'Eligibility'],
 }
 
 /** Other Hoopspire articles a Heritage Line piece must link to. */
@@ -72,7 +72,6 @@ const SCOUTING_MIN_LINKS = 2
 
 /** Which home desk a Heritage Line tag belongs to. */
 const SCOUTING_KIND = {
-  'Scouting Report': 'news',
   Eligibility: 'news',
   'Second Look': 'opinion',
   'Hot Hand': 'opinion',
@@ -279,9 +278,11 @@ function isoWeek(date) {
 }
 
 /**
- * Heritage Line publishes two pieces a week, one from each writer (owner,
- * 2026-10-18). The lint can't make a writer file; it can stop one writer
+ * Heritage Line publishes two columns a week, one from each columnist (owner,
+ * 2026-10-18). The lint can't make a writer file; it can stop one columnist
  * filing twice in a week, which is how a two-writer desk turns into one.
+ * Eligibility rulings are news and run when they happen, so they are not
+ * counted.
  */
 function scoutingCadence(files) {
   const seen = new Map()
@@ -290,9 +291,10 @@ function scoutingCadence(files) {
   const byDate = [...files].sort((a, b) => String(a.data?.published).localeCompare(String(b.data?.published)))
   for (const { desk, rel, file, data } of byDate) {
     if (desk !== 'scouting' || !data || data.draft === true || !data.author || !data.published) continue
+    if (SCOUTING_KIND[data.tag] !== 'opinion') continue
     const key = `${data.author} ${isoWeek(data.published)}`
     if (seen.has(key)) {
-      problems.push([`${rel}/${file}`, `${data.author} already filed ${seen.get(key)} in ${isoWeek(data.published)}; Heritage Line runs one piece per writer per week`])
+      problems.push([`${rel}/${file}`, `${data.author} already filed ${seen.get(key)} in ${isoWeek(data.published)}; Heritage Line runs one column per columnist per week`])
     } else {
       seen.set(key, file)
     }

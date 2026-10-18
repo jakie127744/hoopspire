@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { getDesk } from '../lib/articles.js'
-import { deskStaff } from '../lib/staff.js'
 import ArticleCard from '../components/ArticleCard.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
 import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
@@ -16,10 +15,11 @@ import { useMeta } from '../lib/meta.js'
  * held early makes a player local, and one acquired late makes them the one
  * naturalised player a team is allowed.
  *
- * The desk is run by the FIBA writers already on the masthead, so the same
- * line holds as everywhere else: reports are news, filed by the FIBA beat
- * writer, and columns are opinion, filed by the columnists. Every piece goes
- * through the same editorial pipeline and lint as the desks they come from.
+ * The desk is run by the FIBA writers already on the masthead (owner,
+ * 2026-10-18): two columns a week, one player each, from Victor Ashby and
+ * Noor Haddad, and news from Amara Diallo only when there is an eligibility
+ * ruling. Every piece goes through the same editorial pipeline and lint as
+ * the desks they come from.
  *
  * Built on the Opinion page, but filtered by nation rather than by league:
  * nearly every piece is `league: FIBA`, and the reader's question is which
@@ -33,7 +33,6 @@ export default function HeritageLine() {
   })
   const [nation, setNation] = useState('ALL')
   const all = getDesk('scouting')
-  const writers = deskStaff('scouting').map((s) => s.byline)
 
   const nations = [...new Set(all.map((a) => a.nation).filter(Boolean))].sort()
   const shown = nation === 'ALL' ? all : all.filter((a) => a.nation === nation)
@@ -49,13 +48,12 @@ export default function HeritageLine() {
         report says where FIBA's eligibility rules leave them: a local player, the one naturalised
         place a national team is allowed, or not settled yet.
       </p>
-      {writers.length > 0 && (
-        <p className="mt-3 max-w-2xl text-sm text-ink/50">
-          Reports by {writers[0]}, our FIBA writer. Columns by {writers.slice(1).join(' and ')}.
-          The reports are news and the columns are opinion, held to the same checks as the rest
-          of the site.
-        </p>
-      )}
+      <p className="mt-3 max-w-2xl text-sm text-ink/50">
+        Two columns a week, one player each: Second Look by Victor Ashby on the Americas, Hot
+        Hand by Noor Haddad on everywhere else. When a federation or FIBA rules on a player's
+        eligibility, Amara Diallo, our FIBA writer, reports it as news. The opinions belong to
+        the columnists; the facts under them are checked like everything else here.
+      </p>
 
       {nations.length > 1 && (
         <div className="no-scrollbar mt-8 flex gap-2 overflow-x-auto border-b border-parchment pb-4">

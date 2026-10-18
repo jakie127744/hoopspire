@@ -7,16 +7,17 @@ player: Full name of the one player this piece is about
 nation: Philippines
 connection: parent
 status: pending
-author: Amara Diallo
+author: Victor Ashby
 published: 2026-10-18
-tag: Scouting Report
+tag: Second Look
 draft: true
 ---
 
 Heritage Line: scouting reports on young players growing up outside the
 country they could represent. Scaffold with:
 
-    npm run new -- "Headline" --desk scouting --tag "Scouting Report"
+    npm run new -- "Headline" --desk scouting --tag "Second Look"
+    npm run new -- "Headline" --desk scouting --tag "Hot Hand" --author "Noor Haddad"
 
 Filing rules (checked by `npm run lint:articles` where marked):
 
@@ -29,8 +30,8 @@ Filing rules (checked by `npm run lint:articles` where marked):
   (lint: they must exist and be published). A player's earlier Heritage Line
   report, the league desk's coverage of their club, a FIBA report on the
   national team they could join.
-- Two pieces a week, one from each writer. The lint stops a writer filing a
-  second Heritage Line piece in the same ISO week.
+- Two columns a week, one from each columnist. The lint stops a columnist
+  filing a second Heritage Line column in the same ISO week.
 - `nation`: the national team the piece is about (lint: required).
 - `connection`: `passport`, `parent`, `grandparent` or `birth` (lint). It must
   be verified from a federation, club, league or official roster record, or
@@ -41,9 +42,12 @@ Filing rules (checked by `npm run lint:articles` where marked):
   national team may field one such player), `pending` if it is not held yet
   or not confirmed. Check the current FIBA Internal Regulations, Book 3,
   before every piece; do not rely on an older summary of the age threshold.
-- Tag says news or opinion (lint): `Scouting Report` and `Eligibility` are
-  news, by Amara Diallo. `Second Look` (Victor Ashby, the Americas) and
-  `Hot Hand` (Noor Haddad, everywhere else) are columns.
+- Tag says news or opinion (lint). The weekly pieces are columns:
+  `Second Look` by Victor Ashby and `Hot Hand` by Noor Haddad, split as on
+  Opinion by the national team's FIBA region (Ashby the Americas, Haddad
+  everywhere else; the lint does not check the region). `Eligibility` is
+  news, by Amara Diallo, only when there is a ruling to report, and does not
+  count toward the weekly two.
 
 Young players: these are minors. Write only about what they do in public
 competition and what official records show. No schools below university

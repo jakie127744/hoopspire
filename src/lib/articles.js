@@ -78,9 +78,10 @@ export const DESKS = {
    * Heritage Line (owner, 2026-10-18). Scouting reports on young players
    * growing up outside the country they could represent, through a verified
    * passport, parent or grandparent, and where FIBA's eligibility rules put
-   * them. Run by the FIBA writers already on the masthead: reports filed as
-   * news by the FIBA beat writer, columns by the two Opinion columnists. It
-   * has no byline of its own; see `desks` in src/lib/staff.js.
+   * them. Run by the FIBA writers already on the masthead: two columns a
+   * week from the Opinion columnists, and news from the FIBA beat writer
+   * when there is an eligibility ruling. It has no byline of its own; see
+   * `desks` in src/lib/staff.js.
    */
   scouting: {
     key: 'scouting',
