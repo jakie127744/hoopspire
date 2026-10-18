@@ -67,7 +67,7 @@ Ten players in the nine-category top 50 fall out of the punt top 50: Cunningham,
 
 ## The minutes assumption
 
-An assist total is a per-minute rate multiplied by a guess about minutes. Here is the arithmetic for a hypothetical guard, not a real player, who records 0.19 assists a minute.
+An assist total is a per-minute rate multiplied by a guess about minutes. Take a made-up guard who records 0.19 assists a minute.
 
 - At 28 minutes a game: 5.32 assists, which is 1.55 above the pool average and about 0.78 standard deviations.
 - At 34 minutes a game: 6.46 assists, which is 2.69 above the pool average and about 1.35 standard deviations.

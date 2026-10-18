@@ -148,9 +148,8 @@ export default function Privacy() {
 
       <Section title="Where the sports data comes from">
         <p>
-          Scores, standings, fixtures and rosters are fetched from publicly available feeds
-          published by the competitions and their media partners, and from public encyclopaedic
-          sources. Headlines link out to the original publisher.
+          Scores, standings, fixtures and rosters come from the results the competitions and their
+          media partners publish. The analysis built on them is our own.
         </p>
         <p>
           Some of these requests are made directly by your browser, which means those providers

@@ -60,7 +60,7 @@ export const STAFF = [
     leagues: ['NBA'],
     beat: 'The NBA: results, signings, trades, injuries and what a night changed in the standings.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'marcus-oyelaran',
@@ -70,7 +70,7 @@ export const STAFF = [
     leagues: ['NBA'],
     beat: 'The NBA, second chair: the rest of the slate, front offices, the cap and the transaction wire.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'renee-castellano',
@@ -80,7 +80,7 @@ export const STAFF = [
     leagues: ['WNBA'],
     beat: 'The WNBA: games, playoffs, free agency and the expansion clubs.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'caleb-brandt',
@@ -90,7 +90,7 @@ export const STAFF = [
     leagues: ['GLeague'],
     beat: 'The NBA G League: call-ups, two-way contracts, assignments and results.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'owen-hatcher',
@@ -100,7 +100,7 @@ export const STAFF = [
     leagues: ['NCAAM'],
     beat: 'NCAA men’s basketball: results, the polls, transfers and the road to March.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'rafael-moura',
@@ -110,7 +110,7 @@ export const STAFF = [
     leagues: ['NBB'],
     beat: 'The Novo Basquete Brasil: results, signings and the Brazilians abroad.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'ines-garduno',
@@ -140,7 +140,7 @@ export const STAFF = [
     leagues: ['PBA'],
     beat: 'The PBA: the conferences, the Gilas pool and the Filipino players abroad.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'han-ji-woo',
@@ -150,7 +150,7 @@ export const STAFF = [
     leagues: ['KBL'],
     beat: 'Korea’s KBL: results from the league’s own game records, signings and the table.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'kenji-arakawa',
@@ -160,7 +160,7 @@ export const STAFF = [
     leagues: ['BLeague'],
     beat: 'Japan’s B.League: results from the league’s game data, signings and the Asian-quota players.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'lin-haoran',
@@ -170,7 +170,7 @@ export const STAFF = [
     leagues: ['CBA'],
     beat: 'China’s CBA: results, signings and the national team pool.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'tsai-pei-shan',
@@ -180,7 +180,7 @@ export const STAFF = [
     leagues: ['TPBL'],
     beat: 'Taiwan’s TPBL: results, imports and the table.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'lachlan-pryor',
@@ -190,7 +190,7 @@ export const STAFF = [
     leagues: ['NBL'],
     beat: 'Australia’s NBL: results, injuries, the Next Stars and the import market.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
   {
     id: 'amara-diallo',
@@ -200,7 +200,7 @@ export const STAFF = [
     leagues: ['FIBA'],
     beat: 'FIBA at every level: senior windows, World Cup and continental cups, the age-group tournaments from U16 up, the zonal championships, and federation rulings.',
     method:
-      'Reported from league and club releases, the official box score and on-record quotes. A single unofficial report is never published as fact.',
+      'Written from the official box score and play-by-play, with every split and margin worked out here. Injury and roster news comes from league and club announcements only.',
   },
 
   /*

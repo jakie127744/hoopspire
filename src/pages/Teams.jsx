@@ -7,7 +7,7 @@ import { TeamLogo, Loading, Empty, Eyebrow, SectionHead } from '../components/Pr
 import { useMeta } from '../lib/meta.js'
 
 export default function Teams() {
-  useMeta({ title: 'Teams', description: 'Every club in the ledger, by league — rosters, records and results across thirteen basketball competitions.' })
+  useMeta({ title: 'Teams', description: 'Every club in the ledger, by league — rosters, records and results across thirteen basketball competitions.', noindex: true })
   const [leagueKey, setLeagueKey] = useState('NBA')
   const league = getLeague(leagueKey)
   const { data: teams, loading } = useAsync(() => getTeams(leagueKey), [leagueKey], [])

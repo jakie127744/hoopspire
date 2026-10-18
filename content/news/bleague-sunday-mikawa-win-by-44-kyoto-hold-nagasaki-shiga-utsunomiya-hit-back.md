@@ -7,7 +7,7 @@ published: "2026-10-04"
 tag: "Result"
 ---
 
-Osaka Evessa scored six points in the first quarter on Sunday. By the middle of the fourth, SeaHorses Mikawa led them by 46. It was the widest margin of a busy B.League Premier Sunday, which also had a 26-point Shiga win a day after a home loss, a 34-point lead in Toyama and a 37-point night from Keyontae Johnson in Alvark Tokyo's win over the Chiba Jets, which we covered separately along with Kai Sotto and Altiri Chiba's loss to Kawasaki. Here is everything else.
+Osaka Evessa scored six points in the first quarter on Sunday. By the middle of the fourth, SeaHorses Mikawa led them by 46. It was the widest margin of a busy B.League Premier Sunday, which also had a 26-point Shiga win a day after a home loss, a 34-point lead in Toyama and a 37-point night from Keyontae Johnson in Alvark Tokyo's win over the Chiba Jets, which we covered separately along with Kai Sotto and Altiri Chiba's loss to Kawasaki. The rest of the day went like this.
 
 ## Sweeps
 

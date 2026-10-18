@@ -9,7 +9,7 @@ tag: Analysis
 
 Championship games are usually decided in fragments: a stretch of four or five possessions that nobody notices until the box score is printed. The 2026 EuroLeague final, played at Telekom Center Athens on 24 May, is unusually easy to read in that respect. Olympiacos Piraeus beat Real Madrid 92-85 to win a fourth EuroLeague title and its first since 2013, and almost everything that mattered happened in the last ten minutes.
 
-Here is how the quarters fell:
+The quarters fell like this:
 
 | Quarter | Olympiacos | Real Madrid | Margin |
 |---|---|---|---|

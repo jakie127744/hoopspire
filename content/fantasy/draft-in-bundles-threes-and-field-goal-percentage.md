@@ -7,7 +7,7 @@ published: "2026-10-05"
 tag: "Draft"
 ---
 
-Here is a draft-room decision you can make before your first pick: choose which categories you are building, not which players you like. The nine categories do not move on their own. Some come in bundles, and some fight each other. If you draft for threes, you are drafting away from field goal percentage, whether you meant to or not.
+You can make one draft-room decision before your first pick: choose which categories you are building, not which players you like. The nine categories do not move on their own. Some come in bundles, and some fight each other. If you draft for threes, you are drafting away from field goal percentage, whether you meant to or not.
 
 **Format:** head-to-head nine-category or roto. **Pool:** the same 150 players as the recent columns, the most nine-category value among the 247 NBA players who played at least 30 games and 20 minutes a night in 2025-26. Every figure is a 2025-26 per-game z-score at that player's own minutes, so nothing here is a projection of 2026-27.
 

@@ -140,7 +140,7 @@ export default function Player() {
       <div className="mx-auto max-w-5xl px-4 py-24 md:px-8">
         <h1 className="text-4xl">No profile for this player yet.</h1>
         <p className="mt-3 text-ink/60">
-          Profiles are built from the league's own feeds and RealGM. This player is not in either.
+          We have no profile for this player yet.
         </p>
         <Link to="/stats" className="eyebrow mt-6 inline-block text-crimson">
           ← Stats
@@ -205,12 +205,7 @@ export default function Player() {
           {p.careerMissingGLeague && (
             <p className="mt-3 text-xs text-ink/50">
               G League seasons are not yet included for this player; they arrive with the next
-              careers refresh.{' '}
-              {p.careerUrl && (
-                <a href={p.careerUrl} rel="noreferrer" className="text-crimson underline">
-                  Full career on RealGM
-                </a>
-              )}
+              careers refresh.
             </p>
           )}
         </section>
@@ -291,33 +286,14 @@ export default function Player() {
 
       {!p.career.length && p.careerUrl && (
         <p className="mt-16 border-l-2 border-gold bg-paper px-5 py-4 text-sm text-ink/70">
-          Career history for this player has not been captured yet.{' '}
-          <a href={p.careerUrl} rel="noreferrer" className="text-crimson underline">
-            See their full career on RealGM
-          </a>
-          .
+          Career history for this player has not been captured yet.
         </p>
       )}
 
       <footer className="mt-16 border-t border-parchment pt-6">
         <p className="text-sm text-ink/50">
-          Sources:{' '}
-          {p.sources.map((s, i) => (
-            <span key={s.name}>
-              {i > 0 && ', '}
-              <a href={s.url} rel="noreferrer" className="underline hover:text-crimson">
-                {s.name}
-              </a>
-            </span>
-          ))}
-          {p.careerUrl && p.career.length > 0 && (
-            <>
-              {' · '}
-              <a href={p.careerUrl} rel="noreferrer" className="underline hover:text-crimson">
-                Full career on RealGM
-              </a>
-            </>
-          )}
+          Built from official league results and box scores. Averages and splits are calculated
+          by Hoopspire.
         </p>
       </footer>
     </div>

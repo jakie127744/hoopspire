@@ -11,7 +11,7 @@ imageCredit: "Photo: U.S. Marine Corps photo by Lance Cpl. Mhecaela J. Watts / W
 
 The Toronto Raptors made the right call when they traded for [Kawhi Leonard](/player/NBA/6450). I say that knowing he is 35, knowing how many games he has missed, and knowing exactly what they paid. The case against the trade is real. It is just about the wrong years.
 
-Here is the deal. Toronto sent [Brandon Ingram](/player/NBA/3913176), [Gradey Dick](/player/NBA/5106258), unprotected first-round picks in 2031 and 2033, a 2027 first-round swap and second-round picks in 2030 and 2033 to the LA Clippers. Leonard then signed a two-year, $115 million extension that starts after this season and runs through 2028-29, with a player option in the last year.
+The deal is simple to state. Toronto sent [Brandon Ingram](/player/NBA/3913176), [Gradey Dick](/player/NBA/5106258), unprotected first-round picks in 2031 and 2033, a 2027 first-round swap and second-round picks in 2030 and 2033 to the LA Clippers. Leonard then signed a two-year, $115 million extension that starts after this season and runs through 2028-29, with a player option in the last year.
 
 ## What Toronto got
 

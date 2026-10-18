@@ -51,7 +51,7 @@ The change is sharpest on the Japan side. Kotetsu Kurokawa scored 21 points on 8
 
 Others filled part of the gap. Ren Kanechika scored 13 in the final against nine in the group game and Atsuya Ogawa 12 against four. Japan's total still fell by 26 points, and 14 of them were free throws: Japan made 19 of 21 in the group game and five of 14 in the final.
 
-Here is how those numbers travel from the B.League, where both played last season. Hoopspire's B.League ledger has Kurokawa shooting 43.1% from the field over 57 games in 2025-26 and Kirk 63.1% over 67 games. At those rates their 27 shots in the group game would produce about 13.8 makes, and they made 13. Their 23 shots in the final would produce about 11.7, and they made four. So Japan's top two scorers shot close to their domestic rates in the loss by 17 and far below them in the loss by 10.
+Those numbers travel from the B.League, where both played last season. Hoopspire's B.League ledger has Kurokawa shooting 43.1% from the field over 57 games in 2025-26 and Kirk 63.1% over 67 games. At those rates their 27 shots in the group game would produce about 13.8 makes, and they made 13. Their 23 shots in the final would produce about 11.7, and they made four. So Japan's top two scorers shot close to their domestic rates in the loss by 17 and far below them in the loss by 10.
 
 Two cautions apply. A club rate does not transfer unchanged to a national-team opponent, so this measures a gap and not a reason. And two games is a small sample, 50 shots between two players. The KBL ledger has no entry for Lee Hyun-jung, so there is no domestic baseline for Korea's best player in the final, and this comparison covers Japan only.
 

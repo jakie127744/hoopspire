@@ -1,7 +1,8 @@
 /**
  * Writes dist/sitemap.xml after a build.
  *
- * Only pages worth indexing go in. The live-data routes (/team/:id,
+ * Only pages worth indexing go in. /scores, /stats and /teams are tables
+ * with no writing of their own and carry noindex. The live-data routes (/team/:id,
  * /game/:id, /player/:id) are deliberately absent: they are generated from
  * upstream feeds, they number in the thousands, and most of them are a table
  * that says 0–0 until a season starts. Listing them would hand a crawler a
@@ -25,9 +26,6 @@ const STATIC = [
   { path: '/free-minutes', changefreq: 'weekly', priority: '0.8' },
   { path: '/press', changefreq: 'daily', priority: '0.9' },
   { path: '/archive', changefreq: 'daily', priority: '0.6' },
-  { path: '/scores', changefreq: 'hourly', priority: '0.7' },
-  { path: '/stats', changefreq: 'daily', priority: '0.7' },
-  { path: '/teams', changefreq: 'weekly', priority: '0.6' },
   { path: '/about', changefreq: 'monthly', priority: '0.5' },
   { path: '/contact', changefreq: 'monthly', priority: '0.4' },
   { path: '/privacy', changefreq: 'yearly', priority: '0.3' },

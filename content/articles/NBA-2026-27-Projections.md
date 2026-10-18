@@ -1,553 +1,189 @@
 ---
-title: The 2026-27 NBA Projection: Spurs, Thunder and Knicks Lead a Season of Roster Upheaval
-dek: The Knicks enter as champions, the Spurs and Thunder remain the West's central powers, and Giannis, LeBron, Jaylen Brown, LaMelo Ball and Kawhi Leonard have changed the league's geometry. Here is the numbers-first projection for every division, playoff seed, postseason series and major award.
-league: NBA
-author: Hoopspire Staff
-published: 2026-09-17
-tag: Analysis
+title: "Our 2026-27 NBA projection: Spurs over Knicks in the Finals, Thunder and Pistons top the standings"
+dek: "The Knicks are champions, the Spurs and Thunder still run the West, and Giannis, LeBron, Jaylen Brown, LaMelo Ball and Kawhi Leonard all changed teams. Every seed, series and major award, and what would have to happen for us to be wrong."
+league: "NBA"
+author: "Hoopspire Staff"
+published: "2026-09-17"
+tag: "Analysis"
 ---
-The 2026-27 NBA season begins with something unusual: the defending champion is not necessarily the team with the clearest statistical case to repeat.
+The defending champion does not have the strongest statistical case to repeat this season. New York won the 2026 title, beating San Antonio 4-1 in the Finals after finishing third in the East at 53-29, and kept its starting five together. San Antonio won 62 games and reached the Finals, and Victor Wembanyama is entering his fourth season. Oklahoma City won 64 and lost to the Spurs in the Western Conference finals.
 
-New York won the 2026 championship, beating San Antonio 4-1 after finishing third in the Eastern Conference at 53-29. The Knicks then made almost no changes to their starting core. San Antonio, meanwhile, returns from a 62-win season and a Finals appearance with Victor Wembanyama entering his fourth season. Oklahoma City returns from a 64-win campaign after losing the Western Conference finals.
+Around those three, a lot moved. Giannis Antetokounmpo is in Miami. Jaylen Brown and LeBron James are both in Philadelphia. LaMelo Ball went to Minnesota, Ja Morant to Portland, Paul George to Boston, and Kawhi Leonard back to Toronto. Kevin Durant stayed in Houston, and the Rockets added Marcus Smart and Bogdan Bogdanović.
 
-But the league around them moved dramatically.
+So the question for every team below is the same: can the new roster turn its talent into efficient possessions for 82 games, and then hold up against one specific opponent in a seven-game series?
 
-Giannis Antetokounmpo is now in Miami. Jaylen Brown is in Philadelphia. LeBron James joined the 76ers. LaMelo Ball moved to Minnesota. Ja Morant is in Portland. Kawhi Leonard returned to Toronto. Paul George is in Boston. Kevin Durant remains in Houston, while the Rockets added Marcus Smart and Bogdan Bogdanović.
+## How we built it
 
-That creates the central question for this projection:
+This is our own forecast, not a betting line. It starts from each team's 2025-26 numbers: wins, offensive and defensive rating, net rating, pace, shooting efficiency, turnover rate, rebounding and playoff results. We then adjust that baseline with these weights:
 
-**Which teams can convert talent into possession-level efficiency over 82 games and then survive the matchup problems of the playoffs?**
+| Factor | Weight |
+| --- | ---: |
+| Previous-season team efficiency | 35% |
+| Returning player value and continuity | 20% |
+| Offseason roster changes | 20% |
+| Development and aging | 15% |
+| Availability and structural risk | 10% |
 
-The projection below is built around that question.
+A new star does not simply add his old scoring average to his new team. His shots come out of possessions a teammate used to take, he changes who stands where, and a high-usage player can bring turnovers with him. The same goes for defense: one good defender does not make a good team defense. Those adjustments do the most work for Philadelphia, Miami, Minnesota and Boston.
 
-## The projection model
-
-This is not a betting line and it is not a reproduction of another outlet's power rankings.
-
-The model starts with the 2025-26 baseline: wins, offensive efficiency, defensive efficiency, Net Rating, pace, shooting efficiency, turnover rate, rebounding and playoff performance. NBA's official statistical database provides the underlying team advanced-stat framework, including OffRtg, DefRtg, NetRtg, eFG%, TS%, OREB%, TOV% and pace.
-
-The forward projection then adjusts that baseline for:
-
-| Factor                                | Model weight |
-| ------------------------------------- | -----------: |
-| Previous-season team efficiency       |          35% |
-| Returning player value and continuity |          20% |
-| Offseason roster changes              |          20% |
-| Player development/aging curve        |          15% |
-| Availability and structural risk      |          10% |
-
-The model does not assume that a new star simply adds his previous points per game to a team's offense.
-
-A player's value has to fit into possessions already being used by teammates. A high-usage scorer can raise offensive efficiency through shot creation while simultaneously reducing another player's touches, changing spacing or increasing turnover exposure. The same principle applies defensively: adding a good individual defender does not automatically create a good team defense if the surrounding scheme cannot support him.
-
-That distinction matters particularly in Philadelphia, Miami, Minnesota and Boston.
-
-## Projected regular-season standings
+## Projected standings
 
 ### Eastern Conference
 
-| Seed | Team                | Projected record | Division  |
-| ---- | ------------------- | ---------------: | --------- |
-| 1    | Detroit Pistons     |        **56-26** | Central   |
-| 2    | New York Knicks     |        **55-27** | Atlantic  |
-| 3    | Philadelphia 76ers  |        **51-31** | Atlantic  |
-| 4    | Cleveland Cavaliers |        **48-34** | Central   |
-| 5    | Miami Heat          |        **47-35** | Southeast |
-| 6    | Orlando Magic       |        **46-36** | Southeast |
-| 7    | Atlanta Hawks       |        **44-38** | Southeast |
-| 8    | Toronto Raptors     |        **43-39** | Atlantic  |
-| 9    | Boston Celtics      |        **41-41** | Atlantic  |
-| 10   | Charlotte Hornets   |        **40-42** | Southeast |
-| 11   | Indiana Pacers      |        **38-44** | Central   |
-| 12   | Milwaukee Bucks     |        **30-52** | Central   |
-| 13   | Chicago Bulls       |        **28-54** | Central   |
-| 14   | Brooklyn Nets       |        **27-55** | Atlantic  |
-| 15   | Washington Wizards  |        **24-58** | Southeast |
+| Seed | Team | Projected record | Division |
+| ---- | --- | ---: | --- |
+| 1 | Detroit Pistons | **56-26** | Central |
+| 2 | New York Knicks | **55-27** | Atlantic |
+| 3 | Philadelphia 76ers | **51-31** | Atlantic |
+| 4 | Cleveland Cavaliers | **48-34** | Central |
+| 5 | Miami Heat | **47-35** | Southeast |
+| 6 | Orlando Magic | **46-36** | Southeast |
+| 7 | Atlanta Hawks | **44-38** | Southeast |
+| 8 | Toronto Raptors | **43-39** | Atlantic |
+| 9 | Boston Celtics | **41-41** | Atlantic |
+| 10 | Charlotte Hornets | **40-42** | Southeast |
+| 11 | Indiana Pacers | **38-44** | Central |
+| 12 | Milwaukee Bucks | **30-52** | Central |
+| 13 | Chicago Bulls | **28-54** | Central |
+| 14 | Brooklyn Nets | **27-55** | Atlantic |
+| 15 | Washington Wizards | **24-58** | Southeast |
 
 ### Western Conference
 
-| Seed | Team                   | Projected record | Division  |
-| ---- | ---------------------- | ---------------: | --------- |
-| 1    | Oklahoma City Thunder  |        **58-24** | Northwest |
-| 2    | San Antonio Spurs      |        **57-25** | Southwest |
-| 3    | Houston Rockets        |        **52-30** | Southwest |
-| 4    | Denver Nuggets         |        **50-32** | Northwest |
-| 5    | Minnesota Timberwolves |        **49-33** | Northwest |
-| 6    | Los Angeles Lakers     |        **47-35** | Pacific   |
-| 7    | Portland Trail Blazers |        **44-38** | Northwest |
-| 8    | Phoenix Suns           |        **42-40** | Pacific   |
-| 9    | Dallas Mavericks       |        **40-42** | Southwest |
-| 10   | LA Clippers            |        **38-44** | Pacific   |
-| 11   | Golden State Warriors  |        **37-45** | Pacific   |
-| 12   | Sacramento Kings       |        **29-53** | Pacific   |
-| 13   | Memphis Grizzlies      |        **27-55** | Southwest |
-| 14   | Utah Jazz              |        **23-59** | Northwest |
-| 15   | New Orleans Pelicans   |        **20-62** | Southwest |
+| Seed | Team | Projected record | Division |
+| ---- | --- | ---: | --- |
+| 1 | Oklahoma City Thunder | **58-24** | Northwest |
+| 2 | San Antonio Spurs | **57-25** | Southwest |
+| 3 | Houston Rockets | **52-30** | Southwest |
+| 4 | Denver Nuggets | **50-32** | Northwest |
+| 5 | Minnesota Timberwolves | **49-33** | Northwest |
+| 6 | Los Angeles Lakers | **47-35** | Pacific |
+| 7 | Portland Trail Blazers | **44-38** | Northwest |
+| 8 | Phoenix Suns | **42-40** | Pacific |
+| 9 | Dallas Mavericks | **40-42** | Southwest |
+| 10 | LA Clippers | **38-44** | Pacific |
+| 11 | Golden State Warriors | **36-46** | Pacific |
+| 12 | Sacramento Kings | **29-53** | Pacific |
+| 13 | Memphis Grizzlies | **27-55** | Southwest |
+| 14 | Utah Jazz | **23-59** | Northwest |
+| 15 | New Orleans Pelicans | **20-62** | Southwest |
 
-The win totals sum to the 1,230 regular-season games available in each conference's combined schedule.
+The 30 win totals add up to 1,230, one for every game on the schedule.
 
-## Division projections
+## The divisions
 
-The division forecasts are already reflected in the standings above. The useful question is why the model lands there.
+**Atlantic: New York, 55-27.** This is a continuity pick. Jalen Brunson, Mikal Bridges, OG Anunoby, Josh Hart and Karl-Anthony Towns are all back. Mitchell Robinson left for Boston and Andre Drummond came in as backup center. Last season's Knicks had a 118.7 offensive rating and a plus-6.4 net rating, then won 13 straight in the playoffs. Their offense has already shown it works in May and June, and that counts for more in our numbers than two or three extra regular-season wins would.
 
-### Atlantic
+**Central: Detroit, 56-26.** The Pistons won 60 games last season with a 117.3 offensive rating and a plus-8.4 net rating, and Cade Cunningham averaged 23.9 points, 9.9 assists and 5.5 rebounds. They swapped Tobias Harris and Caris LeVert for John Collins and Isaiah Joe and added veteran depth, so the core is intact. We have them a few wins lower because a 60-win season usually carries some luck, and the open question is how efficient Cunningham stays when playoff defenses send everything at him.
 
-New York's projection is primarily a continuity play.
+**Southeast: Miami, 47-35.** One trade changed this division. Miami sent Tyler Herro, Jaime Jaquez Jr., Kel'el Ware and draft picks to Milwaukee for Antetokounmpo, and now pairs him with Bam Adebayo. Expect more rim pressure and more free throws, with less spacing. We are not worried about Giannis's own numbers. We are less sure Miami can put enough shooting around two interior players without giving up the defense that has always carried the Heat.
 
-The Knicks' championship starting group remains intact: Jalen Brunson, Mikal Bridges, OG Anunoby, Josh Hart and Karl-Anthony Towns. Mitchell Robinson departed for Boston, but New York added Andre Drummond as center depth and otherwise maintained the structure that produced a 53-29 regular season followed by a 13-game postseason winning streak.
+**Northwest: Oklahoma City, 58-24.** The Thunder won 64 games and have outscored opponents by 11.2 points a game over the last two seasons, playoffs included. Nobody doubts the regular season. San Antonio is the problem: the Spurs beat Oklahoma City in eight of their 12 meetings last season, the last of them Game 7 of the conference finals. The Thunder get our best record in the West, and the Spurs get the edge if the two meet in a series.
 
-The important number is not simply 53 wins.
+**Pacific: Los Angeles Lakers, 47-35.** This division lost the most veteran talent. LeBron went to Philadelphia, Leonard to Toronto and DeMar DeRozan from Sacramento to Denver. The Lakers kept Luka Dončić and added Quentin Grimes, Jaden Hardy, Walker Kessler, Kevon Looney, Sandro Mamukelashvili, Collin Sexton and Matisse Thybulle. Dončić's creation should keep them above the play-in line. Their defense is the number we are least confident in.
 
-New York demonstrated that its regular-season offense could survive into the postseason while its defense remained sufficiently switchable and physical. The Knicks also finished the previous regular season with a 118.7 OffRtg and 6.4 NetRtg.
+**Southwest: San Antonio, 57-25.** The Spurs went 62-20, Wembanyama was Defensive Player of the Year with an MVP-level season, and they added Tobias Harris and more young size. We project a small offensive step from Wembanyama and Dylan Harper on top of an elite defense. San Antonio does not need a big leap, only to fix what went wrong offensively against New York in the Finals.
 
-**Division projection: New York, 55-27.**
+## The play-in
 
-### Central
+In the East, we have Atlanta and Toronto in the 7 and 8 spots. The Hawks won 46 games last season and added Luguentz Dort and Aaron Wiggins around Jalen Johnson. Their trouble last year was getting stops, so the two defenders matter more than any scorer would have. Boston beats Charlotte in the 9-10 game and then loses at Toronto.
 
-Detroit is projected at 56-26 after already producing a 60-22 regular season.
+In the West, Portland takes the 7 seed after adding Morant to a 42-40 team. Dallas beats the Clippers in the 9-10 game and then loses to Phoenix for the 8 seed. Cooper Flagg's second year keeps the Mavericks competitive, but we do not see a 26-56 team turning all the way around in one season.
 
-The Pistons finished 2025-26 with a 117.3 OffRtg and 8.4 NetRtg, while Cade Cunningham averaged 23.9 points, 9.9 assists and 5.5 rebounds.
+## First round
 
-The offseason did not dismantle the core. Detroit effectively exchanged Tobias Harris and Caris LeVert for John Collins and Isaiah Joe while adding veteran depth.
+**East**
 
-The statistical question is whether Cunningham's creation can remain efficient against playoff defenses that load the ball toward him.
+- **(1) Detroit over (8) Toronto, 4-2.** Toronto's length causes problems, but Detroit's half-court creation and offensive rebounding wear it down.
+- **(2) New York over (7) Atlanta, 4-2.** Johnson can hurt New York's bench in transition. The Knicks have more ways to get a good shot late in close games.
+- **(3) Philadelphia over (6) Orlando, 4-3.** Our most uncertain East series. Tyrese Maxey, Brown, Joel Embiid and LeBron are four players used to running the offense, and it is not yet clear the shots get shared in a way that produces efficiency rather than volume.
+- **(5) Miami over (4) Cleveland, 4-3.** The Cavaliers can guard Giannis one-on-one. The trouble is what happens after their help arrives. If Miami turns his drives into corner threes and second attacks, Cleveland runs out of good choices.
 
-For 82 games, the model expects Detroit's overall structure to remain among the East's strongest.
+**West**
 
-**Division projection: Detroit, 56-26.**
-
-### Southeast
-
-This is the division most transformed by one transaction.
-
-Miami acquired Giannis Antetokounmpo from Milwaukee, sending out Tyler Herro, Jaime Jaquez Jr., Kel'el Ware and draft capital.
-
-The Heat therefore move from a team built around Bam Adebayo's versatility into a structure with two elite interior pressure points.
-
-The projection expects Miami to generate more rim pressure and free-throw opportunities while accepting some spacing tradeoffs.
-
-The uncertainty is not Giannis' individual production. It is how much shooting Miami can place around him and Adebayo without weakening its defensive identity.
-
-**Division projection: Miami, 47-35.**
-
-### Northwest
-
-Oklahoma City remains the projected West No. 1 seed after winning 64 games in 2025-26.
-
-The Thunder also spent the last two seasons, including playoffs, at an extraordinary +11.2 points per game in scoring margin.
-
-The problem is not regular-season quality.
-
-It is the San Antonio matchup.
-
-The Spurs defeated Oklahoma City in eight of their 12 meetings last season, including Game 7 of the Western Conference finals.
-
-Oklahoma City therefore gets the model's highest projected win total in the West, while San Antonio's matchup-specific profile becomes more important once the postseason begins.
-
-**Division projection: Oklahoma City, 58-24.**
-
-### Pacific
-
-The Pacific is more difficult to model because of the amount of veteran talent that moved out of the division.
-
-LeBron James left Los Angeles for Philadelphia, Kawhi Leonard returned to Toronto, and DeMar DeRozan left Sacramento for Denver. The Lakers retained Luka Dončić and added Quentin Grimes, Jaden Hardy, Walker Kessler, Kevon Looney, Sandro Mamukelashvili, Collin Sexton and Matisse Thybulle.
-
-The model expects Dončić's offensive creation to keep Los Angeles above the playoff line.
-
-The defense is the variable.
-
-**Division projection: Los Angeles Lakers, 47-35.**
-
-### Southwest
-
-San Antonio is projected at 57-25.
-
-The Spurs went 62-20 last season, reached the NBA Finals and return Wembanyama after he posted an MVP-caliber season and won Defensive Player of the Year. They also added veteran Tobias Harris and more young frontcourt depth.
-
-The projection assumes a modest offensive improvement from Wembanyama and Dylan Harper while maintaining an elite defensive floor.
-
-San Antonio does not need to become dramatically better.
-
-It needs to become slightly better at the exact things that failed against New York in the Finals.
-
-**Division projection: San Antonio, 57-25.**
-
-## The Play-In Tournament
-
-### East
-
-The model projects Atlanta to take the No. 7 seed and Toronto to claim No. 8.
-
-Atlanta already won 46 games last season and now adds Luguentz Dort and Aaron Wiggins to a group led by Jalen Johnson. The defensive additions are particularly relevant because Atlanta's previous issue was not simply scoring; it was sustaining defensive possessions.
-
-Boston and Charlotte are projected to reach the first Play-In game, with Boston advancing to face Toronto.
-
-Toronto then takes the final playoff position.
-
-### West
-
-Portland is projected to take No. 7 after adding Ja Morant to a team that finished 42-40.
-
-Dallas and the LA Clippers are projected to meet in the other Play-In game, with Dallas advancing before Phoenix takes the No. 8 position.
-
-Dallas' second-year Cooper Flagg leap keeps the Mavericks competitive, but the projection does not expect a full transformation from a 26-56 team in one season.
-
-## Projected first round
-
-### East
-
-**(1) Detroit vs. (8) Toronto: Detroit wins 4-2**
-
-Toronto's size and defensive length create problems, but Detroit's half-court creation and offensive rebounding should eventually separate the teams.
-
-**(2) New York vs. (7) Atlanta: New York wins 4-2**
-
-Atlanta can attack New York's second line with Jalen Johnson's transition play, but New York has too many ways to create efficient possessions late in games.
-
-**(3) Philadelphia vs. (6) Orlando: Philadelphia wins 4-3**
-
-This is the projection's highest-variance Eastern first round.
-
-Philadelphia has Maxey, Brown, Embiid and LeBron, but the offensive hierarchy is complicated. The 76ers' new roster is built around four major offensive decision-makers, and the question is whether the possession distribution produces efficiency rather than merely volume.
-
-**(4) Cleveland vs. (5) Miami: Miami wins 4-3**
-
-The projection gives Miami the matchup because Giannis changes the geometry of Cleveland's defense.
-
-The Cavaliers can win individual possessions against him.
-
-The problem is the possessions after the help comes.
-
-If Miami consistently converts Giannis' rim pressure into corner threes and secondary attacks, Cleveland's defensive choices become increasingly expensive.
-
-### West
-
-**(1) Oklahoma City vs. (8) Phoenix: Oklahoma City wins 4-1**
-
-Phoenix has enough shot-making to steal a game, but Oklahoma City's turnover pressure and defensive versatility should generate too many extra possessions.
-
-**(2) San Antonio vs. (7) Portland: San Antonio wins 4-1**
-
-Portland's Morant-led transition attack creates problems, but San Antonio's rim protection changes the expected value of those attacks.
-
-**(3) Houston vs. (6) Lakers: Houston wins 4-2**
-
-Houston's physicality and defensive rebounding give it a favorable matchup against a Lakers team that will rely heavily on Dončić's creation.
-
-**(4) Denver vs. (5) Minnesota: Denver wins 4-3**
-
-This is the projection's most volatile Western first-round series.
-
-Minnesota's new Anthony Edwards-LaMelo Ball backcourt gives the Wolves a dramatically different creation profile. Ball was acquired specifically to address Minnesota's long-standing point-guard problem.
-
-Denver gets the projection because Nikola Jokić remains the league's most reliable half-court offensive engine.
+- **(1) Oklahoma City over (8) Phoenix, 4-1.** Phoenix can make enough shots to steal one. The Thunder's ball pressure creates too many extra possessions.
+- **(2) San Antonio over (7) Portland, 4-1.** Morant pushes the pace, and Wembanyama at the rim takes much of the value out of those drives.
+- **(3) Houston over (6) Lakers, 4-2.** Houston's size and defensive rebounding suit this matchup against a team that leans so hard on Dončić.
+- **(4) Denver over (5) Minnesota, 4-3.** The Wolves' new Anthony Edwards and Ball backcourt is a different team from last season, and Ball was brought in to fix a point guard problem that has lasted years. We still trust Nikola Jokić more than anyone in a half-court game.
 
 ## Conference semifinals
 
-**Detroit vs. Miami: Detroit wins 4-3**
-
-The Pistons have the deeper regular-season structure, but Giannis makes every game a matchup problem.
-
-The deciding factor is projected to be Detroit's ability to force Miami into enough jump-shot possessions.
-
-**New York vs. Philadelphia: New York wins 4-2**
-
-Philadelphia has more top-end names than almost any team in the league.
-
-New York has the cleaner possession hierarchy.
-
-That matters in the playoffs.
-
-The Knicks' offense already survived the 2026 postseason, while Philadelphia has to establish how Maxey, Brown, Embiid and James share creation duties.
-
-**Oklahoma City vs. Denver: Oklahoma City wins 4-2**
-
-Jokić remains the ultimate half-court problem, but Oklahoma City's perimeter defense and transition pressure should produce more possessions than Denver wants.
-
-**San Antonio vs. Houston: San Antonio wins 4-2**
-
-Houston's defensive strength makes this difficult, but Wembanyama's ability to influence both the rim and perimeter shooting zones creates a problem Houston cannot solve with one matchup.
+- **Detroit over Miami, 4-3.** Detroit is deeper. Giannis makes every game hard. It comes down to whether the Pistons can push Miami into enough jump shots.
+- **New York over Philadelphia, 4-2.** Philadelphia has more famous names. New York has a clearer order of who takes the shot, and its offense has already won in the playoffs while the 76ers are still sorting out how four creators split the ball.
+- **Oklahoma City over Denver, 4-2.** Jokić is the hardest player in the league to stop in the half court, but the Thunder's perimeter defense and transition game should get them more possessions than Denver can afford.
+- **San Antonio over Houston, 4-2.** Houston can defend, but Wembanyama affects shots at the rim and on the perimeter, and one defender cannot take away both.
 
 ## Conference finals
 
-### Eastern Conference: Detroit vs. New York
+**East: New York over Detroit, 4-3.** Detroit has the better regular-season projection. New York has the better record in close games when it counts. The 2026 Knicks won four straight against San Antonio, several of them from behind, Brunson averaged 32.6 points in the Finals, and their run ended with a postseason record plus-283 point differential. We do not assume comebacks repeat at that rate. We do assume the parts that made them possible, Brunson's late-clock creation and a defense that switches everything, are still there.
 
-**New York wins 4-3.**
+**West: San Antonio over Oklahoma City, 4-3.** Oklahoma City wins more games in our regular season, and San Antonio wins the series. Both can be true. The Spurs won eight of 12 meetings last season, the conference finals included, so the Thunder's better overall numbers run into a matchup that has already decided a series once. Oklahoma City has to find good shots away from Wembanyama, and we do not think it will find enough of them.
 
-Detroit has the better projected regular-season record.
+## The 2027 Finals: Spurs over Knicks, 4-2
 
-New York has the more proven late-game structure.
+New York has already beaten this San Antonio team. The Spurs now have another year of Wembanyama, another year of Harper and a full offseason to build around the most disruptive defender in the league.
 
-That distinction is important.
+The two offenses work differently. New York runs through Brunson in the half court, Towns's shooting and inside scoring, and a group of wings who can guard and shoot. San Antonio's offense starts with what Wembanyama does to a defense just by being on the floor. He scores inside and out, creates mismatches and changes which shots opponents are willing to take. We have the Spurs winning the possession battle on defensive rebounding and rim protection, and scoring just efficiently enough to avoid the cold stretches that cost them last June.
 
-The 2026 Knicks won four consecutive games against San Antonio after repeatedly overcoming deficits. Brunson averaged 32.6 points in the Finals, while New York's championship run produced a league-record postseason point differential of +283.
+**Champion: San Antonio. Finals MVP: Victor Wembanyama.**
 
-This projection does not assume that comeback ability is a repeatable skill at the same rate.
+## Awards
 
-It assumes something more measurable: New York has already demonstrated that its offensive hierarchy, defensive switching and late-clock creation can survive playoff-level opponents.
+| Award | Pick | Why |
+| --- | --- | --- |
+| MVP | **Victor Wembanyama, Spurs** | Two-way impact on a top-two team |
+| Defensive Player of the Year | **Victor Wembanyama, Spurs** | Rim protection nobody else matches |
+| Rookie of the Year | **AJ Dybantsa, Wizards** | No. 1 pick with the biggest workload |
+| Most Improved | **Amen Thompson, Rockets** | Creation and shooting growth on a 52-win team |
+| Sixth Man | **Keldon Johnson, Spurs** | Proven scorer in a deep rotation |
+| Coach of the Year | **Mitch Johnson, Spurs** | 57 projected wins and a return to the Finals |
+| Clutch Player | **Jalen Brunson, Knicks** | Reigning Finals MVP and the best late-clock creator |
+| Executive of the Year | **Masai Ujiri, Mavericks** | Assumes Dallas's young core takes a real step |
 
-### Western Conference: Oklahoma City vs. San Antonio
+The rookie race looks wide open. Dybantsa, Darryn Peterson, Cameron Boozer and Caleb Wilson went in the top four, and Dybantsa gets our pick mostly because Washington will give him more of the ball than anyone else's team will. Opportunity decides a lot of rookie awards.
 
-**San Antonio wins 4-3.**
+## All-NBA
 
-This is the projection's central matchup.
+**First team:** Wembanyama, Shai Gilgeous-Alexander, Jokić, Brunson, Dončić. The first three are the easiest calls: Gilgeous-Alexander is the two-time reigning MVP, and Wembanyama and Jokić were the other two finalists last season. Brunson's case rests on New York's seed and his role as its main creator. Dončić's depends on how many games he plays and whether the Lakers' offense is efficient, not just busy.
 
-Oklahoma City is projected to win more regular-season games.
+**Second team:** Edwards, Cunningham, Antetokounmpo, Jayson Tatum, Embiid. Cunningham's case goes as Detroit's 56 wins go. Embiid is the biggest availability question in the group, and Philadelphia's ceiling depends on how often its stars are healthy at the same time.
 
-San Antonio is projected to win the series.
+**Third team:** Maxey, Durant, Jalen Williams, Anthony Davis, Towns. Williams has the widest range of anyone on our list because he played only 33 games last season. A full year from him raises Oklahoma City's ceiling a great deal.
 
-That is not contradictory.
+## Five questions that decide the season
 
-The Spurs defeated Oklahoma City in eight of 12 meetings last season, including the seven-game Western Conference finals. The Thunder's overall statistical superiority therefore meets a specific matchup problem that already produced a postseason result.
+**Can San Antonio turn defense into offense?** The Spurs need Wembanyama's presence to produce worse shots for opponents, more defensive rebounds and more transition chances. If that happens night after night, they can have an elite offense without shooting at a historic rate.
 
-The question becomes whether OKC can generate enough advantages away from Wembanyama's defensive orbit.
+**Can Philadelphia make four creators fit?** Maxey, Brown, James and Embiid can all run an offense, which is an asset until there are not enough possessions to go around. The number to watch is the team's offensive rating when all four are on the floor. If it is good and the turnovers stay down, 51 wins is too low.
 
-If not, San Antonio advances.
+**Can Minnesota make Ball's passing efficient?** The Wolves have to settle who brings it up, where Edwards gets the ball and how much of Ball's risk-taking holds up against playoff defenses.
 
-## The 2027 NBA Finals
+**Can Miami shoot well enough around Giannis?** The chain is simple: he gets to the rim, the help comes, someone is open outside, and that someone has to make it. If the last step works, Miami's offense takes off. If it does not, defenses will pack the paint.
 
-**San Antonio Spurs vs. New York Knicks**
+**Can Oklahoma City solve San Antonio?** The Thunder have the depth and efficiency to finish first. The Spurs have already won the matchup that mattered. The October 20 opener between them is the first real evidence on the West's biggest question.
 
-### Projection: Spurs win 4-2
+## Widest ranges
 
-The Knicks have already shown that San Antonio can be beaten.
+- **Philadelphia, 51 wins (range about 43-57).** Too talented to project low, too complicated to project with confidence.
+- **Minnesota, 49 wins (about 43-54).** Ball could fix the half-court offense or add turnovers.
+- **Miami, 47 wins (about 41-54).** No acquisition raised a ceiling more than Giannis.
+- **Dallas, 40 wins (about 33-47).** Flagg averaged 21.0 points, 6.7 rebounds and 4.5 assists as a rookie. A second-year jump plus Kyrie Irving's return could move this a lot.
+- **Boston, 41 wins (about 35-48).** Tatum's return from his Achilles injury is the variable. Boston also replaced Brown with George and added Robinson.
 
-The Spurs now have another season of Wembanyama, another year for Dylan Harper, and another opportunity to build around the league's most disruptive defensive player.
+## Players who could break the forecast
 
-The Finals matchup would come down to two different forms of offensive pressure.
+- **Wembanyama:** a bigger offensive jump could push San Antonio toward 65 wins.
+- **Jalen Williams:** a healthy season changes what Oklahoma City's offense can be.
+- **Flagg:** a second-year leap would make Dallas a real playoff team.
+- **Amen Thompson:** if his creation and shooting both improve, Houston gets much harder to beat.
+- **Dybantsa:** if he is efficient right away, Washington beats its projection.
+- **Peterson:** Utah's rebuild gives him all the shots he wants.
+- **Boozer:** Memphis traded Morant and Jaren Jackson Jr., which leaves its rookie a large share of the offense.
 
-New York attacks through Brunson's manipulation of the half court, Towns' shooting and interior scoring, and its collection of two-way wings.
+## The tiers
 
-San Antonio attacks the geometry of the floor itself.
+Our numbers sort the league into four groups. San Antonio, Oklahoma City and New York can win the title. Detroit, Philadelphia, Houston and Denver can win a conference. Minnesota, Miami, Cleveland, Orlando, Atlanta, the Lakers and Portland are playoff teams with wide ranges. Dallas, Charlotte, Memphis and Washington are young teams that could move a long way in either direction.
 
-Wembanyama can score inside, shoot outside, create mismatches, finish above the rim and force opponents to change their shot selection simply by occupying the paint.
+The split that matters most is between regular-season strength and playoff matchups. Oklahoma City and Detroit have the best projected records in their conferences. San Antonio and New York have the profiles we trust most in a series.
 
-The model projects San Antonio to win the possession battle through defensive rebounding and rim deterrence while improving enough offensively to avoid another low-efficiency Finals stretch.
-
-**Projected champion: San Antonio Spurs.**
-
-**Projected Finals MVP: Victor Wembanyama.**
-
-## Projected major awards
-
-| Award                        | Projection                   | Why                                                      |
-| ---------------------------- | ---------------------------- | -------------------------------------------------------- |
-| MVP                          | **Victor Wembanyama, Spurs** | Elite two-way impact + projected top-tier team           |
-| Defensive Player of the Year | **Victor Wembanyama, Spurs** | Rim protection and defensive geometry                    |
-| Rookie of the Year           | **AJ Dybantsa, Wizards**     | No. 1 pick with immediate offensive opportunity          |
-| Most Improved Player         | **Amen Thompson, Rockets**   | Creation and shooting development on a 50-win team       |
-| Sixth Man                    | **Keldon Johnson, Spurs**    | Proven scoring production in a deep contender rotation   |
-| Coach of the Year            | **Mitch Johnson, Spurs**     | Projected 57-win team and return to Finals               |
-| Clutch Player                | **Jalen Brunson, Knicks**    | Elite late-clock creation and reigning Finals MVP        |
-| Executive of the Year        | **Masai Ujiri, Mavericks**   | Projection assumes Dallas' young core makes a major jump |
-| Finals MVP                   | **Victor Wembanyama, Spurs** | Two-way control of the matchup                           |
-
-The Rookie of the Year race should be particularly open.
-
-The 2026 class includes AJ Dybantsa, Darryn Peterson, Cameron Boozer and Caleb Wilson among the top four selections, and NBA.com's rookie roundtable identified Dybantsa, Peterson and Boozer as the names most frequently mentioned by their peers.
-
-Dybantsa gets the projection primarily because Washington should give him the largest offensive workload among the top rookies.
-
-Opportunity is a major part of rookie awards.
-
-## Projected All-NBA First Team
-
-**Victor Wembanyama, Spurs**
-
-**Shai Gilgeous-Alexander, Thunder**
-
-**Nikola Jokić, Nuggets**
-
-**Jalen Brunson, Knicks**
-
-**Luka Dončić, Lakers**
-
-The first three are the easiest statistical projections.
-
-Gilgeous-Alexander enters the season as the reigning two-time MVP, while Wembanyama and Jokić were the other two finalists in 2025-26.
-
-Brunson's case is driven by New York's expected high seed and his established role as its primary half-court creator.
-
-Dončić's case depends heavily on availability and whether the Lakers can convert his enormous creation volume into a sufficiently efficient team offense.
-
-## Projected All-NBA Second Team
-
-**Anthony Edwards, Timberwolves**
-
-**Cade Cunningham, Pistons**
-
-**Giannis Antetokounmpo, Heat**
-
-**Jayson Tatum, Celtics**
-
-**Joel Embiid, 76ers**
-
-Cunningham's case is tied to Detroit's projected 56 wins.
-
-Giannis' case is tied to Miami's new offensive geometry.
-
-Embiid's case is the largest availability variable in the group.
-
-Philadelphia has perhaps the league's highest concentration of offensive talent, but the team's ceiling is dependent on how much of that talent is available simultaneously.
-
-## Projected All-NBA Third Team
-
-**Tyrese Maxey, 76ers**
-
-**Kevin Durant, Rockets**
-
-**Jalen Williams, Thunder**
-
-**Anthony Davis, Wizards**
-
-**Karl-Anthony Towns, Knicks**
-
-Jalen Williams is one of the projection model's highest-variance players because he appeared in only 33 games last season. Oklahoma City's ceiling is substantially higher if he returns to a full-season workload.
-
-## The five statistical questions that will decide the season
-
-### 1. Can San Antonio turn defense into offense?
-
-The Spurs do not need Wembanyama to block every shot.
-
-They need his defensive presence to produce worse opponent shot quality, defensive rebounds and transition opportunities.
-
-If that chain occurs consistently, San Antonio can produce elite offense without needing historically efficient shooting.
-
-### 2. Can Philadelphia make four stars fit one possession?
-
-Maxey, Brown, James and Embiid are all capable creators.
-
-That is an asset until the possessions become scarce.
-
-The important number will not be points per game.
-
-It will be **team efficiency when the four primary creators share the floor**.
-
-If the Sixers generate efficient spacing and low-turnover possessions, the 51-win projection could be conservative.
-
-### 3. Can Minnesota turn LaMelo Ball's passing into efficient offense?
-
-Ball and Edwards give Minnesota two high-level creators, but the Wolves will need to determine who initiates, where Edwards receives the ball and how much of Ball's risk-taking survives against playoff defenses.
-
-The upside is obvious.
-
-The possession-level efficiency is not yet proven.
-
-### 4. Can Miami create enough shooting around Giannis?
-
-The Heat acquired perhaps the most consequential interior offensive force available.
-
-That does not automatically solve spacing.
-
-The equation is:
-
-**Giannis rim pressure → help defense → open perimeter attempt → shooting efficiency.**
-
-If the final link is strong, Miami's offense can jump.
-
-If it is weak, defenses can shrink the floor and force Miami into difficult half-court possessions.
-
-### 5. Can Oklahoma City solve San Antonio?
-
-This is the season's defining Western tactical question.
-
-The Thunder have the depth, efficiency and regular-season profile to finish first.
-
-The Spurs have already demonstrated that they can win the matchup that matters.
-
-The Oct. 20 season opener between the two teams therefore carries more analytical value than a normal opening-night game: it is the first data point in a matchup that could determine the Western Conference again.
-
-## The teams with the biggest projection range
-
-### Philadelphia 76ers
-
-**Projected: 51 wins**
-
-Potential outcome range: roughly 43-57.
-
-The roster is too talented to project a low ceiling, but too structurally complicated to treat as a certainty.
-
-### Minnesota Timberwolves
-
-**Projected: 49 wins**
-
-Potential outcome range: roughly 43-54.
-
-LaMelo Ball could solve Minnesota's half-court creation problem.
-
-He could also increase turnover volatility.
-
-### Miami Heat
-
-**Projected: 47 wins**
-
-Potential outcome range: roughly 41-54.
-
-Giannis raises the ceiling more than almost any offseason acquisition in the league.
-
-### Dallas Mavericks
-
-**Projected: 40 wins**
-
-Potential outcome range: roughly 33-47.
-
-Cooper Flagg averaged 21.0 points, 6.7 rebounds and 4.5 assists as a rookie. A Year 2 jump combined with Kyrie Irving's return could dramatically alter the projection.
-
-### Boston Celtics
-
-**Projected: 41 wins**
-
-Potential outcome range: roughly 35-48.
-
-Jayson Tatum's return from the Achilles injury is the variable. Boston also replaced Jaylen Brown with Paul George and added Mitchell Robinson.
-
-## The players most likely to break the model
-
-**Victor Wembanyama:** A larger offensive leap could push San Antonio toward 65 wins.
-
-**Jalen Williams:** A healthy season materially changes Oklahoma City's offensive ceiling.
-
-**Cooper Flagg:** A second-year jump would make Dallas a legitimate Western playoff threat.
-
-**Amen Thompson:** If his offensive creation and shooting improve simultaneously, Houston becomes considerably more dangerous.
-
-**AJ Dybantsa:** If his rookie efficiency is immediately NBA-level, Washington could outperform its projection.
-
-**Darryn Peterson:** Utah's rebuilding environment provides enormous usage opportunity.
-
-**Cameron Boozer:** Memphis has cleared significant offensive responsibility for its rookie after trading Ja Morant and Jaren Jackson Jr.
-
-## The 2026-27 forecast
-
-The projection produces four broad statistical tiers.
-
-The first is the **championship tier**: San Antonio, Oklahoma City and New York.
-
-The second is the **conference-contender tier**: Detroit, Philadelphia, Houston and Denver.
-
-The third is the **volatile playoff tier**: Minnesota, Miami, Cleveland, Orlando, Atlanta, Los Angeles and Portland.
-
-The fourth is the **development/play-in tier**, where young teams such as Dallas, Charlotte, Memphis and Washington could move substantially depending on player development.
-
-The important distinction is between regular-season strength and playoff matchup strength.
-
-Oklahoma City has the highest projected win total.
-
-Detroit has the highest projected win total in the East.
-
-San Antonio has the matchup profile that the model ultimately trusts most in the postseason.
-
-New York remains the projected Eastern Conference representative because its half-court structure and playoff experience offset Detroit's stronger regular-season projection.
-
-The season begins October 20, with Philadelphia visiting the defending champion Knicks and San Antonio hosting Oklahoma City.
-
-Those games will immediately provide new evidence for two of the model's biggest assumptions: whether Philadelphia's star-heavy offense can function efficiently and whether Oklahoma City has found an answer for San Antonio's size and defensive geometry.
-
-The projections will change as games provide new evidence.
-
-That is the point.
-
-A preseason model is not supposed to know what will happen.
-
-It is supposed to identify what has to change for the forecast to be wrong.
+The season starts on October 20, with Philadelphia at the Knicks and Oklahoma City at San Antonio. Those two games test our two biggest assumptions right away: that Philadelphia's four creators can share one offense, and that the Thunder still have no answer for the Spurs. We will update the forecast as the games come in, and we will say plainly which of these calls were wrong.

@@ -29,7 +29,7 @@ function Group({ title, count, games }) {
 }
 
 export default function Scores() {
-  useMeta({ title: 'The Scoreboard', description: 'Live whistles, final results and upcoming fixtures across every league in the ledger — updated as the games are played.' })
+  useMeta({ title: 'The Scoreboard', description: 'Live whistles, final results and upcoming fixtures across every league in the ledger — updated as the games are played.', noindex: true })
   const [filter, setFilter] = useState('ALL')
   const { data: games, loading, refreshedAt, refresh } = useAsync(() => getAllGames(), [], [], {
     refreshMs: 120_000,

@@ -9,7 +9,7 @@ image: "/images/before-you-pick-a-punt-pick-the-flexible-player-bridges-22-danie
 imageCredit: "Photo: Yes Network / Wikimedia Commons (CC BY 3.0)"
 ---
 
-Here is the rule for the early rounds this week: until you know which category you are punting, draft the player who holds his value in every build. When two names sit within a few places of each other on your board, take the one whose worst case is smaller.
+The rule for the early rounds this week: until you know which category you are punting, draft the player who holds his value in every build. When two names sit within a few places of each other on your board, take the one whose worst case is smaller.
 
 **Format:** head-to-head nine-category. Punting, which means giving up one category on purpose to win the other eight, is a head-to-head plan. In roto every category counts toward the total, so this column is not for you.
 
@@ -28,7 +28,7 @@ For 53 of the top 60, the build that hurts most is the punt of his best category
 
 ## The more categories he helps, the less he can fall
 
-Here is the worst-case drop for the top 60, grouped by how many categories each player is above average in:
+The table shows the worst-case drop for the top 60, grouped by how many categories each player is above average in:
 
 | Categories above average | Players | Median worst-case drop |
 |---:|---:|---:|

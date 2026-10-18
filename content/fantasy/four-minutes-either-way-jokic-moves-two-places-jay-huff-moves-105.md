@@ -7,7 +7,7 @@ published: "2026-10-06"
 tag: "Draft"
 ---
 
-Here is where to spend your prep time this week: not on the first round. Spend it on the minutes of the players you will take between picks 50 and 100. That is where a wrong guess about playing time costs you the most, and the numbers below show how much.
+Spend your prep time this week somewhere other than the first round. Spend it on the minutes of the players you will take between picks 50 and 100. That is where a wrong guess about playing time costs you the most, and the numbers below show how much.
 
 Our first column, [Draft the minutes, not the names](/story/draft-the-minutes-not-the-names), ended with a step: sort your board by how far each projection moves if your minutes guess is wrong. Today I ran that step on real players.
 

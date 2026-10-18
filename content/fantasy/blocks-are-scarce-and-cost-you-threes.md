@@ -55,7 +55,7 @@ The exceptions are the useful part. Three of the eleven made more threes per gam
 
 ## The minutes assumption
 
-A block is a per-minute rate multiplied by a guess about minutes. Here is the arithmetic with a hypothetical center, not a real player, who blocks 0.055 shots a minute:
+A block is a per-minute rate multiplied by a guess about minutes. Take a made-up center who blocks 0.055 shots a minute:
 
 - 24 minutes: 1.32 blocks
 - 28 minutes: 1.54 blocks

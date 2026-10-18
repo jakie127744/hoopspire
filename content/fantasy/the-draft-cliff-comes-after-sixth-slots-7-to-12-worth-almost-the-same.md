@@ -9,7 +9,7 @@ image: "/images/the-draft-cliff-comes-after-sixth-slots-7-to-12-worth-almost-the
 imageCredit: "Photo: U.S. Embassy Ljubljana / Wikimedia Commons (Public domain)"
 ---
 
-Here is the draft-slot rule for a 12-team snake draft: a top-six pick is worth chasing, and anything from seventh to 12th is one tier. If your league lets you pick a slot or trade picks before the draft, do not pay to move from 12th up to seventh. Do pay, within reason, to get into the top six.
+The draft-slot rule for a 12-team snake draft: a top-six pick is worth chasing, and anything from seventh to 12th is one tier. If your league lets you pick a slot or trade picks before the draft, do not pay to move from 12th up to seventh. Do pay, within reason, to get into the top six.
 
 **Format:** nine-category leagues, roto or head-to-head, 12 teams, snake draft. **Pool:** the same 150 players as our recent columns, the most nine-category value among NBA players who played at least 30 games and 20 minutes a night in 2025-26. **Minutes:** every player is valued at the per-game numbers he posted in 2025-26, so each one is assumed to play the minutes he played last season. Games missed are not priced in here. [Games missed: who moves](/story/games-missed-who-moves-embiid-butler-fall-barnes-durant-rise) covers that.
 
@@ -64,7 +64,7 @@ In rounds five to 10, the spread inside a round is never more than 0.47.
 
 From slot 6 to slot 7 the total falls by 1.55, the biggest drop between two neighbouring slots. From slot 7 to slot 12 the totals sit within 0.36 of each other.
 
-Here is why. Slot 7 gets Mitchell (4.54), then the 18th player, [Cade Cunningham](/player/NBA/4432166) (2.81), then the 31st (1.54) and the 42nd (0.83). Slot 12 gets Barnes (3.79) and [Anthony Edwards](/player/NBA/4594268) (3.47) back to back, then the 36th (1.09) and the 37th (1.01). The snake hands slot 12 back in round two what it lost in round one.
+The reason is in the gaps. Slot 7 gets Mitchell (4.54), then the 18th player, [Cade Cunningham](/player/NBA/4432166) (2.81), then the 31st (1.54) and the 42nd (0.83). Slot 12 gets Barnes (3.79) and [Anthony Edwards](/player/NBA/4594268) (3.47) back to back, then the 36th (1.09) and the 37th (1.01). The snake hands slot 12 back in round two what it lost in round one.
 
 ## What to do with it
 

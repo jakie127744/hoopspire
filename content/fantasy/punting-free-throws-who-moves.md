@@ -1,6 +1,6 @@
 ---
 title: "Punting free throws: six of the top ten stay put, and Giannis jumps 46 places"
-dek: "Drop free throw percentage from a nine-category pool of 150 and 43 of the top 50 hold their place in the group. Here is who rises, who falls, and the minutes arithmetic behind it."
+dek: "Drop free throw percentage from a nine-category pool of 150 and 43 of the top 50 hold their place in the group. Who rises, who falls, and the minutes arithmetic behind both."
 league: "NBA"
 author: "Franco Medina"
 published: "2026-09-21"
@@ -55,7 +55,7 @@ Seven players in the nine-category top 50 fall out of the punt top 50: Reaves, K
 
 ## The minutes assumption
 
-A free throw hit is a per-minute rate multiplied by a guess about minutes. Here is the arithmetic for a hypothetical center, not a real player, who attempts 0.14 free throws a minute and shoots 55%. Against the pool's 80.0% that is a gap of about 0.25 per attempt.
+A free throw hit is a per-minute rate multiplied by a guess about minutes. Take a made-up center who attempts 0.14 free throws a minute and shoots 55%. Against the pool's 80.0% that is a gap of about 0.25 per attempt.
 
 - At 26 minutes a game: 3.64 attempts, about -0.91 made free throws relative to an average shooter.
 - At 30 minutes: 4.2 attempts, about -1.05.

@@ -69,7 +69,7 @@ LaMelo Ball is the one to circle. He moves from 40th to 18th, into the second ro
 
 ## The minutes assumption
 
-Field goal impact is shots multiplied by the gap to 48.6%, and shots come from minutes. Here is the arithmetic for a hypothetical guard, not a real player, who shoots 42% and takes 0.40 shots a minute.
+Field goal impact is shots multiplied by the gap to 48.6%, and shots come from minutes. Take a made-up guard who shoots 42% and takes 0.40 shots a minute.
 
 - At 24 minutes a game: 9.6 shots, an impact of -0.63, which is about 1.01 standard deviations below average.
 - At 32 minutes a game: 12.8 shots, an impact of -0.84, which is about 1.34 standard deviations below average.

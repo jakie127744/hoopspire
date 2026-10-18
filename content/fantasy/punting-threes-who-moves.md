@@ -74,7 +74,7 @@ Duren is the one to circle. He goes from a third-round pick in a 12-team draft t
 
 ## The minutes assumption
 
-Here is where minutes matter, and where they do not. Take a hypothetical wing, not a real player, who makes 0.10 threes a minute.
+Minutes matter in some places and not in others. Take a hypothetical wing, not a real player, who makes 0.10 threes a minute.
 
 - At 24 minutes a game: 2.4 threes, a z-score of 0.72.
 - At 32 minutes a game: 3.2 threes, a z-score of 1.54.

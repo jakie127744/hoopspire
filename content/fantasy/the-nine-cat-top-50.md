@@ -86,7 +86,7 @@ Nine-cat and eight-cat totals are both shown, because they disagree more than pe
 
 ## The Giannis line, category by category
 
-Here is what produced 53rd place. Raw averages on the left, the z-score each one earned on the right.
+This is what produced 53rd place. Raw averages on the left, the z-score each one earned on the right.
 
 | Category | Giannis, per game | z-score |
 |---|---:|---:|

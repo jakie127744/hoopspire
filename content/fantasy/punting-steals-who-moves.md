@@ -65,7 +65,7 @@ Daniels' 84-place fall is the largest in this column. His steal rate, 2.0 a game
 
 ## The minutes assumption
 
-A steal total is a per-minute rate multiplied by a guess about minutes. Here is the arithmetic for a hypothetical guard, not a real player, who records 0.05 steals a minute.
+A steal total is a per-minute rate multiplied by a guess about minutes. Take a made-up guard who records 0.05 steals a minute.
 
 - At 24 minutes a game: 1.20 steals, which is 0.16 above the pool average and about 0.45 standard deviations.
 - At 32 minutes a game: 1.60 steals, which is 0.56 above the pool average and about 1.61 standard deviations.

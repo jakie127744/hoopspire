@@ -84,7 +84,7 @@ function LeadersTable({ rows, label, leagueKey }) {
 }
 
 export default function Stats() {
-  useMeta({ title: 'Stats', description: 'Player leaders and league standings across thirteen basketball competitions, from season averages to the current playoff picture.' })
+  useMeta({ title: 'Stats', description: 'Player leaders and league standings across thirteen basketball competitions, from season averages to the current playoff picture.', noindex: true })
   const [leagueKey, setLeagueKey] = useState('NBA')
   const [cat, setCat] = useState('avgPoints')
   const league = getLeague(leagueKey)

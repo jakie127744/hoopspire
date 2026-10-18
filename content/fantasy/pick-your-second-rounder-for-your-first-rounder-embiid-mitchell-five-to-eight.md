@@ -7,7 +7,7 @@ published: "2026-10-09"
 tag: "Draft"
 ---
 
-Here is the rule for the turn at the end of round two: do not just take the next name on the board. Take the player who covers your first pick's weak categories, as long as he sits within about four places of the best available. In eight of 12 draft slots, that swap adds at least one category. In five of those eight it costs about two places on the board or less, and in the other three about four.
+At the turn at the end of round two, do not just take the next name on the board. Take the player who covers your first pick's weak categories, as long as he sits within about four places of the best available. In eight of 12 draft slots, that swap adds at least one category. In five of those eight it costs about two places on the board or less, and in the other three about four.
 
 **Format:** head-to-head nine-category, 12 teams, snake draft. In head-to-head you win categories one at a time each week, so a pair that is above average in eight categories beats a slightly stronger pair that is above average in five. **Pool:** the same 150 players as our recent columns. **Minutes:** every player is valued at his 2025-26 per-game numbers, so each is assumed to play the minutes he played last season. Games missed are not priced in, and that matters for one name below.
 

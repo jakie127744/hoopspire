@@ -7,13 +7,13 @@ published: "2026-10-04"
 tag: "Draft"
 ---
 
-Here is the draft-day rule I would give you: take the best player on your board, every round, until the last few picks. Do not reach for a center because the centers look thin. They are thin. It does not matter.
+My draft-day rule: take the best player on your board, every round, until the last few picks. Do not reach for a center because the centers look thin. They are thin. It does not matter.
 
 The thinness is real. The 12th-best guard in the pool ranks 25th overall. The 12th-best forward ranks 33rd. The 12th-best center ranks 56th. If every team in a 12-team league needs a center, it looks as if the centers will run out around the fifth round and somebody will be stuck.
 
 Nobody gets stuck. I built the league and checked.
 
-**Format:** head-to-head nine-category or roto, 10 to 14 teams. **Pool:** the same 150 players as the last week of columns, the most nine-category value among the 247 NBA players who played at least 30 games and 20 minutes a night in 2025-26. Every figure is a 2025-26 per-game value at that player's own minutes. Nothing here is a projection of 2026-27. **Positions** are the single position ESPN lists for each player: guard, forward or center. Real leagues give many players two or three positions, which only makes my point stronger.
+**Format:** head-to-head nine-category or roto, 10 to 14 teams. **Pool:** the same 150 players as the last week of columns, the most nine-category value among the 247 NBA players who played at least 30 games and 20 minutes a night in 2025-26. Every figure is a 2025-26 per-game value at that player's own minutes. Nothing here is a projection of 2026-27. **Positions** are the single listed position for each player: guard, forward or center. Real leagues give many players two or three positions, which only makes my point stronger.
 
 ## How I priced position
 

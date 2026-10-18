@@ -67,7 +67,7 @@ Five players in the nine-category top 50 fall out of the punt top 50: Bridges, S
 
 ## The minutes assumption
 
-A turnover is a per-minute rate multiplied by a guess about minutes. Here is the arithmetic for a hypothetical guard, not a real player, who commits 0.11 turnovers a minute.
+A turnover is a per-minute rate multiplied by a guess about minutes. Take a made-up guard who commits 0.11 turnovers a minute.
 
 - At 28 minutes a game: 3.08 turnovers, which is 1.19 above the pool average and about -1.54 standard deviations.
 - At 34 minutes a game: 3.74 turnovers, which is 1.85 above the pool average and about -2.39 standard deviations.
