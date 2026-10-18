@@ -15,6 +15,7 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { LEAGUES } from '../src/lib/leagues.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const ORIGIN = 'https://hoopspire.com'
@@ -25,15 +26,27 @@ const STATIC = [
   { path: '/margin', changefreq: 'daily', priority: '0.9' },
   { path: '/free-minutes', changefreq: 'weekly', priority: '0.8' },
   { path: '/press', changefreq: 'daily', priority: '0.9' },
+  { path: '/opinion', changefreq: 'weekly', priority: '0.8' },
   { path: '/archive', changefreq: 'daily', priority: '0.6' },
   { path: '/about', changefreq: 'monthly', priority: '0.5' },
   { path: '/contact', changefreq: 'monthly', priority: '0.4' },
   { path: '/privacy', changefreq: 'yearly', priority: '0.3' },
   { path: '/terms', changefreq: 'yearly', priority: '0.3' },
+  // League pages lead with our own writing on that league, and are
+  // prerendered with it, so they are pages worth indexing.
+  ...LEAGUES.map((l) => ({ path: `/league/${l.slug}`, changefreq: 'daily', priority: '0.7' })),
 ]
 
-/** The desks, each a directory of Markdown under content/. */
-const DESKS = ['articles', 'fantasy', 'news']
+/**
+ * The desks: every directory of Markdown under content/. Read from disk
+ * rather than listed here, because a list here is a second copy of the globs
+ * in src/lib/articles.js, and it fell behind once already: Opinion launched
+ * with its six pieces on the site and none of them in the sitemap.
+ */
+async function desks() {
+  const entries = await readdir(join(root, 'content'), { withFileTypes: true })
+  return entries.filter((e) => e.isDirectory() && !/^[._]/.test(e.name)).map((e) => e.name)
+}
 
 /** Pull one frontmatter field without dragging in a YAML parser. */
 function field(raw, name) {
@@ -45,7 +58,7 @@ function field(raw, name) {
 
 async function articles() {
   const out = []
-  for (const desk of DESKS) {
+  for (const desk of await desks()) {
     let names = []
     try {
       names = await readdir(join(root, 'content', desk))
@@ -81,7 +94,34 @@ const entry = ({ path, lastmod, changefreq, priority }) =>
     .filter(Boolean)
     .join('\n')
 
-const urls = [...STATIC, ...(await articles())]
+/**
+ * The prerender (scripts/prerender.mjs) writes dist/story/<slug>.html for
+ * every article the site itself lists, straight from src/lib/articles.js. If
+ * the sitemap and that set disagree, one of them is wrong about which
+ * articles exist, so the build stops and names the difference.
+ */
+async function checkAgainstPrerender(stories) {
+  let rendered
+  try {
+    rendered = (await readdir(join(root, 'dist', 'story'))).filter((f) => f.endsWith('.html'))
+  } catch {
+    return // Built without the prerender step; nothing to compare against.
+  }
+  const site = new Set(rendered.map((f) => `/story/${f.replace(/\.html$/, '')}`))
+  const listed = new Set(stories.map((s) => s.path))
+  const missing = [...site].filter((p) => !listed.has(p))
+  const extra = [...listed].filter((p) => !site.has(p))
+  if (missing.length || extra.length) {
+    for (const p of missing) console.error(`  on the site, not in sitemap.xml: ${p}`)
+    for (const p of extra) console.error(`  in sitemap.xml, not on the site: ${p}`)
+    console.error('sitemap.xml disagrees with the articles the site renders')
+    process.exit(1)
+  }
+}
+
+const stories = await articles()
+await checkAgainstPrerender(stories)
+const urls = [...STATIC, ...stories]
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(entry).join('\n')}
