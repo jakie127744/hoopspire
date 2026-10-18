@@ -50,3 +50,5 @@ Seoul Samsung Thunders lead at 3-0, ahead of Anyang Jung Kwan Jang at 4-1. KT ar
 ## What is next
 
 KT play at Anyang Jung Kwan Jang on Saturday, October 17 at 2 p.m., then host Ulsan Hyundai Mobis on Sunday, October 18 at 2 p.m. Korea Gas host Changwon LG on Saturday, October 17 at 4:30 p.m., and visit Wonju DB on Monday, October 19 at 7 p.m.
+
+Update: [Korea Gas beat LG 85-75 for a third straight win](/story/kerem-kanter-42-samsung-5-0-hold-off-db-95-92-kbl-roundup), in the KBL roundup of October 15 to 18.
