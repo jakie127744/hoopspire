@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-17T10:28:28.692Z",
+  "fetchedAt": "2026-10-18T10:45:06.698Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,10 +15913,23 @@
   ],
   "news": [
     {
-      "id": "NBB-comentarista-aponta-dois-favoritos-ao-t-",
+      "id": "NBB-com-jogo-do-vasco-confirmado-no-maracan-",
       "league": "NBB",
-      "title": "Commentator points out two favorites for the NBB title, which starts this Saturday; see analysis",
-      "originalTitle": "Comentarista aponta dois favoritos ao título do NBB, que começa neste sábado; veja análise",
+      "title": "With Vasco's game confirmed at Maracanã, NBB classic changes stages and will have closed gates",
+      "originalTitle": "Com jogo do Vasco confirmado no Maracanã, clássico do NBB muda de palco e terá portões fechados",
+      "translatedFrom": "pt",
+      "description": "Pedro Maia points out favorites for the NBB 2026/2027 title The classic between Flamengo and Botafogo, for the second round of the NBB, will take place on a different stage than expected. Initially scheduled for Maracanãzinho, next Tuesday's (20) game was transferred to Tijuca Tênis Clube and will have port",
+      "published": "2026-10-17T18:09:49.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/u3iIaxj4j-wvhy7Xh0IQrbii7G4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/7/P/oA0F41Qx2sjAuzzanBVg/747794-flamengoxfluminense-campeonatocarioca-maracanazinho-15-10-2026-foto-paulareis-flamengo008a9869.jpg",
+      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/17/com-confirmacao-de-jogo-do-vasco-no-maracana-classico-do-nbb-muda-de-palco-e-tera-portoes-fechados.ghtml"
+    },
+    {
+      "id": "NBB-comentarista-projeta-dois-favoritos-ao-t",
+      "league": "NBB",
+      "title": "Commentator projects two favorites for the NBB title, which starts this Saturday; see review",
+      "originalTitle": "Comentarista projeta dois favoritos ao título do NBB, que começa neste sábado; veja análise",
       "translatedFrom": "pt",
       "description": "Pedro Maia points out favorites for the NBB 2026/2027 title The wait of just over four months has ended. This Saturday (17), three games will decree the beginning of the 19th season of Novo Basquete Brasil (NBB). In all, 18 teams will face each other in turn and return, in a format of running points, with an eye on",
       "published": "2026-10-17T07:00:00.000Z",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/0xoEDubCn2sqKk-F88ungxeL2CM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/s/7/Ii9AV3Su20CyBJZP68ZQ/55585695553-0c5b0c0487-k.jpg",
       "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/12/franca-vence-o-mogi-de-virada-e-ganha-sobrevida-na-final-do-paulista-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-mogi-x-franca-no-jogo-3-da-final-do-paul",
-      "league": "NBB",
-      "title": "Mogi vs. Franca in game 3 of the Paulista final: where to watch live and time",
-      "originalTitle": "Mogi x Franca no jogo 3 da final do Paulista: onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Mogi Basquete faces Franca in the second game of the final of Paulista Mogi and Franca face each other this Monday (12), at 4 pm, for game 3 of the final of the Paulista Basketball Championship. The duel, which can define the state champion, will be held at the Hugo Ramos gymnasium in Mogi das Cruzes. The match will",
-      "published": "2026-10-12T07:02:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/9Eg4BmX1ybs_LRZdOfmkNfmjgZU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/Q/BAH9X9SSmXBzjv0ArAtg/55581579858-459cab835c-k.jpg",
-      "url": "https://ge.globo.com/sp/mogi-das-cruzes-suzano/basquete/noticia/2026/10/12/mogi-x-franca-no-jogo-3-da-final-do-paulista-onde-assistir-ao-vivo-e-horario.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-17T10:28:28.692Z",
-    "news": "2026-10-17T10:28:28.692Z"
+    "games": "2026-10-18T10:45:06.698Z",
+    "news": "2026-10-18T10:45:06.698Z"
   },
   "carriedOver": [
     "teams",

@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-17T10:28:35.852Z",
+  "fetchedAt": "2026-10-18T10:45:14.145Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,6 +22,97 @@
   ],
   "news": [
     {
+      "id": "EuroLeague-coldebellamaccabiareoneofthefourclubswit",
+      "league": "EuroLeague",
+      "title": "Coldebella: “Maccabi are one of the four clubs with the richest history in Europe”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Maccabi Tel Aviv general manager Claudio Coldebella was interviewed by Alessandro Gallo for QS. L'articolo Coldebella: “Maccabi are one of the four clubs with the richest history in Europe” proviene da Sportando .",
+      "published": "2026-10-18T09:30:19.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/coldebella-maccabi-are-one-of-the-four-clubs-with-the-richest-history-in-europe/"
+    },
+    {
+      "id": "EuroLeague-procidaweregettingbetterandwanttomaintai",
+      "league": "EuroLeague",
+      "title": "Procida: “We’re getting better and want to maintain this level”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Real Madrid forward spoke to Realmadrid TV ahead of the matchup against Bilbao, which will mark the fourth round of the Liga Endesa season. L'articolo Procida: “We’re getting better and want to maintain this level” proviene da Sportando .",
+      "published": "2026-10-18T08:32:48.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/procida-were-getting-better-and-want-to-maintain-this-level/"
+    },
+    {
+      "id": "EuroLeague-crvenazvezdasignsadealwithchristiankolok",
+      "league": "EuroLeague",
+      "title": "Crvena zvezda signs a deal with Christian Koloko",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "After four years in the NBA, Koloko will play in the EuroLeague for the first time The post Crvena zvezda signs a deal with Christian Koloko appeared first on Eurohoops .",
+      "published": "2026-10-18T07:45:55.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/d2613a0b-christian-koloko-los-angeles-lakers-teammates.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2022415/crvena-zvezda-signs-a-deal-with-christian-koloko/"
+    },
+    {
+      "id": "EuroLeague-asvelsurvivesovertimescareinlimoges",
+      "league": "EuroLeague",
+      "title": "ASVEL survives overtime scare in Limoges",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Nate Sestina scores 19 points as late free throws keep Tony Parker’s team unbeaten in the French league The post ASVEL survives overtime scare in Limoges appeared first on Eurohoops .",
+      "published": "2026-10-17T21:08:03.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/7801d585-jae-crowder-asvel-maccabi-tel-aviv.jpg",
+      "url": "https://www.eurohoops.net/en/proa/2022370/asvel-survives-overtime-scare-in-limoges/"
+    },
+    {
+      "id": "EuroLeague-trailblazerswaivejeremysochaneuroleaguec",
+      "league": "EuroLeague",
+      "title": "Trail Blazers Waive Jeremy Sochan, EuroLeague Could Be an Option?",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Sochan’s Polish passport could make him an intriguing option for EuroLeague clubs looking to add talent and versatility on both ends of the court. L'articolo Trail Blazers Waive Jeremy Sochan, EuroLeague Could Be an Option? proviene da Sportando .",
+      "published": "2026-10-17T20:01:03.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/trail-blazers-waive-jeremy-sochan-euroleague-could-be-an-option/"
+    },
+    {
+      "id": "EuroLeague-bertomeuonnbaproposalclubswillonceagaind",
+      "league": "EuroLeague",
+      "title": "Bertomeu on NBA proposal: “Clubs will once again do what someone else tells them to do”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The former EuroLeague CEO questioned the proposed financial terms and warned against sacrificing European basketball’s identity The post Bertomeu on NBA proposal: “Clubs will once again do what someone else tells them to do” appeared first on Eurohoops .",
+      "published": "2026-10-17T16:03:56.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/09/69832acb-jordi-bertomeu-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2022273/bertomeu-on-nba-proposal-clubs-will-once-again-do-what-someone-else-tells-them-to-do/"
+    },
+    {
+      "id": "EuroLeague-darkorajakoviconlearningfrompedromartine",
+      "league": "EuroLeague",
+      "title": "Darko Rajakovic on learning from Pedro Martinez: “We spent hours talking”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Raptors coach discussed his exchange of ideas with the Real Madrid tactician during the summer The post Darko Rajakovic on learning from Pedro Martinez: “We spent hours talking” appeared first on Eurohoops .",
+      "published": "2026-10-17T14:47:36.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2025/11/2dd74863-darko-rajakovic-smiles-toronto-raptors.jpg",
+      "url": "https://www.eurohoops.net/en/nba-news/2022242/darko-rajakovic-on-learning-from-pedro-martinez-we-spent-hours-talking/"
+    },
+    {
       "id": "EuroLeague-sashavezenkovstandsoutaseuroleagueround6",
       "league": "EuroLeague",
       "title": "Sasha Vezenkov stands out as EuroLeague Round 6 MVP",
@@ -35,38 +126,12 @@
       "url": "https://www.eurohoops.net/en/euroleague/2022132/sasha-vezenkov-round-6-mvp-euroleague/"
     },
     {
-      "id": "EuroLeague-euroleaguereportedlysettoapprovevalencia",
+      "id": "EuroLeague-euroleaguerounduproadwinsforolyefeshapoe",
       "league": "EuroLeague",
-      "title": "EuroLeague reportedly set to approve Valencia, Paris, Dubai and PAOK as first new franchises",
+      "title": "EuroLeague roundup: Road wins for Oly, Efes, Hapoel – Zvezda, Virtus, Besiktas prevail at home",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Valencia, Paris, Dubai and PAOK are reportedly set to become the first four new EuroLeague franchises, paying around €300 million in total fees L'articolo EuroLeague reportedly set to approve Valencia, Paris, Dubai and PAOK as first new franchises proviene da Sportando .",
-      "published": "2026-10-17T09:55:47.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-reportedly-set-to-approve-valencia-paris-dubai-and-paok-as-first-new-franchises/"
-    },
-    {
-      "id": "EuroLeague-euroleagueround6sportandosallroundteam",
-      "league": "EuroLeague",
-      "title": "EuroLeague Round #6 | Sportando’s All-Round Team",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Best Players of the Sixth Round of the EuroLeague, According to Sportando L'articolo EuroLeague Round #6 | Sportando’s All-Round Team proviene da Sportando .",
-      "published": "2026-10-17T09:45:26.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-round-6-sportandos-all-round-team/"
-    },
-    {
-      "id": "EuroLeague-euroleaguerounduproadwinsforolympiacosef",
-      "league": "EuroLeague",
-      "title": "EuroLeague roundup: Road wins for Olympiacos, Efes, Hapoel – Zvezda, Virtus and Besiktas prevail at home",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "On Friday, the sixth round of the EuroLeague concludes with three important road wins registered The post EuroLeague roundup: Road wins for Olympiacos, Efes, Hapoel – Zvezda, Virtus and Besiktas prevail at home appeared first on Eurohoops .",
+      "description": "On Friday, the sixth round of the EuroLeague concludes with three important road wins registered The post EuroLeague roundup: Road wins for Oly, Efes, Hapoel – Zvezda, Virtus, Besiktas prevail at home appeared first on Eurohoops .",
       "published": "2026-10-16T19:15:01.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
@@ -98,45 +163,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/10/6044e31f-adama-sanogo-celebrates-runs-hapoel-holon-at-spartak-basketball-champions-league.jpg",
       "url": "https://www.eurohoops.net/en/fiba-champions-league/2021597/adama-sanogo-player-of-the-week-basketball-champions-league/"
-    },
-    {
-      "id": "EuroLeague-euroleagueupdatesofficialinjuryreportjus",
-      "league": "EuroLeague",
-      "title": "EuroLeague updates official injury report, Justin Minaya and Isaac Bonga questionable",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The most recent player availability reports highlight key roster changes and injuries at the end of a double-game week in the 2026–27 EuroLeague Regular Season The post EuroLeague updates official injury report, Justin Minaya and Isaac Bonga questionable appeared first on Eurohoo",
-      "published": "2026-10-16T10:03:02.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/bdbf371c-justin-minaya-celebrates-barcelona-euroleague.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2021562/injury-report-round-6-dorsey-unavailable-bonga-minaya-questionable/"
-    },
-    {
-      "id": "EuroLeague-euroleaguetodistribute34btotheteamsinthe",
-      "league": "EuroLeague",
-      "title": "Euroleague to distribute €3.4B to the teams in the next decade",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "EuroLeague Basketball presents its road map for the future, which aims to €648 million in annual commercial revenues after the next 10 seasons and projects a total value of €13 billions The post Euroleague to distribute €3.4B to the teams in the next decade appeared first on Euro",
-      "published": "2026-10-16T10:00:00.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/e780ca56-dejan-bodiroga-euroleague.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2021553/euroleague-to-distribute-e3-4b-to-the-teams-in-the-next-decade/"
-    },
-    {
-      "id": "EuroLeague-yankubasimapartswayswithvalenciaandjoins",
-      "league": "EuroLeague",
-      "title": "Yankuba Sima parts ways with Valencia and joins ALBA",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Valencia and Yankuba Sima mutually terminate their contract, with the 30-year-old center taking his talents to ALBA Berlin The post Yankuba Sima parts ways with Valencia and joins ALBA appeared first on Eurohoops .",
-      "published": "2026-10-16T08:27:49.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/2b29c3f5-yankuba-sima-handles-valencia-at-paris-euroleague.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2021533/yankuba-sima-parts-ways-with-valencia-euroleague/"
     }
   ],
   "leaders": {
@@ -10522,7 +10548,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-17T10:28:35.852Z",
+    "news": "2026-10-18T10:45:14.145Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },

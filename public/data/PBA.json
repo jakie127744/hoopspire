@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-17T10:27:44.301Z",
+  "fetchedAt": "2026-10-18T10:44:31.987Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -3765,6 +3765,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-17-titan-ugr-terrafi-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "titan-ultra-giant-risers",
+        "name": "Titan Ultra Giant Risers",
+        "abbr": "TIT",
+        "logo": null,
+        "score": 117,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "terrafirma-dyip",
+        "name": "Terrafirma Dyip",
+        "abbr": "TER",
+        "logo": null,
+        "score": 149,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-17-blackwa--rain-or-s-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "blackwater-bossing",
+        "name": "Blackwater Bossing",
+        "abbr": "BLA",
+        "logo": null,
+        "score": 123,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "rain-or-shine-elasto-painters",
+        "name": "Rain or Shine Elasto Painters",
+        "abbr": "RAI",
+        "logo": null,
+        "score": 125,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-10-16-fiberxers-macau-bb",
       "league": "PBA",
@@ -14833,82 +14891,121 @@
   ],
   "news": [
     {
-      "id": "PBA-uaapsbpteamupforefibaxuaapegilastalentdi",
+      "id": "PBA-pbageochiuseeksimprovementafterupanddown",
       "league": "PBA",
-      "title": "UAAP, SBP team up for eFIBA x UAAP eGilas talent discovery tournament",
+      "title": "PBA: Geo Chiu seeks improvement after up-and-down rookie year",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The UAAP esports season will culminate in the league’s first-ever eFIBA x UAAP eGilas Talent Discovery Tournament presented by SBP, adding a new dimension to this year’s collegiate esports calendar. Aside from serving as the season’s console sports simulation tournament, the comp",
-      "published": "2026-10-17T06:54:40.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/07/2026-eFIBA-World-Finals-eGilas-Pilipinas-1-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/uaap-sbp-team-up-for-efiba-x-uaap-egilas-talent-discovery-tournament/386844"
-    },
-    {
-      "id": "PBA-convergemakessurelosingisallmacauremembe",
-      "league": "PBA",
-      "title": "Converge makes sure losing is all Macau remembers in ending PBA stint",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Converge made sure that Macau’s rough and humiliating participation as a guest team in the PBA Governors’ Cup would come to an end in the same stinking manner that characterized the Giant Pandas’ stint. The FiberXers battered the Giant Pandas to near-submission in carving out a 1",
-      "published": "2026-10-17T05:30:16.000Z",
+      "description": "MANILA, Philippines–The work continues for Terrafirma’s Geo Chiu after wrapping up his rookie season in the PBA filled with highs and lows. Chiu acknowledges that he can still be a better version of himself based on what he experienced during the two-conference stint for the Dyip",
+      "published": "2026-10-18T18:39:22.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-21.jpg",
-      "url": "https://sports.inquirer.net/701908/converge-makes-sure-losing-is-all-macau-remembers-in-ending-pba-stint"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-9.jpg",
+      "url": "https://sports.inquirer.net/702216/pba-geo-chiu-seeks-improvement-after-up-and-down-rookie-year"
     },
     {
-      "id": "PBA-cardsturntodefenseinoutlastingaltasforfi",
+      "id": "PBA-governorscupseriesofunfortunateroutsmaye",
       "league": "PBA",
-      "title": "Cards turn to defense in outlasting Altas for fifth straight win",
+      "title": "Governors’ Cup series of unfortunate routs may end soon",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Coach Chito Victolero has instilled a mentality in his Mapua Cardinals crew in the NCAA that made him a successful coach in the pro league. “The defensive mentality and the character of our players are very similar,” he said at San Juan Arena on Friday. “The system we built at Ma",
-      "published": "2026-10-17T05:15:16.000Z",
+      "description": "ANTIPOLO—It has been blowout after blowout since the PBA Governors’ Cup returned from its long break that the league took to allow the national team to compete in two major tournaments. Terrafirma added to those lopsided results on Saturday, after a 147-115 drubbing of Titan Ultr",
+      "published": "2026-10-18T05:15:58.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/IMG_9715-scaled.jpg",
-      "url": "https://sports.inquirer.net/701899/cards-turn-to-defense-in-outlasting-altas-for-fifth-straight-win"
+      "image": "https://sports.inquirer.net/files/2026/10/Sports1310708.jpg",
+      "url": "https://sports.inquirer.net/702135/governors-cup-series-of-unfortunate-routs-may-end-soon"
     },
     {
-      "id": "PBA-pbamarcellusearlingtonimpressesphoenixwi",
+      "id": "PBA-pbaguiaosaysnoeasyquarterfinalmatchupawa",
       "league": "PBA",
-      "title": "PBA: Marcellus Earlington impresses Phoenix with strong debut",
+      "title": "PBA: Guiao says no easy quarterfinal matchup awaits Rain or Shine",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "MANILA, Philippines–Phoenix coach Charles Tiu liked what he saw from Marcellus Earlington in a winning debut against Meralco in the 2026 PBA Governors’ Cup after pondering tapping two players who would go on to play in the ongoing conference. Earlington had 20 points, 14 rebounds",
-      "published": "2026-10-16T22:43:37.000Z",
+      "description": "ANTIPOLO—Rain or Shine achieved its first goal of securing a spot in the quarterfinals of the 2026 PBA Governors’ Cup on Saturday. But coach Yeng Guiao is wary that any team the Elasto Painters face in the crossover quarters will be a tough cookie to crack, regardless of where th",
+      "published": "2026-10-17T23:37:29.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-15.jpg",
-      "url": "https://sports.inquirer.net/701923/pba-marcellus-earlington-impresses-phoenix-with-strong-debut"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image13-12.jpg",
+      "url": "https://sports.inquirer.net/702169/pba-guiao-says-no-easy-quarterfinal-matchup-awaits-rain-or-shine"
     },
     {
-      "id": "PBA-pbaricciriveroleadsphoenixcomebackwinove",
+      "id": "PBA-pbarainorshineescapesblackwaterbooksquar",
       "league": "PBA",
-      "title": "PBA: Ricci Rivero leads Phoenix comeback win over Meralco",
+      "title": "PBA: Rain or Shine escapes Blackwater, books quarterfinals berth",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Phoenix, with Ricci Rivero playing the lead role, assured itself a spot in the quarterfinals of the 2026 PBA Governors’ Cup after coming back to defeat Meralco, 105-101, on Friday at Ynares Center in Antipolo. Rivero had 26 points, nine rebounds, seven assists, three steals and t",
-      "published": "2026-10-16T22:21:24.000Z",
+      "description": "ANTIPOLO—Rain or Shine survived a late scare from Blackwater to claim a 125-123 victory and secure a quarterfinals berth in the 2026 PBA Governors’ Cup on Saturday at Ynares Center here. The Elasto Painters squandered a double-digit lead as the Bossing made a last-ditch attempt a",
+      "published": "2026-10-17T23:04:55.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image7-10.jpg",
-      "url": "https://sports.inquirer.net/701911/pba-ricci-rivero-leads-phoenix-comeback-win-over-meralco"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-12.jpg",
+      "url": "https://sports.inquirer.net/702148/pba-rain-or-shine-escapes-blackwater-books-quarterfinals-berth"
     },
     {
-      "id": "PBA-pbaconvergesendsmacauoffwith54pointbeati",
+      "id": "PBA-pbamaverickahanmisientersfreeagencyafter",
       "league": "PBA",
-      "title": "PBA: Converge sends Macau off with 54-point beating",
+      "title": "PBA: Maverick Ahanmisi enters free agency after Terrafirma stint",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "MANILA, Philippines–Converge gave hapless Macau a rough ending to its two-conference participation as guest team after taking a 162-108 victory in Friday’s 2026 PBA Governors’ Cup action at Ynares Center in Antipolo City. Import Cam Clark scored 32 points, Juan Gomez de Liano had",
-      "published": "2026-10-16T19:58:36.000Z",
+      "description": "ANTIPOLO—Maverick Ahanmisi will take everything into consideration before deciding his next route as he becomes a free agent following Terrafirma’s exit from the 2026 PBA Governors’ Cup. Ahanmisi registered the first triple-double of his career with 18 points, 10 rebounds and 14 ",
+      "published": "2026-10-17T21:18:07.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-21.jpg",
-      "url": "https://sports.inquirer.net/701851/pba-converge-sends-macau-off-with-54-point-beating"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-20.jpg",
+      "url": "https://sports.inquirer.net/702111/pba-maverick-ahanmisi-enters-free-agency-after-terrafirma-stint"
+    },
+    {
+      "id": "PBA-pbaterrafirmaendsgovernorscupwithroutoft",
+      "league": "PBA",
+      "title": "PBA: Terrafirma ends Governors’ Cup with rout of Titan Ultra",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Terrafirma wrapped up its 2026 PBA Governors’ Cup campaign on a bright note with a 147-115 victory over Titan Ultra in a game pitting two eliminated teams on Saturday at Ynares Center here. Juami Tiongson fired 30 points while veteran Maverick Ahanmisi produced his first",
+      "published": "2026-10-17T19:51:20.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-21.jpg",
+      "url": "https://sports.inquirer.net/702061/pba-terrafirma-ends-governors-cup-with-rout-of-titan-ultra"
+    },
+    {
+      "id": "PBA-outtopasture",
+      "league": "PBA",
+      "title": "Out to pasture",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "There are six games left before the PBA Governors Cup eliminations end on Friday and so far, only three teams are out to pasture.",
+      "published": "2026-10-17T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/18/2563927/out-pasture"
+    },
+    {
+      "id": "PBA-dyipbowoutwithabang",
+      "league": "PBA",
+      "title": "Dyip bow out with a bang",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Going out swinging.",
+      "published": "2026-10-17T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/18/2563935/dyip-bow-out-bang"
+    },
+    {
+      "id": "PBA-pbarainorshineescapesblackwaterbooksqfti",
+      "league": "PBA",
+      "title": "PBA: Rain or Shine escapes Blackwater, books QF ticket",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rain or Shine escaped Blackwater, 125-123, on Saturday at the Ynares Center in Antipolo to secure a spot in the PBA Governors\" Cup quarterfinals.",
+      "published": "2026-10-17T14:04:36.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1006253/pba-rain-or-shine-escapes-blackwater-books-qf-ticket/story/"
     },
     {
       "id": "PBA-pbaphoenixovercomesmeralcotobookqfticket",
@@ -14935,32 +15032,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1006163/pba-converge-rout-macau-in-giant-pandas-final-game/story/"
-    },
-    {
-      "id": "PBA-pbanlexpullsawayinsecondhalftorouttitanu",
-      "league": "PBA",
-      "title": "PBA: NLEX pulls away in second half to rout Titan Ultra",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "League-leading NLEX rode on a strong second half to crush the struggling Titan Ultra, 147-115, in the PBA Season 50 Governors' Cup on Wednesday at the Ninoy Aquino Stadium.",
-      "published": "2026-10-14T14:31:26.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005960/pba-nlex-pulls-away-in-second-half-to-rout-titan-ultra/story/"
-    },
-    {
-      "id": "PBA-pbageorgekingpowerssanmiguelto30pointdem",
-      "league": "PBA",
-      "title": "PBA: George King powers San Miguel to 30-point demolition of Terrafirma",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "George King ignited from deep to help San Miguel boost its chances for Group A top seed after annihilating Terrafirma, 135-105, in the PBA Season 50 Governors' Cup on Wednesday.",
-      "published": "2026-10-14T12:47:33.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1005942/pba-george-king-powers-san-miguel-to-30-point-demolition-of-terrafirma/story/"
     }
   ],
   "leaders": {
@@ -15431,8 +15502,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-17T10:27:44.301Z",
-    "news": "2026-10-17T10:27:44.301Z"
+    "games": "2026-10-18T10:44:31.987Z",
+    "news": "2026-10-18T10:44:31.987Z"
   },
   "carriedOver": [
     "teams",
