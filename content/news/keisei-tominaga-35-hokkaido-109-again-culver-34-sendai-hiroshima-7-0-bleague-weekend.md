@@ -17,7 +17,7 @@ It was a 13-game weekend in the B.League Premier. Sendai came from 13 down to be
 
 **The first quarter.** Yokohama never led by more than a point. Tominaga scored on a fast-break layup and a three inside the first five minutes, and Hokkaido led 32-20 after one.
 
-**The pull-away.** Hokkaido won all four quarters, and the lead reached 31 at 101-70 with 3:11 left. Gary Clark added 22 points and seven rebounds, and John Harrar had 14 points. Maik Kotsar made all nine of his free throws and scored 19 for Yokohama.
+**The pull-away.** Hokkaido won all four quarters, and the lead reached 31 at 101-70 with 3:11 left. Gary Clark added 22 points and seven rebounds, and Dwight Ramos and John Harrar had 14 each. Maik Kotsar made all nine of his free throws and scored 19 for Yokohama.
 
 On Friday, Hokkaido led Saga by as many as 23. Dwight Ramos scored 23 on 5-of-8 from three, and Clark and Harrar had 17 each, Harrar with 15 rebounds. Nassir Little scored 35 for Saga and Damyean Dotson 25 with 10 rebounds.
 
@@ -53,9 +53,7 @@ On Friday, four days after [beating the Chiba Jets in overtime](/story/isaiah-li
 
 **Mikawa 99, Toyama 56.** Mikawa won the third quarter 36-16, and Aaron White had 21 points and 14 rebounds off the bench. Toyama scored eight points in the fourth.
 
-**Kyoto 115, Saga 70.** Angelo Caloiaro had 29 points and 10 assists in 23 minutes and made 5 of 6 threes.
-
-Among the Filipino players: Ramos scored 23 and 14 for Hokkaido, Parks had 3 and 18 for Ibaraki, Michael Phillips had 18 points and 10 rebounds for Kyoto, Thirdy Ravena scored 10 for Toyama, Kiefer Ravena 9 for Ryukyu, and A.J. Edu 4 for Gunma.
+**Kyoto 115, Saga 70.** Angelo Caloiaro had 29 points and 10 assists in 23 minutes and made 5 of 6 threes. Michael Phillips added 18 points and 10 rebounds off the bench.
 
 ## Scoring
 

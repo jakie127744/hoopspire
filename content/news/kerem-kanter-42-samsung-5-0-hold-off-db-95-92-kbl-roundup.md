@@ -35,7 +35,7 @@ On Sunday, the Busan KCC Egis led 45-36 at half-time in Anyang. Jung Kwan Jang w
 
 ## Sono 95, Hyundai Mobis 82 and 87, SK 81
 
-Johnny O'Bryant III had 27 points and 16 rebounds on Friday as the Goyang Sono Skygunners beat the Ulsan Hyundai Mobis Phoebus at home. Sono led by as many as 15 in the third.
+Johnny O'Bryant III had 27 points and 16 rebounds on Friday, and Kevin Quiambao scored 20 with four threes, as the Goyang Sono Skygunners beat the Ulsan Hyundai Mobis Phoebus at home. Sono led by as many as 15 in the third.
 
 On Sunday at the Seoul SK Knights, the lead changed hands 19 times. O'Bryant's three at the end of the third quarter gave Sono a 70-65 lead, Kim Hyung-bin's three cut it to 70-68, and then threes from Lim Dong-seop, Lee Jung-hyun and David James Jr. made it 79-68. O'Bryant scored 29 on 12-of-16 shooting, Lee Jung-hyun had 21 with five threes, and James had 20 points and 10 rebounds. Jameel Warney scored 23 for SK. The crowd of 5,203 was the biggest of the four days.
 
@@ -45,7 +45,6 @@ The Daegu KoGas Pegasus never trailed against LG on Saturday and led by 17 in th
 
 On Sunday, Hyundai Mobis led KT 59-38 at half-time and won 96-80. Darius Bazley had 23 points and 10 rebounds off the bench. Paris Bass scored 31 for KT, who have lost three in a row.
 
-Among the Filipino players: Tamayo scored 24 and 9 for LG, Kevin Quiambao 20 and 8 for Sono, Belangel 18 for Korea Gas, Justin Gutang 10 and 4 for Samsung, Rhenz Abando 7 and 10 for Jung Kwan Jang, Miguel Oczon 10 and 7 for KT, Gerry Abadiano 7 and 6 for Hyundai Mobis, and Arvin Tolentino 2 for SK.
 
 ## Scoring
 
