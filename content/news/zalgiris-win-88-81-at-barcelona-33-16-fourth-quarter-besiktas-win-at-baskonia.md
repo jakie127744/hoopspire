@@ -1,6 +1,6 @@
 ---
 title: "Zalgiris win 88-81 at Barcelona with a 33-16 fourth quarter as Besiktas win at Baskonia"
-dek: "Zalgiris trailed by 10 after three quarters at the Palau Blaugrana and made 13 threes. In Vitoria, Scottie Wilbekin scored 21 and Besiktas won 89-82 although Chris Duarte made all 13 of his free throws."
+dek: "Zalgiris trailed by 10 after three quarters at the Palau Blaugrana and made 13 threes. In Vitoria, Scottie Wilbekin scored 24 and Besiktas won 92-84 although Chris Duarte made all 15 of his free throws."
 league: "EuroLeague"
 author: "Tomas Lindqvist"
 published: "2026-10-09"
@@ -9,7 +9,7 @@ tag: "Result"
 
 Zalgiris Kaunas were 1-2 and trailing FC Barcelona 65-55 after three quarters at the Palau Blaugrana on Friday night. They won the fourth quarter 33-16 and the game 88-81. Both teams are now 2-2.
 
-Also on Friday, Besiktas beat Baskonia 89-82 at the Buesa Arena in Vitoria. Besiktas are 2-2 and Baskonia 1-3. The two games, with Olympiacos' 89-66 win over Anadolu Efes, closed Round 4.
+Also on Friday, Besiktas beat Baskonia 92-84 at the Buesa Arena in Vitoria. Besiktas are 2-2 and Baskonia 1-3. The two games, with Olympiacos' 89-66 win over Anadolu Efes, closed Round 4.
 
 ## Barcelona 81, Zalgiris 88
 
@@ -29,22 +29,24 @@ Barcelona: Justin Robinson 20, Kevin Punter 9, Tosan Evbuomwan 8, Darío Brizuel
 
 **By quarter:** Zalgiris 23, 16, 16, 33. Barcelona 18, 23, 24, 16.
 
-## Baskonia 82, Besiktas 89
+## Baskonia 84, Besiktas 92
 
 Besiktas led 18-7 in the first quarter. Baskonia answered with 11 straight points, from 17-28 to 28-28 early in the second, and led 51-49 at half-time on a Stefan Joksimović basket at the buzzer.
 
-The third quarter had five ties in its first 3:31. Scottie Wilbekin's three put Besiktas ahead 62-59 with 6:11 left in it, and Besiktas led for the rest of the game. The game had seven ties in all.
+The third quarter had five ties in its first 3:31. Scottie Wilbekin's three put Besiktas ahead 62-59 with 6:11 left in it, and Besiktas led for the rest of the game. The game had seven ties in all. Duarte's free throws cut it to 89-84 with 50 seconds left, and Wilbekin's three closed it out.
 
-Wilbekin scored 21 points with five threes. Devon Dotson had 14 points and six assists, Wenyen Gabriel 14 on seven of nine shooting, and Jaylen Nowell 12. Baskonia made only three of 17 threes. Chris Duarte scored 21 for them and made all 13 of his free throws, and Baskonia went 31 of 40 at the line in all. Kenneth Faried had 10 points and nine rebounds. The crowd was 7,351.
+Wilbekin scored 24 points with six threes. Devon Dotson had 14 points and six assists, Wenyen Gabriel 14 on seven of nine shooting, and Jaylen Nowell 12. Baskonia made only three of 19 threes. Chris Duarte scored 23 for them and made all 15 of his free throws, and Baskonia went 33 of 42 at the line in all. Kenneth Faried had 10 points and nine rebounds. The crowd was 7,351.
 
 **Scoring**
 
-Besiktas: Scottie Wilbekin 21, Devon Dotson 14, Wenyen Gabriel 14, Jaylen Nowell 12, Anthony Brown 9, Ante Žižić 6, David DeJulius 4, Conor Morgan 3, Metecan Birsen 2, Eugene Omoruyi 2, Furkan Korkmaz 2.
+Besiktas: Scottie Wilbekin 24, Devon Dotson 14, Wenyen Gabriel 14, Jaylen Nowell 12, Anthony Brown 9, Ante Žižić 6, David DeJulius 4, Conor Morgan 3, Metecan Birsen 2, Eugene Omoruyi 2, Furkan Korkmaz 2.
 
-Baskonia: Chris Duarte 21, A.J. Lawson 10, Kenneth Faried 10, Damion Baugh 9, Kobi Simmons 8, DJ Stewart 7, Stefan Joksimović 6, Rodions Kurucs 5, Marcio Santos 4, Tadas Sedekerskis 2, Matteo Spagnolo 0.
+Baskonia: Chris Duarte 23, A.J. Lawson 10, Kenneth Faried 10, Damion Baugh 9, Kobi Simmons 8, DJ Stewart 7, Stefan Joksimović 6, Rodions Kurucs 5, Marcio Santos 4, Tadas Sedekerskis 2, Matteo Spagnolo 0.
 
-**By quarter:** Besiktas 28, 21, 24, 16. Baskonia 20, 31, 20, 11.
+**By quarter:** Besiktas 28, 21, 24, 19. Baskonia 20, 31, 20, 13.
 
 ## What is next
 
 Round 5, all times CEST: Fenerbahce host Zalgiris on Tuesday, October 13, at 19:45. Barcelona host Maccabi Tel Aviv and Baskonia host Dubai, both on Tuesday at 20:30. Besiktas visit Hapoel Tel Aviv on Wednesday, October 14, at 18:00.
+
+Update: two rounds later, [Olympiacos won 105-100 in overtime at the Palau](/story/olympiacos-win-105-100-at-barcelona-overtime-euroleague-round-6).
