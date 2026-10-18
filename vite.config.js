@@ -92,7 +92,7 @@ export default defineConfig({
           and cache like any image, and offline a card that cannot reach its
           logo falls back to the league's name.
         */
-        globIgnores: ['**/logo/Hoopspire_logo.png', '**/logo/leagues/**'],
+        globIgnores: ['**/logo/Hoopspire_logo.jpg', '**/logo/hoopspire-icon.png', '**/logo/leagues/**'],
         // Client-side routes resolve to the app shell offline — except the
         // git-based CMS, which is its own page and must never be hijacked.
         navigateFallback: '/index.html',
