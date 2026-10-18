@@ -44,3 +44,5 @@ Thunder: Jalen Williams 18, Shai Gilgeous-Alexander 17, Brooks Barnhizer 9, Jare
 **By quarter:** Rockets 33, 21, 25, 37. Thunder 15, 32, 22, 20.
 
 Opinion: [why neither Knicks-Raptors score this week meant much](/story/knicks-lost-by-50-then-won-ignore-the-preseason-scoreboard).
+
+Update: [Friday's preseason roundup](/story/kelel-ware-dunks-bucks-beat-pacers-128-127-overtime-celtics-top-76ers-friday-nba-preseason-roundup), all 12 games on the last night.
