@@ -27,6 +27,7 @@ const STATIC = [
   { path: '/free-minutes', changefreq: 'weekly', priority: '0.8' },
   { path: '/press', changefreq: 'daily', priority: '0.9' },
   { path: '/opinion', changefreq: 'weekly', priority: '0.8' },
+  { path: '/heritage-line', changefreq: 'weekly', priority: '0.8' },
   { path: '/archive', changefreq: 'daily', priority: '0.6' },
   { path: '/about', changefreq: 'monthly', priority: '0.5' },
   { path: '/contact', changefreq: 'monthly', priority: '0.4' },

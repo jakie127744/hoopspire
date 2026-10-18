@@ -74,6 +74,20 @@ export const DESKS = {
     path: '/opinion',
     accent: 'ink',
   },
+  /*
+   * Heritage Line (owner, 2026-10-18). Scouting reports on young players
+   * growing up outside the country they could represent, through a verified
+   * passport, parent or grandparent, and where FIBA's eligibility rules put
+   * them. Run by the FIBA writers already on the masthead: reports filed as
+   * news by the FIBA beat writer, columns by the two Opinion columnists. It
+   * has no byline of its own; see `desks` in src/lib/staff.js.
+   */
+  scouting: {
+    key: 'scouting',
+    name: 'Heritage Line',
+    path: '/heritage-line',
+    accent: 'gold',
+  },
 }
 
 /**
@@ -114,12 +128,13 @@ function slugFromPath(path) {
 
 // Eager globs: articles are part of the bundle, so there is nothing to fetch
 // at runtime and no loading state to design around. Vite requires the glob
-// pattern to be a literal, so the two desks are listed rather than looped.
+// pattern to be a literal, so the desks are listed rather than looped.
 const files = {
   margin: import.meta.glob('/content/articles/*.md', { query: '?raw', import: 'default', eager: true }),
   fantasy: import.meta.glob('/content/fantasy/*.md', { query: '?raw', import: 'default', eager: true }),
   news: import.meta.glob('/content/news/*.md', { query: '?raw', import: 'default', eager: true }),
   opinion: import.meta.glob('/content/opinion/*.md', { query: '?raw', import: 'default', eager: true }),
+  scouting: import.meta.glob('/content/scouting/*.md', { query: '?raw', import: 'default', eager: true }),
 }
 
 function build(path, raw, desk) {
@@ -152,6 +167,11 @@ function build(path, raw, desk) {
     imageCredit: data.imageCredit || null,
     imageCaption: data.imageCredit || null,
     draft: data.draft === true,
+    // Heritage Line only: the national team a player could represent, how
+    // the connection runs, and where FIBA's eligibility rules leave them.
+    nation: data.nation || null,
+    connection: data.connection || null,
+    fibaStatus: data.status || null,
     // Exposed so the Story page can gate ads on it: AdSense flagged Hoopspire
     // for ads served on low-value content, and several published pieces were
     // 200 words or less. A thin page is thin regardless of whether an ad sits

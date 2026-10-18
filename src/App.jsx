@@ -20,6 +20,7 @@ import Margin from './pages/Margin.jsx'
 import FreeMinutes from './pages/FreeMinutes.jsx'
 import Press from './pages/Press.jsx'
 import Opinion from './pages/Opinion.jsx'
+import HeritageLine from './pages/HeritageLine.jsx'
 import Story from './pages/Story.jsx'
 import Player from './pages/Player.jsx'
 import Archive from './pages/Archive.jsx'
@@ -77,6 +78,7 @@ export default function App() {
           <Route path="/free-minutes" element={<FreeMinutes />} />
           <Route path="/press" element={<Press />} />
           <Route path="/opinion" element={<Opinion />} />
+          <Route path="/heritage-line" element={<HeritageLine />} />
           {/* The desk is about fantasy; people will guess that word first. */}
           <Route path="/fantasy" element={<Navigate to="/free-minutes" replace />} />
           {/* The section was called Originals before it had a name; keep old

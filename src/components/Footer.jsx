@@ -49,6 +49,7 @@ export default function Footer() {
               ['/free-minutes', 'Free Minutes'],
               ['/press', 'Full Court Press'],
               ['/opinion', 'Opinion'],
+              ['/heritage-line', 'Heritage Line'],
               ['/archive', 'Archive & Search'],
               ['/scores', 'Live Scores'],
               ['/stats', 'Statistics'],

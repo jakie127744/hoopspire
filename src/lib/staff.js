@@ -196,6 +196,8 @@ export const STAFF = [
     id: 'amara-diallo',
     byline: 'Amara Diallo',
     desk: 'news',
+    // Also files for Heritage Line, which has no byline of its own.
+    desks: ['scouting'],
     role: 'Full Court Press — FIBA',
     leagues: ['FIBA'],
     beat: 'FIBA at every level: senior windows, World Cup and continental cups, the age-group tournaments from U16 up, the zonal championships, and federation rulings.',
@@ -218,6 +220,8 @@ export const STAFF = [
     id: 'victor-ashby',
     byline: 'Victor Ashby',
     desk: 'opinion',
+    // Also files for Heritage Line, which has no byline of its own.
+    desks: ['scouting'],
     role: 'Second Look',
     lead: true,
     leagues: ['NBA', 'WNBA', 'GLeague', 'NCAAM', 'NBB', 'LNBP', 'FIBA'],
@@ -229,6 +233,8 @@ export const STAFF = [
     id: 'noor-haddad',
     byline: 'Noor Haddad',
     desk: 'opinion',
+    // Also files for Heritage Line, which has no byline of its own.
+    desks: ['scouting'],
     role: 'Hot Hand',
     leagues: ['EuroLeague', 'PBA', 'KBL', 'BLeague', 'CBA', 'TPBL', 'NBL', 'FIBA'],
     beat: 'Columns on the rest of the basketball world, from Madrid to Manila to Melbourne, and FIBA outside the Americas, World Cup included.',
@@ -247,9 +253,18 @@ export function deskLead(desk) {
   return onDesk.find((s) => s.lead) || onDesk[0] || null
 }
 
-/** Everyone on a desk, for a masthead that lists more than one beat. */
+/**
+ * Everyone on a desk, for a masthead that lists more than one beat. A writer
+ * belongs to one home desk and may also file for others through `desks`:
+ * Heritage Line is run entirely by writers whose home is news or opinion.
+ */
 export function deskStaff(desk) {
-  return STAFF.filter((s) => s.desk === desk)
+  return STAFF.filter((s) => s.desk === desk || (s.desks || []).includes(desk))
+}
+
+/** Can this writer file on this desk? */
+export function filesFor(writer, desk) {
+  return !!writer && (writer.desk === desk || (writer.desks || []).includes(desk))
 }
 
 /** The news writers whose beat includes a league key. */

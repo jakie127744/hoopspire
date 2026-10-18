@@ -9,6 +9,7 @@ const SECTIONS = [
   { to: '/free-minutes', label: 'Free Minutes' },
   { to: '/press', label: 'Full Court Press' },
   { to: '/opinion', label: 'Opinion' },
+  { to: '/heritage-line', label: 'Heritage Line' },
   { to: '/scores', label: 'Scores' },
   { to: '/stats', label: 'Stats' },
   { to: '/teams', label: 'Teams' },

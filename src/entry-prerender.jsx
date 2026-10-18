@@ -24,6 +24,7 @@ export function routes() {
     '/free-minutes',
     '/press',
     '/opinion',
+    '/heritage-line',
     '/archive',
     '/about',
     '/contact',

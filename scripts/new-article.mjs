@@ -27,7 +27,8 @@ import fs from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-import { getStaff, beatWriters } from '../src/lib/staff.js'
+import { getStaff, beatWriters, filesFor } from '../src/lib/staff.js'
+import { CONNECTIONS, FIBA_STATUS } from '../src/lib/scouting.js'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const CONTENT = path.join(__dirname, '..', 'content')
 
@@ -37,6 +38,7 @@ const DESKS = {
   fantasy: { dir: path.join(CONTENT, 'fantasy'), rel: 'content/fantasy', author: 'Franco Medina' },
   news: { dir: path.join(CONTENT, 'news'), rel: 'content/news', author: 'Hoopspire Staff' },
   opinion: { dir: path.join(CONTENT, 'opinion'), rel: 'content/opinion', author: 'Victor Ashby' },
+  scouting: { dir: path.join(CONTENT, 'scouting'), rel: 'content/scouting', author: 'Amara Diallo' },
 }
 
 const LEAGUES = [
@@ -59,6 +61,18 @@ const TAGS_BY_DESK = {
   // Opinion: the tag is the column. Second Look is Victor Ashby's, Hot Hand
   // is Noor Haddad's, Jump Ball is the two of them on opposite sides.
   opinion: ['Second Look', 'Hot Hand', 'Jump Ball'],
+  // Heritage Line runs news and opinion side by side, and the tag says which
+  // a piece is: a report or an eligibility ruling is news, filed by the FIBA
+  // beat writer; Second Look and Hot Hand are columns, filed by their owners.
+  scouting: ['Scouting Report', 'Eligibility', 'Second Look', 'Hot Hand'],
+}
+
+/** Which home desk a Heritage Line tag belongs to. */
+const SCOUTING_KIND = {
+  'Scouting Report': 'news',
+  Eligibility: 'news',
+  'Second Look': 'opinion',
+  'Hot Hand': 'opinion',
 }
 const TAGS = TAGS_BY_DESK.margin
 const REQUIRED = ['title', 'dek', 'author', 'published', 'tag']
@@ -113,7 +127,7 @@ export function lintArticle(filename, raw, desk = 'margin') {
   // Capitalised keys are the trap: the parser keeps them, the site never reads
   // them, and the field silently vanishes from the page.
   for (const key of Object.keys(data)) {
-    const canonical = [...REQUIRED, 'league', 'league2', 'image', 'imageCredit', 'draft', 'slug', 'game']
+    const canonical = [...REQUIRED, 'league', 'league2', 'image', 'imageCredit', 'draft', 'slug', 'game', 'nation', 'connection', 'status']
       .find((f) => f.toLowerCase() === key.toLowerCase())
     if (canonical && canonical !== key) {
       problems.push(`\`${key}\` should be \`${canonical}\` — the site reads the lowercase form`)
@@ -142,8 +156,10 @@ export function lintArticle(filename, raw, desk = 'margin') {
     const writer = getStaff(data.author)
     if (!writer) {
       problems.push(`author \`${data.author}\` is not on the masthead in src/lib/staff.js`)
-    } else if (writer.desk !== desk && !(desk === 'news' && data.author === 'Hoopspire Staff')) {
+    } else if (!filesFor(writer, desk) && !(desk === 'news' && data.author === 'Hoopspire Staff')) {
       problems.push(`author \`${data.author}\` writes for the ${writer.desk} desk, not ${desk}`)
+    } else if (desk === 'scouting' && SCOUTING_KIND[data.tag] && writer.desk !== SCOUTING_KIND[data.tag]) {
+      problems.push(`${data.tag} is ${SCOUTING_KIND[data.tag]} on Heritage Line; ${data.author} files ${writer.desk}`)
     } else if (
       desk === 'news' && writer.leagues && data.league &&
       !writer.leagues.includes(data.league) &&
@@ -163,8 +179,18 @@ export function lintArticle(filename, raw, desk = 'margin') {
       problems.push(`${data.author} covers ${w.leagues.join(', ')}, not ${data.league}`)
     }
   }
-  if (desk === 'opinion' && COLUMN_OWNER[data.tag] && data.author !== COLUMN_OWNER[data.tag]) {
+  if ((desk === 'opinion' || desk === 'scouting') && COLUMN_OWNER[data.tag] && data.author !== COLUMN_OWNER[data.tag]) {
     problems.push(`${data.tag} is ${COLUMN_OWNER[data.tag]}'s column, not ${data.author}'s`)
+  }
+
+  // Heritage Line: every piece is about a national team, so it is filed under
+  // FIBA (league2 may add the league the player plays in), and carries the
+  // eligibility file the Story page prints under the dek.
+  if (desk === 'scouting') {
+    if (data.league !== 'FIBA') problems.push("Heritage Line pieces are `league: FIBA`; the player's club league goes in `league2`")
+    if (!data.nation) problems.push('missing `nation`: the national team the player could represent')
+    if (!CONNECTIONS[data.connection]) problems.push(`\`connection\` must be one of ${Object.keys(CONNECTIONS).join(', ')}`)
+    if (!FIBA_STATUS[data.status]) problems.push(`\`status\` must be one of ${Object.keys(FIBA_STATUS).join(', ')}`)
   }
 
   if (data.tag && !tags.includes(data.tag)) {
@@ -269,7 +295,10 @@ async function create(title, opts) {
     '---',
     `title: ${title}`,
     'dek: One or two sentences of standfirst. This shows on cards and in search results, so make it say something.',
-    ...(opts.league ? [`league: ${opts.league}`] : []),
+    ...(opts.league || opts.desk === 'scouting' ? [`league: ${opts.league || 'FIBA'}`] : []),
+    ...(opts.desk === 'scouting'
+      ? ['nation: Country the player could represent', 'connection: parent', 'status: pending']
+      : []),
     `author: ${opts.author || desk.author}`,
     `published: ${today}`,
     `tag: ${opts.tag || tags[0]}`,
@@ -294,7 +323,7 @@ if (argv.includes('--lint')) {
 } else {
   const title = argv.find((a) => !a.startsWith('--'))
   if (!title) {
-    console.error('Usage: node scripts/new-article.mjs "Your headline"  [--desk margin|fantasy|news|opinion] [--league KEY] [--tag Analysis]')
+    console.error('Usage: node scripts/new-article.mjs "Your headline"  [--desk margin|fantasy|news|opinion|scouting] [--league KEY] [--tag Analysis]')
     console.error('       node scripts/new-article.mjs --lint')
     process.exit(1)
   }

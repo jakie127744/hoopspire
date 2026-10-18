@@ -56,6 +56,7 @@ const DESK_BADGE = {
   fantasy: 'border-crimson text-crimson',
   news: 'border-ink text-ink',
   opinion: 'border-dashed border-ink/70 text-ink/80',
+  scouting: 'border-gold bg-gold/10 text-ink',
 }
 
 export function DeskBadge({ article, className = '' }) {

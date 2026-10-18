@@ -1,5 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { getOriginal, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
+import { CONNECTIONS, FIBA_STATUS } from '../lib/scouting.js'
 import { disclosureText } from '../lib/affiliate.js'
 import { getStaff } from '../lib/staff.js'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
@@ -69,6 +70,24 @@ export default function Story() {
 
         {article.description && (
           <p className="mt-5 text-xl leading-relaxed text-ink/70">{article.description}</p>
+        )}
+
+        {/* Heritage Line's eligibility file: the three facts every report is built on. */}
+        {article.desk === 'scouting' && article.nation && (
+          <dl className="mt-6 grid gap-x-8 gap-y-2 border-l-2 border-gold bg-paper px-5 py-4 text-sm sm:grid-cols-3">
+            <div>
+              <dt className="eyebrow text-ink/45">National team</dt>
+              <dd className="mt-1 text-ink">{article.nation}</dd>
+            </div>
+            <div>
+              <dt className="eyebrow text-ink/45">Connection</dt>
+              <dd className="mt-1 text-ink">{CONNECTIONS[article.connection] || article.connection}</dd>
+            </div>
+            <div>
+              <dt className="eyebrow text-ink/45">FIBA status</dt>
+              <dd className="mt-1 text-ink">{FIBA_STATUS[article.fibaStatus] || article.fibaStatus}</dd>
+            </div>
+          </dl>
         )}
 
         <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-parchment pt-5">
