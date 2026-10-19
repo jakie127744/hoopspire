@@ -164,3 +164,5 @@ Saga: Nassir Little 20, Damyean Dotson 12, Atsuki Kishida 9, Taiki Sumida 9, Ryo
 ## What is next
 
 Nine games on Monday, October 19, all at 19:05 local time except Ryukyu-Shiga at 19:35. Unbeaten Hiroshima host San-en, who are 5-0. Altiri Chiba play at Nagasaki, Sendai host Kobe, and Alvark Tokyo host Akita.
+
+Update: [Hiroshima went 8-0 on Monday with a last-play three against San-en](/story/yamazaki-three-last-play-hiroshima-8-0-beat-san-en-77-75-sunrockers-win-by-43-bleague-monday).
