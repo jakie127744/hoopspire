@@ -69,3 +69,5 @@ Portland plays two in the first two versions of the week and five in the long on
 - **Watch the 76ers' back-to-back.** Their third and fourth games are on Saturday and Sunday. Check the injury report before Sunday's lineup locks.
 
 The check I would run next: the minutes in those first three or four games. A schedule edge is worth nothing to a player out of the rotation, and opening week is when we find out who the rotation is.
+
+Update: [the opening-night preview, Philadelphia at the champion Knicks](/story/knicks-open-title-defense-against-76ers-thunder-visit-spurs-nba-opening-night).
