@@ -52,3 +52,5 @@ By quarter: LA Clippers 23, 32, 22, 27. Golden State 24, 19, 30, 28.
 ## What is next
 
 Golden State hosts the Los Angeles Lakers at Chase Center on Tuesday, October 6, at 10 p.m. ET. The Clippers play the Toronto Raptors in Vancouver on Saturday, October 10.
+
+Update: [Wagler started the last preseason game, and the Clippers open without Ingram, Strus and Beal](/story/add-keaton-wagler-clippers-open-without-ingram-strus-beal).
