@@ -62,3 +62,5 @@ By quarter: Golden State 14, 28, 9, 17. Atlanta 22, 17, 17, 8.
 Game 2 is Monday, October 19, at Chase Center, 8 p.m. Eastern. The series then moves to Atlanta for Game 3 on Wednesday, October 21, and Game 4 on Saturday, October 24.
 
 Before the series: our [Game 1 preview](/story/valkyries-host-dream-wnba-finals-game-1-saturday-first-title-either-way), and Victor Ashby's case to [pick the Dream anyway](/story/ignore-the-3-0-pick-the-dream-to-win-the-wnba-finals).
+
+Update: [the Game 2 preview](/story/valkyries-unbeaten-at-home-host-dream-wnba-finals-game-2).
