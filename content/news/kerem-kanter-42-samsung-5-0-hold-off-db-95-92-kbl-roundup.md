@@ -121,3 +121,5 @@ Samsung lead at 5-0, ahead of Jung Kwan Jang at 6-1. Korea Gas are third at 3-3.
 DB host Korea Gas on Monday, October 19, at 19:00. SK host Jung Kwan Jang on Tuesday, and Samsung put their unbeaten record on the line against KCC on Wednesday.
 
 Earlier this week: [Korea Gas came back from 17 down to beat KT](/story/ra-gun-ah-14-in-third-quarter-korea-gas-erase-17-point-deficit-beat-kt-82-69).
+
+Update: [DB beat Korea Gas 104-78 on Monday](/story/db-win-third-quarter-38-18-rout-korea-gas-104-78-alvano-perfect).
