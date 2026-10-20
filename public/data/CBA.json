@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-19T12:43:02.444Z",
+  "fetchedAt": "2026-10-20T11:14:50.290Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,209 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-19-beijing-shanghai",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-19-jiangsu-shenzhen",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-18-guangzhou-zhejiang",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-18-jilin-ne-beijing",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-18-nanjing-guangdong",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-18-shandong-liaoning",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-17-jiangsu-fujian-s-",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-17-ningbo-r--beijing",
       "league": "CBA",
       "status": "final",
@@ -16282,6 +16485,35 @@
         "abbr": "TIA",
         "logo": null,
         "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-17-guangsha-shanxi-l-",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-17T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 115,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 109,
         "linescores": [],
         "leaders": []
       }
@@ -16347,6 +16579,19 @@
   ],
   "news": [
     {
+      "id": "CBA-chinesebasketballplayerbarrywangtippedas",
+      "league": "CBA",
+      "title": "Chinese basketball player Barry Wang tipped as NBA prospect after US university match",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rising Chinese basketball star Barry Wang Junjie was tipped to be an NBA prospect after he flourished in only his second game with his new team, the Massachusetts Minutemen, on Sunday. Wang erupted for 31 points on eight-of-12 shooting, including knocking down a pair of three-poi",
+      "published": "2026-10-19T13:00:09.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/d1c868f6-558e-4f04-a8a4-72c7e732718f_0d75ad94.jpg?itok=UODs24Nk&v=1792403987",
+      "url": "https://www.scmp.com/sport/basketball/article/3371387/chinese-basketball-player-barry-wang-tipped-nba-prospect-after-us-university-match"
+    },
+    {
       "id": "CBA-promisingchineseteenbasketballplayerjoin",
       "league": "CBA",
       "title": "Promising Chinese teen basketball player joins top US high school, sparking training debate",
@@ -16357,20 +16602,7 @@
       "byline": "South China Morning Post",
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/15/1e6544e5-e3ad-44ac-a4c4-228ea43aec1b_9f6e4dd2.jpg?itok=RqksbHYY&v=1792047320",
-      "url": "https://www.scmp.com/sport/basketball/article/3370976/promising-chinese-teen-basketball-player-joins-top-us-high-school-sparking-training-debate?utm_source=rss_feed"
-    },
-    {
-      "id": "CBA-chinabasketballchiefguowarnsnationalteam",
-      "league": "CBA",
-      "title": "China basketball chief Guo warns national team, domestic league entering critical time",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Chinese Basketball Association president Guo Zhenming addressed the national team’s struggles on Monday afternoon, warning that the domestic league had reached a critical juncture in its bid to improve standards in the country. Speaking at the season launch press conference, Guo ",
-      "published": "2026-10-13T14:00:12.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/13/63797be2-fa8b-4a67-88e6-c3cad96e3b60_cb57c799.jpg?itok=yCKSRjpC&v=1791888417",
-      "url": "https://www.scmp.com/sport/basketball/article/3370752/china-basketball-chief-guo-warns-national-team-domestic-league-entering-critical-time?utm_source=rss_feed"
+      "url": "https://www.scmp.com/sport/basketball/article/3370976/promising-chinese-teen-basketball-player-joins-top-us-high-school-sparking-training-debate"
     }
   ],
   "leaders": {
@@ -16841,8 +17073,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-19T12:43:02.444Z",
-    "news": "2026-10-19T12:43:02.444Z"
+    "games": "2026-10-20T11:14:50.290Z",
+    "news": "2026-10-20T11:14:50.290Z"
   },
   "carriedOver": [
     "teams",

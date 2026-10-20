@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-19T12:43:20.156Z",
+  "fetchedAt": "2026-10-20T11:15:14.283Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-19-sesi-fra--sao-jose",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sao-jose",
+        "name": "Sao Jose",
+        "abbr": "SAO",
+        "logo": null,
+        "score": 59,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-19-u-corinth--cruzeiro",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cruzeiro",
+        "name": "Cruzeiro",
+        "abbr": "CRU",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-19-unifacisa-pinheiros",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "unifacisa",
+        "name": "UniFacisa",
+        "abbr": "UNI",
+        "logo": null,
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 65,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-18-flamengo-bauru",
       "league": "NBB",
       "status": "final",
@@ -13708,6 +13795,58 @@
     }
   ],
   "news": [
+    {
+      "id": "NBB-favoritos-ao-t-tulo-briga-pelo-mvp-e-leb",
+      "league": "NBB",
+      "title": "Title favorites, MVP and LeBron fight in 76ers: pundit projects NBA season",
+      "originalTitle": "Favoritos ao título, briga pelo MVP e LeBron nos 76ers: comentarista projeta temporada da NBA",
+      "translatedFrom": "pt",
+      "description": "NBA: Pedro Maia chooses favorite teams for the 2026/27 season Four months after the 2025/2026 finals, NBA stars return to the courts to write the stories of another season. This Tuesday (20), three games mark the beginning of the 81st edition of the league: Detroit Pistons vs. Boston Celtic",
+      "published": "2026-10-20T03:01:01.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/WBP9qHy4xYlMR6JQG5JPPRDYWio=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/u/d/NT0GV1RBSHVZTsE7cfeg/temp-images-e9509e69-975b-40a0-8d9c-61824ce94825.png",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/20/favoritos-ao-titulo-briga-pelo-mvp-e-lebron-nos-76ers-comentarista-projeta-temporada-da-nba.ghtml"
+    },
+    {
+      "id": "NBB-atual-penta-franca-estreia-no-nbb-2026-2",
+      "league": "NBB",
+      "title": "Current penta, Franca debuts in NBB 2026/2027 with a quiet victory at home",
+      "originalTitle": "Atual penta, Franca estreia no NBB 2026/2027 com vitória tranquila em casa",
+      "translatedFrom": "pt",
+      "description": "Franca delivers rings to players and commission for the unprecedented NBB penta The debut of the current five-time NBB champion in the 2026/2027 season was with a smooth victory at home. Playing at Pedrocão, Sesi Franca Basquete beat São José-SP 90-59 on Monday night. The game was marked by and",
+      "published": "2026-10-20T00:22:39.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/7kHhKYUMp6-reobMvvYxbjn366U=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/V/FYDL3HQ7qEwWuxd7Q5WA/55600541478-791a158e7e-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/atual-penta-franca-estreia-no-nbb-20262027-com-vitoria-tranquila-em-casa.ghtml"
+    },
+    {
+      "id": "NBB-nbb-franca-entrega-an-is-la-nba-em-homen",
+      "league": "NBB",
+      "title": "NBB: Franca delivers rings à la NBA in honor of the unpublished penta",
+      "originalTitle": "NBB: Franca entrega anéis à la NBA em homenagem ao penta inédito",
+      "translatedFrom": "pt",
+      "description": "Franca delivers rings to players and commission for the unprecedented penta of the NBB Sesi Franca Basquete honored, with rings, the players who won the consecutive fifth championship unprecedented in the history of the NBB. The ceremony took place on Monday, at Pedrocão, in Franca (SP), before the team's debut",
+      "published": "2026-10-19T23:24:09.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/jwCtF_1nMPIP8sjjSGfwt4p8gGM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/A/L/idZtUxTZC0IzMSZmrxWA/55600769425-5d2e137a51-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml"
+    },
+    {
+      "id": "NBB-ida-ao-philadelphia-76ers-p-e-lebron-em-",
+      "league": "NBB",
+      "title": "Going to the Philadelphia 76ers puts LeBron on the NBA's “ring hunters” list; understand",
+      "originalTitle": "Ida ao Philadelphia 76ers põe LeBron em lista de \"caçadores de anéis\" da NBA; entenda",
+      "translatedFrom": "pt",
+      "description": "LeBron went to Philadelphia in search of another ring, and Pedro Maia analyzes the star's decision Upon leaving the Los Angeles Lakers a few months ago, LeBron James made it clear that he was looking for one last contract as a professional player. The future of the 41-year-old star has become one of the most",
+      "published": "2026-10-19T17:00:01.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/TB_MS_GR4dEWuOwEbLPiTwAdyEk=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/p/H/sHZZjeRviOqYmFLCVOaA/2026-10-16t234143z-1055142163-mt1usatoday30101871-rtrmadp-3-nba-preseason-boston-celtics-at-philadelphia-76ers.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/19/ida-ao-philadelphia-76ers-poe-lebron-em-lista-de-cacadores-de-aneis-da-nba-entenda.ghtml"
+    },
     {
       "id": "NBB-nbb-flamengo-perde-para-o-bauru-na-estre",
       "league": "NBB",
@@ -13850,58 +13989,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/Re-kyDHvoPMT5hmxsnhk-7JvNQE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/w/LQESwNTBOjlc21u43LFA/dsc4972.jpeg",
       "url": "https://ge.globo.com/basquete/noticia/2026/10/15/flamengo-bate-fluminense-e-conquista-19o-titulo-seguido-do-campeonato-carioca-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-franca-x-mogi-no-jogo-4-da-final-do-paul",
-      "league": "NBB",
-      "title": "Franca vs. Mogi in game 4 of the Paulista final: where to watch live and time",
-      "originalTitle": "Franca x Mogi no jogo 4 da final do Paulista: onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Vitória em Mogi takes the decision of the Campeonato Paulista back to Franca Franca and Mogi face each other this Thursday, at 8 pm, for game 4 of the final of the Campeonato Paulista de basquete. The duel, which can define the state champion, will be held at the Pedrocão gymnasium in Franca (SP). The series returned to",
-      "published": "2026-10-15T07:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/RnBHQ2cy4y7eDJzPXaeeLQJ2nb4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/q/vw8j9KQ86uE19EMLYUoA/55575961993-edc57d8741-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/15/franca-x-mogi-no-jogo-4-da-final-do-paulista-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-franca-aposta-em-fator-casa-para-virar-f",
-      "league": "NBB",
-      "title": "Franca bets on \"house factor\" to turn Paulista's final against Mogi",
-      "originalTitle": "Franca aposta em \"fator casa\" para virar final do Paulista contra Mogi",
-      "translatedFrom": "pt",
-      "description": "Victory in Mogi takes the decision of the São Paulo Championship back to Franca Owner of the best campaign in the first phase of the São Paulo Basketball Championship, Sesi Franca bets on the home factor to reverse the disadvantage in the decision against Mogi. After winning game 3 by 68 to 66, in Mogi das Cruzes, and avoids",
-      "published": "2026-10-14T16:53:32.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/Qi6V-htwgVhjzPXBFM1CvKaa2b4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/6/a/VWhL4xSkWpDWW5Q9kcMg/55320585231-0383afee04-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/14/franca-aposta-em-fator-casa-para-virar-final-do-paulista-contra-mogi.ghtml"
-    },
-    {
-      "id": "NBB-helinho-celebra-rea-o-do-franca-em-mogi-",
-      "league": "NBB",
-      "title": "Helinho celebrates Franca's reaction in Mogi and values defense: \"Firm and confident\"",
-      "originalTitle": "Helinho celebra reação do Franca em Mogi e valoriza defesa: \"Firmes e confiantes\"",
-      "translatedFrom": "pt",
-      "description": "Victory in Mogi leads the decision of the Campeonato Paulista back to Franca Coach Helinho Garcia highlighted the posture of Sesi Franca in the 68-66 victory over Mogi das Cruzes, on Monday, at Hugo Ramos gymnasium. The result avoided the early title of the opponent, who led the series f",
-      "published": "2026-10-13T20:47:42.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/2RjZultoJ7-VBvAoVjpXfWMZA60=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/r/K/wSmLtjSTAduARaYi2YCQ/55585492033-e2b17ca71c-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/13/helinho-celebra-reacao-do-franca-em-mogi-e-valoriza-defesa-firmes-e-confiantes.ghtml"
-    },
-    {
-      "id": "NBB-nbb-flamengo-estuda-jogar-na-tijuca-ou-i",
-      "league": "NBB",
-      "title": "NBB: Flamengo studies playing in Tijuca or reversing orders against Botafogo after court decision",
-      "originalTitle": "NBB: Flamengo estuda jogar na Tijuca ou inverter mando contra Botafogo após decisão judicial",
-      "translatedFrom": "pt",
-      "description": "Novo Basquete Brasil (NBB) 2026/27 has not yet started, but Flamengo already have an impasse to resolve. Scheduled for October 20 (Tuesday) at 8:30 pm at Maracanãzinho, the classic between Rubro-Negro and Botafogo may change places. This is because the Court of Rio de Janeiro determined on this second q",
-      "published": "2026-10-13T18:00:55.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/hHuZYzgBcDvB23xJKwPN85ozIX8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2024/m/7/B8qBIPQl6SgWXaveVxWg/flamengo-x-botafogo-nbb-maracanazinho-26-04-2024-23.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/13/vasco-x-boca-na-sul-americana-pode-desalojar-classico-flamengo-x-botafogo-no-nbb.ghtml"
     }
   ],
   "leaders": {
@@ -14372,8 +14459,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-19T12:43:20.156Z",
-    "news": "2026-10-19T12:43:20.156Z"
+    "games": "2026-10-20T11:15:14.283Z",
+    "news": "2026-10-20T11:15:14.283Z"
   },
   "carriedOver": [
     "teams",

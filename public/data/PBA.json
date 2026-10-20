@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-19T12:42:47.244Z",
+  "fetchedAt": "2026-10-20T11:14:33.120Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "news PhilStar: https://www.philstar.com/rss/sports — HTTP 403",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14988,32 +14987,6 @@
       "url": "https://sports.inquirer.net/702230/pba-chot-reyes-says-galinato-ejection-turning-point-in-loss"
     },
     {
-      "id": "PBA-pbaalecstocktonpushesconvergepasttntinot",
-      "league": "PBA",
-      "title": "PBA: Alec Stockton pushes Converge past TNT in OT thriller",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Converge secured the No. 3 spot in Group A of the PBA Governors’ Cup after a thrilling 114-112 overtime victory over TNT on Sunday at Ynares Center here. Alec Stockton forced the extension with the tying basket, and his layup turned out to be the game-winner as the Fiber",
-      "published": "2026-10-18T20:53:05.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image8.jpg",
-      "url": "https://sports.inquirer.net/702222/pba-alec-stockton-pushes-converge-past-tnt-in-ot-thriller"
-    },
-    {
-      "id": "PBA-pbageochiuseeksimprovementafterupanddown",
-      "league": "PBA",
-      "title": "PBA: Geo Chiu seeks improvement after up-and-down rookie year",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–The work continues for Terrafirma’s Geo Chiu after wrapping up his rookie season in the PBA filled with highs and lows. Chiu acknowledges that he can still be a better version of himself based on what he experienced during the two-conference stint for the Dyip",
-      "published": "2026-10-18T18:39:22.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-9.jpg",
-      "url": "https://sports.inquirer.net/702216/pba-geo-chiu-seeks-improvement-after-up-and-down-rookie-year"
-    },
-    {
       "id": "PBA-pbabarangayginebrabeatsquarterfinalsboun",
       "league": "PBA",
       "title": "PBA: Barangay Ginebra beats quarterfinals-bound Phoenix",
@@ -15025,97 +14998,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1006327/pba-barangay-ginebra-beats-quarterfinals-bound-phoenix/story/"
-    },
-    {
-      "id": "PBA-thompsonmurphypowerginebrapastphoenixtok",
-      "league": "PBA",
-      "title": "Thompson, Murphy power Ginebra past Phoenix to keep PBA playoff hopes alive",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Ginebra kept its chances of advancing to the PBA Season 50 Governors’ Cup quarterfinals alive following a convincing 106-89 victory over Phoenix Super LPG on Sunday night at the Ynares Center in Antipolo. The Kings scored the game’s first 10 points before pulling away wide in the",
-      "published": "2026-10-18T14:38:22.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-Ginebra-def-Phoenix-Jordan-Murphy-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/thompson-murphy-power-ginebra-past-phoenix-to-keep-pba-playoff-hopes-alive/387095"
-    },
-    {
-      "id": "PBA-lasallestaysunbeatenasnuustmakestrongsta",
-      "league": "PBA",
-      "title": "La Salle stays unbeaten as NU, UST make strong starts in eFIBA x UAAP tournament",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "By: Joaquin Cortez De La Salle University emerged as the lone undefeated team, while National University and the University of Santo Tomas also made their mark on the opening day of the eFIBA x UAAP eGilas Talent Discovery Tournament presented by the Samahang Basketbol ng Pilipin",
-      "published": "2026-10-18T14:06:49.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/UAAP-S89-ESPORTS-UST-HUBILLAR-228-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/la-salle-stays-unbeaten-as-nu-ust-make-strong-starts-in-efiba-x-uaap-tournament/387073"
-    },
-    {
-      "id": "PBA-pbaalecstocktonsavesthedayasconvergeover",
-      "league": "PBA",
-      "title": "PBA: Alec Stockton saves the day as Converge overcomes TNT in OT",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Alec Stockton drilled the game-winner as Converge overcame TNT in overtime, 114-112, in the PBA Governors\" Cup on Sunday at the Ynares Center in Antipolo.",
-      "published": "2026-10-18T13:21:00.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1006322/pba-alec-stockton-saves-the-day-as-converge-overcomes-tnt-in-ot/story/"
-    },
-    {
-      "id": "PBA-governorscupseriesofunfortunateroutsmaye",
-      "league": "PBA",
-      "title": "Governors’ Cup series of unfortunate routs may end soon",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—It has been blowout after blowout since the PBA Governors’ Cup returned from its long break that the league took to allow the national team to compete in two major tournaments. Terrafirma added to those lopsided results on Saturday, after a 147-115 drubbing of Titan Ultr",
-      "published": "2026-10-18T05:15:58.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/Sports1310708.jpg",
-      "url": "https://sports.inquirer.net/702135/governors-cup-series-of-unfortunate-routs-may-end-soon"
-    },
-    {
-      "id": "PBA-pbaguiaosaysnoeasyquarterfinalmatchupawa",
-      "league": "PBA",
-      "title": "PBA: Guiao says no easy quarterfinal matchup awaits Rain or Shine",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Rain or Shine achieved its first goal of securing a spot in the quarterfinals of the 2026 PBA Governors’ Cup on Saturday. But coach Yeng Guiao is wary that any team the Elasto Painters face in the crossover quarters will be a tough cookie to crack, regardless of where th",
-      "published": "2026-10-17T23:37:29.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image13-12.jpg",
-      "url": "https://sports.inquirer.net/702169/pba-guiao-says-no-easy-quarterfinal-matchup-awaits-rain-or-shine"
-    },
-    {
-      "id": "PBA-pbarainorshineescapesblackwaterbooksquar",
-      "league": "PBA",
-      "title": "PBA: Rain or Shine escapes Blackwater, books quarterfinals berth",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Rain or Shine survived a late scare from Blackwater to claim a 125-123 victory and secure a quarterfinals berth in the 2026 PBA Governors’ Cup on Saturday at Ynares Center here. The Elasto Painters squandered a double-digit lead as the Bossing made a last-ditch attempt a",
-      "published": "2026-10-17T23:04:55.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image2-12.jpg",
-      "url": "https://sports.inquirer.net/702148/pba-rain-or-shine-escapes-blackwater-books-quarterfinals-berth"
-    },
-    {
-      "id": "PBA-pbamaverickahanmisientersfreeagencyafter",
-      "league": "PBA",
-      "title": "PBA: Maverick Ahanmisi enters free agency after Terrafirma stint",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Maverick Ahanmisi will take everything into consideration before deciding his next route as he becomes a free agent following Terrafirma’s exit from the 2026 PBA Governors’ Cup. Ahanmisi registered the first triple-double of his career with 18 points, 10 rebounds and 14 ",
-      "published": "2026-10-17T21:18:07.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-20.jpg",
-      "url": "https://sports.inquirer.net/702111/pba-maverick-ahanmisi-enters-free-agency-after-terrafirma-stint"
     }
   ],
   "leaders": {
@@ -15586,8 +15468,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-19T12:42:47.244Z",
-    "news": "2026-10-19T12:42:47.244Z"
+    "games": "2026-10-20T11:14:33.120Z",
+    "news": "2026-10-20T11:14:33.120Z"
   },
   "carriedOver": [
     "teams",

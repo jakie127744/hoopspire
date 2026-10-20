@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-10-19T12:41:40.480Z",
+  "fetchedAt": "2026-10-20T11:13:56.863Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -5955,66 +5955,6 @@
   },
   "games": [
     {
-      "id": "S49G01N6",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-05T14:00:00+09:00",
-      "venue": "Dongcheon Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N6/20261005",
-      "home": {
-        "id": "ulsan-hyundai-mobis-phoebus",
-        "name": "Ulsan Hyundai Mobis Phoebus",
-        "abbr": "UHMP",
-        "logo": null,
-        "score": 87,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "busan-kcc-egis",
-        "name": "Busan KCC Egis",
-        "abbr": "BKE",
-        "logo": null,
-        "score": 97,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "S49G01N7",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-05T16:30:00+09:00",
-      "venue": "Daegue Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N7/20261005",
-      "home": {
-        "id": "daegu-korea-gas-corporation",
-        "name": "Daegu Korea Gas Corporation",
-        "abbr": "DKGC",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "anyang-jung-kwan-jang",
-        "name": "Anyang Jung Kwan Jang",
-        "abbr": "AJKJ",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "S49G01N8",
       "league": "KBL",
       "status": "final",
@@ -6677,8 +6617,8 @@
     {
       "id": "S49G01N30",
       "league": "KBL",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-20T19:00:00+09:00",
@@ -6690,7 +6630,7 @@
         "name": "Seoul SK Knights",
         "abbr": "SSK",
         "logo": null,
-        "score": null,
+        "score": 43,
         "linescores": [],
         "leaders": []
       },
@@ -6699,7 +6639,7 @@
         "name": "Anyang Jung Kwan Jang",
         "abbr": "AJKJ",
         "logo": null,
-        "score": null,
+        "score": 39,
         "linescores": [],
         "leaders": []
       }
@@ -7663,6 +7603,36 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S49G01N63",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-10T19:00:00+09:00",
+      "venue": "Dongcheon Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N63/20261110",
+      "home": {
+        "id": "ulsan-hyundai-mobis-phoebus",
+        "name": "Ulsan Hyundai Mobis Phoebus",
+        "abbr": "UHMP",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "goyang-sono-skygunners",
+        "name": "Goyang Sono Skygunners",
+        "abbr": "GSS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -8143,13 +8113,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-19T12:41:40.480Z",
-    "rosters": "2026-10-19T12:41:40.480Z",
-    "playerStats": "2026-10-19T12:41:40.480Z",
-    "standings": "2026-10-19T12:41:40.480Z",
-    "games": "2026-10-19T12:41:40.480Z",
+    "teams": "2026-10-20T11:13:56.863Z",
+    "rosters": "2026-10-20T11:13:56.863Z",
+    "playerStats": "2026-10-20T11:13:56.863Z",
+    "standings": "2026-10-20T11:13:56.863Z",
+    "games": "2026-10-20T11:13:56.863Z",
     "news": "2026-10-08T13:08:38.842Z",
-    "leaders": "2026-10-19T12:41:40.480Z"
+    "leaders": "2026-10-20T11:13:56.863Z"
   },
   "carriedOver": [
     "news"

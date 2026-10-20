@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-19T12:43:06.926Z",
+  "fetchedAt": "2026-10-20T11:14:57.791Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5161,19 +5161,19 @@
   },
   "games": [
     {
-      "id": "ab-TPBL-2026-10-18-dreamers-kaohsiung",
+      "id": "ab-TPBL-2026-10-25-lioneers-kaohsiung",
       "league": "TPBL",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-10-18T11:00:00.000Z",
+      "date": "2026-10-25T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
-        "id": "3",
-        "name": "Formosa Dreamers",
-        "abbr": "FOR",
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
         "logo": null,
         "score": null,
         "linescores": [],
@@ -5190,19 +5190,19 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-10-17-dreamers-kings",
+      "id": "ab-TPBL-2026-10-25-n-taipei-kings",
       "league": "TPBL",
       "status": "scheduled",
       "statusDetail": "Scheduled",
       "period": null,
       "clock": null,
-      "date": "2026-10-17T11:00:00.000Z",
+      "date": "2026-10-25T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
-        "id": "3",
-        "name": "Formosa Dreamers",
-        "abbr": "FOR",
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
         "logo": null,
         "score": null,
         "linescores": [],
@@ -5217,9 +5217,93 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "ab-TPBL-2026-10-24-lioneers-dreamers",
+      "league": "TPBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-10-24-n-taipei-taipei-tm",
+      "league": "TPBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "8",
+        "name": "Taipei Taishin Mars",
+        "abbr": "TAI",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
+    {
+      "id": "TPBL-515",
+      "league": "TPBL",
+      "title": "| Best-performing player 🦄 in a week 🤫",
+      "originalTitle": "𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🦄 高柏鎧 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-20T06:11:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/515/28HlTV9Bi0WimMChrcV7QwTKubwVunIiEvSvWYw0.jpg?20261020120644",
+      "url": "https://tpbl.basketball/news/515"
+    },
+    {
+      "id": "TPBL-514",
+      "league": "TPBL",
+      "title": "🥇 | Best-performing player 🦄 in a week 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🦄 林俊吉 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-20T06:10:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/514/rJHn49Bdxpb8Vrq2srgAOFduYrwxeYMiiX6OTXlV.jpg?20261020120519",
+      "url": "https://tpbl.basketball/news/514"
+    },
     {
       "id": "TPBL-511",
       "league": "TPBL",
@@ -5349,32 +5433,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/474/6xfKiFFCSJ6U5zEvuMpYHwQtExyE69SrLobvxELn.jpg?20260924120727",
       "url": "https://tpbl.basketball/news/494"
-    },
-    {
-      "id": "TPBL-458",
-      "league": "TPBL",
-      "title": "TPBL \"Unboxing the New Ten Force Pre-Season Warm-Up Tournament\" debuted on October 9 with seven teams rallying and ten forces for the new season",
-      "originalTitle": "TPBL 「開箱新十力 季前熱身賽」10月9日登場 七隊集結、十大力量迎接新賽季",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-13T11:30:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/458/HnlcMUT5oRx0MG6NJF0gDofWRM9gNpaixjP5aaki.jpg?20260914140829",
-      "url": "https://tpbl.basketball/news/458"
-    },
-    {
-      "id": "TPBL-457",
-      "league": "TPBL",
-      "title": "The Fan Support Calendar is here! TPBL announces new season schedule and seven-team home opening match October 7th Season kickoff press conference will be broadcast live on official YouTube to reveal the season's main axis",
-      "originalTitle": "球迷應援行事曆出爐！TPBL公布新賽季賽程與七隊主場開幕戰 10月7日賽季啟動記者會將於官方YouTube直播 揭曉賽季主軸",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-11T04:02:56.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/457/PFiGY4bT0lAkej5uXDK1CdZfQctbPUuIpbwH2QdI.jpg?20260911120421",
-      "url": "https://tpbl.basketball/news/457"
     }
   ],
   "leaders": {
@@ -5840,12 +5898,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-19T12:43:06.926Z",
-    "rosters": "2026-10-19T12:43:06.926Z",
-    "playerStats": "2026-10-19T12:43:06.926Z",
-    "standings": "2026-10-19T12:43:06.926Z",
-    "games": "2026-10-19T12:43:06.926Z",
-    "news": "2026-10-19T12:43:06.926Z",
-    "leaders": "2026-10-19T12:43:06.926Z"
+    "teams": "2026-10-20T11:14:57.791Z",
+    "rosters": "2026-10-20T11:14:57.791Z",
+    "playerStats": "2026-10-20T11:14:57.791Z",
+    "standings": "2026-10-20T11:14:57.791Z",
+    "games": "2026-10-20T11:14:57.791Z",
+    "news": "2026-10-20T11:14:57.791Z",
+    "leaders": "2026-10-20T11:14:57.791Z"
   }
 }
