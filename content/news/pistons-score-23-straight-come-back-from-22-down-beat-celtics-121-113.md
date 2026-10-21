@@ -69,48 +69,6 @@ Boston: Paul George 38, Derrick White 17, Payton Pritchard 17, Jayson Tatum 13, 
 
 By quarter: Detroit 27, 18, 37, 39. Boston 28, 30, 30, 25.
 
-## Box score
-
-Starters are marked (S).
-
-**Detroit**
-
-| Player | MIN | PTS | FG | 3PT | FT | REB | AST | STL | BLK | TO | +/- |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| [Duncan Robinson](/player/NBA/3157465) (S) | 28 | 21 | 5-10 | 5-9 | 6-8 | 2 | 2 | 1 | 0 | 3 | +5 |
-| [John Collins](/player/NBA/3908845) (S) | 25 | 6 | 3-7 | 0-3 | 0-0 | 5 | 1 | 1 | 1 | 0 | -13 |
-| [Jalen Duren](/player/NBA/4433621) (S) | 28 | 22 | 8-13 | 0-0 | 6-7 | 9 | 1 | 1 | 1 | 1 | -1 |
-| [Cade Cunningham](/player/NBA/4432166) (S) | 35 | 22 | 8-18 | 1-6 | 5-5 | 4 | 8 | 1 | 1 | 5 | -1 |
-| [Ausar Thompson](/player/NBA/4684742) (S) | 33 | 11 | 4-8 | 0-1 | 3-3 | 11 | 5 | 1 | 0 | 3 | +12 |
-| [Paul Reed](/player/NBA/4278562) | 17 | 6 | 2-3 | 0-0 | 2-2 | 6 | 2 | 1 | 0 | 2 | +12 |
-| [Ronald Holland II](/player/NBA/4683771) | 3 | 0 | 0-1 | 0-1 | 0-0 | 1 | 1 | 0 | 1 | 1 | -4 |
-| [Javonte Green](/player/NBA/2596112) | 18 | 19 | 5-10 | 5-8 | 4-4 | 4 | 0 | 0 | 0 | 0 | +21 |
-| [Kevin Huerter](/player/NBA/4066372) | 18 | 3 | 1-4 | 1-4 | 0-0 | 3 | 2 | 0 | 0 | 0 | +5 |
-| [Isaiah Joe](/player/NBA/4395702) | 19 | 8 | 2-9 | 2-7 | 2-3 | 2 | 2 | 1 | 1 | 1 | 0 |
-| [Daniss Jenkins](/player/NBA/5107199) | 15 | 3 | 1-3 | 1-1 | 0-0 | 2 | 3 | 0 | 0 | 1 | +4 |
-| **Totals** |  | 121 | 39-86 | 15-40 | 28-32 | 49 | 27 | 7 | 5 | 17 |  |
-
-Did not play: Tolu Smith, Chaz Lanier, Ebuka Okorie.
-
-**Boston**
-
-| Player | MIN | PTS | FG | 3PT | FT | REB | AST | STL | BLK | TO | +/- |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| [Paul George](/player/NBA/4251) (S) | 31 | 38 | 12-21 | 7-12 | 7-8 | 5 | 3 | 5 | 0 | 3 | +9 |
-| [Jayson Tatum](/player/NBA/4065648) (S) | 38 | 13 | 6-23 | 0-7 | 1-1 | 4 | 11 | 0 | 0 | 2 | -5 |
-| [Mitchell Robinson](/player/NBA/4351852) (S) | 18 | 4 | 2-2 | 0-0 | 0-2 | 3 | 1 | 1 | 2 | 2 | -8 |
-| [Derrick White](/player/NBA/3078576) (S) | 36 | 17 | 7-13 | 3-7 | 0-0 | 1 | 8 | 1 | 0 | 4 | -4 |
-| [Jordan Walsh](/player/NBA/4683689) (S) | 13 | 0 | 0-2 | 0-1 | 0-0 | 6 | 1 | 1 | 1 | 0 | 0 |
-| [Sam Hauser](/player/NBA/4065804) | 18 | 11 | 4-7 | 3-5 | 0-0 | 4 | 1 | 0 | 0 | 0 | +5 |
-| [Luka Garza](/player/NBA/4277951) | 8 | 2 | 1-3 | 0-2 | 0-0 | 2 | 0 | 0 | 0 | 1 | -9 |
-| [Neemias Queta](/player/NBA/4397424) | 22 | 3 | 1-3 | 0-0 | 1-2 | 4 | 2 | 1 | 2 | 1 | +7 |
-| [Payton Pritchard](/player/NBA/4066354) | 28 | 17 | 4-9 | 2-5 | 7-8 | 4 | 1 | 0 | 0 | 0 | -10 |
-| [Baylor Scheierman](/player/NBA/4593841) | 18 | 8 | 3-4 | 2-2 | 0-0 | 3 | 0 | 1 | 0 | 1 | -10 |
-| [Hugo González](/player/NBA/5175647) | 10 | 0 | 0-1 | 0-1 | 0-0 | 3 | 0 | 0 | 0 | 0 | -15 |
-| **Totals** |  | 113 | 40-88 | 17-42 | 16-21 | 39 | 28 | 10 | 5 | 14 |  |
-
-Did not play: Chris Cenac Jr., Mike Conley, Ron Harper Jr.
-
 ## What is next
 
 The Celtics host the New York Knicks at TD Garden on Friday, October 23, at 7 p.m. ET. The Pistons play the Miami Heat at Kaseya Center the same night at 8 p.m. ET.

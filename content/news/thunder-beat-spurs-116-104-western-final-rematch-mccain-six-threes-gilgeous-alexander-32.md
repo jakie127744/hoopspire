@@ -58,53 +58,6 @@ San Antonio: Stephon Castle 24, Dylan Harper 18, De'Aaron Fox 14, Victor Wembany
 
 By quarter: Oklahoma City 34, 31, 28, 23. San Antonio 28, 16, 36, 24.
 
-## Box score
-
-Starters are marked (S).
-
-**Oklahoma City**
-
-| Player | MIN | PTS | FG | 3PT | FT | REB | AST | STL | BLK | TO | +/- |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| [Isaiah Hartenstein](/player/NBA/4222252) (S) | 17 | 4 | 2-4 | 0-0 | 0-0 | 3 | 3 | 1 | 1 | 2 | +6 |
-| [Chet Holmgren](/player/NBA/4433255) (S) | 31 | 14 | 3-8 | 0-1 | 8-8 | 7 | 2 | 0 | 4 | 1 | -1 |
-| [Shai Gilgeous-Alexander](/player/NBA/4278073) (S) | 36 | 32 | 13-27 | 3-7 | 3-4 | 5 | 4 | 2 | 3 | 2 | +6 |
-| [Jalen Williams](/player/NBA/4593803) (S) | 30 | 12 | 5-16 | 1-2 | 1-2 | 7 | 2 | 1 | 1 | 0 | -5 |
-| [Cason Wallace](/player/NBA/4683692) (S) | 19 | 6 | 3-8 | 0-4 | 0-0 | 3 | 2 | 1 | 0 | 1 | -5 |
-| [Jaylin Williams](/player/NBA/4432823) | 17 | 5 | 1-6 | 1-5 | 2-2 | 4 | 1 | 0 | 0 | 1 | -4 |
-| [Brooks Barnhizer](/player/NBA/4684208) | 1 | 0 | 0-0 | 0-0 | 0-0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| [Aday Mara](/player/NBA/5174983) | 12 | 7 | 3-4 | 0-0 | 1-2 | 2 | 1 | 0 | 1 | 1 | +9 |
-| [Alex Caruso](/player/NBA/2991350) | 25 | 9 | 3-4 | 2-2 | 1-2 | 7 | 1 | 2 | 0 | 0 | +16 |
-| [Kenrich Williams](/player/NBA/3133626) | 7 | 3 | 1-1 | 1-1 | 0-0 | 2 | 0 | 0 | 0 | 0 | +6 |
-| [Jared McCain](/player/NBA/4683778) | 22 | 20 | 7-9 | 6-8 | 0-0 | 3 | 2 | 1 | 0 | 2 | +20 |
-| [Ajay Mitchell](/player/NBA/4900671) | 23 | 4 | 2-8 | 0-1 | 0-0 | 5 | 6 | 0 | 0 | 1 | +12 |
-| [Bennett Stirtz](/player/NBA/5241364) | 1 | 0 | 0-0 | 0-0 | 0-0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| **Totals** |  | 116 | 43-95 | 14-31 | 16-20 | 48 | 24 | 8 | 10 | 11 |  |
-
-Team turnovers: 3.
-
-**San Antonio**
-
-| Player | MIN | PTS | FG | 3PT | FT | REB | AST | STL | BLK | TO | +/- |
-|---|---|---|---|---|---|---|---|---|---|---|---|
-| [Victor Wembanyama](/player/NBA/5104157) (S) | 34 | 12 | 1-13 | 0-4 | 10-12 | 13 | 3 | 1 | 6 | 4 | -2 |
-| [De'Aaron Fox](/player/NBA/4066259) (S) | 32 | 14 | 6-9 | 0-2 | 2-3 | 7 | 7 | 1 | 0 | 2 | +1 |
-| [Devin Vassell](/player/NBA/4395630) (S) | 31 | 7 | 2-8 | 1-4 | 2-2 | 3 | 1 | 0 | 0 | 0 | +8 |
-| [Stephon Castle](/player/NBA/4845367) (S) | 28 | 24 | 9-21 | 5-12 | 1-1 | 7 | 1 | 0 | 0 | 3 | -2 |
-| [Dylan Harper](/player/NBA/5037871) (S) | 32 | 18 | 7-17 | 0-2 | 4-4 | 7 | 5 | 0 | 0 | 2 | -6 |
-| [Harrison Barnes](/player/NBA/6578) | 9 | 3 | 1-1 | 1-1 | 0-0 | 0 | 0 | 0 | 1 | 0 | -7 |
-| [Keldon Johnson](/player/NBA/4395723) | 20 | 10 | 4-8 | 1-2 | 1-1 | 4 | 1 | 2 | 0 | 2 | -12 |
-| [Julian Champagnie](/player/NBA/4592479) | 30 | 8 | 3-8 | 2-6 | 0-0 | 3 | 1 | 2 | 3 | 0 | -24 |
-| [David Jones Garcia](/player/NBA/4713010) | 1 | 2 | 0-1 | 0-0 | 2-2 | 0 | 0 | 0 | 0 | 0 | 0 |
-| [Carter Bryant](/player/NBA/5061568) | 6 | 0 | 0-3 | 0-3 | 0-0 | 0 | 1 | 0 | 0 | 0 | -6 |
-| [Maliq Brown](/player/NBA/5105337) | 1 | 0 | 0-0 | 0-0 | 0-0 | 0 | 1 | 0 | 0 | 0 | 0 |
-| [Luke Kornet](/player/NBA/3064560) | 13 | 4 | 2-2 | 0-0 | 0-0 | 1 | 0 | 0 | 1 | 0 | -10 |
-| [Tarris Reed Jr.](/player/NBA/5105809) | 1 | 0 | 0-0 | 0-0 | 0-0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| [Ja'Kobi Gillespie](/player/NBA/5107968) | 1 | 2 | 1-2 | 0-1 | 0-0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| **Totals** |  | 104 | 36-93 | 10-37 | 22-25 | 45 | 21 | 6 | 11 | 13 |  |
-
-Team turnovers: 1. Did not play: Jordan McLaughlin.
-
 ## What is next
 
 The Thunder open at home against the Denver Nuggets at Paycom Center on Thursday, October 22, at 9:30 p.m. ET. The Spurs host the Houston Rockets at Moody Center on Friday, October 23, at 9:30 p.m. ET.
