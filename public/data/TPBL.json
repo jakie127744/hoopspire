@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-20T11:14:57.791Z",
+  "fetchedAt": "2026-10-21T11:32:20.899Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5318,6 +5318,19 @@
       "url": "https://tpbl.basketball/news/511"
     },
     {
+      "id": "TPBL-523",
+      "league": "TPBL",
+      "title": "The first \"flag raising ceremony\" in the history of the Dreamers 10/17 home opening battle glorious fire extinguishers enthusiastically sang the Japanese and Korean goddesses Yuya Sanjang and Park Yeun for the first time on the same stage",
+      "originalTitle": "夢想家隊史首冠「升旗儀式」 10/17 主場開幕戰榮耀登場 滅火器熱血獻唱 日韓雙女神三上悠亞、朴藝恩首度同台",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-15T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/509/Q3LqU447w7qLR4swKGK69rjyjrP3KX7TD9FL0mrc.jpg?20261015115412",
+      "url": "https://tpbl.basketball/news/523"
+    },
+    {
       "id": "TPBL-508",
       "league": "TPBL",
       "title": "[One Hundred Reasons Why You Love Basketball Vol. 040] A Basketball Road of Dreams: Refining Your Authentic Self in the Face of Challenges and Low Tide",
@@ -5329,6 +5342,19 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/508/DQPQ0MgFSgB3g11YtWzE9XCQ4WfTDsvbdr3sEtG9.jpg?20261014161011",
       "url": "https://tpbl.basketball/news/508"
+    },
+    {
+      "id": "TPBL-521",
+      "league": "TPBL",
+      "title": "New Taipei CITIC Special Opening Week October 24th and 25th Xinzhuang Opening Battle Annual Slogan \"WE over ME\" Cohesive Team Strength Join Hands with Informants to Fight for New Taipei",
+      "originalTitle": "新北中信特攻主場開幕週 10月24日、25日新莊開戰 年度口號「WE OVER ME」凝聚團隊力量 攜手線人為新北而戰",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-13T10:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/513/RaSysPKvdkIrS3Yccwr7bRhWNrtVFobEA4l6gvSY.jpg?20261019122416",
+      "url": "https://tpbl.basketball/news/521"
     },
     {
       "id": "TPBL-503",
@@ -5344,6 +5370,19 @@
       "url": "https://tpbl.basketball/news/503"
     },
     {
+      "id": "TPBL-520",
+      "league": "TPBL",
+      "title": "Ferocious Attack 28 Points Still Hard to Fight Overwhelming Game Special Attack Dreamer Warm-Up 1 Win 1 Loss Gain Experience Continuous Adjustment",
+      "originalTitle": "猛士攻進28分仍難挽戰局 特攻不敵夢想家 熱身賽一勝一敗作收 汲取經驗持續調整",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-10T14:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/512/bFdOD3YZj2o0451WfEufmUXOVOVktJDnNZTpmawT.jpg?20261019121650",
+      "url": "https://tpbl.basketball/news/520"
+    },
+    {
       "id": "TPBL-502",
       "league": "TPBL",
       "title": "2026-27 Unboxing New Ten Force Pre-Season Warm-up Day 2 King's Bench Fa Wei, Poseidon Five Score Double, Dreamer Double Guard Win",
@@ -5355,6 +5394,19 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/502/MgyuXoeAMe2trNrzCPwVD4vuScRPD12zHMhAhnUA.jpg?20261010204125",
       "url": "https://tpbl.basketball/news/502"
+    },
+    {
+      "id": "TPBL-519",
+      "league": "TPBL",
+      "title": "Xie Ya Xuan Outer Lines Full Fire Ferretti Consolidation Restricted Area Rebound Seven Score Top Double Show Team Power Extension Sail Back Sea God Takes First Victory",
+      "originalTitle": "謝亞軒外線火力全開 法拉帝鞏固禁區籃板 七人得分上雙展現團隊戰力 延長賽力退海神收下首勝",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-09T13:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/510/QzpB9btVSfAZ5fTkVqyhWuxMwM2BWgectFZtrcT1.jpg?20261016170118",
+      "url": "https://tpbl.basketball/news/519"
     },
     {
       "id": "TPBL-501",
@@ -5370,69 +5422,17 @@
       "url": "https://tpbl.basketball/news/501"
     },
     {
-      "id": "TPBL-500",
+      "id": "TPBL-518",
       "league": "TPBL",
-      "title": "TPBL Season 3 \"Come True\"! The shrimp skin shopping title is officially unveiled together with the new season's main axis and annual layout",
-      "originalTitle": "TPBL第三季「來真的」！ 蝦皮購物冠名攜手 新賽季主軸與年度布局正式揭曉",
+      "title": "Taipei War God announces new season slogan \"code red\" Lin Tingqian leader challenge team history first",
+      "originalTitle": "臺北戰神公布新賽季口號「CODE RED」 林庭謙領軍挑戰隊史首冠",
       "translatedFrom": "zh-TW",
       "description": "",
-      "published": "2026-10-07T11:08:52.000Z",
+      "published": "2026-10-08T10:00:00.000Z",
       "byline": "TPBL",
       "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/500/i7iyTI7vLtupPsZzTfh7bLar3AFtOHELlJu0k9Wu.jpg?20261007193124",
-      "url": "https://tpbl.basketball/news/500"
-    },
-    {
-      "id": "TPBL-497",
-      "league": "TPBL",
-      "title": "TPBL's Inaugural Referee Consensus Camp Completes Two Days of Training From Case Studies to Physical and Mental Capacity Building Cohesion New Season Law Enforcement Consensus",
-      "originalTitle": "TPBL首屆裁判共識營完成兩天培訓 從判例研討到身心能力建設 凝聚新賽季執法共識",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-05T04:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/497/kgywLYVEjDBZ7ROtIUcNNYkzBZbKg9Nx2uVARzbf.jpg?20261006111238",
-      "url": "https://tpbl.basketball/news/497"
-    },
-    {
-      "id": "TPBL-495",
-      "league": "TPBL",
-      "title": "[100 reasons to like basketball Vol. 039] Wu Zhifeng: Because of basketball, there is always another goal",
-      "originalTitle": "【一百種喜歡籃球的原因 Vol. 039】吳志鍇：因為籃球，永遠還有下一個目標",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-30T07:56:37.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/495/rqC5Ciyer92PqGvbusoeeUQUnKb3oh9lKkag1uiw.jpg?20260930160052",
-      "url": "https://tpbl.basketball/news/495"
-    },
-    {
-      "id": "TPBL-493",
-      "league": "TPBL",
-      "title": "New Taipei CITIC Overseas Support Lineup Change Bridzik Contract Not Effective Serbia Almighty Wei Nadi Joins",
-      "originalTitle": "新北中信特攻外援陣容異動 布里茲克合約未生效 塞爾維亞全能鋒衛奈迪加盟",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-29T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/476/1DMQCMaofjQna88BCQxMP96yAihLhSqWpzFxO6Im.png?20260930111308",
-      "url": "https://tpbl.basketball/news/493"
-    },
-    {
-      "id": "TPBL-494",
-      "league": "TPBL",
-      "title": "Korean support sweetheart Park Yi-eun joins the Dreamers cheerleading team! Taiwan joins Formosa Sexy for the first time across five major professional sports",
-      "originalTitle": "韓國應援甜心朴藝恩加盟夢想家啦啦隊！ 橫跨五大職業運動項目 首度來台加入 Formosa Sexy",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-09-24T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/474/6xfKiFFCSJ6U5zEvuMpYHwQtExyE69SrLobvxELn.jpg?20260924120727",
-      "url": "https://tpbl.basketball/news/494"
+      "image": "https://assets.tpbl.basketball/production/posts/507/5a87xBsmptydgPeXQQq3Qa04NXMzDbVlzkexsE8m.jpg?20261013195505",
+      "url": "https://tpbl.basketball/news/518"
     }
   ],
   "leaders": {
@@ -5898,12 +5898,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-20T11:14:57.791Z",
-    "rosters": "2026-10-20T11:14:57.791Z",
-    "playerStats": "2026-10-20T11:14:57.791Z",
-    "standings": "2026-10-20T11:14:57.791Z",
-    "games": "2026-10-20T11:14:57.791Z",
-    "news": "2026-10-20T11:14:57.791Z",
-    "leaders": "2026-10-20T11:14:57.791Z"
+    "teams": "2026-10-21T11:32:20.899Z",
+    "rosters": "2026-10-21T11:32:20.899Z",
+    "playerStats": "2026-10-21T11:32:20.899Z",
+    "standings": "2026-10-21T11:32:20.899Z",
+    "games": "2026-10-21T11:32:20.899Z",
+    "news": "2026-10-21T11:32:20.899Z",
+    "leaders": "2026-10-21T11:32:20.899Z"
   }
 }

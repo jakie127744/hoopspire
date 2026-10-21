@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-20T11:14:33.120Z",
+  "fetchedAt": "2026-10-21T11:31:41.045Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -14948,56 +14949,56 @@
   ],
   "news": [
     {
-      "id": "PBA-fiberxersedgeouttropang5ginotthrillerfor",
+      "id": "PBA-pbajunemarfajardoreaches10000pointmilest",
       "league": "PBA",
-      "title": "FiberXers edge out Tropang 5G in OT thriller for cross-over momentum",
+      "title": "PBA: June Mar Fajardo reaches 10,000-point milestone",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "ANTIPOLO—Converge and TNT provided a preview of what to expect when the PBA Governors’ Cup enters the playoffs next week as the FiberXers and the Tropang 5G played a thriller that was a relief after the tournament saw blowout results recently. It was the FiberXers who emerged vic",
-      "published": "2026-10-19T04:25:44.000Z",
+      "description": "ANTIPOLO—June Mar Fajardo became the 19th player in history to reach the 10,000-point club during the first quarter of the 2026 PBA Governors’ Cup game between San Miguel Beer and NLEX. A turnaround hook over Dave Marcelo with 2:22 left in the opening period gave Fajardo his fift",
+      "published": "2026-10-21T18:15:17.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/Juan-Gomez-de-Liano-19October2026.jpg",
-      "url": "https://sports.inquirer.net/702233/fiberxers-edge-out-tropang-5g-in-ot-thriller-for-cross-over-momentum"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-22.jpg",
+      "url": "https://sports.inquirer.net/702650/pba-june-mar-fajardo-reaches-10000-point-milestone"
     },
     {
-      "id": "PBA-pbaginebraboostsquartersbidwithroutofpho",
+      "id": "PBA-fajardoenterspbas10000pointclub",
       "league": "PBA",
-      "title": "PBA: Ginebra boosts quarters bid with rout of Phoenix",
+      "title": "Fajardo enters PBA's 10,000-point club",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "ANTIPOLO—Barangay Ginebra gained an inside track for the last quarterfinals berth in the PBA Governors’ Cup after taking down Phoenix, 106-89, on Sunday at Ynares Center here. A run of 17 consecutive points during the second quarter enabled the Gin Kings to pull away and produce ",
-      "published": "2026-10-18T22:52:03.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-4.jpg",
-      "url": "https://sports.inquirer.net/702259/pba-ginebra-boosts-quarters-bid-with-rout-of-phoenix"
-    },
-    {
-      "id": "PBA-pbachotreyessaysgalinatoejectionturningp",
-      "league": "PBA",
-      "title": "PBA: Chot Reyes says Galinato ejection ‘turning point’ in loss",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Coach Chot Reyes lamented the ejection of Henry Galinato in TNT’s 114-112 overtime loss to Converge in the PBA Governors’ Cup on Sunday for his headbutt on Alec Stockton during a heated exchange in the third quarter. Galinato was tossed with the Tropang 5G ahead after te",
-      "published": "2026-10-18T22:17:22.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image7-4.jpg",
-      "url": "https://sports.inquirer.net/702230/pba-chot-reyes-says-galinato-ejection-turning-point-in-loss"
-    },
-    {
-      "id": "PBA-pbabarangayginebrabeatsquarterfinalsboun",
-      "league": "PBA",
-      "title": "PBA: Barangay Ginebra beats quarterfinals-bound Phoenix",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Barangay Ginebra defeated quarterfinals-bound Phoenix, 106-89, on Sunday in the PBA Governors\" Cup at the Ynares Center in Antipolo.",
-      "published": "2026-10-18T14:40:13.000Z",
-      "byline": "GMA News",
+      "description": "Another feather in June Mar Fajardo’s cap.",
+      "published": "2026-10-21T10:04:00.000Z",
+      "byline": "PhilStar",
       "tag": "Report",
       "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1006327/pba-barangay-ginebra-beats-quarterfinals-bound-phoenix/story/"
+      "url": "https://www.philstar.com/sports/2026/10/21/2564815/fajardo-enters-pbas-10000-point-club"
+    },
+    {
+      "id": "PBA-junemarfajardobecomes19thmemberofpbas10k",
+      "league": "PBA",
+      "title": "June Mar Fajardo becomes 19th member of PBA’s 10K club",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "BENGALURU, India – June Mar Fajardo formally joined the PBA’s 10,000 points club during San Miguel’s ongoing Season 50 Governors’ Cup meeting with NLEX on Wednesday at the Ynares Center in Antipolo. The league’s only nine-time MVP made his entry to the exclusive list with a front",
+      "published": "2026-10-21T09:46:20.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/june-mar-becomes-19th-member-of-pbas-10k-club/387330"
+    },
+    {
+      "id": "PBA-pbaplayeroftheweekgomezdelianoboostsfibe",
+      "league": "PBA",
+      "title": "PBA Player of the Week Gomez de Liano boosts FiberXers en route to strong elims finish",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "While an array of heroes stepped up to the plate for the FiberXers (8-4), their super rookie Juan Gomez de Liano stood out.",
+      "published": "2026-10-21T02:10:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/21/2564772/pba-player-week-gomez-de-liano-boosts-fiberxers-en-route-strong-elims-finish"
     }
   ],
   "leaders": {
@@ -15468,8 +15469,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-20T11:14:33.120Z",
-    "news": "2026-10-20T11:14:33.120Z"
+    "games": "2026-10-21T11:31:41.045Z",
+    "news": "2026-10-21T11:31:41.045Z"
   },
   "carriedOver": [
     "teams",

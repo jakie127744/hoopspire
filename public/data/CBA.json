@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-20T11:14:50.290Z",
+  "fetchedAt": "2026-10-21T11:32:10.349Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,180 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-20-beijing-guangdong",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-20-fujian-s--guangsha",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-20-jilin-ne-sichuan",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-20-nanjing-guangzhou",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 114,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-20-ningbo-r--shanxi-l-",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-20-xinjiang-tianjin",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": 107,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-19-beijing-shanghai",
       "league": "CBA",
       "status": "final",
@@ -17073,8 +17247,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-20T11:14:50.290Z",
-    "news": "2026-10-20T11:14:50.290Z"
+    "games": "2026-10-21T11:32:10.349Z",
+    "news": "2026-10-21T11:32:10.349Z"
   },
   "carriedOver": [
     "teams",
