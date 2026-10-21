@@ -92,18 +92,57 @@ export default defineConfig({
           and cache like any image, and offline a card that cannot reach its
           logo falls back to the league's name.
         */
-        globIgnores: ['**/logo/Hoopspire_logo.jpg', '**/logo/hoopspire-icon.png', '**/logo/leagues/**'],
-        // Client-side routes resolve to the app shell offline — except the
-        // git-based CMS, which is its own page and must never be hijacked.
-        navigateFallback: '/index.html',
-        // The CMS is its own page. The three crawler files are not pages at
-        // all: typing /ads.txt into a browser is a *navigation*, so without
-        // this the service worker answers it with the app shell. Google's
-        // crawlers do not run service workers, so this is not what makes
-        // AdSense lose an ads.txt — but it is what makes you check the URL
-        // yourself, see a basketball site, and misdiagnose which layer broke.
-        navigateFallbackDenylist: [/^\/admin/, /^\/ads\.txt$/, /^\/robots\.txt$/, /^\/sitemap\.xml$/],
+        /*
+          index.html is left out of the precache on purpose. Articles are
+          bundled into the app, so the HTML decides which bundle, and so which
+          articles, a reader gets. A precached shell answered every navigation
+          with the bundle from the reader's last visit: a link to a story
+          published since then opened "That story isn't in the ledger" until
+          the update prompt came round (2026-10-20, the 76ers-Knicks recap).
+          Pages now come from the network first; see the navigation rule below.
+        */
+        globIgnores: [
+          '**/logo/Hoopspire_logo.jpg',
+          '**/logo/hoopspire-icon.png',
+          '**/logo/leagues/**',
+          'index.html',
+        ],
+        // vite-plugin-pwa adds a NavigationRoute to index.html unless told not
+        // to, and it would run before the network-first rule below.
+        navigateFallback: null,
         runtimeCaching: [
+          {
+            // Network first for pages, so the HTML and the bundle it names are
+            // always current. A copy is kept for offline use, and if the
+            // network fails or takes longer than 4 seconds the reader gets the
+            // last copy of this page, or of the home page, which can route to
+            // any client-side page itself.
+            //
+            // The CMS is its own page and the three crawler files are not pages
+            // at all: typing /ads.txt into a browser is a *navigation*, so they
+            // are left to the network untouched. Google's crawlers do not run
+            // service workers, so this is not what makes AdSense lose an
+            // ads.txt, but it is what makes you check the URL yourself, see a
+            // basketball site, and misdiagnose which layer broke.
+            urlPattern: ({ request, url }) =>
+              request.mode === 'navigate' &&
+              !/^\/(admin|ads\.txt$|robots\.txt$|sitemap\.xml$)/.test(url.pathname),
+            handler: 'NetworkFirst',
+            options: {
+              cacheName: 'pages',
+              networkTimeoutSeconds: 4,
+              expiration: { maxEntries: 60 },
+              cacheableResponse: { statuses: [200] },
+              plugins: [
+                {
+                  handlerDidError: async () => {
+                    const pages = await caches.open('pages')
+                    return (await pages.match('/')) || (await pages.keys().then((k) => (k[0] ? pages.match(k[0]) : undefined))) || Response.error()
+                  },
+                },
+              ],
+            },
+          },
           ...LIVE_API.map((urlPattern) => ({ urlPattern, handler: 'NetworkOnly' })),
           {
             urlPattern: ({ url }) =>

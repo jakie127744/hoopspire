@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { getOriginal, findOriginalIgnoringCase, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
 import { CONNECTIONS, FIBA_STATUS } from '../lib/scouting.js'
@@ -32,6 +33,33 @@ export default function Story() {
     image: article?.image || undefined,
     type: 'article',
   })
+
+  // A reader still running an older copy of the app (an open tab, or a service
+  // worker installed before network-first pages) cannot know about a story
+  // published since. Before saying it does not exist, fetch the newest
+  // version once, switch to it and reload. The sessionStorage guard means a
+  // slug that really does not exist is reloaded at most once per tab.
+  const missing = !article && !findOriginalIgnoringCase(slug)
+  useEffect(() => {
+    if (!missing || typeof navigator === 'undefined' || !navigator.serviceWorker) return
+    const key = `hs-fresh-${slug}`
+    try {
+      if (sessionStorage.getItem(key)) return
+      sessionStorage.setItem(key, '1')
+    } catch {
+      return
+    }
+    navigator.serviceWorker.getRegistration().then(async (reg) => {
+      if (!reg) return window.location.reload()
+      await reg.update().catch(() => {})
+      const next = reg.waiting || reg.installing
+      if (!next) return window.location.reload()
+      navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload(), { once: true })
+      next.postMessage({ type: 'SKIP_WAITING' })
+      // An installing worker may not take messages yet: reload regardless.
+      setTimeout(() => window.location.reload(), 4000)
+    })
+  }, [missing, slug])
 
   if (!article) {
     const meant = findOriginalIgnoringCase(slug)
