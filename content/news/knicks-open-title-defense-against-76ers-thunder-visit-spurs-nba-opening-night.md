@@ -44,3 +44,5 @@ They met in the Western Conference finals, and it went seven. The road team won 
 After Tuesday's three games, Wednesday brings 11 more, including Golden State at the Lakers and Minnesota at Miami, both on ESPN.
 
 For fantasy managers, Franco Medina has the [week-one schedule](/story/philadelphia-plays-four-in-week-one-portland-two-use-thursday), including why Philadelphia's four games matter.
+
+Result: [the 76ers beat the Knicks 106-100 on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut), with LeBron James scoring three straight baskets in the third quarter of his Philadelphia debut.
