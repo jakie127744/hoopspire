@@ -66,6 +66,45 @@ New York: Jalen Brunson 21, Karl-Anthony Towns 19, Josh Hart 14, Andre Drummond 
 
 By quarter: Philadelphia 23, 31, 29, 23. New York 25, 33, 18, 24.
 
+## Box score
+
+Starters are marked (S).
+
+**Philadelphia**
+
+| Player | MIN | PTS | FG | 3PT | FT | REB | AST | STL | BLK | TO | +/- |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| [LeBron James](/player/NBA/1966) (S) | 34 | 14 | 5-13 | 0-3 | 4-6 | 9 | 7 | 1 | 1 | 1 | -2 |
+| [Joel Embiid](/player/NBA/3059318) (S) | 33 | 13 | 4-15 | 2-7 | 3-4 | 11 | 6 | 2 | 3 | 4 | +13 |
+| [Jaylen Brown](/player/NBA/3917376) (S) | 35 | 19 | 7-14 | 2-4 | 3-4 | 8 | 6 | 1 | 1 | 2 | +17 |
+| [Tyrese Maxey](/player/NBA/4431678) (S) | 40 | 28 | 9-19 | 2-9 | 8-9 | 4 | 5 | 3 | 3 | 2 | +11 |
+| [VJ Edgecombe](/player/NBA/5124612) (S) | 35 | 9 | 4-10 | 0-3 | 1-2 | 4 | 1 | 1 | 0 | 1 | 0 |
+| [Jabari Walker](/player/NBA/4432446) | 3 | 0 | 0-0 | 0-0 | 0-0 | 0 | 1 | 0 | 0 | 0 | -6 |
+| [Adem Bona](/player/NBA/5105637) | 10 | 0 | 0-0 | 0-0 | 0-0 | 3 | 1 | 0 | 1 | 0 | -1 |
+| [Kentavious Caldwell-Pope](/player/NBA/2581018) | 26 | 10 | 3-8 | 2-6 | 2-2 | 4 | 1 | 0 | 1 | 0 | +3 |
+| [Anfernee Simons](/player/NBA/4351851) | 25 | 13 | 5-10 | 3-8 | 0-0 | 2 | 0 | 0 | 0 | 0 | -5 |
+| **Totals** |  | 106 | 37-89 | 11-40 | 21-27 | 45 | 28 | 8 | 10 | 10 |  |
+
+Team turnovers: 2. Did not play: Justin Edwards, Caleb Love, Labaron Philon Jr., Rayan Rupert.
+
+**New York**
+
+| Player | MIN | PTS | FG | 3PT | FT | REB | AST | STL | BLK | TO | +/- |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| [OG Anunoby](/player/NBA/3934719) (S) | 32 | 10 | 3-12 | 1-9 | 3-3 | 5 | 0 | 1 | 1 | 2 | -20 |
+| [Karl-Anthony Towns](/player/NBA/3136195) (S) | 24 | 19 | 6-9 | 3-4 | 4-7 | 12 | 1 | 1 | 2 | 4 | 0 |
+| [Josh Hart](/player/NBA/3062679) (S) | 30 | 14 | 5-10 | 2-5 | 2-3 | 7 | 3 | 1 | 1 | 2 | +1 |
+| [Mikal Bridges](/player/NBA/3147657) (S) | 33 | 4 | 2-8 | 0-2 | 0-0 | 3 | 1 | 0 | 1 | 0 | -15 |
+| [Jalen Brunson](/player/NBA/3934672) (S) | 34 | 21 | 6-19 | 1-3 | 8-8 | 5 | 3 | 0 | 0 | 2 | -11 |
+| [Andre Drummond](/player/NBA/6585) | 24 | 12 | 5-13 | 0-0 | 2-4 | 14 | 4 | 1 | 2 | 0 | -6 |
+| [Jordan Clarkson](/player/NBA/2528426) | 8 | 4 | 2-4 | 0-0 | 0-0 | 1 | 1 | 0 | 0 | 0 | +8 |
+| [Landry Shamet](/player/NBA/3914044) | 25 | 5 | 2-7 | 1-4 | 0-2 | 2 | 4 | 0 | 0 | 2 | +11 |
+| [Jose Alvarado](/player/NBA/4277869) | 16 | 8 | 3-7 | 2-3 | 0-0 | 3 | 3 | 2 | 0 | 1 | +6 |
+| [Miles McBride](/player/NBA/4431823) | 14 | 3 | 1-5 | 1-3 | 0-0 | 1 | 1 | 0 | 1 | 1 | -4 |
+| **Totals** |  | 100 | 35-94 | 11-33 | 19-27 | 53 | 21 | 6 | 8 | 14 |  |
+
+Team turnovers: 1. Did not play: Pacôme Dadiet, Mohamed Diawara, James Wiseman, Kevin McCullar Jr., Tyler Kolek.
+
 ## What is next
 
 The 76ers play their home opener against the Cleveland Cavaliers on Thursday, October 22, at 7 p.m. ET. The Knicks visit the Boston Celtics on Friday, October 23, at 7 p.m. ET. The two teams meet again in Philadelphia on Friday, October 30, at 7:30 p.m. ET.
