@@ -62,3 +62,5 @@ It is a complaint about how we talk about Fil-heritage players. We count passpor
 Here is the line I expect some readers to argue with: the next Women's Asia Cup backcourt should be built around Naomi Panganiban, and anyone planning it as if she were a bonus has the order wrong.
 
 Second look: [Sumayah Sugapong, the other San Diego guard in the national team pool, was free for the qualifiers in France because Arizona lost early](/story/sumayah-sugapong-was-free-for-gilas-in-march-because-arizona-lost-early).
+
+Same calendar, other side of the world: [Sweden needs Elliot Cadeau in November, and Michigan has him](/story/elliot-cadeau-sweden-needs-him-in-november-michigan-has-him).
