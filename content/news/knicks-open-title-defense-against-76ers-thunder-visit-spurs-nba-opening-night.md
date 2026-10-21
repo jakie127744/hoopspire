@@ -48,3 +48,5 @@ For fantasy managers, Franco Medina has the [week-one schedule](/story/philadelp
 Result: [the 76ers beat the Knicks 106-100 on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut), with LeBron James scoring three straight baskets in the third quarter of his Philadelphia debut.
 
 Result: [the Pistons scored 23 straight and came back from 22 down to beat the Celtics 121-113](/story/pistons-score-23-straight-come-back-from-22-down-beat-celtics-121-113).
+
+Result: [the Thunder beat the Spurs 116-104 in the Western final rematch](/story/thunder-beat-spurs-116-104-western-final-rematch-mccain-six-threes-gilgeous-alexander-32).
