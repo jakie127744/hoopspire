@@ -60,3 +60,5 @@ That is not a complaint about her. An All-Mountain West guard belongs with her c
 It is a complaint about how we talk about Fil-heritage players. We count passports. We should count available weeks. Panganiban has the passport, the youth caps and the senior minutes. She told the same interviewer she wants to be "an inspiration for younger kids, a lot of Filipinos, to get into playing Division I sports." If that works, more of the national team will live on the American calendar, not fewer.
 
 Here is the line I expect some readers to argue with: the next Women's Asia Cup backcourt should be built around Naomi Panganiban, and anyone planning it as if she were a bonus has the order wrong.
+
+Second look: [Sumayah Sugapong, the other San Diego guard in the national team pool, was free for the qualifiers in France because Arizona lost early](/story/sumayah-sugapong-was-free-for-gilas-in-march-because-arizona-lost-early).
