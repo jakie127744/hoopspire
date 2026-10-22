@@ -47,3 +47,5 @@ El Calor (9-19) and Correcaminos (4-24) finished 13th and 14th and did not quali
 ## What is next
 
 Diablos Rojos host Mineros and Santos host Abejas in Game 3 on Thursday, October 15. The winners complete the eight-team field for the zone semifinals alongside Soles, Astros, Fuerza Regia, Panteras, Lobos and Dorados.
+
+Update: [Mineros and Abejas completed the field, and the zone semifinals began; three series are 2-0](/story/astros-18-5-fourth-beat-mineros-86-83-fuerza-regia-soles-2-0-panteras-level-lobos-lnbp-zone-semifinals).
