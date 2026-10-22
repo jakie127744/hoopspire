@@ -5,7 +5,7 @@ import { initials } from '../lib/format.js'
 export function SectionHead({ title, action, children }) {
   return (
     <div className="section-head">
-      <h2 className="text-3xl md:text-4xl">{title}</h2>
+      <h2 className="text-xl md:text-2xl">{title}</h2>
       <div className="ml-auto flex items-center gap-4">
         {children}
         {action}

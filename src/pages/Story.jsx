@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom'
-import { getOriginal, findOriginalIgnoringCase, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
+import { getOriginal, getOriginals, getDesk, findOriginalIgnoringCase, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
+import { HeadlineList, DeskCard } from '../components/NewsBlocks.jsx'
 import { CONNECTIONS, FIBA_STATUS } from '../lib/scouting.js'
 import { disclosureText } from '../lib/affiliate.js'
 import { getStaff } from '../lib/staff.js'
@@ -50,8 +51,17 @@ export default function Story() {
   const related = relatedOriginals(article)
   const { html, partners } = renderBody(article.body)
 
+  const headlines = getOriginals()
+    .filter((a) => a.slug !== article.slug)
+    .slice(0, 8)
+  const deskLatest = getDesk(article.desk || 'margin')
+    .filter((a) => a.slug !== article.slug)
+    .slice(0, 3)
+
   return (
-    <article className="mx-auto max-w-3xl px-4 py-14 md:px-8">
+    <div className="mx-auto grid max-w-[1440px] gap-4 px-3 py-4 sm:px-4 md:py-5 lg:grid-cols-[minmax(0,1fr)_20rem] xl:gap-5">
+    <article className="card min-w-0 px-4 py-6 sm:px-8 md:px-12 md:py-9">
+      <div className="mx-auto max-w-3xl">
       <Link to={desk.path} className="eyebrow text-ink/45 hover:text-crimson">
         ← {desk.name}
       </Link>
@@ -68,10 +78,10 @@ export default function Story() {
           <DeskBadge article={article} />
         </div>
 
-        <h1 className="mt-4 font-display text-4xl leading-[1.05] md:text-6xl">{article.title}</h1>
+        <h1 className="mt-4 font-display text-[2rem] leading-[1.08] md:text-[2.75rem]">{article.title}</h1>
 
         {article.description && (
-          <p className="mt-5 text-xl leading-relaxed text-ink/70">{article.description}</p>
+          <p className="mt-4 text-lg leading-relaxed text-ink/70 md:text-xl">{article.description}</p>
         )}
 
         {/* Heritage Line's eligibility file: the player and the facts every report is built on. */}
@@ -221,6 +231,15 @@ export default function Story() {
           </div>
         </section>
       )}
+      </div>
     </article>
+
+    <aside className="min-w-0 space-y-4">
+      <div className="space-y-4 lg:sticky lg:top-[4.5rem]">
+        <HeadlineList articles={headlines} />
+        <DeskCard desk={article.desk || 'margin'} articles={deskLatest} />
+      </div>
+    </aside>
+    </div>
   )
 }

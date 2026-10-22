@@ -5,9 +5,14 @@
    rebuild renders identically.
    --------------------------------------------------------------------------- */
 @theme {
-  --color-cream: #f3efe7;
-  --color-parchment: #e2dccf;
+  /* ESPN-style neutrals, tinted toward the badge navy so they sit with it:
+     a cool grey page, white cards, a light hairline. `cream` stays the
+     name of the page colour (and of light type on navy). */
+  --color-cream: #edf0f4;
+  --color-parchment: #dde1e7;
   --color-paper: #ffffff;
+  /* The header bars: a navy deeper than ink, like ESPN's black masthead. */
+  --color-night: #0c1828;
 
   /* Brand colours, taken from the Hoopspire badge (navy #102038, orange
      #e05818). The token names predate the badge and are kept so the classes
@@ -26,7 +31,9 @@
   --color-gold: #f08a4b;
   --color-brand: #e05818;
 
-  --font-display: 'Instrument Serif', ui-serif, Georgia, serif;
+  /* Headlines are a heavy sans, as on ESPN. The token keeps its name so every
+     `font-display` across the site switched over in one place. */
+  --font-display: 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
   /* The wordmark: a heavy geometric sans, as on the badge. One weight is
      loaded, and only the wordmark uses it. */
   --font-brand: 'Montserrat', 'Hanken Grotesk', ui-sans-serif, system-ui, sans-serif;
@@ -51,8 +58,18 @@
   h3,
   h4 {
     font-family: var(--font-display);
-    font-weight: 400;
-    letter-spacing: -0.01em;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  .font-display {
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+
+  /* Scores and table figures line up in columns. */
+  .tabular {
+    font-variant-numeric: tabular-nums;
   }
 
   ::selection {
@@ -65,9 +82,10 @@
   /* The small monospace all-caps label used for kickers, bylines and stat
      headers throughout the design. */
   .eyebrow {
-    font-family: var(--font-mono);
-    font-size: 0.625rem;
-    letter-spacing: 0.18em;
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
   }
 
@@ -91,14 +109,30 @@
     display: flex;
     align-items: baseline;
     gap: 1rem;
-    border-bottom: 1px solid var(--color-ink);
-    padding-bottom: 0.75rem;
-    margin-bottom: 1.75rem;
+    border-bottom: 1px solid var(--color-parchment);
+    padding-bottom: 0.625rem;
+    margin-bottom: 1.25rem;
   }
 
+  /* The ESPN card: white, softly rounded, a hairline and a faint shadow. */
   .card {
     background: var(--color-paper);
     border: 1px solid var(--color-parchment);
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgb(12 24 40 / 0.06);
+  }
+
+  /* Title row inside a card (Top Headlines, Standings…). */
+  .card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-parchment);
+    font-size: 0.9375rem;
+    font-weight: 800;
+    letter-spacing: -0.01em;
   }
 
   .link-underline {

@@ -9,7 +9,7 @@ export function LegalPage({ kicker, title, intro, children }) {
   return (
     <div className="mx-auto max-w-3xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">{kicker}</Eyebrow>
-      <h1 className="mt-3 text-5xl md:text-6xl">{title}</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">{title}</h1>
       <p className="eyebrow mt-4 text-ink/40">
         Last updated {formatDate(SITE.lastUpdated, { month: 'long' })}
       </p>

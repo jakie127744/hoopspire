@@ -2,7 +2,7 @@ import { Routes, Route, useLocation, Link, Navigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
-import Ticker from './components/Ticker.jsx'
+import ScoreboardBar from './components/ScoreboardBar.jsx'
 import Home from './pages/Home.jsx'
 import League from './pages/League.jsx'
 import Scores from './pages/Scores.jsx'
@@ -61,7 +61,7 @@ export default function App() {
       <ScrollToTop />
       <PwaStatus />
       <Header />
-      <Ticker />
+      <ScoreboardBar />
       <main className="flex-1">
         <Routes>
           <Route path="/" element={<Home />} />

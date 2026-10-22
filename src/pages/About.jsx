@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="mx-auto max-w-3xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">The Ledger</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">The Ledger</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">The Ledger</h1>
       <p className="mt-6 text-lg leading-relaxed text-ink/70">
         Hoopspire is a basketball ledger for {LEAGUE_COUNT_WORD.toLowerCase()} leagues. We start
         from the official results and box scores each competition publishes, and everything we

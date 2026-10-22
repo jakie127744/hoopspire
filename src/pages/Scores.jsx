@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useAsync, hasLiveGame } from '../lib/useAsync.js'
 import { getAllGames } from '../lib/api.js'
 import { LEAGUES } from '../lib/leagues.js'
@@ -6,6 +5,7 @@ import RefreshNote from '../components/RefreshNote.jsx'
 import ScoreCard from '../components/ScoreCard.jsx'
 import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
+import { useLeagueParam } from '../lib/useLeagueParam.js'
 
 const FILTERS = [{ key: 'ALL', name: 'All' }, ...LEAGUES]
 
@@ -30,7 +30,7 @@ function Group({ title, count, games }) {
 
 export default function Scores() {
   useMeta({ title: 'The Scoreboard', description: 'Live whistles, final results and upcoming fixtures across every league in the ledger — updated as the games are played.', noindex: true })
-  const [filter, setFilter] = useState('ALL')
+  const [filter, setFilter] = useLeagueParam('ALL')
   const { data: games, loading, refreshedAt, refresh } = useAsync(() => getAllGames(), [], [], {
     refreshMs: 120_000,
     liveMs: 30_000,
@@ -49,7 +49,7 @@ export default function Scores() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">The Scoreboard</Eyebrow>
-      <h1 className="mt-3 text-5xl md:text-6xl">The Scoreboard</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">The Scoreboard</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Live whistles, final results and upcoming fixtures across every league in the ledger.
       </p>

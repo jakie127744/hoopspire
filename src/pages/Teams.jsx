@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { LEAGUES, getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getTeams } from '../lib/api.js'
 import { TeamLogo, Loading, Empty, Eyebrow, SectionHead } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
+import { useLeagueParam } from '../lib/useLeagueParam.js'
 
 export default function Teams() {
   useMeta({ title: 'Teams', description: 'Every club in the ledger, by league — rosters, records and results across thirteen basketball competitions.', noindex: true })
-  const [leagueKey, setLeagueKey] = useState('NBA')
+  const [leagueKey, setLeagueKey] = useLeagueParam('NBA')
   const league = getLeague(leagueKey)
   const { data: teams, loading } = useAsync(() => getTeams(leagueKey), [leagueKey], [])
 
@@ -17,7 +17,7 @@ export default function Teams() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">The Clubs</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">Teams & Rosters</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">Teams & Rosters</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Every club in the ledger, with its most recent available roster.
       </p>

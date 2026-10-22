@@ -205,3 +205,50 @@ export function StandingsGrid({ tables }) {
     </div>
   )
 }
+
+/**
+ * Standings as a rail card: one table at a time, with a tab per league in
+ * season. With a league given (a league's own page) it is that table alone.
+ */
+export function StandingsCard({ games, league = null, limit = 8 }) {
+  const available = useAvailableTables(games)
+  const tables = league ? available.filter((t) => t.league.key === league.key) : available
+  const [picked, setPicked] = useState(null)
+  if (!tables.length) return null
+  const current = tables.find((t) => t.league.key === picked) || tables[0]
+  const l = current.league
+  return (
+    <section className="card overflow-hidden">
+      <div className="card-head">
+        <h2 className="text-[0.9375rem]">{league ? `${l.name} Standings` : 'Standings'}</h2>
+        <Link to={`/league/${l.slug}#standings`} className="text-xs font-bold text-crimson hover:underline">
+          Full table
+        </Link>
+      </div>
+      {tables.length > 1 && (
+        <div role="tablist" aria-label="League" className="no-scrollbar flex gap-1 overflow-x-auto border-b border-parchment px-3 py-2">
+          {tables.map((t) => (
+            <button
+              key={t.league.key}
+              type="button"
+              role="tab"
+              aria-selected={t === current}
+              onClick={() => setPicked(t.league.key)}
+              className={`shrink-0 rounded-full px-3 py-1 text-xs font-bold ${
+                t === current ? 'bg-ink text-cream' : 'text-ink/60 hover:bg-cream hover:text-ink'
+              }`}
+            >
+              {t.league.name}
+            </button>
+          ))}
+        </div>
+      )}
+      <div className="px-4 pb-3 pt-1">
+        {current.standings.seasonLabel && (
+          <p className="pt-2 text-xs font-semibold text-ink/45">{current.standings.seasonLabel}</p>
+        )}
+        <StandingsTable standings={current.standings} leagueKey={l.key} limit={limit} compact />
+      </div>
+    </section>
+  )
+}

@@ -91,7 +91,7 @@ export default function Team() {
           <Eyebrow className="text-crimson">
             {league?.name} · {season || 'Current season'}
           </Eyebrow>
-          <h1 className="mt-2 text-5xl md:text-6xl">{team.name}</h1>
+          <h1 className="mt-2 text-4xl md:text-5xl">{team.name}</h1>
           {coach && <p className="mt-2 text-ink/60">Head coach · {coach}</p>}
         </div>
         <div className="ml-auto text-right">

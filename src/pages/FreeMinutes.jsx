@@ -41,7 +41,7 @@ export default function FreeMinutes() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">The fantasy desk</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">Free Minutes</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">Free Minutes</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         NBA fantasy argued from the numbers. Projections, category math and roster
         construction for head-to-head, roto and points leagues, built on minutes and

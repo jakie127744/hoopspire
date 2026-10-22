@@ -35,7 +35,7 @@ export default function Press() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-ink/50">Reported here</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">Full Court Press</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">Full Court Press</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         What happened, and what it changed. News from all{' '}
         {LEAGUE_COUNT_WORD.toLowerCase()} leagues in the ledger — not only the one everybody

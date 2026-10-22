@@ -21,9 +21,9 @@ export default function StandingsTable({ standings, leagueKey, limit, compact, s
 
   return (
     <div className="overflow-x-auto">
-      <table className={`w-full border-collapse ${compact ? 'min-w-[300px]' : 'min-w-[560px]'}`}>
+      <table className={`w-full border-collapse ${compact ? 'min-w-[240px]' : 'min-w-[560px]'}`}>
         <thead>
-          <tr className="border-b border-ink">
+          <tr className="border-b border-parchment">
             {HEAD.map((h, i) => (
               <th
                 key={h}
@@ -39,7 +39,7 @@ export default function StandingsTable({ standings, leagueKey, limit, compact, s
         <tbody>
           {shown.map((r, i) => (
             <tr key={r.team.id ?? r.team.name} className="border-b border-parchment">
-              <td className="py-2.5 font-mono text-xs text-ink/40">
+              <td className="py-2.5 tabular text-xs text-ink/40">
                 {seedFrom === 'group' ? (r.seed ?? i + 1) : i + 1}
               </td>
               <td className="py-2.5">
@@ -53,7 +53,7 @@ export default function StandingsTable({ standings, leagueKey, limit, compact, s
                   </span>
                   {r.clincher && (
                     <span
-                      className="shrink-0 font-mono text-[10px] uppercase text-gold"
+                      className="shrink-0 tabular text-[10px] uppercase text-gold"
                       title="ESPN clinch marker"
                     >
                       {r.clincher}
@@ -61,22 +61,22 @@ export default function StandingsTable({ standings, leagueKey, limit, compact, s
                   )}
                 </Link>
               </td>
-              <td className="py-2.5 pl-3 text-right font-mono text-sm font-bold">{r.wins}</td>
-              <td className="py-2.5 pl-3 text-right font-mono text-sm">{r.losses}</td>
-              <td className="py-2.5 pl-3 text-right font-mono text-sm">{r.pct}</td>
+              <td className="py-2.5 pl-3 text-right tabular text-sm font-bold">{r.wins}</td>
+              <td className="py-2.5 pl-3 text-right tabular text-sm">{r.losses}</td>
+              <td className="py-2.5 pl-3 text-right tabular text-sm">{r.pct}</td>
               {!compact && (
                 <>
-                  <td className="py-2.5 pl-3 text-right font-mono text-xs text-ink/60">
+                  <td className="py-2.5 pl-3 text-right tabular text-xs text-ink/60">
                     {r.gamesBehind ?? '—'}
                   </td>
                   <td
-                    className={`py-2.5 pl-3 text-right font-mono text-xs ${
+                    className={`py-2.5 pl-3 text-right tabular text-xs ${
                       String(r.diff).startsWith('-') ? 'text-ink/50' : 'text-crimson'
                     }`}
                   >
                     {r.diff ?? '—'}
                   </td>
-                  <td className="py-2.5 pl-3 text-right font-mono text-xs text-ink/50">
+                  <td className="py-2.5 pl-3 text-right tabular text-xs text-ink/50">
                     {r.streak ?? '—'}
                   </td>
                 </>
