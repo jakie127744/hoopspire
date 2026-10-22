@@ -46,3 +46,5 @@ Both finalists arrived unbeaten. Flamengo reached the final with wins over Botaf
 ## What is next
 
 The NBB regular season starts on Saturday, October 17. Flamengo open at home against Bauru at the Maracanãzinho on Sunday, October 18, at 11:00. CAIXA/Brasília play in the Liga Sul-Americana on Friday, October 16.
+
+Update: [Flamengo got their first NBB win of the season, 81-71 over Botafogo](/story/franca-2-0-beat-mogi-90-74-jackson-vitinho-flamengo-first-win-81-71-botafogo-nbb).
