@@ -49,3 +49,5 @@ New Orleans: Dejounte Murray 23, Zion Williamson 22, Yves Missi 13, Saddiq Bey 1
 ## What is next
 
 Indiana host Dallas on Friday, October 23, at 7 p.m. ET. New Orleans play at Utah the same night.
+
+The rest of the night: [Wednesday's NBA roundup](/story/ty-jerome-45-nba-wednesday-roundup-kessler-12-for-12).

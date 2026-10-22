@@ -53,3 +53,5 @@ Orlando: Paolo Banchero 35, Franz Wagner 22, Wendell Carter Jr. 22, Desmond Bane
 ## What is next
 
 Atlanta play at Charlotte on Friday, October 23, at 7 p.m. ET. Orlando host Minnesota the same night.
+
+The rest of the night: [Wednesday's NBA roundup](/story/ty-jerome-45-nba-wednesday-roundup-kessler-12-for-12).

@@ -60,3 +60,5 @@ At 18 minutes a game, the rate gives about 11 points. Put him on your watch list
 - **Drop:** nobody yet. Beal's return date is open, so do not cut him for a rookie in a league with an injured spot.
 
 This follows [Wagler's late winner in the preseason opener](/story/rookie-keaton-wagler-step-back-clippers-beat-warriors-104-101-preseason), when he made two of his first 14 shots and still hit the go-ahead step-back. The check I would run next: the Clippers' starting five on Wednesday, and Wagler's shot count against his minutes after two games.
+
+Update: [Wagler scored 15 with three threes in the Clippers' 121-96 opener against Sacramento](/story/ty-jerome-45-nba-wednesday-roundup-kessler-12-for-12).

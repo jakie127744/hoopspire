@@ -49,3 +49,5 @@ Miami: Giannis Antetokounmpo 35, Bam Adebayo 15, Andrew Wiggins 11, Davion Mitch
 ## What is next
 
 Minnesota play at Orlando on Friday, October 23, at 7 p.m. ET. Miami host Detroit the same night at 8 p.m.
+
+The rest of the night: [Wednesday's NBA roundup](/story/ty-jerome-45-nba-wednesday-roundup-kessler-12-for-12).
