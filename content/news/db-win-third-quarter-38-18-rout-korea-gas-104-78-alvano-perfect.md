@@ -50,3 +50,5 @@ Korea Gas: Ra Gun-ah 17, Keve Aluma 16, Kim Min-gyu 16, Jeon Hyun-woo 12, Yang W
 DB play at Suwon KT on Friday, October 23, and at Anyang Jung Kwan Jang on Sunday, October 25. Korea Gas host Samsung on Sunday, October 25. The two meet again in Daegu on Wednesday, October 28.
 
 DB's last game was the [95-92 loss to Samsung](/story/kerem-kanter-42-samsung-5-0-hold-off-db-95-92-kbl-roundup), in which Korea Gas also beat LG for their third straight win.
+
+Update: [Samsung beat KCC 97-86 to go 6-0, and SK beat Jung Kwan Jang 84-76](/story/kanter-30-samsung-6-0-beat-kcc-97-86-sk-beat-jung-kwan-jang-84-76-warney-18-rebounds-kbl).
