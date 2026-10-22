@@ -53,17 +53,6 @@ export default function Privacy() {
     >
       <YourChoices />
 
-      <Section title="Who we are">
-        <p>
-          {SITE.name} ({SITE.domain}) is operated by <Value of="legalEntity" />, based in{' '}
-          <Value of="address" />. For anything in this policy, write to{' '}
-          <a href={`mailto:${SITE.privacyEmail}`}>
-            <Value of="privacyEmail" />
-          </a>
-          . Under the GDPR, that operator is the data controller for this site.
-        </p>
-      </Section>
-
       <Section title="What we collect">
         <p>
           <strong>No accounts.</strong> There is no login and no profile. We never ask for your
