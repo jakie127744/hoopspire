@@ -40,3 +40,5 @@ The result left the Zhejiang Golden Bulls' third place in 2023 as the best finis
 ## What is next
 
 The CBA season opens on Friday, October 16, in Shanghai: the Shanghai Sharks, champions, against the Shenzhen Leopards, in the first of the regular season's 46 rounds.
+
+Update: [Beijing Ducks beat Guangdong 96-78 and Liaoning won at Qingdao in Round 2](/story/beijing-ducks-beat-guangdong-96-78-guangdong-0-2-liaoning-hold-off-qingdao-97-93-cba).
