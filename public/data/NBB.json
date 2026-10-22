@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-21T11:32:43.926Z",
+  "fetchedAt": "2026-10-22T11:32:17.501Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-21-bauru-sao-jose",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "bauru",
+        "name": "Bauru",
+        "abbr": "BAU",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sao-jose",
+        "name": "Sao Jose",
+        "abbr": "SAO",
+        "logo": null,
+        "score": 68,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-21-sesi-fra--mogi",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "mogi",
+        "name": "Mogi",
+        "abbr": "MOG",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-21-pato-paulist-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "paulist-",
+        "name": "Paulist.",
+        "abbr": "PAU",
+        "logo": null,
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-20-flamengo-botafogo",
       "league": "NBB",
       "status": "final",
@@ -13883,6 +13970,71 @@
   ],
   "news": [
     {
+      "id": "NBB-david-jackson-brilha-em-revanche-contra-",
+      "league": "NBB",
+      "title": "David Jackson shines in rematch against Mogi and analyzes leadership role in Franca",
+      "originalTitle": "David Jackson brilha em revanche contra Mogi e analisa papel de liderança no Franca",
+      "translatedFrom": "pt",
+      "description": "Mogi wins Franca and holds the title of the São Paulo Basketball Championship Highlight of the sixth confrontation between Sesi Franca and Mogi in the season, winger David Jackson commanded the victory of the French team, 90 to 74, on Wednesday night, at Pedrocão gymnasium. At age 43, jersey 32 finished on par",
+      "published": "2026-10-22T10:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/cmVILmCLZk0Sic9XrJY80LC_cZM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/2/0r1A7FR3acFXv3SWy65A/55603346667-818912bdf9-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/22/david-jackson-brilha-em-revanche-contra-mogi-e-analisa-papel-de-lideranca-no-franca.ghtml"
+    },
+    {
+      "id": "NBB-giannis-faz-35-pontos-em-estreia-pelo-he",
+      "league": "NBB",
+      "title": "Giannis makes 35 points debut for the Heat, but Timberwolves win in Miami",
+      "originalTitle": "Giannis faz 35 pontos em estreia pelo Heat, mas Timberwolves vencem em Miami",
+      "translatedFrom": "pt",
+      "description": "Brazilians in the NBA: how can the results of the National Team open doors? Giannis Antetokounmpo started his career in the Miami Heat with a performance of 35 points and six rebounds, but could not avoid the 131-106 loss to the Minnesota Timberwolves on Wednesday (21), for the opening of the season",
+      "published": "2026-10-22T02:48:14.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/64Byyp_zK_4seLa3oSZcakejo6Q=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/u/XrM65uSzKQR0ynLBuALg/2026-10-21t234151z-1615265327-mt1usatoday30148231-rtrmadp-3-nba-minnesota-timberwolves-at-miami-heat.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/giannis-faz-35-pontos-em-estreia-pelo-heat-mas-timberwolves-vencem-em-miami.ghtml"
+    },
+    {
+      "id": "NBB-franca-d-troco-no-mogi-ap-s-vice-no-paul",
+      "league": "NBB",
+      "title": "Franca gives change in Mogi after vice in Paulista and maintains 100% of performance in NBB",
+      "originalTitle": "Franca dá troco no Mogi após vice no Paulista e mantém 100% de aproveitamento no NBB",
+      "translatedFrom": "pt",
+      "description": "Mogi wins Franca and takes the title of the São Paulo Basketball Championship Sesi Franca beat Mogi 90 to 74, on Wednesday night, at Pedrocão, in a game that was valid for the NBB, but was worth as a rematch to the French team, which last week lost the final of the São Paulo Championship justam",
+      "published": "2026-10-22T00:26:33.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/sK1hTCLpEbpJ3wgk_AgYjtAqCiU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/P/f7PzK2RG2dybGUWjhZVA/55604501333-839c6e9dc0-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/21/franca-da-troco-no-mogi-apos-vice-no-paulista-e-mantem-100percent-de-aproveitamento-no-nbb.ghtml"
+    },
+    {
+      "id": "NBB-luka-doncic-assume-protagonismo-no-los-a",
+      "league": "NBB",
+      "title": "Luka Doncic takes the lead in the Los Angeles Lakers without LeBron and dreams of a 1st NBA title",
+      "originalTitle": "Luka Doncic assume protagonismo no Los Angeles Lakers sem LeBron e sonha com 1º título da NBA",
+      "translatedFrom": "pt",
+      "description": "NBA: Luka Doncic takes the lead in the Lakers with the departure of LeBron James Luka Doncic is undeniably one of the great players of his generation in the NBA and takes on a new role in the 2026/2027 season: to be the absolute protagonist of the Los Angeles Lakers. In the franchise since February 2025, Slovenian",
+      "published": "2026-10-21T18:30:05.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/NWHVMH3VQ3TSY8zj1GR_9VXwgNM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/K/l/45pt2fTVSJ2J251ydYaQ/gettyimages-2264625619.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/luka-doncic-assume-protagonismo-no-los-angeles-lakers-sem-lebron-e-sonha-com-1o-titulo-da-nba.ghtml"
+    },
+    {
+      "id": "NBB-doncic-compra-espa-o-em-jornal-para-divu",
+      "league": "NBB",
+      "title": "Doncic buys space in a newspaper to spread a letter to the Lakers' fans: \"Let's give it our all\"",
+      "originalTitle": "Doncic compra espaço em jornal para divulgar carta à torcida dos Lakers: \"Vamos dar tudo de nós\"",
+      "translatedFrom": "pt",
+      "description": "New York Knicks 100-106 Philadelphia 76ers | Top Moments | NBA 2026/2027 Los Angeles Lakers star Luka Doncic bought a full page from the LA Times to promote an open letter to the crowd. In the statement in one of the main news outlets of the city, published before the",
+      "published": "2026-10-21T15:32:02.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/Q37GbWwFV3bevScoW4bBmo-h5lM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/l/V/8Xr2tGTeetBuDMWF4JGw/hvkulpnaiaas78s.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/doncic-compra-espaco-em-jornal-para-divulgar-carta-a-torcida-dos-lakers-vamos-dar-tudo-de-nos.ghtml"
+    },
+    {
       "id": "NBB-gui-santos-com-espa-o-e-splitter-lideran",
       "league": "NBB",
       "title": "Gui Santos with space and Splitter leading the Bulls: what to expect from the Brazilians' NBA season",
@@ -14011,71 +14163,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/jwCtF_1nMPIP8sjjSGfwt4p8gGM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/A/L/idZtUxTZC0IzMSZmrxWA/55600769425-5d2e137a51-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml"
-    },
-    {
-      "id": "NBB-ida-ao-philadelphia-76ers-p-e-lebron-em-",
-      "league": "NBB",
-      "title": "Going to the Philadelphia 76ers puts LeBron on the NBA's “ring hunters” list; understand",
-      "originalTitle": "Ida ao Philadelphia 76ers põe LeBron em lista de \"caçadores de anéis\" da NBA; entenda",
-      "translatedFrom": "pt",
-      "description": "LeBron went to Philadelphia in search of another ring, and Pedro Maia analyzes the star's decision Upon leaving the Los Angeles Lakers a few months ago, LeBron James made it clear that he was looking for one last contract as a professional player. The future of the 41-year-old star has become one of the most",
-      "published": "2026-10-19T17:00:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/TB_MS_GR4dEWuOwEbLPiTwAdyEk=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/p/H/sHZZjeRviOqYmFLCVOaA/2026-10-16t234143z-1055142163-mt1usatoday30101871-rtrmadp-3-nba-preseason-boston-celtics-at-philadelphia-76ers.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/19/ida-ao-philadelphia-76ers-poe-lebron-em-lista-de-cacadores-de-aneis-da-nba-entenda.ghtml"
-    },
-    {
-      "id": "NBB-nbb-flamengo-perde-para-o-bauru-na-estre",
-      "league": "NBB",
-      "title": "NBB: Flamengo loses to Bauru in the opening basket at the last second",
-      "originalTitle": "NBB: Flamengo perde para o Bauru na estreia com cesta no último segundo",
-      "translatedFrom": "pt",
-      "description": "Flamengo 81 x 82 Bauru | Best moments | 1st round | NBB The reformulated Flamengo has the laps of Yago and Didi and the reinforcement of coach Demétrius Ferracciú to retake the NBB title. In Maracanãzinho, the team debuted in the competition on Sunday, with a defeat at the last second by 82 to 81 to",
-      "published": "2026-10-18T16:36:41.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/t6IkQM8rDW5FSGcRjEALKMjNVcw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/n/v/6cPf7oRKe9MSVYVXTwPA/750041-flamengoxbauru-nbb-maracanazinho-18-10-2026-foto-paulareis-flamengo008a9500.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/18/nbb-flamengo-perde-para-o-bauru-na-estreia-com-cesta-no-ultimo-segundo.ghtml"
-    },
-    {
-      "id": "NBB-com-jogo-do-vasco-confirmado-no-maracan-",
-      "league": "NBB",
-      "title": "With Vasco's game confirmed at Maracanã, NBB classic changes stages and will have closed gates",
-      "originalTitle": "Com jogo do Vasco confirmado no Maracanã, clássico do NBB muda de palco e terá portões fechados",
-      "translatedFrom": "pt",
-      "description": "Pedro Maia points out favorites for the NBB 2026/2027 title The classic between Flamengo and Botafogo, for the second round of the NBB, will take place on a different stage than expected. Initially scheduled for Maracanãzinho, next Tuesday's (20) game was transferred to Tijuca Tênis Clube and will have port",
-      "published": "2026-10-17T18:09:49.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/u3iIaxj4j-wvhy7Xh0IQrbii7G4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/7/P/oA0F41Qx2sjAuzzanBVg/747794-flamengoxfluminense-campeonatocarioca-maracanazinho-15-10-2026-foto-paulareis-flamengo008a9869.jpg",
-      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/17/com-confirmacao-de-jogo-do-vasco-no-maracana-classico-do-nbb-muda-de-palco-e-tera-portoes-fechados.ghtml"
-    },
-    {
-      "id": "NBB-comentarista-projeta-dois-favoritos-ao-t",
-      "league": "NBB",
-      "title": "Commentator projects two favorites for the NBB title, which starts this Saturday; see review",
-      "originalTitle": "Comentarista projeta dois favoritos ao título do NBB, que começa neste sábado; veja análise",
-      "translatedFrom": "pt",
-      "description": "Pedro Maia points out favorites for the NBB 2026/2027 title The wait of just over four months has ended. This Saturday (17), three games will decree the beginning of the 19th season of Novo Basquete Brasil (NBB). In all, 18 teams will face each other in turn and return, in a format of running points, with an eye on",
-      "published": "2026-10-17T07:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/JTTsf1fBQolba_i5eV9TizGtqtQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/f/sHr88yQiaZjwmJAZRoqA/snapinsta.to-713463596-18592233067050814-8432888352337586977-n.jpg",
-      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/17/comentarista-aponta-dois-favoritos-ao-titulo-do-nbb-que-comeca-neste-sabado-veja-analise.ghtml"
-    },
-    {
-      "id": "NBB-helinho-exalta-evolu-o-de-jovens-ap-s-vi",
-      "league": "NBB",
-      "title": "Helinho exalts the evolution of young people after Franca's vice and projects NBB with reinforcements",
-      "originalTitle": "Helinho exalta evolução de jovens após vice do Franca e projeta NBB com reforços",
-      "translatedFrom": "pt",
-      "description": "Franca loses to Mogi and takes second place at Paulista Despite the 68-53 defeat at Pedrocão and the São Paulo vice-championship against Mogi das Cruzes – which closed the final series 3-1 last Thursday — coach Helinho Garcia positively evaluated the trajectory of Sesi Franca",
-      "published": "2026-10-16T21:33:33.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/EGXD9lhadnmuQh4j6Ymxr1lLvRs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/t/l/BiQ0aQSWSJyJbbmheeHg/55592334563-1ed21f9338-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/noticia/2026/10/16/helinho-exalta-evolucao-de-jovens-apos-vice-do-franca-e-projeta-nbb-com-reforcos.ghtml"
     }
   ],
   "leaders": {
@@ -14546,8 +14633,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-21T11:32:43.926Z",
-    "news": "2026-10-21T11:32:43.926Z"
+    "games": "2026-10-22T11:32:17.501Z",
+    "news": "2026-10-22T11:32:17.501Z"
   },
   "carriedOver": [
     "teams",

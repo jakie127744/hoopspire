@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-21T11:32:10.349Z",
+  "fetchedAt": "2026-10-22T11:31:55.105Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,64 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-21-qingdao-liaoning",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-21-zhejiang-shandong",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-20-beijing-guangdong",
       "league": "CBA",
       "status": "final",
@@ -16461,7 +16519,7 @@
       }
     },
     {
-      "id": "ab-CBA-2026-10-18-guangzhou-zhejiang",
+      "id": "ab-CBA-2026-10-18-zhejiang-guangzhou",
       "league": "CBA",
       "status": "final",
       "statusDetail": "Final",
@@ -16471,18 +16529,18 @@
       "venue": null,
       "city": null,
       "home": {
-        "id": "guangzhou",
-        "name": "Guangzhou",
-        "abbr": "GUA",
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
         "logo": null,
         "score": 79,
         "linescores": [],
         "leaders": []
       },
       "away": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
         "logo": null,
         "score": 90,
         "linescores": [],
@@ -16764,19 +16822,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/d1c868f6-558e-4f04-a8a4-72c7e732718f_0d75ad94.jpg?itok=UODs24Nk&v=1792403987",
       "url": "https://www.scmp.com/sport/basketball/article/3371387/chinese-basketball-player-barry-wang-tipped-nba-prospect-after-us-university-match"
-    },
-    {
-      "id": "CBA-promisingchineseteenbasketballplayerjoin",
-      "league": "CBA",
-      "title": "Promising Chinese teen basketball player joins top US high school, sparking training debate",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "A top American high school snapping up a talented Chinese teen basketball player once deemed “too short” to represent the national team has sparked debate online about the country’s rigid training and selection criteria. Zhang Yuchen, who has drawn similarities to Golden State Wa",
-      "published": "2026-10-15T06:55:28.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/15/1e6544e5-e3ad-44ac-a4c4-228ea43aec1b_9f6e4dd2.jpg?itok=RqksbHYY&v=1792047320",
-      "url": "https://www.scmp.com/sport/basketball/article/3370976/promising-chinese-teen-basketball-player-joins-top-us-high-school-sparking-training-debate"
     }
   ],
   "leaders": {
@@ -17247,8 +17292,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-21T11:32:10.349Z",
-    "news": "2026-10-21T11:32:10.349Z"
+    "games": "2026-10-22T11:31:55.105Z",
+    "news": "2026-10-22T11:31:55.105Z"
   },
   "carriedOver": [
     "teams",

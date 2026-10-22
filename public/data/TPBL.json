@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-21T11:32:20.899Z",
+  "fetchedAt": "2026-10-22T11:31:58.644Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -375,7 +375,7 @@
         "weight": "80 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/73/K44t7kJLNclJuhuAZ79s0aGFdpkI73OVIqFbNPiD.png?20251022142835"
+        "headshot": "https://assets.tpbl.basketball/production/players/73/lmlSDs3yuZKthOVdgio3iepYp2PFHj2HB4H0PWuC.png?20261022120626"
       },
       {
         "id": "77",
@@ -387,7 +387,7 @@
         "weight": "90 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/77/DJ4mA2r1MlEPypoqvb8CdxRMOA7XgIfmlXCGrwkn.png?20251022142910"
+        "headshot": "https://assets.tpbl.basketball/production/players/77/gf1Ld2CNDc3NYtehirI1iqgrhzHGzsHa3d8vTdmA.png?20261022120756"
       },
       {
         "id": "79",
@@ -399,7 +399,7 @@
         "weight": "88 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/79/pjKB0jlkzrDVsYYBFfHvmn65HJJBtGRXfzJN3Y1s.png?20251022143008"
+        "headshot": "https://assets.tpbl.basketball/production/players/79/c8aKZRfbQYm92sYFIIzHxycmmyzULERYlcX4xUwa.png?20261022120846"
       },
       {
         "id": "83",
@@ -411,7 +411,7 @@
         "weight": "70 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/83/YtIekaaqvIY0JssKmYV5Ljr6J0lt3oqOWJGP0irA.png?20251022143102"
+        "headshot": "https://assets.tpbl.basketball/production/players/83/VUw0gTUput8MOnms1t5RnrPsca2jt9gIC079fORB.png?20261022120929"
       },
       {
         "id": "86",
@@ -423,7 +423,7 @@
         "weight": "70 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/86/OnjLMnyERo3SKobYZ51jkmRQGPdxFXTFfzAdlDjF.png?20251022143134"
+        "headshot": "https://assets.tpbl.basketball/production/players/86/YhfeZSdn2PwcLj4ToFTpIOgdESjt1JkAXFUS0vev.png?20261022121158"
       },
       {
         "id": "91",
@@ -435,7 +435,7 @@
         "weight": "85 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/91/6IShsBvH6QwvSAx0zCOHzyznHmvMdIOxnLNcxryC.png?20251022143207"
+        "headshot": "https://assets.tpbl.basketball/production/players/91/OmaAriIC2sMZ9sQIKWFKimIeTrrWyJsMnf4h58fI.png?20261022121227"
       },
       {
         "id": "10889",
@@ -459,7 +459,7 @@
         "weight": "93 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/103/WvKhcbQz8Id3hIM9jYmqvyd1THllQZTiuqbZuel6.png?20251022143416"
+        "headshot": "https://assets.tpbl.basketball/production/players/103/YDdLAGuoaMBKjxMZvPnwOH53JdGtMpkg4IGPTnWb.png?20261022121855"
       },
       {
         "id": "95",
@@ -471,7 +471,7 @@
         "weight": "105 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/95/G7c8FwplLzyaS0apAj6Gf7RKhNQwtgYZ1DtcQCB9.png?20251022143449"
+        "headshot": "https://assets.tpbl.basketball/production/players/95/ujxx2xWRvU4dfBMOQHrelgPxiHOLrHxADYdox3zl.png?20261022121254"
       },
       {
         "id": "97",
@@ -483,7 +483,7 @@
         "weight": "80 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/97/K2jqqO63CAnZNkxpZ7oeQ1xUq1isIxi4j7yzlnV6.png?20251022143518"
+        "headshot": "https://assets.tpbl.basketball/production/players/97/y0Q04nKdHkLoTsvDEfJ7G6fdKgIcl9tPvJ7h5hlQ.png?20261022121327"
       },
       {
         "id": "99",
@@ -495,7 +495,7 @@
         "weight": "90 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/99/MbT3LRDBlnFNrgudUAd8jknEtBYyY1XePiNkIiLK.png?20251022143745"
+        "headshot": "https://assets.tpbl.basketball/production/players/99/3QVzXfijKyhoJNVZzJ4czKqQFuOd0rQCBNjyYeiD.png?20261022121353"
       },
       {
         "id": "10890",
@@ -507,7 +507,7 @@
         "weight": "105 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10890/QDFRUn3bdqRYGTf2KxWRNZRkUqeiRh5vUu7YjOmo.png?20251022144117"
+        "headshot": "https://assets.tpbl.basketball/production/players/10890/aYNS3i6oDFEgTyOaDsl3cQYlhrt7mpsK0quvdGD2.png?20261022121433"
       },
       {
         "id": "106",
@@ -519,7 +519,7 @@
         "weight": "107 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/106/IdUawtmB2Nbr66kI0iJBePFDXv2SYIK21djV3QHa.png?20251022144308"
+        "headshot": "https://assets.tpbl.basketball/production/players/106/vGBEpgnC5tUyWyM7KoAr5g67nVXy2q9ZnM9N6Ozx.png?20261022121515"
       },
       {
         "id": "107",
@@ -531,7 +531,7 @@
         "weight": "100 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/107/qgeF6MEG2m9ephBUaOL8oRBMUh5BNAlxw6IMQMFx.png?20251022144416"
+        "headshot": "https://assets.tpbl.basketball/production/players/107/PRfo78S71dD8FOrP1m0y5Q6B3AbJdTkJpSJxEzBK.png?20261022150549"
       },
       {
         "id": "89",
@@ -543,7 +543,7 @@
         "weight": "75 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/89/Swn8HQ9HkmcAHyIMHW9fChfMqF50rGrVpisJM0GS.png?20251022144442"
+        "headshot": "https://assets.tpbl.basketball/production/players/89/ZrfSNMkk8PPL9wXZUy11Pjk68sdowSzzhuPYg3oC.png?20261022121823"
       },
       {
         "id": "13777",
@@ -567,7 +567,7 @@
         "weight": "107 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/13906/bhjPUA4j49SYxeHUipM67NxAL5xcBvG05HluZvi7.png?20260326115559"
+        "headshot": "https://assets.tpbl.basketball/production/players/13906/4RrktL9szedcsy5jgQMbWa7SYzZl8gIkCN9wUz2l.png?20261022121926"
       },
       {
         "id": "101",
@@ -579,7 +579,7 @@
         "weight": "98 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/101/2wTK0rDQWhLUsDVTZ8YwVkI2Itbv67GCeoLdSeDc.png?20251022144520"
+        "headshot": "https://assets.tpbl.basketball/production/players/101/o5bCtVVPr0f0eUt25eWiMY3ndTjunxYG0a1oWJRa.png?20261022121956"
       }
     ],
     "4": [
@@ -1585,7 +1585,7 @@
         "weight": "101 kg",
         "age": null,
         "country": null,
-        "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215"
+        "headshot": "https://assets.tpbl.basketball/production/players/10869/LLWabZeCmctRmtXWYTacwywDhxgaGpAXNeeLVT09.png?20261022121005"
       },
       {
         "id": "5",
@@ -1755,7 +1755,7 @@
       "height": "190 cm",
       "weight": "80 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/97/K2jqqO63CAnZNkxpZ7oeQ1xUq1isIxi4j7yzlnV6.png?20251022143518",
+      "headshot": "https://assets.tpbl.basketball/production/players/97/y0Q04nKdHkLoTsvDEfJ7G6fdKgIcl9tPvJ7h5hlQ.png?20261022121327",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 11,
@@ -2163,7 +2163,7 @@
       "height": "174 cm",
       "weight": "75 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/89/Swn8HQ9HkmcAHyIMHW9fChfMqF50rGrVpisJM0GS.png?20251022144442",
+      "headshot": "https://assets.tpbl.basketball/production/players/89/ZrfSNMkk8PPL9wXZUy11Pjk68sdowSzzhuPYg3oC.png?20261022121823",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 36,
@@ -2211,7 +2211,7 @@
       "height": "204 cm",
       "weight": "107 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/13906/bhjPUA4j49SYxeHUipM67NxAL5xcBvG05HluZvi7.png?20260326115559",
+      "headshot": "https://assets.tpbl.basketball/production/players/13906/4RrktL9szedcsy5jgQMbWa7SYzZl8gIkCN9wUz2l.png?20261022121926",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 18,
@@ -2475,7 +2475,7 @@
       "height": "198 cm",
       "weight": "98 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/101/2wTK0rDQWhLUsDVTZ8YwVkI2Itbv67GCeoLdSeDc.png?20251022144520",
+      "headshot": "https://assets.tpbl.basketball/production/players/101/o5bCtVVPr0f0eUt25eWiMY3ndTjunxYG0a1oWJRa.png?20261022121956",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 18,
@@ -2547,7 +2547,7 @@
       "height": "208 cm",
       "weight": "105 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10890/QDFRUn3bdqRYGTf2KxWRNZRkUqeiRh5vUu7YjOmo.png?20251022144117",
+      "headshot": "https://assets.tpbl.basketball/production/players/10890/aYNS3i6oDFEgTyOaDsl3cQYlhrt7mpsK0quvdGD2.png?20261022121433",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 20,
@@ -2859,7 +2859,7 @@
       "height": "196 cm",
       "weight": "93 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/103/WvKhcbQz8Id3hIM9jYmqvyd1THllQZTiuqbZuel6.png?20251022143416",
+      "headshot": "https://assets.tpbl.basketball/production/players/103/YDdLAGuoaMBKjxMZvPnwOH53JdGtMpkg4IGPTnWb.png?20261022121855",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 35,
@@ -2883,7 +2883,7 @@
       "height": "183 cm",
       "weight": "80 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/73/K44t7kJLNclJuhuAZ79s0aGFdpkI73OVIqFbNPiD.png?20251022142835",
+      "headshot": "https://assets.tpbl.basketball/production/players/73/lmlSDs3yuZKthOVdgio3iepYp2PFHj2HB4H0PWuC.png?20261022120626",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 8,
@@ -3291,7 +3291,7 @@
       "height": "185 cm",
       "weight": "90 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/99/MbT3LRDBlnFNrgudUAd8jknEtBYyY1XePiNkIiLK.png?20251022143745",
+      "headshot": "https://assets.tpbl.basketball/production/players/99/3QVzXfijKyhoJNVZzJ4czKqQFuOd0rQCBNjyYeiD.png?20261022121353",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 31,
@@ -3387,7 +3387,7 @@
       "height": "200 cm",
       "weight": "105 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/95/G7c8FwplLzyaS0apAj6Gf7RKhNQwtgYZ1DtcQCB9.png?20251022143449",
+      "headshot": "https://assets.tpbl.basketball/production/players/95/ujxx2xWRvU4dfBMOQHrelgPxiHOLrHxADYdox3zl.png?20261022121254",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 17,
@@ -3435,7 +3435,7 @@
       "height": "201 cm",
       "weight": "90 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/77/DJ4mA2r1MlEPypoqvb8CdxRMOA7XgIfmlXCGrwkn.png?20251022142910",
+      "headshot": "https://assets.tpbl.basketball/production/players/77/gf1Ld2CNDc3NYtehirI1iqgrhzHGzsHa3d8vTdmA.png?20261022120756",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 23,
@@ -3531,7 +3531,7 @@
       "height": "192 cm",
       "weight": "88 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/79/pjKB0jlkzrDVsYYBFfHvmn65HJJBtGRXfzJN3Y1s.png?20251022143008",
+      "headshot": "https://assets.tpbl.basketball/production/players/79/c8aKZRfbQYm92sYFIIzHxycmmyzULERYlcX4xUwa.png?20261022120846",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 31,
@@ -3771,7 +3771,7 @@
       "height": "213 cm",
       "weight": "107 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/106/IdUawtmB2Nbr66kI0iJBePFDXv2SYIK21djV3QHa.png?20251022144308",
+      "headshot": "https://assets.tpbl.basketball/production/players/106/vGBEpgnC5tUyWyM7KoAr5g67nVXy2q9ZnM9N6Ozx.png?20261022121515",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 23,
@@ -4251,7 +4251,7 @@
       "height": "174 cm",
       "weight": "70 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/83/YtIekaaqvIY0JssKmYV5Ljr6J0lt3oqOWJGP0irA.png?20251022143102",
+      "headshot": "https://assets.tpbl.basketball/production/players/83/VUw0gTUput8MOnms1t5RnrPsca2jt9gIC079fORB.png?20261022120929",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 19,
@@ -4611,7 +4611,7 @@
       "height": "208 cm",
       "weight": "100 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/107/qgeF6MEG2m9ephBUaOL8oRBMUh5BNAlxw6IMQMFx.png?20251022144416",
+      "headshot": "https://assets.tpbl.basketball/production/players/107/PRfo78S71dD8FOrP1m0y5Q6B3AbJdTkJpSJxEzBK.png?20261022150549",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 28,
@@ -4659,7 +4659,7 @@
       "height": "175 cm",
       "weight": "70 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/86/OnjLMnyERo3SKobYZ51jkmRQGPdxFXTFfzAdlDjF.png?20251022143134",
+      "headshot": "https://assets.tpbl.basketball/production/players/86/YhfeZSdn2PwcLj4ToFTpIOgdESjt1JkAXFUS0vev.png?20261022121158",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 29,
@@ -4827,7 +4827,7 @@
       "height": "186 cm",
       "weight": "85 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/91/6IShsBvH6QwvSAx0zCOHzyznHmvMdIOxnLNcxryC.png?20251022143207",
+      "headshot": "https://assets.tpbl.basketball/production/players/91/OmaAriIC2sMZ9sQIKWFKimIeTrrWyJsMnf4h58fI.png?20261022121227",
       "teamId": "3",
       "teamName": "Dreamers",
       "gamesPlayed": 20,
@@ -4875,7 +4875,7 @@
       "height": "202 cm",
       "weight": "101 kg",
       "country": null,
-      "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215",
+      "headshot": "https://assets.tpbl.basketball/production/players/10869/LLWabZeCmctRmtXWYTacwywDhxgaGpAXNeeLVT09.png?20261022121005",
       "teamId": "8",
       "teamName": "Mars",
       "gamesPlayed": 17,
@@ -5476,7 +5476,7 @@
       {
         "name": "基德",
         "playerId": "10869",
-        "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215",
+        "headshot": "https://assets.tpbl.basketball/production/players/10869/LLWabZeCmctRmtXWYTacwywDhxgaGpAXNeeLVT09.png?20261022121005",
         "team": "Mars",
         "teamId": "8",
         "value": "21.3",
@@ -5503,7 +5503,7 @@
       {
         "name": "Benjamin Bentil",
         "playerId": "13906",
-        "headshot": "https://assets.tpbl.basketball/production/players/13906/bhjPUA4j49SYxeHUipM67NxAL5xcBvG05HluZvi7.png?20260326115559",
+        "headshot": "https://assets.tpbl.basketball/production/players/13906/4RrktL9szedcsy5jgQMbWa7SYzZl8gIkCN9wUz2l.png?20261022121926",
         "team": "Dreamers",
         "teamId": "3",
         "value": "18.9",
@@ -5577,7 +5577,7 @@
       {
         "name": "Aric Holman",
         "playerId": "107",
-        "headshot": "https://assets.tpbl.basketball/production/players/107/qgeF6MEG2m9ephBUaOL8oRBMUh5BNAlxw6IMQMFx.png?20251022144416",
+        "headshot": "https://assets.tpbl.basketball/production/players/107/PRfo78S71dD8FOrP1m0y5Q6B3AbJdTkJpSJxEzBK.png?20261022150549",
         "team": "Dreamers",
         "teamId": "3",
         "value": "11.3",
@@ -5586,7 +5586,7 @@
       {
         "name": "Benjamin Bentil",
         "playerId": "13906",
-        "headshot": "https://assets.tpbl.basketball/production/players/13906/bhjPUA4j49SYxeHUipM67NxAL5xcBvG05HluZvi7.png?20260326115559",
+        "headshot": "https://assets.tpbl.basketball/production/players/13906/4RrktL9szedcsy5jgQMbWa7SYzZl8gIkCN9wUz2l.png?20261022121926",
         "team": "Dreamers",
         "teamId": "3",
         "value": "10.8",
@@ -5696,7 +5696,7 @@
       {
         "name": "Chiang Yu-An",
         "playerId": "89",
-        "headshot": "https://assets.tpbl.basketball/production/players/89/Swn8HQ9HkmcAHyIMHW9fChfMqF50rGrVpisJM0GS.png?20251022144442",
+        "headshot": "https://assets.tpbl.basketball/production/players/89/ZrfSNMkk8PPL9wXZUy11Pjk68sdowSzzhuPYg3oC.png?20261022121823",
         "team": "Dreamers",
         "teamId": "3",
         "value": "4.2",
@@ -5734,7 +5734,7 @@
       {
         "name": "湯普金斯",
         "playerId": "10890",
-        "headshot": "https://assets.tpbl.basketball/production/players/10890/QDFRUn3bdqRYGTf2KxWRNZRkUqeiRh5vUu7YjOmo.png?20251022144117",
+        "headshot": "https://assets.tpbl.basketball/production/players/10890/aYNS3i6oDFEgTyOaDsl3cQYlhrt7mpsK0quvdGD2.png?20261022121433",
         "team": "Dreamers",
         "teamId": "3",
         "value": "1.8",
@@ -5788,7 +5788,7 @@
       {
         "name": "基德",
         "playerId": "10869",
-        "headshot": "https://assets.tpbl.basketball/production/players/10869/50tBGVq3m40NnJzLZpecPlNDuv2ZXT1ALwVvD8AR.png?20261014172215",
+        "headshot": "https://assets.tpbl.basketball/production/players/10869/LLWabZeCmctRmtXWYTacwywDhxgaGpAXNeeLVT09.png?20261022121005",
         "team": "Mars",
         "teamId": "8",
         "value": "1.5",
@@ -5808,7 +5808,7 @@
       {
         "name": "Brandon Gilbeck",
         "playerId": "106",
-        "headshot": "https://assets.tpbl.basketball/production/players/106/IdUawtmB2Nbr66kI0iJBePFDXv2SYIK21djV3QHa.png?20251022144308",
+        "headshot": "https://assets.tpbl.basketball/production/players/106/vGBEpgnC5tUyWyM7KoAr5g67nVXy2q9ZnM9N6Ozx.png?20261022121515",
         "team": "Dreamers",
         "teamId": "3",
         "value": "2.0",
@@ -5817,7 +5817,7 @@
       {
         "name": "Aric Holman",
         "playerId": "107",
-        "headshot": "https://assets.tpbl.basketball/production/players/107/qgeF6MEG2m9ephBUaOL8oRBMUh5BNAlxw6IMQMFx.png?20251022144416",
+        "headshot": "https://assets.tpbl.basketball/production/players/107/PRfo78S71dD8FOrP1m0y5Q6B3AbJdTkJpSJxEzBK.png?20261022150549",
         "team": "Dreamers",
         "teamId": "3",
         "value": "1.6",
@@ -5898,12 +5898,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-21T11:32:20.899Z",
-    "rosters": "2026-10-21T11:32:20.899Z",
-    "playerStats": "2026-10-21T11:32:20.899Z",
-    "standings": "2026-10-21T11:32:20.899Z",
-    "games": "2026-10-21T11:32:20.899Z",
-    "news": "2026-10-21T11:32:20.899Z",
-    "leaders": "2026-10-21T11:32:20.899Z"
+    "teams": "2026-10-22T11:31:58.644Z",
+    "rosters": "2026-10-22T11:31:58.644Z",
+    "playerStats": "2026-10-22T11:31:58.644Z",
+    "standings": "2026-10-22T11:31:58.644Z",
+    "games": "2026-10-22T11:31:58.644Z",
+    "news": "2026-10-22T11:31:58.644Z",
+    "leaders": "2026-10-22T11:31:58.644Z"
   }
 }
