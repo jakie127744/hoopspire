@@ -8,6 +8,7 @@ import { SectionHead, Loading, Empty, Eyebrow } from '../components/Primitives.j
 import { shortName } from '../lib/format.js'
 import { playerHref } from '../lib/players.js'
 import { useMeta } from '../lib/meta.js'
+import { useLeagueParam } from '../lib/useLeagueParam.js'
 
 const CATEGORIES = [
   { key: 'avgPoints', label: 'PPG', title: 'Points per game' },
@@ -85,7 +86,7 @@ function LeadersTable({ rows, label, leagueKey }) {
 
 export default function Stats() {
   useMeta({ title: 'Stats', description: 'Player leaders and league standings across thirteen basketball competitions, from season averages to the current playoff picture.', noindex: true })
-  const [leagueKey, setLeagueKey] = useState('NBA')
+  const [leagueKey, setLeagueKey] = useLeagueParam('NBA')
   const [cat, setCat] = useState('avgPoints')
   const league = getLeague(leagueKey)
 
@@ -98,7 +99,7 @@ export default function Stats() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">{league?.region} · The Ledger</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">{league?.name} Stats</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">{league?.name} Stats</h1>
       <p className="mt-2 text-lg text-ink/60">{league?.fullName}</p>
 
       <div className="no-scrollbar mt-8 flex gap-2 overflow-x-auto border-b border-parchment pb-4">

@@ -1,34 +1,13 @@
-import { NavLink, useParams, Link } from 'react-router-dom'
-import { getLeague, LEAGUES } from '../lib/leagues.js'
+import { useParams, Link } from 'react-router-dom'
+import { getLeague } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getGames, getStandings } from '../lib/api.js'
 import { getOriginals } from '../lib/articles.js'
-import ArticleCard from '../components/ArticleCard.jsx'
-import ScoreCard from '../components/ScoreCard.jsx'
+import { HeroStory, FeedCard, RailCard } from '../components/NewsBlocks.jsx'
 import StandingsPanel from '../components/StandingsPanel.jsx'
-import { SectionHead, Empty, Eyebrow } from '../components/Primitives.jsx'
+import { SectionHead, TeamLogo } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
-
-export function LeagueRail({ current }) {
-  return (
-    <div className="no-scrollbar flex gap-2 overflow-x-auto border-b border-parchment pb-4">
-      {LEAGUES.map((l) => (
-        <NavLink
-          key={l.key}
-          to={`/league/${l.slug}`}
-          className={`shrink-0 border px-4 py-2 transition-colors ${
-            current === l.key
-              ? 'border-ink bg-ink text-cream'
-              : 'border-parchment hover:border-ink'
-          }`}
-        >
-          <Eyebrow>{l.name}</Eyebrow>
-        </NavLink>
-      ))}
-    </div>
-  )
-}
 
 export default function League() {
   const { key } = useParams()
@@ -59,99 +38,124 @@ export default function League() {
     )
   }
 
-  // Originals only, read straight from the bundle. This used to go through
-  // getNews, which also fetches the wire only for the page to throw it away —
-  // and being async, it left the prerendered page with a loading state where
-  // the league's articles should be.
-  const stories = league ? getOriginals(league.key, 9) : []
-  const lead = stories[0]
-  const rest = stories.slice(1)
-  const finals = (games || []).filter((g) => g.status !== 'scheduled').slice(0, 4)
+  // Originals only, read straight from the bundle, so the prerendered page
+  // has the league's stories in it rather than a loading state.
+  const stories = getOriginals(league.key, 15)
+  const [lead, ...rest] = stories
+  const finals = (games || [])
+    .filter((g) => g.status !== 'scheduled')
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, 6)
   const upcoming = (games || [])
-    .filter((g) => g.status === 'scheduled')
+    .filter((g) => g.status === 'scheduled' && new Date(g.date).getTime() > Date.now() - 3 * 3600_000)
     .sort((a, b) => new Date(a.date) - new Date(b.date))
-    .slice(0, 5)
+    .slice(0, 6)
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
-      <Eyebrow className="text-crimson">{league.region}</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">{league.name}</h1>
-      <p className="mt-2 text-lg text-ink/60">{league.fullName}</p>
+    <div className="mx-auto max-w-[1440px] px-3 py-4 sm:px-4 md:py-5">
+      <h1 className="sr-only">
+        {league.name} — {league.fullName}
+      </h1>
 
-      <div className="mt-8">
-        <LeagueRail current={league.key} />
-      </div>
-
-      <div className="mt-14 grid gap-12 lg:grid-cols-[1.6fr_1fr]">
-        <div>
+      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_20rem] xl:gap-5">
+        <div className="min-w-0 space-y-4">
           {lead ? (
             <>
-              <ArticleCard article={lead} variant="lead" />
-              {rest.length > 0 && (
-                <div className="mt-12">
-                  <SectionHead title={`More from ${league.name}`} />
-                  <div className="grid gap-6 sm:grid-cols-2">
-                    {rest.map((a) => (
-                      <ArticleCard key={a.id} article={a} />
-                    ))}
-                  </div>
-                </div>
-              )}
+              <HeroStory article={lead} more={rest.slice(0, 3)} />
+              {rest.slice(3).map((a) => (
+                <FeedCard key={a.id} article={a} />
+              ))}
             </>
           ) : (
-            <Empty title={`Nothing written on ${league.name} yet.`} />
+            <div className="card p-6">
+              <p className="text-lg font-bold">Nothing written on the {league.name} yet.</p>
+              <p className="mt-1 text-sm text-ink/60">
+                Scores, standings and rosters are below and in the menu above.
+              </p>
+            </div>
           )}
         </div>
 
-        <aside className="space-y-12">
-          <div>
-            <Eyebrow className="text-ink/45">Recent Results</Eyebrow>
-            <div className="mt-3 space-y-4">
-              {finals.length ? (
-                finals.map((g) => <ScoreCard key={g.id} game={g} />)
-              ) : (
-                <Empty title="No results yet." />
-              )}
-            </div>
-          </div>
-
-          {upcoming.length > 0 && (
-            <div>
-              <Eyebrow className="text-ink/45">Upcoming</Eyebrow>
-              <ul className="mt-3 divide-y divide-parchment border-t border-parchment">
-                {upcoming.map((g) => (
-                  <li key={g.id} className="py-3">
-                    <Link to={`/game/${g.league}/${g.id}`} className="block hover:text-crimson">
-                      <p className="eyebrow">
-                        {g.away?.abbr || g.away?.name} @ {g.home?.abbr || g.home?.name}
-                      </p>
-                      <p className="mt-1 text-xs text-ink/45">
-                        {formatDate(g.date)} · {g.venue || g.city || 'Venue TBD'}
-                      </p>
-                    </Link>
-                  </li>
+        <aside className="min-w-0 space-y-4">
+          <RailCard
+            title="Recent Results"
+            action={
+              <Link to={`/scores?league=${league.key}`} className="text-xs font-bold text-crimson hover:underline">
+                Scoreboard
+              </Link>
+            }
+          >
+            {finals.length ? (
+              <ul>
+                {finals.map((g) => (
+                  <GameRow key={g.id} game={g} />
                 ))}
               </ul>
-            </div>
+            ) : (
+              <p className="px-4 py-4 text-sm text-ink/55">No results yet.</p>
+            )}
+          </RailCard>
+
+          {upcoming.length > 0 && (
+            <RailCard title="Upcoming">
+              <ul>
+                {upcoming.map((g) => (
+                  <GameRow key={g.id} game={g} />
+                ))}
+              </ul>
+            </RailCard>
           )}
+
+          <div className="card flex items-center gap-3 p-4">
+            {league.logo && <img src={league.logo} alt="" className="h-10 w-10 object-contain" />}
+            <div className="min-w-0">
+              <p className="text-sm font-extrabold">{league.fullName}</p>
+              <p className="text-xs text-ink/55">{league.region}</p>
+            </div>
+          </div>
         </aside>
       </div>
 
-      <section className="mt-20">
+      <section id="standings" className="card mt-5 scroll-mt-20 p-4 md:p-5">
         <SectionHead
           title={`${league.name} Standings`}
           action={
-            <Link to="/stats" className="eyebrow text-crimson hover:underline">
-              Full Stats →
+            <Link to={`/stats?league=${league.key}`} className="text-xs font-bold text-crimson hover:underline">
+              Full Stats
             </Link>
           }
         >
-          {standings?.seasonLabel && (
-            <span className="eyebrow text-ink/40">{standings.seasonLabel}</span>
-          )}
+          {standings?.seasonLabel && <span className="text-xs font-semibold text-ink/45">{standings.seasonLabel}</span>}
         </SectionHead>
         <StandingsPanel league={league} />
       </section>
     </div>
+  )
+}
+
+/** One game as a rail row: both teams, the score or the tip time. */
+function GameRow({ game: g }) {
+  const played = g.status !== 'scheduled'
+  const h = Number(g.home?.score ?? 0)
+  const a = Number(g.away?.score ?? 0)
+  const team = (t, score, won) => (
+    <span className={`flex items-center gap-2 ${played && !won ? 'text-ink/50' : ''}`}>
+      <TeamLogo team={t} size={18} />
+      <span className="flex-1 truncate text-sm font-bold">{t?.shortName || t?.name || 'TBD'}</span>
+      {played && <span className="tabular text-sm font-extrabold">{score ?? '–'}</span>}
+    </span>
+  )
+  return (
+    <li className="border-b border-parchment last:border-0">
+      <Link to={`/game/${g.league}/${g.id}`} className="flex items-center gap-3 px-4 py-2.5 hover:bg-cream">
+        <span className="min-w-0 flex-1 space-y-1">
+          {team(g.away, g.away?.score, a > h)}
+          {team(g.home, g.home?.score, h > a)}
+        </span>
+        <span className="w-16 shrink-0 border-l border-parchment pl-3 text-right text-[0.6875rem] font-bold uppercase text-ink/55">
+          {g.status === 'final' ? 'Final' : g.status === 'live' ? <span className="text-crimson">Live</span> : formatDate(g.date)}
+        </span>
+      </Link>
+    </li>
   )
 }

@@ -163,7 +163,7 @@ export default function Player() {
             {p.position ? ` · ${p.position}` : ''}
             {p.jersey ? ` · #${p.jersey}` : ''}
           </Eyebrow>
-          <h1 className="mt-2 text-5xl leading-none md:text-6xl">{p.name}</h1>
+          <h1 className="mt-2 text-4xl leading-none md:text-5xl">{p.name}</h1>
           {p.nameLocal && <p className="mt-2 text-ink/50">{p.nameLocal}</p>}
           {p.team &&
             (p.team.id ? (

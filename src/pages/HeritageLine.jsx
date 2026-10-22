@@ -41,7 +41,7 @@ export default function HeritageLine() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-14 md:px-8">
       <Eyebrow className="text-gold">The scouting desk</Eyebrow>
-      <h1 className="mt-3 text-6xl md:text-7xl">Heritage Line</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">Heritage Line</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Young players growing up outside the country they could represent. Every player here has
         a verified tie to that country, through a passport, a parent or a grandparent, and every

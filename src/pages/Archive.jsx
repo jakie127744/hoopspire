@@ -268,7 +268,7 @@ export default function Archive() {
   return (
     <div className="mx-auto max-w-5xl px-4 py-14 md:px-8">
       <Eyebrow className="text-crimson">Search the ledger</Eyebrow>
-      <h1 className="mt-3 text-5xl md:text-6xl">Archive</h1>
+      <h1 className="mt-3 text-4xl md:text-5xl">Archive</h1>
       <p className="mt-4 max-w-2xl text-lg text-ink/65">
         Every piece we have published — {index.length} so far — across all three desks, and
         every player and team with a page in the ledger.
