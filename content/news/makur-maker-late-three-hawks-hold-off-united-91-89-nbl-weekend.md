@@ -82,3 +82,5 @@ Wildcats: Dylan Windler 19, Jimmy Whitt 15, Anthony Dell'Orso 13, Brandon Knight
 ## What is next
 
 Tasmania host Brisbane on Wednesday, October 21. The Hawks host the Kings on Thursday and Brisbane on Saturday. United travel to Perth on Friday, the Phoenix host Adelaide on Saturday, and on Sunday the Breakers visit Cairns and the Kings visit Melbourne.
+
+Update: [Tasmania beat a short-handed Brisbane 106-85 on Wednesday to stay top](/story/jackjumpers-beat-short-handed-bullets-106-85-bannan-22-stay-top-neto-debut).
