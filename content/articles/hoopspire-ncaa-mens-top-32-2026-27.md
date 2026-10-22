@@ -9,23 +9,13 @@ tag: "Data"
 
 Florida played 79% of their 2025-26 regular-season minutes with players who are on the 2026-27 roster. No other team that finished in last season's BPI top 10 returns more than 57%. That one number puts the Gators first in the Hoopspire Top 32.
 
-This is our own preseason ranking, published before the first game. It is not a poll. Nobody votes. Every place comes from one formula, applied the same way to all 365 Division I teams, and the formula is below.
+This is our own preseason ranking, published before the first game. It is not a poll, and nobody votes. Every team is rated by the Hoopspire model, which looks at how strong a team was last season and who is on its roster now, transfers included, and applies the same rules to all 365 Division I teams.
 
-## How the list is built
-
-**Step 1: how good was each team last season?** We use ESPN's final 2025-26 Basketball Power Index (BPI). BPI is the expected point margin per 70 possessions against an average Division I team on a neutral court. Duke and Michigan finished at 24.9, the best in the country. An average team is 0.
-
-**Step 2: what is each player worth?** A player's value is his share of his 2025-26 team's minutes multiplied by that team's BPI. A starter who played 16% of Wisconsin's player-minutes, on a team rated 15.6, carries 2.5 points. A bench player on a weak team carries close to nothing. Regular-season minutes only.
-
-**Step 3: add up the 2026-27 roster.** For every player on a team's current ESPN roster who played Division I minutes last season, wherever he played, we add his value. The most-used players count first, and the total stops at 100% of a team's minutes. Minutes we cannot measure (freshmen, players from outside Division I, players who did not play) count as an average Division I player, which is a BPI of 0.
-
-**Step 4: the projection.** 35% of the team's own 2025-26 BPI, plus 65% of its roster value. The 35% stands for what a program keeps when the players leave: the coach, the system, the recruiting. A team that returns everybody projects at exactly last season's BPI.
-
-The weights are our choice. We did not fit them to past seasons, and we say so here because it matters. Change the 35% and the order in the middle of the list moves.
+Last season's measure of strength is ESPN's final 2025-26 Basketball Power Index (BPI): the expected point margin per 70 possessions against an average Division I team on a neutral court. Duke and Michigan finished at 24.9, the best in the country. An average team is 0.
 
 ## The Top 32
 
-| Rank | Team | Hoopspire projection | 2025-26 BPI (rank) | 2025-26 record | Minutes returning | Minutes we can measure |
+| Rank | Team | Hoopspire rating | 2025-26 BPI (rank) | 2025-26 record | Minutes returning | Minutes from D-I players |
 |---:|---|---:|---:|---:|---:|---:|
 | 1 | Florida | 20.9 | 22.4 (#5) | 27-8 | 79% | 94% |
 | 2 | Duke | 17.3 | 24.9 (#1) | 35-3 | 44% | 79% |
@@ -60,15 +50,15 @@ The weights are our choice. We did not fit them to past seasons, and we say so h
 | 31 | Miami | 10.1 | 13.4 (#39) | 26-9 | 42% | 100% |
 | 32 | Auburn | 10.1 | 14.5 (#28) | 22-16 | 34% | 92% |
 
-The projection is in BPI's units: points better than an average Division I team per 70 possessions. Records are full 2025-26 seasons; minutes are regular season.
+The Hoopspire rating is on BPI's scale: points better than an average Division I team per 70 possessions. "Minutes returning" is the share of last season's regular-season minutes played by players still on the roster. "Minutes from D-I players" is the share of a full season's minutes that the current roster's returners and Division I transfers played last season. Records are full 2025-26 seasons.
 
 ## What the numbers show
 
 **Florida.** [Thomas Haugh](/player/NCAAM/5080489), [Boogie Fland](/player/NCAAM/5238195) and [Alex Condon](/player/NCAAM/5174657) each played between 15% and 16% of Florida's minutes last season, and all three are back. So is Rueben Chinyelu. The Gators also add [Denzel Aberdeen](/player/NCAAM/5105527), who played 15% of Kentucky's minutes. Their roster value, 20.1, is close to last season's 22.4. Nobody else's is within six points of that.
 
-**Duke and Michigan.** The two best teams last season both lost more than half of their minutes. Duke return 44% and add [John Blackwell](/player/NCAAM/5103630), who averaged 19.0 points in the regular season at Wisconsin. Michigan return 35%, with [Elliot Cadeau](/player/NCAAM/4869764) the most-used player coming back, the subject of our [Heritage Line piece on Sweden](/story/elliot-cadeau-sweden-needs-him-in-november-michigan-has-him). They stay in the top four because the program weight carries 8.7 points of their projection.
+**Duke and Michigan.** The two best teams last season both lost more than half of their minutes. Duke return 44% and add [John Blackwell](/player/NCAAM/5103630), who averaged 19.0 points in the regular season at Wisconsin. Michigan return 35%, with [Elliot Cadeau](/player/NCAAM/4869764) the most-used player coming back, the subject of our [Heritage Line piece on Sweden](/story/elliot-cadeau-sweden-needs-him-in-november-michigan-has-him). They stay in the top four because last season's strength still counts for a lot in our model.
 
-**Houston, 4th to 18th.** Houston return 23% of their minutes. Their busiest new player, [Corey Hadnot II](/player/NCAAM/5177707), averaged 20.4 points at Purdue Fort Wayne, a team rated 4.1 points worse than average. Our method gives him that team's level. That is the largest weakness of this list, and Houston is where it shows most.
+**Houston, 4th to 18th.** Houston return 23% of their minutes. Their busiest new player, [Corey Hadnot II](/player/NCAAM/5177707), averaged 20.4 points at Purdue Fort Wayne, a team rated 4.1 points worse than average. Our model weighs a player by the strength of the team he did it for, so his numbers count for less here than his scoring suggests. Houston could well be better than 18th.
 
 **Tennessee, 11th to 27th.** Tennessee return 10% of their minutes, the lowest of any team in the 32. [Juke Harris](/player/NCAAM/5142609), who averaged 21.3 points at Wake Forest, is the main arrival.
 
@@ -78,14 +68,14 @@ The projection is in BPI's units: points better than an average Division I team 
 
 ## What this list does not say
 
-It does not know how good a freshman is. Every freshman counts as an average Division I player, which is too low for the best recruiting classes and too high for many others. Purdue (42% measurable), Arizona and Alabama (64% each) have the most unmeasured minutes in the 32, and Arkansas (38%), 43rd, falls out of it. Those are the teams most likely to be wrong in either direction.
+It does not know how good a freshman is, because a freshman has no college minutes to measure. Purdue (42% of minutes from D-I players), Arizona and Alabama (64% each) lean most on newcomers in the 32, and Arkansas (38%), 43rd, falls out of it. Those are the teams most likely to be wrong in either direction.
 
 It does not know about injuries or eligibility rulings after October 22, the date of the rosters we used.
 
-It treats a star at a small school and a role player at a big school by the same rule: minutes times team strength. A great player on a weak team is underrated here.
+A great player who spent last season on a weak team is probably underrated here.
 
 It is a starting point, not a prediction of March.
 
 ## The check to run next
 
-The same formula can be run on the 2025-26 preseason rosters and compared with how those teams finished. If 35% is the wrong program weight, that comparison will show it, and the next edition of this list will use the better number. The first in-season update comes after the opening weeks, when every team has real 2026-27 minutes to measure.
+We will test the model against how last season's preseason rosters actually finished, and tune it before the next edition. The first in-season update comes after the opening weeks, when every team has real 2026-27 minutes to measure.
