@@ -124,3 +124,5 @@ Shiga: Zach Auguste 18, Xavier Sneed 17, Ryan Kriener 13, Ai-Che Yu 5, Hayate Ko
 ## What is next
 
 The B.League plays again on Wednesday, October 21. Hiroshima host Akita, Nagoya visit Utsunomiya, Ryukyu host Altiri Chiba, and Chiba Jets host Kyoto. On Thursday, Alvark Tokyo host Ibaraki and Sendai host Yokohama.
+
+Update: [Hiroshima beat Akita 98-84 on Wednesday to go 9-0](/story/hiroshima-9-0-twelve-straight-in-third-beat-akita-98-84-hawkinson-31-sunrockers-come-back-at-shinshu-bleague-wednesday).
