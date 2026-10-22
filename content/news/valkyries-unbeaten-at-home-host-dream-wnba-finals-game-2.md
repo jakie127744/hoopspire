@@ -47,3 +47,5 @@ The Dream are 0-10 in WNBA Finals games across four trips to the Finals. The Val
 Game 2 is Monday, October 19, at 8 p.m. Eastern at Chase Center. The series moves to Atlanta for Game 3 on Wednesday, October 21, at 8 p.m. and Game 4 on Saturday, October 24, at 1 p.m. If needed, Game 5 is back in San Francisco on Monday, October 26, Game 6 in Atlanta on Thursday, October 29, and Game 7 in San Francisco on Saturday, October 31.
 
 Read the [Game 1 recap](/story/gabby-williams-26-valkyries-close-7-0-beat-dream-68-64-wnba-finals-game-1), our [series preview](/story/valkyries-host-dream-wnba-finals-game-1-saturday-first-title-either-way), and Victor Ashby's case to [pick the Dream anyway](/story/ignore-the-3-0-pick-the-dream-to-win-the-wnba-finals).
+
+Update: [The Dream won Game 2 79-65 and Game 3 97-71 to lead the Finals 2-1](/story/dream-rout-valkyries-97-71-lead-wnba-finals-2-1).
