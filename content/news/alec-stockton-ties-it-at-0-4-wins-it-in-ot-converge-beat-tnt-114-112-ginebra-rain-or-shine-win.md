@@ -78,3 +78,5 @@ Blackwater: Kentrell Barkley 35, Sedrick Barefield 31, RK Ilagan 24, Dalph Panop
 ## What is next
 
 On Friday, October 23, Ginebra play Blackwater, and Phoenix play Rain or Shine for seeding in Group B. Converge and TNT wait for their quarterfinal opponents.
+
+Update: [San Miguel came back from 20 down to beat NLEX 135-133 as Fajardo reached 10,000 points, and Magnolia took the top seed in Group B](/story/san-miguel-erase-20-point-deficit-beat-nlex-135-133-fajardo-10000-points-magnolia-top-group-b).
