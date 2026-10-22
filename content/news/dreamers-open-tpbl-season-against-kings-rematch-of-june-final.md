@@ -44,3 +44,5 @@ Seven games across seven clubs means every club plays twice that weekend.
 ## What is next
 
 The preseason starts on Friday, October 9, at 2:30 p.m. in Taipei. The regular season opens on Saturday, October 17, at 5:00 p.m. in Taichung: the Formosa Dreamers, champions, against the New Taipei Kings, the team they beat in seven games in June.
+
+Update: [The Kings won the opener 113-106 in overtime, and the Dreamers came back to beat Kaohsiung a day later](/story/gilbeck-lin-tpbl-players-of-the-week-dreamers).
