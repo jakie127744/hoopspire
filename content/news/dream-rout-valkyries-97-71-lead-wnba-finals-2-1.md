@@ -45,3 +45,5 @@ Golden State: Gabby Williams 15, Tiffany Hayes 14, Cecilia Zandalasini 13, Janel
 ## What is next
 
 Game 4 is in Atlanta on Saturday, October 24, at 1 p.m. ET. Game 5 is in San Francisco on Monday, October 26. Atlanta are two wins from the title.
+
+Update: [the Game 4 preview, with the Dream 4-0 at home in the playoffs](/story/dream-unbeaten-at-home-host-valkyries-wnba-finals-game-4-one-win-from-title).

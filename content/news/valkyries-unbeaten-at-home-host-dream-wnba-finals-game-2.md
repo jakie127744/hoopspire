@@ -22,7 +22,7 @@ It was also a game neither offense will want to watch twice. Golden State made 2
 
 ## Golden State: the home floor and Williams
 
-The Valkyries are 7-1 in the playoffs. Their one loss came on the road, 108-100 at Dallas in Game 2 of the first round. At Chase Center they have beaten Dallas twice, Las Vegas twice and Atlanta once. They also beat the Dream all three times in the regular season: 77-66 and 78-75 in San Francisco in June, and 88-83 in Atlanta on July 4.
+The Valkyries are 6-1 in the playoffs. Their one loss came on the road, 108-100 at Dallas in Game 2 of the first round. At Chase Center they have beaten Dallas twice, Las Vegas twice and Atlanta once. They also beat the Dream all three times in the regular season: 77-66 and 78-75 in San Francisco in June, and 88-83 in Atlanta on July 4.
 
 Williams has carried the scoring. She is averaging 23.1 points over seven playoff games, and she scored 26 in Game 1 on 8-of-22 shooting, eight of them in the fourth quarter. [Tiffany Hayes](/player/WNBA/1054) is next at 11.9 a game.
 
