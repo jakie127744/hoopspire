@@ -48,3 +48,5 @@ The fair test is simple. When both teams play their regulars for similar minutes
 ## The rule I use
 
 Before reacting to a preseason score, look at the minutes column first. If the stars played on one side and not the other, the result tells you about the coaches' plans, not about the teams. The Knicks and Raptors showed that twice in one week. Soon the games start to count, and then the scoreboard is worth reading again.
+
+Update: [the same lens on the Spurs, where lineup minutes say more than the score](/story/the-spurs-are-right-to-start-three-guards-judge-it-in-december-not-on-last-june).

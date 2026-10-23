@@ -65,3 +65,5 @@ The Thunder open at home against the Denver Nuggets at Paycom Center on Thursday
 Earlier on opening night, [the Pistons came back from 22 down to beat the Celtics](/story/pistons-score-23-straight-come-back-from-22-down-beat-celtics-121-113) and [the 76ers beat the Knicks on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut). Before the games, we looked at [all three matchups](/story/knicks-open-title-defense-against-76ers-thunder-visit-spurs-nba-opening-night).
 
 Update: [the Thunder beat the Nuggets 96-84 in their home opener](/story/thunder-beat-nuggets-96-84-gilgeous-alexander-15-after-halftime).
+
+Update: [Victor Ashby on why the Spurs should keep starting Fox, Castle and Harper](/story/the-spurs-are-right-to-start-three-guards-judge-it-in-december-not-on-last-june).
