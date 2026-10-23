@@ -85,3 +85,5 @@ By quarter: Philadelphia 18, 27, 37, 32. Cleveland 35, 34, 21, 16.
 The 76ers stay home for two games this weekend: the Milwaukee Bucks on Saturday, October 24, and the Detroit Pistons on Sunday, October 25, both at 7:30 p.m. ET. The Cavaliers open at home against the Brooklyn Nets at Rocket Arena on Saturday, October 24, at 7:30 p.m. ET.
 
 Philadelphia's opener: [the 76ers beat the Knicks on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut).
+
+Later on Thursday, [the Thunder beat the Nuggets 96-84](/story/thunder-beat-nuggets-96-84-gilgeous-alexander-15-after-halftime).

@@ -63,3 +63,5 @@ By quarter: Oklahoma City 34, 31, 28, 23. San Antonio 28, 16, 36, 24.
 The Thunder open at home against the Denver Nuggets at Paycom Center on Thursday, October 22, at 9:30 p.m. ET. The Spurs host the Houston Rockets at Moody Center on Friday, October 23, at 9:30 p.m. ET.
 
 Earlier on opening night, [the Pistons came back from 22 down to beat the Celtics](/story/pistons-score-23-straight-come-back-from-22-down-beat-celtics-121-113) and [the 76ers beat the Knicks on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut). Before the games, we looked at [all three matchups](/story/knicks-open-title-defense-against-76ers-thunder-visit-spurs-nba-opening-night).
+
+Update: [the Thunder beat the Nuggets 96-84 in their home opener](/story/thunder-beat-nuggets-96-84-gilgeous-alexander-15-after-halftime).
