@@ -21,7 +21,7 @@ The field was completed on October 15, when Mineros won 98-78 at Diablos Rojos a
 
 **Astros (2) 2, Mineros (7) 0.** Astros won Game 1 100-78 at the Arena Astros. Game 2 was the opposite. The lead changed hands 27 times, Mineros led by as many as 12 and were 10 ahead going into the fourth quarter. Astros then held them to five points in the quarter. Rigoberto Mendoza scored 22 for Astros, and Anthony Slaughter Jr. and William Yoakum 13 each. For Mineros, Joaquin Valinotti scored 26 with five threes, and Anyelo Cisneros and Wesley Saunders 18 each.
 
-**Fuerza Regia (3) 2, Dorados (6) 0.** Fuerza Regia won Game 1 101-90 at the Arena Mobil in Monterrey. In Game 2, Dorados led 39-29 at halftime and by as many as 13. Fuerza Regia won the third quarter 24-18 and the fourth 27-19 and won 80-76. Scott Bamforth scored 22, with four threes and eight of eight free throws, Wayne Langston 20 and Avry Holmes 15. Chasson Randle scored 22 for Dorados, and Alfonzo McKinning Jr. 17. Fuerza Regia won the LNBP title in 2025.
+**Fuerza Regia (3) 2, Dorados (6) 0.** Fuerza Regia won Game 1 101-90 at the Arena Mobil in Monterrey. In Game 2, Dorados led 39-29 at halftime and by as many as 13. Fuerza Regia won the third quarter 24-18 and the fourth 27-19 and won 80-76. Scott Bamforth scored 22, with four threes and eight of eight free throws, Wayne Langston 20 and Avry Holmes 15. Chasson Randle scored 22 for Dorados, and Alfonzo McKinnie 17. Fuerza Regia won the LNBP title in 2025.
 
 **Panteras (4) 1, Lobos (5) 1.** Lobos won Game 1 111-100 at the Auditorio Hermanos Carreón in Aguascalientes. Panteras answered on Monday, 88-80. Lobos led 22-17 after the first quarter, Panteras led 43-41 at halftime, and the lead changed hands 14 times. Shaun Willett scored 21 for Panteras and Mikyle McIntosh 18 with four threes. Shaquille Johnson scored 30 for Lobos and made all seven of his free throws.
 
@@ -52,10 +52,12 @@ Mineros: Joaquin Valinotti 26, Anyelo Cisneros 18, Wesley Saunders 18, Romeao Fe
 
 Panteras: Shaun Willett 21, Mikyle McIntosh 18, Andre Curbelo 13, Tyler Cheese 11, Augusto Lima 8, Jhamir Brickus 6, Gabriel Giron 5, Jorge de la Serna 4, Ahmed Hill 2, Jonatan Machado 0, Christian Negron 0.
 
-Lobos: Shaquille Johnson 30, Eric Washington 16, Tekele Cotton 15, Karim Rodriguez 6, Rasid Mahalbasic 6, Tyran De Lattineaudier 4, Elias King 2, Michael Myers Jr. 1, Ivan Montano 0, Jose Gutierrez 0.
+Lobos: Shaquille Johnson 30, Eric Washington 16, Tekele Cotton 15, Karim Rodriguez 6, Rasid Mahalbasic 6, Tyran De Lattibeaudiere 4, Elias King 2, Michael Myers Jr. 1, Ivan Montano 0, Jose Gutierrez 0.
 
 **By quarter:** Panteras 17, 26, 22, 23. Lobos 22, 19, 20, 19.
 
 ## What is next
 
 On Thursday, October 22, Lobos host Panteras at the Arena BUAP in Puebla, Dorados host Fuerza Regia at the Gimnasio Manuel Bernardo Aguirre in Chihuahua, Mineros host Astros at the Gimnasio Marcelino González in Zacatecas, and Abejas host Soles at the Domo de la Feria in León. The same four games are played again on Friday.
+
+Update: [Dorados beat Fuerza Regia 120-116 in overtime in Game 3, and Astros and Soles finished sweeps](/story/dorados-beat-fuerza-regia-120-116-overtime-astros-soles-sweep-into-lnbp-zone-finals).
