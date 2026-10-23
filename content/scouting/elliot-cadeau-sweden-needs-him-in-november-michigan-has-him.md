@@ -66,3 +66,5 @@ If they get Sweden to Qatar, Cadeau's senior season will be long over, and he ar
 Here is the line I expect Swedish fans to argue with: if Sweden qualify, the guards who did it in November and February should start in Qatar, and a Final Four Most Outstanding Player who missed those windows should have to win the job back.
 
 Update: [Michigan start fourth in the Hoopspire Top 32 for 2026-27, with Cadeau their most-used returning player](/story/hoopspire-ncaa-mens-top-32-2026-27).
+
+Update: [Victor Ashby on the same calendar problem for Mexico and Gabriela Jaquez](/story/gabriela-jaquez-missed-mexicos-summer-save-the-big-ask-for-2028).

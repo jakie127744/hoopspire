@@ -64,3 +64,5 @@ Every February, the federation should ask each college player's coach a direct q
 The Philippines should build every March roster as if its college players will be busy. Then it should keep a seat open for the ones whose season ends in time, and have their paperwork ready before the bracket comes out.
 
 Related: [the Philippines won its first game in Division A of the FIBA U18 Women's Asia Cup this month](/story/philippines-first-division-a-win-fiba-u18-womens-asia-cup-australia-japan-semi-finals), the level Sugapong's 2022 group was still chasing.
+
+Update: [the same March problem, a year on, for Mexico and Gabriela Jaquez](/story/gabriela-jaquez-missed-mexicos-summer-save-the-big-ask-for-2028).

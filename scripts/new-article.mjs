@@ -284,6 +284,15 @@ function isoWeek(date) {
  * Eligibility rulings are news and run when they happen, so they are not
  * counted.
  */
+/**
+ * Extra columns the owner approved outside the weekly two. One file per entry,
+ * with the date and reason, so an exception never becomes the habit.
+ */
+const OWNER_EXTRA_COLUMNS = {
+  // Owner, 2026-10-23: a third Heritage Line column in 2026-W43 (non-Philippines tie).
+  'gabriela-jaquez-missed-mexicos-summer-save-the-big-ask-for-2028.md': '2026-10-23',
+}
+
 function scoutingCadence(files) {
   const seen = new Map()
   const problems = []
@@ -292,6 +301,7 @@ function scoutingCadence(files) {
   for (const { desk, rel, file, data } of byDate) {
     if (desk !== 'scouting' || !data || data.draft === true || !data.author || !data.published) continue
     if (SCOUTING_KIND[data.tag] !== 'opinion') continue
+    if (OWNER_EXTRA_COLUMNS[file]) continue
     const key = `${data.author} ${isoWeek(data.published)}`
     if (seen.has(key)) {
       problems.push([`${rel}/${file}`, `${data.author} already filed ${seen.get(key)} in ${isoWeek(data.published)}; Heritage Line runs one column per columnist per week`])
