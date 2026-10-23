@@ -64,3 +64,5 @@ Qingdao: Gabe York 20, Duan Angjun 19, Quinndary Weatherspoon 18, Jordan Mickey 
 The next games are on Thursday, October 22. Beijing host Shenzhen, Guangdong host the Zhejiang Lions, Fujian host Ningbo, Jilin host Xinjiang, and Shanxi host the champions, Shanghai.
 
 Update: [Fujian's Bennie Boatwright took his oath as a Filipino citizen on Wednesday](/story/bennie-boatwright-takes-oath-gilas-pilipinas-naturalization).
+
+Update: [Round 3, with Beijing Ducks and Liaoning 3-0](/story/beijing-ducks-beat-shenzhen-120-62-cooper-40-liaoning-3-0-cba-round-3).

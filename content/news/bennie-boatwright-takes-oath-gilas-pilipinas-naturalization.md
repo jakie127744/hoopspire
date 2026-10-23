@@ -38,3 +38,5 @@ For Gilas, the law is done and the oath is taken. What the federation still has 
 ## What is next
 
 Fujian play Ningbo on Thursday. The FIBA window opens on Thursday, November 26, and Gilas play Syria the following day.
+
+Update: [Boatwright scored six in Fujian's 95-76 win over Ningbo the day after his oath](/story/beijing-ducks-beat-shenzhen-120-62-cooper-40-liaoning-3-0-cba-round-3).
