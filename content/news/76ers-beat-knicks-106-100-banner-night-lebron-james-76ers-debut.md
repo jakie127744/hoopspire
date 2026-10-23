@@ -71,3 +71,5 @@ By quarter: Philadelphia 23, 31, 29, 23. New York 25, 33, 18, 24.
 The 76ers play their home opener against the Cleveland Cavaliers on Thursday, October 22, at 7 p.m. ET. The Knicks visit the Boston Celtics on Friday, October 23, at 7 p.m. ET. The two teams meet again in Philadelphia on Friday, October 30, at 7:30 p.m. ET.
 
 Before the game, we looked at [the three opening-night matchups](/story/knicks-open-title-defense-against-76ers-thunder-visit-spurs-nba-opening-night).
+
+Update: [the 76ers came back from 29 down to beat the Cavaliers in their home opener](/story/76ers-come-back-from-29-down-beat-cavaliers-114-106-home-opener).
