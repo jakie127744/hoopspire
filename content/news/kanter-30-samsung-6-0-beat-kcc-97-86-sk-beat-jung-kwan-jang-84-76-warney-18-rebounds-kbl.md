@@ -62,3 +62,5 @@ Jung Kwan Jang: Davon Reed 24, Lee Dae-heon 17, Park Ji-hoon 11, Rhenz Abando 8,
 ## What is next
 
 Ulsan Hyundai Mobis host Changwon LG on Thursday, October 22, and Suwon KT host Wonju DB on Friday. On Saturday, October 24, SK host LG, Hyundai Mobis host Samsung and Goyang Sono host KCC. On Sunday, Jung Kwan Jang host DB and Samsung visit Daegu Korea Gas.
+
+Update: [Assem Marei had 34 rebounds as LG won at Hyundai Mobis, and DB came back to win at KT](/story/marei-34-rebounds-lg-beat-hyundai-mobis-88-83-db-come-back-beat-kt-102-95-kbl).
