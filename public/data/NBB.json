@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-22T11:32:17.501Z",
+  "fetchedAt": "2026-10-23T11:21:21.259Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-22-u-corinth--minas",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-22-cearense-pinheiros",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
+        "logo": null,
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-22-brasilia-corinthi-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 104,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-21-bauru-sao-jose",
       "league": "NBB",
       "status": "final",
@@ -13970,12 +14057,38 @@
   ],
   "news": [
     {
+      "id": "NBB-dirigente-da-nba-cita-falta-de-arenas-de",
+      "league": "NBB",
+      "title": "NBA official cites lack of world-class arenas as reason for Brazil not to host games",
+      "originalTitle": "Dirigente da NBA cita falta de arenas de classe mundial como razão para Brasil não receber jogos",
+      "translatedFrom": "pt",
+      "description": "NBA: Pedro Maia elects favorite teams for the 2026/27 season. With each new edition, the NBA reinforces its intention to expand its brand beyond the United States and Canada. In 2026/2027, Mexico City, Paris and Manchester will host regular season games. Brazil, which stands out as one of the main",
+      "published": "2026-10-22T18:01:22.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/8jF-hh01nVjmMA8UpF-Zk3-WRvE=/s.glbimg.com/es/ge/f/original/2018/02/20/gettyimages-800020096.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/22/dirigente-da-nba-cita-falta-de-arenas-de-classe-mundial-como-razao-para-brasil-nao-receber-jogos.ghtml"
+    },
+    {
+      "id": "NBB-paulistano-domina-terceiro-quarto-e-venc",
+      "league": "NBB",
+      "title": "Paulistano dominates third quarter and wins the Duck Basketball in the NBB debut",
+      "originalTitle": "Paulistano domina terceiro quarto e vence o Pato Basquete na estreia do NBB",
+      "translatedFrom": "pt",
+      "description": "Pato Basquete is champion of Paraná for the eighth time in a row. Paulistano started the 2026/27 season of Novo Basquete Brasil (NBB) with a win away from home. The São Paulo team won the Pato Basquete, 80 to 74, at Ginásio do Sesi, in Pato Branco. The result was built mainly on the third",
+      "published": "2026-10-22T12:23:01.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/PRN1ZLNbEKwil-ZtDgIEjwBFys4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/V/e/CFwXJDSY6JeIluHV4urw/whatsapp-image-2026-10-22-at-10.16.31.jpeg",
+      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/22/paulistano-domina-terceiro-quarto-e-vence-o-pato-basquete-na-estreia-do-nbb.ghtml"
+    },
+    {
       "id": "NBB-david-jackson-brilha-em-revanche-contra-",
       "league": "NBB",
       "title": "David Jackson shines in rematch against Mogi and analyzes leadership role in Franca",
       "originalTitle": "David Jackson brilha em revanche contra Mogi e analisa papel de liderança no Franca",
       "translatedFrom": "pt",
-      "description": "Mogi wins Franca and holds the title of the São Paulo Basketball Championship Highlight of the sixth confrontation between Sesi Franca and Mogi in the season, winger David Jackson commanded the victory of the French team, 90 to 74, on Wednesday night, at Pedrocão gymnasium. At age 43, jersey 32 finished on par",
+      "description": "Mogi wins Franca and holds the title of the São Paulo Basketball Championship Highlight of the sixth confrontation between Sesi Franca and Mogi in the season, winger David Jackson commanded the victory of the French team, 90 to 74, on Wednesday night, at Pedrocão gymnasium. At the age of 44, jersey 32 finished on par",
       "published": "2026-10-22T10:00:00.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -14137,32 +14250,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/WBP9qHy4xYlMR6JQG5JPPRDYWio=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/u/d/NT0GV1RBSHVZTsE7cfeg/temp-images-e9509e69-975b-40a0-8d9c-61824ce94825.png",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/20/favoritos-ao-titulo-briga-pelo-mvp-e-lebron-nos-76ers-comentarista-projeta-temporada-da-nba.ghtml"
-    },
-    {
-      "id": "NBB-atual-penta-franca-estreia-no-nbb-2026-2",
-      "league": "NBB",
-      "title": "Current penta, Franca debuts in NBB 2026/2027 with a quiet victory at home",
-      "originalTitle": "Atual penta, Franca estreia no NBB 2026/2027 com vitória tranquila em casa",
-      "translatedFrom": "pt",
-      "description": "Franca delivers rings to players and commission for the unprecedented NBB penta The debut of the current five-time NBB champion in the 2026/2027 season was with a smooth victory at home. Playing at Pedrocão, Sesi Franca Basquete beat São José-SP 90-59 on Monday night. The game was marked by and",
-      "published": "2026-10-20T00:22:39.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/7kHhKYUMp6-reobMvvYxbjn366U=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/V/FYDL3HQ7qEwWuxd7Q5WA/55600541478-791a158e7e-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/atual-penta-franca-estreia-no-nbb-20262027-com-vitoria-tranquila-em-casa.ghtml"
-    },
-    {
-      "id": "NBB-nbb-franca-entrega-an-is-la-nba-em-homen",
-      "league": "NBB",
-      "title": "NBB: Franca delivers rings à la NBA in honor of the unpublished penta",
-      "originalTitle": "NBB: Franca entrega anéis à la NBA em homenagem ao penta inédito",
-      "translatedFrom": "pt",
-      "description": "Franca delivers rings to players and commission for the unprecedented penta of the NBB Sesi Franca Basquete honored, with rings, the players who won the consecutive fifth championship unprecedented in the history of the NBB. The ceremony took place on Monday, at Pedrocão, in Franca (SP), before the team's debut",
-      "published": "2026-10-19T23:24:09.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/jwCtF_1nMPIP8sjjSGfwt4p8gGM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/A/L/idZtUxTZC0IzMSZmrxWA/55600769425-5d2e137a51-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/19/nbb-franca-entrega-aneis-a-la-nba-em-homenagem-ao-penta-inedito.ghtml"
     }
   ],
   "leaders": {
@@ -14633,8 +14720,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-22T11:32:17.501Z",
-    "news": "2026-10-22T11:32:17.501Z"
+    "games": "2026-10-23T11:21:21.259Z",
+    "news": "2026-10-23T11:21:21.259Z"
   },
   "carriedOver": [
     "teams",

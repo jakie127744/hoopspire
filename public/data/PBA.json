@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-22T11:31:40.139Z",
+  "fetchedAt": "2026-10-23T11:20:42.441Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA_PH: bot-check page; skipped",
     "PBA_COMM: bot-check page; skipped",
@@ -15007,6 +15006,58 @@
   ],
   "news": [
     {
+      "id": "PBA-sbpidentifiessevenegilasprospectsfromefi",
+      "league": "PBA",
+      "title": "SBP identifies seven eGilas prospects from eFIBA x UAAP tourney",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Seven student-athletes caught the attention of the Samahang Basketbol ng Pilipinas during the inaugural eFIBA x UAAP esports eGilas talent discovery tournament held from October 18 to 20 at the MVP Studios in Mandaluyong City. Throughout the three-day competition, eGilas program ",
+      "published": "2026-10-23T09:38:51.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://tiebreakertimes.com.ph/tiebreakertimes.com.ph/wp-content/plugins/justified-image-grid/timthumb.php?src=https%3A%2F%2Fcdn.tiebreakertimes.com.ph%2Fwp-content%2Fuploads%2F2026%2F10%2FUAAP-eFIBA-Semis_-NU-vs-ADU_-ENRIQUEZ-02169-1024x683.jpg&h=230&q=90&f=.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/sbp-identifies-seven-egilas-prospects-from-efiba-x-uaap-tourney/387547"
+    },
+    {
+      "id": "PBA-worldsurfleaguesetforhistoricsiargaodebu",
+      "league": "PBA",
+      "title": "World Surf League set for historic Siargao debut",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The world’s top surfers are set to converge on Siargao as the Philippines hosts a World Surf League Championship Tour event for the first time from October 30 to November 8 at the iconic Cloud 9. A total of 40 elite surfers, comprising 24 men and 16 women, will compete at the fam",
+      "published": "2026-10-23T06:06:24.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/world-surf-league-set-for-historic-siargao-debut/387523"
+    },
+    {
+      "id": "PBA-toughteamsawaitkingswithquartersstintloo",
+      "league": "PBA",
+      "title": "Tough teams await Kings with quarters stint looming",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Barangay Ginebra will have to pick its poison on Friday when, barring a monumental collapse, it formalizes its entry to the quarterfinals at the close of the PBA Governors’ Cup group stage. The Gin Kings take on the Blackwater Bossing at 7:30 p.m. at Ynares Center in Antipolo, ne",
+      "published": "2026-10-23T05:20:14.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image8-11.jpg",
+      "url": "https://sports.inquirer.net/703022/tough-teams-await-kings-with-quarters-stint-looming"
+    },
+    {
+      "id": "PBA-pbayengguiaodismissestalkofrainorshineav",
+      "league": "PBA",
+      "title": "PBA: Yeng Guiao dismisses talk of Rain or Shine avoiding TNT",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Coach Yeng Guiao insisted that Rain or Shine had all the intentions of getting a win over Magnolia amid the impression that it avoided an early playoff showdown with TNT in the 2026 PBA Governors’ Cup. Wednesday’s 107-103 defeat to the Magnolia Hotshots at Yna",
+      "published": "2026-10-22T19:38:19.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-16.jpg",
+      "url": "https://sports.inquirer.net/702954/pba-yeng-guiao-dismisses-talk-of-rain-or-shine-avoiding-tnt"
+    },
+    {
       "id": "PBA-pbazavierluceromagnoliawelcomeunderdogta",
       "league": "PBA",
       "title": "PBA: Zavier Lucero, Magnolia welcome underdog tag vs TNT",
@@ -15031,123 +15082,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/PBA-Image8-11.jpg",
       "url": "https://sports.inquirer.net/702899/pba-friday-games-to-settle-governors-cup-quarterfinals-pairings"
-    },
-    {
-      "id": "PBA-hotshotsbraceforquartersclashvstropang5g",
-      "league": "PBA",
-      "title": "Hotshots brace for quarters clash vs Tropang 5G boosted by returning Hollis-Jefferson, Oftana",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "After clinching the top spot of Group B of the PBA Governors’ Cup, the Magnolia Hotshots will have a tough quarterfinal matchup.",
-      "published": "2026-10-22T07:42:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/22/2565014/hotshots-brace-quarters-clash-vs-tropang-5g-boosted-returning-hollis-jefferson-oftana"
-    },
-    {
-      "id": "PBA-sanmiguelsharpensformwithcomefrombehindw",
-      "league": "PBA",
-      "title": "San Miguel sharpens form with come-from-behind win over NLEX",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—San Miguel Beer may have fallen short of securing the No. 1 spot in Group A despite its come-from-behind win over NLEX on Wednesday. But coach Leo Austria hopes the manner in which the Beermen pulled off the victory will benefit them come playoff time. “I told the team, ",
-      "published": "2026-10-22T05:25:20.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/June-Mar-Fajardo-21oct2026.jpg",
-      "url": "https://sports.inquirer.net/702721/san-miguel-sharpens-form-with-come-from-behind-win-over-nlex"
-    },
-    {
-      "id": "PBA-gilasreinforcementboatwrighttakesoathofa",
-      "league": "PBA",
-      "title": "Gilas reinforcement Boatwright takes oath of allegiance",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Bennie Boatwright’s Gilas Pilipinas debut is getting close.",
-      "published": "2026-10-22T05:02:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/22/2564997/gilas-reinforcement-boatwright-takes-oath-allegiance"
-    },
-    {
-      "id": "PBA-bennieboatwrightnearsnaturalizationafter",
-      "league": "PBA",
-      "title": "Bennie Boatwright nears naturalization after oath of allegiance",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Bennie Boatwright moved closer to completing his naturalization status that will pave the way for his long-awaited Gilas Pilipinas debut after taking an oath of allegiance on Wednesday. Labor secretary Francis Tolentino posted on social media a photo of Boatwr",
-      "published": "2026-10-21T23:39:11.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/858088183_18395071732163560_7472992962305655497_n.jpg",
-      "url": "https://sports.inquirer.net/702756/bennie-boatwrights-nears-naturalization-after-oath-of-allegiance"
-    },
-    {
-      "id": "PBA-pbalatenoriono1magnoliabracefortoughtntp",
-      "league": "PBA",
-      "title": "PBA: LA Tenorio, No. 1 Magnolia brace for tough TNT playoff test",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Being the No. 1 team in Group B of the 2026 PBA Governors’ Cup would look like a reward for a Magnolia side that bucked a slow start to go on a string of victories. Instead, the Hotshots will have to go through the TNT Tropang 5G in a best-of-five crossover quarterfinal ",
-      "published": "2026-10-21T23:30:24.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image9-6.jpg",
-      "url": "https://sports.inquirer.net/702745/pba-la-tenorio-no-1-magnolia-brace-for-tough-tnt-playoff-test"
-    },
-    {
-      "id": "PBA-pbajunemarfajardocreditsconsistencyfor10",
-      "league": "PBA",
-      "title": "PBA: June Mar Fajardo credits consistency for 10,000-point milestone",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—June Mar Fajardo is honored to become the latest member of the PBA’s 10,000-point club, which he achieved during San Miguel Beer’s comeback win over NLEX on Wednesday here. Fajardo is the 19th player ever to reach the career milestone, something that was not on his mind ",
-      "published": "2026-10-21T23:26:00.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image17-8.jpg",
-      "url": "https://sports.inquirer.net/702743/pba-june-mar-fajardo-credits-consistency-for-10000-point-milestone"
-    },
-    {
-      "id": "PBA-pbamagnoliaturnsbackrainorshineclinchesg",
-      "league": "PBA",
-      "title": "PBA: Magnolia turns back Rain or Shine, clinches Group B top seed",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Magnolia secured the No. 1 spot in Group B of the 2026 PBA Governors’ Cup after edging out Rain or Shine, 107-103, on Wednesday at Ynares Center here. Javi Gomez de Liano dropped 19 points after taking advantage of the extended minutes given to him by coach LA Tenorio as",
-      "published": "2026-10-21T22:51:17.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image15-7.jpg",
-      "url": "https://sports.inquirer.net/702729/pba-magnolia-turns-back-rain-or-shine-clinches-group-b-top-seed"
-    },
-    {
-      "id": "PBA-pbasanmiguelpullsoffhugecomebackvsnlexbu",
-      "league": "PBA",
-      "title": "PBA: San Miguel pulls off huge comeback vs NLEX but settles for No. 2",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—San Miguel Beer overcame a 20-point deficit in the fourth quarter to stun NLEX, 135-133, but missed out on the No. 1 spot in Group A of the 2026 PBA Governors’ Cup on Wednesday at Ynares Center here. A goaltending violation called on Robert Bolick for touching the net wh",
-      "published": "2026-10-21T20:11:47.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image3-22.jpg",
-      "url": "https://sports.inquirer.net/702680/pba-san-miguel-pulls-off-huge-comeback-vs-nlex-but-settles-for-no-2"
-    },
-    {
-      "id": "PBA-pbajunemarfajardoreaches10000pointmilest",
-      "league": "PBA",
-      "title": "PBA: June Mar Fajardo reaches 10,000-point milestone",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—June Mar Fajardo became the 19th player in history to reach the 10,000-point club during the first quarter of the 2026 PBA Governors’ Cup game between San Miguel Beer and NLEX. A turnaround hook over Dave Marcelo with 2:22 left in the opening period gave Fajardo his fift",
-      "published": "2026-10-21T18:15:17.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-22.jpg",
-      "url": "https://sports.inquirer.net/702650/pba-june-mar-fajardo-reaches-10000-point-milestone"
     }
   ],
   "leaders": {
@@ -15618,8 +15552,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-22T11:31:40.139Z",
-    "news": "2026-10-22T11:31:40.139Z"
+    "games": "2026-10-23T11:20:42.441Z",
+    "news": "2026-10-23T11:20:42.441Z"
   },
   "carriedOver": [
     "teams",

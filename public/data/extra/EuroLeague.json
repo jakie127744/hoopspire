@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-22T11:32:23.984Z",
+  "fetchedAt": "2026-10-23T11:21:27.559Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,108 +22,147 @@
   ],
   "news": [
     {
-      "id": "EuroLeague-partizanreportedlysignsrobertfranks",
+      "id": "EuroLeague-keenanevansreuniteswithzalgirisafterlond",
       "league": "EuroLeague",
-      "title": "Partizan reportedly signs Robert Franks",
+      "title": "Keenan Evans reunites with Zalgiris after London Lions loan",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Partizan has reportedly reached an agreement with Robert Franks, with the American forward expected in Belgrade by the end of the week L'articolo Partizan reportedly signs Robert Franks proviene da Sportando .",
-      "published": "2026-10-22T11:18:11.000Z",
+      "description": "Following a brief loan spell at the London Lions, 30-year-old Keenan Evans returns to Zalgiris The post Keenan Evans reunites with Zalgiris after London Lions loan appeared first on Eurohoops .",
+      "published": "2026-10-23T11:19:04.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/9a74bb0d-keenan-evans-london-lions-eurocup.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024892/keenan-evans-to-zalgiris-euroleague/"
+    },
+    {
+      "id": "EuroLeague-pauliusmotiejunasformereuroleagueceorepo",
+      "league": "EuroLeague",
+      "title": "Paulius Motiejunas, former Euroleague CEO, reportedly eyes Joventut takeover",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A new ownership for Asisa Joventut can emerge in the form of 45-year-old Paulius Motiejunas The post Paulius Motiejunas, former Euroleague CEO, reportedly eyes Joventut takeover appeared first on Eurohoops .",
+      "published": "2026-10-23T10:28:41.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2025/02/fa7c8104-paulius-motiejunas-walks-monaco-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/fiba-champions-league/2024864/paulius-motiejunas-linked-to-joventut-basketball-champions-league/"
+    },
+    {
+      "id": "EuroLeague-euroleagueinjuryreportoctober23outsanddo",
+      "league": "EuroLeague",
+      "title": "EuroLeague Injury Report, October 23: outs and doubts for Friday’s three games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Tip-off times, injury absences and uncertain players for Žalgiris–ASVEL, Olympiacos–Fenerbahçe and Paris–Valencia on October 23 L'articolo EuroLeague Injury Report, October 23: outs and doubts for Friday’s three games proviene da Sportando .",
+      "published": "2026-10-23T09:51:50.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/partizan-reportedly-signs-robert-franks/"
+      "url": "https://sportando.basketball/en/euroleague-injury-report-october-23-outs-and-doubts-for-fridays-three-games/"
     },
     {
-      "id": "EuroLeague-bartzokasconfirmsolympiacosrostersearchr",
+      "id": "EuroLeague-robertfranksheadstoserbiasigningeuroleag",
       "league": "EuroLeague",
-      "title": "Bartzokas confirms Olympiacos roster search, reacts to Greek match-fixing scandal",
+      "title": "Robert Franks heads to Serbia, signing EuroLeague deal with Partizan",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "“We are in the market,” says Olympiacos head coach Giorgos Bartzokas The post Bartzokas confirms Olympiacos roster search, reacts to Greek match-fixing scandal appeared first on Eurohoops .",
-      "published": "2026-10-22T10:15:09.000Z",
+      "description": "A new career chapter in a different environment for 29-year-old Robert Franks The post Robert Franks heads to Serbia, signing EuroLeague deal with Partizan appeared first on Eurohoops .",
+      "published": "2026-10-23T07:14:09.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/f3cc4880-giorgos-bartzokas-olympiacos.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2024279/bartzokas-confirms-olympiacos-roster-search-reacts-to-greek-match-fixing-scandal/"
+      "image": "https://images.eurohoops.net/2026/10/cead17f3-robert-franks-reacts-phoenix-suns-summer-league.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024786/robert-franks-to-partizan-euroleague/"
     },
     {
-      "id": "EuroLeague-partizanreportedlynearsagreementwithexpe",
+      "id": "EuroLeague-hayesdavisafterbaskoniaescapealotofplaye",
       "league": "EuroLeague",
-      "title": "Partizan reportedly nears agreement with experienced forward Robert Franks",
+      "title": "Hayes-Davis after Baskonia escape: “A lot of players make a lot of money, so we made our shots”",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Robert Franks is looking toward EuroLeague action with Partizan Mozzart Bet The post Partizan reportedly nears agreement with experienced forward Robert Franks appeared first on Eurohoops .",
-      "published": "2026-10-22T09:24:25.000Z",
+      "description": "Nigel Hayes-Davis criticized Panathinaikos’s performance despite the win over Baskonia, calling for more trust in the team’s offense The post Hayes-Davis after Baskonia escape: “A lot of players make a lot of money, so we made our shots” appeared first on Eurohoops .",
+      "published": "2026-10-22T23:15:45.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/78230b97-robert-franks-runs-reacts-lakeland-magic-g-league.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2024229/robert-franks-to-partizan-update-euroleague/"
+      "image": "https://images.eurohoops.net/2026/10/5c4dccbe-hayes-davis-panathinaikos-baskonia.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024726/hayes-davis-after-baskonia-escape-a-lot-of-players-make-a-lot-of-money-so-we-made-our-shots/"
     },
     {
-      "id": "EuroLeague-barkasbreakdownthefirstspanishserbiander",
+      "id": "EuroLeague-campayneoneuroleagueovernbafinalslowkeyi",
       "league": "EuroLeague",
-      "title": "Barkas Breakdown: The first “Spanish” Serbian derby",
+      "title": "Cam Payne on EuroLeague over NBA Finals: “Lowkey… I’m having fun”",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "For the first time, two Spanish head coaches will be on the bench of Partizan and Crvena Zvezda in their first clash of this season The post Barkas Breakdown: The first “Spanish” Serbian derby appeared first on Eurohoops .",
-      "published": "2026-10-22T08:00:42.000Z",
+      "description": "The former NBA guard enjoyed the Istanbul derby atmosphere after leading Anadolu Efes past Besiktas The post Cam Payne on EuroLeague over NBA Finals: “Lowkey… I’m having fun” appeared first on Eurohoops .",
+      "published": "2026-10-22T23:05:18.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/07bf1675-untitled-design-950x500.png",
-      "url": "https://www.eurohoops.net/en/voices/2023884/barkas-breakdown-the-first-spanish-serbian-derby/"
+      "image": "https://images.eurohoops.net/2026/10/7b68434b-ta1_1388_qo2wwlsz_20261022090752.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024723/cam-payne-on-euroleague-over-nba-finals-lowkey-im-having-fun/"
     },
     {
-      "id": "EuroLeague-garrisonmathewsireceivedoffersfromcrvena",
+      "id": "EuroLeague-euroleagueroundupjonesandpajolaliftparti",
       "league": "EuroLeague",
-      "title": "Garrison Mathews: I received offers from Crvena Zvezda and Olimpia, and I’m happy about this new challenge",
+      "title": "EuroLeague roundup: Jones and Pajola lift Partizan past Zvezda in overtime derby thriller",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Garrison Mathews, fresh off a great performance with Napoli Basket, is the subject of “Uomini e Canestri” L'articolo Garrison Mathews: I received offers from Crvena Zvezda and Olimpia, and I’m happy about this new challenge proviene da Sportando .",
-      "published": "2026-10-22T07:33:06.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/garrison-mathews-i-received-offers-from-crvena-zvezda-and-olimpia-and-im-happy-about-this-new-challenge/"
-    },
-    {
-      "id": "EuroLeague-olympiacosinitiatesrostermoveforfreeagen",
-      "league": "EuroLeague",
-      "title": "Olympiacos initiates roster move for free agent John Konchar",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NBA veteran John Konchar enters direct negotiations with reigning EuroLeague champions, Olympiacos The post Olympiacos initiates roster move for free agent John Konchar appeared first on Eurohoops .",
-      "published": "2026-10-22T06:13:02.000Z",
+      "description": "Cameron Payne scores 22 as Anadolu Efes claims its third EuroLeague win. The post EuroLeague roundup: Jones and Pajola lift Partizan past Zvezda in overtime derby thriller appeared first on Eurohoops .",
+      "published": "2026-10-22T19:37:41.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/2703df4d-john-konchar-grizzlies.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2024145/john-konchar-to-olympiacos-report-euroleague/"
+      "image": "https://images.eurohoops.net/2026/10/c8968dcb-partizan-zvezda_51_1ju2n7ip_20261022101140-950x500.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024445/euroleague-roundup-round-7-gameday-2/"
     },
     {
-      "id": "EuroLeague-hapoelcomesbackfroma13pointdeficitandtri",
+      "id": "EuroLeague-parisinvitesmerchantsstudentsandfirefigh",
       "league": "EuroLeague",
-      "title": "Hapoel comes back from a 13-point deficit and triumphs over Virtus",
+      "title": "Paris invites merchants, students, and firefighters to a EuroLeague game after protests",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "After a weak first, Hapoel's excellent second half toppled the team from Bologna The post Hapoel comes back from a 13-point deficit and triumphs over Virtus appeared first on Eurohoops .",
-      "published": "2026-10-21T18:07:56.000Z",
+      "description": "A great gesture by Paris ahead of the EuroLeague match against Valencia The post Paris invites merchants, students, and firefighters to a EuroLeague game after protests appeared first on Eurohoops .",
+      "published": "2026-10-22T18:25:36.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/e90fb243-ak901098_2zkt2sih_20261021075915-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2023880/hapoel-comes-back-from-a-13-point-deficit-and-triumphs-over-virtus/"
+      "image": "https://images.eurohoops.net/2024/12/06b60e7a-nadir-hifi-olympiacos-paris.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024483/paris-invites-merchants-students-and-firefighters-to-a-euroleague-game-after-protests/"
     },
     {
-      "id": "EuroLeague-patrickbeverleyongreekrefsarrestshereffe",
+      "id": "EuroLeague-kendricknunniwouldlikemytrophiesbackwith",
       "league": "EuroLeague",
-      "title": "Patrick Beverley on Greek ref’s arrest: “She reffed my game vs. Panathinaikos, I knew”",
+      "title": "Kendrick Nunn: “I would like my trophies back, with all due respect”",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Pat Bev commented on a topic that shook Europe this Wednesday The post Patrick Beverley on Greek ref’s arrest: “She reffed my game vs. Panathinaikos, I knew” appeared first on Eurohoops .",
-      "published": "2026-10-21T16:51:05.000Z",
+      "description": "The Panathinaikos star reacted to a police photograph of items seized amid a game-manipulation investigation in Greek basketball The post Kendrick Nunn: “I would like my trophies back, with all due respect” appeared first on Eurohoops .",
+      "published": "2026-10-22T16:42:40.000Z",
       "byline": "Eurohoops",
       "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/05/64c27bd5-beverley-paok-panathinaikos.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2023911/patrick-beverley-on-greek-refs-arrest-she-reffed-my-game-vs-panathinaikos-i-knew/"
+      "image": "https://images.eurohoops.net/2026/10/49818e92-nunn-mediaday-panathinaikos.jpg",
+      "url": "https://www.eurohoops.net/en/heba/2024458/kendrick-nunn-i-would-like-my-trophies-back-with-all-due-respect/"
+    },
+    {
+      "id": "EuroLeague-koncharofficiallysignedwitholympiacosdor",
+      "league": "EuroLeague",
+      "title": "Konchar officially signed with Olympiacos, Dorsey out of the team for one month",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A new swingman is added to the roster of the champions, while Tyler Dorsey will not be part of the team for the next month due to disciplinary reasons The post Konchar officially signed with Olympiacos, Dorsey out of the team for one month appeared first on Eurohoops .",
+      "published": "2026-10-22T16:05:33.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/efa9b773-john-konchar-utah-jazz.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024428/konchar-officially-signed-with-olympiacos-dorsey-out-of-the-team-for-one-month/"
+    },
+    {
+      "id": "EuroLeague-euroleagueround7injuryreportwithsideline",
+      "league": "EuroLeague",
+      "title": "EuroLeague Round 7 injury report with sidelined and returning players",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "From players returning from injuries to debuts, Round 7 of the 2026–27 EuroLeague Regular Season continues The post EuroLeague Round 7 injury report with sidelined and returning players appeared first on Eurohoops .",
+      "published": "2026-10-22T13:54:52.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/2209c6a3-lamar.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2024364/injury-report-round-7-nunn-sloukas-stevens-return-walker-available/"
     }
   ],
   "leaders": {
@@ -10509,7 +10548,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-22T11:32:23.984Z",
+    "news": "2026-10-23T11:21:27.559Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
