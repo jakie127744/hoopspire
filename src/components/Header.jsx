@@ -312,9 +312,23 @@ function SubNav({ current }) {
 
   return (
     <div className="border-b border-parchment bg-paper">
+      {/* Phones get ESPN's sport row: every league as a swipeable logo.
+          The sections move into the menu, as they do on ESPN's phone site. */}
+      <nav aria-label="Leagues" className="no-scrollbar flex gap-1 overflow-x-auto px-2 py-2 lg:hidden">
+        {LEAGUES.map((l) => (
+          <Link
+            key={l.key}
+            to={`/league/${l.slug}`}
+            className="flex w-[3.75rem] shrink-0 flex-col items-center gap-1 rounded-lg py-1 hover:bg-cream"
+          >
+            <LeagueLogo league={l} size={36} className="border border-parchment" />
+            <span className="max-w-full truncate text-[0.6875rem] font-bold">{l.name}</span>
+          </Link>
+        ))}
+      </nav>
       <nav
         aria-label="Sections"
-        className="no-scrollbar mx-auto flex h-11 max-w-[1440px] items-stretch overflow-x-auto px-2 sm:px-4"
+        className="no-scrollbar mx-auto hidden h-11 max-w-[1440px] items-stretch overflow-x-auto px-2 sm:px-4 lg:flex"
       >
         {SECTIONS.map((s) => (
           <Tab

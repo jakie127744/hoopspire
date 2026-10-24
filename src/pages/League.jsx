@@ -5,6 +5,7 @@ import { getGames, getStandings } from '../lib/api.js'
 import { getOriginals } from '../lib/articles.js'
 import { HeroStory, FeedCard, RailCard } from '../components/NewsBlocks.jsx'
 import StandingsPanel from '../components/StandingsPanel.jsx'
+import { LeaderboardAd, RailAd, withFeedAds } from '../components/Ads.jsx'
 import { SectionHead, TeamLogo } from '../components/Primitives.jsx'
 import { formatDate } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
@@ -52,7 +53,9 @@ export default function League() {
     .slice(0, 6)
 
   return (
-    <div className="mx-auto max-w-[1440px] px-3 py-4 sm:px-4 md:py-5">
+    <>
+    {lead && <LeaderboardAd />}
+    <div className="bleed mx-auto max-w-[1440px] py-3 sm:px-4 sm:py-4 md:py-5">
       <h1 className="sr-only">
         {league.name} — {league.fullName}
       </h1>
@@ -62,7 +65,7 @@ export default function League() {
           {lead ? (
             <>
               <HeroStory article={lead} more={rest.slice(0, 3)} />
-              {rest.slice(3).map((a) => (
+              {withFeedAds(rest.slice(3), (a) => (
                 <FeedCard key={a.id} article={a} />
               ))}
             </>
@@ -95,6 +98,8 @@ export default function League() {
               <p className="px-4 py-4 text-sm text-ink/55">No results yet.</p>
             )}
           </RailCard>
+
+          {lead && <RailAd />}
 
           {upcoming.length > 0 && (
             <RailCard title="Upcoming">
@@ -130,6 +135,7 @@ export default function League() {
         <StandingsPanel league={league} />
       </section>
     </div>
+    </>
   )
 }
 

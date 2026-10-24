@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { Fragment, useEffect } from 'react'
 import { useParams, Link, Navigate } from 'react-router-dom'
 import { getOriginal, getOriginals, getDesk, findOriginalIgnoringCase, renderBody, relatedOriginals, DESKS } from '../lib/articles.js'
 import { HeadlineList, DeskCard } from '../components/NewsBlocks.jsx'
@@ -10,11 +10,47 @@ import { getLeague } from '../lib/leagues.js'
 import { Eyebrow, SectionHead, DeskTag } from '../components/Primitives.jsx'
 import ArticleCard, { DeskBadge } from '../components/ArticleCard.jsx'
 import AdSlot from '../components/AdSlot.jsx'
+import { LeaderboardAd, RailAd, InArticleAd } from '../components/Ads.jsx'
 import Reactions from '../components/Reactions.jsx'
 import ShareButtons from '../components/ShareButtons.jsx'
 import { SITE } from '../lib/site.js'
 import { formatDate } from '../lib/format.js'
 import { useMeta } from '../lib/meta.js'
+
+const BODY_CLASS = `text-lg leading-relaxed text-ink/80 [&_a]:text-crimson [&_a]:underline [&_blockquote]:border-l-2 [&_blockquote]:border-gold [&_blockquote]:pl-5 [&_blockquote]:font-display [&_blockquote]:text-xl [&_blockquote]:italic [&_blockquote]:text-ink/70 [&_code]:bg-paper [&_code]:px-1 [&_code]:font-mono [&_code]:text-sm [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:border-b [&_h2]:border-parchment [&_h2]:pb-2 [&_h2]:font-display [&_h2]:text-3xl [&_h3]:mb-3 [&_h3]:mt-9 [&_h3]:font-display [&_h3]:text-2xl [&_hr]:my-10 [&_hr]:border-parchment [&_img]:my-8 [&_img]:w-full [&_img]:border [&_img]:border-parchment [&_li]:mb-2 [&_ol]:mb-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_p]:mb-6 [&_table]:mb-8 [&_table]:w-full [&_table]:border-collapse [&_td]:border-b [&_td]:border-parchment [&_td]:py-2 [&_th]:border-b [&_th]:border-ink [&_th]:py-2 [&_th]:text-left [&_th]:font-mono [&_th]:text-xs [&_th]:uppercase [&_th]:tracking-widest [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:pl-6`
+
+/**
+ * Cut the rendered body after the given top-level paragraphs, so an ad can
+ * sit between the pieces. A cut that would land inside a list, quote or
+ * table is skipped, as is one with nothing much left after it.
+ */
+function splitForAds(html, afterParagraphs) {
+  if (!afterParagraphs.length) return [html]
+  const cuts = []
+  const re = /<\/?(blockquote|ul|ol|table)\b|<\/p>/gi
+  let depth = 0
+  let para = 0
+  let m
+  while ((m = re.exec(html))) {
+    const tag = m[0].toLowerCase()
+    if (tag === '</p>') {
+      if (depth === 0) {
+        para += 1
+        if (afterParagraphs.includes(para)) cuts.push(m.index + m[0].length)
+      }
+    } else if (tag.startsWith('</')) depth = Math.max(0, depth - 1)
+    else depth += 1
+  }
+  const kept = cuts.filter((c) => html.length - c > 600)
+  const chunks = []
+  let from = 0
+  for (const c of kept) {
+    chunks.push(html.slice(from, c))
+    from = c
+  }
+  chunks.push(html.slice(from))
+  return chunks
+}
 
 export default function Story() {
   const { slug } = useParams()
@@ -78,6 +114,10 @@ export default function Story() {
   const writer = article.byline ? getStaff(article.byline) : null
   const related = relatedOriginals(article)
   const { html, partners } = renderBody(article.body)
+  const bodyChunks = splitForAds(
+    html,
+    article.wordCount >= 1500 ? [4, 12] : article.wordCount >= 800 ? [4] : []
+  )
 
   const headlines = getOriginals()
     .filter((a) => a.slug !== article.slug)
@@ -87,7 +127,9 @@ export default function Story() {
     .slice(0, 3)
 
   return (
-    <div className="mx-auto grid max-w-[1440px] gap-4 px-3 py-4 sm:px-4 md:py-5 lg:grid-cols-[minmax(0,1fr)_20rem] xl:gap-5">
+    <>
+    {article.wordCount >= 500 && <LeaderboardAd />}
+    <div className="bleed mx-auto grid max-w-[1440px] gap-4 py-3 sm:px-4 sm:py-4 md:py-5 lg:grid-cols-[minmax(0,1fr)_20rem] xl:gap-5">
     <article className="card min-w-0 px-4 py-6 sm:px-8 md:px-12 md:py-9">
       <div className="mx-auto max-w-3xl">
       <Link to={desk.path} className="eyebrow text-ink/45 hover:text-crimson">
@@ -179,23 +221,22 @@ export default function Story() {
         repo — not remote or user-submitted content — so rendering it directly
         introduces no injection surface.
       */}
-      <div
-        className="mt-10 text-lg leading-relaxed text-ink/80
-          [&_a]:text-crimson [&_a]:underline
-          [&_blockquote]:border-l-2 [&_blockquote]:border-gold [&_blockquote]:pl-5 [&_blockquote]:font-display [&_blockquote]:text-xl [&_blockquote]:italic [&_blockquote]:text-ink/70
-          [&_code]:bg-paper [&_code]:px-1 [&_code]:font-mono [&_code]:text-sm
-          [&_h2]:mb-4 [&_h2]:mt-12 [&_h2]:border-b [&_h2]:border-parchment [&_h2]:pb-2 [&_h2]:font-display [&_h2]:text-3xl
-          [&_h3]:mb-3 [&_h3]:mt-9 [&_h3]:font-display [&_h3]:text-2xl
-          [&_hr]:my-10 [&_hr]:border-parchment
-          [&_img]:my-8 [&_img]:w-full [&_img]:border [&_img]:border-parchment
-          [&_li]:mb-2 [&_ol]:mb-6 [&_ol]:list-decimal [&_ol]:pl-6
-          [&_p]:mb-6
-          [&_table]:mb-8 [&_table]:w-full [&_table]:border-collapse
-          [&_td]:border-b [&_td]:border-parchment [&_td]:py-2
-          [&_th]:border-b [&_th]:border-ink [&_th]:py-2 [&_th]:text-left [&_th]:font-mono [&_th]:text-xs [&_th]:uppercase [&_th]:tracking-widest
-          [&_ul]:mb-6 [&_ul]:list-disc [&_ul]:pl-6"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+      {/*
+        In-article ads, placed the way ESPN places them: after the fourth
+        paragraph of a long piece, and again after the twelfth of a very long
+        one. Only between top-level paragraphs, never inside a list, quote or
+        table, and each one labelled and ruled off from the text around it.
+        A piece under 800 words gets none in its body.
+      */}
+      {bodyChunks.map((chunk, i) => (
+        <Fragment key={i}>
+          {i > 0 && <InArticleAd />}
+          <div
+            className={`${i === 0 ? 'mt-10' : ''} ${BODY_CLASS}`}
+            dangerouslySetInnerHTML={{ __html: chunk }}
+          />
+        </Fragment>
+      ))}
 
       <Reactions slug={article.slug} />
 
@@ -265,9 +306,11 @@ export default function Story() {
     <aside className="min-w-0 space-y-4">
       <div className="space-y-4 lg:sticky lg:top-[4.5rem]">
         <HeadlineList articles={headlines} />
+        {article.wordCount >= 500 && <RailAd />}
         <DeskCard desk={article.desk || 'margin'} articles={deskLatest} />
       </div>
     </aside>
     </div>
+    </>
   )
 }
