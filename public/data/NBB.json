@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-23T11:21:21.259Z",
+  "fetchedAt": "2026-10-24T10:40:19.946Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -14057,6 +14057,32 @@
   ],
   "news": [
     {
+      "id": "NBB-jayson-tatum-marca-36-pontos-decide-no-f",
+      "league": "NBB",
+      "title": "Jayson Tatum scores 36 points, decides in the end, and leads Celtics to victory over the Knicks",
+      "originalTitle": "Jayson Tatum marca 36 pontos, decide no fim e conduz Celtics à vitória sobre os Knicks",
+      "translatedFrom": "pt",
+      "description": "Los Angeles Lakers 127-105 Golden State Warriors | Top Moments | Round 1 | NBA The Boston Celtics beat the New York Knicks 107-103 this Friday at TD Garden for the NBA regular season. With 36 points, nine rebounds and seven assists, Jayson Tatum was the highlight of the match",
+      "published": "2026-10-24T02:32:53.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/HUDOgR-Ui_XlmfJ6ye0c-xVsPZs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/P/y/0bypnjQ2GOBCQJABw4DQ/gettyimages-2301709494.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/23/jayson-tatum-marca-36-pontos-decide-no-fim-e-conduz-celtics-a-vitoria-sobre-os-knicks.ghtml"
+    },
+    {
+      "id": "NBB-flamengo-atropela-paisas-col-na-estreia-",
+      "league": "NBB",
+      "title": "Flamengo tramples Paisas (Col) in the debut of the South American Basketball League",
+      "originalTitle": "Flamengo atropela Paisas (COL) na estreia da Liga Sul-Americana de basquete",
+      "translatedFrom": "pt",
+      "description": "Flamengo started their campaign in the South American Basketball League 2026 with a significant victory. On Friday night (23), at Maracanãzinho, in Rio de Janeiro, the Rio de Janeiro team overcame Paisas, from Colombia, by 84 to 53, in a match valid for the first round of Group D. The red-green team",
+      "published": "2026-10-24T01:53:26.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/pq3zuDi-E2UOUOnXJ3CWcb-h-eo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/8/gbKYjFQzSnVsac4c61ww/752229-flamengoxpaisas-lsb-maracanazinho-23-10-2026-foto-paulareis-flamengo008a9429-1-1-.png",
+      "url": "https://ge.globo.com/basquete/noticia/2026/10/23/flamengo-atropela-paisas-col-na-estreia-da-liga-sul-americana-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-dirigente-da-nba-cita-falta-de-arenas-de",
       "league": "NBB",
       "title": "NBA official cites lack of world-class arenas as reason for Brazil not to host games",
@@ -14224,32 +14250,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/5Ye0hIyUnlvypygzCKP4mXlGdWI=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/p/n/wYJ34ETuSWvp1DoknFLA/temp-images-279b24bc-978a-49eb-939d-513ddb52fa9f.png",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/20/com-lebron-philadelphia-76ers-monta-elenco-de-peso-para-buscar-1o-titulo-na-nba-em-43-anos.ghtml"
-    },
-    {
-      "id": "NBB-efeito-lebron-nos-76ers-ingressos-para-a",
-      "league": "NBB",
-      "title": "LeBron effect on 76ers: tickets for the star's season premiere exceed $100,000",
-      "originalTitle": "Efeito LeBron nos 76ers: ingressos para a estreia do astro na temporada ultrapassam R$ 100 mil",
-      "translatedFrom": "pt",
-      "description": "NBA: LeBron James went to Philadelphia in search of another ring, Pedro Maia analyzes The 2026/27 NBA season is about to begin, and expectations are high for LeBron James' official debut with the Philadelphia 76ers. Playing for the 24th season in the league, the star will play this Tuesday against New York",
-      "published": "2026-10-20T11:53:15.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/4NzeyH_BMPS2b3cRtd8B4Tx-aH8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/U/G/n2uAAyQcefc1sJ83aHHA/2026-10-09t023519z-1572743682-mt1usatoday30033818-rtrmadp-3-nba-preseason-philadelphia-76ers-at-brooklyn-nets.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/20/efeito-lebron-nos-76ers-ingressos-para-a-estreia-do-astro-na-temporada-ultrapassam-r-100-mil.ghtml"
-    },
-    {
-      "id": "NBB-favoritos-ao-t-tulo-briga-pelo-mvp-e-leb",
-      "league": "NBB",
-      "title": "Title favorites, MVP and LeBron fight in 76ers: pundit projects NBA season",
-      "originalTitle": "Favoritos ao título, briga pelo MVP e LeBron nos 76ers: comentarista projeta temporada da NBA",
-      "translatedFrom": "pt",
-      "description": "NBA: Pedro Maia chooses favorite teams for the 2026/27 season Four months after the 2025/2026 finals, NBA stars return to the courts to write the stories of another season. This Tuesday (20), three games mark the beginning of the 81st edition of the league: Detroit Pistons vs. Boston Celtic",
-      "published": "2026-10-20T03:01:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/WBP9qHy4xYlMR6JQG5JPPRDYWio=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/u/d/NT0GV1RBSHVZTsE7cfeg/temp-images-e9509e69-975b-40a0-8d9c-61824ce94825.png",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/20/favoritos-ao-titulo-briga-pelo-mvp-e-lebron-nos-76ers-comentarista-projeta-temporada-da-nba.ghtml"
     }
   ],
   "leaders": {
@@ -14720,8 +14720,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-23T11:21:21.259Z",
-    "news": "2026-10-23T11:21:21.259Z"
+    "games": "2026-10-24T10:40:19.946Z",
+    "news": "2026-10-24T10:40:19.946Z"
   },
   "carriedOver": [
     "teams",

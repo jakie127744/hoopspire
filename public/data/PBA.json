@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-23T11:20:42.441Z",
+  "fetchedAt": "2026-10-24T10:39:38.373Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -15006,82 +15006,134 @@
   ],
   "news": [
     {
-      "id": "PBA-sbpidentifiessevenegilasprospectsfromefi",
+      "id": "PBA-schedule2026pbagovernorscupquarterfinals",
       "league": "PBA",
-      "title": "SBP identifies seven eGilas prospects from eFIBA x UAAP tourney",
+      "title": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Seven student-athletes caught the attention of the Samahang Basketbol ng Pilipinas during the inaugural eFIBA x UAAP esports eGilas talent discovery tournament held from October 18 to 20 at the MVP Studios in Mandaluyong City. Throughout the three-day competition, eGilas program ",
-      "published": "2026-10-23T09:38:51.000Z",
-      "byline": "Tiebreaker Times",
+      "description": "(Updated as of October 23) MANILA, Philippines–The 2026 PBA Governors’ Cup has reached the playoffs stage, with eight teams vying to advance in the title race. The matchups in the crossover quarterfinals pit the NLEX Road Warriors against Phoenix Fuel Masters; Magnolia Hotshots a",
+      "published": "2026-10-24T18:35:56.000Z",
+      "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://tiebreakertimes.com.ph/tiebreakertimes.com.ph/wp-content/plugins/justified-image-grid/timthumb.php?src=https%3A%2F%2Fcdn.tiebreakertimes.com.ph%2Fwp-content%2Fuploads%2F2026%2F10%2FUAAP-eFIBA-Semis_-NU-vs-ADU_-ENRIQUEZ-02169-1024x683.jpg&h=230&q=90&f=.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/sbp-identifies-seven-egilas-prospects-from-efiba-x-uaap-tourney/387547"
+      "image": "https://sports.inquirer.net/files/2018/03/BASKETBALL-FILE-PHOTO_0946.jpg",
+      "url": "https://sports.inquirer.net/703263/schedule-2026-pba-governors-cup-quarterfinals"
     },
     {
-      "id": "PBA-worldsurfleaguesetforhistoricsiargaodebu",
+      "id": "PBA-pbatimconeginebrafaceconsuelodeboboduelv",
       "league": "PBA",
-      "title": "World Surf League set for historic Siargao debut",
+      "title": "PBA: Tim Cone, Ginebra face ‘consuelo de bobo’ duel vs San Miguel",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The world’s top surfers are set to converge on Siargao as the Philippines hosts a World Surf League Championship Tour event for the first time from October 30 to November 8 at the iconic Cloud 9. A total of 40 elite surfers, comprising 24 men and 16 women, will compete at the fam",
-      "published": "2026-10-23T06:06:24.000Z",
-      "byline": "Tiebreaker Times",
+      "description": "ANTIPOLO—Coach Tim Cone summed up how Barangay Ginebra made the 2026 PBA Governors’ Cup quarterfinals the hard way, and at the cost of having to face San Miguel Beer in a best-of-five series. “It’s consuelo de bobo,” Cone said after Ginebra secured the last ticket with Friday’s 1",
+      "published": "2026-10-24T17:52:15.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image10-17.jpg",
+      "url": "https://sports.inquirer.net/703265/pba-tim-cone-ginebra-face-consuelo-de-bobo-duel-vs-san-miguel"
+    },
+    {
+      "id": "PBA-pbaslumpingphoenixaimstoturnthingsaround",
+      "league": "PBA",
+      "title": "PBA: Slumping Phoenix aims to turn things around in playoffs",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Phoenix coach Charles Tiu lamented his team’s late swoon heading into the PBA Governors’ Cup quarterfinals, where the Fuel Masters will face the NLEX Road Warriors. The Fuel Masters finished the group stage with a 5-5 record after dropping their last two games by blowout",
+      "published": "2026-10-24T17:27:21.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image10-5.jpg",
+      "url": "https://sports.inquirer.net/703227/pba-slumping-phoenix-aims-to-turn-things-around-in-playoffs"
+    },
+    {
+      "id": "PBA-pbaguiaobracingforstrongerconvergeinquar",
+      "league": "PBA",
+      "title": "PBA: Guiao bracing for ‘stronger’ Converge in quarters clash",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Rain or Shine coach Yeng Guiao expects a different Converge team that will come out this time when the two independent squads face off in the quarterfinals of the PBA Governors’ Cup. Their best-of-five series will start on Tuesday at Smart Araneta Coliseum as the Elasto ",
+      "published": "2026-10-24T15:46:39.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image16-5.jpg",
+      "url": "https://sports.inquirer.net/703224/pba-guiao-bracing-for-stronger-converge-in-quarters-clash"
+    },
+    {
+      "id": "PBA-pbapainterscloseoutwithabangbyroutingfue",
+      "league": "PBA",
+      "title": "PBA: Painters close out with a bang by routing Fuel Masters",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Coach Yeng Guiao remained adamant that any opponent will be a tough customer for Rain or Shine in the PBA Governors’ Cup quarterfinals. “You can’t afford any team from the group because all of them are capable of winning the championship,” Guiao said on Friday after the ",
+      "published": "2026-10-24T05:21:00.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/Sports1315608-1.jpg",
+      "url": "https://sports.inquirer.net/703171/pba-painters-close-out-with-a-bang-by-routing-fuel-masters"
+    },
+    {
+      "id": "PBA-pangchampionshipguiaoallpraisesforpainte",
+      "league": "PBA",
+      "title": "'Pang championship': Guiao all praises for Painters' quarters foe FiberXers",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Rain or Shine Elasto Painters are bracing for a tough matchup with “championship-caliber” Converge FiberXers in the quarterfinals.",
+      "published": "2026-10-24T04:12:00.000Z",
+      "byline": "PhilStar",
       "tag": "Report",
       "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/world-surf-league-set-for-historic-siargao-debut/387523"
+      "url": "https://www.philstar.com/sports/2026/10/24/2565420/pang-championship-guiao-all-praises-painters-quarters-foe-fiberxers"
     },
     {
-      "id": "PBA-toughteamsawaitkingswithquartersstintloo",
+      "id": "PBA-consuelodeboboconeginkingsbracefortoughq",
       "league": "PBA",
-      "title": "Tough teams await Kings with quarters stint looming",
+      "title": "'Consuelo de bobo': Cone, Gin Kings brace for tough quarters task vs Beermen",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Barangay Ginebra will have to pick its poison on Friday when, barring a monumental collapse, it formalizes its entry to the quarterfinals at the close of the PBA Governors’ Cup group stage. The Gin Kings take on the Blackwater Bossing at 7:30 p.m. at Ynares Center in Antipolo, ne",
-      "published": "2026-10-23T05:20:14.000Z",
-      "byline": "Inquirer Sports",
+      "description": "Fool's consolation?",
+      "published": "2026-10-24T03:16:00.000Z",
+      "byline": "PhilStar",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image8-11.jpg",
-      "url": "https://sports.inquirer.net/703022/tough-teams-await-kings-with-quarters-stint-looming"
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/24/2565417/consuelo-de-bobo-cone-gin-kings-brace-tough-quarters-task-vs-beermen"
     },
     {
-      "id": "PBA-pbayengguiaodismissestalkofrainorshineav",
+      "id": "PBA-pbaginebrasecuresplayoffspotsetsupshowdo",
       "league": "PBA",
-      "title": "PBA: Yeng Guiao dismisses talk of Rain or Shine avoiding TNT",
+      "title": "PBA: Ginebra secures playoff spot, sets up showdown vs San Miguel",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "MANILA, Philippines–Coach Yeng Guiao insisted that Rain or Shine had all the intentions of getting a win over Magnolia amid the impression that it avoided an early playoff showdown with TNT in the 2026 PBA Governors’ Cup. Wednesday’s 107-103 defeat to the Magnolia Hotshots at Yna",
-      "published": "2026-10-22T19:38:19.000Z",
+      "description": "ANTIPOLO—Barangay Ginebra secured the last quarterfinals berth in the 2026 PBA Governors’ Cup while setting up a best-of-five duel with San Miguel Beer after defeating Blackwater, 101-96, on Friday at Ynares Center here. There were hardly any complications as the Gin Kings took m",
+      "published": "2026-10-23T22:16:53.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-16.jpg",
-      "url": "https://sports.inquirer.net/702954/pba-yeng-guiao-dismisses-talk-of-rain-or-shine-avoiding-tnt"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-22.jpg",
+      "url": "https://sports.inquirer.net/703161/pba-ginebra-secures-playoff-spot-sets-up-showdown-vs-san-miguel"
     },
     {
-      "id": "PBA-pbazavierluceromagnoliawelcomeunderdogta",
+      "id": "PBA-pbarainorshinefinishessecondingroupbafte",
       "league": "PBA",
-      "title": "PBA: Zavier Lucero, Magnolia welcome underdog tag vs TNT",
+      "title": "PBA: Rain or Shine finishes second in Group B after Phoenix rout",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "MANILA, Philippines–Zavier Lucero and Magnolia are embracing the underdog status in their 2026 PBA Governors’ Cup quarterfinal series with TNT, which has had the Hotshots’ number in recent playoff battles. “We’re the underdogs coming into the series,” Lucero said, quoting coach L",
-      "published": "2026-10-22T18:36:56.000Z",
+      "description": "ANTIPOLO—Rain or Shine secured the No. 2 spot in Group B and a quarterfinal date with Converge after blowing out Phoenix, 133-103, in the 2026 PBA Governors’ Cup on Friday at Ynares Center here. Jhonard Clarito registered conference-highs of 18 points and 11 rebounds on top of fi",
+      "published": "2026-10-23T20:04:53.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image11-10.jpg",
-      "url": "https://sports.inquirer.net/702906/pba-zavier-lucero-magnolia-welcome-underdog-tag-vs-tnt"
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image6-15.jpg",
+      "url": "https://sports.inquirer.net/703137/pba-rain-or-shine-finishes-second-in-group-b-after-phoenix-rout"
     },
     {
-      "id": "PBA-pbafridaygamestosettlegovernorscupquarte",
+      "id": "PBA-pbabarangayginebraeliminatesblackwaterse",
       "league": "PBA",
-      "title": "PBA: Friday games to settle Governors’ Cup quarterfinals pairings",
+      "title": "PBA: Barangay Ginebra eliminates Blackwater, sets up QF clash vs. San Miguel",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "ANTIPOLO—The last playdate of the 2026 PBA Governors’ Cup elimination round on Friday will finally determine the remaining questions surrounding the composition of the best-of-five crossover quarterfinals. Rain or Shine and Phoenix play in the first game at 5:15 p.m. at Ynares Ce",
-      "published": "2026-10-22T18:25:09.000Z",
-      "byline": "Inquirer Sports",
+      "description": "Barangay Ginebra held off Blackwater, 101-96, in the final game of the PBA Governors\" Cup elimination round on Friday at the Ynares Center in Antipolo, eliminating the Bossing from playoff contention.",
+      "published": "2026-10-23T15:32:26.000Z",
+      "byline": "GMA News",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image8-11.jpg",
-      "url": "https://sports.inquirer.net/702899/pba-friday-games-to-settle-governors-cup-quarterfinals-pairings"
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1006973/pba-barangay-ginebra-eliminates-blackwater-sets-up-qf-clash-vs-san-miguel/story/"
     }
   ],
   "leaders": {
@@ -15552,8 +15604,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-23T11:20:42.441Z",
-    "news": "2026-10-23T11:20:42.441Z"
+    "games": "2026-10-24T10:39:38.373Z",
+    "news": "2026-10-24T10:39:38.373Z"
   },
   "carriedOver": [
     "teams",
