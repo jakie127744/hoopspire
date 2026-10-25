@@ -61,6 +61,8 @@ const listeners = new Set()
 function emit() {
   snapshot = read()
   for (const fn of listeners) fn()
+  // The Google tag in index.html lives outside React and listens for this.
+  window.dispatchEvent(new CustomEvent('hoopspire:consent-change'))
 }
 
 function subscribe(fn) {

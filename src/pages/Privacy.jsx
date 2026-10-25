@@ -102,7 +102,9 @@ export default function Privacy() {
           </li>
           <li>
             <strong>Analytics</strong> — aggregate page-view counts so we can see which leagues
-            people actually read. Off unless you allow it.
+            people actually read, measured with Google Analytics. Off unless you allow it. If you
+            allow it, Google Analytics sets its own cookies (named _ga) to tell one visit from the
+            next; withdrawing consent switches it off and clears them.
           </li>
           <li>
             <strong>Advertising</strong> — lets advertising partners set cookies and show ads,

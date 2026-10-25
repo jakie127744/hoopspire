@@ -17,6 +17,87 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Hoopspire" />
+    <!--
+      Google tag (gtag.js), GA4 property "Hoopspire", stream "Hoopspire Web".
+      Direct snippet only: no Tag Manager container alongside it, or every
+      pageview counts twice. Scroll tracking comes from enhanced measurement in
+      the property; do not add any here.
+
+      Consent: the gtag.js library is not requested until the reader has
+      allowed analytics on the cookie banner (src/lib/consent.js, key
+      hoopspire.consent.v1). Until then the commands below only queue in
+      dataLayer, so a reader who declines sends no hits and gets no cookies,
+      which is what the Privacy Policy promises. Consent Mode is also set to
+      denied by default and is granted only on accept. Withdrawing consent
+      later turns the tag off for the rest of the visit and clears _ga cookies.
+    -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+        analytics_storage: 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied'
+      });
+      gtag('js', new Date());
+      gtag('config', 'G-BHGSGFGWBJ');
+
+      (function () {
+        var ID = 'G-BHGSGFGWBJ';
+        var KEY = 'hoopspire.consent.v1';
+        var loaded = false;
+        var granted = false;
+
+        function allowsAnalytics() {
+          try {
+            var rec = JSON.parse(localStorage.getItem(KEY));
+            return !!(rec && rec.choices && rec.choices.analytics === true);
+          } catch (e) {
+            return false;
+          }
+        }
+
+        function clearGaCookies() {
+          var host = location.hostname;
+          document.cookie.split(';').forEach(function (c) {
+            var name = c.split('=')[0].trim();
+            if (name === '_ga' || name.indexOf('_ga_') === 0) {
+              ['', '; domain=' + host, '; domain=.' + host].forEach(function (d) {
+                document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
+              });
+            }
+          });
+        }
+
+        function apply() {
+          var ok = allowsAnalytics();
+          if (ok === granted) return;
+          granted = ok;
+          window['ga-disable-' + ID] = !ok;
+          if (ok) {
+            gtag('consent', 'update', { analytics_storage: 'granted' });
+            if (!loaded) {
+              loaded = true;
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
+              document.head.appendChild(s);
+            }
+          } else {
+            gtag('consent', 'update', { analytics_storage: 'denied' });
+            clearGaCookies();
+          }
+        }
+
+        window['ga-disable-' + ID] = true;
+        apply();
+        window.addEventListener('hoopspire:consent-change', apply);
+        window.addEventListener('storage', function (e) {
+          if (e.key === KEY) apply();
+        });
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
