@@ -56,3 +56,5 @@ KT: Paris Bass 26, Kang Sung-wook 15, Ha Yun-gi 14, Moon Jeong-hyeon 14, Trey Po
 On Saturday, October 24, the Seoul SK Knights host LG, Hyundai Mobis host the unbeaten Seoul Samsung Thunders, and the Goyang Sono Skygunners host Busan KCC. On Sunday, Anyang Jung Kwan Jang host DB, and Samsung visit Daegu Korea Gas.
 
 Earlier this week: [Kerem Kanter scored 30 as Samsung went 6-0](/story/kanter-30-samsung-6-0-beat-kcc-97-86-sk-beat-jung-kwan-jang-84-76-warney-18-rebounds-kbl).
+
+Update: [the weekend, with a buzzer-beater in Goyang and Samsung 8-0](/story/lee-jung-hyun-buzzer-three-sono-beat-kcc-97-96-sk-come-back-from-20-samsung-8-0-kbl).
