@@ -138,3 +138,5 @@ Altiri Chiba: Dererk Pardon 18, Seiya Ando 14, Naoya Kumagae 7, D.J. Newbill 6, 
 ## What is next
 
 Alvark Tokyo, 8-1, host Ibaraki on Thursday, October 22, and Sendai host Yokohama. On Friday, Ryukyu host Gunma, Shiga host Nagasaki and the SunRockers visit Osaka. Hiroshima host Levanga Hokkaido on Saturday, October 24, and Altiri Chiba play at Ibaraki. On Sunday, October 25, unbeaten Nagoya visit the SunRockers.
+
+Update: [Hokkaido ended Hiroshima's unbeaten start 96-93 on Saturday](/story/hokkaido-come-back-from-20-down-beat-hiroshima-96-93-first-loss-alvark-lose-twice-bleague-roundup).
