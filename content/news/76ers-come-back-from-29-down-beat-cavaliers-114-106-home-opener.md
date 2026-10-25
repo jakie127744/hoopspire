@@ -87,3 +87,5 @@ The 76ers stay home for two games this weekend: the Milwaukee Bucks on Saturday,
 Philadelphia's opener: [the 76ers beat the Knicks on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut).
 
 Later on Thursday, [the Thunder beat the Nuggets 96-84](/story/thunder-beat-nuggets-96-84-gilgeous-alexander-15-after-halftime).
+
+Update: [the 76ers beat the Bucks to go 3-0 and the Cavaliers held off the Nets in Saturday's roundup](/story/booker-43-76ers-rockets-3-0-nba-saturday-roundup).

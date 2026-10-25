@@ -110,3 +110,5 @@ Sacramento: Zach LaVine 28, Precious Achiuwa 15, Domantas Sabonis 14, Darius Acu
 ## What is next
 
 Two games on Thursday, October 22: Cleveland at Philadelphia at 7 p.m. ET, and Denver at Oklahoma City at 9:30 p.m. ET.
+
+Update: [Saturday's NBA roundup, Booker 43 and the 76ers and Rockets at 3-0](/story/booker-43-76ers-rockets-3-0-nba-saturday-roundup).

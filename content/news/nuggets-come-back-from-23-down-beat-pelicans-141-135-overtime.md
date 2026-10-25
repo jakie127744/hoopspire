@@ -75,3 +75,5 @@ By quarter: Denver 24, 33, 32, 37, 15. New Orleans 38, 35, 35, 18, 9.
 Denver hosts the Golden State Warriors on Monday, October 26, at 10 p.m. ET. The teams meet again on Wednesday, October 28, at 8 p.m. ET, when the Nuggets visit New Orleans for the Pelicans' next game.
 
 Denver's opener: [the Thunder beat the Nuggets 96-84](/story/thunder-beat-nuggets-96-84-gilgeous-alexander-15-after-halftime). New Orleans' opener: [the Pacers held off the Pelicans 123-120](/story/pacers-hold-off-pelicans-123-120-siakam-30).
+
+The rest of Saturday: [Booker scored 43 and the 76ers and Rockets went to 3-0](/story/booker-43-76ers-rockets-3-0-nba-saturday-roundup).
