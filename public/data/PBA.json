@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-24T10:39:38.373Z",
+  "fetchedAt": "2026-10-25T11:03:33.631Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -3764,6 +3764,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-23-phoenix-rain-or-s-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-23T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "phoenix-super-lpg-fuel-masters",
+        "name": "Phoenix Super LPG Fuel Masters",
+        "abbr": "PHO",
+        "logo": null,
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "rain-or-shine-elasto-painters",
+        "name": "Rain or Shine Elasto Painters",
+        "abbr": "RAI",
+        "logo": null,
+        "score": 133,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-23-ginebra-k-blackwa-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-23T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "barangay-ginebra-san-miguel",
+        "name": "Barangay Ginebra San Miguel",
+        "abbr": "BAR",
+        "logo": null,
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "blackwater-bossing",
+        "name": "Blackwater Bossing",
+        "abbr": "BLA",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-10-21-nlex-rw-sm-beer-",
       "league": "PBA",
@@ -15006,6 +15064,45 @@
   ],
   "news": [
     {
+      "id": "PBA-pbagovernorscup2026quarterfinalspairings",
+      "league": "PBA",
+      "title": "PBA Governors' Cup 2026 quarterfinals pairings",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The quarterfinals cast for the 2026 PBA Governors\" Cup is complete, with eight teams advancing to the next round.",
+      "published": "2026-10-25T07:35:11.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1007104/pba-governors-cup-2026-quarterfinals-pairings/story/"
+    },
+    {
+      "id": "PBA-pbacontendersbeginlongwindingquarterfina",
+      "league": "PBA",
+      "title": "PBA: Contenders begin ‘long, winding’ quarterfinals path",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals The road to the PBA Governors’ Cup championship could be long and winding for the league’s perennial contenders. For teams still chasing their first title, the path appears considerably clearer. The Governors’ Cup playoffs open Sund",
+      "published": "2026-10-25T05:19:04.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/Sports1319412.jpg",
+      "url": "https://sports.inquirer.net/703339/pba-contenders-begin-long-winding-quarterfinals-path"
+    },
+    {
+      "id": "PBA-pbanlexassuredoftoppickinrookiedraftgine",
+      "league": "PBA",
+      "title": "PBA: NLEX assured of top pick in Rookie Draft, Ginebra gets No. 3",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–NLEX officially secured the No. 1 pick in the 2027 PBA Rookie Draft following Blackwater’s elimination from playoff contention in the season-ending Governors’ Cup. Blackwater’s 101-96 loss to Ginebra on Friday at Ynares Center in Antipolo assured the Road Warr",
+      "published": "2026-10-24T21:46:35.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2025/09/IMG_2360_PBA-Season-50-Rookie-Draft-scaled.jpg",
+      "url": "https://sports.inquirer.net/703346/pba-nlex-assured-of-top-pick-in-rookie-draft-ginebra-gets-no-3"
+    },
+    {
       "id": "PBA-schedule2026pbagovernorscupquarterfinals",
       "league": "PBA",
       "title": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals",
@@ -15045,6 +15142,19 @@
       "url": "https://sports.inquirer.net/703227/pba-slumping-phoenix-aims-to-turn-things-around-in-playoffs"
     },
     {
+      "id": "PBA-lasteightstanding",
+      "league": "PBA",
+      "title": "Last eight standing",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Five teams are off to an early Christmas vacation in the PBA but they would’ve preferred to stay for the Governors’ Cup quarterfinals which reel off with a twinbill at the Ynares Center, Antipolo, today.",
+      "published": "2026-10-24T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/25/2565575/last-eight-standing"
+    },
+    {
       "id": "PBA-pbaguiaobracingforstrongerconvergeinquar",
       "league": "PBA",
       "title": "PBA: Guiao bracing for ‘stronger’ Converge in quarters clash",
@@ -15056,84 +15166,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/PBA-Image16-5.jpg",
       "url": "https://sports.inquirer.net/703224/pba-guiao-bracing-for-stronger-converge-in-quarters-clash"
-    },
-    {
-      "id": "PBA-pbapainterscloseoutwithabangbyroutingfue",
-      "league": "PBA",
-      "title": "PBA: Painters close out with a bang by routing Fuel Masters",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Coach Yeng Guiao remained adamant that any opponent will be a tough customer for Rain or Shine in the PBA Governors’ Cup quarterfinals. “You can’t afford any team from the group because all of them are capable of winning the championship,” Guiao said on Friday after the ",
-      "published": "2026-10-24T05:21:00.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/Sports1315608-1.jpg",
-      "url": "https://sports.inquirer.net/703171/pba-painters-close-out-with-a-bang-by-routing-fuel-masters"
-    },
-    {
-      "id": "PBA-pangchampionshipguiaoallpraisesforpainte",
-      "league": "PBA",
-      "title": "'Pang championship': Guiao all praises for Painters' quarters foe FiberXers",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Rain or Shine Elasto Painters are bracing for a tough matchup with “championship-caliber” Converge FiberXers in the quarterfinals.",
-      "published": "2026-10-24T04:12:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/24/2565420/pang-championship-guiao-all-praises-painters-quarters-foe-fiberxers"
-    },
-    {
-      "id": "PBA-consuelodeboboconeginkingsbracefortoughq",
-      "league": "PBA",
-      "title": "'Consuelo de bobo': Cone, Gin Kings brace for tough quarters task vs Beermen",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Fool's consolation?",
-      "published": "2026-10-24T03:16:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/24/2565417/consuelo-de-bobo-cone-gin-kings-brace-tough-quarters-task-vs-beermen"
-    },
-    {
-      "id": "PBA-pbaginebrasecuresplayoffspotsetsupshowdo",
-      "league": "PBA",
-      "title": "PBA: Ginebra secures playoff spot, sets up showdown vs San Miguel",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Barangay Ginebra secured the last quarterfinals berth in the 2026 PBA Governors’ Cup while setting up a best-of-five duel with San Miguel Beer after defeating Blackwater, 101-96, on Friday at Ynares Center here. There were hardly any complications as the Gin Kings took m",
-      "published": "2026-10-23T22:16:53.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-22.jpg",
-      "url": "https://sports.inquirer.net/703161/pba-ginebra-secures-playoff-spot-sets-up-showdown-vs-san-miguel"
-    },
-    {
-      "id": "PBA-pbarainorshinefinishessecondingroupbafte",
-      "league": "PBA",
-      "title": "PBA: Rain or Shine finishes second in Group B after Phoenix rout",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ANTIPOLO—Rain or Shine secured the No. 2 spot in Group B and a quarterfinal date with Converge after blowing out Phoenix, 133-103, in the 2026 PBA Governors’ Cup on Friday at Ynares Center here. Jhonard Clarito registered conference-highs of 18 points and 11 rebounds on top of fi",
-      "published": "2026-10-23T20:04:53.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image6-15.jpg",
-      "url": "https://sports.inquirer.net/703137/pba-rain-or-shine-finishes-second-in-group-b-after-phoenix-rout"
-    },
-    {
-      "id": "PBA-pbabarangayginebraeliminatesblackwaterse",
-      "league": "PBA",
-      "title": "PBA: Barangay Ginebra eliminates Blackwater, sets up QF clash vs. San Miguel",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Barangay Ginebra held off Blackwater, 101-96, in the final game of the PBA Governors\" Cup elimination round on Friday at the Ynares Center in Antipolo, eliminating the Bossing from playoff contention.",
-      "published": "2026-10-23T15:32:26.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1006973/pba-barangay-ginebra-eliminates-blackwater-sets-up-qf-clash-vs-san-miguel/story/"
     }
   ],
   "leaders": {
@@ -15604,8 +15636,8 @@
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
     "standings": "2026-09-20T00:19:42.997Z",
-    "games": "2026-10-24T10:39:38.373Z",
-    "news": "2026-10-24T10:39:38.373Z"
+    "games": "2026-10-25T11:03:33.631Z",
+    "news": "2026-10-25T11:03:33.631Z"
   },
   "carriedOver": [
     "teams",
