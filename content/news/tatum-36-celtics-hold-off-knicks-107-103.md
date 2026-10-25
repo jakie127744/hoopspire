@@ -65,3 +65,5 @@ By quarter: Boston 26, 24, 33, 24. New York 27, 22, 24, 30.
 The Knicks host the Orlando Magic at Madison Square Garden on Sunday, October 25, at 7 p.m. ET. The Celtics host the Chicago Bulls on Monday, October 26, at 7:30 p.m. ET.
 
 Boston's opener: [the Pistons came back from 22 down to beat the Celtics](/story/pistons-score-23-straight-come-back-from-22-down-beat-celtics-121-113). New York's: [the 76ers beat the Knicks on banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut).
+
+The rest of Friday: [the Grizzlies closed on a 17-0 run at Golden State and the Hawks won by 47](/story/grizzlies-17-0-run-hawks-win-by-47-nba-friday-roundup).

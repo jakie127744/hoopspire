@@ -128,3 +128,5 @@ Atlanta: Jalen Johnson 26, Nickeil Alexander-Walker 18, Dyson Daniels 18, CJ McC
 On Sunday, October 25, the Nets host the Indiana Pacers at 6 p.m. ET and the 76ers host the Detroit Pistons at 7:30 p.m. ET. On Monday, October 26, the Wizards visit Charlotte and the Cavaliers host the Minnesota Timberwolves at 7 p.m. ET, the Mavericks visit Miami at 7:30, the Bucks host Indiana and the Suns visit Oklahoma City at 8, the Hawks visit Houston at 8:30, and the Warriors visit Denver at 10.
 
 The last NBA roundup: [Wednesday's eight openers](/story/ty-jerome-45-nba-wednesday-roundup-kessler-12-for-12). Philadelphia's last game: [the 76ers came back from 29 down to beat the Cavaliers](/story/76ers-come-back-from-29-down-beat-cavaliers-114-106-home-opener).
+
+The night before: [Friday's NBA roundup, the Grizzlies' 17-0 finish at Golden State](/story/grizzlies-17-0-run-hawks-win-by-47-nba-friday-roundup).
