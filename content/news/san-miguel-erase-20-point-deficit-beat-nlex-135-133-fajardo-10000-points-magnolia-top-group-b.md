@@ -62,3 +62,5 @@ Rain or Shine: Adrian Nocum 25, Aaron Fuller 18, Felix Lemetti 11, Deo Cuajao 9,
 ## What is next
 
 The group stage ends on Friday, October 23. Rain or Shine play Phoenix, and Barangay Ginebra play Blackwater, to settle the rest of Group B. Then come the best-of-five quarterfinals: Magnolia against TNT, NLEX against the fourth seed from Group B, and San Miguel against the third.
+
+**Update:** NLEX won Game 1 against Phoenix 97-92. [Read the recap](/story/deonte-burton-27-late-blocks-nlex-hold-off-phoenix-97-92-game-1).
