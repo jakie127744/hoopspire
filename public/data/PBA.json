@@ -31,10 +31,8 @@
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
     "PBA results labels left unattributed: Macau BB",
-    "PBA_PH: bot-check page; skipped",
-    "PBA_COMM: bot-check page; skipped",
-    "PBA_GOV: bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders — the source returned nothing this time.",
+    "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results."
   ],
   "teams": [
     {
@@ -2801,19 +2799,18 @@
     ]
   },
   "standings": {
-    "seasonLabel": "2025-2026",
+    "seasonLabel": "2026 Governors' Cup",
     "rows": [
       {
         "team": {
-          "id": "san-miguel-beermen",
-          "realgmId": "937",
-          "name": "San Miguel Beermen",
-          "abbr": "SMB",
+          "id": "nlex-road-warriors",
+          "name": "NLEX Road Warriors",
+          "abbr": "NRW",
           "logo": null
         },
-        "wins": 23,
-        "losses": 9,
-        "pct": ".719",
+        "wins": 9,
+        "losses": 3,
+        "pct": ".750",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
@@ -2823,15 +2820,14 @@
       },
       {
         "team": {
-          "id": "nlex-road-warriors",
-          "realgmId": "1644",
-          "name": "NLEX Road Warriors",
-          "abbr": "NRW",
+          "id": "san-miguel-beermen",
+          "name": "San Miguel Beermen",
+          "abbr": "SMB",
           "logo": null
         },
-        "wins": 23,
-        "losses": 9,
-        "pct": ".719",
+        "wins": 9,
+        "losses": 3,
+        "pct": ".750",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
@@ -2841,637 +2837,302 @@
       },
       {
         "team": {
-          "id": "rain-or-shine-elasto-painters",
-          "realgmId": "938",
-          "name": "Rain or Shine Elasto Painters",
-          "abbr": "ROSE",
+          "id": "magnolia-chicken-timplados-hotshots",
+          "name": "Magnolia Chicken Timplados Hotshots",
+          "abbr": "MCTH",
           "logo": null
         },
-        "wins": 21,
-        "losses": 8,
-        "pct": ".724",
+        "wins": 7,
+        "losses": 3,
+        "pct": ".700",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 3,
-        "gamesBehind": "0.5"
+        "gamesBehind": "1"
       },
       {
         "team": {
-          "id": "barangay-ginebra-san-miguel",
-          "realgmId": "432",
-          "name": "Barangay Ginebra San Miguel",
-          "abbr": "BGSM",
+          "id": "converge-fiberxers",
+          "name": "Converge FiberXers",
+          "abbr": "CF",
           "logo": null
         },
-        "wins": 18,
-        "losses": 11,
-        "pct": ".621",
+        "wins": 8,
+        "losses": 4,
+        "pct": ".667",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 4,
-        "gamesBehind": "3.5"
+        "gamesBehind": "1"
       },
       {
         "team": {
-          "id": "tnt-tropang-5g",
-          "realgmId": "431",
-          "name": "TNT Tropang 5G",
-          "abbr": "TT5",
+          "id": "rain-or-shine-elasto-painters",
+          "name": "Rain or Shine Elasto Painters",
+          "abbr": "ROSE",
           "logo": null
         },
-        "wins": 18,
-        "losses": 13,
-        "pct": ".581",
+        "wins": 6,
+        "losses": 4,
+        "pct": ".600",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 5,
-        "gamesBehind": "4.5"
+        "gamesBehind": "2"
       },
       {
         "team": {
-          "id": "magnolia-chicken-timplados-hotshots",
-          "realgmId": "1241",
-          "name": "Magnolia Chicken Timplados Hotshots",
-          "abbr": "MCTH",
+          "id": "tnt-tropang-5g",
+          "name": "TNT Tropang 5G",
+          "abbr": "TT5",
           "logo": null
         },
-        "wins": 17,
-        "losses": 13,
-        "pct": ".567",
+        "wins": 7,
+        "losses": 5,
+        "pct": ".583",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 6,
-        "gamesBehind": "5"
+        "gamesBehind": "2"
       },
       {
         "team": {
-          "id": "meralco-bolts",
-          "realgmId": "935",
-          "name": "Meralco Bolts",
-          "abbr": "MB",
+          "id": "barangay-ginebra-san-miguel",
+          "name": "Barangay Ginebra San Miguel",
+          "abbr": "BGSM",
           "logo": null
         },
-        "wins": 17,
-        "losses": 14,
-        "pct": ".548",
+        "wins": 5,
+        "losses": 5,
+        "pct": ".500",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 7,
-        "gamesBehind": "5.5"
+        "gamesBehind": "3"
       },
       {
         "team": {
-          "id": "converge-fiberxers",
-          "realgmId": "2520",
-          "name": "Converge FiberXers",
-          "abbr": "CF",
+          "id": "phoenix-super-lpg-fuel-masters",
+          "name": "Phoenix Super LPG Fuel Masters",
+          "abbr": "PSLF",
           "logo": null
         },
-        "wins": 17,
-        "losses": 15,
-        "pct": ".531",
+        "wins": 5,
+        "losses": 5,
+        "pct": ".500",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 8,
-        "gamesBehind": "6"
+        "gamesBehind": "3"
       },
       {
         "team": {
-          "id": "phoenix-super-lpg-fuel-masters",
-          "realgmId": "1744",
-          "name": "Phoenix Super LPG Fuel Masters",
-          "abbr": "PSLF",
+          "id": "terrafirma-dyip",
+          "name": "Terrafirma Dyip",
+          "abbr": "TD",
           "logo": null
         },
-        "wins": 13,
-        "losses": 17,
-        "pct": ".433",
+        "wins": 5,
+        "losses": 7,
+        "pct": ".417",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 9,
-        "gamesBehind": "9"
+        "gamesBehind": "4"
       },
       {
         "team": {
-          "id": "blackwater-bossing",
-          "realgmId": "1643",
-          "name": "Blackwater Bossing",
-          "abbr": "BB",
+          "id": "meralco-bolts",
+          "name": "Meralco Bolts",
+          "abbr": "MB",
           "logo": null
         },
-        "wins": 11,
-        "losses": 38,
-        "pct": ".224",
+        "wins": 4,
+        "losses": 6,
+        "pct": ".400",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 10,
-        "gamesBehind": "20.5"
+        "gamesBehind": "4"
       },
       {
         "team": {
-          "id": "terrafirma-dyip",
-          "realgmId": "1620",
-          "name": "Terrafirma Dyip",
-          "abbr": "TD",
+          "id": "blackwater-bossing",
+          "name": "Blackwater Bossing",
+          "abbr": "BB",
           "logo": null
         },
-        "wins": 8,
-        "losses": 23,
-        "pct": ".258",
+        "wins": 3,
+        "losses": 7,
+        "pct": ".300",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 11,
-        "gamesBehind": "14.5"
+        "gamesBehind": "5"
       },
       {
         "team": {
-          "id": "titan-ultra-giant-risers",
-          "realgmId": "2789",
-          "name": "Titan Ultra Giant Risers",
-          "abbr": "TUGR",
+          "id": "macau-giant-pandas",
+          "name": "Macau Giant Pandas",
+          "abbr": "MAC",
           "logo": null
         },
-        "wins": 8,
-        "losses": 24,
-        "pct": ".250",
+        "wins": 2,
+        "losses": 10,
+        "pct": ".167",
         "pointsFor": null,
         "pointsAgainst": null,
         "diff": null,
         "streak": null,
         "seed": 12,
-        "gamesBehind": "15"
+        "gamesBehind": "7"
+      },
+      {
+        "team": {
+          "id": "titan-ultra-giant-risers",
+          "name": "Titan Ultra Giant Risers",
+          "abbr": "TUGR",
+          "logo": null
+        },
+        "wins": 2,
+        "losses": 10,
+        "pct": ".167",
+        "pointsFor": null,
+        "pointsAgainst": null,
+        "diff": null,
+        "streak": null,
+        "seed": 13,
+        "gamesBehind": "7"
       }
     ],
     "conferences": [
       {
-        "name": "Philippine Cup",
-        "abbrev": "Philippine Cup",
+        "name": "Group A",
+        "abbrev": "Group A",
         "rows": [
           {
             "team": {
+              "id": "nlex-road-warriors",
+              "name": "NLEX Road Warriors",
+              "abbr": "NRW",
+              "logo": null
+            },
+            "wins": 9,
+            "losses": 3,
+            "pct": ".750",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 1,
+            "gamesBehind": "—"
+          },
+          {
+            "team": {
               "id": "san-miguel-beermen",
-              "realgmId": "937",
               "name": "San Miguel Beermen",
               "abbr": "SMB",
               "logo": null
             },
             "wins": 9,
-            "losses": 2,
-            "pct": ".818",
-            "gamesBehind": "0",
-            "lastTen": "6-4",
-            "streak": "W 2",
-            "pointsFor": 109.4,
-            "pointsAgainst": 97.5,
-            "diff": "11.9",
-            "seed": 1
-          },
-          {
-            "team": {
-              "id": "tnt-tropang-5g",
-              "realgmId": "431",
-              "name": "TNT Tropang 5G",
-              "abbr": "TT5",
-              "logo": null
-            },
-            "wins": 8,
             "losses": 3,
-            "pct": ".727",
-            "gamesBehind": "1",
-            "lastTen": "5-5",
-            "streak": "L 2",
-            "pointsFor": 102.6,
-            "pointsAgainst": 94.4,
-            "diff": "8.2",
-            "seed": 2
-          },
-          {
-            "team": {
-              "id": "rain-or-shine-elasto-painters",
-              "realgmId": "938",
-              "name": "Rain or Shine Elasto Painters",
-              "abbr": "ROSE",
-              "logo": null
-            },
-            "wins": 8,
-            "losses": 3,
-            "pct": ".727",
-            "gamesBehind": "1",
-            "lastTen": "6-4",
-            "streak": "L 3",
-            "pointsFor": 98.3,
-            "pointsAgainst": 96.4,
-            "diff": "1.9",
-            "seed": 3
+            "pct": ".750",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 2,
+            "gamesBehind": "0"
           },
           {
             "team": {
               "id": "converge-fiberxers",
-              "realgmId": "2520",
               "name": "Converge FiberXers",
               "abbr": "CF",
-              "logo": null
-            },
-            "wins": 7,
-            "losses": 4,
-            "pct": ".636",
-            "gamesBehind": "2",
-            "lastTen": "5-5",
-            "streak": "L 2",
-            "pointsFor": 106.3,
-            "pointsAgainst": 99.7,
-            "diff": "6.6",
-            "seed": 4
-          },
-          {
-            "team": {
-              "id": "barangay-ginebra-san-miguel",
-              "realgmId": "432",
-              "name": "Barangay Ginebra San Miguel",
-              "abbr": "BGSM",
-              "logo": null
-            },
-            "wins": 7,
-            "losses": 4,
-            "pct": ".636",
-            "gamesBehind": "2",
-            "lastTen": "8-2",
-            "streak": "L 1",
-            "pointsFor": 94.9,
-            "pointsAgainst": 88.1,
-            "diff": "6.8",
-            "seed": 5
-          },
-          {
-            "team": {
-              "id": "meralco-bolts",
-              "realgmId": "935",
-              "name": "Meralco Bolts",
-              "abbr": "MB",
-              "logo": null
-            },
-            "wins": 6,
-            "losses": 5,
-            "pct": ".545",
-            "gamesBehind": "3",
-            "lastTen": "5-5",
-            "streak": "L 2",
-            "pointsFor": 96.6,
-            "pointsAgainst": 90.4,
-            "diff": "6.2",
-            "seed": 6
-          },
-          {
-            "team": {
-              "id": "magnolia-chicken-timplados-hotshots",
-              "realgmId": "1241",
-              "name": "Magnolia Chicken Timplados Hotshots",
-              "abbr": "MCTH",
-              "logo": null
-            },
-            "wins": 6,
-            "losses": 5,
-            "pct": ".545",
-            "gamesBehind": "3",
-            "lastTen": "4-6",
-            "streak": "L 3",
-            "pointsFor": 92.9,
-            "pointsAgainst": 91.2,
-            "diff": "1.7",
-            "seed": 7
-          },
-          {
-            "team": {
-              "id": "nlex-road-warriors",
-              "realgmId": "1644",
-              "name": "NLEX Road Warriors",
-              "abbr": "NRW",
-              "logo": null
-            },
-            "wins": 6,
-            "losses": 5,
-            "pct": ".545",
-            "gamesBehind": "3",
-            "lastTen": "5-5",
-            "streak": "L 4",
-            "pointsFor": 90.8,
-            "pointsAgainst": 94.3,
-            "diff": "-3.5",
-            "seed": 8
-          },
-          {
-            "team": {
-              "id": "titan-ultra-giant-risers",
-              "realgmId": "2789",
-              "name": "Titan Ultra Giant Risers",
-              "abbr": "TUGR",
-              "logo": null
-            },
-            "wins": 4,
-            "losses": 7,
-            "pct": ".364",
-            "gamesBehind": "5",
-            "lastTen": "3-7",
-            "streak": "L 1",
-            "pointsFor": 104.9,
-            "pointsAgainst": 115,
-            "diff": "-10.1",
-            "seed": 9
-          },
-          {
-            "team": {
-              "id": "phoenix-super-lpg-fuel-masters",
-              "realgmId": "1744",
-              "name": "Phoenix Super LPG Fuel Masters",
-              "abbr": "PSLF",
-              "logo": null
-            },
-            "wins": 3,
-            "losses": 8,
-            "pct": ".273",
-            "gamesBehind": "6",
-            "lastTen": "3-7",
-            "streak": "L 2",
-            "pointsFor": 95,
-            "pointsAgainst": 97.8,
-            "diff": "-2.8",
-            "seed": 10
-          },
-          {
-            "team": {
-              "id": "blackwater-bossing",
-              "realgmId": "1643",
-              "name": "Blackwater Bossing",
-              "abbr": "BB",
-              "logo": null
-            },
-            "wins": 1,
-            "losses": 10,
-            "pct": ".091",
-            "gamesBehind": "8",
-            "lastTen": "0-10",
-            "streak": "L 10",
-            "pointsFor": 92.5,
-            "pointsAgainst": 102.3,
-            "diff": "-9.8",
-            "seed": 11
-          },
-          {
-            "team": {
-              "id": "terrafirma-dyip",
-              "realgmId": "1620",
-              "name": "Terrafirma Dyip",
-              "abbr": "TD",
-              "logo": null
-            },
-            "wins": 1,
-            "losses": 10,
-            "pct": ".091",
-            "gamesBehind": "8",
-            "lastTen": "1-9",
-            "streak": "L 9",
-            "pointsFor": 94,
-            "pointsAgainst": 111.2,
-            "diff": "-17.2",
-            "seed": 12
-          }
-        ]
-      },
-      {
-        "name": "Commissioner's Cup",
-        "abbrev": "Commissioner's Cup",
-        "rows": [
-          {
-            "team": {
-              "id": "nlex-road-warriors",
-              "realgmId": "1644",
-              "name": "NLEX Road Warriors",
-              "abbr": "NRW",
-              "logo": null
-            },
-            "wins": 10,
-            "losses": 2,
-            "pct": ".833",
-            "gamesBehind": "0",
-            "lastTen": "7-3",
-            "streak": "L 2",
-            "pointsFor": 103.8,
-            "pointsAgainst": 97.3,
-            "diff": "6.5",
-            "seed": 1
-          },
-          {
-            "team": {
-              "id": "barangay-ginebra-san-miguel",
-              "realgmId": "432",
-              "name": "Barangay Ginebra San Miguel",
-              "abbr": "BGSM",
-              "logo": null
-            },
-            "wins": 9,
-            "losses": 3,
-            "pct": ".750",
-            "gamesBehind": "1",
-            "lastTen": "6-4",
-            "streak": "W 1",
-            "pointsFor": 103.9,
-            "pointsAgainst": 98.3,
-            "diff": "5.6",
-            "seed": 2
-          },
-          {
-            "team": {
-              "id": "rain-or-shine-elasto-painters",
-              "realgmId": "938",
-              "name": "Rain or Shine Elasto Painters",
-              "abbr": "ROSE",
-              "logo": null
-            },
-            "wins": 9,
-            "losses": 3,
-            "pct": ".750",
-            "gamesBehind": "1",
-            "lastTen": "4-6",
-            "streak": "L 2",
-            "pointsFor": 112,
-            "pointsAgainst": 105.1,
-            "diff": "6.9",
-            "seed": 3
-          },
-          {
-            "team": {
-              "id": "meralco-bolts",
-              "realgmId": "935",
-              "name": "Meralco Bolts",
-              "abbr": "MB",
               "logo": null
             },
             "wins": 8,
             "losses": 4,
             "pct": ".667",
-            "gamesBehind": "2",
-            "lastTen": "4-6",
-            "streak": "L 2",
-            "pointsFor": 104.1,
-            "pointsAgainst": 96.4,
-            "diff": "7.7",
-            "seed": 4
-          },
-          {
-            "team": {
-              "id": "magnolia-chicken-timplados-hotshots",
-              "realgmId": "1241",
-              "name": "Magnolia Chicken Timplados Hotshots",
-              "abbr": "MCTH",
-              "logo": null
-            },
-            "wins": 7,
-            "losses": 5,
-            "pct": ".583",
-            "gamesBehind": "3",
-            "lastTen": "7-3",
-            "streak": "L 1",
-            "pointsFor": 102.6,
-            "pointsAgainst": 94.5,
-            "diff": "8.1",
-            "seed": 5
-          },
-          {
-            "team": {
-              "id": "san-miguel-beermen",
-              "realgmId": "937",
-              "name": "San Miguel Beermen",
-              "abbr": "SMB",
-              "logo": null
-            },
-            "wins": 7,
-            "losses": 5,
-            "pct": ".583",
-            "gamesBehind": "3",
-            "lastTen": "6-4",
-            "streak": "L 1",
-            "pointsFor": 106.5,
-            "pointsAgainst": 106.2,
-            "diff": "0.3",
-            "seed": 6
-          },
-          {
-            "team": {
-              "id": "phoenix-super-lpg-fuel-masters",
-              "realgmId": "1744",
-              "name": "Phoenix Super LPG Fuel Masters",
-              "abbr": "PSLF",
-              "logo": null
-            },
-            "wins": 6,
-            "losses": 6,
-            "pct": ".500",
-            "gamesBehind": "4",
-            "lastTen": "4-6",
-            "streak": "L 3",
-            "pointsFor": 103.7,
-            "pointsAgainst": 103.3,
-            "diff": "0.4",
-            "seed": 7
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 3,
+            "gamesBehind": "1"
           },
           {
             "team": {
               "id": "tnt-tropang-5g",
-              "realgmId": "431",
               "name": "TNT Tropang 5G",
               "abbr": "TT5",
               "logo": null
             },
-            "wins": 6,
-            "losses": 6,
-            "pct": ".500",
-            "gamesBehind": "4",
-            "lastTen": "5-5",
-            "streak": "L 1",
-            "pointsFor": 101.8,
-            "pointsAgainst": 99.5,
-            "diff": "2.3",
-            "seed": 8
+            "wins": 7,
+            "losses": 5,
+            "pct": ".583",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 4,
+            "gamesBehind": "2"
           },
           {
             "team": {
-              "id": "converge-fiberxers",
-              "realgmId": "2520",
-              "name": "Converge FiberXers",
-              "abbr": "CF",
+              "id": "terrafirma-dyip",
+              "name": "Terrafirma Dyip",
+              "abbr": "TD",
               "logo": null
             },
             "wins": 5,
             "losses": 7,
             "pct": ".417",
-            "gamesBehind": "5",
-            "lastTen": "4-6",
-            "streak": "W 1",
-            "pointsFor": 102.8,
-            "pointsAgainst": 103.4,
-            "diff": "-0.6",
-            "seed": 9
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 5,
+            "gamesBehind": "4"
           },
           {
             "team": {
-              "id": "terrafirma-dyip",
-              "realgmId": "1620",
-              "name": "Terrafirma Dyip",
-              "abbr": "TD",
+              "id": "macau-giant-pandas",
+              "name": "Macau Giant Pandas",
+              "abbr": "MAC",
               "logo": null
             },
-            "wins": 4,
-            "losses": 8,
-            "pct": ".333",
-            "gamesBehind": "6",
-            "lastTen": "2-8",
-            "streak": "L 2",
-            "pointsFor": 97.7,
-            "pointsAgainst": 103.5,
-            "diff": "-5.8",
-            "seed": 10
-          },
-          {
-            "team": {
-              "id": "blackwater-bossing",
-              "realgmId": "2827",
-              "name": "Blackwater Bossing",
-              "abbr": "BB",
-              "logo": null
-            },
-            "wins": 3,
-            "losses": 9,
-            "pct": ".250",
-            "gamesBehind": "7",
-            "lastTen": "3-7",
-            "streak": "W 1",
-            "pointsFor": 104.1,
-            "pointsAgainst": 110.4,
-            "diff": "-6.3",
-            "seed": 11
+            "wins": 2,
+            "losses": 10,
+            "pct": ".167",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 6,
+            "gamesBehind": "7"
           },
           {
             "team": {
               "id": "titan-ultra-giant-risers",
-              "realgmId": "2789",
               "name": "Titan Ultra Giant Risers",
               "abbr": "TUGR",
               "logo": null
@@ -3479,285 +3140,120 @@
             "wins": 2,
             "losses": 10,
             "pct": ".167",
-            "gamesBehind": "8",
-            "lastTen": "2-8",
-            "streak": "L 7",
-            "pointsFor": 101.1,
-            "pointsAgainst": 115.6,
-            "diff": "-14.5",
-            "seed": 12
-          },
-          {
-            "team": {
-              "id": "blackwater-bossing",
-              "realgmId": "1643",
-              "name": "Blackwater Bossing",
-              "abbr": "BB",
-              "logo": null
-            },
-            "wins": 2,
-            "losses": 10,
-            "pct": ".167",
-            "gamesBehind": "8",
-            "lastTen": "2-8",
-            "streak": "L 4",
-            "pointsFor": 102.4,
-            "pointsAgainst": 112.8,
-            "diff": "-10.4",
-            "seed": 13
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 7,
+            "gamesBehind": "7"
           }
         ]
       },
       {
-        "name": "Governors' Cup",
-        "abbrev": "Governors' Cup",
+        "name": "Group B",
+        "abbrev": "Group B",
         "rows": [
           {
             "team": {
-              "id": "san-miguel-beermen",
-              "realgmId": "937",
-              "name": "San Miguel Beermen",
-              "abbr": "SMB",
-              "logo": null
-            },
-            "wins": 7,
-            "losses": 2,
-            "pct": ".778",
-            "gamesBehind": "0",
-            "lastTen": "7-2",
-            "streak": "W 3",
-            "pointsFor": 121,
-            "pointsAgainst": 105.4,
-            "diff": "15.6",
-            "seed": 1
-          },
-          {
-            "team": {
-              "id": "nlex-road-warriors",
-              "realgmId": "1644",
-              "name": "NLEX Road Warriors",
-              "abbr": "NRW",
-              "logo": null
-            },
-            "wins": 7,
-            "losses": 2,
-            "pct": ".778",
-            "gamesBehind": "0",
-            "lastTen": "7-2",
-            "streak": "L 1",
-            "pointsFor": 111.6,
-            "pointsAgainst": 99.8,
-            "diff": "11.8",
-            "seed": 2
-          },
-          {
-            "team": {
-              "id": "rain-or-shine-elasto-painters",
-              "realgmId": "938",
-              "name": "Rain or Shine Elasto Painters",
-              "abbr": "ROSE",
-              "logo": null
-            },
-            "wins": 4,
-            "losses": 2,
-            "pct": ".667",
-            "gamesBehind": "1.5",
-            "lastTen": "4-2",
-            "streak": "W 4",
-            "pointsFor": 103.3,
-            "pointsAgainst": 105,
-            "diff": "-1.7",
-            "seed": 3
-          },
-          {
-            "team": {
               "id": "magnolia-chicken-timplados-hotshots",
-              "realgmId": "1241",
               "name": "Magnolia Chicken Timplados Hotshots",
               "abbr": "MCTH",
               "logo": null
             },
-            "wins": 4,
+            "wins": 7,
             "losses": 3,
-            "pct": ".571",
-            "gamesBehind": "2",
-            "lastTen": "4-3",
-            "streak": "W 3",
-            "pointsFor": 97.7,
-            "pointsAgainst": 92.1,
-            "diff": "5.6",
-            "seed": 4
+            "pct": ".700",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 1,
+            "gamesBehind": "—"
           },
           {
             "team": {
-              "id": "phoenix-super-lpg-fuel-masters",
-              "realgmId": "1744",
-              "name": "Phoenix Super LPG Fuel Masters",
-              "abbr": "PSLF",
+              "id": "rain-or-shine-elasto-painters",
+              "name": "Rain or Shine Elasto Painters",
+              "abbr": "ROSE",
               "logo": null
             },
-            "wins": 4,
-            "losses": 3,
-            "pct": ".571",
-            "gamesBehind": "2",
-            "lastTen": "4-3",
-            "streak": "L 2",
-            "pointsFor": 96.9,
-            "pointsAgainst": 97.1,
-            "diff": "-0.2",
-            "seed": 5
-          },
-          {
-            "team": {
-              "id": "converge-fiberxers",
-              "realgmId": "2520",
-              "name": "Converge FiberXers",
-              "abbr": "CF",
-              "logo": null
-            },
-            "wins": 5,
+            "wins": 6,
             "losses": 4,
-            "pct": ".556",
-            "gamesBehind": "2",
-            "lastTen": "5-4",
-            "streak": "W 2",
-            "pointsFor": 115.7,
-            "pointsAgainst": 110.8,
-            "diff": "4.9",
-            "seed": 6
-          },
-          {
-            "team": {
-              "id": "tnt-tropang-5g",
-              "realgmId": "431",
-              "name": "TNT Tropang 5G",
-              "abbr": "TT5",
-              "logo": null
-            },
-            "wins": 4,
-            "losses": 4,
-            "pct": ".500",
-            "gamesBehind": "2.5",
-            "lastTen": "4-4",
-            "streak": "L 1",
-            "pointsFor": 101.3,
-            "pointsAgainst": 99.9,
-            "diff": "1.4",
-            "seed": 7
-          },
-          {
-            "team": {
-              "id": "blackwater-bossing",
-              "realgmId": "1643",
-              "name": "Blackwater Bossing",
-              "abbr": "BB",
-              "logo": null
-            },
-            "wins": 3,
-            "losses": 3,
-            "pct": ".500",
-            "gamesBehind": "2.5",
-            "lastTen": "3-3",
-            "streak": "W 1",
-            "pointsFor": 103,
-            "pointsAgainst": 103.7,
-            "diff": "-0.7",
-            "seed": 8
-          },
-          {
-            "team": {
-              "id": "terrafirma-dyip",
-              "realgmId": "1620",
-              "name": "Terrafirma Dyip",
-              "abbr": "TD",
-              "logo": null
-            },
-            "wins": 3,
-            "losses": 5,
-            "pct": ".375",
-            "gamesBehind": "3.5",
-            "lastTen": "3-5",
-            "streak": "L 1",
-            "pointsFor": 105,
-            "pointsAgainst": 105.8,
-            "diff": "-0.8",
-            "seed": 9
-          },
-          {
-            "team": {
-              "id": "meralco-bolts",
-              "realgmId": "935",
-              "name": "Meralco Bolts",
-              "abbr": "MB",
-              "logo": null
-            },
-            "wins": 3,
-            "losses": 5,
-            "pct": ".375",
-            "gamesBehind": "3.5",
-            "lastTen": "3-5",
-            "streak": "W 1",
-            "pointsFor": 97,
-            "pointsAgainst": 100,
-            "diff": "-3.0",
-            "seed": 10
+            "pct": ".600",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 2,
+            "gamesBehind": "1"
           },
           {
             "team": {
               "id": "barangay-ginebra-san-miguel",
-              "realgmId": "432",
               "name": "Barangay Ginebra San Miguel",
               "abbr": "BGSM",
               "logo": null
             },
-            "wins": 2,
-            "losses": 4,
-            "pct": ".333",
-            "gamesBehind": "3.5",
-            "lastTen": "2-4",
-            "streak": "L 2",
-            "pointsFor": 89.5,
-            "pointsAgainst": 89.3,
-            "diff": "0.2",
-            "seed": 11
+            "wins": 5,
+            "losses": 5,
+            "pct": ".500",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 3,
+            "gamesBehind": "2"
+          },
+          {
+            "team": {
+              "id": "phoenix-super-lpg-fuel-masters",
+              "name": "Phoenix Super LPG Fuel Masters",
+              "abbr": "PSLF",
+              "logo": null
+            },
+            "wins": 5,
+            "losses": 5,
+            "pct": ".500",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 4,
+            "gamesBehind": "2"
+          },
+          {
+            "team": {
+              "id": "meralco-bolts",
+              "name": "Meralco Bolts",
+              "abbr": "MB",
+              "logo": null
+            },
+            "wins": 4,
+            "losses": 6,
+            "pct": ".400",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 5,
+            "gamesBehind": "3"
           },
           {
             "team": {
               "id": "blackwater-bossing",
-              "realgmId": "2827",
               "name": "Blackwater Bossing",
               "abbr": "BB",
               "logo": null
             },
-            "wins": 2,
-            "losses": 6,
-            "pct": ".250",
-            "gamesBehind": "4.5",
-            "lastTen": "2-6",
-            "streak": "L 2",
-            "pointsFor": 105.8,
-            "pointsAgainst": 121.6,
-            "diff": "-15.8",
-            "seed": 12
-          },
-          {
-            "team": {
-              "id": "titan-ultra-giant-risers",
-              "realgmId": "2789",
-              "name": "Titan Ultra Giant Risers",
-              "abbr": "TUGR",
-              "logo": null
-            },
-            "wins": 2,
+            "wins": 3,
             "losses": 7,
-            "pct": ".222",
-            "gamesBehind": "5",
-            "lastTen": "2-7",
-            "streak": "L 2",
-            "pointsFor": 103.7,
-            "pointsAgainst": 122.3,
-            "diff": "-18.6",
-            "seed": 13
+            "pct": ".300",
+            "pointsFor": null,
+            "pointsAgainst": null,
+            "diff": null,
+            "streak": null,
+            "seed": 6,
+            "gamesBehind": "4"
           }
         ]
       }
@@ -15635,7 +15131,7 @@
     "rosters": "2026-09-20T00:19:42.997Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
     "leaders": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-09-20T00:19:42.997Z",
+    "standings": "2026-10-25T14:58:43.918Z",
     "games": "2026-10-25T11:03:33.631Z",
     "news": "2026-10-25T11:03:33.631Z"
   },
@@ -15643,7 +15139,6 @@
     "teams",
     "rosters",
     "playerStats",
-    "leaders",
-    "standings"
+    "leaders"
   ]
 }

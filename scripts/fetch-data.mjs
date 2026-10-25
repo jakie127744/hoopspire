@@ -2278,6 +2278,132 @@ async function fetchLeagueNews(leagueKey, feeds, terms) {
 const fetchPBANews = () => fetchLeagueNews('PBA', PBA_FEEDS, PBA_TERMS)
 
 /**
+ * Current PBA conference standings, from Wikipedia.
+ *
+ * RealGM's PBA tables now answer with a bot-check page (from home and from
+ * GitHub), and pba.ph sits behind Cloudflare, so the standings froze in
+ * September. Wikipedia keeps each group's table in a template that cites
+ * pba.ph, and the conference page lists every result. Each team's wins and
+ * losses are re-added from those results; a mismatch goes into the notes.
+ *
+ * Change PBA_STANDINGS_PAGE and PBA_STANDINGS_LABEL when a new conference
+ * starts.
+ */
+const PBA_STANDINGS_PAGE = "2026 PBA Governors' Cup"
+const PBA_STANDINGS_LABEL = "2026 Governors' Cup"
+const WIKI_HEADERS = { 'User-Agent': 'HoopspireBot/1.0 (https://hoopspire.com)' }
+
+async function wikiText(page) {
+  const url =
+    'https://en.wikipedia.org/w/api.php?action=parse&prop=wikitext&format=json&formatversion=2&page=' +
+    encodeURIComponent(page)
+  const j = await get(url, { json: true, headers: WIKI_HEADERS })
+  if (!j?.parse?.wikitext) throw new Error(`no wikitext for ${page}`)
+  return j.parse.wikitext
+}
+
+/** [[target|text]] and [[text]] to plain text. */
+const wikiLinkText = (s) => s.replace(/\[\[(?:[^|\]]*\|)?([^\]]*)\]\]/g, '$1')
+
+/** Wins and losses per team code, counted from the page's result grids. */
+function wikiResultRecords(text) {
+  const rec = {}
+  for (const m of text.matchAll(/^\|\s*m\d+_([A-Za-z0-9]+)_[A-Za-z0-9]+\s*=\s*(.*)$/gm)) {
+    const score = wikiLinkText(m[2]).match(/(\d+)\s*[–-]\s*(\d+)/)
+    if (!score) continue
+    const [a, b] = [Number(score[1]), Number(score[2])]
+    const r = (rec[m[1]] ||= { wins: 0, losses: 0 })
+    if (a > b) r.wins++
+    else if (b > a) r.losses++
+  }
+  return rec
+}
+
+/** key=value pairs from a {{#invoke:Sports table}} call. */
+function sportsTableParams(text) {
+  const start = text.indexOf('{{#invoke:Sports table')
+  if (start < 0) return null
+  const body = wikiLinkText(
+    text
+      .slice(start)
+      .replace(/<noinclude>[\s\S]*$/, '')
+      .replace(/<ref[^>]*\/>|<ref[^>]*>[\s\S]*?<\/ref>/g, '')
+  )
+  const p = {}
+  for (const part of body.split('|')) {
+    const i = part.indexOf('=')
+    if (i > 0) p[part.slice(0, i).trim()] = part.slice(i + 1).replace(/\}\}\s*$/, '').trim()
+  }
+  return p
+}
+
+const pctOf = (w, l) => (w + l ? (w / (w + l)).toFixed(3).replace(/^0/, '') : '—')
+const gbOf = (top, r) => String((top.wins - r.wins + (r.losses - top.losses)) / 2)
+
+async function pbaWikiStandings(teams, notes) {
+  const page = await wikiText(PBA_STANDINGS_PAGE)
+  const results = wikiResultRecords(page)
+  const refs = [
+    ...new Set(
+      [...page.matchAll(/\{\{\s*([^{}|#]*(?:standings|elimination round)[^{}|]*?)\s*\}\}/gi)].map((m) => m[1])
+    ),
+  ]
+  const sources = refs.length
+    ? refs.map((r) => ({ name: (r.match(/Group\s+\w+$/i) || ['Standings'])[0], title: `Template:${r}` }))
+    : [{ name: 'Standings', text: page }]
+
+  const conferences = []
+  let checked = 0
+  for (const s of sources) {
+    const p = sportsTableParams(s.text || (await wikiText(s.title)))
+    const order = (p?.team_order || '').split(',').map((x) => x.trim()).filter(Boolean)
+    if (!order.length) continue
+    const rows = order.map((code, i) => {
+      const name = p[`name_${code}`] || code
+      const wins = Number(p[`win_${code}`]) || 0
+      const losses = Number(p[`loss_${code}`]) || 0
+      const chk = results[code]
+      if (chk) {
+        checked++
+        if (chk.wins !== wins || chk.losses !== losses) {
+          notes.push(`PBA standings: ${name} table says ${wins}-${losses}, the results add to ${chk.wins}-${chk.losses}`)
+        }
+      }
+      // matchTeam is fuzzy ("Macau Giant Pandas" once matched "Titan Ultra
+      // Giant Risers"), so the first word of both names must agree.
+      const first = (s) => s.toLowerCase().split(/\s+/)[0]
+      const hit = matchTeam(name, teams)
+      const club = hit && first(hit.name) === first(name) ? hit : null
+      return {
+        team: club
+          ? { id: club.id, name: club.name, abbr: club.abbr, logo: club.logo || null }
+          : { id: slug(name), name, abbr: code, logo: null },
+        wins,
+        losses,
+        pct: pctOf(wins, losses),
+        pointsFor: null,
+        pointsAgainst: null,
+        diff: null,
+        streak: null,
+        seed: i + 1,
+      }
+    })
+    for (const r of rows) r.gamesBehind = r.seed === 1 ? '—' : gbOf(rows[0], r)
+    conferences.push({ name: s.name, abbrev: s.name, rows })
+  }
+  if (!conferences.length) throw new Error(`no standings table parsed from ${PBA_STANDINGS_PAGE}`)
+
+  const rows = conferences
+    .flatMap((c) => c.rows)
+    .sort((a, b) => Number(b.pct.replace('—', '0')) - Number(a.pct.replace('—', '0')) || b.wins - a.wins)
+    .map((r, i, all) => ({ ...r, seed: i + 1, gamesBehind: i === 0 ? '—' : gbOf(all[0], r) }))
+  notes.push(
+    `PBA standings: ${PBA_STANDINGS_LABEL} from Wikipedia's group tables (they cite pba.ph); ${checked} records re-added from the page's results.`
+  )
+  return { seasonLabel: PBA_STANDINGS_LABEL, rows, conferences }
+}
+
+/**
  * PBA results, standings and statistics.
  *
  * The PBA plays three conferences a season — the Philippine Cup, the
@@ -2328,7 +2454,16 @@ async function pbaExtras(teams, notes) {
     notes.push(`PBA results: ${err.message}`)
   }
 
-  // Each conference's table and averages from RealGM.
+  // The current conference's standings from Wikipedia (see pbaWikiStandings).
+  let wikiStandings = null
+  try {
+    wikiStandings = await pbaWikiStandings(teams, notes)
+  } catch (err) {
+    notes.push(`PBA standings (Wikipedia): ${err.message}`)
+  }
+
+  // Each conference's table and averages from RealGM (standings only as a
+  // fallback when Wikipedia fails).
   const statLists = []
   const season = new Map()
   for (const conf of PBA_CONFERENCES) {
@@ -2342,7 +2477,7 @@ async function pbaExtras(teams, notes) {
           ? { ...r, team: { ...r.team, id: club.id, name: club.name, abbr: club.abbr, logo: club.logo || null } }
           : r
       })
-      if (rows.length) {
+      if (rows.length && !wikiStandings) {
         out.standings.conferences.push({ name: conf.name, abbrev: conf.name, rows })
         out.standings.seasonLabel = st.seasonLabel
         for (const r of rows) {
@@ -2377,6 +2512,7 @@ async function pbaExtras(teams, notes) {
       seed: i + 1,
       gamesBehind: i === 0 ? '—' : String(((all[0].wins - r.wins) + (r.losses - all[0].losses)) / 2),
     }))
+  if (wikiStandings) out.standings = wikiStandings
 
   if (statLists.length) {
     out.playerStats = combineConferenceStats(statLists)

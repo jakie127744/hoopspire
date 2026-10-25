@@ -17,6 +17,9 @@ on:
     # 06:00 UTC = 2pm Manila / 3pm Seoul & Tokyo / 3am São Paulo.
     # Late enough to include the previous evening's games in Asia and Brazil.
     - cron: '0 6 * * *'
+    # 15:30 UTC = 11:30pm Manila, after the PBA's late game (7:30pm tip-off).
+    # PBA only, so the standings and results carry the same night's games.
+    - cron: '30 15 * * *'
   workflow_dispatch:
     inputs:
       careers:
@@ -65,7 +68,12 @@ jobs:
           restore-keys: scraper-cache-
 
       - name: Refresh league data
-        run: npm run data 2>&1 | tee data-run.log
+        run: |
+          if [ "${{ github.event.schedule }}" = "30 15 * * *" ]; then
+            npm run data:pba 2>&1 | tee data-run.log
+          else
+            npm run data 2>&1 | tee data-run.log
+          fi
 
       # The search box's player and team lists, rebuilt from the data just fetched.
       # A league whose source fails keeps yesterday's rows, so this never
@@ -78,7 +86,7 @@ jobs:
       # per player at twice RealGM's crawl delay, resumable, stops cleanly on a
       # bot-check page — so it is allowed to fail without failing the job.
       - name: Refresh player careers
-        if: ${{ inputs.careers || github.event_name == 'schedule' }}
+        if: ${{ inputs.careers || (github.event_name == 'schedule' && github.event.schedule != '30 15 * * *') }}
         continue-on-error: true
         run: |
           if [ "${{ inputs.careers }}" = "true" ] || [ "$(date -u +%u)" = "7" ]; then
