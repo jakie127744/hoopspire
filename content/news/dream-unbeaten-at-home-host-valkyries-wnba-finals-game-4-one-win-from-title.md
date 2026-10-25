@@ -47,3 +47,5 @@ Both teams are chasing a first WNBA title. Golden State are in their second seas
 ## What is next
 
 Game 4 is Saturday, October 24, at 1 p.m. ET in Atlanta. Game 5 is Monday, October 26, at 8 p.m. ET in San Francisco. If needed, Game 6 is Thursday, October 29, at 8 p.m. ET in Atlanta, and Game 7 is Saturday, October 31, at 8 p.m. ET in San Francisco.
+
+Update: [Golden State won Game 4 67-62 to tie the series 2-2](/story/valkyries-beat-dream-67-62-tie-wnba-finals-2-2).
