@@ -5,6 +5,8 @@ league: "PBA"
 author: "Marisol Reyes"
 published: "2026-10-25"
 tag: "Result"
+image: /images/deonte-burton-27-late-blocks-nlex-hold-off-phoenix-97-92-game-1.jpg
+imageCredit: "Photo: Phil2011.13 / Wikimedia Commons (CC0)"
 ---
 
 NLEX were ahead 94-92 in the closing seconds, and a 15-point lead was nearly gone. Then Marcellus Earlington fouled Enoch Valdez, and the referees called it a flagrant foul. That gave NLEX free throws and the ball. L-Jay Gonzales made one of two, Deonte Burton made both of his with 13.8 seconds left, and NLEX had a 97-92 win in Game 1 of their PBA Governors' Cup quarterfinal on Sunday at the Ynares Center in Antipolo.
