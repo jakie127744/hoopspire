@@ -71,3 +71,5 @@ By quarter: Oklahoma City 24, 20, 26, 26. Denver 27, 21, 16, 20.
 The Thunder host the LA Clippers at Paycom Center on Sunday, October 25, at 7 p.m. ET. The Nuggets open at home against the New Orleans Pelicans at Ball Arena on Saturday, October 24, at 9 p.m. ET.
 
 Oklahoma City opened the season by [beating the Spurs 116-104 in San Antonio](/story/thunder-beat-spurs-116-104-western-final-rematch-mccain-six-threes-gilgeous-alexander-32). Earlier on Thursday, [the 76ers came back from 29 down to beat the Cavaliers](/story/76ers-come-back-from-29-down-beat-cavaliers-114-106-home-opener).
+
+Update: [the Nuggets came back from 23 down to beat the Pelicans 141-135 in overtime](/story/nuggets-come-back-from-23-down-beat-pelicans-141-135-overtime).
