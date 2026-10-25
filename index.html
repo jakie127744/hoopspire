@@ -25,8 +25,8 @@
 
       Consent: the gtag.js library is not requested until the reader has
       allowed analytics on the cookie banner (src/lib/consent.js, key
-      hoopspire.consent.v1). Until then the commands below only queue in
-      dataLayer, so a reader who declines sends no hits and gets no cookies,
+      hoopspire.consent.v1), and the js/config commands are queued only then,
+      after the consent grant. A reader who declines sends no hits and gets no cookies,
       which is what the Privacy Policy promises. Consent Mode is also set to
       denied by default and is granted only on accept. Withdrawing consent
       later turns the tag off for the rest of the visit and clears _ga cookies.
@@ -40,8 +40,6 @@
         ad_user_data: 'denied',
         ad_personalization: 'denied'
       });
-      gtag('js', new Date());
-      gtag('config', 'G-BHGSGFGWBJ');
 
       (function () {
         var ID = 'G-BHGSGFGWBJ';
@@ -79,6 +77,11 @@
             gtag('consent', 'update', { analytics_storage: 'granted' });
             if (!loaded) {
               loaded = true;
+              // config is queued only after the grant above. Queued earlier,
+              // its page_view goes out under "denied" and never reaches
+              // Realtime or the reports.
+              gtag('js', new Date());
+              gtag('config', ID);
               var s = document.createElement('script');
               s.async = true;
               s.src = 'https://www.googletagmanager.com/gtag/js?id=' + ID;
