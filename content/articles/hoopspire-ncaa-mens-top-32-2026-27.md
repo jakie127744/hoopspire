@@ -107,3 +107,5 @@ It is a starting point, not a prediction of March.
 ## The check to run next
 
 We will test the model against how last season's preseason rosters actually finished, and tune it before the next edition. The first in-season update comes after the opening weeks, when every team has real 2026-27 minutes to measure.
+
+Update: our No. 1 lost an exhibition in overtime. [Baylor beat Florida 82-76 in Jacksonville](/story/baylor-beat-florida-82-76-overtime-exhibition-jacksonville).
