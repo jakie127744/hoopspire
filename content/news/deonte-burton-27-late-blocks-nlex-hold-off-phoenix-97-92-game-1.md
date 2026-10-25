@@ -50,3 +50,5 @@ NLEX were the top seed in Group A and Phoenix the fourth seed in Group B. All fo
 Game 2 is on Wednesday, October 28, at the Ynares Center. A win would put NLEX one game from the semifinals. A Phoenix win would tie the series at 1-1.
 
 Opinion: [Why the best-of-five should be used in every conference](/story/pba-twice-to-beat-should-go-every-conference-tim-cone).
+
+The other Game 1: [TNT routed Magnolia 92-70](/story/tnt-win-every-quarter-beat-magnolia-92-70-game-1-hollis-jefferson-26).

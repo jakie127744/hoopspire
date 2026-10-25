@@ -48,3 +48,5 @@ The team has not said how many minutes Hollis-Jefferson will play on Tuesday.
 TNT play Macau on Tuesday, October 13, at 5:15 p.m. at the Ninoy Aquino Stadium. Meralco and Blackwater follow at 7:30 p.m. in a Group B game that matters for the quarterfinal race. After Tuesday, TNT have one group game left before the quarterfinals.
 
 Update: San Miguel answered four days later, [beating Terrafirma 135-105 behind 44 points from George King](/story/june-mar-fajardo-25-12-san-miguel-rout-terrafirma-135-105).
+
+Update: [Hollis-Jefferson scored 26 as TNT beat Magnolia 92-70 in Game 1 of the quarterfinals](/story/tnt-win-every-quarter-beat-magnolia-92-70-game-1-hollis-jefferson-26).
