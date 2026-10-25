@@ -48,3 +48,5 @@ Phoenix: Ricci Rivero 24, Kai Ballungay 20, Marcellus Earlington 14, Gian Mamuya
 NLEX were the top seed in Group A and Phoenix the fourth seed in Group B. All four quarterfinals are best-of-five, and the first team to three wins goes to the semifinals. The other series are Magnolia against TNT, Rain or Shine against Converge, and San Miguel against Barangay Ginebra.
 
 Game 2 is on Wednesday, October 28, at the Ynares Center. A win would put NLEX one game from the semifinals. A Phoenix win would tie the series at 1-1.
+
+Opinion: [Why the best-of-five should be used in every conference](/story/pba-twice-to-beat-should-go-every-conference-tim-cone).
