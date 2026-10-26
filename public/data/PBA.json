@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-25T18:33:42.514Z",
+  "fetchedAt": "2026-10-26T12:36:36.398Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -1011,8 +1010,8 @@
         "headshot": null
       },
       {
-        "id": "meralco-bolts-jason-brickman-r-",
-        "name": "Jason Brickman (R)",
+        "id": "meralco-bolts-jason-brickman",
+        "name": "Jason Brickman",
         "jersey": "5",
         "position": "G",
         "height": "5' 10\"",
@@ -1044,18 +1043,6 @@
         "age": 38,
         "country": null,
         "college": "Hawaii Pacific",
-        "headshot": null
-      },
-      {
-        "id": "meralco-bolts-antonio-hester-gi-in-",
-        "name": "Antonio Hester (GI / IN)",
-        "jersey": "9",
-        "position": "F/C",
-        "height": "6' 6\"",
-        "weight": "198 lbs",
-        "age": 36,
-        "country": null,
-        "college": "Mobile",
         "headshot": null
       },
       {
@@ -1113,7 +1100,7 @@
         "position": "C",
         "height": "6' 8\"",
         "weight": "194 lbs",
-        "age": null,
+        "age": 37,
         "country": null,
         "college": "Letran",
         "headshot": null
@@ -1131,20 +1118,8 @@
         "headshot": null
       },
       {
-        "id": "meralco-bolts-jordon-varnado-gi-",
-        "name": "Jordon Varnado (GI)",
-        "jersey": "23",
-        "position": "F",
-        "height": "6' 7\"",
-        "weight": "235 lbs",
-        "age": 29,
-        "country": null,
-        "college": "Troy",
-        "headshot": null
-      },
-      {
-        "id": "meralco-bolts-raymar-jose-in-",
-        "name": "Raymar Jose (IN)",
+        "id": "meralco-bolts-raymar-jose",
+        "name": "Raymar Jose",
         "jersey": "24",
         "position": "F",
         "height": "6' 4\"",
@@ -1167,8 +1142,8 @@
         "headshot": null
       },
       {
-        "id": "meralco-bolts-jeff-comia-r-in-",
-        "name": "Jeff Comia (R / IN)",
+        "id": "meralco-bolts-jeff-comia",
+        "name": "Jeff Comia",
         "jersey": "29",
         "position": "G",
         "height": "5' 11\"",
@@ -1215,8 +1190,8 @@
         "headshot": null
       },
       {
-        "id": "meralco-bolts-vince-magbuhos-r-",
-        "name": "Vince Magbuhos (R)",
+        "id": "meralco-bolts-vince-magbuhos",
+        "name": "Vince Magbuhos",
         "jersey": "93",
         "position": "F/C",
         "height": "6' 5\"",
@@ -2084,6 +2059,212 @@
         "age": 32,
         "country": null,
         "college": "Colorado",
+        "headshot": null
+      }
+    ],
+    "terrafirma-dyip": [
+      {
+        "id": "terrafirma-dyip-ira-bataller-fa-",
+        "name": "Ira Bataller (FA)",
+        "jersey": "0",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-juami-tiongson",
+        "name": "Juami Tiongson",
+        "jersey": "3",
+        "position": "G",
+        "height": "5' 10\"",
+        "weight": "175 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-paul-garcia",
+        "name": "Paul Garcia",
+        "jersey": "4",
+        "position": "G",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 27,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-keith-zaldivar",
+        "name": "Keith Zaldivar",
+        "jersey": "5",
+        "position": "C",
+        "height": "6' 6\"",
+        "weight": null,
+        "age": 30,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-louie-sangalang",
+        "name": "Louie Sangalang",
+        "jersey": "6",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-chris-miller",
+        "name": "Chris Miller",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "180 lbs",
+        "age": 33,
+        "country": null,
+        "college": "Salem",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-cj-catapusan",
+        "name": "CJ Catapusan",
+        "jersey": "9",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": null,
+        "age": 29,
+        "country": null,
+        "college": "Philippines",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-aljon-mariano",
+        "name": "Aljon Mariano",
+        "jersey": "10",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": "175 lbs",
+        "age": 34,
+        "country": null,
+        "college": "UST",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-ben-adamos",
+        "name": "Ben Adamos",
+        "jersey": "11",
+        "position": "C",
+        "height": "6' 7\"",
+        "weight": "200 lbs",
+        "age": 30,
+        "country": null,
+        "college": "UPHSD",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
+        "name": "Maverick Ahanmisi (FA)",
+        "jersey": "13",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Minnesota",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-geo-chiu",
+        "name": "Geo Chiu",
+        "jersey": "18",
+        "position": "C",
+        "height": "6' 10\"",
+        "weight": "249 lbs",
+        "age": 25,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-joseph-eriobu",
+        "name": "Joseph Eriobu",
+        "jersey": "23",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 34,
+        "country": null,
+        "college": "Mapúa",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-mark-nonoy",
+        "name": "Mark Nonoy",
+        "jersey": "24",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "De La Salle",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-jm-bravo",
+        "name": "JM Bravo",
+        "jersey": "26",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Lyceum",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-shawn-umali",
+        "name": "Shawn Umali",
+        "jersey": "28",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "242 lbs",
+        "age": 25,
+        "country": null,
+        "college": "St. Benilde",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-didat-hanapi",
+        "name": "Didat Hanapi",
+        "jersey": "30",
+        "position": "G/F",
+        "height": "6' 2\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-brent-paraiso",
+        "name": "Brent Paraiso",
+        "jersey": "38",
+        "position": "G",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
         "headshot": null
       }
     ],
@@ -3046,6 +3227,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-25-nlex-rw-phoenix",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "nlex-road-warriors",
+        "name": "NLEX Road Warriors",
+        "abbr": "NLE",
+        "logo": null,
+        "score": 97,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "phoenix-super-lpg-fuel-masters",
+        "name": "Phoenix Super LPG Fuel Masters",
+        "abbr": "PHO",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-25-hotshots-tnt-trop-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "magnolia-chicken-timplados-hotshots",
+        "name": "Magnolia Chicken Timplados Hotshots",
+        "abbr": "MAG",
+        "logo": null,
+        "score": 70,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tnt-tropang-5g",
+        "name": "TNT Tropang 5G",
+        "abbr": "TNT",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-10-23-phoenix-rain-or-s-",
       "league": "PBA",
@@ -14346,6 +14585,71 @@
   ],
   "news": [
     {
+      "id": "PBA-pbaadriannocumrainorshinehopefulforfinal",
+      "league": "PBA",
+      "title": "PBA: Adrian Nocum, Rain or Shine hopeful for finals breakthrough",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Adrian Nocum and Rain or Shine are set for another quest for a PBA championship that has eluded them so many times in the last two seasons. But Nocum is hopeful that the time for a breakthrough finally comes in the Governors’ Cup playoffs. “Sana eto naman. Min",
+      "published": "2026-10-26T18:52:31.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image9-5.jpg",
+      "url": "https://sports.inquirer.net/703622/pba-adrian-nocum-rain-or-shine-hopeful-for-finals-breakthrough"
+    },
+    {
+      "id": "PBA-pbadeonteburtongeorgekingearlybestimport",
+      "league": "PBA",
+      "title": "PBA: Deonte Burton, George King early Best Import frontrunners",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–NLEX’s Deonte Burton and San Miguel Beer’s George King emerged as the early contenders for the PBA Governors’ Cup Best Import award through the end of the group. Burton tallied 55.0 Statistical Points to lead the derby with King in second after posting 53.1 ba",
+      "published": "2026-10-26T18:46:37.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image10-7.jpg",
+      "url": "https://sports.inquirer.net/703620/pba-deonte-burton-george-king-early-best-import-frontrunners"
+    },
+    {
+      "id": "PBA-pbanlexsrobertbolicktakestheleadinbpcrac",
+      "league": "PBA",
+      "title": "PBA: NLEX’s Robert Bolick takes the lead in BPC race",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–NLEX’s Robert Bolick became the early frontrunner in the race for the Best Player of the Conference in the PBA Governors’ Cup. Bolick had 37.1 Statistical Points through the end of the group stage based on the official tally released by the PBA on Monday to ta",
+      "published": "2026-10-26T18:40:09.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image23.jpg",
+      "url": "https://sports.inquirer.net/703615/pba-nlexs-robert-bolick-takes-the-lead-in-bpc-race"
+    },
+    {
+      "id": "PBA-pbalatenoriodisappointedaftermagnoliablo",
+      "league": "PBA",
+      "title": "PBA: LA Tenorio ‘disappointed’ after Magnolia blowout loss in Game 1",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Coach LA Tenorio saw what he expected from TNT as Magnolia went down convincingly in Game 1 of the PBA Governors’ Cup quarterfinals on Sunday here. The Hotshots were beaten, 92-70, at Ynares Center after the Tropang 5G began to take control late in the second quarter and",
+      "published": "2026-10-26T17:07:27.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-3.jpg",
+      "url": "https://sports.inquirer.net/703566/pba-la-tenorio-disappointed-after-magnolia-blowout-loss-in-game-1"
+    },
+    {
+      "id": "PBA-pbaroadwarriorsmovewithintwomorewinsofsh",
+      "league": "PBA",
+      "title": "PBA: Road Warriors move within two more wins of shedding of unwanted tag",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Robert Bolick acknowledged the easier path NLEX may take in order to at least get to the Finals of the PBA Governors’ Cup. It is something that Bolick and the Road Warriors are determined to take advantage of, especially after drawing first blood in their best-of-five qu",
+      "published": "2026-10-26T04:30:32.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/Deonte-Burton-26October2026.jpg",
+      "url": "https://sports.inquirer.net/703506/pba-road-warriors-move-within-two-more-wins-of-shedding-of-unwanted-tag"
+    },
+    {
       "id": "PBA-pbaphoenixcoachchallengesimporttoplaybet",
       "league": "PBA",
       "title": "PBA: Phoenix coach challenges import to play better after ‘bad’ Game 1",
@@ -14411,32 +14715,6 @@
       "url": "https://sports.inquirer.net/703486/pba-quarterfinals-nlex-fends-off-phoenix-in-game-1"
     },
     {
-      "id": "PBA-nlexwardsoffphoenix",
-      "league": "PBA",
-      "title": "NLEX wards off Phoenix",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX went through the wringer before disposing of Phoenix Super LPG, 97-92, in a PBA Governors’ Cup quarterfinal opener that hardly reflected the combatants’ seedings.",
-      "published": "2026-10-25T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/26/2565738/nlex-wards-phoenix"
-    },
-    {
-      "id": "PBA-tropang5gcrushhotshotsinquarterfinalopen",
-      "league": "PBA",
-      "title": "Tropang 5G crush Hotshots in quarterfinal opener",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "One down for the TNT Tropang 5G.",
-      "published": "2026-10-25T14:44:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/25/2565727/tropang-5g-crush-hotshots-quarterfinal-opener"
-    },
-    {
       "id": "PBA-pbarondaehollisjeffersontntblowoutmagnol",
       "league": "PBA",
       "title": "PBA: Rondae Hollis-Jefferson, TNT blow out Magnolia in quarterfinals opener",
@@ -14461,84 +14739,6 @@
       "tag": "Report",
       "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G1-Magnolia-vs-TNT-Calvin-Oftana-150x150.jpg",
       "url": "https://tiebreakertimes.com.ph/tbt/tnt-routs-group-b-leader-magnolia-in-pba-quarterfinal-opener/387873"
-    },
-    {
-      "id": "PBA-pbanlexescapesphoenixtodrawfirstbloodinq",
-      "league": "PBA",
-      "title": "PBA: NLEX escapes Phoenix to draw first blood in QF showdown",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Top-seeded NLEX fended off a tough fightback from Phoenix, grinding out a 97-92 win against Phoenix in the PBA Season 50 Governors' Cup quarterfinals on Sunday at the Ynares Center Antipolo.",
-      "published": "2026-10-25T13:05:44.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007126/pba-nlex-escapes-phoenix-to-draw-first-blood-in-qf-showdown/story/"
-    },
-    {
-      "id": "PBA-roadwarriorsrepelfuelmasterstotakegame1",
-      "league": "PBA",
-      "title": "Road Warriors repel Fuel Masters to take Game 1",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX kept Phoenix at bay, 97-92, to draw first blood in the PBA Governors’ Cup quarterfinal Sunday at the Ynares Center in Antipolo.",
-      "published": "2026-10-25T12:06:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/25/2565654/road-warriors-repel-fuel-masters-take-game-1"
-    },
-    {
-      "id": "PBA-earlingtonsejectionsealsphoenixsfateasnl",
-      "league": "PBA",
-      "title": "Earlington’s ejection seals Phoenix’s fate as NLEX draws first blood in PBA quarters",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "BENGALURU, India — A flagrant foul all but decided the outcome as NLEX survived Phoenix Super LPG, 97-92, to start the PBA Season 50 Governors’ Cup quarterfinals Sunday evening at the Ynares Center in Antipolo. The Road Warriors were clinging to a 94-92 lead, and the Fuel Masters",
-      "published": "2026-10-25T11:45:44.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G1-NLEX-vs-Phoenix-Deschon-Winston-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/earlingtons-ejection-seals-phoenixs-fate-as-nlex-draws-first-blood-in-pba-quarters/387833"
-    },
-    {
-      "id": "PBA-pbagovernorscup2026quarterfinalspairings",
-      "league": "PBA",
-      "title": "PBA Governors' Cup 2026 quarterfinals pairings",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The quarterfinals cast for the 2026 PBA Governors\" Cup is complete, with eight teams advancing to the next round.",
-      "published": "2026-10-25T07:35:11.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007104/pba-governors-cup-2026-quarterfinals-pairings/story/"
-    },
-    {
-      "id": "PBA-pbacontendersbeginlongwindingquarterfina",
-      "league": "PBA",
-      "title": "PBA: Contenders begin ‘long, winding’ quarterfinals path",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals The road to the PBA Governors’ Cup championship could be long and winding for the league’s perennial contenders. For teams still chasing their first title, the path appears considerably clearer. The Governors’ Cup playoffs open Sund",
-      "published": "2026-10-25T05:19:04.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/Sports1319412.jpg",
-      "url": "https://sports.inquirer.net/703339/pba-contenders-begin-long-winding-quarterfinals-path"
-    },
-    {
-      "id": "PBA-pbanlexassuredoftoppickinrookiedraftgine",
-      "league": "PBA",
-      "title": "PBA: NLEX assured of top pick in Rookie Draft, Ginebra gets No. 3",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–NLEX officially secured the No. 1 pick in the 2027 PBA Rookie Draft following Blackwater’s elimination from playoff contention in the season-ending Governors’ Cup. Blackwater’s 101-96 loss to Ginebra on Friday at Ynares Center in Antipolo assured the Road Warr",
-      "published": "2026-10-24T21:46:35.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2025/09/IMG_2360_PBA-Season-50-Rookie-Draft-scaled.jpg",
-      "url": "https://sports.inquirer.net/703346/pba-nlex-assured-of-top-pick-in-rookie-draft-ginebra-gets-no-3"
     }
   ],
   "leaders": {
@@ -15004,12 +15204,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-25T18:33:42.514Z",
-    "rosters": "2026-10-25T18:33:42.514Z",
+    "teams": "2026-10-26T12:36:36.398Z",
+    "rosters": "2026-10-26T12:36:36.398Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-10-25T18:33:42.514Z",
-    "games": "2026-10-25T18:33:42.514Z",
-    "news": "2026-10-25T18:33:42.514Z",
+    "standings": "2026-10-26T12:36:36.398Z",
+    "games": "2026-10-26T12:36:36.398Z",
+    "news": "2026-10-26T12:36:36.398Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

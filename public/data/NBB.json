@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-25T11:04:11.262Z",
+  "fetchedAt": "2026-10-26T12:37:20.431Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,64 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-24-brasilia-paulist-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "paulist-",
+        "name": "Paulist.",
+        "abbr": "PAU",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-24-pato-botafogo",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "botafogo",
+        "name": "Botafogo",
+        "abbr": "BOT",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-23-bauru-mogi",
       "league": "NBB",
       "status": "final",
@@ -14086,6 +14144,32 @@
   ],
   "news": [
     {
+      "id": "NBB-corinthians-x-franca-no-nbb-veja-onde-as",
+      "league": "NBB",
+      "title": "Corinthians vs Franca on NBB: see where to watch live and time",
+      "originalTitle": "Corinthians x Franca no NBB: veja onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Franca wins Mogi at Pedrocão and remains undefeated at NBB Corinthians and Franca face each other this Monday, at 8 pm, at the Wlamir Marques gymnasium, in São Paulo (SP), for Novo Basquete Brasil (NBB) 2026/2027. While Franca is in the lead of the competition and maintains 100% of performance, with two",
+      "published": "2026-10-26T07:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/7GLypremWdDt0vK7sHYG4hU1wTc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/I/X/Oi8ojdRF2pijJ10e0MgA/mg-9057.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/26/corinthians-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
+      "id": "NBB-flamengo-vence-defensor-uru-e-avan-a-inv",
+      "league": "NBB",
+      "title": "Flamengo defeats Defensor (URU) and advances undefeated to the quarterfinals of the South American Basketball League.",
+      "originalTitle": "Flamengo vence Defensor (URU) e avança invicto às quartas na Liga Sul-Americana de Basquete",
+      "translatedFrom": "pt",
+      "description": "Boston Celtics 107 x 103 New York Knicks | Highlights | NBA Flamengo defeated Defensor Sporting, from Uruguay, by 65 to 63 this Sunday (25), at Maracanãzinho, in Rio de Janeiro, for the third and final round of Group D of the South American Basketball League. In a balanced match until the",
+      "published": "2026-10-26T02:28:45.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/ci-HaaLraQpZ3bc6aSYjYl_bhXI=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/0/V8xOXtSEW6iMxpBT2dWg/752952-flamengoxdefensor-lsb-maracanazinho-25-10-2026-foto-paulareis-flamengo008a8772-1-.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/10/25/flamengo-vence-defensor-uru-e-avanca-invicto-as-quartas-na-liga-sul-americana-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-pato-basquete-vira-com-enterrada-no-fim-",
       "league": "NBB",
       "title": "Basketball Duck turns with burial at the end and wins Botafogo by NBB",
@@ -14253,32 +14337,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/BtoXTWZMHsjtV3yV67GymckD7uo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/2/oA2rZbSIOQFToQ8URWMQ/2026-10-11t033931z-1664179466-mt1usatoday30055014-rtrmadp-3-nba-preseason-sacramento-kings-at-golden-state-warriors.jpg",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/gui-santos-com-espaco-e-splitter-liderando-os-bulls-o-que-esperar-da-temporada-dos-brasileiros-na-nba.ghtml"
-    },
-    {
-      "id": "NBB-pato-basquete-estreia-no-nbb-contra-o-pa",
-      "league": "NBB",
-      "title": "Pato Basquete debuts on NBB against Paulistano: see how the team from Paraná arrives",
-      "originalTitle": "Pato Basquete estreia no NBB contra o Paulistano: veja como chega o time paranaense",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete is champion of Paraná for the eighth time in a row Pato Basquete faces Paulistano this Wednesday, at 7:30 p.m., at Ginásio do Sesi, in Pato Branco, in the teams' debut at Novo Basquete Brasil (NBB) 2026/2027. Duck Basketball renews with coach Renan Gitiony for season 2026/2027 + Tab",
-      "published": "2026-10-21T07:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/xpEBEq6H4ZPpdZ_aXxFQZPwBIVw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/s/1PcanDSSeWFQPR3Vxd3A/thaylor-pato.jpg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/21/pato-basquete-estreia-no-nbb-contra-o-paulistano-veja-como-chega-o-time-paranaense.ghtml"
-    },
-    {
-      "id": "NBB-franca-x-mogi-no-nbb-onde-assistir-ao-vi",
-      "league": "NBB",
-      "title": "Franca vs Mogi on NBB: where to watch live and time",
-      "originalTitle": "Franca x Mogi no NBB: onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Mogi wins Franca and holds the title of Campeonato Paulista de Basquete Franca and Mogi face each other this Wednesday, at 7:30 pm, for the second round of Novo Basquete Brasil (NBB) 2026/2027. The game will be at the Pedrocão gymnasium, in Franca (SP). The two beat São José-SP and Corinthians in the debut of the c",
-      "published": "2026-10-21T07:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/fe0tKcMrDf3HME7ZvbLnVFq8Gsg=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/G/rHSXRgTkABxze0gNAWNw/55592358984-a11937c040-h.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/21/franca-x-mogi-no-nbb-onde-assistir-ao-vivo-e-horario.ghtml"
     }
   ],
   "leaders": {
@@ -14749,8 +14807,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-25T11:04:11.262Z",
-    "news": "2026-10-25T11:04:11.262Z"
+    "games": "2026-10-26T12:37:20.431Z",
+    "news": "2026-10-26T12:37:20.431Z"
   },
   "carriedOver": [
     "teams",

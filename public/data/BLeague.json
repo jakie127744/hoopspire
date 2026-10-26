@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-10-25T11:02:34.731Z",
+  "fetchedAt": "2026-10-26T12:35:43.532Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -3280,8 +3280,8 @@
       },
       {
         "id": "51000113",
-        "name": "飯尾 文哉",
-        "nameLocal": null,
+        "name": "Fumiya Iio",
+        "nameLocal": "飯尾 文哉",
         "jersey": "22",
         "position": "SG",
         "height": null,
@@ -16171,156 +16171,6 @@
   },
   "games": [
     {
-      "id": "bl-506456",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-11T14:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506456",
-      "home": {
-        "id": "2486",
-        "name": "Altiri Chiba",
-        "abbr": "ALT",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 74,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "696",
-        "name": "Toyama Grouses",
-        "abbr": "TOY",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 94,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506458",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-11T14:35:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506458",
-      "home": {
-        "id": "699",
-        "name": "Kyoto Hannaryz",
-        "abbr": "KYO",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "728",
-        "name": "SeaHorses Mikawa",
-        "abbr": "SEA",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 89,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506454",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-11T15:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506454",
-      "home": {
-        "id": "712",
-        "name": "Ibaraki Robots",
-        "abbr": "IBA",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 78,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "729",
-        "name": "Nagoya Diamond Dolphins",
-        "abbr": "NAG",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506455",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-11T15:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506455",
-      "home": {
-        "id": "703",
-        "name": "Utsunomiya Brex",
-        "abbr": "UTS",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 71,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "693",
-        "name": "Akita Northern Happinets",
-        "abbr": "AKI",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 82,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506457",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-11T17:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506457",
-      "home": {
-        "id": "726",
-        "name": "SunRockers Shibuya",
-        "abbr": "SUN",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 68,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "692",
-        "name": "Sendai 89ers",
-        "abbr": "SEN",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 70,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "bl-506460",
       "league": "BLeague",
       "status": "final",
@@ -16563,8 +16413,8 @@
     {
       "id": "bl-506471",
       "league": "BLeague",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-10-17T13:05:00+09:00",
@@ -17403,8 +17253,8 @@
     {
       "id": "bl-506495",
       "league": "BLeague",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-10-22T19:05:00+09:00",
@@ -17476,7 +17326,7 @@
         "name": "Shiga Lakes",
         "abbr": "SHI",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 89,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -17485,7 +17335,7 @@
         "name": "Nagasaki Velca",
         "abbr": "NAG",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 85,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
@@ -17506,7 +17356,7 @@
         "name": "Osaka Evessa",
         "abbr": "OSA",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 71,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -17515,7 +17365,7 @@
         "name": "SunRockers Shibuya",
         "abbr": "SUN",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 95,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
@@ -17536,7 +17386,7 @@
         "name": "Ryukyu Golden Kings",
         "abbr": "RYU",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 93,
+        "score": null,
         "linescores": [],
         "leaders": []
       },
@@ -17545,7 +17395,7 @@
         "name": "Gunma Crane Thunders",
         "abbr": "GUN",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 85,
+        "score": null,
         "linescores": [],
         "leaders": []
       }
@@ -17553,8 +17403,8 @@
     {
       "id": "bl-506505",
       "league": "BLeague",
-      "status": "live",
-      "statusDetail": "Live",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-10-24T14:05:00+09:00",
@@ -17793,8 +17643,8 @@
     {
       "id": "bl-506509",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-10-25T16:05:00+09:00",
@@ -17823,8 +17673,8 @@
     {
       "id": "bl-506508",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-10-25T17:05:00+09:00",
@@ -17853,8 +17703,8 @@
     {
       "id": "bl-506510",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -17866,7 +17716,7 @@
         "name": "Utsunomiya Brex",
         "abbr": "UTS",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 89,
         "linescores": [],
         "leaders": []
       },
@@ -17875,7 +17725,7 @@
         "name": "Kawasaki Brave Thunders",
         "abbr": "KAW",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 92,
         "linescores": [],
         "leaders": []
       }
@@ -17883,8 +17733,8 @@
     {
       "id": "bl-506511",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -17896,7 +17746,7 @@
         "name": "Altiri Chiba",
         "abbr": "ALT",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 74,
         "linescores": [],
         "leaders": []
       },
@@ -17905,7 +17755,7 @@
         "name": "Gunma Crane Thunders",
         "abbr": "GUN",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 85,
         "linescores": [],
         "leaders": []
       }
@@ -17913,8 +17763,8 @@
     {
       "id": "bl-506512",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -17926,7 +17776,7 @@
         "name": "Yokohama B-Corsairs",
         "abbr": "YOK",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 64,
         "linescores": [],
         "leaders": []
       },
@@ -17935,7 +17785,7 @@
         "name": "Hiroshima Dragonflies",
         "abbr": "HIR",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 90,
         "linescores": [],
         "leaders": []
       }
@@ -17943,8 +17793,8 @@
     {
       "id": "bl-506513",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -17956,7 +17806,7 @@
         "name": "Toyama Grouses",
         "abbr": "TOY",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 61,
         "linescores": [],
         "leaders": []
       },
@@ -17965,7 +17815,7 @@
         "name": "Ibaraki Robots",
         "abbr": "IBA",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 83,
         "linescores": [],
         "leaders": []
       }
@@ -17973,8 +17823,8 @@
     {
       "id": "bl-506514",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -17986,7 +17836,7 @@
         "name": "Shinshu Brave Warriors",
         "abbr": "SHI",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 97,
         "linescores": [],
         "leaders": []
       },
@@ -17995,7 +17845,7 @@
         "name": "Kobe Storks",
         "abbr": "KOB",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 87,
         "linescores": [],
         "leaders": []
       }
@@ -18003,8 +17853,8 @@
     {
       "id": "bl-506516",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -18016,7 +17866,7 @@
         "name": "Shimane Susanoo Magic",
         "abbr": "SHI",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 85,
         "linescores": [],
         "leaders": []
       },
@@ -18025,7 +17875,7 @@
         "name": "Sendai 89ers",
         "abbr": "SEN",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 86,
         "linescores": [],
         "leaders": []
       }
@@ -18033,8 +17883,8 @@
     {
       "id": "bl-506517",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -18046,7 +17896,7 @@
         "name": "Saga Ballooners",
         "abbr": "SAG",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 88,
         "linescores": [],
         "leaders": []
       },
@@ -18055,7 +17905,7 @@
         "name": "Alvark Tokyo",
         "abbr": "ALV",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 112,
         "linescores": [],
         "leaders": []
       }
@@ -18063,8 +17913,8 @@
     {
       "id": "bl-506518",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:05:00+09:00",
@@ -18076,7 +17926,7 @@
         "name": "Nagasaki Velca",
         "abbr": "NAG",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 101,
         "linescores": [],
         "leaders": []
       },
@@ -18085,7 +17935,7 @@
         "name": "Ryukyu Golden Kings",
         "abbr": "RYU",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 84,
         "linescores": [],
         "leaders": []
       }
@@ -18093,8 +17943,8 @@
     {
       "id": "bl-506515",
       "league": "BLeague",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "live",
+      "statusDetail": "Live",
       "period": null,
       "clock": null,
       "date": "2026-10-26T19:15:00+09:00",
@@ -18106,7 +17956,7 @@
         "name": "Kyoto Hannaryz",
         "abbr": "KYO",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 73,
         "linescores": [],
         "leaders": []
       },
@@ -18115,7 +17965,7 @@
         "name": "Akita Northern Happinets",
         "abbr": "AKI",
         "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": null,
+        "score": 65,
         "linescores": [],
         "leaders": []
       }
@@ -20399,6 +20249,186 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "bl-506595",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-16T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506595",
+      "home": {
+        "id": "713",
+        "name": "Gunma Crane Thunders",
+        "abbr": "GUN",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "698",
+        "name": "Shiga Lakes",
+        "abbr": "SHI",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506596",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-16T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506596",
+      "home": {
+        "id": "704",
+        "name": "Chiba Jets",
+        "abbr": "CHI",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "697",
+        "name": "San-en NeoPhoenix",
+        "abbr": "SAN",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506597",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-16T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506597",
+      "home": {
+        "id": "706",
+        "name": "Alvark Tokyo",
+        "abbr": "ALV",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "718",
+        "name": "Kobe Storks",
+        "abbr": "KOB",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506598",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-16T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506598",
+      "home": {
+        "id": "694",
+        "name": "Yokohama B-Corsairs",
+        "abbr": "YOK",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "727",
+        "name": "Kawasaki Brave Thunders",
+        "abbr": "KAW",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506599",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-16T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506599",
+      "home": {
+        "id": "721",
+        "name": "Hiroshima Dragonflies",
+        "abbr": "HIR",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "2486",
+        "name": "Altiri Chiba",
+        "abbr": "ALT",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506600",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-16T19:35:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506600",
+      "home": {
+        "id": "701",
+        "name": "Ryukyu Golden Kings",
+        "abbr": "RYU",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "696",
+        "name": "Toyama Grouses",
+        "abbr": "TOY",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -20879,13 +20909,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-25T11:02:34.731Z",
-    "rosters": "2026-10-25T11:02:34.731Z",
-    "playerStats": "2026-10-25T11:02:34.731Z",
-    "standings": "2026-10-25T11:02:34.731Z",
-    "games": "2026-10-25T11:02:34.731Z",
+    "teams": "2026-10-26T12:35:43.532Z",
+    "rosters": "2026-10-26T12:35:43.532Z",
+    "playerStats": "2026-10-26T12:35:43.532Z",
+    "standings": "2026-10-26T12:35:43.532Z",
+    "games": "2026-10-26T12:35:43.532Z",
     "news": "2026-09-22T11:18:19.088Z",
-    "leaders": "2026-10-25T11:02:34.731Z"
+    "leaders": "2026-10-26T12:35:43.532Z"
   },
   "carriedOver": [
     "news"

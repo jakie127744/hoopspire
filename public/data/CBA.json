@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-25T11:03:50.488Z",
+  "fetchedAt": "2026-10-26T12:36:51.784Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,296 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-25-beijing-guangzhou",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": 117,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangzhou",
+        "name": "Guangzhou",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-25-liaoning-xinjiang",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "liaoning",
+        "name": "Liaoning",
+        "abbr": "LIA",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-25-qingdao-nanjing",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "nanjing",
+        "name": "Nanjing",
+        "abbr": "NAN",
+        "logo": null,
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-25-shandong-tianjin",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 105,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "tianjin",
+        "name": "Tianjin",
+        "abbr": "TIA",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-25-shanxi-l--jiangsu",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 101,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jiangsu",
+        "name": "Jiangsu",
+        "abbr": "JIA",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-25-shenzhen-beijing",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": 70,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": 103,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-25-sichuan-zhejiang",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sichuan",
+        "name": "Sichuan",
+        "abbr": "SIC",
+        "logo": null,
+        "score": 49,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-24-guangdong-ningbo-r-",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-24-shanghai-fujian-s-",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-24-guangsha-jilin-ne",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-24T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "guangsha",
+        "name": "Guangsha",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": 82,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-23-beijing-jiangsu",
       "league": "CBA",
       "status": "final",
@@ -17101,6 +17391,19 @@
   ],
   "news": [
     {
+      "id": "CBA-asiasanswertoncaabasketballtakesbigstepf",
+      "league": "CBA",
+      "title": "Asia’s answer to NCAA basketball takes big step forward with new 18 team season",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Asia’s answer to NCAA basketball has taken another big step forwards, with 18 universities weeks away from the start of a two-conference season. The teams involved in the Asian University Basketball League will play between November and April, with a championship week, similar to",
+      "published": "2026-10-26T09:30:08.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/68e892ed-544f-4d26-aaa7-4e31d16a1976_fae4d6a8.jpg?itok=BDrku53r&v=1793002288",
+      "url": "https://www.scmp.com/sport/basketball/article/3372154/asias-answer-ncaa-basketball-takes-big-step-forwards-new-18-team-season"
+    },
+    {
       "id": "CBA-chinesebasketballplayerbarrywangtippedas",
       "league": "CBA",
       "title": "Chinese basketball player Barry Wang tipped as NBA prospect after US university match",
@@ -17582,8 +17885,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-25T11:03:50.488Z",
-    "news": "2026-10-25T11:03:50.488Z"
+    "games": "2026-10-26T12:36:51.784Z",
+    "news": "2026-10-26T12:36:51.784Z"
   },
   "carriedOver": [
     "teams",
