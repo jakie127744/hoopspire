@@ -76,3 +76,5 @@ The Celtics host the New York Knicks at TD Garden on Friday, October 23, at 7 p.
 Before the game, we looked at [the three opening-night matchups](/story/knicks-open-title-defense-against-76ers-thunder-visit-spurs-nba-opening-night). Later on Tuesday, [the 76ers spoiled the Knicks' banner night](/story/76ers-beat-knicks-106-100-banner-night-lebron-james-76ers-debut).
 
 Update: [Tatum scored 36 as the Celtics held off the Knicks 107-103 in their home opener](/story/tatum-36-celtics-hold-off-knicks-107-103).
+
+Update: [Detroit went to 3-0 by beating the 76ers 106-93](/story/magic-beat-0-3-knicks-111-102-nba-sunday-roundup).

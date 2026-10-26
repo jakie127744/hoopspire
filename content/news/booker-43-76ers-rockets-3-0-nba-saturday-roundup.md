@@ -130,3 +130,5 @@ On Sunday, October 25, the Nets host the Indiana Pacers at 6 p.m. ET and the 76e
 The last NBA roundup: [Wednesday's eight openers](/story/ty-jerome-45-nba-wednesday-roundup-kessler-12-for-12). Philadelphia's last game: [the 76ers came back from 29 down to beat the Cavaliers](/story/76ers-come-back-from-29-down-beat-cavaliers-114-106-home-opener).
 
 The night before: [Friday's NBA roundup, the Grizzlies' 17-0 finish at Golden State](/story/grizzlies-17-0-run-hawks-win-by-47-nba-friday-roundup).
+
+The night after: [Sunday's roundup, the Magic at the Knicks](/story/magic-beat-0-3-knicks-111-102-nba-sunday-roundup).

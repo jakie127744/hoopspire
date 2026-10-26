@@ -168,3 +168,5 @@ Charlotte: Naz Reid 17, Tidjane Salaün 11, Grayson Allen 11, Brandon Miller 6, 
 ## What is next
 
 Eleven of these teams played again on Saturday: [Saturday's roundup](/story/booker-43-76ers-rockets-3-0-nba-saturday-roundup) and [the Nuggets' overtime win over New Orleans](/story/nuggets-come-back-from-23-down-beat-pelicans-141-135-overtime). On Sunday, October 25, the Lakers visit Utah at 5 p.m. ET, the Raptors visit Minnesota, the Magic visit the Knicks and the Clippers visit Oklahoma City at 7 p.m. ET, the Pistons visit Philadelphia at 7:30 p.m. ET, and the Grizzlies visit Sacramento at 9 p.m. ET.
+
+Update: on Sunday [Luka Dončić scored 52 as the Lakers won at Utah 132-123](/story/doncic-52-lakers-beat-jazz-132-123), and [the Magic beat the 0-3 Knicks](/story/magic-beat-0-3-knicks-111-102-nba-sunday-roundup).
