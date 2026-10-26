@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-26T12:36:36.398Z",
+  "fetchedAt": "2026-10-26T20:42:37.646Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -640,7 +640,7 @@
         "position": "G",
         "height": "6' 2\"",
         "weight": "190 lbs",
-        "age": 34,
+        "age": 35,
         "country": null,
         "college": "Cal State Fullerton",
         "headshot": null
@@ -1184,7 +1184,7 @@
         "position": "G",
         "height": "6' 2\"",
         "weight": null,
-        "age": 26,
+        "age": 27,
         "country": null,
         "college": "Philippines",
         "headshot": null
@@ -14585,6 +14585,19 @@
   ],
   "news": [
     {
+      "id": "PBA-consuelodebobosaysconeofkingsquarterfina",
+      "league": "PBA",
+      "title": "‘Consuelo de bobo,’ says Cone of Kings’ quarterfinal showdown vs Beermen",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The two other quarterfinal series of the PBA Governors’ Cup start on Tuesday at Smart Araneta Coliseum, headlined by an early playoff showdown between powerhouse sister squads Barangay Ginebra and San Miguel Beer. The Gin Kings and the Beermen Ginebra and San Miguel open their qu",
+      "published": "2026-10-27T04:30:44.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/San-Miguel-Beer-26October2026.jpg",
+      "url": "https://sports.inquirer.net/703637/consuelo-de-bobo-says-cone-of-kings-quarterfinal-showdown-vs-beermen"
+    },
+    {
       "id": "PBA-pbaadriannocumrainorshinehopefulforfinal",
       "league": "PBA",
       "title": "PBA: Adrian Nocum, Rain or Shine hopeful for finals breakthrough",
@@ -14635,6 +14648,58 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-3.jpg",
       "url": "https://sports.inquirer.net/703566/pba-la-tenorio-disappointed-after-magnolia-blowout-loss-in-game-1"
+    },
+    {
+      "id": "PBA-bolickpacesbpcderby",
+      "league": "PBA",
+      "title": "Bolick paces BPC derby",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NLEX ace Robert Bolick holds the early lead in the PBA Governors’ Cup Best Player of the Conference derby but faces a powerhouse chase pack led by Converge’s Big 3.",
+      "published": "2026-10-26T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/27/2565890/bolick-paces-bpc-derby"
+    },
+    {
+      "id": "PBA-champsclashinquarters",
+      "league": "PBA",
+      "title": "Champs clash in quarters",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Pitted early in the PBA Governors’ Cup playoffs, only one between San Miguel Beer and Barangay Ginebra will get to move forward with its quest for a golden double in Season 50.",
+      "published": "2026-10-26T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/27/2565894/champs-clash-quarters"
+    },
+    {
+      "id": "PBA-playoffplotsthicken",
+      "league": "PBA",
+      "title": "Playoff plots thicken",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "In the ongoing PBA Governors Cup, at least one “independent” team – either Rain or Shine or Converge – not affiliated with either MVP or RSA will make it to the Final Four.",
+      "published": "2026-10-26T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/27/2565884/playoff-plots-thicken"
+    },
+    {
+      "id": "PBA-surfingacesconvergeincloud9",
+      "league": "PBA",
+      "title": "Surfing aces converge in cloud 9",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "A wave can put an island on the world map. For 10 days, one reef break will carry a whole community and a whole country onto the global stage.",
+      "published": "2026-10-26T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/27/2565887/surfing-aces-converge-cloud-9"
     },
     {
       "id": "PBA-pbaroadwarriorsmovewithintwomorewinsofsh",
@@ -15204,12 +15269,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-26T12:36:36.398Z",
-    "rosters": "2026-10-26T12:36:36.398Z",
+    "teams": "2026-10-26T20:42:37.646Z",
+    "rosters": "2026-10-26T20:42:37.646Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-10-26T12:36:36.398Z",
-    "games": "2026-10-26T12:36:36.398Z",
-    "news": "2026-10-26T12:36:36.398Z",
+    "standings": "2026-10-26T20:42:37.646Z",
+    "games": "2026-10-26T20:42:37.646Z",
+    "news": "2026-10-26T20:42:37.646Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
