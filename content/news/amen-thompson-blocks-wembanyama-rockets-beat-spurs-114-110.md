@@ -50,7 +50,7 @@ Both teams played the next night. Houston won at Atlanta 121-114, and San Antoni
 
 The Spurs host the Sacramento Kings on Tuesday, October 27, and the Rockets visit the Milwaukee Bucks on Wednesday, October 28. Both games tip off at 8 p.m. ET.
 
-Last Tuesday, [the Thunder beat the Spurs 116-104 in a Western final rematch](/story/thunder-beat-spurs-116-104-western-final-rematch-mccain-six-threes-gilgeous-alexander-32).
+Houston's win was one of 12 games on Friday: [the Friday roundup](/story/grizzlies-17-0-run-hawks-win-by-47-nba-friday-roundup) has the other 11. Last Tuesday, [the Thunder beat the Spurs 116-104 in a Western final rematch](/story/thunder-beat-spurs-116-104-western-final-rematch-mccain-six-threes-gilgeous-alexander-32).
 
 ## Scoring
 

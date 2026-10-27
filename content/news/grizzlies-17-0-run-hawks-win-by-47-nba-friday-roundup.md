@@ -35,6 +35,8 @@ San Antonio got within 109-108 on an alley-oop from [De'Aaron Fox](/player/NBA/4
 
 Şengün scored 29, 14 in the fourth quarter. Wembanyama had 25 for San Antonio and Harper 20, 11 in the fourth. Houston is 2-0, San Antonio 0-2.
 
+The full game story: [Amen Thompson blocks Wembanyama, Rockets beat Spurs 114-110](/story/amen-thompson-blocks-wembanyama-rockets-beat-spurs-114-110).
+
 ## Bulls 132, Bucks 125
 
 Milwaukee led 26-11 in the first quarter. Chicago scored 44 points in the second, with a 16-0 run, and the game was tied six times.
