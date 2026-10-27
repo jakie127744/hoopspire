@@ -67,3 +67,5 @@ Earlier on opening night, [the Pistons came back from 22 down to beat the Celtic
 Update: [the Thunder beat the Nuggets 96-84 in their home opener](/story/thunder-beat-nuggets-96-84-gilgeous-alexander-15-after-halftime).
 
 Update: [Victor Ashby on why the Spurs should keep starting Fox, Castle and Harper](/story/the-spurs-are-right-to-start-three-guards-judge-it-in-december-not-on-last-june).
+
+Update: [Amen Thompson blocked Wembanyama in the last second as the Rockets beat the Spurs in Austin](/story/amen-thompson-blocks-wembanyama-rockets-beat-spurs-114-110).
