@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-26T12:36:51.784Z",
+  "fetchedAt": "2026-10-27T11:55:05.840Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,64 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-26-ningbo-r--jilin-ne",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "ningbo-r-",
+        "name": "Ningbo R.",
+        "abbr": "NIN",
+        "logo": null,
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "jilin-ne",
+        "name": "Jilin NE",
+        "abbr": "JIL",
+        "logo": null,
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-26-shanghai-guangdong",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shanghai",
+        "name": "Shanghai",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-25-beijing-guangzhou",
       "league": "CBA",
       "status": "final",
@@ -16809,35 +16867,6 @@
       }
     },
     {
-      "id": "ab-CBA-2026-10-21-zhejiang-shandong",
-      "league": "CBA",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-21T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "zhejiang",
-        "name": "Zhejiang",
-        "abbr": "ZHE",
-        "logo": null,
-        "score": 89,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "shandong",
-        "name": "Shandong",
-        "abbr": "SHA",
-        "logo": null,
-        "score": 75,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "ab-CBA-2026-10-21-qingdao-liaoning",
       "league": "CBA",
       "status": "final",
@@ -16862,6 +16891,35 @@
         "abbr": "LIA",
         "logo": null,
         "score": 97,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-21-zhejiang-shandong",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "zhejiang",
+        "name": "Zhejiang",
+        "abbr": "ZHE",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 75,
         "linescores": [],
         "leaders": []
       }
@@ -17402,19 +17460,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/26/68e892ed-544f-4d26-aaa7-4e31d16a1976_fae4d6a8.jpg?itok=BDrku53r&v=1793002288",
       "url": "https://www.scmp.com/sport/basketball/article/3372154/asias-answer-ncaa-basketball-takes-big-step-forwards-new-18-team-season"
-    },
-    {
-      "id": "CBA-chinesebasketballplayerbarrywangtippedas",
-      "league": "CBA",
-      "title": "Chinese basketball player Barry Wang tipped as NBA prospect after US university match",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Rising Chinese basketball star Barry Wang Junjie was tipped to be an NBA prospect after he flourished in only his second game with his new team, the Massachusetts Minutemen, on Sunday. Wang erupted for 31 points on eight-of-12 shooting, including knocking down a pair of three-poi",
-      "published": "2026-10-19T13:00:09.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/19/d1c868f6-558e-4f04-a8a4-72c7e732718f_0d75ad94.jpg?itok=UODs24Nk&v=1792403987",
-      "url": "https://www.scmp.com/sport/basketball/article/3371387/chinese-basketball-player-barry-wang-tipped-nba-prospect-after-us-university-match"
     }
   ],
   "leaders": {
@@ -17885,8 +17930,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-26T12:36:51.784Z",
-    "news": "2026-10-26T12:36:51.784Z"
+    "games": "2026-10-27T11:55:05.840Z",
+    "news": "2026-10-27T11:55:05.840Z"
   },
   "carriedOver": [
     "teams",

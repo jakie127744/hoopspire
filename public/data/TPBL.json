@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-10-26T12:36:57.054Z",
+  "fetchedAt": "2026-10-27T11:55:14.897Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5161,13 +5161,13 @@
   },
   "games": [
     {
-      "id": "ab-TPBL-2026-10-24-lioneers-dreamers",
+      "id": "ab-TPBL-2026-10-25-lioneers-kaohsiung",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
       "period": null,
       "clock": null,
-      "date": "2026-10-24T11:00:00.000Z",
+      "date": "2026-10-25T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -5180,9 +5180,9 @@
         "leaders": []
       },
       "away": {
-        "id": "3",
-        "name": "Formosa Dreamers",
-        "abbr": "FOR",
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
         "logo": null,
         "score": 132,
         "linescores": [],
@@ -5190,13 +5190,13 @@
       }
     },
     {
-      "id": "ab-TPBL-2026-10-24-n-taipei-taipei-tm",
+      "id": "ab-TPBL-2026-10-25-n-taipei-kings",
       "league": "TPBL",
       "status": "final",
       "statusDetail": "Final",
       "period": null,
       "clock": null,
-      "date": "2026-10-24T11:00:00.000Z",
+      "date": "2026-10-25T11:00:00.000Z",
       "venue": null,
       "city": null,
       "home": {
@@ -5209,9 +5209,9 @@
         "leaders": []
       },
       "away": {
-        "id": "8",
-        "name": "Taipei Taishin Mars",
-        "abbr": "TAI",
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
         "logo": null,
         "score": 89,
         "linescores": [],
@@ -5279,10 +5279,49 @@
   ],
   "news": [
     {
+      "id": "TPBL-526",
+      "league": "TPBL",
+      "title": "2026.10.27 Alliance Announcement - Prolongation Information",
+      "originalTitle": "2026.10.27 聯盟公告-延賽資訊",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-27T10:06:37.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/526/JNhOraNwwvJ39CoVzxwN2Q8rK9zeZWnvn3kwlKyb.jpg?20261027181044",
+      "url": "https://tpbl.basketball/news/526"
+    },
+    {
+      "id": "TPBL-525",
+      "league": "TPBL",
+      "title": "🥇 | Best-performing player in 🔱 a single week 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🔱 洛斯柯 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-27T06:05:28.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/525/6RFA18mT5qmI8U6Yj66N8a5SN3R57J7T8erKlLSc.jpg?20261027140647",
+      "url": "https://tpbl.basketball/news/525"
+    },
+    {
+      "id": "TPBL-524",
+      "league": "TPBL",
+      "title": "🥇 | Best-performing player in a single week 👑 Lin Shuwei 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 👑 林書緯 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-27T06:02:14.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/524/cAvLnncolhpW1UMpkaubukx9VBAxdu8svTboDNox.jpg?20261027140447",
+      "url": "https://tpbl.basketball/news/524"
+    },
+    {
       "id": "TPBL-515",
       "league": "TPBL",
-      "title": "| Best-performing player 🦄 in a week 🤫",
-      "originalTitle": "𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🦄 高柏鎧 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "title": "🥇 | Best-performing player 🦄 in a week 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🦄 高柏鎧 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
       "translatedFrom": "zh-TW",
       "description": "",
       "published": "2026-10-20T06:11:00.000Z",
@@ -5394,45 +5433,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/502/MgyuXoeAMe2trNrzCPwVD4vuScRPD12zHMhAhnUA.jpg?20261010204125",
       "url": "https://tpbl.basketball/news/502"
-    },
-    {
-      "id": "TPBL-519",
-      "league": "TPBL",
-      "title": "Xie Ya Xuan Outer Lines Full Fire Ferretti Consolidation Restricted Area Rebound Seven Score Top Double Show Team Power Extension Sail Back Sea God Takes First Victory",
-      "originalTitle": "謝亞軒外線火力全開 法拉帝鞏固禁區籃板 七人得分上雙展現團隊戰力 延長賽力退海神收下首勝",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-09T13:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/510/QzpB9btVSfAZ5fTkVqyhWuxMwM2BWgectFZtrcT1.jpg?20261016170118",
-      "url": "https://tpbl.basketball/news/519"
-    },
-    {
-      "id": "TPBL-501",
-      "league": "TPBL",
-      "title": "2026-27 TPBL Unboxing New Ten Force Pre-Season Warm-Up Tournament First Day Special Extension Dangerous Victory Sea God, God of War Reversal Knockback Dreamer",
-      "originalTitle": "2026-27 TPBL 開箱新十力 季前熱身賽首日 特攻延長賽險勝海神、戰神逆轉擊退夢想家",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-09T12:35:35.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/501/2JICFQlq9yK6e9PRTG0c6iQxS5mFaMM2WP0CcTzW.jpg?20261009204322",
-      "url": "https://tpbl.basketball/news/501"
-    },
-    {
-      "id": "TPBL-518",
-      "league": "TPBL",
-      "title": "Taipei War God announces new season slogan \"code red\" Lin Tingqian leader challenge team history first",
-      "originalTitle": "臺北戰神公布新賽季口號「CODE RED」 林庭謙領軍挑戰隊史首冠",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-08T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/507/5a87xBsmptydgPeXQQq3Qa04NXMzDbVlzkexsE8m.jpg?20261013195505",
-      "url": "https://tpbl.basketball/news/518"
     }
   ],
   "leaders": {
@@ -5898,12 +5898,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-26T12:36:57.054Z",
-    "rosters": "2026-10-26T12:36:57.054Z",
-    "playerStats": "2026-10-26T12:36:57.054Z",
-    "standings": "2026-10-26T12:36:57.054Z",
-    "games": "2026-10-26T12:36:57.054Z",
-    "news": "2026-10-26T12:36:57.054Z",
-    "leaders": "2026-10-26T12:36:57.054Z"
+    "teams": "2026-10-27T11:55:14.897Z",
+    "rosters": "2026-10-27T11:55:14.897Z",
+    "playerStats": "2026-10-27T11:55:14.897Z",
+    "standings": "2026-10-27T11:55:14.897Z",
+    "games": "2026-10-27T11:55:14.897Z",
+    "news": "2026-10-27T11:55:14.897Z",
+    "leaders": "2026-10-27T11:55:14.897Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-26T12:37:20.431Z",
+  "fetchedAt": "2026-10-27T11:55:26.854Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,64 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-26-corinthi--sesi-fra-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 48,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-26-mogi-unifacisa",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-26T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "mogi",
+        "name": "Mogi",
+        "abbr": "MOG",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "unifacisa",
+        "name": "UniFacisa",
+        "abbr": "UNI",
+        "logo": null,
+        "score": 70,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-24-brasilia-paulist-",
       "league": "NBB",
       "status": "final",
@@ -14144,6 +14202,19 @@
   ],
   "news": [
     {
+      "id": "NBB-corinthians-imp-e-30-pontos-de-vantagem-",
+      "league": "NBB",
+      "title": "Corinthians imposes 30 points advantage over Franca and wins the first in the NBB",
+      "originalTitle": "Corinthians impõe 30 pontos de vantagem sobre Franca e vence a primeira no NBB",
+      "translatedFrom": "pt",
+      "description": "Franca beats Mogi at Pedrocão and remains undefeated at NBB Corinthians won Sesi Franca 78-48 on Monday night at the Wlamir Marques gymnasium in São Paulo. It was Timão's first triumph in this edition of the NBB and the first defeat of the French team in the national team. In the classification, the Se",
+      "published": "2026-10-27T00:55:56.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/_r1hvQBLrq-Vn3mw3qcitedpuew=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/y/x/uKNRDNRNydWmooEXtwGA/139a2251.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/26/corinthians-impoe-30-pontos-de-vantagem-sobre-franca-e-vence-a-primeira-no-nbb.ghtml"
+    },
+    {
       "id": "NBB-corinthians-x-franca-no-nbb-veja-onde-as",
       "league": "NBB",
       "title": "Corinthians vs Franca on NBB: see where to watch live and time",
@@ -14324,19 +14395,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/Q37GbWwFV3bevScoW4bBmo-h5lM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/l/V/8Xr2tGTeetBuDMWF4JGw/hvkulpnaiaas78s.jpg",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/doncic-compra-espaco-em-jornal-para-divulgar-carta-a-torcida-dos-lakers-vamos-dar-tudo-de-nos.ghtml"
-    },
-    {
-      "id": "NBB-gui-santos-com-espa-o-e-splitter-lideran",
-      "league": "NBB",
-      "title": "Gui Santos with space and Splitter leading the Bulls: what to expect from the Brazilians' NBA season",
-      "originalTitle": "Gui Santos com espaço e Splitter liderando os Bulls: o que esperar da temporada dos brasileiros na NBA",
-      "translatedFrom": "pt",
-      "description": "Tiago Splitter will have challenges and must bet on the collectivity for his first year in the Bulls The NBA season officially began on Tuesday (20), and the two Brazilians in action in the league will debut this Wednesday (21). After a 2025/2026 affirmation in the Golden State Warriors, with more minutes in",
-      "published": "2026-10-21T09:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/BtoXTWZMHsjtV3yV67GymckD7uo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/v/2/oA2rZbSIOQFToQ8URWMQ/2026-10-11t033931z-1664179466-mt1usatoday30055014-rtrmadp-3-nba-preseason-sacramento-kings-at-golden-state-warriors.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/gui-santos-com-espaco-e-splitter-liderando-os-bulls-o-que-esperar-da-temporada-dos-brasileiros-na-nba.ghtml"
     }
   ],
   "leaders": {
@@ -14807,8 +14865,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-26T12:37:20.431Z",
-    "news": "2026-10-26T12:37:20.431Z"
+    "games": "2026-10-27T11:55:26.854Z",
+    "news": "2026-10-27T11:55:26.854Z"
   },
   "carriedOver": [
     "teams",
