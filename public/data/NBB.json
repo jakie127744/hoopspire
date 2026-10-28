@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-27T11:55:26.854Z",
+  "fetchedAt": "2026-10-28T12:31:23.899Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-27-minas-pato",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 65,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-27-cruzeiro-brasilia",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "cruzeiro",
+        "name": "Cruzeiro",
+        "abbr": "CRU",
+        "logo": null,
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-27-pinheiros-u-corinth-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-27T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-26-corinthi--sesi-fra-",
       "league": "NBB",
       "status": "final",
@@ -14202,6 +14289,32 @@
   ],
   "news": [
     {
+      "id": "NBB-paulistano-x-franca-no-nbb-veja-onde-ass",
+      "league": "NBB",
+      "title": "Paulistano vs Franca on NBB: see where to watch live and time",
+      "originalTitle": "Paulistano x Franca no NBB: veja onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Franca suffers first defeat in the NBB Paulistano season and Sesi Franca face each other this Wednesday, at 7 pm, at the Sesi Vila Leopoldina gymnasium, in São Paulo (SP), by Novo Basquete Brasil (NBB) 2026/2027. The French team, currently five times national champion, tries to rehabilitate itself after losing the first",
+      "published": "2026-10-28T09:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/NxtTdvBwZM6j6U-ErKv7jUdNM-M=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2017/G/q/tI44ZWRkyEf5b7wQFyJQ/whatsapp-image-2017-11-08-at-09.20.55-1-.jpeg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/28/paulistano-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
+      "id": "NBB-helinho-classifica-derrota-como-noite-at",
+      "league": "NBB",
+      "title": "Helinho classifies defeat as \"atypical night\" and demands consistency from Franca after the worst score",
+      "originalTitle": "Helinho classifica derrota como \"noite atípica\" e cobra consistência do Franca após pior pontuação",
+      "translatedFrom": "pt",
+      "description": "Franca loses to Corinthians and is no longer undefeated in the NBB in São Paulo. The 78-48 loss to Corinthians, on Monday, at the Wlamir Marques gymnasium, recorded the worst offensive production of Sesi Franca in the 2026 season, in addition to decreeing the loss of invincibility in Novo Basquete Bras",
+      "published": "2026-10-27T18:21:50.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/dV5wyJo73oQqdGKxDiT7TS4yhaE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/p/3HRJtsSEesAtewZ3euzA/whatsapp-image-2026-10-26-at-22.17.46.jpeg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/27/helinho-classifica-derrota-como-noite-atipica-e-cobra-consistencia-do-franca-apos-pior-pontuacao.ghtml"
+    },
+    {
       "id": "NBB-corinthians-imp-e-30-pontos-de-vantagem-",
       "league": "NBB",
       "title": "Corinthians imposes 30 points advantage over Franca and wins the first in the NBB",
@@ -14369,32 +14482,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/sK1hTCLpEbpJ3wgk_AgYjtAqCiU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/P/f7PzK2RG2dybGUWjhZVA/55604501333-839c6e9dc0-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/21/franca-da-troco-no-mogi-apos-vice-no-paulista-e-mantem-100percent-de-aproveitamento-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-luka-doncic-assume-protagonismo-no-los-a",
-      "league": "NBB",
-      "title": "Luka Doncic takes the lead in the Los Angeles Lakers without LeBron and dreams of a 1st NBA title",
-      "originalTitle": "Luka Doncic assume protagonismo no Los Angeles Lakers sem LeBron e sonha com 1º título da NBA",
-      "translatedFrom": "pt",
-      "description": "NBA: Luka Doncic takes the lead in the Lakers with the departure of LeBron James Luka Doncic is undeniably one of the great players of his generation in the NBA and takes on a new role in the 2026/2027 season: to be the absolute protagonist of the Los Angeles Lakers. In the franchise since February 2025, Slovenian",
-      "published": "2026-10-21T18:30:05.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/NWHVMH3VQ3TSY8zj1GR_9VXwgNM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/K/l/45pt2fTVSJ2J251ydYaQ/gettyimages-2264625619.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/luka-doncic-assume-protagonismo-no-los-angeles-lakers-sem-lebron-e-sonha-com-1o-titulo-da-nba.ghtml"
-    },
-    {
-      "id": "NBB-doncic-compra-espa-o-em-jornal-para-divu",
-      "league": "NBB",
-      "title": "Doncic buys space in a newspaper to spread a letter to the Lakers' fans: \"Let's give it our all\"",
-      "originalTitle": "Doncic compra espaço em jornal para divulgar carta à torcida dos Lakers: \"Vamos dar tudo de nós\"",
-      "translatedFrom": "pt",
-      "description": "New York Knicks 100-106 Philadelphia 76ers | Top Moments | NBA 2026/2027 Los Angeles Lakers star Luka Doncic bought a full page from the LA Times to promote an open letter to the crowd. In the statement in one of the main news outlets of the city, published before the",
-      "published": "2026-10-21T15:32:02.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/Q37GbWwFV3bevScoW4bBmo-h5lM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/l/V/8Xr2tGTeetBuDMWF4JGw/hvkulpnaiaas78s.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/21/doncic-compra-espaco-em-jornal-para-divulgar-carta-a-torcida-dos-lakers-vamos-dar-tudo-de-nos.ghtml"
     }
   ],
   "leaders": {
@@ -14865,8 +14952,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-27T11:55:26.854Z",
-    "news": "2026-10-27T11:55:26.854Z"
+    "games": "2026-10-28T12:31:23.899Z",
+    "news": "2026-10-28T12:31:23.899Z"
   },
   "carriedOver": [
     "teams",
