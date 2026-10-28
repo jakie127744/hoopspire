@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-28T12:30:47.857Z",
+  "fetchedAt": "2026-10-28T20:30:49.017Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14643,6 +14643,58 @@
   ],
   "news": [
     {
+      "id": "PBA-pbalatenoriosoutburstcapturesmagnoliasst",
+      "league": "PBA",
+      "title": "PBA: LA Tenorio’s outburst captures Magnolia’s struggles vs TNT",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals ANTIPOLO—Coach LA Tenorio summed up his frustrations over Magnolia’s Game 2 loss to TNT in the 2026 PBA Governors’ Cup quarterfinals on Wednesday during a huddle that was heard on livestream. Tenorio shouted unprintables at his play",
+      "published": "2026-10-28T23:51:01.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image12-17.jpg",
+      "url": "https://sports.inquirer.net/704125/pba-la-tenorios-outburst-captures-magnolias-struggles-vs-tnt"
+    },
+    {
+      "id": "PBA-pbanlexholdsoffphoenixtomovewithinwinofs",
+      "league": "PBA",
+      "title": "PBA: NLEX holds off Phoenix to move within win of semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: UAAP Season 89 basketball tournament – second round ANTIPOLO—NLEX moved on the cusp of ending its string of playoff flameouts after defeating Phoenix, 124-117, for a 2-0 lead in the 2026 PBA Governors’ Cup quarterfinals on Wednesday at Ynares Center here. Schonny Winsto",
+      "published": "2026-10-28T23:09:50.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image15-8.jpg",
+      "url": "https://sports.inquirer.net/704117/pba-nlex-holds-off-phoenix-to-move-within-win-of-semifinals"
+    },
+    {
+      "id": "PBA-pbarondaehollisjeffersonstayslockedinast",
+      "league": "PBA",
+      "title": "PBA: Rondae Hollis-Jefferson stays locked in as TNT nears sweep",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—For the second straight game, Rondae Hollis-Jefferson delivered a performance that put TNT on the cusp of sweeping the 2026 PBA Governors’ Cup quarterfinal series with Magnolia. That despite facing a team known for its defensive tenacity. “I think they have a wonderful d",
+      "published": "2026-10-28T22:03:20.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image6-17.jpg",
+      "url": "https://sports.inquirer.net/704082/pba-rondae-hollis-jefferson-stays-locked-in-as-tnt-nears-sweep"
+    },
+    {
+      "id": "PBA-pbarondaehollisjeffersontntdrubmagnoliaa",
+      "league": "PBA",
+      "title": "PBA: Rondae Hollis-Jefferson, TNT drub Magnolia anew to go 2-0",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals ANTIPOLO—Rondae Hollis-Jefferson put on another big performance as TNT dominated Magnolia, 91-73, to move on the cusp of sweeping their best-of-five 2026 PBA Governors’ Cup quarterfinal series on Wednesday at Ynares Center here. Hol",
+      "published": "2026-10-28T21:20:20.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image4-23.jpg",
+      "url": "https://sports.inquirer.net/704078/pba-rondae-hollis-jefferson-tnt-drub-magnolia-anew-to-go-2-0"
+    },
+    {
       "id": "PBA-pbaisaacgomakeshisminutescountinginebras",
       "league": "PBA",
       "title": "PBA: Isaac Go makes his minutes count in Ginebra’s Game 1 win",
@@ -14656,6 +14708,110 @@
       "url": "https://sports.inquirer.net/704064/pba-isaac-go-makes-his-minutes-count-in-ginebras-game-1-win"
     },
     {
+      "id": "PBA-robertbolickkeepsfeetonthegroundasnlexmo",
+      "league": "PBA",
+      "title": "Robert Bolick keeps feet on the ground as NLEX moves closer to elusive semifinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO — Robert Bolick is simply hoping that the breakthrough he has long been praying for will be answered this time, now that NLEX finds itself in a situation so familiar in the PBA Season 50 Governors’ Cup playoffs. The Road Warriors have moved just a win away from the semif",
+      "published": "2026-10-28T16:21:06.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-NLEX-vs-Phoenix-Robert-Bolick-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/robert-bolick-keeps-feet-on-the-ground-as-nlex-moves-closer-to-elusive-semifinals/388149"
+    },
+    {
+      "id": "PBA-kaisstatusindoubt",
+      "league": "PBA",
+      "title": "Kai’s status in doubt",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "It’s not certain if Kai Sotto will suit up for Gilas in the fifth FIBA World Cup Asia qualifying window in Seremban, Malaysia but coach Tim Cone is hopeful the 7-3 center is able to play against Syria on Nov. 27 and Iran on Nov. 29. The Philippines is chasing one of eight slots r",
+      "published": "2026-10-28T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/29/2566452/kais-status-doubt"
+    },
+    {
+      "id": "PBA-nlexmovesonbrinkofpbasemifinalsafteroutl",
+      "league": "PBA",
+      "title": "NLEX moves on brink of PBA semifinals after outlasting Phoenix in Game 2",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO — NLEX moved a win away from advancing to the PBA Season 50 Governors’ Cup semifinals following a 124-117 victory over Phoenix Super LPG in Game 2 of their quarters duel at the Ynares Center here, Wednesday night. Deschon Winston and Deonte Burton sparked the telling 14-",
+      "published": "2026-10-28T14:43:09.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-NLEX-vs-Phoenix-Robert-Bolick-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/nlex-moves-on-brink-of-pba-semifinals-after-outlasting-phoenix-in-game-2/388144"
+    },
+    {
+      "id": "PBA-pbabolickwinstondrop31pointseachasnlexgo",
+      "league": "PBA",
+      "title": "PBA: Bolick, Winston drop 31 points each as NLEX goes 2-0 in QF vs. Phoenix",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Robert Bolick and Schonny Winston formed a lethal one-two punch to steer NLEX to a 124-117 win against Phoenix in Game 2 of their PBA Season 50 Governors' Cup quarterfinals.",
+      "published": "2026-10-28T14:37:29.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1007532/pba-bolick-winston-drop-31-points-each-as-nlex-goes-2-0-in-qf-vs-phoenix/story/"
+    },
+    {
+      "id": "PBA-bolickwinstonpushroadwarriorsonewinawayf",
+      "league": "PBA",
+      "title": "Bolick, Winston push Road Warriors one win away from PBA semis",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Robert Bolick and Schonny Winston produced 31 points each to push the NLEX Road Warriors to a huge 124-117 victory over the Phoenix Fuel Masters in Game 2 of their PBA Governors’ Cup quarterfinal clash Wednesday at the Ynares Center in Antipolo.",
+      "published": "2026-10-28T14:25:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/28/2566400/bolick-winston-push-road-warriors-one-win-away-pba-semis"
+    },
+    {
+      "id": "PBA-iansangalangrunningoutofhopeasmagnoliate",
+      "league": "PBA",
+      "title": "Ian Sangalang running out of hope as Magnolia teeters on brink of sweep",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO — It’s getting harder and harder for Magnolia to find any source of hope after getting beaten badly by TNT again, pushing the traditional contender on the brink of getting swept in the PBA Governors’ Cup quarterfinals. Not even that 15-0 run abridging the middle quarters",
+      "published": "2026-10-28T13:19:35.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-Magnolia-vs-TNT-Zavier-Lucero-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/ian-sangalang-running-out-of-hope-as-magnolia-teeters-on-brink-of-sweep/388116"
+    },
+    {
+      "id": "PBA-pbatntsgame2routsendsmagnoliatobrinkofan",
+      "league": "PBA",
+      "title": "PBA: TNT's Game 2 rout sends Magnolia to brink of another QF exit",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Holllis-Jefferson starred to help TNT eke out its second straight blowout win against Magnolia, pulling off a 91-73 win in Game 2 of their PBA Season 50 Governors' Cup on Wednesday.",
+      "published": "2026-10-28T12:45:45.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1007519/pba-tnt-s-game-2-rout-sends-magnolia-to-brink-of-another-qf-exit/story/"
+    },
+    {
+      "id": "PBA-hollisjeffersondrops39astropang5ggo20hot",
+      "league": "PBA",
+      "title": "Hollis-Jefferson drops 39 as Tropang 5G go 2-0 Hotshots",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Hollis-Jefferson carried the TNT Tropang 5G to a 2-0 PBA Governors’ Cup quarterfinal lead over the Magnolia Hotshots, 91-73, Wednesday at the Ynares Center in Antipolo.",
+      "published": "2026-10-28T12:30:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/28/2566370/hollis-jefferson-drops-39-tropang-5g-go-2-0-hotshots"
+    },
+    {
       "id": "PBA-rhjpowerstntpastmagnoliamoveswithinwinof",
       "league": "PBA",
       "title": "RHJ powers TNT past Magnolia, moves within win of PBA semis",
@@ -14665,7 +14821,7 @@
       "published": "2026-10-28T11:33:25.000Z",
       "byline": "Tiebreaker Times",
       "tag": "Report",
-      "image": null,
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-Magnolia-vs-TNT-Roger-Pogoy-150x150.jpg",
       "url": "https://tiebreakertimes.com.ph/tbt/rhj-powers-tnt-past-magnolia-moves-within-win-of-pba-semis/388100"
     },
     {
@@ -14734,19 +14890,6 @@
       "url": "https://sports.inquirer.net/703800/pba-rain-or-shine-rallies-past-converge-in-testy-game-1-duel"
     },
     {
-      "id": "PBA-bennieboatwrightexpectedtojoingilasforno",
-      "league": "PBA",
-      "title": "Bennie Boatwright expected to join Gilas for November Fiba window",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–The Samahang Basketbol ng Pilipinas expects Bennie Boatwright to be available for his much-awaited Gilas Pilipinas debut next month in the Fiba World Cup Asian Qualifiers after completing the process of his naturalization. Executive director Erika Dy said duri",
-      "published": "2026-10-27T17:10:00.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2024/02/IMG_0391_PBA-commissioners-cup-finals-game-three_San-Miguel-Magnolia_Bennie-Boatwright-scaled.jpg",
-      "url": "https://sports.inquirer.net/703739/bennie-boatwright-expected-to-join-gilas-for-november-fiba-window"
-    },
-    {
       "id": "PBA-pbaginebraclampsdownonsanmiguelforbigqfo",
       "league": "PBA",
       "title": "PBA: Ginebra clamps down on San Miguel for big QF opener",
@@ -14758,32 +14901,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1007400/pba-ginebra-clamps-down-on-san-miguel-for-big-qf-opener/story/"
-    },
-    {
-      "id": "PBA-pbarainorshinecomesbackfrom21pointsdowni",
-      "league": "PBA",
-      "title": "PBA: Rain or Shine comes back from 21 points down in QF opener vs. Converge",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Rain or Shine torched Converge in the second half to pull off a 124-120 come-from-behind win in Game 1 of their PBA Season 50 Governors' Cup quarterfinals affair on Tuesday at the Smart Araneta Coliseum.",
-      "published": "2026-10-27T12:29:18.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007385/pba-rain-or-shine-comes-back-from-21-points-down-in-qf-opener-vs-converge/story/"
-    },
-    {
-      "id": "PBA-sbpunveilsgilashirayaasnewnameforgilaspi",
-      "league": "PBA",
-      "title": "SBP unveils 'Gilas Hiraya' as new name for Gilas Pilipinas Women",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Samahang Basketbol ng Pilipinas (SBP) on Tuesday has unveiled “Gilas Hiraya” as the new identity of the country's national women's basketball team as it continues to build its presence on the international stage.",
-      "published": "2026-10-27T10:39:41.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007369/sbp-unveils-gilas-hiraya-as-new-name-for-gilas-pilipinas-women/story/"
     }
   ],
   "leaders": {
@@ -15249,12 +15366,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-28T12:30:47.857Z",
-    "rosters": "2026-10-28T12:30:47.857Z",
+    "teams": "2026-10-28T20:30:49.017Z",
+    "rosters": "2026-10-28T20:30:49.017Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-10-28T12:30:47.857Z",
-    "games": "2026-10-28T12:30:47.857Z",
-    "news": "2026-10-28T12:30:47.857Z",
+    "standings": "2026-10-28T20:30:49.017Z",
+    "games": "2026-10-28T20:30:49.017Z",
+    "news": "2026-10-28T20:30:49.017Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
