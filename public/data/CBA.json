@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-28T12:31:04.198Z",
+  "fetchedAt": "2026-10-29T12:39:55.061Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,35 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-28-shenzhen-shanxi-l-",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-28T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shenzhen",
+        "name": "Shenzhen",
+        "abbr": "SHE",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "shanxi-l-",
+        "name": "Shanxi L.",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-27-guangzhou-beijing",
       "league": "CBA",
       "status": "final",
@@ -17652,6 +17681,19 @@
   ],
   "news": [
     {
+      "id": "CBA-chinafansleftstunnedafterportlandtrailbl",
+      "league": "CBA",
+      "title": "China fans left stunned after Portland Trail Blazers demote Yang Hansen to NBA G League",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Portland Trail Blazers’ decision to assign centre Yang Hansen to their NBA G League affiliate has caught many Chinese basketball fans off guard, sparking a flurry of online debate over his current standing and future in the league. The Trail Blazers announced on social media ",
+      "published": "2026-10-29T09:30:11.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/10/29/a1835776-70b1-47c7-8669-f78bc25a47f4_85400e63.jpg?itok=G-CpmzCF&v=1793265056",
+      "url": "https://www.scmp.com/sport/china/article/3372582/china-fans-left-stunned-after-portland-trail-blazers-demote-yang-hansen-nba-g-league"
+    },
+    {
       "id": "CBA-asiasanswertoncaabasketballtakesbigstepf",
       "league": "CBA",
       "title": "Asia’s answer to NCAA basketball takes big step forward with new 18 team season",
@@ -18133,8 +18175,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-28T12:31:04.198Z",
-    "news": "2026-10-28T12:31:04.198Z"
+    "games": "2026-10-29T12:39:55.061Z",
+    "news": "2026-10-29T12:39:55.061Z"
   },
   "carriedOver": [
     "teams",

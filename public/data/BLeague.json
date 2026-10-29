@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-10-28T12:28:25.125Z",
+  "fetchedAt": "2026-10-29T12:38:39.286Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -15404,7 +15404,7 @@
         "pointsFor": 868,
         "pointsAgainst": 827,
         "diff": "41",
-        "streak": "W2",
+        "streak": "W1",
         "seed": 7
       },
       {
@@ -15494,7 +15494,7 @@
         "pointsFor": 934,
         "pointsAgainst": 893,
         "diff": "41",
-        "streak": "L2",
+        "streak": "L1",
         "seed": 12
       },
       {
@@ -15512,7 +15512,7 @@
         "pointsFor": 893,
         "pointsAgainst": 881,
         "diff": "12",
-        "streak": "L1",
+        "streak": "W2",
         "seed": 13
       },
       {
@@ -15584,7 +15584,7 @@
         "pointsFor": 910,
         "pointsAgainst": 963,
         "diff": "-53",
-        "streak": "W3",
+        "streak": "W1",
         "seed": 17
       },
       {
@@ -15824,7 +15824,7 @@
             "pointsFor": 868,
             "pointsAgainst": 827,
             "diff": "41",
-            "streak": "W2",
+            "streak": "W1",
             "seed": 4
           },
           {
@@ -16100,7 +16100,7 @@
             "pointsFor": 934,
             "pointsAgainst": 893,
             "diff": "41",
-            "streak": "L2",
+            "streak": "L1",
             "seed": 6
           },
           {
@@ -16118,7 +16118,7 @@
             "pointsFor": 893,
             "pointsAgainst": 881,
             "diff": "12",
-            "streak": "L1",
+            "streak": "W2",
             "seed": 7
           },
           {
@@ -16136,7 +16136,7 @@
             "pointsFor": 910,
             "pointsAgainst": 963,
             "diff": "-53",
-            "streak": "W3",
+            "streak": "W1",
             "seed": 8
           },
           {
@@ -21153,13 +21153,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-28T12:28:25.125Z",
-    "rosters": "2026-10-28T12:28:25.125Z",
-    "playerStats": "2026-10-28T12:28:25.125Z",
-    "standings": "2026-10-28T12:28:25.125Z",
-    "games": "2026-10-28T12:28:25.125Z",
+    "teams": "2026-10-29T12:38:39.286Z",
+    "rosters": "2026-10-29T12:38:39.286Z",
+    "playerStats": "2026-10-29T12:38:39.286Z",
+    "standings": "2026-10-29T12:38:39.286Z",
+    "games": "2026-10-29T12:38:39.286Z",
     "news": "2026-09-22T11:18:19.088Z",
-    "leaders": "2026-10-28T12:28:25.125Z"
+    "leaders": "2026-10-29T12:38:39.286Z"
   },
   "carriedOver": [
     "news"
