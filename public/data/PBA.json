@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-29T12:39:39.445Z",
+  "fetchedAt": "2026-10-29T20:31:26.753Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14701,6 +14701,45 @@
   ],
   "news": [
     {
+      "id": "PBA-sweeporextend",
+      "league": "PBA",
+      "title": "Sweep or extend?",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NLEX and TNT took different paths to the playoffs in the PBA Governors Cup.",
+      "published": "2026-10-29T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/30/2566680/sweep-or-extend"
+    },
+    {
+      "id": "PBA-kingsbraceforbeermenblowback",
+      "league": "PBA",
+      "title": "Kings brace for Beermen blowback",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Barangay Ginebra relishes sitting on a 1-0 lead against mighty San Miguel Beer.",
+      "published": "2026-10-29T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/10/30/2566684/kings-brace-beermen-blowback"
+    },
+    {
+      "id": "PBA-sanjuanfacesuphillbattleasterrencefortea",
+      "league": "PBA",
+      "title": "San Juan faces uphill battle as Terrence Fortea suffers patellar rupture",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "San Juan guard and PBA Draft prospect Terrence Fortea has been diagnosed with a patellar rupture, dealing a significant blow to the Knights’ title hopes in the 2026 MPBL season. The diagnosis came a day after San Juan escaped Caloocan, 82-78, in overtime to take Game 1 of their N",
+      "published": "2026-10-29T13:54:44.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/san-juan-faces-uphill-battle-as-terrence-fortea-suffers-patellar-rupture/388242"
+    },
+    {
       "id": "PBA-pbadominatingwingivestntshotatsweepofmag",
       "league": "PBA",
       "title": "PBA: Dominating win gives TNT shot at sweep of Magnolia, semis berth",
@@ -15242,12 +15281,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-29T12:39:39.445Z",
-    "rosters": "2026-10-29T12:39:39.445Z",
+    "teams": "2026-10-29T20:31:26.753Z",
+    "rosters": "2026-10-29T20:31:26.753Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-10-29T12:39:39.445Z",
-    "games": "2026-10-29T12:39:39.445Z",
-    "news": "2026-10-29T12:39:39.445Z",
+    "standings": "2026-10-29T20:31:26.753Z",
+    "games": "2026-10-29T20:31:26.753Z",
+    "news": "2026-10-29T20:31:26.753Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
