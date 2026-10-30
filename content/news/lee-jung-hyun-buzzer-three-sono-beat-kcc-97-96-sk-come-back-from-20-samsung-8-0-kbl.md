@@ -104,3 +104,5 @@ Korea Gas: Keve Aluma 25, Sam Belangel 22, Jeong Seong-woo 10, Ra Gun-ah 9, Choi
 ## What is next
 
 Sono host LG on Monday, October 26. SK host KCC on Tuesday, Korea Gas host DB on Wednesday, and Hyundai Mobis host KCC on Thursday, October 29.
+
+Update: [Samsung won at Sono 95-87 to go 9-0](/story/samsung-hold-off-sono-95-87-go-9-0-kanter-32).
