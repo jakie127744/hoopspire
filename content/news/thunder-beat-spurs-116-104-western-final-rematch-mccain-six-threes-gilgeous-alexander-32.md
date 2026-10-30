@@ -69,3 +69,5 @@ Update: [the Thunder beat the Nuggets 96-84 in their home opener](/story/thunder
 Update: [Victor Ashby on why the Spurs should keep starting Fox, Castle and Harper](/story/the-spurs-are-right-to-start-three-guards-judge-it-in-december-not-on-last-june).
 
 Update: [Amen Thompson blocked Wembanyama in the last second as the Rockets beat the Spurs in Austin](/story/amen-thompson-blocks-wembanyama-rockets-beat-spurs-114-110).
+
+Update: [the Mavericks ended Oklahoma City's 4-0 start with a 120-96 win](/story/mavericks-hand-thunder-first-loss-120-96-in-dallas) on Wednesday, October 28.
