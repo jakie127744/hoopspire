@@ -136,3 +136,5 @@ Baskonia: A.J. Lawson 13, DJ Stewart 12, Tadas Sedekerskis 11, Damion Baugh 8, R
 Round 7 opens on Wednesday, October 21, with Hapoel Tel Aviv against Virtus Bologna. Six games follow on Thursday, among them Maccabi against Real Madrid and Partizan against Crvena Zvezda in Belgrade, and Olympiacos host Fenerbahce on Friday.
 
 Update: [Hapoel Tel Aviv came back from 13 down to beat Virtus Bologna 90-81 to open Round 7](/story/hapoel-tel-aviv-come-back-from-13-down-beat-virtus-bologna-90-81-euroleague-round-7).
+
+Update: [Bayern lost a fourth straight game, 103-73 at Crvena Zvezda](/story/crvena-zvezda-rout-bayern-103-73-bayern-lose-fourth-straight) in Round 9.
