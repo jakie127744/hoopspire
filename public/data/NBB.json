@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-29T12:40:17.205Z",
+  "fetchedAt": "2026-10-30T12:32:21.160Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-29-cruzeiro-pato",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "cruzeiro",
+        "name": "Cruzeiro",
+        "abbr": "CRU",
+        "logo": null,
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 68,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-29-minas-brasilia",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 61,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-29-osasco-pinheiros",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-29T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "osasco",
+        "name": "Osasco",
+        "abbr": "OSA",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-28-paulist--sesi-fra-",
       "league": "NBB",
       "status": "final",
@@ -14376,6 +14463,32 @@
   ],
   "news": [
     {
+      "id": "NBB-jj-faz-34-pontos-bate-recorde-pessoal-ma",
+      "league": "NBB",
+      "title": "JJ scores 34 points, breaks personal record, but Osasco loses to Pinheiros in the NBB",
+      "originalTitle": "JJ faz 34 pontos, bate recorde pessoal, mas Osasco perde para o Pinheiros no NBB",
+      "translatedFrom": "pt",
+      "description": "Osasco 74 x 89 Pinheiros | best moments | 4th round | NBB 2026/2027 With two players above 30 points, Pinheiros beat Osasco 89-74 on Thursday night at the Geodesic Gymnasium in Osasco for the fourth round of the first round of NBB 2026/27. Despite the defeat, the main",
+      "published": "2026-10-30T01:46:18.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/OLOFkzPKYLND4DIUOBS_Yc0oPLw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/Z/FuMiB8QzKXCgntO8y8bA/232762614-domnick-pinheiros.webp",
+      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/29/jj-faz-34-pontos-bate-recorde-pessoal-mas-osasco-perde-para-o-pinheiros-no-nbb.ghtml"
+    },
+    {
+      "id": "NBB-nbb-cruzeiro-bate-pato-basquete-se-recup",
+      "league": "NBB",
+      "title": "NBB: Cruise beats Basketball Duck, recovers and rises in the standings",
+      "originalTitle": "NBB: Cruzeiro bate Pato Basquete, se recupera e sobe na classificação",
+      "translatedFrom": "pt",
+      "description": "Pato Basquete is Paraná's champion for the eighth time in a row Cruzeiro won the Pato Basquete, 76 to 68, this Thursday, at Ginásio Dona Salomé, in Belo Horizonte, and again triumphed in Novo Basquete Brasil (NBB) 2026/27. With a decisive performance in the second half, the mining team built the",
+      "published": "2026-10-30T00:02:10.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/yr0MrS4tYJnH9GkcR18OvzTiqKA=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/k/o/v5zFypTNmTIz2Hdlanvg/saveclip.app-877625708-18127646975479554-7343629527581187123-n.jpg",
+      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/29/nbb-cruzeiro-bate-pato-basquete-se-recupera-e-sobe-na-classificacao.ghtml"
+    },
+    {
       "id": "NBB-aos-38-anos-curry-anota-44-pontos-em-vit",
       "league": "NBB",
       "title": "At 38, Curry scores 44 points in a Warriors victory and equals LeBron's NBA record",
@@ -14543,32 +14656,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/pq3zuDi-E2UOUOnXJ3CWcb-h-eo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/8/gbKYjFQzSnVsac4c61ww/752229-flamengoxpaisas-lsb-maracanazinho-23-10-2026-foto-paulareis-flamengo008a9429-1-1-.png",
       "url": "https://ge.globo.com/basquete/noticia/2026/10/23/flamengo-atropela-paisas-col-na-estreia-da-liga-sul-americana-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-dirigente-da-nba-cita-falta-de-arenas-de",
-      "league": "NBB",
-      "title": "NBA official cites lack of world-class arenas as reason for Brazil not to host games",
-      "originalTitle": "Dirigente da NBA cita falta de arenas de classe mundial como razão para Brasil não receber jogos",
-      "translatedFrom": "pt",
-      "description": "NBA: Pedro Maia elects favorite teams for the 2026/27 season. With each new edition, the NBA reinforces its intention to expand its brand beyond the United States and Canada. In 2026/2027, Mexico City, Paris and Manchester will host regular season games. Brazil, which stands out as one of the main",
-      "published": "2026-10-22T18:01:22.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/8jF-hh01nVjmMA8UpF-Zk3-WRvE=/s.glbimg.com/es/ge/f/original/2018/02/20/gettyimages-800020096.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/22/dirigente-da-nba-cita-falta-de-arenas-de-classe-mundial-como-razao-para-brasil-nao-receber-jogos.ghtml"
-    },
-    {
-      "id": "NBB-paulistano-domina-terceiro-quarto-e-venc",
-      "league": "NBB",
-      "title": "Paulistano dominates third quarter and wins the Duck Basketball in the NBB debut",
-      "originalTitle": "Paulistano domina terceiro quarto e vence o Pato Basquete na estreia do NBB",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete is champion of Paraná for the eighth time in a row. Paulistano started the 2026/27 season of Novo Basquete Brasil (NBB) with a win away from home. The São Paulo team won the Pato Basquete, 80 to 74, at Ginásio do Sesi, in Pato Branco. The result was built mainly on the third",
-      "published": "2026-10-22T12:23:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/PRN1ZLNbEKwil-ZtDgIEjwBFys4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/V/e/CFwXJDSY6JeIluHV4urw/whatsapp-image-2026-10-22-at-10.16.31.jpeg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/22/paulistano-domina-terceiro-quarto-e-vence-o-pato-basquete-na-estreia-do-nbb.ghtml"
     }
   ],
   "leaders": {
@@ -15039,8 +15126,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-29T12:40:17.205Z",
-    "news": "2026-10-29T12:40:17.205Z"
+    "games": "2026-10-30T12:32:21.160Z",
+    "news": "2026-10-30T12:32:21.160Z"
   },
   "carriedOver": [
     "teams",
