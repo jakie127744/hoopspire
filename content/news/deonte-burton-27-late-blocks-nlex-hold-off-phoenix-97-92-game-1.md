@@ -52,3 +52,5 @@ Game 2 is on Wednesday, October 28, at the Ynares Center. A win would put NLEX o
 Opinion: [Why the best-of-five should be used in every conference](/story/pba-twice-to-beat-should-go-every-conference-tim-cone).
 
 The other Game 1: [TNT routed Magnolia 92-70](/story/tnt-win-every-quarter-beat-magnolia-92-70-game-1-hollis-jefferson-26).
+
+Update: [Bolick and Winston scored 31 each as NLEX won Game 2, 124-117](/story/bolick-winston-31-each-nlex-beat-phoenix-124-117-game-2).
