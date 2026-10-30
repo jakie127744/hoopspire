@@ -63,3 +63,5 @@ Atlanta: Onyeka Okongwu 29, Nickeil Alexander-Walker 25, Aaron Wiggins 20, Jalen
 Cleveland: James Harden 24, Donovan Mitchell 22, Sam Merrill 16, Jarrett Allen 14, Evan Mobley 11, Mario Hezonja 10, Tyrese Proctor 7, Peyton Watson 4, Jaylon Tyson 3, Craig Porter Jr. 0.
 
 By quarter: Atlanta 16, 30, 43, 25. Cleveland 28, 16, 38, 29.
+
+Update: [Aaron Wiggins' 20 points are in the Free Minutes waiver column on him](/story/add-aaron-wiggins-hawks-bench-expect-fewer-threes).
