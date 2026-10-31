@@ -7,6 +7,7 @@ import { SITE } from '../lib/site.js'
 import { StandingsCard } from '../components/StandingsSnapshot.jsx'
 import { HeroStory, FeedCard, HeadlineList, DeskCard, QuickLinks } from '../components/NewsBlocks.jsx'
 import NewsletterSignup from '../components/NewsletterSignup.jsx'
+import { LeaderboardAd, RailAd, MultiplexAd, withFeedAds } from '../components/Ads.jsx'
 import { useMeta } from '../lib/meta.js'
 
 /** Stories in the centre feed under the hero. */
@@ -52,7 +53,9 @@ export default function Home() {
   )
 
   return (
-    <div className="mx-auto max-w-[1440px] px-3 py-4 sm:px-4 md:py-5">
+    <>
+    <LeaderboardAd />
+    <div className="bleed mx-auto max-w-[1440px] py-3 sm:px-4 sm:py-4 md:py-5">
       {/* The name stays the page's h1 for readers using headings to get around. */}
       <h1 className="sr-only">
         Hoopspire — {SITE.tagline}
@@ -75,9 +78,11 @@ export default function Home() {
           {/* On a phone the rail's headline list comes straight after the lead. */}
           <HeadlineList articles={headlines} className="lg:hidden" />
 
-          {feed.map((a) => (
+          {withFeedAds(feed, (a) => (
             <FeedCard key={a.id} article={a} />
           ))}
+
+          <MultiplexAd />
 
           <div className="flex justify-center pt-2">
             <Link
@@ -91,13 +96,16 @@ export default function Home() {
 
         <aside className="min-w-0 space-y-4">
           <HeadlineList articles={headlines} className="hidden lg:block" />
+          <RailAd />
           <StandingsCard games={games || []} />
           {deskCards}
           <div className="card p-4">
             <NewsletterSignup variant="compact" />
           </div>
+          <RailAd tall />
         </aside>
       </div>
     </div>
+    </>
   )
 }

@@ -50,7 +50,14 @@ function loadNetworkScript(network, publisherId) {
   return scriptPromise
 }
 
-export default function AdSlot({ slotId, format = 'auto', height = 280, className = '' }) {
+export default function AdSlot({
+  slotId,
+  format = 'auto',
+  height = 280,
+  className = '',
+  label = true,
+  hideWhenDeclined = false,
+}) {
   const { allows } = useConsent()
   const consented = allows('advertising')
   const ref = useRef(null)
@@ -96,6 +103,10 @@ export default function AdSlot({ slotId, format = 'auto', height = 280, classNam
   // Not configured yet — render nothing rather than an empty box.
   if (!configured) return null
 
+  // Pages with several slots show the "ads are off" note once (at the end of
+  // an article), not in every slot.
+  if (!consented && hideWhenDeclined) return null
+
   if (!consented) {
     return (
       <div
@@ -121,7 +132,7 @@ export default function AdSlot({ slotId, format = 'auto', height = 280, classNam
 
   return (
     <div className={className} style={{ minHeight: height }}>
-      <Eyebrow className="mb-1 block text-ink/30">Advertisement</Eyebrow>
+      {label && <Eyebrow className="mb-1 block text-ink/30">Advertisement</Eyebrow>}
       {network === 'adsense' ? (
         <ins
           ref={ref}
@@ -130,7 +141,7 @@ export default function AdSlot({ slotId, format = 'auto', height = 280, classNam
           data-ad-client={publisherId}
           data-ad-slot={slotId}
           data-ad-format={format}
-          data-full-width-responsive="true"
+          data-full-width-responsive={format === 'auto' ? 'true' : 'false'}
         />
       ) : (
         <div ref={ref} id={slotId} style={{ minHeight: height }} />
