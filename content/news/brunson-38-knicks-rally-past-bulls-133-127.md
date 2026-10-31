@@ -48,6 +48,8 @@ Chicago 127: [Norman Powell](/player/NBA/2595516) 30, [Caleb Wilson](/player/NBA
 
 Quarters: New York 34, 22, 34, 43 (133). Chicago 33, 29, 34, 31 (127).
 
+Update: [the 76ers beat the Knicks 98-93 in Philadelphia on Friday](/story/maxey-27-76ers-hold-off-knicks-98-93).
+
 ## What is next
 
 The Knicks host the Brooklyn Nets on Monday, Nov. 2, with the game listed for 8:30 p.m. ET. The Bulls visit the Philadelphia 76ers the same night.
