@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-10-30T20:03:33.894Z",
+  "fetchedAt": "2026-10-31T11:59:33.448Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -2062,212 +2063,6 @@
         "headshot": null
       }
     ],
-    "terrafirma-dyip": [
-      {
-        "id": "terrafirma-dyip-ira-bataller-fa-",
-        "name": "Ira Bataller (FA)",
-        "jersey": "0",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": 25,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-juami-tiongson",
-        "name": "Juami Tiongson",
-        "jersey": "3",
-        "position": "G",
-        "height": "5' 10\"",
-        "weight": "175 lbs",
-        "age": 35,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-paul-garcia",
-        "name": "Paul Garcia",
-        "jersey": "4",
-        "position": "G",
-        "height": "5' 11\"",
-        "weight": "170 lbs",
-        "age": 27,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-keith-zaldivar",
-        "name": "Keith Zaldivar",
-        "jersey": "5",
-        "position": "C",
-        "height": "6' 6\"",
-        "weight": null,
-        "age": 30,
-        "country": null,
-        "college": "Adamson",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-louie-sangalang",
-        "name": "Louie Sangalang",
-        "jersey": "6",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "198 lbs",
-        "age": 28,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-chris-miller",
-        "name": "Chris Miller",
-        "jersey": "8",
-        "position": "G",
-        "height": "6' 2\"",
-        "weight": "180 lbs",
-        "age": 33,
-        "country": null,
-        "college": "Salem",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-cj-catapusan",
-        "name": "CJ Catapusan",
-        "jersey": "9",
-        "position": "F",
-        "height": "6' 3\"",
-        "weight": null,
-        "age": 29,
-        "country": null,
-        "college": "Philippines",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-aljon-mariano",
-        "name": "Aljon Mariano",
-        "jersey": "10",
-        "position": "F",
-        "height": "6' 3\"",
-        "weight": "175 lbs",
-        "age": 34,
-        "country": null,
-        "college": "UST",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-ben-adamos",
-        "name": "Ben Adamos",
-        "jersey": "11",
-        "position": "C",
-        "height": "6' 7\"",
-        "weight": "200 lbs",
-        "age": 30,
-        "country": null,
-        "college": "UPHSD",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
-        "name": "Maverick Ahanmisi (FA)",
-        "jersey": "13",
-        "position": "G",
-        "height": "6' 2\"",
-        "weight": "190 lbs",
-        "age": 35,
-        "country": null,
-        "college": "Minnesota",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-geo-chiu",
-        "name": "Geo Chiu",
-        "jersey": "18",
-        "position": "C",
-        "height": "6' 10\"",
-        "weight": "249 lbs",
-        "age": 25,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-joseph-eriobu",
-        "name": "Joseph Eriobu",
-        "jersey": "23",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": "198 lbs",
-        "age": 34,
-        "country": null,
-        "college": "Mapúa",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-mark-nonoy",
-        "name": "Mark Nonoy",
-        "jersey": "24",
-        "position": "G",
-        "height": "5' 9\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "De La Salle",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-jm-bravo",
-        "name": "JM Bravo",
-        "jersey": "26",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "Lyceum",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-shawn-umali",
-        "name": "Shawn Umali",
-        "jersey": "28",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "242 lbs",
-        "age": 25,
-        "country": null,
-        "college": "St. Benilde",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-didat-hanapi",
-        "name": "Didat Hanapi",
-        "jersey": "30",
-        "position": "G/F",
-        "height": "6' 2\"",
-        "weight": null,
-        "age": 25,
-        "country": null,
-        "college": "Adamson",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-brent-paraiso",
-        "name": "Brent Paraiso",
-        "jersey": "38",
-        "position": "G",
-        "height": "6' 1\"",
-        "weight": "190 lbs",
-        "age": 28,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      }
-    ],
     "titan-ultra-giant-risers": [
       {
         "id": "titan-ultra-giant-risers-rr-garcia",
@@ -3227,6 +3022,64 @@
     ]
   },
   "games": [
+    {
+      "id": "ab-PBA-2026-10-30-sm-beer--ginebra-k",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "san-miguel-beermen",
+        "name": "San Miguel Beermen",
+        "abbr": "SAN",
+        "logo": null,
+        "score": 99,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "barangay-ginebra-san-miguel",
+        "name": "Barangay Ginebra San Miguel",
+        "abbr": "BAR",
+        "logo": null,
+        "score": 126,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-PBA-2026-10-30-fiberxers-rain-or-s-",
+      "league": "PBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "converge-fiberxers",
+        "name": "Converge FiberXers",
+        "abbr": "CON",
+        "logo": null,
+        "score": 130,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "rain-or-shine-elasto-painters",
+        "name": "Rain or Shine Elasto Painters",
+        "abbr": "RAI",
+        "logo": null,
+        "score": 125,
+        "linescores": [],
+        "leaders": []
+      }
+    },
     {
       "id": "ab-PBA-2026-10-28-tnt-trop--hotshots",
       "league": "PBA",
@@ -14701,6 +14554,71 @@
   ],
   "news": [
     {
+      "id": "PBA-pbadeocuajaoruesmissedfreethrowslateinga",
+      "league": "PBA",
+      "title": "PBA: Deo Cuajao rues missed free throws late in Game 2 loss",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines—Deo Cuajao had a golden opportunity to help Rain or Shine pull closer late in Game 2 of the PBA Governors’ Cup. Fouled while taking a 4-point shot, Cuajao could only make two of his free throws as Converge escaped with a 130-125 victory to tie the quarterfinal",
+      "published": "2026-10-31T19:50:57.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/IMG_2609_PBA-50-Governors-Cup-Converge-Rain-or-Shine_Deo-Cuajao.jpg",
+      "url": "https://sports.inquirer.net/704597/pba-deo-cuajao-rues-missed-free-throws-late-in-game-2-loss"
+    },
+    {
+      "id": "PBA-pbaadriannocumsbiggamenotenoughforrosrue",
+      "league": "PBA",
+      "title": "PBA: Adrian Nocum’s big game not enough for ROS, rues late lapses",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Adrian Nocum’s career night was overshadowed by two turnovers that contributed to Rain or Shine’s Game 2 loss and enabled Converge to level their PBA Governors’ Cup quarterfinal series. Nocum dished out 18 assists on Friday, most of which came when the Elasto ",
+      "published": "2026-10-31T17:32:52.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/IMG_1576_PBA-50-Governors-Cup-Converge-Rain-or-Shine_Adrian-Nocum-scaled.jpg",
+      "url": "https://sports.inquirer.net/704564/pba-adrian-nocums-big-game-not-enough-for-ros-rues-late-lapses"
+    },
+    {
+      "id": "PBA-pbanlexoustsphoenixclinchesfirstsemisber",
+      "league": "PBA",
+      "title": "PBA: NLEX ousts Phoenix, clinches first semis berth since 2022",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NLEX closed out its quarterfinals bout against Phoenix in dominant fashion, pulling off a 137-89 thrashing in Game 3 of the best-of-five series on Saturday at the Ninoy Aquino Stadium.",
+      "published": "2026-10-31T11:39:25.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1007853/pba-nlex-ousts-phoenix-clinches-first-semis-berth-since-2022/story/"
+    },
+    {
+      "id": "PBA-nlexfinallyshedsintrovoystagstormsintopb",
+      "league": "PBA",
+      "title": "NLEX finally sheds ‘Introvoys’ tag, storms into PBA Govs’ Cup semis",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Hardened by past heartbreaks, the present-day NLEX finally closed out a series by finishing off Phoenix Super LPG, 137-89, to sweep its way into the PBA Season 50 Governors’ Cup semifinals, Saturday at the Ninoy Aquino Stadium. Playing like men on a mission, the Road Warriors pul",
+      "published": "2026-10-31T11:11:00.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/nlex-finally-sheds-introvoys-tag-storms-into-pba-govs-cup-semis/388410"
+    },
+    {
+      "id": "PBA-kingsbamboozlebeermentomovewithinwinsemi",
+      "league": "PBA",
+      "title": "Kings bamboozle Beermen to move within win semis sweep",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "With the manner of how they won Game 2, Barangay Ginebra coach Tim Cone is quite surprised with the way his Gin Kings have taken a 2-0 lead over San Miguel Beer in their best-of-five PBA Governors’ Cup quarterfinal series. Not that he doesn’t want it. “We didn’t even dream that w",
+      "published": "2026-10-31T05:30:45.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/10/Sports1323183-scaled.jpg",
+      "url": "https://sports.inquirer.net/704462/kings-bamboozle-beermen-to-move-within-win-semis-sweep"
+    },
+    {
       "id": "PBA-pbagomezdeliaoconvergeturngame1lossintow",
       "league": "PBA",
       "title": "PBA: Gomez de Liaño, Converge turn Game 1 loss into wake-up call",
@@ -14753,110 +14671,6 @@
       "url": "https://sports.inquirer.net/704450/pba-ginebra-crushes-san-miguel-for-2-0-quarterfinals-lead"
     },
     {
-      "id": "PBA-ginkingsonewinaway",
-      "league": "PBA",
-      "title": "Gin Kings one win away",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Strike back for San Miguel Beer? No, make it a second strike for Barangay Ginebra.",
-      "published": "2026-10-30T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/31/2566905/gin-kings-one-win-away"
-    },
-    {
-      "id": "PBA-mikeywilliamsgetsmonkeyoffhisbackwithvin",
-      "league": "PBA",
-      "title": "Mikey Williams gets monkey off his back with vintage dagger for Converge",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Mikey Williams authored a sequence that evoked memories of his first years in the PBA by coming through in the clutch that ultimately enabled Converge to take Game 2 of its Governors’ Cup quarterfinal series versus Rain or Shine. In indeed a Friday night special for the FiberXers",
-      "published": "2026-10-30T15:48:18.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-Rain-or-Shine-vs-Converge-Mikey-Williams-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/mikey-williams-gets-monkey-off-his-back-with-vintage-dagger-for-converge/388353"
-    },
-    {
-      "id": "PBA-fiberxersequalizepbaquartersseriesvspain",
-      "league": "PBA",
-      "title": "FiberXers equalize PBA quarters series vs Painters",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Converge FiberXers put themselves on the board in the PBA Governors’ Cup quarterfinals after taking Game 2 against the Rain or Shine Elasto Painters, 130-125, Friday at the Ninoy Aquino Stadium in Manila.",
-      "published": "2026-10-30T15:08:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/30/2566899/fiberxers-equalize-pba-quarters-series-vs-painters"
-    },
-    {
-      "id": "PBA-pbaconvergeevensqfseriesvsrainorshine",
-      "league": "PBA",
-      "title": "PBA: Converge evens QF series vs. Rain or Shine",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Converge squeaked past Rain or Shine, 130-125, in Game 2 of their PBA Governors\" Cup quarterfinal series on Friday at the Ninoy Aquino Stadium to even the series at one game apiece.",
-      "published": "2026-10-30T14:52:55.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007770/pba-converge-evens-qf-series-vs-rain-or-shine/story/"
-    },
-    {
-      "id": "PBA-mikeywilliamsnailsdaggerasconvergetiespb",
-      "league": "PBA",
-      "title": "Mikey Williams nails dagger as Converge ties PBA QF, wastes Nocum’s 18-assist game",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Mikey Williams struck the dagger as Converge averted disaster and escaped Rain or Shine by way of a 130-125 decision to tie things up in the PBA Season 50 Governors’ Cup quarterfinals at the Ninoy Aquino Stadium on Friday night. The former PBA Press Corps Finals MVP finished with",
-      "published": "2026-10-30T14:19:20.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-Rain-or-Shine-vs-Converge-Juan-Gomez-de-Liano-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/mikey-williams-nails-dagger-as-converge-ties-pba-qf-wastes-nocums-18-assist-game/388348"
-    },
-    {
-      "id": "PBA-walangimposiblejunemarfajardobanksonbeer",
-      "league": "PBA",
-      "title": "Walang imposible: June Mar Fajardo banks on ‘Beeracle’ to avoid sweep",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "There’s a bigger problem than matchups that San Miguel has to address if it wants to stay alive in the PBA Season 50 Governors’ Cup quarterfinals. As far as June Mar Fajardo is concerned, going back to the drawing board to fix their defense shall be on top of their list after the",
-      "published": "2026-10-30T13:33:15.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/walang-imposible-june-mar-fajardo-banks-on-beeracle-to-avoid-sweep/388342"
-    },
-    {
-      "id": "PBA-pbahotshootingbarangayginebradownssanmig",
-      "league": "PBA",
-      "title": "PBA: Hot-shooting Barangay Ginebra downs San Miguel, nears semis",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Barangay Ginebra caught fire from beyond the arc to take down San Miguel, 126-99, in Game 2 of the PBA Governors\" Cup quarterfinals on Friday at the Ninoy Aquino Stadium in Manila.",
-      "published": "2026-10-30T12:16:40.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007755/pba-hot-shooting-barangay-ginebra-downs-san-miguel-nears-semis/story/"
-    },
-    {
-      "id": "PBA-ginebrademolishessanmiguelanewtomoveonbr",
-      "league": "PBA",
-      "title": "Ginebra demolishes San Miguel anew to move on brink of PBA semis",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Ginebra moved one win away from advancing to the PBA Season 50 Governors’ Cup semifinals following another masterful conquest of San Miguel Beer, 126-99, on Friday night at the Ninoy Aquino Stadium. Unlike in their quarterfinal series opener last Tuesday, the Kings did not need a",
-      "published": "2026-10-30T11:28:18.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G2-San-Miguel-vs-Ginebra-Stephen-Holt-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/ginebra-demolishes-san-miguel-anew-to-move-on-brink-of-pba-semis/388318"
-    },
-    {
       "id": "PBA-murphykingseye20leadvsbeermen",
       "league": "PBA",
       "title": "Murphy, Kings eye 2-0 lead vs Beermen",
@@ -14868,19 +14682,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/PBA_8979.jpg",
       "url": "https://sports.inquirer.net/704256/murphy-kings-eye-2-0-lead-vs-beermen"
-    },
-    {
-      "id": "PBA-sweeporextend",
-      "league": "PBA",
-      "title": "Sweep or extend?",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX and TNT took different paths to the playoffs in the PBA Governors Cup.",
-      "published": "2026-10-29T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/10/30/2566680/sweep-or-extend"
     }
   ],
   "leaders": {
@@ -15346,12 +15147,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-10-30T20:03:33.894Z",
-    "rosters": "2026-10-30T20:03:33.894Z",
+    "teams": "2026-10-31T11:59:33.448Z",
+    "rosters": "2026-10-31T11:59:33.448Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-10-30T20:03:33.894Z",
-    "games": "2026-10-30T20:03:33.894Z",
-    "news": "2026-10-30T20:03:33.894Z",
+    "standings": "2026-10-31T11:59:33.448Z",
+    "games": "2026-10-31T11:59:33.448Z",
+    "news": "2026-10-31T11:59:33.448Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

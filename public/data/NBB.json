@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-30T12:32:21.160Z",
+  "fetchedAt": "2026-10-31T12:00:09.504Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-10-30-paulist--bauru",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "paulist-",
+        "name": "Paulist.",
+        "abbr": "PAU",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "bauru",
+        "name": "Bauru",
+        "abbr": "BAU",
+        "logo": null,
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-30-botafogo-u-corinth-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "botafogo",
+        "name": "Botafogo",
+        "abbr": "BOT",
+        "logo": null,
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-10-30-flamengo-caxias-do",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-30T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "flamengo",
+        "name": "Flamengo",
+        "abbr": "FLA",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "caxias-do",
+        "name": "Caxias do",
+        "abbr": "CAX",
+        "logo": null,
+        "score": 59,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-29-cruzeiro-pato",
       "league": "NBB",
       "status": "final",
@@ -14463,6 +14550,19 @@
   ],
   "news": [
     {
+      "id": "NBB-flamengo-domina-caxias-do-sul-e-conquist",
+      "league": "NBB",
+      "title": "Flamengo dominates Caxias do Sul and wins second victory in the NBB",
+      "originalTitle": "Flamengo domina Caxias do Sul e conquista segunda vitória no NBB",
+      "translatedFrom": "pt",
+      "description": "Flamengo 77 x 59 Caxias do Sul | best moments | 3rd round | NBB 2026/2027 After losing to Bauru Basket in the debut and winning the classic against Botafogo, Flamengo dominated Caxias do Sul Basketball on Friday (30) and won the second victory in the NBB. With the support of the fans in Ma",
+      "published": "2026-10-31T01:17:33.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/0aNSd01wTHhx2y5JVv1XMf1sxDA=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/W/Q/8RLL2FSZakjmAEnhSiog/ztx0120.jpg",
+      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/30/flamengo-domina-caxias-do-sul-e-conquista-segunda-vitoria-no-nbb.ghtml"
+    },
+    {
       "id": "NBB-jj-faz-34-pontos-bate-recorde-pessoal-ma",
       "league": "NBB",
       "title": "JJ scores 34 points, breaks personal record, but Osasco loses to Pinheiros in the NBB",
@@ -14643,19 +14743,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/HUDOgR-Ui_XlmfJ6ye0c-xVsPZs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/P/y/0bypnjQ2GOBCQJABw4DQ/gettyimages-2301709494.jpg",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/23/jayson-tatum-marca-36-pontos-decide-no-fim-e-conduz-celtics-a-vitoria-sobre-os-knicks.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-atropela-paisas-col-na-estreia-",
-      "league": "NBB",
-      "title": "Flamengo tramples Paisas (Col) in the debut of the South American Basketball League",
-      "originalTitle": "Flamengo atropela Paisas (COL) na estreia da Liga Sul-Americana de basquete",
-      "translatedFrom": "pt",
-      "description": "Flamengo started their campaign in the South American Basketball League 2026 with a significant victory. On Friday night (23), at Maracanãzinho, in Rio de Janeiro, the Rio de Janeiro team overcame Paisas, from Colombia, by 84 to 53, in a match valid for the first round of Group D. The red-green team",
-      "published": "2026-10-24T01:53:26.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/pq3zuDi-E2UOUOnXJ3CWcb-h-eo=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/8/gbKYjFQzSnVsac4c61ww/752229-flamengoxpaisas-lsb-maracanazinho-23-10-2026-foto-paulareis-flamengo008a9429-1-1-.png",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/23/flamengo-atropela-paisas-col-na-estreia-da-liga-sul-americana-de-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -15126,8 +15213,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-30T12:32:21.160Z",
-    "news": "2026-10-30T12:32:21.160Z"
+    "games": "2026-10-31T12:00:09.504Z",
+    "news": "2026-10-31T12:00:09.504Z"
   },
   "carriedOver": [
     "teams",
