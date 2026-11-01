@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-10-31T11:59:51.672Z",
+  "fetchedAt": "2026-11-01T12:59:59.343Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -16229,6 +16229,93 @@
   },
   "games": [
     {
+      "id": "ab-CBA-2026-10-31-beijing-xinjiang",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "beijing",
+        "name": "Beijing",
+        "abbr": "BEI",
+        "logo": null,
+        "score": 106,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "xinjiang",
+        "name": "Xinjiang",
+        "abbr": "XIN",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-31-fujian-s--qingdao",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "fujian-s-",
+        "name": "Fujian S.",
+        "abbr": "FUJ",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "qingdao",
+        "name": "Qingdao",
+        "abbr": "QIN",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-CBA-2026-10-31-shandong-guangdong",
+      "league": "CBA",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-10-31T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "shandong",
+        "name": "Shandong",
+        "abbr": "SHA",
+        "logo": null,
+        "score": 85,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "guangdong",
+        "name": "Guangdong",
+        "abbr": "GUA",
+        "logo": null,
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-CBA-2026-10-30-guangzhou-shanxi-l-",
       "league": "CBA",
       "status": "final",
@@ -18465,8 +18552,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-10-31T11:59:51.672Z",
-    "news": "2026-10-31T11:59:51.672Z"
+    "games": "2026-11-01T12:59:59.343Z",
+    "news": "2026-11-01T12:59:59.343Z"
   },
   "carriedOver": [
     "teams",

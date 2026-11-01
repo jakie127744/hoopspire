@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-10-31T12:00:16.949Z",
+  "fetchedAt": "2026-11-01T13:00:25.819Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -21,6 +21,32 @@
     "Kept the previous run's leaders, playerStats — the source returned nothing this time."
   ],
   "news": [
+    {
+      "id": "EuroLeague-odedkattashonkillianhayesweagreedtoallhi",
+      "league": "EuroLeague",
+      "title": "Oded Kattash on Killian Hayes: “We agreed to all his conditions”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Maccabi’s coach confirmed the club came close to signing the French guard but remains in the market for backcourt reinforcement The post Oded Kattash on Killian Hayes: “We agreed to all his conditions” appeared first on Eurohoops .",
+      "published": "2026-10-31T17:59:13.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2025/10/ec6abf0b-kattash-oded.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2029152/oded-kattash-on-killian-hayes-we-agreed-to-all-his-conditions/"
+    },
+    {
+      "id": "EuroLeague-maccabiminorityownerricharddeitzdeniesbl",
+      "league": "EuroLeague",
+      "title": "Maccabi minority owner Richard Deitz denies blocking signings: “The opposite is true”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Deitz rejected Pini Gershon’s allegations and shared his account of recruitment discussions amid the club’s ongoing ownership dispute The post Maccabi minority owner Richard Deitz denies blocking signings: “The opposite is true” appeared first on Eurohoops .",
+      "published": "2026-10-31T17:38:45.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/08/ddb88ff4-maccabi-tel-aviv-fans.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2029140/maccabi-minority-owner-richard-deitz-denies-blocking-signings-the-opposite-is-true/"
+    },
     {
       "id": "EuroLeague-marinkovicisbackforpartizanwillisandjeki",
       "league": "EuroLeague",
@@ -61,84 +87,6 @@
       "url": "https://www.eurohoops.net/en/euroleague/2028976/tomas-satoransky-talks-injury-hapoel-euroleague/"
     },
     {
-      "id": "EuroLeague-euroleagueround9sportandosteamoftheround",
-      "league": "EuroLeague",
-      "title": "EuroLeague Round#9 | Sportando’s Team of the Round",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Five standout performers, all helping their teams secure a victory. Sportando’s Team of Round 9 combines for 154 PIR L'articolo EuroLeague Round#9 | Sportando’s Team of the Round proviene da Sportando .",
-      "published": "2026-10-31T08:43:21.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-round9-sportandos-team-of-the-round/"
-    },
-    {
-      "id": "EuroLeague-besiktaserases13pointdeficittostunvirtus",
-      "league": "EuroLeague",
-      "title": "Besiktas erases 13-point deficit to stun Virtus Bologna 103-101",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Besiktas comes back from 13 points down to beat Virtus Bologna 103-101, with Conor Morgan hitting the game-winning three L'articolo Besiktas erases 13-point deficit to stun Virtus Bologna 103-101 proviene da Sportando .",
-      "published": "2026-10-30T22:45:48.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/besiktas-erases-13-point-deficit-to-stun-virtus-bologna-103-101/"
-    },
-    {
-      "id": "EuroLeague-asvelbeatsbaskonia9479behindwashingtonan",
-      "league": "EuroLeague",
-      "title": "ASVEL beats Baskonia 94-79 behind Washington and Mills",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "ASVEL defeats Baskonia 94-79 in EuroLeague Round 9 behind 21 points from Washington and 20 from Patty Mills L'articolo ASVEL beats Baskonia 94-79 behind Washington and Mills proviene da Sportando .",
-      "published": "2026-10-30T22:43:42.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/asvel-beats-baskonia-94-79-behind-washington-and-mills/"
-    },
-    {
-      "id": "EuroLeague-olympiacosbeatsolimpiamilan8478behindmil",
-      "league": "EuroLeague",
-      "title": "Olympiacos beats Olimpia Milan 84-78 behind Miller-McIntyre",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Olympiacos defeats Olimpia Milan 84-78 in EuroLeague Round 9, with Miller-McIntyre and Vezenkov leading the way L'articolo Olympiacos beats Olimpia Milan 84-78 behind Miller-McIntyre proviene da Sportando .",
-      "published": "2026-10-30T22:42:14.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/olympiacos-beats-olimpia-milan-84-78-behind-miller-mcintyre/"
-    },
-    {
-      "id": "EuroLeague-zalgirisbeatspartizan8780behindedwardsan",
-      "league": "EuroLeague",
-      "title": "Zalgiris beats Partizan 87-80 behind Edwards and Valanciunas",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Zalgiris Kaunas defeats Partizan 87-80 in EuroLeague Round 9, with Carsen Edwards scoring 17 points L'articolo Zalgiris beats Partizan 87-80 behind Edwards and Valanciunas proviene da Sportando .",
-      "published": "2026-10-30T22:40:26.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/zalgiris-beats-partizan-87-80-behind-edwards-and-valanciunas/"
-    },
-    {
-      "id": "EuroLeague-efescontrolspanathinaikos8368withdominan",
-      "league": "EuroLeague",
-      "title": "Efes controls Panathinaikos 83-68 with dominant defensive performance",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Anadolu Efes defeats Panathinaikos 83-68 in EuroLeague Round 9 with a dominant defensive performance L'articolo Efes controls Panathinaikos 83-68 with dominant defensive performance proviene da Sportando .",
-      "published": "2026-10-30T22:38:23.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/efes-controls-panathinaikos-83-68-with-dominant-defensive-performance/"
-    },
-    {
       "id": "EuroLeague-bartzokaswantsdorseyontheteamihavenoegos",
       "league": "EuroLeague",
       "title": "Bartzokas wants Dorsey on the team: “I have no egos against the players”",
@@ -176,84 +124,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/10/20570f30-bartzokas-olympiacos.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2028764/bartzokas-on-monteros-injury-it-was-really-disheartening-for-us/"
-    },
-    {
-      "id": "EuroLeague-cameronpayneshinesinfourthquarterforefes",
-      "league": "EuroLeague",
-      "title": "Cameron Payne shines in fourth quarter for Efes’ new win",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The former NBA player sank Panathinaikos with three three-pointers in the final moments The post Cameron Payne shines in fourth quarter for Efes’ new win appeared first on Eurohoops .",
-      "published": "2026-10-30T20:21:08.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/463ccca0-cameron-payne-anadolu-efes.png",
-      "url": "https://www.eurohoops.net/en/euroleague/2028631/cameron-payne-shines-in-fourth-quarter-for-efes-new-win/"
-    },
-    {
-      "id": "EuroLeague-bandjasyleavespartizanandjoinslietkabeli",
-      "league": "EuroLeague",
-      "title": "Bandja Sy leaves Partizan and joins Lietkabelis",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The experienced French forward signed a three-month deal to reinforce the Lithuanian club’s injury-hit frontcourt The post Bandja Sy leaves Partizan and joins Lietkabelis appeared first on Eurohoops .",
-      "published": "2026-10-30T18:34:48.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2025/08/e5ac5cc0-bandja-sy-dunks-paris-at-bayern-euroleague.jpg",
-      "url": "https://www.eurohoops.net/en/eurocup/2028563/bandja-sy-leaves-partizan-and-joins-lietkabelis/"
-    },
-    {
-      "id": "EuroLeague-terrifyingfallforsatoranskyleftthecourto",
-      "league": "EuroLeague",
-      "title": "Terrifying fall for Satoransky, left the court on a stretcher",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Terrible scenes at the end of the third quarter of the game in Dubai The post Terrifying fall for Satoransky, left the court on a stretcher appeared first on Eurohoops .",
-      "published": "2026-10-30T18:15:18.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/1786be4b-tomas-satoransky-hapoel-tel-aviv.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2028539/terrifying-fall-for-satoransky-left-the-court-on-a-stretcher/"
-    },
-    {
-      "id": "EuroLeague-euroleagueroundupefesbeatspaovalanciunas",
-      "league": "EuroLeague",
-      "title": "EuroLeague roundup: Efes beats PAO, Valanciunas shines, Walker fuels Besiktas comeback",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Anadolu Efes used a decisive 14–0 run to secure a home win in EuroLeague Round 9 The post EuroLeague roundup: Efes beats PAO, Valanciunas shines, Walker fuels Besiktas comeback appeared first on Eurohoops .",
-      "published": "2026-10-30T17:59:27.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/75146b75-valanciunas-zalgiris-partizan.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2028476/euroleague-roundup-round-9-gameday-2/"
-    },
-    {
-      "id": "EuroLeague-doubtsaboutquerejetascontinuityatbaskoni",
-      "league": "EuroLeague",
-      "title": "Doubts about Querejeta’s continuity at Baskonia are growing",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The iconic president might step aside decades later The post Doubts about Querejeta’s continuity at Baskonia are growing appeared first on Eurohoops .",
-      "published": "2026-10-30T17:33:11.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/21ce45d1-josean-querejeta.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2028501/doubts-about-querejetas-continuity-at-baskonia-are-growing/"
-    },
-    {
-      "id": "EuroLeague-jeanmonteroundergoeskneesurgeryoutforsix",
-      "league": "EuroLeague",
-      "title": "Jean Montero undergoes knee surgery, out for six months",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Olympiacos confirmed that the guard underwent surgery to repair the lateral meniscus in his left knee The post Jean Montero undergoes knee surgery, out for six months appeared first on Eurohoops .",
-      "published": "2026-10-30T17:00:33.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/e2b93b8f-jean-montero-valencia-olympiacos.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2028468/jean-montero-undergoes-knee-surgery-out-for-six-months/"
     }
   ],
   "leaders": {
@@ -10639,7 +10509,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-10-31T12:00:16.949Z",
+    "news": "2026-11-01T13:00:25.819Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },

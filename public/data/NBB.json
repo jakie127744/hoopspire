@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-10-31T12:00:09.504Z",
+  "fetchedAt": "2026-11-01T13:00:18.527Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -14550,6 +14550,19 @@
   ],
   "news": [
     {
+      "id": "NBB-wembanyama-faz-hist-ria-no-halloween-com",
+      "league": "NBB",
+      "title": "Wembanyama makes Halloween history with 43 points and six stumps in Spurs victory",
+      "originalTitle": "Wembanyama faz história no Halloween com 43 pontos e seis tocos em vitória dos Spurs",
+      "translatedFrom": "pt",
+      "description": "It connects in the mythical skin of Victor Wembanyama arriving for the game The San Antonio Spurs remains packed at the beginning of the NBA season. With a dominant performance by Victor Wembanyama, the team beat the Minnesota Timberwolves 121-111 on Saturday for a fourth straight win.",
+      "published": "2026-11-01T05:44:27.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/MGyYEJHTvltYCWwhHe7eegdhS9Y=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/i/N/aHEk1vRReGQEhRrSo00A/2026-10-21t031828z-418699662-mt1usatoday30141422-rtrmadp-3-nba-oklahoma-city-thunder-at-san-antonio-spurs.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/01/wembanyama-faz-historia-no-halloween-com-43-pontos-e-seis-tocos-em-vitoria-dos-spurs.ghtml"
+    },
+    {
       "id": "NBB-flamengo-domina-caxias-do-sul-e-conquist",
       "league": "NBB",
       "title": "Flamengo dominates Caxias do Sul and wins second victory in the NBB",
@@ -14730,19 +14743,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/TR2W08kUFuloEdWXqPEPtol3joM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/X/3/KfRMtWTpWI1o6rzLTm8w/whatsapp-image-2026-10-24-at-20.35.49-e1792886364635.jpeg",
       "url": "https://ge.globo.com/basquete/noticia/2026/10/24/botafogo-e-superado-por-um-ponto-pelo-pato-basquete-e-segue-sem-vencer-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-jayson-tatum-marca-36-pontos-decide-no-f",
-      "league": "NBB",
-      "title": "Jayson Tatum scores 36 points, decides in the end, and leads Celtics to victory over the Knicks",
-      "originalTitle": "Jayson Tatum marca 36 pontos, decide no fim e conduz Celtics à vitória sobre os Knicks",
-      "translatedFrom": "pt",
-      "description": "Boston Celtics 107-103 New York Knicks | Top Moments | NBA The Boston Celtics beat the New York Knicks 107-103 Friday at TD Garden for the NBA regular season. With 36 points, nine rebounds and seven assists, Jayson Tatum was the highlight of the match and led the team",
-      "published": "2026-10-24T02:32:53.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/HUDOgR-Ui_XlmfJ6ye0c-xVsPZs=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/P/y/0bypnjQ2GOBCQJABw4DQ/gettyimages-2301709494.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/23/jayson-tatum-marca-36-pontos-decide-no-fim-e-conduz-celtics-a-vitoria-sobre-os-knicks.ghtml"
     }
   ],
   "leaders": {
@@ -15213,8 +15213,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-10-31T12:00:09.504Z",
-    "news": "2026-10-31T12:00:09.504Z"
+    "games": "2026-11-01T13:00:18.527Z",
+    "news": "2026-11-01T13:00:18.527Z"
   },
   "carriedOver": [
     "teams",
