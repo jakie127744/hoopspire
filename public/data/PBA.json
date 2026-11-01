@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-01T12:59:42.698Z",
+  "fetchedAt": "2026-11-01T19:53:36.831Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14543,6 +14543,32 @@
       "url": "https://sports.inquirer.net/704732/pba-la-tenorio-gets-reality-check-as-rookie-coaching-year-ends"
     },
     {
+      "id": "PBA-juangomezdelianorecallsmarinerodaysasadr",
+      "league": "PBA",
+      "title": "Juan Gomez de Liano recalls Marinero days as Adrian Nocum blossoms into a star",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Adrian Nocum saw his record night go down the drain after Rain or Shine lost to Converge in Game 2 of their PBA Season 50 Governors’ Cup quarterfinal series Friday, but nonetheless gained the respect of those from the other side. “He’s a tough competitor,” offered Juan Gomez de L",
+      "published": "2026-11-01T13:57:28.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/2022-PBA-D-League-DLSU-vs-Marinerong-Pilipino-Adrian-Nocum-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/juan-gomez-de-liano-recalls-marinero-days-as-adrian-nocum-blossoms-into-a-star/388518"
+    },
+    {
+      "id": "PBA-rondaehollisjeffersonfindsfamilyloveinth",
+      "league": "PBA",
+      "title": "Rondae Hollis-Jefferson finds family, love in the Philippines",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Hollis-Jefferson sure felt the love of the Ninoy Aquino Stadium crowd as the star import wrapped up his postgame interview on the heels of TNT’s sweep of Magnolia in the PBA Season 50 Governors’ Cup quarterfinals on Saturday. “I just wanna say thank you, guys, for supporti",
+      "published": "2026-11-01T13:05:55.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G3-Magnolia-vs-TNT-Rondae-Hollis-Jefferson-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/rondae-hollis-jefferson-finds-family-love-in-the-philippines/388514"
+    },
+    {
       "id": "PBA-roadwarriorsexorcisefearofearlyplayoffex",
       "league": "PBA",
       "title": "Road Warriors exorcise fear of early playoff exits with rout of Fuel Masters",
@@ -14606,32 +14632,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/IMG_1576_PBA-50-Governors-Cup-Converge-Rain-or-Shine_Adrian-Nocum-scaled.jpg",
       "url": "https://sports.inquirer.net/704564/pba-adrian-nocums-big-game-not-enough-for-ros-rues-late-lapses"
-    },
-    {
-      "id": "PBA-latenorioeyesmentalpreparationasbiggestt",
-      "league": "PBA",
-      "title": "LA Tenorio eyes mental preparation as biggest takeaway from debut season",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "LA Tenorio made light of his ‘hot mic’ incident during their eventual loss to TNT in Game 2 of the PBA Governors’ Cup quarterfinals last Wednesday. The former star turned mentor was caught on camera raising his voice to the entire Hotshots during one timeout, in which he began wi",
-      "published": "2026-10-31T15:52:24.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/10/2026-PBA-Governors-Cup-QF-G1-Magnolia-vs-TNT-LA-Tenorio-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/la-tenorio-eyes-mental-preparation-as-biggest-takeaway-from-debut-season/388480"
-    },
-    {
-      "id": "PBA-robertbolickbelievesnlexhasoutgrownplayo",
-      "league": "PBA",
-      "title": "Robert Bolick believes NLEX has outgrown playoff heartbreaks, sets sights on PBA Finals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Robert Bolick believes that NLEX has been toughened up enough by the playoff disappointments they suffered in the past that inexperience should no longer be an issue entering the PBA Season 50 Governors’ Cup semifinals in December. “I think nag-mature na rin kami sa ilang beses k",
-      "published": "2026-10-31T15:34:28.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/08/2026-PBA-Governors-Cup-NLEX-vs-Terrafirma-Jimmy-Alapag-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/robert-bolick-believes-nlex-has-outgrown-playoff-heartbreaks-sets-sights-on-pba-finals/388473"
     },
     {
       "id": "PBA-pbatntbootsoutmagnoliapunchessemifinalst",
@@ -15136,12 +15136,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-01T12:59:42.698Z",
-    "rosters": "2026-11-01T12:59:42.698Z",
+    "teams": "2026-11-01T19:53:36.831Z",
+    "rosters": "2026-11-01T19:53:36.831Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-01T12:59:42.698Z",
-    "games": "2026-11-01T12:59:42.698Z",
-    "news": "2026-11-01T12:59:42.698Z",
+    "standings": "2026-11-01T19:53:36.831Z",
+    "games": "2026-11-01T19:53:36.831Z",
+    "news": "2026-11-01T19:53:36.831Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
