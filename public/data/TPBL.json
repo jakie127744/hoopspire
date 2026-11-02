@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-11-01T13:00:04.525Z",
+  "fetchedAt": "2026-11-02T15:17:55.376Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5161,6 +5161,64 @@
   },
   "games": [
     {
+      "id": "ab-TPBL-2026-11-01-kings-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "7",
+        "name": "New Taipei Kings",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": 95,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-TPBL-2026-11-01-kaohsiung-n-taipei",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "2",
+        "name": "Kaohsiung Aquas",
+        "abbr": "KAO",
+        "logo": null,
+        "score": 100,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "6",
+        "name": "New Taipei CTBC DEA",
+        "abbr": "NEW",
+        "logo": null,
+        "score": 128,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-TPBL-2026-10-31-kings-taiwan-b-",
       "league": "TPBL",
       "status": "final",
@@ -5956,12 +6014,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-01T13:00:04.525Z",
-    "rosters": "2026-11-01T13:00:04.525Z",
-    "playerStats": "2026-11-01T13:00:04.525Z",
-    "standings": "2026-11-01T13:00:04.525Z",
-    "games": "2026-11-01T13:00:04.525Z",
-    "news": "2026-11-01T13:00:04.525Z",
-    "leaders": "2026-11-01T13:00:04.525Z"
+    "teams": "2026-11-02T15:17:55.376Z",
+    "rosters": "2026-11-02T15:17:55.376Z",
+    "playerStats": "2026-11-02T15:17:55.376Z",
+    "standings": "2026-11-02T15:17:55.376Z",
+    "games": "2026-11-02T15:17:55.376Z",
+    "news": "2026-11-02T15:17:55.376Z",
+    "leaders": "2026-11-02T15:17:55.376Z"
   }
 }

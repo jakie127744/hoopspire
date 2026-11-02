@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-01T13:00:18.527Z",
+  "fetchedAt": "2026-11-02T15:18:19.644Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,35 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-01-flamengo-u-corinth-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-01T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "flamengo",
+        "name": "Flamengo",
+        "abbr": "FLA",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 65,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-10-30-paulist--bauru",
       "league": "NBB",
       "status": "final",
@@ -14550,6 +14579,45 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-tenta-evitar-maior-jejum-de-vit-r",
+      "league": "NBB",
+      "title": "Franca tries to avoid biggest NBB win fast in six years",
+      "originalTitle": "Franca tenta evitar maior jejum de vitórias no NBB em seis anos",
+      "translatedFrom": "pt",
+      "description": "Franca plays badly again and loses one more away from home at the NBB Sesi Franca Basketball takes to the court on Tuesday to avoid a negative mark that has not happened for six years with the team at the NBB. Against Minas, in Pedrocão, the current five-time national champion needs to win so as not to reach the third",
+      "published": "2026-11-02T13:47:52.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/IW3FdQkrEwVzK4Fq7p-80m5bKqU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/t/b/QeAMOgRLOy87OcRGBHmg/55600553114-b45339c282-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/02/franca-tenta-evitar-maior-jejum-de-vitorias-no-nbb-em-seis-anos.ghtml"
+    },
+    {
+      "id": "NBB-doncic-brilha-contra-os-raptors-anota-45",
+      "league": "NBB",
+      "title": "Doncic shines against the Raptors, scores 45 points and reaches unprecedented marks in NBA matches",
+      "originalTitle": "Doncic brilha contra os Raptors, anota 45 pontos e atinge marcas inéditas em partidas da NBA",
+      "translatedFrom": "pt",
+      "description": "Los Angeles Lakers 123 x 120 Toronto Raptors | Top Moments | NBA 2026/27 Luka Doncic showed once again why he is one of the contenders for this season's MVP award. The Los Angeles Lakers star shone in the 131-125 victory against the Toronto Raptors last Sunday, being the",
+      "published": "2026-11-02T13:03:02.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/8nGQ-ErUWIASdPUTHBIUGm8mZ4w=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/x/b/GoFOhGRo2D3LIAS4AaNw/gettyimages-2302624900.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/02/doncic-brilha-contra-os-raptors-anota-45-pontos-e-atinge-marcas-ineditas-em-partidas-da-nba.ghtml"
+    },
+    {
+      "id": "NBB-flamengo-vence-o-uni-o-corinthians-no-ma",
+      "league": "NBB",
+      "title": "Flamengo vence o União Corinthians no Maracanãzinho e sobe na tabela do NBB",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Flamengo 83x65 União Corinthians | Best Moments | Round 4 | NBB Flamengo secured an important victory against União Corinthians this Sunday. Playing at home at Maracanãzinho, Rubro-Negro was dominant and won 83-65. With the result, Flamengo is currently in its sixth season",
+      "published": "2026-11-01T16:12:49.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/IDPnNj4sbAnLzie1YEf69EEgLmU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/D/Bg5xY7QSm3KoFp85meKQ/758491-flamengoxuniaocorinthians-nbb-maracanazinho-01-11-2026-foto-paulareis-flamengo008a8399.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/01/flamengo-vence-o-uniao-corinthians-no-maracanazinho-e-sobe-na-tabela-do-nbb.ghtml"
+    },
+    {
       "id": "NBB-wembanyama-faz-hist-ria-no-halloween-com",
       "league": "NBB",
       "title": "Wembanyama makes Halloween history with 43 points and six stumps in Spurs victory",
@@ -14704,45 +14772,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/ci-HaaLraQpZ3bc6aSYjYl_bhXI=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/0/V8xOXtSEW6iMxpBT2dWg/752952-flamengoxdefensor-lsb-maracanazinho-25-10-2026-foto-paulareis-flamengo008a8772-1-.jpg",
       "url": "https://ge.globo.com/basquete/noticia/2026/10/25/flamengo-vence-defensor-uru-e-avanca-invicto-as-quartas-na-liga-sul-americana-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-pato-basquete-vira-com-enterrada-no-fim-",
-      "league": "NBB",
-      "title": "Basketball Duck turns with burial at the end and wins Botafogo by NBB",
-      "originalTitle": "Pato Basquete vira com enterrada no fim e vence o Botafogo pelo NBB",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete is champion of Paraná for the eighth time in a row With a turn in the thin seconds, Pato Basquete won Botafogo, 89 to 88, this Saturday, at the Sesi gymnasium, in Pato Branco, by the NBB (Novo Basquete Brasil). Behind the scoreboard for most of the game, the Paraná team won with a",
-      "published": "2026-10-25T01:13:27.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/HtiKOr80ph7Ch7qDxIAZQNiTwxc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/9/RGEdbsRSKUIGDpvuAeMg/whatsapp-image-2026-10-24-at-21.32.58.jpeg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/24/pato-basquete-vira-com-enterrada-no-no-fim-e-vence-o-botafogo-pelo-nbb.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-vence-ober-arg-e-conquista-segu",
-      "league": "NBB",
-      "title": "Flamengo wins Oberá (ARG) and takes second victory in the South American Basketball League",
-      "originalTitle": "Flamengo vence Oberá (ARG) e conquista segunda vitória na Liga Sul-Americana de Basquete",
-      "translatedFrom": "pt",
-      "description": "Boston Celtics 107 x 103 New York Knicks | Best Moments | NBA Flamengo beat Argentina's Oberá 93-73 on Saturday night (24) at Maracanãzinho in Rio de Janeiro for the second round of Group D of the South American Basketball League. With the result, Red-Black reached the second",
-      "published": "2026-10-25T01:07:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/t7IAWPdrdIje_xwEKCdd7iH7s5Q=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/f/g/8J6JAKQ7WDmFADm2lkag/752545-flamengo-x-obera-liga-sulamericana-de-basquete-maracanazinho-24-10-2026-foto-julliana-nascimento-crf-5.png",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/24/flamengo-vence-obera-arg-e-conquista-segunda-vitoria-na-liga-sul-americana-de-basquete.ghtml"
-    },
-    {
-      "id": "NBB-botafogo-superado-por-um-ponto-pelo-pato",
-      "league": "NBB",
-      "title": "Botafogo is surpassed by one point by Pato Basquete and continues without winning in the NBB",
-      "originalTitle": "Botafogo é superado por um ponto pelo Pato Basquete e segue sem vencer no NBB",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete 89 x 88 Botafogo | Best moments | 3rd round | NBB 2026/27 A dunk by pivot Maicon Douglas with 19 seconds to go decreed the triumph of Pato Basquete over Botafogo, by only one point (89 to 88), on Saturday night (24), at Ginásio do Sesc, in Pato Branco, Pa",
-      "published": "2026-10-25T00:02:50.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/TR2W08kUFuloEdWXqPEPtol3joM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/X/3/KfRMtWTpWI1o6rzLTm8w/whatsapp-image-2026-10-24-at-20.35.49-e1792886364635.jpeg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/24/botafogo-e-superado-por-um-ponto-pelo-pato-basquete-e-segue-sem-vencer-no-nbb.ghtml"
     }
   ],
   "leaders": {
@@ -15213,8 +15242,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-01T13:00:18.527Z",
-    "news": "2026-11-01T13:00:18.527Z"
+    "games": "2026-11-02T15:18:19.644Z",
+    "news": "2026-11-02T15:18:19.644Z"
   },
   "carriedOver": [
     "teams",

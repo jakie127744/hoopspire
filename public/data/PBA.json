@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-01T19:53:36.831Z",
+  "fetchedAt": "2026-11-02T15:17:35.528Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14530,6 +14530,58 @@
   ],
   "news": [
     {
+      "id": "PBA-pbachotreyesencourageslatenoriotoembrace",
+      "league": "PBA",
+      "title": "PBA: Chot Reyes encourages LA Tenorio to embrace growing pains of coaching",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Even the most accomplished PBA coaches had to start somewhere and Chot Reyes knows that all too well.",
+      "published": "2026-11-02T11:28:13.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1008025/pba-chot-reyes-encourages-la-tenorio-to-embrace-growing-pains-of-coaching/story/"
+    },
+    {
+      "id": "PBA-nlexsbolickgainsbacktobackpbaplayerofthe",
+      "league": "PBA",
+      "title": "NLEX’s Bolick gains back-to-back PBA Player of the Week citations",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Robert Bolick has won the PBA Press Corps Player of the Week for the second straight time following another notable performance that pushed NLEX to the semifinals of the 50th Season Governors’ Cup.",
+      "published": "2026-11-02T09:53:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/02/2567371/nlexs-bolick-gains-back-back-pba-player-week-citations"
+    },
+    {
+      "id": "PBA-bolicknlexdreambiggerthanpbasemisbakitta",
+      "league": "PBA",
+      "title": "Bolick, NLEX dream bigger than PBA semis: 'Bakit tayo mangangarap ng semis lang?'",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The semifinals may be uncharted territory once again for this NLEX squad, but veteran Robert Bolick is making it clear that the Road Warriors are not just happy to be there.",
+      "published": "2026-11-02T06:41:16.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1007998/bolick-nlex-dream-bigger-than-pba-semis-bakit-tayo-mangangarap-ng-semis-lang/story/"
+    },
+    {
+      "id": "PBA-rhjsayinghespinoytickleslocalcagefansbut",
+      "league": "PBA",
+      "title": "RHJ saying he’s ‘Pinoy’ tickles local cage fans. But is it still possible for him to suit up for Gilas?",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rondae Hollis-Jefferson’s postgame interview on television looked as if it would end normally with the usual thoughts and greetings after TNT’s commanding sweep of Magnolia in the PBA Governors’ Cup quarterfinals. But the last two words he uttered got everyone’s attention, and go",
+      "published": "2026-11-02T05:21:39.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Sports1324513.jpg",
+      "url": "https://sports.inquirer.net/704744/rhj-saying-hes-pinoy-tickles-local-cage-fans-but-is-it-still-possible-for-him-to-suit-up-for-gilas"
+    },
+    {
       "id": "PBA-pbalatenoriogetsrealitycheckasrookiecoac",
       "league": "PBA",
       "title": "PBA: LA Tenorio gets reality check as rookie coaching year ends",
@@ -14561,7 +14613,7 @@
       "title": "Rondae Hollis-Jefferson finds family, love in the Philippines",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Rondae Hollis-Jefferson sure felt the love of the Ninoy Aquino Stadium crowd as the star import wrapped up his postgame interview on the heels of TNT’s sweep of Magnolia in the PBA Season 50 Governors’ Cup quarterfinals on Saturday. “I just wanna say thank you, guys, for supporti",
+      "description": "Rondae Hollis-Jefferson sure felt the love of the Ninoy Aquino Stadium crowd as the star import wrapped up his postgame interview after TNT’s sweep of Magnolia in the PBA Season 50 Governors’ Cup quarterfinals on Saturday. “I just wanna say thank you, guys, for supporting me. Rea",
       "published": "2026-11-01T13:05:55.000Z",
       "byline": "Tiebreaker Times",
       "tag": "Report",
@@ -14580,97 +14632,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/Sports1324167.png",
       "url": "https://sports.inquirer.net/704665/road-warriors-exorcise-fear-of-early-playoff-exits-with-rout-of-fuel-masters"
-    },
-    {
-      "id": "PBA-pbatntsweepswaytosemishandlesmagnolia",
-      "league": "PBA",
-      "title": "PBA: TNT sweeps way to semis, handles Magnolia",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–TNT marched on to the semifinals of the PBA Governors’ Cup after finishing off Magnolia, 98-87, on Saturday for a sweep of their best-of-five quarters series at Ninoy Aquino Stadium. Rondae Hollis-Jefferson put up another big performance with 38 points, nine r",
-      "published": "2026-10-31T22:27:58.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image1-5.jpg",
-      "url": "https://sports.inquirer.net/704653/pba-tnt-sweeps-way-to-semis-handles-magnolia"
-    },
-    {
-      "id": "PBA-pbanlexeasesintosemissweepsphoenix",
-      "league": "PBA",
-      "title": "PBA: NLEX eases into semis, sweeps Phoenix",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–NLEX brought out the broom and swept aside Phoenix mercilessly with a 137-89 victory to secure a place in the semifinals of the PBA Governors’ Cup on Saturday at Ninoy Aquino Stadium. Robert Bolick put on an early barrage with 16 of his 23 points in the first ",
-      "published": "2026-10-31T20:05:52.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/PBA-Image10-8.jpg",
-      "url": "https://sports.inquirer.net/704604/pba-nlex-eases-into-semis-sweeps-phoenix"
-    },
-    {
-      "id": "PBA-pbadeocuajaoruesmissedfreethrowslateinga",
-      "league": "PBA",
-      "title": "PBA: Deo Cuajao rues missed free throws late in Game 2 loss",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines—Deo Cuajao had a golden opportunity to help Rain or Shine pull closer late in Game 2 of the PBA Governors’ Cup. Fouled while taking a 4-point shot, Cuajao could only make two of his free throws as Converge escaped with a 130-125 victory to tie the quarterfinal",
-      "published": "2026-10-31T19:50:57.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/IMG_2609_PBA-50-Governors-Cup-Converge-Rain-or-Shine_Deo-Cuajao.jpg",
-      "url": "https://sports.inquirer.net/704597/pba-deo-cuajao-rues-missed-free-throws-late-in-game-2-loss"
-    },
-    {
-      "id": "PBA-pbaadriannocumsbiggamenotenoughforrosrue",
-      "league": "PBA",
-      "title": "PBA: Adrian Nocum’s big game not enough for ROS, rues late lapses",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Adrian Nocum’s career night was overshadowed by two turnovers that contributed to Rain or Shine’s Game 2 loss and enabled Converge to level their PBA Governors’ Cup quarterfinal series. Nocum dished out 18 assists on Friday, most of which came when the Elasto ",
-      "published": "2026-10-31T17:32:52.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/IMG_1576_PBA-50-Governors-Cup-Converge-Rain-or-Shine_Adrian-Nocum-scaled.jpg",
-      "url": "https://sports.inquirer.net/704564/pba-adrian-nocums-big-game-not-enough-for-ros-rues-late-lapses"
-    },
-    {
-      "id": "PBA-pbatntbootsoutmagnoliapunchessemifinalst",
-      "league": "PBA",
-      "title": "PBA: TNT boots out Magnolia, punches semifinals ticket",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "TNT unloaded a massive third quarter en route to a 98-87 win against Magnolia, completing a sweep of their best-of-three PBA Season 50 Governors' Cup quarterfinals on Saturday at the Ninoy Aquino Stadium.",
-      "published": "2026-10-31T13:50:07.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007861/pba-tnt-boots-out-magnolia-punches-semifinals-ticket/story/"
-    },
-    {
-      "id": "PBA-pbanlexoustsphoenixclinchesfirstsemisber",
-      "league": "PBA",
-      "title": "PBA: NLEX ousts Phoenix, clinches first semis berth since 2022",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "NLEX closed out its quarterfinals bout against Phoenix in dominant fashion, pulling off a 137-89 thrashing in Game 3 of the best-of-five series on Saturday at the Ninoy Aquino Stadium.",
-      "published": "2026-10-31T11:39:25.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1007853/pba-nlex-ousts-phoenix-clinches-first-semis-berth-since-2022/story/"
-    },
-    {
-      "id": "PBA-kingsbamboozlebeermentomovewithinwinsemi",
-      "league": "PBA",
-      "title": "Kings bamboozle Beermen to move within win semis sweep",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "With the manner of how they won Game 2, Barangay Ginebra coach Tim Cone is quite surprised with the way his Gin Kings have taken a 2-0 lead over San Miguel Beer in their best-of-five PBA Governors’ Cup quarterfinal series. Not that he doesn’t want it. “We didn’t even dream that w",
-      "published": "2026-10-31T05:30:45.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/Sports1323183-scaled.jpg",
-      "url": "https://sports.inquirer.net/704462/kings-bamboozle-beermen-to-move-within-win-semis-sweep"
     }
   ],
   "leaders": {
@@ -15136,12 +15097,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-01T19:53:36.831Z",
-    "rosters": "2026-11-01T19:53:36.831Z",
+    "teams": "2026-11-02T15:17:35.528Z",
+    "rosters": "2026-11-02T15:17:35.528Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-01T19:53:36.831Z",
-    "games": "2026-11-01T19:53:36.831Z",
-    "news": "2026-11-01T19:53:36.831Z",
+    "standings": "2026-11-02T15:17:35.528Z",
+    "games": "2026-11-02T15:17:35.528Z",
+    "news": "2026-11-02T15:17:35.528Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
