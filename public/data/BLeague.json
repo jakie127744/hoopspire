@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-11-02T15:15:51.973Z",
+  "fetchedAt": "2026-11-03T13:55:02.978Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -2343,18 +2343,6 @@
         "headshot": "https://bleague.bl.kuroco-img.app/v=1772175992/files/user/common/img/logo/2026/m/cj.png"
       },
       {
-        "id": "51000715",
-        "name": "LG Gill",
-        "nameLocal": "エルジー・ギル",
-        "jersey": "26",
-        "position": "PF",
-        "height": null,
-        "weight": null,
-        "age": null,
-        "country": null,
-        "headshot": "https://bleague.bl.kuroco-img.app/v=1772175992/files/user/common/img/logo/2026/m/cj.png"
-      },
-      {
         "id": "51000345",
         "name": "Kai Sugawara",
         "nameLocal": "菅原 佳依",
@@ -2384,6 +2372,18 @@
         "nameLocal": "ルーク・メイ",
         "jersey": "32",
         "position": "SF/PF",
+        "height": null,
+        "weight": null,
+        "age": null,
+        "country": null,
+        "headshot": "https://bleague.bl.kuroco-img.app/v=1772175992/files/user/common/img/logo/2026/m/cj.png"
+      },
+      {
+        "id": "51000715",
+        "name": "LG Gill",
+        "nameLocal": "エルジー・ギル",
+        "jersey": null,
+        "position": null,
         "height": null,
         "weight": null,
         "age": null,
@@ -20625,13 +20625,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-02T15:15:51.973Z",
-    "rosters": "2026-11-02T15:15:51.973Z",
-    "playerStats": "2026-11-02T15:15:51.973Z",
-    "standings": "2026-11-02T15:15:51.973Z",
-    "games": "2026-11-02T15:15:51.973Z",
+    "teams": "2026-11-03T13:55:02.978Z",
+    "rosters": "2026-11-03T13:55:02.978Z",
+    "playerStats": "2026-11-03T13:55:02.978Z",
+    "standings": "2026-11-03T13:55:02.978Z",
+    "games": "2026-11-03T13:55:02.978Z",
     "news": "2026-09-22T11:18:19.088Z",
-    "leaders": "2026-11-02T15:15:51.973Z"
+    "leaders": "2026-11-03T13:55:02.978Z"
   },
   "carriedOver": [
     "news"

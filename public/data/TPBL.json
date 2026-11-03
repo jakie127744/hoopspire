@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-11-02T15:17:55.376Z",
+  "fetchedAt": "2026-11-03T13:57:02.286Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -5395,6 +5395,45 @@
   ],
   "news": [
     {
+      "id": "TPBL-530",
+      "league": "TPBL",
+      "title": "🥇 | Best-performing player in a week | 🦁 Drew 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🦁 德魯 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-11-03T09:25:24.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/530/aPD70IRxohvcXB5TElXXi3mdKvdFSfeLjrBm3NbE.jpg?20261103172702",
+      "url": "https://tpbl.basketball/news/530"
+    },
+    {
+      "id": "TPBL-529",
+      "league": "TPBL",
+      "title": "🥇 | Best-performing player in a week ⚡️ Abbasi 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 ⚡️ 阿巴西 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-11-03T09:17:35.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/529/tLPYUT3yAkNvVQKV7vaULpYJOWKP3v8iBTXxnN60.jpg?20261103172515",
+      "url": "https://tpbl.basketball/news/529"
+    },
+    {
+      "id": "TPBL-528",
+      "league": "TPBL",
+      "title": "2026.10.28 Alliance Announcement - G-005 Event Appeal Review Result Announcement",
+      "originalTitle": "2026.10.28 聯盟公告-G-005 賽事申訴審查結果公告",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-10-28T04:00:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/528/Gbj6NUjoXs2XrlzYLJAoTbrAGY2748VnwAthJiGp.png?20261103110138",
+      "url": "https://tpbl.basketball/news/528"
+    },
+    {
       "id": "TPBL-526",
       "league": "TPBL",
       "title": "2026.10.27 Alliance Announcement - Prolongation Information",
@@ -5510,45 +5549,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/513/RaSysPKvdkIrS3Yccwr7bRhWNrtVFobEA4l6gvSY.jpg?20261019122416",
       "url": "https://tpbl.basketball/news/521"
-    },
-    {
-      "id": "TPBL-503",
-      "league": "TPBL",
-      "title": "2026-27 TPBL Unboxing the New Ten Strengths Pre-Season Warm-Up Tournament Wrapping Up War Gods and Kings Welcome the Season with Two Consecutive Victories",
-      "originalTitle": "2026-27 TPBL 開箱新十力 季前熱身賽收官 戰神、國王以二連勝迎開季",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-11T09:47:56.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/503/pGJ0r2WJeN0aBxC0Fpg6tlCGE8ySH8JlnGH0Q3oF.jpg?20261011175242",
-      "url": "https://tpbl.basketball/news/503"
-    },
-    {
-      "id": "TPBL-520",
-      "league": "TPBL",
-      "title": "Ferocious Attack 28 Points Still Hard to Fight Overwhelming Game Special Attack Dreamer Warm-Up 1 Win 1 Loss Gain Experience Continuous Adjustment",
-      "originalTitle": "猛士攻進28分仍難挽戰局 特攻不敵夢想家 熱身賽一勝一敗作收 汲取經驗持續調整",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-10T14:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/512/bFdOD3YZj2o0451WfEufmUXOVOVktJDnNZTpmawT.jpg?20261019121650",
-      "url": "https://tpbl.basketball/news/520"
-    },
-    {
-      "id": "TPBL-502",
-      "league": "TPBL",
-      "title": "2026-27 Unboxing New Ten Force Pre-Season Warm-up Day 2 King's Bench Fa Wei, Poseidon Five Score Double, Dreamer Double Guard Win",
-      "originalTitle": "2026-27 開箱新十力 季前熱身賽第二日 國王板凳發威、海神五人得分上雙、夢想家雙衛領勝",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-10T12:33:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/502/MgyuXoeAMe2trNrzCPwVD4vuScRPD12zHMhAhnUA.jpg?20261010204125",
-      "url": "https://tpbl.basketball/news/502"
     }
   ],
   "leaders": {
@@ -6014,12 +6014,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-02T15:17:55.376Z",
-    "rosters": "2026-11-02T15:17:55.376Z",
-    "playerStats": "2026-11-02T15:17:55.376Z",
-    "standings": "2026-11-02T15:17:55.376Z",
-    "games": "2026-11-02T15:17:55.376Z",
-    "news": "2026-11-02T15:17:55.376Z",
-    "leaders": "2026-11-02T15:17:55.376Z"
+    "teams": "2026-11-03T13:57:02.286Z",
+    "rosters": "2026-11-03T13:57:02.286Z",
+    "playerStats": "2026-11-03T13:57:02.286Z",
+    "standings": "2026-11-03T13:57:02.286Z",
+    "games": "2026-11-03T13:57:02.286Z",
+    "news": "2026-11-03T13:57:02.286Z",
+    "leaders": "2026-11-03T13:57:02.286Z"
   }
 }

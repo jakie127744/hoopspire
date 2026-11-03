@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-02T15:18:19.644Z",
+  "fetchedAt": "2026-11-03T13:57:14.881Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-02-pinheiros-caxias-do",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "caxias-do",
+        "name": "Caxias do",
+        "abbr": "CAX",
+        "logo": null,
+        "score": 53,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-02-brasilia-botafogo",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "botafogo",
+        "name": "Botafogo",
+        "abbr": "BOT",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-02-sao-jose-cearense",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-02T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sao-jose",
+        "name": "Sao Jose",
+        "abbr": "SAO",
+        "logo": null,
+        "score": 96,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
+        "logo": null,
+        "score": 53,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-01-flamengo-u-corinth-",
       "league": "NBB",
       "status": "final",
@@ -14579,6 +14666,19 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-x-minas-no-nbb-veja-onde-assistir",
+      "league": "NBB",
+      "title": "Franca x Minas on NBB: see where to watch live and time",
+      "originalTitle": "Franca x Minas no NBB: veja onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Franca plays badly again and loses one more away from home at NBB Sesi Franca and Minas face each other this Tuesday, at 7:30 pm, at Pedrocão, in Franca (SP), for Novo Basquete Brasil (NBB) 2026/2027. The French team, currently five-time national champion, tries to rehabilitate itself after losing two in a row against C",
+      "published": "2026-11-03T08:46:16.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/ZbETe6yRdvA8d1fWBE-nackKEXM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/m/a/h0TtjWRbSDu40MBcxxew/54383060986-b29178fe07-5k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/03/franca-x-minas-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
       "id": "NBB-franca-tenta-evitar-maior-jejum-de-vit-r",
       "league": "NBB",
       "title": "Franca tries to avoid biggest NBB win fast in six years",
@@ -14607,9 +14707,9 @@
     {
       "id": "NBB-flamengo-vence-o-uni-o-corinthians-no-ma",
       "league": "NBB",
-      "title": "Flamengo vence o União Corinthians no Maracanãzinho e sobe na tabela do NBB",
-      "originalTitle": null,
-      "translatedFrom": null,
+      "title": "Flamengo wins the União Corinthians at Maracanãzinho and rises in the NBB table",
+      "originalTitle": "Flamengo vence o União Corinthians no Maracanãzinho e sobe na tabela do NBB",
+      "translatedFrom": "pt",
       "description": "Flamengo 83x65 União Corinthians | Best Moments | Round 4 | NBB Flamengo secured an important victory against União Corinthians this Sunday. Playing at home at Maracanãzinho, Rubro-Negro was dominant and won 83-65. With the result, Flamengo is currently in its sixth season",
       "published": "2026-11-01T16:12:49.000Z",
       "byline": "ge — Globo Esporte",
@@ -14759,19 +14859,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/7GLypremWdDt0vK7sHYG4hU1wTc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/I/X/Oi8ojdRF2pijJ10e0MgA/mg-9057.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/26/corinthians-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-vence-defensor-uru-e-avan-a-inv",
-      "league": "NBB",
-      "title": "Flamengo defeats Defensor (URU) and advances undefeated to the quarterfinals of the South American Basketball League.",
-      "originalTitle": "Flamengo vence Defensor (URU) e avança invicto às quartas na Liga Sul-Americana de Basquete",
-      "translatedFrom": "pt",
-      "description": "Boston Celtics 107 x 103 New York Knicks | Highlights | NBA Flamengo defeated Defensor Sporting, from Uruguay, by 65 to 63 this Sunday (25), at Maracanãzinho, in Rio de Janeiro, for the third and final round of Group D of the South American Basketball League. In a balanced match until the",
-      "published": "2026-10-26T02:28:45.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/ci-HaaLraQpZ3bc6aSYjYl_bhXI=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/G/0/V8xOXtSEW6iMxpBT2dWg/752952-flamengoxdefensor-lsb-maracanazinho-25-10-2026-foto-paulareis-flamengo008a8772-1-.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/10/25/flamengo-vence-defensor-uru-e-avanca-invicto-as-quartas-na-liga-sul-americana-de-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -15242,8 +15329,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-02T15:18:19.644Z",
-    "news": "2026-11-02T15:18:19.644Z"
+    "games": "2026-11-03T13:57:14.881Z",
+    "news": "2026-11-03T13:57:14.881Z"
   },
   "carriedOver": [
     "teams",
