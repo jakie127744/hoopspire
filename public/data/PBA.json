@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-03T13:56:35.493Z",
+  "fetchedAt": "2026-11-03T21:14:34.324Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14530,6 +14530,19 @@
   ],
   "news": [
     {
+      "id": "PBA-pbasanmiguelavoidssweepwithgame3escapevs",
+      "league": "PBA",
+      "title": "PBA: San Miguel avoids sweep with Game 3 escape vs Ginebra",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "DASMARINAS, Cavite—San Miguel Beer extended its PBA Governors’ Cup quarterfinal series to a fourth game after holding off Barangay Ginebra, 101-98, and prevented a sweep on Tuesday here. Import George King overcame his struggles while June Mar Fajardo delivered as the Beermen esc",
+      "published": "2026-11-03T23:14:38.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image3-7.jpg",
+      "url": "https://sports.inquirer.net/705048/pba-san-miguel-avoids-sweep-with-game-3-escape-vs-ginebra"
+    },
+    {
       "id": "PBA-pbaconvergenearssemisbreakthroughroutsra",
       "league": "PBA",
       "title": "PBA: Converge nears semis breakthrough, routs Rain or Shine",
@@ -14541,6 +14554,58 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/PBA-Image1-6.jpg",
       "url": "https://sports.inquirer.net/704990/pba-converge-nears-semis-breakthrough-routs-rain-or-shine"
+    },
+    {
+      "id": "PBA-firsttothesemis",
+      "league": "PBA",
+      "title": "First to the semis",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "NLEX made short work of Phoenix in booking only its third semifinal appearance since joining the PBA in 2014-15. This season, the Road Warriors were dispatched in the quarterfinals of the Philippine and Commissioner’s Cups but with debuting coach Jimmy Alapag, the troops barged i",
+      "published": "2026-11-03T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/04/2567644/first-semis"
+    },
+    {
+      "id": "PBA-convergeoneawayfromfinalfour",
+      "league": "PBA",
+      "title": "Converge one away from final four",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "With a fierce second-half storm, Converge made it two in a row against Rain of Shine and moved on the doorstep of franchise history.",
+      "published": "2026-11-03T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/04/2567654/converge-one-away-final-four"
+    },
+    {
+      "id": "PBA-pbasanmiguelavertscollapsedragsginebrato",
+      "league": "PBA",
+      "title": "PBA: San Miguel averts collapse, drags Ginebra to Game 4",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "June Mar Fajardo didn't miss a shot to help San Miguel escape Barangay Ginebra, 101-98, in Game 3 of the PBA Season 50 Governors' Cup quarterfinals on Tuesday in Cavite.",
+      "published": "2026-11-03T15:46:55.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1008196/pba-san-miguel-averts-collapse-drags-ginebra-to-game-4/story/"
+    },
+    {
+      "id": "PBA-sanmiguelsurvivesginebrarallytoavoidpbag",
+      "league": "PBA",
+      "title": "San Miguel survives Ginebra rally to avoid PBA Govs’ Cup sweep",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "San Miguel avoided getting swept by Barangay Ginebra by taking Game 3 of their PBA Season 50 Governors’ Cup quarterfinal series through a 101-98 decision at the City of Dasmariñas Arena in Cavite on Tuesday night. The Beermen needed some help from the heavens in the endgame after",
+      "published": "2026-11-03T14:32:18.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/2026-PBA-Governors-Cup-QF-G3-San-Miguel-vs-Ginebra-Marcio-Lassiter-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/san-miguel-survives-ginebra-rally-to-avoid-pba-govs-cup-sweep/388702"
     },
     {
       "id": "PBA-pbaconvergenearsmaidensemisafterblowingo",
@@ -15058,12 +15123,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-03T13:56:35.493Z",
-    "rosters": "2026-11-03T13:56:35.493Z",
+    "teams": "2026-11-03T21:14:34.324Z",
+    "rosters": "2026-11-03T21:14:34.324Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-03T13:56:35.493Z",
-    "games": "2026-11-03T13:56:35.493Z",
-    "news": "2026-11-03T13:56:35.493Z",
+    "standings": "2026-11-03T21:14:34.324Z",
+    "games": "2026-11-03T21:14:34.324Z",
+    "news": "2026-11-03T21:14:34.324Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
