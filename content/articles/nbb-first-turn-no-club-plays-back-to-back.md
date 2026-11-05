@@ -69,4 +69,4 @@ The numbers show a turn built with a hard minimum rest and a long hole in the mi
 
 What it means for results is our reading, and nothing has been played to test it. Four clubs wait 18 or 19 days, and their first games back, on December 10 and 11, are the place to look.
 
-Two more looks at the same first weeks: [how NBB clubs split their points between threes, twos and free throws](/story/nbb-teams-score-21-to-44-percent-of-points-from-threes), and [how much of a club's scoring rests on one player](/story/nbb-one-cearense-player-scores-a-third-of-team-points).
+The NBL, in Australia, shows the same pattern: [its own breaks line up with FIBA's windows too](/story/nbl-pauses-match-fibas-qualifying-windows-to-the-day). Two more looks at the same first weeks: [how NBB clubs split their points between threes, twos and free throws](/story/nbb-teams-score-21-to-44-percent-of-points-from-threes), and [how much of a club's scoring rests on one player](/story/nbb-one-cearense-player-scores-a-third-of-team-points).
