@@ -24,6 +24,7 @@ import HeritageLine from './pages/HeritageLine.jsx'
 import Story from './pages/Story.jsx'
 import Player from './pages/Player.jsx'
 import Archive from './pages/Archive.jsx'
+import Staff from './pages/Staff.jsx'
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation()
@@ -87,6 +88,7 @@ export default function App() {
           <Route path="/story/:slug" element={<Story />} />
           <Route path="/archive" element={<Archive />} />
           <Route path="/search" element={<SearchRedirect />} />
+          <Route path="/staff/:id" element={<Staff />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />

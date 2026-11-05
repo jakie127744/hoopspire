@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { getLeague } from '../lib/leagues.js'
+import { getLeague, MIN_INDEXABLE_STORIES } from '../lib/leagues.js'
 import { useAsync } from '../lib/useAsync.js'
 import { getGames, getStandings } from '../lib/api.js'
 import { getOriginals } from '../lib/articles.js'
@@ -13,11 +13,15 @@ export default function League() {
   const { key } = useParams()
   const league = getLeague(key)
 
+  // Read before the hook so the robots tag is right in the prerendered HTML.
+  const storyCount = league ? getOriginals(league.key).length : 0
+
   useMeta({
     title: league ? `${league.name}` : 'League',
     description: league
       ? `${league.name} scores, standings, rosters and stats on Hoopspire — results as they finish and the table as it stands.`
       : undefined,
+    noindex: !league || storyCount < MIN_INDEXABLE_STORIES,
   })
 
   const { data: games } = useAsync(() => (league ? getGames(league.key) : []), [key], [])

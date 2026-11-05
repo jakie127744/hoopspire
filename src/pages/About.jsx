@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import { LEAGUES, LEAGUE_COUNT_WORD } from '../lib/leagues.js'
+import { STAFF } from '../lib/staff.js'
 import { SectionHead, Eyebrow } from '../components/Primitives.jsx'
 import { useMeta } from '../lib/meta.js'
 
@@ -55,11 +57,43 @@ export default function About() {
         before Credit rather than after it: a reader wondering who wrote
         something should not have to reach the last block on the page.
       */}
+      <section className="mt-16">
+        <SectionHead title="Who runs Hoopspire" />
+        <div className="space-y-4 text-ink/70">
+          <p>
+            Hoopspire is an independent personal project run by one individual based in Florida,
+            United States. It is not a registered company and has no newsroom behind it.
+          </p>
+          <p>
+            Every piece is built from the official box scores, standings and season averages this
+            site already keeps, and the figures are checked against those records before anything
+            is published.
+          </p>
+        </div>
+      </section>
+
       <section id="bylines" className="mt-16 scroll-mt-24">
         <SectionHead title="Who writes this" />
         <div className="space-y-4 text-ink/70">
           <p>
-            Hoopspire is a very small operation. The bylines on
+            Every byline on this site is an editorial desk name, not a named individual, and none
+            of them comes with a biography, credentials or social accounts, because there is no
+            person behind them to describe. A byline tells you which desk a piece came from and
+            the standard it is held to. Each one has a page with its beat, its method and
+            everything filed under it.
+          </p>
+          <ul className="grid gap-x-8 gap-y-1 sm:grid-cols-2">
+            {STAFF.map((s) => (
+              <li key={s.id}>
+                <Link to={`/staff/${s.id}`} className="text-crimson underline">
+                  {s.byline}
+                </Link>{' '}
+                <span className="text-sm text-ink/50">{s.role}</span>
+              </li>
+            ))}
+          </ul>
+          <p>
+            The bylines on
             this site are Hoopspire Staff on The Margin, Franco Medina on the fantasy desk, a beat
             writer for each league on Full Court Press (two on the NBA), Victor Ashby and Noor
             Haddad on Opinion, and the same FIBA writer and columnists on Heritage Line, the
