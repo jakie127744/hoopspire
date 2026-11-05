@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-04T21:28:40.848Z",
+  "fetchedAt": "2026-11-05T14:26:35.634Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14735,6 +14735,19 @@
   ],
   "news": [
     {
+      "id": "PBA-latenoriourgespbatoreconsidermarchopenin",
+      "league": "PBA",
+      "title": "LA Tenorio urges PBA to reconsider March opening amid lengthy offseason",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "LA Tenorio is still hoping that the PBA opens Season 51 in January rather than March, even though the 2027 competitions have already been calendared The Magnolia head coach rued the four months of inactivity, especially for teams like his that exited early in the Season 50 Govern",
+      "published": "2026-11-05T12:05:29.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/la-tenorio-urges-pba-to-reconsider-march-opening-amid-lengthy-offseason/388867"
+    },
+    {
       "id": "PBA-beermeneyeevenstrongergame4response",
       "league": "PBA",
       "title": "Beermen eye even stronger Game 4 response",
@@ -14772,84 +14785,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/PBA-Image4-4.jpg",
       "url": "https://sports.inquirer.net/705134/pba-cone-laments-ginebras-blown-chances-late-in-game-3-loss"
-    },
-    {
-      "id": "PBA-pbaconvergedeterminednottoletsemisdreams",
-      "league": "PBA",
-      "title": "PBA: Converge determined not to let semis dream slip away again",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "If there is one team that knows how a twice-to-beat bonus can quickly turn into a waste, it is Converge.",
-      "published": "2026-11-04T11:18:58.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1008295/pba-converge-determined-not-to-let-semis-dream-slip-away-again/story/"
-    },
-    {
-      "id": "PBA-fiberxersrippainterstomoveonthebrinkofbr",
-      "league": "PBA",
-      "title": "FiberXers rip Painters to move on the brink of breakthrough semis appearance—hoping third time’s the charm",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "DASMARIÑAS, Cavite—Converge would be the first to tell everyone that being so close to a breakthrough PBA semifinals berth is no guarantee that it will become a reality. The FiberXers closed in on fulfilling that milestone feat yet again with Tuesday’s 105-89 rout of the Rain or ",
-      "published": "2026-11-04T05:30:19.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image1-6.jpg",
-      "url": "https://sports.inquirer.net/705030/fiberxers-rip-painters-to-move-on-the-brink-of-breakthrough-semis-appearance-hoping-third-times-the-charm"
-    },
-    {
-      "id": "PBA-pbasanmiguelavoidssweepwithgame3escapevs",
-      "league": "PBA",
-      "title": "PBA: San Miguel avoids sweep with Game 3 escape vs Ginebra",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "DASMARINAS, Cavite—San Miguel Beer extended its PBA Governors’ Cup quarterfinal series to a fourth game after holding off Barangay Ginebra, 101-98, and prevented a sweep on Tuesday here. Import George King overcame his struggles while June Mar Fajardo delivered as the Beermen esc",
-      "published": "2026-11-03T23:14:38.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image3-7.jpg",
-      "url": "https://sports.inquirer.net/705048/pba-san-miguel-avoids-sweep-with-game-3-escape-vs-ginebra"
-    },
-    {
-      "id": "PBA-pbaconvergenearssemisbreakthroughroutsra",
-      "league": "PBA",
-      "title": "PBA: Converge nears semis breakthrough, routs Rain or Shine",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "DASMARINAS, Cavite—Converge moved closer to securing its first-ever semis berth after defeating Rain or Shine, 105-89, on Tuesday for a 2-1 lead in their PBA Governors’ Cup quarterfinal series here. Juan Gomez de Liano put on the finishing touches with 19 points, 13 rebounds and ",
-      "published": "2026-11-03T21:09:53.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image1-6.jpg",
-      "url": "https://sports.inquirer.net/704990/pba-converge-nears-semis-breakthrough-routs-rain-or-shine"
-    },
-    {
-      "id": "PBA-pbasanmiguelavertscollapsedragsginebrato",
-      "league": "PBA",
-      "title": "PBA: San Miguel averts collapse, drags Ginebra to Game 4",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "June Mar Fajardo didn't miss a shot to help San Miguel escape Barangay Ginebra, 101-98, in Game 3 of the PBA Season 50 Governors' Cup quarterfinals on Tuesday in Cavite.",
-      "published": "2026-11-03T15:46:55.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1008196/pba-san-miguel-averts-collapse-drags-ginebra-to-game-4/story/"
-    },
-    {
-      "id": "PBA-pbaconvergenearsmaidensemisafterblowingo",
-      "league": "PBA",
-      "title": "PBA: Converge nears maiden semis after blowing out Rain or Shine in Game 3",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Converge moved on the cusp of history as it pulled off a 105-98 win against Rain or Shine to break the series deadlock in their PBA Season 50 Governors' Cup quarterfinals affair on Tuesday in Cavite.",
-      "published": "2026-11-03T12:09:06.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1008168/pba-converge-nears-maiden-semis-after-blowing-out-rain-or-shine-in-game-3/story/"
     }
   ],
   "leaders": {
@@ -15315,12 +15250,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-04T21:28:40.848Z",
-    "rosters": "2026-11-04T21:28:40.848Z",
+    "teams": "2026-11-05T14:26:35.634Z",
+    "rosters": "2026-11-05T14:26:35.634Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-04T21:28:40.848Z",
-    "games": "2026-11-04T21:28:40.848Z",
-    "news": "2026-11-04T21:28:40.848Z",
+    "standings": "2026-11-05T14:26:35.634Z",
+    "games": "2026-11-05T14:26:35.634Z",
+    "news": "2026-11-05T14:26:35.634Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-11-04T14:06:44.955Z",
+  "fetchedAt": "2026-11-05T14:26:52.018Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -15564,12 +15564,38 @@
   ],
   "news": [
     {
+      "id": "LNBP-mexicaliaunjuegodeavanzaralagranfinalenaguascalientes",
+      "league": "LNBP",
+      "title": "Mexicali to a game of advancing to the grand final in Aguascalientes",
+      "originalTitle": "Mexicali a un juego de avanzar a la gran final en Aguascalientes",
+      "translatedFrom": "es",
+      "description": "Fourth match of the Grand Final of the Zone between the Panthers of Aguascalientes and the Soles of Mexicali, before a full house in the Hermanos Carreón, we experienced a great game that gave Mexicali the victory by a score of 87 to 75. The match started and the emotions were on the red",
+      "published": "2026-11-04T11:58:33.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/af51bf39c5c9f5a51525ca799c937ffd.jpg",
+      "url": null
+    },
+    {
+      "id": "LNBP-astrosdejaliscoestenlagranfinal",
+      "league": "LNBP",
+      "title": "Astros of Jalisco is in the Grand Final!",
+      "originalTitle": "¡Astros de Jalisco está en la Gran Final!",
+      "translatedFrom": "es",
+      "description": "History continues to be written. Astros de Jalisco signed a dominant performance in the Zone Final of the Liga Caliente.mx LNBP 2026, after winning against Fuerza Regia de Monterrey and sealing their classification to the Grand Final of Mexican national basketball. In the fourth com",
+      "published": "2026-11-04T11:54:40.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/887747f1ecce260b8ad9dbe1ea031bcc.jpg",
+      "url": null
+    },
+    {
       "id": "LNBP-panterasobtienevaliosavictoriaantesoles",
       "league": "LNBP",
       "title": "Panthers Gain Valuable Victory Against Soles",
       "originalTitle": "Panteras obtiene valiosa victoria ante Soles",
       "translatedFrom": "es",
-      "description": "After the first two games of the zone final that were played in the PSF there in Mexicali, the series traveled to the Hermanos Carreón auditorium where we lived an intense game starring Panthers and Suns. After an intense third game of the series, the victory went to the Panthers",
+      "description": "After the first two games of the zone final that were played at the PSF Auditorium in Mexicali, the series traveled to the Hermanos Carreón Auditorium where we lived an intense game starring Panthers and Suns. After an intense third game of the series the victory went to Pan",
       "published": "2026-11-03T10:23:56.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -15579,10 +15605,10 @@
     {
       "id": "LNBP-astrosbrillaenmonterreyyseponeauntriunfodelagranfinal",
       "league": "LNBP",
-      "title": "ASTROS SHINES IN MONTERREY AND GETS TO A TRIUMPH OF THE GRAND FINALE!",
-      "originalTitle": "¡ASTROS BRILLA EN MONTERREY Y SE PONE A UN TRIUNFO DE LA GRAN FINAL!",
+      "title": "Astros shines in Monterrey and is one win away from the Grand Final!",
+      "originalTitle": "¡Astros brilla en Monterrey y se pone a un triunfo de la Gran Final!",
       "translatedFrom": "es",
-      "description": "ASTROS SHINES IN MONTERREY and GETS TO A TRIUMPH OF the GRAND FINALE! Astros de Jalisco gave a blow of authority in the region of Monterrey by winning 83-69 to Fuerza Regia de Monterrey in Game 3 of the Zone Final of the Liga Caliente.mx LNBP, a result with which it expanded its",
+      "description": "Astros de Jalisco gave a blow of authority in the region of Monterrey by winning 83-69 to Fuerza Regia de Monterrey in Game 3 of the Zone Final of the Liga Caliente.mx LNBP, a result that extended their advantage in the series 3-0 and was one victory away from conquering the field",
       "published": "2026-11-03T10:15:25.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -15590,12 +15616,12 @@
       "url": null
     },
     {
-      "id": "LNBP-solesysudefensagananeljuegodosapanteras",
+      "id": "LNBP-solesysudefensagananeljuego2apanteras",
       "league": "LNBP",
-      "title": "SUNS AND THEIR DEFENSE WIN THE GAME TWO TO PANTHERS",
-      "originalTitle": "SOLES Y SU DEFENSA GANAN EL JUEGO DOS A PANTERAS",
+      "title": "Suns and their defense win Game 2 to Panthers",
+      "originalTitle": "Soles y su defensa ganan el Juego 2 a Panteras",
       "translatedFrom": "es",
-      "description": "MEXICALI, B. C., on Friday, October 30, 2026.- Soles de Mexicali executed a strong and effective defense in the third quarter to get on track for the 83-65 victory over Panteras de Aguascalientes and get in front in the semifinal of the Hot Zone. Mx two games for zero. An",
+      "description": "Soles de Mexicali executed an ironclad and effective defense in the third quarter to get on track for an 83-65 victory over Panteras de Aguascalientes and take the lead in the semifinal of the Zona Caliente. Mx two games for zero. Before a packed PSF Auditorium, Pablo Garc's hosts",
       "published": "2026-11-02T11:26:38.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -15605,8 +15631,8 @@
     {
       "id": "LNBP-astrosdejaliscovenceentiempoextraafuerzaregiaytomaventajade2",
       "league": "LNBP",
-      "title": "ASTROS OF JALISCO WIN IN OVERTIME BY FORCE REGIA AND TAKE ADVANTAGE OF 2-0 IN THE FINAL OF ZONE",
-      "originalTitle": "ASTROS DE JALISCO VENCE EN TIEMPO EXTRA A FUERZA REGIA Y TOMA VENTAJA DE 2-0 EN LA FINAL DE ZONA",
+      "title": "Jalisco Astros beat Fuerza Regia in overtime and take 2-0 advantage in the Zone Final",
+      "originalTitle": "Astros de Jalisco vence en tiempo extra a Fuerza Regia y toma ventaja de 2-0 en la Final de Zona",
       "translatedFrom": "es",
       "description": "On a night of authentic basketball, extreme emotions and a spectacular atmosphere at the Arena Astros, the Astros of Jalisco staged a match against Fuerza Regia de Monterrey, getting a dramatic 97-90 victory in overtime to place the",
       "published": "2026-11-02T11:19:33.000Z",
@@ -15618,10 +15644,10 @@
     {
       "id": "LNBP-solespegaprimeroenlafinaldezona",
       "league": "LNBP",
-      "title": "SOLES HIT FIRST AT THE END OF ZONE",
-      "originalTitle": "SOLES PEGA PRIMERO EN LA FINAL DE ZONA",
+      "title": "Soles hits first in the Zone Final",
+      "originalTitle": "Soles pega primero en la Final de Zona",
       "translatedFrom": "es",
-      "description": "MEXICALI, B. C., on Thursday, October 29, 2026.- Soles de Mexicali recovered from a bad start to finally beat the Panthers of Aguascalientes 80-76 and thus lead the semifinal series of the Hot Zone.Mx of the 2026 season of the Hot League",
+      "description": "Soles de Mexicali recovered from a bad start to the match to finally beat the Aguascalientes Panthers 80-76 and thus take the lead in the semifinal series of the Zona Caliente.Mx of the 2026 season of the Liga Caliente.Mx LNBP. An energized PSF Auditorium witnessed d",
       "published": "2026-10-30T10:20:16.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -15631,10 +15657,10 @@
     {
       "id": "LNBP-astrosdejaliscotomaventajaenelprimerjuegodelafinaldezona",
       "league": "LNBP",
-      "title": "ASTROS OF JALISCO TAKES ADVANTAGE IN THE FIRST GAME OF THE ZONE FINAL",
-      "originalTitle": "ASTROS DE JALISCO TOMA VENTAJA EN EL PRIMER JUEGO DE LA FINAL DE ZONA",
+      "title": "Astros of Jalisco takes advantage in the first game of the Zone Final",
+      "originalTitle": "Astros de Jalisco toma ventaja en el primer juego de la Final de Zona",
       "translatedFrom": "es",
-      "description": "ASTROS DE JALISCO TAKES ADVANTAGE IN the FIRST GAME OF the ZONE FINAL Astros de Jalisco started their way with the right foot in the Zone Final of the Liga Caliente. MX LNBP 2026, winning by a score of 96-89 against Fuerza Regia de Monterrey, in an intense match played",
+      "description": "The Jalisco Astros started their way with the right foot in the Zone Final of the Liga Caliente. MX LNBP 2026, winning by a score of 96-89 against Fuerza Regia de Monterrey, in an intense match played on Thursday night at the Astros Arena, where the Jalisco fans",
       "published": "2026-10-30T10:19:23.000Z",
       "byline": "LNBP",
       "tag": "Report",
@@ -15691,32 +15717,6 @@
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/2dbfbbabe5092017737a277f59faa390.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-solesavanzaalafinaldezona",
-      "league": "LNBP",
-      "title": "Soles advances to the Zone Final",
-      "originalTitle": "Soles avanza a la Final de Zona",
-      "translatedFrom": "es",
-      "description": "Soles de Mexicali made it to the final of the Zona Caliente.Mx by defeating the Lion Bees 92-70 in the third game of the semifinal series played at El Domo de la Feria. The squad led by Pablo García Fernández sealed the ticket to the next stage with another demonstration",
-      "published": "2026-10-23T12:43:58.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/5cf1906715dd81c8b00e551e577929b9.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-astrosdejaliscoconquistazacatecasysellasuboletoalafinaldezon",
-      "league": "LNBP",
-      "title": "Astros of Jalisco conquer Zacatecas and seal their ticket to the Zone Final",
-      "originalTitle": "Astros de Jalisco conquista Zacatecas y sella su boleto a la Final de Zona",
-      "translatedFrom": "es",
-      "description": "Astros de Jalisco wrote a new page in their history within the Liga Caliente.MX LNBP by beating the Mineros de Zacatecas 81-72 in the third game of the Zone Semifinal, a result with which they secured their classification to the next round of the playoffs. In one scene",
-      "published": "2026-10-23T12:25:57.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/3836765cafc4601d5c46536f866f94b8.jpg",
       "url": null
     }
   ],
@@ -16183,12 +16183,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-04T14:06:44.955Z",
+    "teams": "2026-11-05T14:26:52.018Z",
     "rosters": "2026-10-06T20:33:41.149Z",
     "playerStats": "2026-10-06T20:33:41.149Z",
-    "standings": "2026-11-04T14:06:44.955Z",
-    "games": "2026-11-04T14:06:44.955Z",
-    "news": "2026-11-04T14:06:44.955Z",
+    "standings": "2026-11-05T14:26:52.018Z",
+    "games": "2026-11-05T14:26:52.018Z",
+    "news": "2026-11-05T14:26:52.018Z",
     "leaders": "2026-10-06T20:33:41.149Z"
   },
   "carriedOver": [

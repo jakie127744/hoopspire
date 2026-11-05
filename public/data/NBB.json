@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-04T14:07:11.699Z",
+  "fetchedAt": "2026-11-05T14:27:24.047Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-04-unifacisa-paulist-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "unifacisa",
+        "name": "UniFacisa",
+        "abbr": "UNI",
+        "logo": null,
+        "score": 71,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "paulist-",
+        "name": "Paulist.",
+        "abbr": "PAU",
+        "logo": null,
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-04-mogi-cearense",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "mogi",
+        "name": "Mogi",
+        "abbr": "MOG",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-04-brasilia-flamengo",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-04T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 87,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "flamengo",
+        "name": "Flamengo",
+        "abbr": "FLA",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-03-bauru-cruzeiro",
       "league": "NBB",
       "status": "final",
@@ -14724,12 +14811,64 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-enfrenta-cruzeiro-no-nbb-para-evi",
+      "league": "NBB",
+      "title": "Franca faces Cruzeiro in NBB to avoid worst losing streak in seven years",
+      "originalTitle": "Franca enfrenta Cruzeiro no NBB para evitar pior sequência de derrotas em sete anos",
+      "translatedFrom": "pt",
+      "description": "Franca plays badly again and loses one more away from home at NBB Sesi Franca enters the court this Thursday, at 8 pm, at the Pedrocão gym, under pressure to interrupt an uncomfortable fast at Novo Basquete Brasil (NBB). Faced with Cruzeiro, the French club tries to avoid the fourth consecutive defeat in the",
+      "published": "2026-11-05T12:50:38.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/vx6QexuhDMhYV2NuUEJfZ6TbMEY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/J/HzDqDiQAqGICJOGzR9xA/55600553114-b45339c282-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-enfrenta-cruzeiro-no-nbb-para-evitar-pior-sequencia-de-derrotas-em-sete-anos.ghtml"
+    },
+    {
+      "id": "NBB-franca-x-cruzeiro-no-nbb-veja-onde-assis",
+      "league": "NBB",
+      "title": "Franca vs Cruise on NBB: see where to watch live and time",
+      "originalTitle": "Franca x Cruzeiro no NBB: veja onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Franca loses to Minas and reaches the 3rd straight defeat in the NBB in Franca, SP Sesi Franca and Cruzeiro face each other this Thursday, at 8 pm, at Pedrocão, in Franca (SP), by Novo Basquete Brasil (NBB) 2026/2027. The French team, currently five-time national champion, tries to rehabilitate itself after losing three",
+      "published": "2026-11-05T09:00:01.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/ZbETe6yRdvA8d1fWBE-nackKEXM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/m/a/h0TtjWRbSDu40MBcxxew/54383060986-b29178fe07-5k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-x-cruzeiro-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
+      "id": "NBB-bras-lia-pressiona-no-fim-mas-flamengo-c",
+      "league": "NBB",
+      "title": "Brasília presses at the end, but Flamengo confirms fourth consecutive victory in the NBB",
+      "originalTitle": "Brasília pressiona no fim, mas Flamengo confirma quarta vitória seguida no NBB",
+      "translatedFrom": "pt",
+      "description": "Brasília 87 X 91 Flamengo | Best moments | 5th round | NBB 2026/2027 Brasília even outlined a reaction in the last two periods, but Flamengo confirmed the fourth consecutive victory in the NBB, on Wednesday (4), at Nilson Nelson, in Brasília, in a game valid for the fifth round. With the result,",
+      "published": "2026-11-05T01:39:20.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/YNNbygG9il72whaf5MOWPXg3I5w=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/P/W/8PLEPJQNGm8E9bvZrcSw/mmm-1579.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/04/brasilia-pressiona-no-fim-mas-flamengo-confirma-quarta-vitoria-seguida-no-nbb.ghtml"
+    },
+    {
+      "id": "NBB-franca-perde-3-seguida-no-nbb-repete-mar",
+      "league": "NBB",
+      "title": "Franca loses 3rd in a row in NBB, repeats 2025 mark and Vitinho charges emotional intelligence",
+      "originalTitle": "Franca perde 3ª seguida no NBB, repete marca de 2025 e Vitinho cobra inteligência emocional",
+      "translatedFrom": "pt",
+      "description": "Franca plays badly again and loses one more away from home in the NBB Sesi Franca suffers a third straight defeat in the NBB, equals the 2025 mark and Vitinho charges emotional intelligence Reversed by 87 to 76 for Minas in Pedrocão turns on a warning sign in the five-time champion team; the point guard points out oscillations and asks for constancy",
+      "published": "2026-11-04T18:42:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/DMkUo2AY73k2uO0jejiUZsLGM0M=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/h/SBQGO5RR2c3pkAFKkmhg/55630869538-eb2b346bcf-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/04/franca-perde-3a-seguida-no-nbb-repete-marca-de-2025-e-vitinho-cobra-inteligencia-emocional.ghtml"
+    },
+    {
       "id": "NBB-minas-vence-franca-no-pedroc-o-e-mant-m-",
       "league": "NBB",
       "title": "Minas wins Franca at Pedrocão and maintains undefeated leadership in the NBB",
       "originalTitle": "Minas vence Franca no Pedrocão e mantém liderança invicta no NBB",
       "translatedFrom": "pt",
-      "description": "Franca plays badly again and loses one more away from home at NBB Minas maintained the unbeaten lead of NBB by beating Sesi Franca 85-76, on Tuesday night, at Pedrocão, in Franca (SP). The Minas Gerais team has five triumphs and 100% of performance. Franca reached the mark of three der",
+      "description": "Franca plays badly again and loses one more away from home at NBB Minas maintained the unbeaten lead of NBB by beating Sesi Franca 87-76, on Tuesday night, at Pedrocão, in Franca (SP). The Minas Gerais team has five triumphs and 100% of performance. Franca reached the mark of three der",
       "published": "2026-11-04T00:35:31.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -14865,58 +15004,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/-Qb11OxNeHBo5HdAwIm7Fag2-j4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/9/k/vt1DnCSkKHBzTnOeZApw/1-tempo-85.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/28/paulistano-domina-franca-segura-reacao-no-fim-e-vence-pelo-nbb.ghtml"
-    },
-    {
-      "id": "NBB-minas-imp-e-ritmo-supera-o-pato-basquete",
-      "league": "NBB",
-      "title": "Minas imposes rhythm, overcomes the Basketball Duck and confirms strength in the NBB",
-      "originalTitle": "Minas impõe ritmo, supera o Pato Basquete e confirma força no NBB",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete is Paraná's champion for the eighth time in a row. Minas won Pato Basquete 86-65 on Tuesday night, at Arena Minas, for Novo Basquete Brasil 2026/27. With dominant performance from the beginning, the mining team built an advantage over the first three quarters, I confirm",
-      "published": "2026-10-28T12:55:38.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/taAi8t0fIFdmpL1hRdd6zl0K6xM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/r/u/wUF71CR7Suys8Q6Dw8jQ/minasxpato.jpg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/28/minas-impoe-ritmo-supera-o-pato-basquete-e-confirma-forca-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-paulistano-x-franca-no-nbb-veja-onde-ass",
-      "league": "NBB",
-      "title": "Paulistano vs Franca on NBB: see where to watch live and time",
-      "originalTitle": "Paulistano x Franca no NBB: veja onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Franca suffers first defeat in the NBB Paulistano season and Sesi Franca face each other this Wednesday, at 7 pm, at the Sesi Vila Leopoldina gymnasium, in São Paulo (SP), by Novo Basquete Brasil (NBB) 2026/2027. The French team, currently five times national champion, tries to rehabilitate itself after losing the first",
-      "published": "2026-10-28T09:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/NxtTdvBwZM6j6U-ErKv7jUdNM-M=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2017/G/q/tI44ZWRkyEf5b7wQFyJQ/whatsapp-image-2017-11-08-at-09.20.55-1-.jpeg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/28/paulistano-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-helinho-classifica-derrota-como-noite-at",
-      "league": "NBB",
-      "title": "Helinho classifies defeat as \"atypical night\" and demands consistency from Franca after the worst score",
-      "originalTitle": "Helinho classifica derrota como \"noite atípica\" e cobra consistência do Franca após pior pontuação",
-      "translatedFrom": "pt",
-      "description": "Franca loses to Corinthians and is no longer undefeated in the NBB in São Paulo. The 78-48 loss to Corinthians, on Monday, at the Wlamir Marques gymnasium, recorded the worst offensive production of Sesi Franca in the 2026 season, in addition to decreeing the loss of invincibility in Novo Basquete Bras",
-      "published": "2026-10-27T18:21:50.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/dV5wyJo73oQqdGKxDiT7TS4yhaE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/1/p/3HRJtsSEesAtewZ3euzA/whatsapp-image-2026-10-26-at-22.17.46.jpeg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/27/helinho-classifica-derrota-como-noite-atipica-e-cobra-consistencia-do-franca-apos-pior-pontuacao.ghtml"
-    },
-    {
-      "id": "NBB-corinthians-imp-e-30-pontos-de-vantagem-",
-      "league": "NBB",
-      "title": "Corinthians imposes 30 points advantage over Franca and wins the first in the NBB",
-      "originalTitle": "Corinthians impõe 30 pontos de vantagem sobre Franca e vence a primeira no NBB",
-      "translatedFrom": "pt",
-      "description": "Franca beats Mogi at Pedrocão and remains undefeated at NBB Corinthians won Sesi Franca 78-48 on Monday night at the Wlamir Marques gymnasium in São Paulo. It was Timão's first triumph in this edition of the NBB and the first defeat of the French team in the national team. In the classification, the Se",
-      "published": "2026-10-27T00:55:56.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/_r1hvQBLrq-Vn3mw3qcitedpuew=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/y/x/uKNRDNRNydWmooEXtwGA/139a2251.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/26/corinthians-impoe-30-pontos-de-vantagem-sobre-franca-e-vence-a-primeira-no-nbb.ghtml"
     }
   ],
   "leaders": {
@@ -15387,8 +15474,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-04T14:07:11.699Z",
-    "news": "2026-11-04T14:07:11.699Z"
+    "games": "2026-11-05T14:27:24.047Z",
+    "news": "2026-11-05T14:27:24.047Z"
   },
   "carriedOver": [
     "teams",

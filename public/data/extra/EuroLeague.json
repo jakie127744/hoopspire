@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-11-04T14:07:19.207Z",
+  "fetchedAt": "2026-11-05T14:27:31.583Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -21,6 +21,136 @@
     "Kept the previous run's leaders, playerStats — the source returned nothing this time."
   ],
   "news": [
+    {
+      "id": "EuroLeague-hapoeltelavivreportedlymakesmovefortyler",
+      "league": "EuroLeague",
+      "title": "Hapoel Tel Aviv reportedly makes move for Tyler Dorsey",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Hapoel Tel Aviv has reportedly made an offer for Tyler Dorsey, with Ofer Yannai contacting Olympiacos owners over a possible deal L'articolo Hapoel Tel Aviv reportedly makes move for Tyler Dorsey proviene da Sportando .",
+      "published": "2026-11-05T13:46:07.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/hapoel-tel-aviv-reportedly-makes-move-for-tyler-dorsey/"
+    },
+    {
+      "id": "EuroLeague-euroleagueinjuryreportnovember5bookerout",
+      "league": "EuroLeague",
+      "title": "EuroLeague injury report, November 5: Booker out, Bolmaro expected against Valencia",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Thursday’s five EuroLeague Round 10 games, with CET tip-off times, confirmed absences and player availability L'articolo EuroLeague injury report, November 5: Booker out, Bolmaro expected against Valencia proviene da Sportando .",
+      "published": "2026-11-05T11:57:30.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/euroleague-injury-report-november-5-booker-out-bolmaro-expected-against-valencia/"
+    },
+    {
+      "id": "EuroLeague-partizansonemanshowinoffenseandadefenset",
+      "league": "EuroLeague",
+      "title": "Partizan’s one-man show in offense and a defense that stands tall",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "After nine rounds, Partizan has a 4-5 record, and the team's defense is most responsible for the four victories, compensating for all the problems in offense, confirmed by the data from the \"Hoopwise\" website The post Partizan’s one-man show in offense and a defense that stands t",
+      "published": "2026-11-05T11:32:15.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/10/c9c527ee-partizan-bayern.jpg",
+      "url": "https://www.eurohoops.net/en/trademarks/2030627/partizans-one-man-show-in-offense-and-a-defense-that-stands-tall/"
+    },
+    {
+      "id": "EuroLeague-panathinaikoswinsinmadridafterovertimeas",
+      "league": "EuroLeague",
+      "title": "Panathinaikos wins in Madrid after overtime as Nunn drops 33",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Panathinaikos beats Real Madrid 115-112 after overtime behind 33 points from Kendrick Nunn L'articolo Panathinaikos wins in Madrid after overtime as Nunn drops 33 proviene da Sportando .",
+      "published": "2026-11-05T11:20:20.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/panathinaikos-wins-in-madrid-after-overtime-as-nunn-drops-33/"
+    },
+    {
+      "id": "EuroLeague-pedromartnezafterpanathinaikoslossnoexcu",
+      "league": "EuroLeague",
+      "title": "Pedro Martínez after Panathinaikos loss: “No excuses, we competed well”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Pedro Martínez says there are no excuses after Real Madrid’s 115-112 overtime loss to Panathinaikos despite several key absences L'articolo Pedro Martínez after Panathinaikos loss: “No excuses, we competed well” proviene da Sportando .",
+      "published": "2026-11-05T11:17:30.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/pedro-martinez-after-panathinaikos-loss-no-excuses-we-competed-well/"
+    },
+    {
+      "id": "EuroLeague-obradovicafterrealmadridwiniveneverexper",
+      "league": "EuroLeague",
+      "title": "Obradovic after Real Madrid win: “I’ve never experienced anything like this with Nunn”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Zeljko Obradovic praises Kendrick Nunn after Panathinaikos’ overtime win over Real Madrid and highlights his unusual path back into rhythm L'articolo Obradovic after Real Madrid win: “I’ve never experienced anything like this with Nunn” proviene da Sportando .",
+      "published": "2026-11-05T11:12:18.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/obradovic-after-real-madrid-win-ive-never-experienced-anything-like-this-with-nunn/"
+    },
+    {
+      "id": "EuroLeague-eurocupround6hapoeljerusalemstaysperfect",
+      "league": "EuroLeague",
+      "title": "EuroCup Round 6: Hapoel Jerusalem stays perfect, Venezia dominates, Roma wins in overtime",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "EuroCup Round 6 recap from November 4: Hapoel Jerusalem stays unbeaten, Venezia dominates Siauliai, Roma beats London in overtime and Derthona falls to Cedevita L'articolo EuroCup Round 6: Hapoel Jerusalem stays perfect, Venezia dominates, Roma wins in overtime proviene da Sporta",
+      "published": "2026-11-05T10:43:47.000Z",
+      "byline": "Sportando",
+      "tag": "Report",
+      "image": null,
+      "url": "https://sportando.basketball/en/eurocup-round-6-hapoel-jerusalem-stays-perfect-venezia-dominates-roma-wins-in-overtime/"
+    },
+    {
+      "id": "EuroLeague-zeljkoobradovicpraiseskendricknunnafterh",
+      "league": "EuroLeague",
+      "title": "Zeljko Obradovic praises Kendrick Nunn after his historic game: “We all know what he’s capable of”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The American guard scored 33 points against Real Madrid, including an Euroleague-high 23 points during the fourth quarter The post Zeljko Obradovic praises Kendrick Nunn after his historic game: “We all know what he’s capable of” appeared first on Eurohoops .",
+      "published": "2026-11-04T23:03:24.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/11/96bebed4-obradovic-real-madrid-panathinaikos.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2030850/zeljko-obradovic-praises-kendrick-nunn-after-his-historic-game-we-all-know-what-hes-capable-of/"
+    },
+    {
+      "id": "EuroLeague-nunnexplodesfor33pointsandmakeshistorypa",
+      "league": "EuroLeague",
+      "title": "Nunn explodes for 33 points and makes history, Panathinaikos wins it against Real after OT drama",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "In the only game on Wednesday, we witnessed a spectacle and a victory for the visitors The post Nunn explodes for 33 points and makes history, Panathinaikos wins it against Real after OT drama appeared first on Eurohoops .",
+      "published": "2026-11-04T22:05:22.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/11/c0d9c169-kendrick-nunn-panathinaikos-euroleague.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2030637/nunn-explodes-for-33-points-and-makes-history-panathinaikos-wins-it-against-real-after-ot-drama/"
+    },
+    {
+      "id": "EuroLeague-eurocuprounduphapoelbeatsariseasywinsfor",
+      "league": "EuroLeague",
+      "title": "EuroCup roundup: Hapoel beats Aris, easy wins for Venezia and Turk Telekom",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "On Wednesday, 10 more EuroCup games were played, and in the most exciting clash, Hapoel emerged victorious over Aris, thus maintaining a 6-0 record The post EuroCup roundup: Hapoel beats Aris, easy wins for Venezia and Turk Telekom appeared first on Eurohoops .",
+      "published": "2026-11-04T18:39:18.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/11/cd799c94-adam-mokoka-hapoel-jerusalem-aris.jpg",
+      "url": "https://www.eurohoops.net/en/eurocup/2030605/eurocup-roundup-easy-win-for-turk-telekom/"
+    },
     {
       "id": "EuroLeague-vucevicurgesnbaandeuroleaguetounitecalls",
       "league": "EuroLeague",
@@ -61,19 +191,6 @@
       "url": "https://www.eurohoops.net/en/euroleague/2030518/euroleague-round-10-injury-report-satoransky-out-powell-and-konchar-could-debut/"
     },
     {
-      "id": "EuroLeague-olympiacosjeanmonteroundergoeskneesurger",
-      "league": "EuroLeague",
-      "title": "Olympiacos, Jean Montero undergoes knee surgery and faces lengthy absence",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Jean Montero has undergone knee surgery and is expected to miss several months. The first post-surgery photo has been released L'articolo Olympiacos, Jean Montero undergoes knee surgery and faces lengthy absence proviene da Sportando .",
-      "published": "2026-11-04T11:05:02.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/olympiacos-jean-montero-undergoes-knee-surgery-and-faces-lengthy-absence/"
-    },
-    {
       "id": "EuroLeague-euroleaguefantasyandresfelizoffersvaluea",
       "league": "EuroLeague",
       "title": "EuroLeague Fantasy: Andres Feliz offers value amid Real Madrid’s injury problems",
@@ -84,124 +201,7 @@
       "byline": "Eurohoops",
       "tag": "Report",
       "image": "https://images.eurohoops.net/2026/05/95915256-andres-feliz-claps-real-madrid-vs-valencia-final-four.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2030514/euroleague-fantasy-andres-feliz-offers-value-amid-real-madrids-injury-problems/"
-    },
-    {
-      "id": "EuroLeague-realmadridvspanathinaikosinjuryreportfiv",
-      "league": "EuroLeague",
-      "title": "Real Madrid vs Panathinaikos injury report: Five players out for Madrid",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Real Madrid hosts Panathinaikos on November 4, 2026. Tip-off time, confirmed absences and expected returns for EuroLeague Round 10 L'articolo Real Madrid vs Panathinaikos injury report: Five players out for Madrid proviene da Sportando .",
-      "published": "2026-11-04T10:57:18.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/real-madrid-vs-panathinaikos-injury-report-five-players-out-for-madrid/"
-    },
-    {
-      "id": "EuroLeague-euroleaguefantasychallengeround105player",
-      "league": "EuroLeague",
-      "title": "EuroLeague Fantasy Challenge Round 10 | 5 players to sell",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Maledon’s injury frees up 13.1 credits, while Hoard and Yabusele have struggled to justify their prices L'articolo EuroLeague Fantasy Challenge Round 10 | 5 players to sell proviene da Sportando .",
-      "published": "2026-11-04T10:46:01.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-fantasy-challenge-round-10-5-players-to-sell/"
-    },
-    {
-      "id": "EuroLeague-euroleaguenovemberpowerrankingsolympiaco",
-      "league": "EuroLeague",
-      "title": "EuroLeague November Power Rankings | Olympiacos stay first, Crvena Zvezda climb to fifth",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Olympiacos, Panathinaikos and Fenerbahçe retain the top three spots. Real Madrid stay fourth after six straight wins, Virtus Bologna rise to 14th and Olimpia Milan drop to 16th L'articolo EuroLeague November Power Rankings | Olympiacos stay first, Crvena Zvezda climb to fifth pro",
-      "published": "2026-11-04T10:31:43.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-november-power-rankings-olympiacos-stay-first-crvena-zvezda-climb-to-fifth/"
-    },
-    {
-      "id": "EuroLeague-euroleaguefantasychallengeround105player",
-      "league": "EuroLeague",
-      "title": "EuroLeague Fantasy Challenge Round 10 | 5 players to buy",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Feliz could take on a bigger role for Madrid, while Cole and Washington look to build on strong Round 9 performances. L'articolo EuroLeague Fantasy Challenge Round 10 | 5 players to buy proviene da Sportando .",
-      "published": "2026-11-04T10:15:01.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-fantasy-challenge-round-10-5-players-to-buy/"
-    },
-    {
-      "id": "EuroLeague-hapoeljerusalemopenscontractextensiontal",
-      "league": "EuroLeague",
-      "title": "Hapoel Jerusalem opens contract extension talks with Kenny Lofton Jr.",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Hapoel Jerusalem has opened contract extension talks with Kenny Lofton Jr., who is averaging 18.8 points and 6.8 rebounds in EuroCup L'articolo Hapoel Jerusalem opens contract extension talks with Kenny Lofton Jr. proviene da Sportando .",
-      "published": "2026-11-04T09:51:29.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/hapoel-jerusalem-opens-contract-extension-talks-with-kenny-lofton-jr/"
-    },
-    {
-      "id": "EuroLeague-barkasbreakdownbesiktasandthechancetoste",
-      "league": "EuroLeague",
-      "title": "Barkas Breakdown: Besiktas and the chance to step up",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The EuroLeague newcomer from Istanbul can take down Zalgiris at home and enter the top 10 of the standings, proving it can be a factor in the playoff race The post Barkas Breakdown: Besiktas and the chance to step up appeared first on Eurohoops .",
-      "published": "2026-11-04T09:00:30.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/9c3a5fb5-isc_8020_unsy8h50_20261030105419-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/trademarks/2030228/barkas-breakdown-besiktas-and-the-chance-to-step-up/"
-    },
-    {
-      "id": "EuroLeague-pattymillsonnbavseuroleagueitseemsliketh",
-      "league": "EuroLeague",
-      "title": "Patty Mills on NBA vs. EuroLeague: “It seems like they are completely different sports”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The Australian, who is playing in the EuroLeague for the first time this season, compared this competition to the NBA The post Patty Mills on NBA vs. EuroLeague: “It seems like they are completely different sports” appeared first on Eurohoops .",
-      "published": "2026-11-03T19:00:55.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/1daf24dd-hr2p_gjboaaarli.jpg",
-      "url": "https://www.eurohoops.net/en/nba-news/2030305/patty-mills-on-nba-vs-euroleague-it-seems-like-they-are-completely-different-sports/"
-    },
-    {
-      "id": "EuroLeague-realmadridsidelinesfacundocampazzoindefi",
-      "league": "EuroLeague",
-      "title": "Real Madrid sidelines Facundo Campazzo indefinitely amid demanding stretch",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Facundo Campazzo has been added to Real Madrid’s crowded injury list, but Nick Smith Jr. is set to return to action this week The post Real Madrid sidelines Facundo Campazzo indefinitely amid demanding stretch appeared first on Eurohoops .",
-      "published": "2026-11-03T12:06:43.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/bdb1a9d4-campazzo-real-olympiacos-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2030111/facundo-campazzo-out-indefinitely-real-madrid-euroleague/"
-    },
-    {
-      "id": "EuroLeague-tjshortsclaimsmvpofoctoberawardifeelconf",
-      "league": "EuroLeague",
-      "title": "TJ Shorts claims MVP of October award: “I feel confident”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The EuroLeague Most Valuable Player award for October lands at TJ Shorts II The post TJ Shorts claims MVP of October award: “I feel confident” appeared first on Eurohoops .",
-      "published": "2026-11-03T11:08:40.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/3c1187a6-tj-shorts-valencia-olympiacos-hyped.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2030095/tj-shorts-ii-october-mvp-euroleague/"
+      "url": "https://www.eurohoops.net/en/trademarks/2030514/euroleague-fantasy-andres-feliz-offers-value-amid-real-madrids-injury-problems/"
     }
   ],
   "leaders": {
@@ -10587,7 +10587,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-11-04T14:07:19.207Z",
+    "news": "2026-11-05T14:27:31.583Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
