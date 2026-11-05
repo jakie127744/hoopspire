@@ -71,3 +71,5 @@ A distance measure would settle it, and so would results. If a club's road recor
 For now the useful habit is simple: when a G League schedule is described as light or heavy, ask how many separate visits the club has to make, not how many nights it plays on consecutive days.
 
 The same schedule has more to say. We looked at [how the Tip-Off Tournament stays inside the divisions](/story/g-league-tip-off-tournament-games-stay-inside-division), at [the uneven December break](/story/g-league-december-break-college-park-18-days-westchester-11), and at [how many games each club packs into short windows](/story/g-league-no-club-plays-three-straight-nights-2026-27).
+
+For a contrast from another league, Brazil's NBB schedules [no back-to-backs at all in its first turn](/story/nbb-first-turn-no-club-plays-back-to-back).
