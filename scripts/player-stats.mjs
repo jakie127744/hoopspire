@@ -338,17 +338,37 @@ function shortPosition(p) {
   return map[p] || p
 }
 
+/**
+ * The regular-season division of the newest TPBL season that has started.
+ *
+ * Each season is an "event" (1 = 2024-25, 2 = 2025-26, 3 = 2026-27) and its
+ * divisions are the phases within it. This used to read event 2 as "the
+ * current season", which went stale the day 2026-27 began and left the TPBL
+ * pages showing last season's table as if it were live. Events are probed in
+ * order until the API runs out, and the last one whose regular season has
+ * started wins, so a new season is picked up without an edit here.
+ */
+async function tpblRegularDivision() {
+  let best = null
+  for (let event = 1; event <= 12; event++) {
+    let divisions
+    try {
+      divisions = await tpblJSON(`/events/${event}/divisions`)
+    } catch {
+      break
+    }
+    const regular = divisions.find((d) => d.name === '例行賽')
+    if (regular && regular.status !== 'NOT_STARTED') best = regular
+  }
+  return best
+}
+
 export async function tpblPlayerStats() {
   const notes = []
 
-  // Event 2 is the current TPBL season; its divisions are the phases within
-  // it. We want the regular season, which is the meaningful sample.
-  const divisions = await tpblJSON('/events/2/divisions')
-  const regular =
-    divisions.find((d) => d.name === '例行賽') ||
-    divisions.find((d) => d.status === 'COMPLETED') ||
-    divisions[0]
-  if (!regular) throw new Error('no TPBL divisions returned')
+  // We want the regular season, which is the meaningful sample.
+  const regular = await tpblRegularDivision()
+  if (!regular) throw new Error('no TPBL regular-season division returned')
 
   const raw = await tpblJSON(`/games/stats/players?division_id=${regular.id}`)
 
@@ -489,9 +509,7 @@ export function buildLeaders(players, { minGamesShare = 0.4 } = {}) {
  * clubs exactly — no name matching involved.
  */
 export async function tpblStandings() {
-  const divisions = await tpblJSON('/events/2/divisions')
-  const regular =
-    divisions.find((d) => d.name === '例行賽') || divisions.find((d) => d.status === 'COMPLETED')
+  const regular = await tpblRegularDivision()
   if (!regular) return { seasonLabel: '', rows: [] }
 
   const raw = await tpblJSON(`/games/stats/teams?division_id=${regular.id}`)
