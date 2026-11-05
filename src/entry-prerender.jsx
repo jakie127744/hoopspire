@@ -11,6 +11,7 @@ import { StaticRouter } from 'react-router-dom/server'
 import App from './App.jsx'
 import { getOriginals } from './lib/articles.js'
 import { LEAGUES } from './lib/leagues.js'
+import { STAFF } from './lib/staff.js'
 import { SITE } from './lib/site.js'
 
 export { SITE }
@@ -31,6 +32,7 @@ export function routes() {
     '/privacy',
     '/terms',
     ...LEAGUES.map((l) => `/league/${l.slug}`),
+    ...STAFF.map((s) => `/staff/${s.id}`),
     ...getOriginals().map((a) => a.href),
   ]
 }

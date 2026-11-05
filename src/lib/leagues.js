@@ -228,6 +228,15 @@ export const LEAGUES = [
 
 export const LEAGUE_KEYS = LEAGUES.map((l) => l.key)
 
+/**
+ * How much writing a league page (or a byline page) needs before it is worth
+ * a search result. Below this the page is mostly tables and a short list of
+ * stories, which is the thin-content shape AdSense rejected the site for. The
+ * page still works for readers; it just carries noindex and stays out of
+ * sitemap.xml until it has this many pieces.
+ */
+export const MIN_INDEXABLE_STORIES = 5
+
 /** Leagues flagged as founding members of the ledger. */
 export const CORE_LEAGUES = LEAGUES.filter((l) => l.tier === 'core')
 

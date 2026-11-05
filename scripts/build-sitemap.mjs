@@ -15,7 +15,8 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { LEAGUES } from '../src/lib/leagues.js'
+import { LEAGUES, MIN_INDEXABLE_STORIES } from '../src/lib/leagues.js'
+import { STAFF } from '../src/lib/staff.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const ORIGIN = 'https://hoopspire.com'
@@ -33,9 +34,6 @@ const STATIC = [
   { path: '/contact', changefreq: 'monthly', priority: '0.4' },
   { path: '/privacy', changefreq: 'yearly', priority: '0.3' },
   { path: '/terms', changefreq: 'yearly', priority: '0.3' },
-  // League pages lead with our own writing on that league, and are
-  // prerendered with it, so they are pages worth indexing.
-  ...LEAGUES.map((l) => ({ path: `/league/${l.slug}`, changefreq: 'daily', priority: '0.7' })),
 ]
 
 /**
@@ -77,6 +75,8 @@ async function articles() {
         lastmod: field(raw, 'published'),
         changefreq: 'monthly',
         priority: '0.8',
+        leagues: [field(raw, 'league'), field(raw, 'league2')].filter(Boolean),
+        author: field(raw, 'author'),
       })
     }
   }
@@ -122,7 +122,19 @@ async function checkAgainstPrerender(stories) {
 
 const stories = await articles()
 await checkAgainstPrerender(stories)
-const urls = [...STATIC, ...stories]
+
+// League and byline pages lead with our own writing, so they are worth
+// indexing once there is enough of it. Below MIN_INDEXABLE_STORIES they carry
+// noindex (see League.jsx and Staff.jsx) and stay out of the sitemap, which
+// must agree with those pages or Search Console reports the contradiction.
+const leaguePages = LEAGUES.filter(
+  (l) => stories.filter((s) => s.leagues.includes(l.key)).length >= MIN_INDEXABLE_STORIES
+).map((l) => ({ path: `/league/${l.slug}`, changefreq: 'daily', priority: '0.7' }))
+const staffPages = STAFF.filter(
+  (w) => stories.filter((s) => s.author === w.byline).length >= MIN_INDEXABLE_STORIES
+).map((w) => ({ path: `/staff/${w.id}`, changefreq: 'weekly', priority: '0.5' }))
+const pages = [...STATIC, ...leaguePages, ...staffPages]
+const urls = [...pages, ...stories]
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(entry).join('\n')}
@@ -130,4 +142,4 @@ ${urls.map(entry).join('\n')}
 `
 
 await writeFile(join(root, 'dist', 'sitemap.xml'), xml, 'utf8')
-console.log(`sitemap.xml — ${urls.length} URLs (${urls.length - STATIC.length} articles)`)
+console.log(`sitemap.xml — ${urls.length} URLs (${stories.length} articles, ${leaguePages.length}/${LEAGUES.length} league pages, ${staffPages.length}/${STAFF.length} byline pages)`)

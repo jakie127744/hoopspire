@@ -207,7 +207,9 @@ export default function Story() {
         {/* The writer's standing method note lives here, not on the desk page. */}
         {writer && (
           <p className="mb-3 text-xs leading-relaxed text-ink/45">
-            <span className="font-semibold text-ink/60">{writer.byline}</span>
+            <Link to={`/staff/${writer.id}`} className="font-semibold text-ink/60 hover:text-crimson">
+              {writer.byline}
+            </Link>
             <DeskTag />, {writer.role}.{' '}
             {writer.method}
           </p>

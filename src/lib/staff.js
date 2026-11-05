@@ -2,7 +2,7 @@
  * The Hoopspire masthead.
  *
  * These are desk names, not real people. Hoopspire is written by a very small
- * operation with machine assistance, and a byline here identifies the desk a
+ * operation, and a byline here identifies the desk a
  * piece came from and the standard it is held to — not a person you could
  * call. That distinction is stated plainly on /about and repeated at the foot
  * of every desk page, because a masthead that implies a newsroom which does
