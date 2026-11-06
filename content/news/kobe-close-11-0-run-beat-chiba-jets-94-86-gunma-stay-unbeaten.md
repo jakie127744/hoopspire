@@ -74,3 +74,5 @@ Saga: Nassir Little 27, David Dudzinski 16, Damyean Dotson 12, Taiki Sumida 8, D
 ## What is next
 
 Saturday, October 10, brings seven games. Kawasaki host Alvark Tokyo, Kobe host Saga, Nagasaki host unbeaten Gunma, Ryukyu host Shimane, Shinshu host SAN-EN, Hiroshima host Shiga and Chiba Jets visit Hokkaido. Akita play at Utsunomiya on Sunday, October 11.
+
+Update: [the Jets beat Altiri Chiba 89-87 in overtime on November 6](/story/chiba-jets-edge-altiri-chiba-89-87-overtime-derby-togashi-22). The Jets are now 5-9.
