@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-05T21:33:47.006Z",
+  "fetchedAt": "2026-11-06T14:01:35.053Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14735,6 +14735,58 @@
   ],
   "news": [
     {
+      "id": "PBA-pbachrisrosssanmiguelrallypastginebratof",
+      "league": "PBA",
+      "title": "PBA: Chris Ross, San Miguel rally past Ginebra to force decider",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals MANILA, Philippines–San Miguel Beer rode the inspiration provided by veteran Chris Ross to defeat Barangay Ginebra, 108-102, on Friday, forcing their 2026 PBA Governors’ Cup quarterfinal series to a deciding Game 5 at Smart Araneta ",
+      "published": "2026-11-06T21:25:33.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image10-18.jpg",
+      "url": "https://sports.inquirer.net/705607/pba-chris-ross-san-miguel-rally-past-ginebra-to-force-decider"
+    },
+    {
+      "id": "PBA-pbasanmiguelescapesbarangayginebraforces",
+      "league": "PBA",
+      "title": "PBA: San Miguel escapes Barangay Ginebra, forces Game 5 in quarterfinals",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The San Miguel Beermen forced a deciding Game 5 in their PBA Governors\" Cup quarterfinal series after escaping Barangay Ginebra, 108-102, on Friday at the Smart Araneta Coliseum.",
+      "published": "2026-11-06T13:39:43.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1008574/pba-san-miguel-escapes-barangay-ginebra-forces-game-5-in-quarterfinals/story/"
+    },
+    {
+      "id": "PBA-beermenstormbackvsginkingstoforcegame5",
+      "league": "PBA",
+      "title": "Beermen storm back vs Gin Kings to force Game 5",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "As the saying goes, it’s not how you start, but how you finish.",
+      "published": "2026-11-06T11:58:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/06/2568345/beermen-storm-back-vs-gin-kings-force-game-5"
+    },
+    {
+      "id": "PBA-chrisrossleadssanmiguelsstunningcomeback",
+      "league": "PBA",
+      "title": "Chris Ross leads San Miguel’s stunning comeback to force win-or-go-home Game 5",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Chris Ross powered the massive third-quarter turnaround to help San Miguel beat Ginebra, 108-102, to force a win-or-go-home Game 5 in the PBA Season 50 Governors’ Cup quarterfinals, Friday at the SMART Araneta Coliseum. The 41-year-old playmaker scattered 20 points, six rebounds,",
+      "published": "2026-11-06T11:46:23.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/chris-ross-leads-san-miguels-stunning-comeback-to-force-win-or-go-home-game-5/388929"
+    },
+    {
       "id": "PBA-ginkingsfiberxerseyecloseoutvictories",
       "league": "PBA",
       "title": "Gin Kings, FiberXers eye closeout victories",
@@ -14748,69 +14800,17 @@
       "url": "https://sports.inquirer.net/705471/gin-kings-fiberxers-eye-closeout-victories"
     },
     {
-      "id": "PBA-convergeonverge",
+      "id": "PBA-fiberxersadoptjobsnotdonementalitybracef",
       "league": "PBA",
-      "title": "Converge on verge",
+      "title": "FiberXers adopt 'job’s-not-done mentality’, brace for Painters fightback",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Qualifying for the semifinals has been an elusive goal for Converge since joining the PBA in 2022-23. In seven of 10 conferences, the FiberXers went to the quarterfinals but never advanced. This season, Converge blew a twice-to-beat advantage and lost to Ginebra in the Philippine",
-      "published": "2026-11-05T16:00:00.000Z",
+      "description": "They may be a win away from the PBA Governors’ Cup, but the Converge FiberXers are reiterating that the series is far from over, especially against the dangerous Rain or Shine Elasto Painters.",
+      "published": "2026-11-06T04:29:00.000Z",
       "byline": "PhilStar",
       "tag": "Report",
       "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/06/2568203/converge-verge"
-    },
-    {
-      "id": "PBA-richdraftcomingup",
-      "league": "PBA",
-      "title": "Rich draft coming up",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "It won’t be slim pickings in the PBA draft on Jan. 17 as the expectation is teams will be choosing prospective blue-chippers all the way to the third round in what could be a rich harvest. The UAAP and NCAA seasons are now aligned to allow graduating players to join the draft wit",
-      "published": "2026-11-05T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/06/2568209/rich-draft-coming-up"
-    },
-    {
-      "id": "PBA-pbalast8endorextend",
-      "league": "PBA",
-      "title": "PBA last 8: end or extend?",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The entryway to the PBA Season 50 Governors’ Cup semifinals is in sight. And now it’s up to Converge and Barangay Ginebra to make one strong final push to reach it.",
-      "published": "2026-11-05T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/06/2568211/pba-last-8-end-or-extend"
-    },
-    {
-      "id": "PBA-latenoriourgespbatoreconsidermarchopenin",
-      "league": "PBA",
-      "title": "LA Tenorio urges PBA to reconsider March opening amid lengthy offseason",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "LA Tenorio is still hoping that the PBA opens Season 51 in January rather than March, even though the 2027 competitions have already been calendared The Magnolia head coach rued the four months of inactivity, especially for teams like his that exited early in the Season 50 Govern",
-      "published": "2026-11-05T12:05:29.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/la-tenorio-urges-pba-to-reconsider-march-opening-amid-lengthy-offseason/388867"
-    },
-    {
-      "id": "PBA-beermeneyeevenstrongergame4response",
-      "league": "PBA",
-      "title": "Beermen eye even stronger Game 4 response",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "San Miguel Beer refused to begin its vacation plans on Tuesday, taking the first step on a long road back from a 0-2 deficit against Barangay Ginebra in the PBA Governors’ Cup quarterfinals in Dasmariñas, Cavite. Avoiding a sweep before a big crowd at City of Dasmariñas Arena cam",
-      "published": "2026-11-05T05:15:08.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image3-7.jpg",
-      "url": "https://sports.inquirer.net/705186/beermen-eye-even-stronger-game-4-response"
+      "url": "https://www.philstar.com/sports/2026/11/06/2568295/fiberxers-adopt-jobs-not-done-mentality-brace-painters-fightback"
     }
   ],
   "leaders": {
@@ -15276,12 +15276,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-05T21:33:47.006Z",
-    "rosters": "2026-11-05T21:33:47.006Z",
+    "teams": "2026-11-06T14:01:35.053Z",
+    "rosters": "2026-11-06T14:01:35.053Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-05T21:33:47.006Z",
-    "games": "2026-11-05T21:33:47.006Z",
-    "news": "2026-11-05T21:33:47.006Z",
+    "standings": "2026-11-06T14:01:35.053Z",
+    "games": "2026-11-06T14:01:35.053Z",
+    "news": "2026-11-06T14:01:35.053Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

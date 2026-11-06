@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-05T14:27:24.047Z",
+  "fetchedAt": "2026-11-06T14:02:06.796Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-05-bauru-minas",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-05T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "bauru",
+        "name": "Bauru",
+        "abbr": "BAU",
+        "logo": null,
+        "score": 64,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-05-sesi-fra--cruzeiro",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-05T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 98,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cruzeiro",
+        "name": "Cruzeiro",
+        "abbr": "CRU",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-05-osasco-sao-jose",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-05T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "osasco",
+        "name": "Osasco",
+        "abbr": "OSA",
+        "logo": null,
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sao-jose",
+        "name": "Sao Jose",
+        "abbr": "SAO",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-04-unifacisa-paulist-",
       "league": "NBB",
       "status": "final",
@@ -14811,6 +14898,19 @@
   ],
   "news": [
     {
+      "id": "NBB-franca-vence-cruzeiro-e-interrompe-sequ-",
+      "league": "NBB",
+      "title": "Franca wins Cruzeiro and interrupts negative sequence in NBB",
+      "originalTitle": "Franca vence Cruzeiro e interrompe sequência negativa no NBB",
+      "translatedFrom": "pt",
+      "description": "Franca 98 x 77 Cruzeiro | Best moments | 7th round | NBB 2026/2027 Sesi Franca interrupted the sequence of three consecutive losses in NBB by winning Cruzeiro 98-77, on Thursday night, at Pedrocão, in Franca (SP). Ala Gui Deodato was Franca's top scorer for the first time",
+      "published": "2026-11-06T01:25:44.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/-ao8CAaNqqdKgElaG1UFhyInXJE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/U/T/RBOA0xS1i8eC8o80jYpQ/55635041166-6e65d5abda-k.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-vence-cruzeiro-e-interrompe-sequencia-negativa-no-nbb.ghtml"
+    },
+    {
       "id": "NBB-franca-enfrenta-cruzeiro-no-nbb-para-evi",
       "league": "NBB",
       "title": "Franca faces Cruzeiro in NBB to avoid worst losing streak in seven years",
@@ -14991,19 +15091,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/hc7E9ggluC_s7HEMTSNF-qPYKww=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/C/R/y4bAn0R5mCL74MYnBHAQ/2026-10-29t003936z-379139790-mt1usatoday30212957-rtrmadp-3-nba-golden-state-warriors-at-minnesota-timberwolves.jpg",
       "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/29/aos-38-anos-curry-anota-44-pontos-em-vitoria-dos-warriors-e-iguala-recorde-de-lebron-na-nba.ghtml"
-    },
-    {
-      "id": "NBB-paulistano-domina-franca-segura-rea-o-no",
-      "league": "NBB",
-      "title": "Paulistano dominates Franca, holds reaction at the end and wins by NBB",
-      "originalTitle": "Paulistano domina Franca, segura reação no fim e vence pelo NBB",
-      "translatedFrom": "pt",
-      "description": "Franca suffers first defeat in the NBB season Paulistano won Sesi Franca Basquete 65-62 on Wednesday night, at Ginásio do Sesi da Vila Leopoldina, in São Paulo, for Novo Basquete Brasil (NBB) 2026/2027. It was Paulistano's second victory in the competition. The team still has a",
-      "published": "2026-10-29T00:22:44.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/-Qb11OxNeHBo5HdAwIm7Fag2-j4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/9/k/vt1DnCSkKHBzTnOeZApw/1-tempo-85.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/10/28/paulistano-domina-franca-segura-reacao-no-fim-e-vence-pelo-nbb.ghtml"
     }
   ],
   "leaders": {
@@ -15474,8 +15561,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-05T14:27:24.047Z",
-    "news": "2026-11-05T14:27:24.047Z"
+    "games": "2026-11-06T14:02:06.796Z",
+    "news": "2026-11-06T14:02:06.796Z"
   },
   "carriedOver": [
     "teams",
