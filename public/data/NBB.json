@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-06T14:02:06.796Z",
+  "fetchedAt": "2026-11-07T12:46:14.661Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,35 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-06-unifacisa-corinthi-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-06T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "unifacisa",
+        "name": "UniFacisa",
+        "abbr": "UNI",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-05-bauru-minas",
       "league": "NBB",
       "status": "final",
@@ -14898,6 +14927,45 @@
   ],
   "news": [
     {
+      "id": "NBB-pato-basquete-x-flamengo-pelo-nbb-onde-a",
+      "league": "NBB",
+      "title": "Pato Basquete x Flamengo by NBB: where to watch live and time",
+      "originalTitle": "Pato Basquete x Flamengo pelo NBB: onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "Pato Basquete wins Botafogo by one point in the NBB Pato Basquete and Flamengo meet this Saturday, at 7 pm (Brasília), at Ginásio do Sesi, in Pato Branco, for Novo Basquete Brasil (NBB). Teams arrive in opposite situations in the standings. Brasília fights, but loses at home to",
+      "published": "2026-11-07T07:00:01.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/HtiKOr80ph7Ch7qDxIAZQNiTwxc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/9/RGEdbsRSKUIGDpvuAeMg/whatsapp-image-2026-10-24-at-21.32.58.jpeg",
+      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/07/pato-basquete-x-flamengo-pelo-nbb-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
+      "id": "NBB-morre-aos-89-anos-moys-s-bl-s-medalhista",
+      "league": "NBB",
+      "title": "Dies at 89 Moysés Blás, Olympic medalist with Brazil in basketball",
+      "originalTitle": "Morre aos 89 anos Moysés Blás, medalhista olímpico com o Brasil no basquete",
+      "translatedFrom": "pt",
+      "description": "Brazilian basketball lost another of its historic names on Friday. Moysés Blás, a bronze medalist at the 1960 Rome Olympics, died at the age of 89. Born in Minas Gerais, Blás defended Minas Tênis Clube and was part of the Brazilian team that won third place in the O",
+      "published": "2026-11-06T16:14:03.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/S1RQT-L41YkMkwx0LI-WOAFqdfY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/D/Z/DymlreRniwC36Q81QEjg/6218333-4316b30587b2af1.webp",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/06/morre-aos-89-anos-moyses-blas-medalhista-olimpico-com-o-brasil-no-basquete.ghtml"
+    },
+    {
+      "id": "NBB-bola-para-no-aro-sem-cair-na-cesta-em-la",
+      "league": "NBB",
+      "title": "Ball stops at the rim without falling into the basket in an unusual move on the NBB; watch the video",
+      "originalTitle": "Bola para no aro sem cair na cesta em lance inusitado no NBB; veja o vídeo",
+      "translatedFrom": "pt",
+      "description": "Can you do that? Adyel, from Cruzeiro, throws and the ball stops at the hoop, without falling into the basket An unusual move scored the game between Franca and Cruzeiro for the NBB on Thursday night, at Pedrocão, in Franca (SP). Despite being defeated by 98 to 77, the shipowner Adyel, from Cruzeiro, was the protagonist of a scene",
+      "published": "2026-11-06T15:32:48.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/VBUF7cX2GZ5hkYkcMpndWk4HrXc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/9/E/ztnKOcQhujhTdOUGl5rQ/whatsapp-image-2026-11-05-at-23.52.20.jpeg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/06/bola-para-no-aro-sem-cair-na-cesta-em-lance-inusitado-no-nbb-veja-o-video.ghtml"
+    },
+    {
       "id": "NBB-franca-vence-cruzeiro-e-interrompe-sequ-",
       "league": "NBB",
       "title": "Franca wins Cruzeiro and interrupts negative sequence in NBB",
@@ -15052,45 +15120,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/0aNSd01wTHhx2y5JVv1XMf1sxDA=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/W/Q/8RLL2FSZakjmAEnhSiog/ztx0120.jpg",
       "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/30/flamengo-domina-caxias-do-sul-e-conquista-segunda-vitoria-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-jj-faz-34-pontos-bate-recorde-pessoal-ma",
-      "league": "NBB",
-      "title": "JJ scores 34 points, breaks personal record, but Osasco loses to Pinheiros in the NBB",
-      "originalTitle": "JJ faz 34 pontos, bate recorde pessoal, mas Osasco perde para o Pinheiros no NBB",
-      "translatedFrom": "pt",
-      "description": "Osasco 74 x 89 Pinheiros | best moments | 4th round | NBB 2026/2027 With two players above 30 points, Pinheiros beat Osasco 89-74 on Thursday night at the Geodesic Gymnasium in Osasco for the fourth round of the first round of NBB 2026/27. Despite the defeat, the main",
-      "published": "2026-10-30T01:46:18.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/OLOFkzPKYLND4DIUOBS_Yc0oPLw=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/Z/FuMiB8QzKXCgntO8y8bA/232762614-domnick-pinheiros.webp",
-      "url": "https://ge.globo.com/basquete/nbb/noticia/2026/10/29/jj-faz-34-pontos-bate-recorde-pessoal-mas-osasco-perde-para-o-pinheiros-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-nbb-cruzeiro-bate-pato-basquete-se-recup",
-      "league": "NBB",
-      "title": "NBB: Cruise beats Basketball Duck, recovers and rises in the standings",
-      "originalTitle": "NBB: Cruzeiro bate Pato Basquete, se recupera e sobe na classificação",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete is Paraná's champion for the eighth time in a row Cruzeiro won the Pato Basquete, 76 to 68, this Thursday, at Ginásio Dona Salomé, in Belo Horizonte, and again triumphed in Novo Basquete Brasil (NBB) 2026/27. With a decisive performance in the second half, the mining team built the",
-      "published": "2026-10-30T00:02:10.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/yr0MrS4tYJnH9GkcR18OvzTiqKA=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/k/o/v5zFypTNmTIz2Hdlanvg/saveclip.app-877625708-18127646975479554-7343629527581187123-n.jpg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/10/29/nbb-cruzeiro-bate-pato-basquete-se-recupera-e-sobe-na-classificacao.ghtml"
-    },
-    {
-      "id": "NBB-aos-38-anos-curry-anota-44-pontos-em-vit",
-      "league": "NBB",
-      "title": "At 38, Curry scores 44 points in a Warriors victory and equals LeBron's NBA record",
-      "originalTitle": "Aos 38 anos, Curry anota 44 pontos em vitória dos Warriors e iguala recorde de LeBron na NBA",
-      "translatedFrom": "pt",
-      "description": "Stephen Curry surpasses 40 points and equals LeBron James' NBA record Stephen Curry equaled LeBron James' NBA longevity record. On Thursday, the Golden State Warriors star scored 44 points to lead the 119-114 win over the Minnesota Timberwolves in Minneapolis. F",
-      "published": "2026-10-29T12:07:32.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/hc7E9ggluC_s7HEMTSNF-qPYKww=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/C/R/y4bAn0R5mCL74MYnBHAQ/2026-10-29t003936z-379139790-mt1usatoday30212957-rtrmadp-3-nba-golden-state-warriors-at-minnesota-timberwolves.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/10/29/aos-38-anos-curry-anota-44-pontos-em-vitoria-dos-warriors-e-iguala-recorde-de-lebron-na-nba.ghtml"
     }
   ],
   "leaders": {
@@ -15561,8 +15590,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-06T14:02:06.796Z",
-    "news": "2026-11-06T14:02:06.796Z"
+    "games": "2026-11-07T12:46:14.661Z",
+    "news": "2026-11-07T12:46:14.661Z"
   },
   "carriedOver": [
     "teams",
