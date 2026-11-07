@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-07T12:45:33.825Z",
+  "fetchedAt": "2026-11-07T19:34:36.632Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14723,6 +14723,32 @@
   ],
   "news": [
     {
+      "id": "PBA-pbacalvinabuevagetslastlaughasconvergeou",
+      "league": "PBA",
+      "title": "PBA: Calvin Abueva gets last laugh as Converge ousts Rain or Shine",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–No one enjoyed Converge’s breakthrough semifinal appearance more than Calvin Abueva. Even after getting ejected for two technical fouls, Abueva wound up having the last laugh as the FiberXers eliminated the Rain or Shine Elasto Painters, 120-109, to win their ",
+      "published": "2026-11-07T21:56:14.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image9-7.jpg",
+      "url": "https://sports.inquirer.net/706112/pba-calvin-abueva-gets-last-laugh-as-converge-ousts-rain-or-shine"
+    },
+    {
+      "id": "PBA-pbaguiaorejectsidearainorshinemisseditsb",
+      "league": "PBA",
+      "title": "PBA: Guiao rejects idea Rain or Shine missed its best Finals shot",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Another playoff exit marred a competitive campaign for Rain or Shine, which fell short on what many consider its best chance of getting into the PBA Finals. Coach Yeng Guiao, whose Elasto Painters were shown the door by the Converge FiberXers on Friday in the ",
+      "published": "2026-11-07T21:26:43.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image17-10.jpg",
+      "url": "https://sports.inquirer.net/706080/pba-guiao-rejects-idea-rain-or-shine-missed-its-best-finals-shot"
+    },
+    {
       "id": "PBA-pbasmbsgeorgekingdrawsconfidencefromunli",
       "league": "PBA",
       "title": "PBA: SMB’s George King draws confidence from unlikely source",
@@ -14775,6 +14801,19 @@
       "url": "https://sports.inquirer.net/705829/pba-delta-pineda-converge-savor-historic-first-trip-to-semifinals"
     },
     {
+      "id": "PBA-nlexconvergeinduelforhistory",
+      "league": "PBA",
+      "title": "NLEX, Converge in duel for history",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "It’s all set for one side of the draw in the PBA Season 50 Governors’ Cup semifinals and it pits two hungry squads bent on making history – NLEX and Converge.",
+      "published": "2026-11-07T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/08/2568656/nlex-converge-duel-history"
+    },
+    {
       "id": "PBA-pbabeermenusemightythirdquartertoforgedo",
       "league": "PBA",
       "title": "PBA: Beermen use mighty third quarter to forge do-or-die vs Kings",
@@ -14799,71 +14838,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/PBA-Image10-19.jpg",
       "url": "https://sports.inquirer.net/705725/pba-converge-reaches-first-semifinals-after-ousting-rain-or-shine"
-    },
-    {
-      "id": "PBA-pbaplayoffchrisrosscomesaliveassanmiguel",
-      "league": "PBA",
-      "title": "PBA: Playoff Chris Ross comes alive as San Miguel forces Game 5",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals MANILA, Philippines–Chris Ross on Friday gave a reminder that he can still provide the playoff intensity that has been the hallmark of his 17-year PBA career. The 41-year-old was primarily responsible for bringing San Miguel Beer ba",
-      "published": "2026-11-06T22:25:51.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image12-18.jpg",
-      "url": "https://sports.inquirer.net/705655/pba-playoff-chris-ross-comes-alive-as-san-miguel-forces-game-5"
-    },
-    {
-      "id": "PBA-pbachrisrosssanmiguelrallypastginebratof",
-      "league": "PBA",
-      "title": "PBA: Chris Ross, San Miguel rally past Ginebra to force decider",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals MANILA, Philippines–San Miguel Beer rode the inspiration provided by veteran Chris Ross to defeat Barangay Ginebra, 108-102, on Friday, forcing their 2026 PBA Governors’ Cup quarterfinal series to a deciding Game 5 at Smart Araneta ",
-      "published": "2026-11-06T21:25:33.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image10-18.jpg",
-      "url": "https://sports.inquirer.net/705607/pba-chris-ross-san-miguel-rally-past-ginebra-to-force-decider"
-    },
-    {
-      "id": "PBA-heavyturnoutexpectedinsunlifebikerun",
-      "league": "PBA",
-      "title": "Heavy turnout expected in Sun Life Bike & Run",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "More than 1,000 cyclists, runners, young athletes and families are expected to converge at the Ayala Vermosa Sports Hub in Imus, Cavite tomorrow for the inaugural Sun Life Bike & Run, an event that aims to bring people of different ages, fitness levels and sporting interests toge",
-      "published": "2026-11-06T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/07/2568482/heavy-turnout-expected-sun-life-bike-run"
-    },
-    {
-      "id": "PBA-pbaconvergeoustsrainorshinetoreachfirsts",
-      "league": "PBA",
-      "title": "PBA: Converge ousts Rain or Shine to reach first semis in franchise history",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Converge advanced to the semifinals for the first time in franchise history after defeating Rain or Shine, 120-109, in Game 4 of their PBA Governors\" Cup quarterfinals series on Friday.",
-      "published": "2026-11-06T14:43:09.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1008579/pba-converge-ousts-rain-or-shine-to-reach-first-semis-in-franchise-history/story/"
-    },
-    {
-      "id": "PBA-pbasanmiguelescapesbarangayginebraforces",
-      "league": "PBA",
-      "title": "PBA: San Miguel escapes Barangay Ginebra, forces Game 5 in quarterfinals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The San Miguel Beermen forced a deciding Game 5 in their PBA Governors\" Cup quarterfinal series after escaping Barangay Ginebra, 108-102, on Friday at the Smart Araneta Coliseum.",
-      "published": "2026-11-06T13:39:43.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1008574/pba-san-miguel-escapes-barangay-ginebra-forces-game-5-in-quarterfinals/story/"
     }
   ],
   "leaders": {
@@ -15329,12 +15303,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-07T12:45:33.825Z",
-    "rosters": "2026-11-07T12:45:33.825Z",
+    "teams": "2026-11-07T19:34:36.632Z",
+    "rosters": "2026-11-07T19:34:36.632Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-07T12:45:33.825Z",
-    "games": "2026-11-07T12:45:33.825Z",
-    "news": "2026-11-07T12:45:33.825Z",
+    "standings": "2026-11-07T19:34:36.632Z",
+    "games": "2026-11-07T19:34:36.632Z",
+    "news": "2026-11-07T19:34:36.632Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
