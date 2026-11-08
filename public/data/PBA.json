@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-07T19:34:36.632Z",
+  "fetchedAt": "2026-11-08T13:03:37.816Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -300,7 +300,7 @@
         "position": "G/F",
         "height": "6' 3\"",
         "weight": "191 lbs",
-        "age": 29,
+        "age": 30,
         "country": null,
         "college": "Lyceum",
         "headshot": null
@@ -446,7 +446,7 @@
         "position": "F",
         "height": "6' 4\"",
         "weight": "195 lbs",
-        "age": 29,
+        "age": 30,
         "country": null,
         "college": "UP Diliman",
         "headshot": null
@@ -582,7 +582,7 @@
         "weight": "163 lbs",
         "age": 26,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -606,7 +606,7 @@
         "weight": "196 lbs",
         "age": 29,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -800,7 +800,7 @@
         "weight": "193 lbs",
         "age": 28,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -920,7 +920,7 @@
         "weight": "205 lbs",
         "age": 27,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -1174,7 +1174,7 @@
         "weight": null,
         "age": 27,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -1598,7 +1598,7 @@
         "weight": "146 lbs",
         "age": 28,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -2108,7 +2108,7 @@
         "weight": null,
         "age": 29,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -2676,7 +2676,7 @@
         "weight": "245 lbs",
         "age": 29,
         "country": null,
-        "college": "Philippines",
+        "college": "UP",
         "headshot": null
       },
       {
@@ -14723,6 +14723,45 @@
   ],
   "news": [
     {
+      "id": "PBA-landynjumawanfocusedonuaapchampionshipbe",
+      "league": "PBA",
+      "title": "Landyn Jumawan focused on UAAP championship before PBA dreams",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Landyn Jumawan’s journey from Hawaii to España gave him little time to adjust to his new surroundings, but it did not take long for the University of Santo Tomas to welcome him with open arms. While the transition has not been easy, the one-and-done NCAA Division I talent from No",
+      "published": "2026-11-08T12:55:46.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/UAAP-S89-MBB-UST-vs.-FEU-Landyn-Jumawan-1831-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/landyn-jumawan-focused-on-uaap-championship-before-pba-dreams/389181"
+    },
+    {
+      "id": "PBA-betterpostgamescenesthistimeasconvergena",
+      "league": "PBA",
+      "title": "Better postgame scenes this time as Converge nails first semis berth",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Converge clinched its first semifinal appearance in franchise history, and the scene that erupted after the buzzer looked like the team had just won the championship. It began with Calvin Abueva, who had been ejected in the third quarter and who was watching from the hallway of t",
+      "published": "2026-11-08T05:17:09.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Sports1327578.jpg",
+      "url": "https://sports.inquirer.net/706135/better-postgame-scenes-this-time-as-converge-nails-first-semis-berth"
+    },
+    {
+      "id": "PBA-meeteliasgishthefeurookieturningheadsinu",
+      "league": "PBA",
+      "title": "Meet Elias Gish, the FEU rookie turning heads in UAAP basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Elias Gish, a 6-foot-7 teenager from the Gilas Pilipinas Youth program, steadily stakes his claim for a future takeover of the contending FEU Tamaraws with his no-nonsense, defense-oriented play",
+      "published": "2026-11-08T02:00:00.000Z",
+      "byline": "Rappler",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.rappler.com/people/athletes/elias-gish-feu-tamaraws-rookie-uaap-baketball/"
+    },
+    {
       "id": "PBA-pbacalvinabuevagetslastlaughasconvergeou",
       "league": "PBA",
       "title": "PBA: Calvin Abueva gets last laugh as Converge ousts Rain or Shine",
@@ -14799,45 +14838,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/PBA-Image4-24.jpg",
       "url": "https://sports.inquirer.net/705829/pba-delta-pineda-converge-savor-historic-first-trip-to-semifinals"
-    },
-    {
-      "id": "PBA-nlexconvergeinduelforhistory",
-      "league": "PBA",
-      "title": "NLEX, Converge in duel for history",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "It’s all set for one side of the draw in the PBA Season 50 Governors’ Cup semifinals and it pits two hungry squads bent on making history – NLEX and Converge.",
-      "published": "2026-11-07T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/08/2568656/nlex-converge-duel-history"
-    },
-    {
-      "id": "PBA-pbabeermenusemightythirdquartertoforgedo",
-      "league": "PBA",
-      "title": "PBA: Beermen use mighty third quarter to forge do-or-die vs Kings",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals When San Miguel Beer guard Chris Ross finds a reason to get mad and be motivated this late in his career, he turns into the effective two-way player everyone knows throughout his 17-year PBA career. And Friday saw Ross use a halftim",
-      "published": "2026-11-07T05:25:29.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image8-12.jpg",
-      "url": "https://sports.inquirer.net/705617/beermen-use-mighty-third-quarter-to-take-game-4-and-forge-do-or-die-with-kings-for-semis-berth"
-    },
-    {
-      "id": "PBA-pbaconvergereachesfirstsemifinalsafterou",
-      "league": "PBA",
-      "title": "PBA: Converge reaches first semifinals after ousting Rain or Shine",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals MANILA, Philippines–Converge secured its first-ever PBA semifinal appearance after finishing off Rain or Shine, 120-109, in Game 4 of their 2026 Governors’ Cup quarterfinal series on Friday at Smart Araneta Coliseum. Back-to-back tr",
-      "published": "2026-11-07T00:20:46.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image10-19.jpg",
-      "url": "https://sports.inquirer.net/705725/pba-converge-reaches-first-semifinals-after-ousting-rain-or-shine"
     }
   ],
   "leaders": {
@@ -15303,12 +15303,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-07T19:34:36.632Z",
-    "rosters": "2026-11-07T19:34:36.632Z",
+    "teams": "2026-11-08T13:03:37.816Z",
+    "rosters": "2026-11-08T13:03:37.816Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-07T19:34:36.632Z",
-    "games": "2026-11-07T19:34:36.632Z",
-    "news": "2026-11-07T19:34:36.632Z",
+    "standings": "2026-11-08T13:03:37.816Z",
+    "games": "2026-11-08T13:03:37.816Z",
+    "news": "2026-11-08T13:03:37.816Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
