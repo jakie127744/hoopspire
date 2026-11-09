@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-08T19:55:01.994Z",
+  "fetchedAt": "2026-11-09T15:45:42.715Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14723,17 +14723,43 @@
   ],
   "news": [
     {
-      "id": "PBA-landynjumawanfocusedonuaapchampionshipbe",
+      "id": "PBA-pbacjperezsayssanmiguelstillhasmoretosho",
       "league": "PBA",
-      "title": "Landyn Jumawan focused on UAAP championship before PBA dreams",
+      "title": "PBA: CJ Perez says San Miguel still has more to show vs Ginebra",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Landyn Jumawan’s journey from Hawaii to España gave him little time to adjust to his new surroundings, but it did not take long for University of Santo Tomas to welcome him with open arms. While the transition has not been easy, the one-and-done NCAA Division I talent from Northw",
-      "published": "2026-11-08T12:55:46.000Z",
-      "byline": "Tiebreaker Times",
+      "description": "MANILA, Philippines–CJ Perez believes San Miguel Beer can still perform beyond expectations even if momentum has swung in their favor going into the deciding Game 5 of their PBA Governors’ Cup quarterfinal series against Barangay Ginebra. The Beermen will look to become just the ",
+      "published": "2026-11-09T22:22:21.000Z",
+      "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/UAAP-S89-MBB-UST-vs.-FEU-Landyn-Jumawan-1831-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/landyn-jumawan-focused-on-uaap-championship-before-pba-dreams/389181"
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image3-8.jpg",
+      "url": "https://sports.inquirer.net/706443/pba-cj-perez-says-san-miguel-still-has-more-to-show-vs-ginebra"
+    },
+    {
+      "id": "PBA-pbaginebrasjordanmurphylookstoplaysmarte",
+      "league": "PBA",
+      "title": "PBA: Ginebra’s Jordan Murphy looks to play ‘smarter’ in decider",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Jordan Murphy will look to play a major role in Barangay Ginebra’s bid to avoid a collapse and beat San Miguel Beer in the deciding fifth game of their PBA Governors’ Cup quarterfinal series on Tuesday at Ynares Center in Antipolo. A trip to the semifinals and",
+      "published": "2026-11-09T22:11:37.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image4-5.jpg",
+      "url": "https://sports.inquirer.net/706433/pba-ginebras-jordan-murphy-looks-to-play-smarter-in-decider"
+    },
+    {
+      "id": "PBA-pbaserbiancoachdownplaysroleinconvergese",
+      "league": "PBA",
+      "title": "PBA: Serbian coach downplays role in Converge semis breakthrough",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Converge active consultant Djordje Jovicic is glad to have played a part in the franchise’s first-ever semifinals appearance by way of taking down Rain or Shine in their PBA Governors’ Cup quarterfinal series. The Serbian mentor, however, downplayed his signif",
+      "published": "2026-11-09T18:18:51.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/converge-fiberxers-pba.jpeg",
+      "url": "https://sports.inquirer.net/706427/pba-serbian-coach-downplays-role-in-converge-semis-breakthrough"
     },
     {
       "id": "PBA-betterpostgamescenesthistimeasconvergena",
@@ -14773,71 +14799,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/PBA-Image9-7.jpg",
       "url": "https://sports.inquirer.net/706112/pba-calvin-abueva-gets-last-laugh-as-converge-ousts-rain-or-shine"
-    },
-    {
-      "id": "PBA-pbaguiaorejectsidearainorshinemisseditsb",
-      "league": "PBA",
-      "title": "PBA: Guiao rejects idea Rain or Shine missed its best Finals shot",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Another playoff exit marred a competitive campaign for Rain or Shine, which fell short on what many consider its best chance of getting into the PBA Finals. Coach Yeng Guiao, whose Elasto Painters were shown the door by the Converge FiberXers on Friday in the ",
-      "published": "2026-11-07T21:26:43.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image17-10.jpg",
-      "url": "https://sports.inquirer.net/706080/pba-guiao-rejects-idea-rain-or-shine-missed-its-best-finals-shot"
-    },
-    {
-      "id": "PBA-pbasmbsgeorgekingdrawsconfidencefromunli",
-      "league": "PBA",
-      "title": "PBA: SMB’s George King draws confidence from unlikely source",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: 2026 PBA Governors’ Cup quarterfinals MANILA, Philippines–George King admitted that there was plenty to be desired with the way he’s been playing in the 2026 PBA Governors’ Cup quarterfinals. But keen on atoning for his struggles and urged on by teammates and an unlikel",
-      "published": "2026-11-07T19:09:51.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image6-18.jpg",
-      "url": "https://sports.inquirer.net/705962/pba-smbs-george-king-draws-confidence-from-unlikely-source"
-    },
-    {
-      "id": "PBA-pbatimconesaysginebrakilledbycrucialcall",
-      "league": "PBA",
-      "title": "PBA: Tim Cone says Ginebra ‘killed’ by crucial call in Game 4",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "SCHEDULE: UAAP Season 89 basketball tournament – second round MANILA, Philippines–Barangay Ginebra coach Tim Cone is urging for better officiating after he felt his team fell on the wrong end of it during Friday’s Game 4 loss to San Miguel Beer that forced their 2026 PBA Governor",
-      "published": "2026-11-07T18:11:44.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image20-4.jpg",
-      "url": "https://sports.inquirer.net/705908/pba-time-cone-says-ginebra-killed-by-crucial-call-in-game-4"
-    },
-    {
-      "id": "PBA-pbamikeywilliamsfindshisplayofftouchinco",
-      "league": "PBA",
-      "title": "PBA: Mikey Williams finds his playoff touch in Converge breakthrough",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Mikey Williams delivered the dagger blows that cemented Converge’s place in the semifinals of the 2026 PBA Governors’ Cup while also evoking memories of previous playoff moments. His back-to-back threes with three minutes left enabled the FiberXers to create s",
-      "published": "2026-11-07T16:49:21.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image8-13.jpg",
-      "url": "https://sports.inquirer.net/705837/pba-mikey-williams-finds-his-playoff-touch-in-converge-breakthrough"
-    },
-    {
-      "id": "PBA-pbadeltapinedaconvergesavorhistoricfirst",
-      "league": "PBA",
-      "title": "PBA: Delta Pineda, Converge savor historic first trip to semifinals",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Coach Delta Pineda is relishing the breakthrough achievement Converge pulled off on Friday when it finished off Rain or Shine to secure the franchise’s first-ever PBA semifinal appearance. The FiberXers got the job done with a 120-109 victory in Game 4 of thei",
-      "published": "2026-11-07T16:40:45.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image4-24.jpg",
-      "url": "https://sports.inquirer.net/705829/pba-delta-pineda-converge-savor-historic-first-trip-to-semifinals"
     }
   ],
   "leaders": {
@@ -15303,12 +15264,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-08T19:55:01.994Z",
-    "rosters": "2026-11-08T19:55:01.994Z",
+    "teams": "2026-11-09T15:45:42.715Z",
+    "rosters": "2026-11-09T15:45:42.715Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-08T19:55:01.994Z",
-    "games": "2026-11-08T19:55:01.994Z",
-    "news": "2026-11-08T19:55:01.994Z",
+    "standings": "2026-11-09T15:45:42.715Z",
+    "games": "2026-11-09T15:45:42.715Z",
+    "news": "2026-11-09T15:45:42.715Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

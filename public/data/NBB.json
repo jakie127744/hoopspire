@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-08T13:04:11.292Z",
+  "fetchedAt": "2026-11-09T15:46:19.804Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15043,6 +15043,45 @@
   ],
   "news": [
     {
+      "id": "NBB-caio-pacheco-marca-cesta-de-tr-s-no-ltim",
+      "league": "NBB",
+      "title": "Caio Pacheco scores three at the last second and leads upset in the Spanish Basketball League",
+      "originalTitle": "Caio Pacheco marca cesta de três no último segundo e lidera virada na Liga Espanhola de Basquete",
+      "translatedFrom": "pt",
+      "description": "Yago Mateus says that Flamengo basketball thinks about winning everything in the season Caio Pacheco starred in a thrilling victory in the Spanish Basketball League. Last Sunday, the player of the Brazilian national team scored a basket of three in the burst of the stopwatch for Básquet Coruña, turning the game around",
+      "published": "2026-11-09T13:53:20.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/hkK8PjsSoI81d_EZwwrr6_6By1o=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/9/0/rKQfJ5TTOQZUNXcS7fzg/saveclip.app-893399828-18646139992059269-6198825513335268222-n.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/09/caio-pacheco-marca-cesta-de-tres-no-ultimo-segundo-e-lidera-virada-na-liga-espanhola-de-basquete.ghtml"
+    },
+    {
+      "id": "NBB-bronny-james-discute-com-f-dos-pistons-n",
+      "league": "NBB",
+      "title": "Bronny James argues with Pistons fan in Lakers win: “How much do you make a year?”",
+      "originalTitle": "Bronny James discute com fã dos Pistons na vitória dos Lakers: \"Quanto você ganha por ano?\"",
+      "translatedFrom": "pt",
+      "description": "LeBron James and son Bronny James take to the court for the first time together in the NBA Bronny James went viral on social media when responding to a Detroit Pistons fan at an away game last Sunday. LeBron's son countered the provocations of the woman, who was in the stands. Segun",
+      "published": "2026-11-09T10:56:42.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/MJ5ODha42D4ydSrDeCKtwDHoeHI=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/z/A/II51N9TVGKBKqYLkySnQ/2026-09-28t222403z-903100992-mt1usatoday29944560-rtrmadp-3-nba-los-angeles-lakers-media-day.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/09/bronny-james-discute-com-fa-dos-pistons-na-vitoria-dos-lakers-quanto-voce-ganha-por-ano.ghtml"
+    },
+    {
+      "id": "NBB-nbb-flamengo-vence-pato-basquete-e-chega",
+      "league": "NBB",
+      "title": "NBB: Flamengo wins Basketball Duck and reaches five invincibility games",
+      "originalTitle": "NBB: Flamengo vence Pato Basquete e chega a cinco jogos de invencibilidade",
+      "translatedFrom": "pt",
+      "description": "Pato Basquete 66 x 80 Flamengo | Best moments | 4th round | NBB 2026/2027 Flamengo won the Pato Basquete, this Saturday, 80 to 66 for the fourth round of Novo Basquete Brasil (NBB), at Ginásio do Sesi, in Pato Branco. The Rio de Janeiro team accumulates five games of invincibility in the competition, enq",
+      "published": "2026-11-08T13:19:29.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/tR74t8NJo1Xt2egSV4mXDz_HNqc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/d/6/D8eH9qRDmgOGJi6xx7aw/whatsapp-image-2026-11-07-at-20.22.18-1.jpeg",
+      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/08/nbb-flamengo-vence-pato-basquete-e-chega-a-cinco-jogos-de-invencibilidade.ghtml"
+    },
+    {
       "id": "NBB-curry-brilha-com-41-pontos-e-supera-marc",
       "league": "NBB",
       "title": "Curry shines with 41 points and surpasses LeBron's mark in the Warriors' seventh straight win",
@@ -15197,45 +15236,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/IW3FdQkrEwVzK4Fq7p-80m5bKqU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/t/b/QeAMOgRLOy87OcRGBHmg/55600553114-b45339c282-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/02/franca-tenta-evitar-maior-jejum-de-vitorias-no-nbb-em-seis-anos.ghtml"
-    },
-    {
-      "id": "NBB-doncic-brilha-contra-os-raptors-anota-45",
-      "league": "NBB",
-      "title": "Doncic shines against the Raptors, scores 45 points and reaches unprecedented marks in NBA matches",
-      "originalTitle": "Doncic brilha contra os Raptors, anota 45 pontos e atinge marcas inéditas em partidas da NBA",
-      "translatedFrom": "pt",
-      "description": "Los Angeles Lakers 123 x 120 Toronto Raptors | Top Moments | NBA 2026/27 Luka Doncic showed once again why he is one of the contenders for this season's MVP award. The Los Angeles Lakers star shone in the 131-125 victory against the Toronto Raptors last Sunday, being the",
-      "published": "2026-11-02T13:03:02.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/8nGQ-ErUWIASdPUTHBIUGm8mZ4w=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/x/b/GoFOhGRo2D3LIAS4AaNw/gettyimages-2302624900.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/02/doncic-brilha-contra-os-raptors-anota-45-pontos-e-atinge-marcas-ineditas-em-partidas-da-nba.ghtml"
-    },
-    {
-      "id": "NBB-flamengo-vence-o-uni-o-corinthians-no-ma",
-      "league": "NBB",
-      "title": "Flamengo wins the União Corinthians at Maracanãzinho and rises in the NBB table",
-      "originalTitle": "Flamengo vence o União Corinthians no Maracanãzinho e sobe na tabela do NBB",
-      "translatedFrom": "pt",
-      "description": "Flamengo 83x65 União Corinthians | Best Moments | Round 4 | NBB Flamengo secured an important victory against União Corinthians this Sunday. Playing at home at Maracanãzinho, Rubro-Negro was dominant and won 83-65. With the result, Flamengo is currently in its sixth season",
-      "published": "2026-11-01T16:12:49.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/IDPnNj4sbAnLzie1YEf69EEgLmU=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/D/Bg5xY7QSm3KoFp85meKQ/758491-flamengoxuniaocorinthians-nbb-maracanazinho-01-11-2026-foto-paulareis-flamengo008a8399.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/11/01/flamengo-vence-o-uniao-corinthians-no-maracanazinho-e-sobe-na-tabela-do-nbb.ghtml"
-    },
-    {
-      "id": "NBB-wembanyama-faz-hist-ria-no-halloween-com",
-      "league": "NBB",
-      "title": "Wembanyama makes Halloween history with 43 points and six stumps in Spurs victory",
-      "originalTitle": "Wembanyama faz história no Halloween com 43 pontos e seis tocos em vitória dos Spurs",
-      "translatedFrom": "pt",
-      "description": "It connects in the mythical skin of Victor Wembanyama arriving for the game The San Antonio Spurs remains packed at the beginning of the NBA season. With a dominant performance by Victor Wembanyama, the team beat the Minnesota Timberwolves 121-111 on Saturday for a fourth straight win.",
-      "published": "2026-11-01T05:44:27.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/MGyYEJHTvltYCWwhHe7eegdhS9Y=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/i/N/aHEk1vRReGQEhRrSo00A/2026-10-21t031828z-418699662-mt1usatoday30141422-rtrmadp-3-nba-oklahoma-city-thunder-at-san-antonio-spurs.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/01/wembanyama-faz-historia-no-halloween-com-43-pontos-e-seis-tocos-em-vitoria-dos-spurs.ghtml"
     }
   ],
   "leaders": {
@@ -15706,8 +15706,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-08T13:04:11.292Z",
-    "news": "2026-11-08T13:04:11.292Z"
+    "games": "2026-11-09T15:46:19.804Z",
+    "news": "2026-11-09T15:46:19.804Z"
   },
   "carriedOver": [
     "teams",
