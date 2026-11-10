@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-10T14:40:35.478Z",
+  "fetchedAt": "2026-11-10T21:24:37.204Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,6 +14711,45 @@
   ],
   "news": [
     {
+      "id": "PBA-timconescottiethompsonshiftfocustogilasd",
+      "league": "PBA",
+      "title": "Tim Cone, Scottie Thompson shift focus to Gilas duties",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Scottie Thompson and coach Tim Cone immediately shifted their focus after Barangay Ginebra survived San Miguel Beer in the PBA Governors’ Cup quarterfinals. And it isn’t Rondae-Hollis Jefferson and TNT just yet. Thompson, Cone and the Gin Kings turned back the Beermen, 1",
+      "published": "2026-11-11T04:30:34.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Jordan-Murphy-Ginebra-11November2026.jpg",
+      "url": "https://sports.inquirer.net/706542/tim-cone-scottie-thompson-shift-focus-to-gilas-duties"
+    },
+    {
+      "id": "PBA-pbascottieleadsginebrasneversaydiefightb",
+      "league": "PBA",
+      "title": "PBA: Scottie leads Ginebra’s ‘Never Say Die’ fightback vs SMB",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Scottie Thompson was glad that Barangay Ginebra’s refusal to be on the losing side of history translated into a signature comeback at the expense of San Miguel Beer in the 2026 PBA Governors’ Cup quarterfinals. The Gin Kings moved on to the semifinals to face the TNT Tro",
+      "published": "2026-11-11T00:16:15.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image8.jpg",
+      "url": "https://sports.inquirer.net/706550/pba-scottie-leads-ginebras-never-say-die-fightback-vs-smb"
+    },
+    {
+      "id": "PBA-pbaginebraoustssanmiguelsecureslastsemif",
+      "league": "PBA",
+      "title": "PBA: Ginebra ousts San Miguel, secures last semifinals berth",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO—Barangay Ginebra secured the last semifinals berth after preventing San Miguel Beermen from completing a massive series comeback, taking a 110-94 victory in Game 5 of their 2026 PBA Governors’ Cup quarterfinals duel at Ynares Center here. Scottie Thompson led the Gin Kin",
+      "published": "2026-11-10T23:11:00.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image1-1.jpg",
+      "url": "https://sports.inquirer.net/706536/pba-ginebra-ousts-san-miguel-secures-last-semis-berth"
+    },
+    {
       "id": "PBA-pbaadmitswrongcallinginebrasanmiguelgame",
       "league": "PBA",
       "title": "PBA admits wrong call in Ginebra-San Miguel Game 4, suspends ref",
@@ -14735,6 +14774,58 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/10/IMG_1655_PBA-50-Governors-Cup-Converge-Rain-or-Shine_Calvin-Abueva.jpg",
       "url": "https://sports.inquirer.net/706513/pba-calvi-abueva-summoned-after-ejection-outburst-at-fans"
+    },
+    {
+      "id": "PBA-jordanmurphybracesfortoughrondaehollisje",
+      "league": "PBA",
+      "title": "Jordan Murphy braces for tough Rondae Hollis-Jefferson duel",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO — Jordan Murphy expects a difficult battle ahead as Ginebra and TNT duke it out in the PBA Season 50 Governors’ Cup semifinals, marking yet another clash between two of the league’s best teams in recent years. Specifically in going up against Rondae Hollis-Jefferson, who",
+      "published": "2026-11-10T17:01:52.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/2026-PBA-Governors-Cup-QF-G3-Magnolia-vs-TNT-Rondae-Hollis-Jefferson-1-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/jordan-murphy-braces-for-tough-rondae-hollis-jefferson-duel/389365"
+    },
+    {
+      "id": "PBA-gilasfaceraceagainsttimetointegrateboatw",
+      "league": "PBA",
+      "title": "Gilas face race against time to integrate Boatwright for Window 5",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "ANTIPOLO — Getting Bennie Boatwright on board for the FIBA Basketball World Cup 2027 Asian Qualifiers’ fifth window is indeed good news for Gilas. But integrating the new naturalized forward into the men’s team’s scheme of things is a whole different story, and that’s where the c",
+      "published": "2026-11-10T16:02:01.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/09/FIBA-World-Cup-Asia-Qualifiers-Window-4_-Iran-vs-Philippines_-SOTTO-Kai-08292-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/gilas-face-race-against-time-to-integrate-boatwright-for-window-5/389358"
+    },
+    {
+      "id": "PBA-whowillplayforgilas",
+      "league": "PBA",
+      "title": "Who will play for Gilas?",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas coach Tim Cone will bring only 12 players to Seremban, Malaysia, for the fifth FIBA World Cup Asia qualifying window against Syria on Nov. 27 and Iran on Nov. 29.",
+      "published": "2026-11-10T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/11/2569349/who-will-play-gilas"
+    },
+    {
+      "id": "PBA-kingsdenybeeracle",
+      "league": "PBA",
+      "title": "Kings deny beeracle",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Forget about the sweep that got away. Barangay Ginebra got what it really wanted: A seat in the PBA Season 50 Governors’ Cup semifinals against TNT.",
+      "published": "2026-11-10T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/11/2569368/kings-deny-beeracle"
     },
     {
       "id": "PBA-pbabarangayginebratorchessanmiguelforges",
@@ -15317,12 +15408,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-10T14:40:35.478Z",
-    "rosters": "2026-11-10T14:40:35.478Z",
+    "teams": "2026-11-10T21:24:37.204Z",
+    "rosters": "2026-11-10T21:24:37.204Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-10T14:40:35.478Z",
-    "games": "2026-11-10T14:40:35.478Z",
-    "news": "2026-11-10T14:40:35.478Z",
+    "standings": "2026-11-10T21:24:37.204Z",
+    "games": "2026-11-10T21:24:37.204Z",
+    "news": "2026-11-10T21:24:37.204Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
