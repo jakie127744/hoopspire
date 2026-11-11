@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-10T14:41:12.793Z",
+  "fetchedAt": "2026-11-11T13:55:11.285Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,35 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-10-flamengo-sesi-fra-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-10T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "flamengo",
+        "name": "Flamengo",
+        "abbr": "FLA",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-09-pato-bauru",
       "league": "NBB",
       "status": "final",
@@ -15159,6 +15188,45 @@
   ],
   "news": [
     {
+      "id": "NBB-paul-george-perde-a-cabe-a-com-torcedor-",
+      "league": "NBB",
+      "title": "Paul George loses his mind with a fan and makes an obscene gesture in the NBA; see",
+      "originalTitle": "Paul George perde a cabeça com torcedor e faz gesto obsceno na NBA; veja",
+      "translatedFrom": "pt",
+      "description": "Philadelphia 76ers 101 vs. 123 Boston Celtics | Top Moments | NBA 2026/2027 Paul George starred in a controversial scene in the Boston Celtics' 123-101 NBA victory over the Philadelphia 76ers on Tuesday. On his return to Philadelphia, the star scored 36 points, but also drew attention",
+      "published": "2026-11-11T09:45:59.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/40aDUlz6lt-mB5yoVTHX3uG0B84=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/A/pdWKhBTXWiRpEBb4gzFw/2026-11-11t030022z-290825088-mt1usatoday30331399-rtrmadp-3-nba-boston-celtics-at-philadelphia-76ers.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/11/paul-george-perde-a-cabeca-com-torcedor-e-faz-gesto-obsceno-na-nba-veja.ghtml"
+    },
+    {
+      "id": "NBB-franca-domina-flamengo-no-maracan-zinho-",
+      "league": "NBB",
+      "title": "Franca dominates Flamengo at Maracanãzinho and wins first victory away from home",
+      "originalTitle": "Franca domina Flamengo no Maracanãzinho e conquista primeira vitória fora de casa",
+      "translatedFrom": "pt",
+      "description": "Flamengo 73 x 84 Franca | Best Moments | NBB 2025/26 In the clash that brought together two of the greatest champions of national basketball for the 7th round of the NBB, the visitor won. Entitled to the prominence of Gui Deodato, former Flamengo player, the red-blacks were dominated by Franca, playing at home, in the",
+      "published": "2026-11-11T01:26:19.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/Cgp0oaEnDIc_9Xq8wgP7pnShZ4o=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/r/u/Ib0E94T0euft0J5BB6IA/763908-flamengoxfranca-nbb-maracanazinho-10-11-2026-foto-paulareis-flamengo008a4829.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/10/franca-domina-flamengo-dentro-do-maracanazinho-e-conquista-primeira-vitoria-fora-de-casa.ghtml"
+    },
+    {
+      "id": "NBB-as-duas-mulheres-que-ajudaram-a-construi",
+      "league": "NBB",
+      "title": "The two women who helped build the history of Brazilian basketball",
+      "originalTitle": "As duas mulheres que ajudaram a construir a história do basquete brasileiro",
+      "translatedFrom": "pt",
+      "description": "The memories and legacy of the Olympic medal in women's basketball Before the Brazilian women's basketball conquered the world, two women helped to build the path. First, they entered the court as players and defended the Brazilian national team for years. Afterwards, they changed the athletes' uniforms to",
+      "published": "2026-11-10T15:41:10.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/nLSjOjlu42FSVeRpuxuhsSkFOYc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/m/V/XpfFHXQUit6e0kVaJkQg/mhc.jpg",
+      "url": "https://ge.globo.com/sp/campinas-e-regiao/noticia/2026/11/10/as-duas-mulheres-que-ajudaram-a-construir-a-historia-do-basquete-brasileiro.ghtml"
+    },
+    {
       "id": "NBB-jimmy-butler-vira-t-cnico-por-um-dia-e-d",
       "league": "NBB",
       "title": "Jimmy Butler becomes coach for a day and entertains team with advice: \"Pass the ball to Steph\"",
@@ -15313,45 +15381,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/vx6QexuhDMhYV2NuUEJfZ6TbMEY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/J/HzDqDiQAqGICJOGzR9xA/55600553114-b45339c282-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-enfrenta-cruzeiro-no-nbb-para-evitar-pior-sequencia-de-derrotas-em-sete-anos.ghtml"
-    },
-    {
-      "id": "NBB-franca-x-cruzeiro-no-nbb-veja-onde-assis",
-      "league": "NBB",
-      "title": "Franca vs Cruise on NBB: see where to watch live and time",
-      "originalTitle": "Franca x Cruzeiro no NBB: veja onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Franca loses to Minas and reaches the 3rd straight defeat in the NBB in Franca, SP Sesi Franca and Cruzeiro face each other this Thursday, at 8 pm, at Pedrocão, in Franca (SP), by Novo Basquete Brasil (NBB) 2026/2027. The French team, currently five-time national champion, tries to rehabilitate itself after losing three",
-      "published": "2026-11-05T09:00:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/ZbETe6yRdvA8d1fWBE-nackKEXM=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/m/a/h0TtjWRbSDu40MBcxxew/54383060986-b29178fe07-5k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-x-cruzeiro-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-bras-lia-pressiona-no-fim-mas-flamengo-c",
-      "league": "NBB",
-      "title": "Brasília presses at the end, but Flamengo confirms fourth consecutive victory in the NBB",
-      "originalTitle": "Brasília pressiona no fim, mas Flamengo confirma quarta vitória seguida no NBB",
-      "translatedFrom": "pt",
-      "description": "Brasília 87 X 91 Flamengo | Best moments | 5th round | NBB 2026/2027 Brasília even outlined a reaction in the last two periods, but Flamengo confirmed the fourth consecutive victory in the NBB, on Wednesday (4), at Nilson Nelson, in Brasília, in a game valid for the fifth round. With the result,",
-      "published": "2026-11-05T01:39:20.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/YNNbygG9il72whaf5MOWPXg3I5w=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/P/W/8PLEPJQNGm8E9bvZrcSw/mmm-1579.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/11/04/brasilia-pressiona-no-fim-mas-flamengo-confirma-quarta-vitoria-seguida-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-franca-perde-3-seguida-no-nbb-repete-mar",
-      "league": "NBB",
-      "title": "Franca loses 3rd in a row in NBB, repeats 2025 mark and Vitinho charges emotional intelligence",
-      "originalTitle": "Franca perde 3ª seguida no NBB, repete marca de 2025 e Vitinho cobra inteligência emocional",
-      "translatedFrom": "pt",
-      "description": "Franca plays badly again and loses one more away from home in the NBB Sesi Franca suffers a third straight defeat in the NBB, equals the 2025 mark and Vitinho charges emotional intelligence Reversed by 87 to 76 for Minas in Pedrocão turns on a warning sign in the five-time champion team; the point guard points out oscillations and asks for constancy",
-      "published": "2026-11-04T18:42:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/DMkUo2AY73k2uO0jejiUZsLGM0M=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/a/h/SBQGO5RR2c3pkAFKkmhg/55630869538-eb2b346bcf-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/04/franca-perde-3a-seguida-no-nbb-repete-marca-de-2025-e-vitinho-cobra-inteligencia-emocional.ghtml"
     }
   ],
   "leaders": {
@@ -15822,8 +15851,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-10T14:41:12.793Z",
-    "news": "2026-11-10T14:41:12.793Z"
+    "games": "2026-11-11T13:55:11.285Z",
+    "news": "2026-11-11T13:55:11.285Z"
   },
   "carriedOver": [
     "teams",
