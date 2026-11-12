@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-11-11T13:54:49.687Z",
+  "fetchedAt": "2026-11-12T14:57:13.721Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -18551,6 +18551,32 @@
   ],
   "news": [
     {
+      "id": "CBA-chinesebasketballplayerwangjunjiesetssin",
+      "league": "CBA",
+      "title": "Chinese basketball player Wang Junjie sets single-game US college scoring record",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Wang Junjie set a single-game scoring record for a Chinese player in the top tier of US college basketball after scoring 28 points for the University of Massachusetts on Thursday. Competing in Division I of the National Collegiate Athletic Association (NCAA), Wang accounted for n",
+      "published": "2026-11-12T14:00:10.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/12/0156cc38-1165-417b-8edd-3e4f5dfb50ee_138b863b.jpg?itok=zUIeiDNI&v=1794478233",
+      "url": "https://www.scmp.com/sport/basketball/article/3374223/chinese-basketball-player-wang-junjie-sets-single-game-us-college-scoring-record"
+    },
+    {
+      "id": "CBA-hongkongveteranbasketballeradamxubackono",
+      "league": "CBA",
+      "title": "Hong Kong veteran basketballer Adam Xu back on old ground while learning new tricks",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Life has come full circle for basketball player Adam Xu. Twelve years after returning from his studies in the United States, the sports management graduate is trying his hand at being the modern athlete-executive in Hong Kong: setting foot in the business world while playing comp",
+      "published": "2026-11-12T04:00:10.000Z",
+      "byline": "South China Morning Post",
+      "tag": "Report",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/11/4b283d2d-9b35-417d-9302-6a6bea84adcd_623d5cca.jpg?itok=ACqdFJX7&v=1794405267",
+      "url": "https://www.scmp.com/sport/basketball/article/3374114/hong-kong-veteran-basketballer-adam-xu-back-old-ground-while-learning-new-tricks"
+    },
+    {
       "id": "CBA-hongkongfootballembarrassmentafterlocalf",
       "league": "CBA",
       "title": "Hong Kong football embarrassment after local FA’s Fifa window failure",
@@ -18562,19 +18588,6 @@
       "tag": "Report",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/08/ce831a91-b1c5-455a-a969-14404f3f3187_c8173902.jpg?itok=eLToVgDR&v=1794127759",
       "url": "https://www.scmp.com/sport/football/article/3373689/hong-kong-football-left-embarrassed-after-local-fa-fails-set-fixtures-fifa-window"
-    },
-    {
-      "id": "CBA-nbadealwithpredictionmarketplatformskals",
-      "league": "CBA",
-      "title": "NBA deal with prediction-market platforms Kalshi, Polymarket a double-edged sword: experts",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Sports experts and former basketball executives believe that the partnership between the National Basketball Association (NBA) and leading prediction-market platforms Kalshi and Polymarket could be a double-edged sword if not properly managed and supervised. While there was an ob",
-      "published": "2026-11-05T12:00:18.000Z",
-      "byline": "South China Morning Post",
-      "tag": "Report",
-      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/11/05/026d1951-ca6a-4d80-888e-0a8585e5cf4a_614828f2.jpg?itok=JzxKNwjg&v=1793870584",
-      "url": "https://www.scmp.com/sport/basketball/article/3373392/nba-deal-prediction-market-platforms-kalshi-polymarket-double-edged-sword-experts"
     }
   ],
   "leaders": {
@@ -19045,8 +19058,8 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-11-11T13:54:49.687Z",
-    "news": "2026-11-11T13:54:49.687Z"
+    "games": "2026-11-12T14:57:13.721Z",
+    "news": "2026-11-12T14:57:13.721Z"
   },
   "carriedOver": [
     "teams",

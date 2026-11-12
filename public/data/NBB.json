@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-11T13:55:11.285Z",
+  "fetchedAt": "2026-11-12T14:57:30.480Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,35 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-11-minas-unifacisa",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-11T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "unifacisa",
+        "name": "UniFacisa",
+        "abbr": "UNI",
+        "logo": null,
+        "score": 57,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-10-flamengo-sesi-fra-",
       "league": "NBB",
       "status": "final",
@@ -15188,6 +15217,19 @@
   ],
   "news": [
     {
+      "id": "NBB-botafogo-x-franca-no-nbb-veja-onde-assis",
+      "league": "NBB",
+      "title": "Botafogo vs. Franca in the NBB: See where to watch live and the kickoff time",
+      "originalTitle": "Botafogo x Franca no NBB: veja onde assistir ao vivo e horário",
+      "translatedFrom": "pt",
+      "description": "In Rio de Janeiro (RJ), Franca beat Flamengo and won their first away game in the NBB. Botafogo and Sesi Franca will face each other this Thursday at 8:00 p.m. at the Oscar Zelaya arena in Rio de Janeiro (RJ). The matchup is part of the Novo Basquete Brasil (NBB) league. Botafogo comes into the matchup having played five games.",
+      "published": "2026-11-12T07:00:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/xR5bw58-oY4fqOwEzUoLhYNPE5c=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/b/U/5Pe7uWRiqvPGvI0109nA/ginasio-oscar-zelaya-botafogo.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/12/botafogo-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
+    },
+    {
       "id": "NBB-paul-george-perde-a-cabe-a-com-torcedor-",
       "league": "NBB",
       "title": "Paul George loses his mind with a fan and makes an obscene gesture in the NBA; see",
@@ -15368,19 +15410,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/-ao8CAaNqqdKgElaG1UFhyInXJE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/U/T/RBOA0xS1i8eC8o80jYpQ/55635041166-6e65d5abda-k.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-vence-cruzeiro-e-interrompe-sequencia-negativa-no-nbb.ghtml"
-    },
-    {
-      "id": "NBB-franca-enfrenta-cruzeiro-no-nbb-para-evi",
-      "league": "NBB",
-      "title": "Franca faces Cruzeiro in NBB to avoid worst losing streak in seven years",
-      "originalTitle": "Franca enfrenta Cruzeiro no NBB para evitar pior sequência de derrotas em sete anos",
-      "translatedFrom": "pt",
-      "description": "Franca plays badly again and loses one more away from home at NBB Sesi Franca enters the court this Thursday, at 8 pm, at the Pedrocão gym, under pressure to interrupt an uncomfortable fast at Novo Basquete Brasil (NBB). Faced with Cruzeiro, the French club tries to avoid the fourth consecutive defeat in the",
-      "published": "2026-11-05T12:50:38.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/vx6QexuhDMhYV2NuUEJfZ6TbMEY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/w/J/HzDqDiQAqGICJOGzR9xA/55600553114-b45339c282-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-enfrenta-cruzeiro-no-nbb-para-evitar-pior-sequencia-de-derrotas-em-sete-anos.ghtml"
     }
   ],
   "leaders": {
@@ -15851,8 +15880,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-11T13:55:11.285Z",
-    "news": "2026-11-11T13:55:11.285Z"
+    "games": "2026-11-12T14:57:30.480Z",
+    "news": "2026-11-12T14:57:30.480Z"
   },
   "carriedOver": [
     "teams",

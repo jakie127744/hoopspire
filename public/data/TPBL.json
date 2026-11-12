@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-11-11T13:54:55.346Z",
+  "fetchedAt": "2026-11-12T14:57:18.545Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -3905,6 +3905,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-539",
+      "league": "TPBL",
+      "title": "November 12, 2026 Player Transfers",
+      "originalTitle": "2026.11.12 球員異動",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-11-12T07:20:08.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/539/66knnX0NNMa0lwtpOU6xmLkwcemHt2VLFWyBQiO5.png?20261112153949",
+      "url": "https://tpbl.basketball/news/539"
+    },
+    {
       "id": "TPBL-532",
       "league": "TPBL",
       "title": "🥇 | Best-performing player 🛡️ in a week 🤫",
@@ -4046,19 +4059,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/511/FKrmmcbkSpOvEjWcX723dfnuGgIZvyzP1YfUgnJw.jpg?20261016194207",
       "url": "https://tpbl.basketball/news/511"
-    },
-    {
-      "id": "TPBL-523",
-      "league": "TPBL",
-      "title": "The first \"flag raising ceremony\" in the history of the Dreamers 10/17 home opening battle glorious fire extinguishers enthusiastically sang the Japanese and Korean goddesses Yuya Sanjang and Park Yeun for the first time on the same stage",
-      "originalTitle": "夢想家隊史首冠「升旗儀式」 10/17 主場開幕戰榮耀登場 滅火器熱血獻唱 日韓雙女神三上悠亞、朴藝恩首度同台",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-15T10:00:00.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/509/Q3LqU447w7qLR4swKGK69rjyjrP3KX7TD9FL0mrc.jpg?20261015115412",
-      "url": "https://tpbl.basketball/news/523"
     }
   ],
   "leaders": {
@@ -4524,12 +4524,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-11T13:54:55.346Z",
-    "rosters": "2026-11-11T13:54:55.346Z",
-    "playerStats": "2026-11-11T13:54:55.346Z",
-    "standings": "2026-11-11T13:54:55.346Z",
-    "games": "2026-11-11T13:54:55.346Z",
-    "news": "2026-11-11T13:54:55.346Z",
-    "leaders": "2026-11-11T13:54:55.346Z"
+    "teams": "2026-11-12T14:57:18.545Z",
+    "rosters": "2026-11-12T14:57:18.545Z",
+    "playerStats": "2026-11-12T14:57:18.545Z",
+    "standings": "2026-11-12T14:57:18.545Z",
+    "games": "2026-11-12T14:57:18.545Z",
+    "news": "2026-11-12T14:57:18.545Z",
+    "leaders": "2026-11-12T14:57:18.545Z"
   }
 }
