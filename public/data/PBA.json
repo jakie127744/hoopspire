@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-12T14:56:58.670Z",
+  "fetchedAt": "2026-11-12T21:55:35.218Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -1270,7 +1271,7 @@
         "position": "G",
         "height": "6' 0\"",
         "weight": "175 lbs",
-        "age": 34,
+        "age": 35,
         "country": null,
         "college": "Letran",
         "headshot": null
@@ -2011,212 +2012,6 @@
         "age": 35,
         "country": null,
         "college": "Adamson",
-        "headshot": null
-      }
-    ],
-    "terrafirma-dyip": [
-      {
-        "id": "terrafirma-dyip-ira-bataller-fa-",
-        "name": "Ira Bataller (FA)",
-        "jersey": "0",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": 25,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-juami-tiongson",
-        "name": "Juami Tiongson",
-        "jersey": "3",
-        "position": "G",
-        "height": "5' 10\"",
-        "weight": "175 lbs",
-        "age": 35,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-paul-garcia",
-        "name": "Paul Garcia",
-        "jersey": "4",
-        "position": "G",
-        "height": "5' 11\"",
-        "weight": "170 lbs",
-        "age": 27,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-keith-zaldivar",
-        "name": "Keith Zaldivar",
-        "jersey": "5",
-        "position": "C",
-        "height": "6' 6\"",
-        "weight": null,
-        "age": 30,
-        "country": null,
-        "college": "Adamson",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-louie-sangalang",
-        "name": "Louie Sangalang",
-        "jersey": "6",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "198 lbs",
-        "age": 28,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-chris-miller",
-        "name": "Chris Miller",
-        "jersey": "8",
-        "position": "G",
-        "height": "6' 2\"",
-        "weight": "180 lbs",
-        "age": 33,
-        "country": null,
-        "college": "Salem",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-cj-catapusan",
-        "name": "CJ Catapusan",
-        "jersey": "9",
-        "position": "F",
-        "height": "6' 3\"",
-        "weight": null,
-        "age": 29,
-        "country": null,
-        "college": "UP",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-aljon-mariano",
-        "name": "Aljon Mariano",
-        "jersey": "10",
-        "position": "F",
-        "height": "6' 3\"",
-        "weight": "175 lbs",
-        "age": 34,
-        "country": null,
-        "college": "UST",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-ben-adamos",
-        "name": "Ben Adamos",
-        "jersey": "11",
-        "position": "C",
-        "height": "6' 7\"",
-        "weight": "200 lbs",
-        "age": 30,
-        "country": null,
-        "college": "UPHSD",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
-        "name": "Maverick Ahanmisi (FA)",
-        "jersey": "13",
-        "position": "G",
-        "height": "6' 2\"",
-        "weight": "190 lbs",
-        "age": 35,
-        "country": null,
-        "college": "Minnesota",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-geo-chiu",
-        "name": "Geo Chiu",
-        "jersey": "18",
-        "position": "C",
-        "height": "6' 10\"",
-        "weight": "249 lbs",
-        "age": 25,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-joseph-eriobu",
-        "name": "Joseph Eriobu",
-        "jersey": "23",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": "198 lbs",
-        "age": 34,
-        "country": null,
-        "college": "Mapúa",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-mark-nonoy",
-        "name": "Mark Nonoy",
-        "jersey": "24",
-        "position": "G",
-        "height": "5' 9\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "De La Salle",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-jm-bravo",
-        "name": "JM Bravo",
-        "jersey": "26",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "Lyceum",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-shawn-umali",
-        "name": "Shawn Umali",
-        "jersey": "28",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "242 lbs",
-        "age": 25,
-        "country": null,
-        "college": "St. Benilde",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-didat-hanapi",
-        "name": "Didat Hanapi",
-        "jersey": "30",
-        "position": "G/F",
-        "height": "6' 2\"",
-        "weight": null,
-        "age": 25,
-        "country": null,
-        "college": "Adamson",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-brent-paraiso",
-        "name": "Brent Paraiso",
-        "jersey": "38",
-        "position": "G",
-        "height": "6' 1\"",
-        "weight": "190 lbs",
-        "age": 28,
-        "country": null,
-        "college": "Letran",
         "headshot": null
       }
     ],
@@ -14711,6 +14506,32 @@
   ],
   "news": [
     {
+      "id": "PBA-pbadownto4repsinlatestgilassquad",
+      "league": "PBA",
+      "title": "PBA down to 4 reps in latest Gilas squad",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Only four PBA players will make up the Gilas Pilipinas squad that will head to Seremban, Malaysia, for another crucial set of games in the Fiba World Cup Asian Qualifiers. Barangay Ginebra’s Scottie Thompson, Converge’s Juan Gomez de Liaño, San Miguel Beer’s CJ Perez and Meralco’",
+      "published": "2026-11-13T05:15:50.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image8.jpg",
+      "url": "https://sports.inquirer.net/706898/pba-down-to-4-reps-in-latest-gilas-squad"
+    },
+    {
+      "id": "PBA-flippingthescript",
+      "league": "PBA",
+      "title": "Flipping the script",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The ending was as dramatic as the outcome of every game in the PBA Governors’ Cup best-of-five quarterfinal series between Barangay Ginebra and San Miguel Beer.",
+      "published": "2026-11-12T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/13/2569717/flipping-script"
+    },
+    {
       "id": "PBA-conereminderabandopartofgilasplanfromthe",
       "league": "PBA",
       "title": "Cone reminder: Abando part of Gilas plan from the start",
@@ -14774,32 +14595,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/08/IMG_1697_FIBA-World-Cup-Asian-Qualifiers-4th-Window-Philippines-Jordan_Kai-Sotto.jpg",
       "url": "https://sports.inquirer.net/706656/kai-sotto-expected-to-join-gilas-early-for-malaysia-buildup"
-    },
-    {
-      "id": "PBA-pbacalvinabuevafinedforobscenegestureflo",
-      "league": "PBA",
-      "title": "PBA: Calvin Abueva fined for obscene gesture, flopping",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–The PBA has fined Calvin Abueva a total of P24,000 for his actions during Converge’s 2026 PBA Governors’ Cup quarterfinal series-clincher against Rain or Shine. PBA commissioner Willie Marcial revealed the sanction on Wednesday, hours after Abueva was summoned",
-      "published": "2026-11-11T18:39:02.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image9-7.jpg",
-      "url": "https://sports.inquirer.net/706654/pba-calvin-abueva-fined-for-obscene-gesture-flopping"
-    },
-    {
-      "id": "PBA-pbajordanmurphywaryoftoughchallengevshol",
-      "league": "PBA",
-      "title": "PBA: Jordan Murphy wary of tough challenge vs Hollis-Jefferson",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Jordan Murphy sent high school teammate George King home. The hard part is just about to begin as he faces a tougher import matchup in the 2026 PBA Governors’ Cup semifinals. Barangay Ginebra survived San Miguel Beer, 110-94, in Game 5 of their race-to-three a",
-      "published": "2026-11-11T18:29:59.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/10/IMG_0361_PBA-50-Governors-Cup-Ginebra-San-Miguel_Jordan-Murphy.jpg",
-      "url": "https://sports.inquirer.net/706646/pba-jordan-murphy-wary-of-tough-challenge-vs-hollis-jefferson"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15291,12 +15086,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-12T14:56:58.670Z",
-    "rosters": "2026-11-12T14:56:58.670Z",
+    "teams": "2026-11-12T21:55:35.218Z",
+    "rosters": "2026-11-12T21:55:35.218Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-12T14:56:58.670Z",
-    "games": "2026-11-12T14:56:58.670Z",
-    "news": "2026-11-12T14:56:58.670Z",
+    "standings": "2026-11-12T21:55:35.218Z",
+    "games": "2026-11-12T21:55:35.218Z",
+    "news": "2026-11-12T21:55:35.218Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
