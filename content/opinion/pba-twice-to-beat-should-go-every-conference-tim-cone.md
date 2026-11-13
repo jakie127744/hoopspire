@@ -44,3 +44,5 @@ Third, and this one matters most, a format that makes losing on purpose worth th
 Prediction, labelled as one: at least one lower seed wins a series in these quarterfinals. Phoenix, TNT, Converge and Ginebra all have a real path to three wins, and the format gives them five games to find it. What would prove me wrong: all four higher seeds go through.
 
 The PBA should keep the best-of-five in the Governors' Cup and bring it to the Philippine Cup and the Commissioner's Cup too. And the next coach tempted to lose his way into a better matchup should remember Cone's answer. If your team needs a twice-to-beat edge to get out of the quarterfinals, it was never winning the championship anyway.
+
+Update: the quarterfinals are over, and [a twice-to-beat would have ended Converge's season in Game 1](/story/a-twice-to-beat-would-have-ended-converges-season-in-game-1).

@@ -50,3 +50,5 @@ Magnolia: KJ Buffen 18, Zavier Lucero 14, Mark Barroca 11, Ian Sangalang 8, Jero
 Game 2 is on Wednesday, October 28, at the Ynares Center. A TNT win would put the defending champions one game from the semifinals. A Magnolia win would tie the series at 1-1.
 
 The other quarterfinals are NLEX against Phoenix, with NLEX up 1-0, Rain or Shine against Converge, and San Miguel against Barangay Ginebra.
+
+TNT went on to sweep the series. Noor Haddad writes about what the quarterfinals showed in [a twice-to-beat would have ended Converge's season in Game 1](/story/a-twice-to-beat-would-have-ended-converges-season-in-game-1).

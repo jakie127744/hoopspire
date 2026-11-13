@@ -54,3 +54,5 @@ Opinion: [Why the best-of-five should be used in every conference](/story/pba-tw
 The other Game 1: [TNT routed Magnolia 92-70](/story/tnt-win-every-quarter-beat-magnolia-92-70-game-1-hollis-jefferson-26).
 
 Update: [Bolick and Winston scored 31 each as NLEX won Game 2, 124-117](/story/bolick-winston-31-each-nlex-beat-phoenix-124-117-game-2).
+
+NLEX went on to sweep the series. Noor Haddad writes about what the quarterfinals showed in [a twice-to-beat would have ended Converge's season in Game 1](/story/a-twice-to-beat-would-have-ended-converges-season-in-game-1).

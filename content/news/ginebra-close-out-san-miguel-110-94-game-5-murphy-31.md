@@ -52,3 +52,5 @@ San Miguel: George King 31, June Mar Fajardo 20, CJ Perez 15, Don Trollano 10, J
 ## What is next
 
 Ginebra opens the semifinals against TNT on December 4.
+
+Noor Haddad looks at what the quarterfinals showed about the format in [a twice-to-beat would have ended Converge's season in Game 1](/story/a-twice-to-beat-would-have-ended-converges-season-in-game-1).
