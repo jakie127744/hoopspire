@@ -51,3 +51,5 @@ Duke: John Blackwell 17, Patrick Ngongba II 11, [Sebastian Wilkins](/player/NCAA
 ## What is next
 
 Michigan State hosts Northern Iowa on Friday, November 13, at 7 p.m. ET, then plays at Tennessee on Tuesday, November 17, at 9 p.m. ET. Duke hosts SIU Edwardsville on Friday at 8 p.m. ET and Illinois on Tuesday, November 17, at 7 p.m. ET.
+
+Victor Ashby argues that [AP voters should put Michigan State above Duke](/story/ap-voters-should-put-michigan-state-above-duke).
