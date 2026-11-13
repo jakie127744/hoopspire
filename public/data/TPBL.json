@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-11-12T14:57:18.545Z",
+  "fetchedAt": "2026-11-13T14:22:00.842Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -3905,6 +3905,19 @@
   ],
   "news": [
     {
+      "id": "TPBL-544",
+      "league": "TPBL",
+      "title": "[100 Reasons to Love Basketball Vol. 041】Jiahao Wei: You don't have to be ready to start. Learn to face your imperfect self.",
+      "originalTitle": "【一百種喜歡籃球的原因 Vol. 041】魏嘉豪：不必準備好才開始，學著面對不完美的自己",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-11-13T06:56:53.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/544/MAzGiH4eThVZVC4w8yPS2DxmvmHLEsyj4WCbKsvM.jpg?20261113150337",
+      "url": "https://tpbl.basketball/news/544"
+    },
+    {
       "id": "TPBL-539",
       "league": "TPBL",
       "title": "November 12, 2026 Player Transfers",
@@ -4046,19 +4059,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/514/rJHn49Bdxpb8Vrq2srgAOFduYrwxeYMiiX6OTXlV.jpg?20261020120519",
       "url": "https://tpbl.basketball/news/514"
-    },
-    {
-      "id": "TPBL-511",
-      "league": "TPBL",
-      "title": "Stretch from the pitch to the fashion stand! TPBL joins forces with INMORIES TO show 14 members OF Taipei fashion week 7 team how differently basketball charms don 'T stop AT the stadium",
-      "originalTitle": "從球場跨足時尚伸展台！TPBL 攜手 INMORIES 登上臺北時裝週 七隊 14 位成員展現不同面貌 讓籃球魅力不只停留在球場",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-10-16T11:40:32.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/511/FKrmmcbkSpOvEjWcX723dfnuGgIZvyzP1YfUgnJw.jpg?20261016194207",
-      "url": "https://tpbl.basketball/news/511"
     }
   ],
   "leaders": {
@@ -4524,12 +4524,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-12T14:57:18.545Z",
-    "rosters": "2026-11-12T14:57:18.545Z",
-    "playerStats": "2026-11-12T14:57:18.545Z",
-    "standings": "2026-11-12T14:57:18.545Z",
-    "games": "2026-11-12T14:57:18.545Z",
-    "news": "2026-11-12T14:57:18.545Z",
-    "leaders": "2026-11-12T14:57:18.545Z"
+    "teams": "2026-11-13T14:22:00.842Z",
+    "rosters": "2026-11-13T14:22:00.842Z",
+    "playerStats": "2026-11-13T14:22:00.842Z",
+    "standings": "2026-11-13T14:22:00.842Z",
+    "games": "2026-11-13T14:22:00.842Z",
+    "news": "2026-11-13T14:22:00.842Z",
+    "leaders": "2026-11-13T14:22:00.842Z"
   }
 }

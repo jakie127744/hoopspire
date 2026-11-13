@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-12T14:57:30.480Z",
+  "fetchedAt": "2026-11-13T14:22:15.387Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,122 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-12-caxias-do-pato",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "caxias-do",
+        "name": "Caxias do",
+        "abbr": "CAX",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-12-botafogo-sesi-fra-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "botafogo",
+        "name": "Botafogo",
+        "abbr": "BOT",
+        "logo": null,
+        "score": 60,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-12-corinthi--pinheiros",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 91,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-12-osasco-mogi",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-12T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "osasco",
+        "name": "Osasco",
+        "abbr": "OSA",
+        "logo": null,
+        "score": 75,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "mogi",
+        "name": "Mogi",
+        "abbr": "MOG",
+        "logo": null,
+        "score": 93,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-11-minas-unifacisa",
       "league": "NBB",
       "status": "final",
@@ -15217,6 +15333,32 @@
   ],
   "news": [
     {
+      "id": "NBB-nbb-pato-basquete-vence-o-caxias-do-sul-",
+      "league": "NBB",
+      "title": "NBB: Pato Basquete beats Caxias do Sul in a game decided on the last shot",
+      "originalTitle": "NBB: Pato Basquete vence o Caxias do Sul em jogo decidido no último arremesso",
+      "translatedFrom": "pt",
+      "description": "Pato Basquete beats Botafogo by one point in the NBB With excitement right up to the last shot, Pato Basquete beat Caxias do Sul 79-77 at the Sesi Gymnasium in Caxias do Sul in the Novo Basquete Brasil (NBB) 2026/2027. The Paraná team trailed for most of the game and...",
+      "published": "2026-11-13T01:13:43.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/O1KrGGOpv2GEIRI3bw3DJPd2MKg=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/H/Y/lFevInSDiWwloMy2mrjw/whatsapp-image-2026-11-12-at-21.58.51.jpeg",
+      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/12/nbb-pato-basquete-vence-o-caxias-do-sul-em-jogo-decidido-no-ultimo-arremesso.ghtml"
+    },
+    {
+      "id": "NBB-franca-domina-segundo-tempo-vence-botafo",
+      "league": "NBB",
+      "title": "Franca dominates the second half, beats Botafogo, and wraps up its Rio series with a perfect record",
+      "originalTitle": "Franca domina segundo tempo, vence Botafogo e fecha sequência no Rio com 100%",
+      "translatedFrom": "pt",
+      "description": "In Rio de Janeiro (RJ), Franca beats Flamengo and wins its first away game in the NBB. Sesi Franca defeated Botafogo 83-60 on Thursday night at the Oscar Zelaya Arena in the NBB. As a result, the team from São Paulo secured two consecutive victories in Rio de Janeiro, having also defeated Flamengo.",
+      "published": "2026-11-13T00:59:57.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/CoPYCljvfMweN4BPUTcRli3uP2U=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/G/ZrX5jUSEiMhsTUVj21vA/foto-wallacelima-11-3-.jpg",
+      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/12/franca-domina-segundo-tempo-vence-botafogo-e-fecha-sequencia-no-rio-com-100percent.ghtml"
+    },
+    {
       "id": "NBB-botafogo-x-franca-no-nbb-veja-onde-assis",
       "league": "NBB",
       "title": "Botafogo vs. Franca in the NBB: See where to watch live and the kickoff time",
@@ -15384,32 +15526,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/S1RQT-L41YkMkwx0LI-WOAFqdfY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/D/Z/DymlreRniwC36Q81QEjg/6218333-4316b30587b2af1.webp",
       "url": "https://ge.globo.com/basquete/noticia/2026/11/06/morre-aos-89-anos-moyses-blas-medalhista-olimpico-com-o-brasil-no-basquete.ghtml"
-    },
-    {
-      "id": "NBB-bola-para-no-aro-sem-cair-na-cesta-em-la",
-      "league": "NBB",
-      "title": "Ball stops at the rim without falling into the basket in an unusual move on the NBB; watch the video",
-      "originalTitle": "Bola para no aro sem cair na cesta em lance inusitado no NBB; veja o vídeo",
-      "translatedFrom": "pt",
-      "description": "Can you do that? Adyel, from Cruzeiro, throws and the ball stops at the hoop, without falling into the basket An unusual move scored the game between Franca and Cruzeiro for the NBB on Thursday night, at Pedrocão, in Franca (SP). Despite being defeated by 98 to 77, the shipowner Adyel, from Cruzeiro, was the protagonist of a scene",
-      "published": "2026-11-06T15:32:48.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/VBUF7cX2GZ5hkYkcMpndWk4HrXc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/9/E/ztnKOcQhujhTdOUGl5rQ/whatsapp-image-2026-11-05-at-23.52.20.jpeg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/06/bola-para-no-aro-sem-cair-na-cesta-em-lance-inusitado-no-nbb-veja-o-video.ghtml"
-    },
-    {
-      "id": "NBB-franca-vence-cruzeiro-e-interrompe-sequ-",
-      "league": "NBB",
-      "title": "Franca wins Cruzeiro and interrupts negative sequence in NBB",
-      "originalTitle": "Franca vence Cruzeiro e interrompe sequência negativa no NBB",
-      "translatedFrom": "pt",
-      "description": "Franca 98 x 77 Cruzeiro | Best moments | 7th round | NBB 2026/2027 Sesi Franca interrupted the sequence of three consecutive losses in NBB by winning Cruzeiro 98-77, on Thursday night, at Pedrocão, in Franca (SP). Ala Gui Deodato was Franca's top scorer for the first time",
-      "published": "2026-11-06T01:25:44.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/-ao8CAaNqqdKgElaG1UFhyInXJE=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/U/T/RBOA0xS1i8eC8o80jYpQ/55635041166-6e65d5abda-k.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/05/franca-vence-cruzeiro-e-interrompe-sequencia-negativa-no-nbb.ghtml"
     }
   ],
   "leaders": {
@@ -15880,8 +15996,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-12T14:57:30.480Z",
-    "news": "2026-11-12T14:57:30.480Z"
+    "games": "2026-11-13T14:22:15.387Z",
+    "news": "2026-11-13T14:22:15.387Z"
   },
   "carriedOver": [
     "teams",

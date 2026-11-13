@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-12T21:55:35.218Z",
+  "fetchedAt": "2026-11-13T14:21:39.586Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -2012,6 +2011,212 @@
         "age": 35,
         "country": null,
         "college": "Adamson",
+        "headshot": null
+      }
+    ],
+    "terrafirma-dyip": [
+      {
+        "id": "terrafirma-dyip-ira-bataller-fa-",
+        "name": "Ira Bataller (FA)",
+        "jersey": "0",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-juami-tiongson",
+        "name": "Juami Tiongson",
+        "jersey": "3",
+        "position": "G",
+        "height": "5' 10\"",
+        "weight": "175 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-paul-garcia",
+        "name": "Paul Garcia",
+        "jersey": "4",
+        "position": "G",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 27,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-keith-zaldivar",
+        "name": "Keith Zaldivar",
+        "jersey": "5",
+        "position": "C",
+        "height": "6' 6\"",
+        "weight": null,
+        "age": 30,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-louie-sangalang",
+        "name": "Louie Sangalang",
+        "jersey": "6",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-chris-miller",
+        "name": "Chris Miller",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "180 lbs",
+        "age": 33,
+        "country": null,
+        "college": "Salem",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-cj-catapusan",
+        "name": "CJ Catapusan",
+        "jersey": "9",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": null,
+        "age": 29,
+        "country": null,
+        "college": "UP",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-aljon-mariano",
+        "name": "Aljon Mariano",
+        "jersey": "10",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": "175 lbs",
+        "age": 34,
+        "country": null,
+        "college": "UST",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-ben-adamos",
+        "name": "Ben Adamos",
+        "jersey": "11",
+        "position": "C",
+        "height": "6' 7\"",
+        "weight": "200 lbs",
+        "age": 30,
+        "country": null,
+        "college": "UPHSD",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
+        "name": "Maverick Ahanmisi (FA)",
+        "jersey": "13",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Minnesota",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-geo-chiu",
+        "name": "Geo Chiu",
+        "jersey": "18",
+        "position": "C",
+        "height": "6' 10\"",
+        "weight": "249 lbs",
+        "age": 25,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-joseph-eriobu",
+        "name": "Joseph Eriobu",
+        "jersey": "23",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 34,
+        "country": null,
+        "college": "Mapúa",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-mark-nonoy",
+        "name": "Mark Nonoy",
+        "jersey": "24",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "De La Salle",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-jm-bravo",
+        "name": "JM Bravo",
+        "jersey": "26",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Lyceum",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-shawn-umali",
+        "name": "Shawn Umali",
+        "jersey": "28",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "242 lbs",
+        "age": 25,
+        "country": null,
+        "college": "St. Benilde",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-didat-hanapi",
+        "name": "Didat Hanapi",
+        "jersey": "30",
+        "position": "G/F",
+        "height": "6' 2\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-brent-paraiso",
+        "name": "Brent Paraiso",
+        "jersey": "38",
+        "position": "G",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
         "headshot": null
       }
     ],
@@ -14506,6 +14711,19 @@
   ],
   "news": [
     {
+      "id": "PBA-convergesmikeywilliamscopspbaweeklyplaye",
+      "league": "PBA",
+      "title": "Converge's Mikey Williams cops PBA weekly player honors",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Mikey Williams’ experience and clutch shooting in pressure-packed situations served Converge well as it finally breached the quarterfinal barrier and copped a historic semifinal appearance in the PBA.",
+      "published": "2026-11-13T08:28:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/13/2569909/converges-mikey-williams-cops-pba-weekly-player-honors"
+    },
+    {
       "id": "PBA-pbadownto4repsinlatestgilassquad",
       "league": "PBA",
       "title": "PBA down to 4 reps in latest Gilas squad",
@@ -14543,58 +14761,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2023/08/IMG_1351_FIBA-world-cup-Philippines-vs-Dominican-Republic_Rhenz-Abando-scaled.jpg",
       "url": "https://sports.inquirer.net/706714/cone-reminder-abando-part-of-gilas-plan-from-the-start"
-    },
-    {
-      "id": "PBA-calvinabuevahintsatretirementfrompba",
-      "league": "PBA",
-      "title": "Calvin Abueva hints at retirement from PBA",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Is Calvin Abueva serious about hanging it up after the PBA season? The Converge forward hinted at retirement on Wednesday, the same day he was fined a total of P24,000 for his actions during the FiberXers’ Game 4 win over the Rain or Shine Elasto Painters in t",
-      "published": "2026-11-11T22:52:41.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/04/IMG_0239_PBA-50-Commissioners-Cup-Rain-or-Shine-Converge_Calvin-Abueva-scaled.jpg",
-      "url": "https://sports.inquirer.net/706715/calvin-abueva-hints-at-retirement-from-pba"
-    },
-    {
-      "id": "PBA-pbanardspintomakesanothertimelyimpactfor",
-      "league": "PBA",
-      "title": "PBA: Nards Pinto makes another timely impact for Ginebra",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Nards Pinto came through once again for Barangay Ginebra in a deciding game of a playoff series on Tuesday when the Gin Kings rallied to beat San Miguel Beer for a spot in the 2026 PBA Governors’ Cup semifinals. Pinto’s nine points and two steals in a 10-minut",
-      "published": "2026-11-11T20:27:13.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image15.jpg",
-      "url": "https://sports.inquirer.net/706671/pba-nards-pinto-makes-another-timely-impact-for-ginebra"
-    },
-    {
-      "id": "PBA-calvinoftanaunavailableforgilasnovemberf",
-      "league": "PBA",
-      "title": "Calvin Oftana unavailable for Gilas’ November Fiba qualifiers",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Calvin Oftana is skipping Gilas Pilipinas’ campaign in the fifth window of the Fiba World Cup Asian Qualifiers. Coach Tim Cone said Oftana won’t be suiting for the crucial games against Syria and Iran later this month in Seremban, Malaysia with his wife Ena du",
-      "published": "2026-11-11T20:06:31.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/09/IMG_0299_Calvin-Oftana.jpg",
-      "url": "https://sports.inquirer.net/706669/calvin-oftana-unavailable-for-gilas-november-fiba-qualifiers"
-    },
-    {
-      "id": "PBA-kaisottoexpectedtojoingilasearlyformalay",
-      "league": "PBA",
-      "title": "Kai Sotto expected to join Gilas early for Malaysia buildup",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Kai Sotto is expected to be among those who will report early for Gilas Pilipinas’ preparation for the fifth window of the Fiba World Cup 2027 Asian Qualifiers in Seremban, Malaysia. Coach Tim Cone said Sotto will join the contingent flying to Malaysia on Nove",
-      "published": "2026-11-11T19:54:12.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/08/IMG_1697_FIBA-World-Cup-Asian-Qualifiers-4th-Window-Philippines-Jordan_Kai-Sotto.jpg",
-      "url": "https://sports.inquirer.net/706656/kai-sotto-expected-to-join-gilas-early-for-malaysia-buildup"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15086,12 +15252,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-12T21:55:35.218Z",
-    "rosters": "2026-11-12T21:55:35.218Z",
+    "teams": "2026-11-13T14:21:39.586Z",
+    "rosters": "2026-11-13T14:21:39.586Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-12T21:55:35.218Z",
-    "games": "2026-11-12T21:55:35.218Z",
-    "news": "2026-11-12T21:55:35.218Z",
+    "standings": "2026-11-13T14:21:39.586Z",
+    "games": "2026-11-13T14:21:39.586Z",
+    "news": "2026-11-13T14:21:39.586Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
