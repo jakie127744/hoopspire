@@ -19,7 +19,7 @@ I do not need a model to separate them. The two teams played each other, and Mic
 
 ## Why Duke stays above Illinois
 
-Illinois lost on Tuesday too. The Illini, ranked No. 3, lost 84-78 at No. 16 Texas Tech, also by six points. Duke lost by six points to the No. 5 team. Illinois lost to a team ranked 11 places below the one that beat Duke, and it lost in Texas Tech's building. Both are fair reasons to rank Duke higher.
+Illinois lost on Tuesday too. The Illini, ranked No. 3, [lost 84-78 at No. 16 Texas Tech](/story/texas-tech-hold-off-no-3-illinois-84-78-cruz-davis-20), also by six points. Duke lost by six points to the No. 5 team. Illinois lost to a team ranked 11 places below the one that beat Duke, and it lost in Texas Tech's building. Both are fair reasons to rank Duke higher.
 
 Illinois also gave the game away in specific ways. It shot 8 of 19 from the free-throw line while Texas Tech made 23 of 26. It made 10 of 34 threes. Those numbers do not look like a team that was outplayed everywhere. They look like a team that did not take care of what it controls.
 

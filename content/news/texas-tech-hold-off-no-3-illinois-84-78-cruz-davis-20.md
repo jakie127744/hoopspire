@@ -53,3 +53,5 @@ Illinois: Quentin Coleman 19, Andrej Stojaković 18, Tomislav Ivišić 14, Stefa
 ## What is next
 
 Illinois hosts Sam Houston on Friday, November 13, at 7 p.m. ET, then plays at Duke on Tuesday, November 17, at 7 p.m. ET. Texas Tech hosts Stonehill on Saturday, November 14, at 1 p.m. ET and LSU New Orleans on Wednesday, November 18, at 7:30 p.m. ET, then meets Louisville on Tuesday, November 24.
+
+Victor Ashby weighs the Duke and Illinois losses in [AP voters should put Michigan State above Duke](/story/ap-voters-should-put-michigan-state-above-duke).
