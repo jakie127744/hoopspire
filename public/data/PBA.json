@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-13T14:21:39.586Z",
+  "fetchedAt": "2026-11-13T21:32:34.521Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,6 +14711,32 @@
   ],
   "news": [
     {
+      "id": "PBA-boatwrightwillhavesomecrammingtodowithgi",
+      "league": "PBA",
+      "title": "Boatwright will have some cramming to do with Gilas in Malaysia",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas will be rushing to make sure Bennie Boatwright would be as efficient as he can for his long-awaited debut as a naturalized player when the Filipinos play the fifth window of the Fiba World Cup Asian Qualifiers in Seremban, Malaysia. Coach Tim Cone said Boatwright ",
+      "published": "2026-11-14T05:17:56.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/07/Bennie-Boatwright-27July2026.jpg",
+      "url": "https://sports.inquirer.net/706962/boatwright-will-have-some-cramming-to-do-with-gilas-in-malaysia"
+    },
+    {
+      "id": "PBA-gabsummonseaslondebtissues",
+      "league": "PBA",
+      "title": "GAB summons EASL on debt issues",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "GAB chairman Atty. Francisco Rivera has summoned EASL to attend a conference at the government agency’s head office in Makati in resolving debt issues raised by PBA and the Macau Black Bears. The meeting was set last Thursday but EASL asked to postpone. GAB legal chief Atty. Eros",
+      "published": "2026-11-13T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/14/2570035/gab-summons-easl-debt-issues"
+    },
+    {
       "id": "PBA-convergesmikeywilliamscopspbaweeklyplaye",
       "league": "PBA",
       "title": "Converge's Mikey Williams cops PBA weekly player honors",
@@ -14735,32 +14761,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/PBA-Image8.jpg",
       "url": "https://sports.inquirer.net/706898/pba-down-to-4-reps-in-latest-gilas-squad"
-    },
-    {
-      "id": "PBA-flippingthescript",
-      "league": "PBA",
-      "title": "Flipping the script",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The ending was as dramatic as the outcome of every game in the PBA Governors’ Cup best-of-five quarterfinal series between Barangay Ginebra and San Miguel Beer.",
-      "published": "2026-11-12T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/13/2569717/flipping-script"
-    },
-    {
-      "id": "PBA-conereminderabandopartofgilasplanfromthe",
-      "league": "PBA",
-      "title": "Cone reminder: Abando part of Gilas plan from the start",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The inclusion of Rhenz Abando on the Gilas Pilipinas roster for the fifth window of the Fiba World Cup Asian Qualifiers may have come as a surprise to some. But not to Gilas coach Tim Cone. “Not a surprise,” Cone said on Wednesday when Abando was announced as among the 12 players",
-      "published": "2026-11-12T05:15:47.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2023/08/IMG_1351_FIBA-world-cup-Philippines-vs-Dominican-Republic_Rhenz-Abando-scaled.jpg",
-      "url": "https://sports.inquirer.net/706714/cone-reminder-abando-part-of-gilas-plan-from-the-start"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15252,12 +15252,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-13T14:21:39.586Z",
-    "rosters": "2026-11-13T14:21:39.586Z",
+    "teams": "2026-11-13T21:32:34.521Z",
+    "rosters": "2026-11-13T21:32:34.521Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-13T14:21:39.586Z",
-    "games": "2026-11-13T14:21:39.586Z",
-    "news": "2026-11-13T14:21:39.586Z",
+    "standings": "2026-11-13T21:32:34.521Z",
+    "games": "2026-11-13T21:32:34.521Z",
+    "news": "2026-11-13T21:32:34.521Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
