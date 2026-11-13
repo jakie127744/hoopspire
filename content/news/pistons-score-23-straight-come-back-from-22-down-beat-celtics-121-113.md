@@ -78,3 +78,5 @@ Before the game, we looked at [the three opening-night matchups](/story/knicks-o
 Update: [Tatum scored 36 as the Celtics held off the Knicks 107-103 in their home opener](/story/tatum-36-celtics-hold-off-knicks-107-103).
 
 Update: [Detroit went to 3-0 by beating the 76ers 106-93](/story/magic-beat-0-3-knicks-111-102-nba-sunday-roundup).
+
+Boston came back from 22 down itself on November 11, when it [beat Toronto 98-93](/story/celtics-rally-from-22-down-beat-raptors-98-93).
