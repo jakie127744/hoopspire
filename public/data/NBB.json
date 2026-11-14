@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-13T14:22:15.387Z",
+  "fetchedAt": "2026-11-14T13:18:19.392Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,35 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-13-sao-jose-paulist-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-13T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sao-jose",
+        "name": "Sao Jose",
+        "abbr": "SAO",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "paulist-",
+        "name": "Paulist.",
+        "abbr": "PAU",
+        "logo": null,
+        "score": 65,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-12-caxias-do-pato",
       "league": "NBB",
       "status": "final",
@@ -15333,6 +15362,19 @@
   ],
   "news": [
     {
+      "id": "NBB-flamengo-atropela-paisas-na-estreia-das-",
+      "league": "NBB",
+      "title": "Flamengo crushes Paisas in the opening game of the South American Basketball League quarterfinals",
+      "originalTitle": "Flamengo atropela Paisas na estreia das quartas de final da Liga Sul-Americana de Basquete",
+      "translatedFrom": "pt",
+      "description": "Flamengo made a convincing winning debut in the quarterfinal round-robin of the South American Basketball League. On Friday night, Flamengo defeated Colombia's Paisas 104-71 at the Coliseo Universidad de Medellín, making a strong start in the race for a spot in the Final Four of the competition.",
+      "published": "2026-11-14T03:59:00.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/MpnRpPrdCxajRazl266xWod9HTk=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/9/UAW9FrRMKBwsLy0gQIxA/captura-de-tela-2026-11-14-005724.png",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/14/flamengo-atropela-paisas-na-estreia-das-quartas-de-final-da-liga-sul-americana-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-nbb-pato-basquete-vence-o-caxias-do-sul-",
       "league": "NBB",
       "title": "NBB: Pato Basquete beats Caxias do Sul in a game decided on the last shot",
@@ -15513,19 +15555,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/HtiKOr80ph7Ch7qDxIAZQNiTwxc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/9/RGEdbsRSKUIGDpvuAeMg/whatsapp-image-2026-10-24-at-21.32.58.jpeg",
       "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/07/pato-basquete-x-flamengo-pelo-nbb-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-morre-aos-89-anos-moys-s-bl-s-medalhista",
-      "league": "NBB",
-      "title": "Dies at 89 Moysés Blás, Olympic medalist with Brazil in basketball",
-      "originalTitle": "Morre aos 89 anos Moysés Blás, medalhista olímpico com o Brasil no basquete",
-      "translatedFrom": "pt",
-      "description": "Brazilian basketball lost another of its historic names on Friday. Moysés Blás, a bronze medalist at the 1960 Rome Olympics, died at the age of 89. Born in Minas Gerais, Blás defended Minas Tênis Clube and was part of the Brazilian team that won third place in the O",
-      "published": "2026-11-06T16:14:03.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/S1RQT-L41YkMkwx0LI-WOAFqdfY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/D/Z/DymlreRniwC36Q81QEjg/6218333-4316b30587b2af1.webp",
-      "url": "https://ge.globo.com/basquete/noticia/2026/11/06/morre-aos-89-anos-moyses-blas-medalhista-olimpico-com-o-brasil-no-basquete.ghtml"
     }
   ],
   "leaders": {
@@ -15996,8 +16025,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-13T14:22:15.387Z",
-    "news": "2026-11-13T14:22:15.387Z"
+    "games": "2026-11-14T13:18:19.392Z",
+    "news": "2026-11-14T13:18:19.392Z"
   },
   "carriedOver": [
     "teams",

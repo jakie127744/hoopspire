@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-13T21:32:34.521Z",
+  "fetchedAt": "2026-11-14T13:17:42.471Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,6 +14711,32 @@
   ],
   "news": [
     {
+      "id": "PBA-gilashirayagivesphwomensbasketballaniden",
+      "league": "PBA",
+      "title": "Gilas Hiraya gives PH women’s basketball an identity of its own",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–The Philippine women’s national basketball team will chart its own path under a new identity after Samahang Basketbol ng Pilipinas and University Athletic Association of the Philippines unveiled Gilas Hiraya on Saturday. Derived from the Filipino word for the ",
+      "published": "2026-11-14T18:16:36.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/IMG_0017_Gilas-Hiraya-press-con-scaled.jpg",
+      "url": "https://sports.inquirer.net/707076/gilas-hiraya-gives-ph-womens-basketball-an-identity-of-its-own"
+    },
+    {
+      "id": "PBA-hirayareadytobuildownlegacyinphilippineb",
+      "league": "PBA",
+      "title": "Hiraya ready to build own legacy in Philippine basketball",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "By: Joaquin Cortez The Philippine women’s national basketball team is ready to carve out a legacy of its own, with the Samahang Basketbol ng Pilipinas and the University Athletic Association of the Philippines officially unveiling Gilas Hiraya as the program’s new name and identi",
+      "published": "2026-11-14T09:34:46.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/UAAP89-Gilas-Hiraya-Presscon_-Ms.-Erika-Dy-06516-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/hiraya-ready-to-build-own-legacy-in-philippine-basketball/389786"
+    },
+    {
       "id": "PBA-boatwrightwillhavesomecrammingtodowithgi",
       "league": "PBA",
       "title": "Boatwright will have some cramming to do with Gilas in Malaysia",
@@ -14722,32 +14748,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/07/Bennie-Boatwright-27July2026.jpg",
       "url": "https://sports.inquirer.net/706962/boatwright-will-have-some-cramming-to-do-with-gilas-in-malaysia"
-    },
-    {
-      "id": "PBA-gabsummonseaslondebtissues",
-      "league": "PBA",
-      "title": "GAB summons EASL on debt issues",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "GAB chairman Atty. Francisco Rivera has summoned EASL to attend a conference at the government agency’s head office in Makati in resolving debt issues raised by PBA and the Macau Black Bears. The meeting was set last Thursday but EASL asked to postpone. GAB legal chief Atty. Eros",
-      "published": "2026-11-13T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/14/2570035/gab-summons-easl-debt-issues"
-    },
-    {
-      "id": "PBA-convergesmikeywilliamscopspbaweeklyplaye",
-      "league": "PBA",
-      "title": "Converge's Mikey Williams cops PBA weekly player honors",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Mikey Williams’ experience and clutch shooting in pressure-packed situations served Converge well as it finally breached the quarterfinal barrier and copped a historic semifinal appearance in the PBA.",
-      "published": "2026-11-13T08:28:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/13/2569909/converges-mikey-williams-cops-pba-weekly-player-honors"
     },
     {
       "id": "PBA-pbadownto4repsinlatestgilassquad",
@@ -15252,12 +15252,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-13T21:32:34.521Z",
-    "rosters": "2026-11-13T21:32:34.521Z",
+    "teams": "2026-11-14T13:17:42.471Z",
+    "rosters": "2026-11-14T13:17:42.471Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-13T21:32:34.521Z",
-    "games": "2026-11-13T21:32:34.521Z",
-    "news": "2026-11-13T21:32:34.521Z",
+    "standings": "2026-11-14T13:17:42.471Z",
+    "games": "2026-11-14T13:17:42.471Z",
+    "news": "2026-11-14T13:17:42.471Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
