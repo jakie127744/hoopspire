@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-14T13:18:19.392Z",
+  "fetchedAt": "2026-11-15T13:46:26.072Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-14-corinthi--osasco",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 84,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "osasco",
+        "name": "Osasco",
+        "abbr": "OSA",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-14-u-corinth--pato",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 62,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-14-minas-cearense",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-14T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 77,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
+        "logo": null,
+        "score": 63,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-13-sao-jose-paulist-",
       "league": "NBB",
       "status": "final",
@@ -15362,6 +15449,32 @@
   ],
   "news": [
     {
+      "id": "NBB-uni-o-corinthians-vence-o-pato-basquete-",
+      "league": "NBB",
+      "title": "União Corinthians beat Pato Basquete and climb in the NBB standings",
+      "originalTitle": "União Corinthians vence o Pato Basquete e sobe na classificação do NBB",
+      "translatedFrom": "pt",
+      "description": "Pato Basquete defeats Caxias in the NBB União Corinthians defeated Pato Basquete 67-62 this Saturday at the Arnão Multisport Gymnasium in Santa Cruz do Sul (RS) in the fifth round of the Novo Basquete Brasil (NBB) 2026/27. Pato Basquete renews with coach Renan Gitiony for the 2026/2027 season + Tabe",
+      "published": "2026-11-15T12:47:19.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/qUz_U8p_ZWS2MhufK_c5zJSSKd4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Y/x/sNCYe3T8O8QPmvVkcTNw/3w9a9000-768x512.jpg",
+      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/15/uniao-corinthians-vence-o-pato-basquete-e-sobe-na-classificacao-do-nbb.ghtml"
+    },
+    {
+      "id": "NBB-bras-lia-vira-e-tira-invencibilidade-do-",
+      "league": "NBB",
+      "title": "Brasília comes from behind to end Flamengo's unbeaten streak in the South American Basketball League",
+      "originalTitle": "Brasília vira e tira invencibilidade do Flamengo na Liga Sul-Americana de Basquete",
+      "translatedFrom": "pt",
+      "description": "Brasília defeated Flamengo this Saturday (14) by 84-83 in the second game between the two teams in the quarterfinals of the South American Basketball League. With the victory at the Coliseo Universidad de Medellín in Colombia, the team from the federal capital put an end to Flamengo's perfect record in the competition.",
+      "published": "2026-11-14T23:15:11.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/aoEey1mw_IpbWhYo9uupX18daik=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/r/I/VKBk5WR9iawr3bmJ25vg/captura-de-tela-2026-11-14-195003.png",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/14/brasilia-vira-e-tira-invencibilidade-do-flamengo-na-liga-sul-americana-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-flamengo-atropela-paisas-na-estreia-das-",
       "league": "NBB",
       "title": "Flamengo crushes Paisas in the opening game of the South American Basketball League quarterfinals",
@@ -15529,32 +15642,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/tR74t8NJo1Xt2egSV4mXDz_HNqc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/d/6/D8eH9qRDmgOGJi6xx7aw/whatsapp-image-2026-11-07-at-20.22.18-1.jpeg",
       "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/08/nbb-flamengo-vence-pato-basquete-e-chega-a-cinco-jogos-de-invencibilidade.ghtml"
-    },
-    {
-      "id": "NBB-curry-brilha-com-41-pontos-e-supera-marc",
-      "league": "NBB",
-      "title": "Curry shines with 41 points and surpasses LeBron's mark in the Warriors' seventh straight win",
-      "originalTitle": "Curry brilha com 41 pontos e supera marca de LeBron na sétima vitória seguida dos Warriors",
-      "translatedFrom": "pt",
-      "description": "Golden State Warriors 126-119 Orlando Magic | Top Moments | NBA 2026/2027 38-year-old Stephen Curry played another high-profile game for the Golden State Warriors. Last Saturday, the star led the team's seventh straight win of the season, defeating the Orlando Magic 126-119. Cur",
-      "published": "2026-11-08T12:35:50.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/TnprTozoZH8e0R4uTQIZ4iMTUQ4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/5/Y/q8FXBKSZSx10EO3tpcUg/2026-11-08t011414z-1106582869-mt1usatoday30309649-rtrmadp-3-nba-orlando-magic-at-golden-state-warriors.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/08/curry-brilha-com-41-pontos-e-supera-marca-de-lebron-na-setima-vitoria-seguida-dos-warriors.ghtml"
-    },
-    {
-      "id": "NBB-pato-basquete-x-flamengo-pelo-nbb-onde-a",
-      "league": "NBB",
-      "title": "Pato Basquete x Flamengo by NBB: where to watch live and time",
-      "originalTitle": "Pato Basquete x Flamengo pelo NBB: onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "Pato Basquete wins Botafogo by one point in the NBB Pato Basquete and Flamengo meet this Saturday, at 7 pm (Brasília), at Ginásio do Sesi, in Pato Branco, for Novo Basquete Brasil (NBB). Teams arrive in opposite situations in the standings. Brasília fights, but loses at home to",
-      "published": "2026-11-07T07:00:01.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/HtiKOr80ph7Ch7qDxIAZQNiTwxc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/B/9/RGEdbsRSKUIGDpvuAeMg/whatsapp-image-2026-10-24-at-21.32.58.jpeg",
-      "url": "https://ge.globo.com/pr/basquete/nbb/noticia/2026/11/07/pato-basquete-x-flamengo-pelo-nbb-onde-assistir-ao-vivo-e-horario.ghtml"
     }
   ],
   "leaders": {
@@ -16025,8 +16112,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-14T13:18:19.392Z",
-    "news": "2026-11-14T13:18:19.392Z"
+    "games": "2026-11-15T13:46:26.072Z",
+    "news": "2026-11-15T13:46:26.072Z"
   },
   "carriedOver": [
     "teams",

@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-14T20:04:58.502Z",
+  "fetchedAt": "2026-11-15T13:45:48.128Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -2012,6 +2011,212 @@
         "age": 35,
         "country": null,
         "college": "Adamson",
+        "headshot": null
+      }
+    ],
+    "terrafirma-dyip": [
+      {
+        "id": "terrafirma-dyip-ira-bataller-fa-",
+        "name": "Ira Bataller (FA)",
+        "jersey": "0",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-juami-tiongson",
+        "name": "Juami Tiongson",
+        "jersey": "3",
+        "position": "G",
+        "height": "5' 10\"",
+        "weight": "175 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-paul-garcia",
+        "name": "Paul Garcia",
+        "jersey": "4",
+        "position": "G",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 27,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-keith-zaldivar",
+        "name": "Keith Zaldivar",
+        "jersey": "5",
+        "position": "C",
+        "height": "6' 6\"",
+        "weight": null,
+        "age": 30,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-louie-sangalang",
+        "name": "Louie Sangalang",
+        "jersey": "6",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-chris-miller",
+        "name": "Chris Miller",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "180 lbs",
+        "age": 33,
+        "country": null,
+        "college": "Salem",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-cj-catapusan",
+        "name": "CJ Catapusan",
+        "jersey": "9",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": null,
+        "age": 29,
+        "country": null,
+        "college": "UP",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-aljon-mariano",
+        "name": "Aljon Mariano",
+        "jersey": "10",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": "175 lbs",
+        "age": 34,
+        "country": null,
+        "college": "UST",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-ben-adamos",
+        "name": "Ben Adamos",
+        "jersey": "11",
+        "position": "C",
+        "height": "6' 7\"",
+        "weight": "200 lbs",
+        "age": 30,
+        "country": null,
+        "college": "UPHSD",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
+        "name": "Maverick Ahanmisi (FA)",
+        "jersey": "13",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Minnesota",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-geo-chiu",
+        "name": "Geo Chiu",
+        "jersey": "18",
+        "position": "C",
+        "height": "6' 10\"",
+        "weight": "249 lbs",
+        "age": 25,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-joseph-eriobu",
+        "name": "Joseph Eriobu",
+        "jersey": "23",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 34,
+        "country": null,
+        "college": "Mapúa",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-mark-nonoy",
+        "name": "Mark Nonoy",
+        "jersey": "24",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "De La Salle",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-jm-bravo",
+        "name": "JM Bravo",
+        "jersey": "26",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Lyceum",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-shawn-umali",
+        "name": "Shawn Umali",
+        "jersey": "28",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "242 lbs",
+        "age": 25,
+        "country": null,
+        "college": "St. Benilde",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-didat-hanapi",
+        "name": "Didat Hanapi",
+        "jersey": "30",
+        "position": "G/F",
+        "height": "6' 2\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-brent-paraiso",
+        "name": "Brent Paraiso",
+        "jersey": "38",
+        "position": "G",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
         "headshot": null
       }
     ],
@@ -14506,6 +14711,45 @@
   ],
   "news": [
     {
+      "id": "PBA-pbaginebratntnlexconvergesemisatninoyaqu",
+      "league": "PBA",
+      "title": "PBA: Ginebra-TNT, NLEX-Converge semis at Ninoy Aquino Stadium",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Ninoy Aquino Stadium will play host to the opener of the 2026 PBA Governors’ Cup semifinals on Dec. 4, with Mall of Asia Arena, Ynares Center in Antipolo and Smart Araneta Coliseum serving as other venues. Barangay Ginebra and TNT open hostilities at 5:15 p.m.",
+      "published": "2026-11-15T16:34:44.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/06/IMG_1678_PBA-50-Commissioners-Cup-Finals-Game-7-Ginebra-TNT_Rey-Nambatac-scaled.jpg",
+      "url": "https://sports.inquirer.net/706954/pba-ginebra-tnt-nlex-converge-semis-at-ninoy-aquino-stadium"
+    },
+    {
+      "id": "PBA-gilashirayapilipinasaimstogivenewnamemea",
+      "league": "PBA",
+      "title": "Gilas Hiraya Pilipinas aims to give new name meaning beyond rebrand",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Hiraya Pilipinas, the rebranded Philippine women's basketball team previously known as Gilas Women, is embracing a bigger dream, one that stretches beyond the regional stage and all the way to the Olympics.",
+      "published": "2026-11-15T10:58:41.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1009603/gilas-hiraya-pilipinas-aims-to-give-new-name-meaning-beyond-rebrand/story/"
+    },
+    {
+      "id": "PBA-deliaoembracesbusyscheduleahead",
+      "league": "PBA",
+      "title": "De Liaño embraces busy schedule ahead",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Juan Gomez de Liaño will be a busy man for the next week—and possibly until the end of the year. With Gilas Pilipinas duties on tap and Converge in the semifinals for the first time, Gomez de Liaño would surely not complain. “Hopefully I can give an impact to the team in my own w",
+      "published": "2026-11-15T05:15:29.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Sports1331018-scaled.jpg",
+      "url": "https://sports.inquirer.net/707136/de-liano-embraces-busy-schedule-ahead"
+    },
+    {
       "id": "PBA-gilashirayagivesphwomensbasketballaniden",
       "league": "PBA",
       "title": "Gilas Hiraya gives PH women’s basketball an identity of its own",
@@ -14530,45 +14774,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.philstar.com/sports/2026/11/15/2570213/draft-welcomes-overseas-players"
-    },
-    {
-      "id": "PBA-newnamesamebigdreamforcagebelles",
-      "league": "PBA",
-      "title": "New name, same big dream for cagebelles",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "From now on, the national women’s basketball team will be called the Gilas Hiraya.",
-      "published": "2026-11-14T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/15/2570230/new-name-same-big-dream-cagebelles"
-    },
-    {
-      "id": "PBA-boatwrightwillhavesomecrammingtodowithgi",
-      "league": "PBA",
-      "title": "Boatwright will have some cramming to do with Gilas in Malaysia",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas will be rushing to make sure Bennie Boatwright would be as efficient as he can for his long-awaited debut as a naturalized player when the Filipinos play the fifth window of the Fiba World Cup Asian Qualifiers in Seremban, Malaysia. Coach Tim Cone said Boatwright ",
-      "published": "2026-11-14T05:17:56.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/07/Bennie-Boatwright-27July2026.jpg",
-      "url": "https://sports.inquirer.net/706962/boatwright-will-have-some-cramming-to-do-with-gilas-in-malaysia"
-    },
-    {
-      "id": "PBA-pbadownto4repsinlatestgilassquad",
-      "league": "PBA",
-      "title": "PBA down to 4 reps in latest Gilas squad",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Only four PBA players will make up the Gilas Pilipinas squad that will head to Seremban, Malaysia, for another crucial set of games in the Fiba World Cup Asian Qualifiers. Barangay Ginebra’s Scottie Thompson, Converge’s Juan Gomez de Liaño, San Miguel Beer’s CJ Perez and Meralco’",
-      "published": "2026-11-13T05:15:50.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/PBA-Image8.jpg",
-      "url": "https://sports.inquirer.net/706898/pba-down-to-4-reps-in-latest-gilas-squad"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15060,12 +15265,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-14T20:04:58.502Z",
-    "rosters": "2026-11-14T20:04:58.502Z",
+    "teams": "2026-11-15T13:45:48.128Z",
+    "rosters": "2026-11-15T13:45:48.128Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-14T20:04:58.502Z",
-    "games": "2026-11-14T20:04:58.502Z",
-    "news": "2026-11-14T20:04:58.502Z",
+    "standings": "2026-11-15T13:45:48.128Z",
+    "games": "2026-11-15T13:45:48.128Z",
+    "news": "2026-11-15T13:45:48.128Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

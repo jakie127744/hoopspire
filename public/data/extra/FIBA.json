@@ -1,6 +1,6 @@
 {
   "league": "FIBA",
-  "fetchedAt": "2026-11-14T13:18:33.556Z",
+  "fetchedAt": "2026-11-15T13:46:39.644Z",
   "sources": [
     {
       "name": "ESPN box scores",
@@ -8,7 +8,7 @@
     }
   ],
   "notes": [
-    "leaders: https://site.api.espn.com/apis/site/v2/sports/basketball/fiba/scoreboard?dates=20260915-20261115&limit=300 — HTTP 400",
+    "leaders: https://site.api.espn.com/apis/site/v2/sports/basketball/fiba/scoreboard?dates=20260916-20261116&limit=300 — HTTP 400",
     "Kept the previous run's leaders, playerStats — the source returned nothing this time."
   ],
   "news": [],
@@ -2961,7 +2961,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-11-14T13:18:33.556Z",
+    "news": "2026-11-15T13:46:39.644Z",
     "leaders": "2026-09-11T01:04:17.255Z",
     "playerStats": "2026-09-11T01:04:17.255Z"
   },
