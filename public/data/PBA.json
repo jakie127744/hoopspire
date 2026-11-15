@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-15T13:45:48.128Z",
+  "fetchedAt": "2026-11-15T20:31:44.876Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14724,6 +14724,19 @@
       "url": "https://sports.inquirer.net/706954/pba-ginebra-tnt-nlex-converge-semis-at-ninoy-aquino-stadium"
     },
     {
+      "id": "PBA-gilasfacesnewlooksyria",
+      "league": "PBA",
+      "title": "Gilas faces new-look Syria",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Syria will unveil a new naturalized import D’Angelo Harrison to play against Gilas in the fifth FIBA World Cup Asia qualifying window in Seremban, Malaysia, on Nov. 27 and with only two wins in eight games, it’s not likely to survive the race for seven slots allocated for Asia/Oc",
+      "published": "2026-11-15T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/16/2570367/gilas-faces-new-look-syria"
+    },
+    {
       "id": "PBA-gilashirayapilipinasaimstogivenewnamemea",
       "league": "PBA",
       "title": "Gilas Hiraya Pilipinas aims to give new name meaning beyond rebrand",
@@ -14761,19 +14774,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/IMG_0017_Gilas-Hiraya-press-con-scaled.jpg",
       "url": "https://sports.inquirer.net/707076/gilas-hiraya-gives-ph-womens-basketball-an-identity-of-its-own"
-    },
-    {
-      "id": "PBA-draftwelcomesoverseasplayers",
-      "league": "PBA",
-      "title": "Draft welcomes overseas players",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "There are 16 PBA draft eligibles now playing in Japan and Korea, mostly deserving to be a first round pick. The next draft is on Jan. 17 and it’s open to overseas players who’ve never applied before. There was a previous rule stipulating a three-year ban for draft eligibles who d",
-      "published": "2026-11-14T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/15/2570213/draft-welcomes-overseas-players"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15265,12 +15265,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-15T13:45:48.128Z",
-    "rosters": "2026-11-15T13:45:48.128Z",
+    "teams": "2026-11-15T20:31:44.876Z",
+    "rosters": "2026-11-15T20:31:44.876Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-15T13:45:48.128Z",
-    "games": "2026-11-15T13:45:48.128Z",
-    "news": "2026-11-15T13:45:48.128Z",
+    "standings": "2026-11-15T20:31:44.876Z",
+    "games": "2026-11-15T20:31:44.876Z",
+    "news": "2026-11-15T20:31:44.876Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
