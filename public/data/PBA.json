@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-15T20:31:44.876Z",
+  "fetchedAt": "2026-11-16T15:21:45.726Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -954,7 +954,7 @@
         "position": "F",
         "height": "6' 3\"",
         "weight": "200 lbs",
-        "age": 28,
+        "age": 29,
         "country": null,
         "college": "Ateneo",
         "headshot": null
@@ -1464,7 +1464,7 @@
         "position": "F/C",
         "height": "6' 7\"",
         "weight": "215 lbs",
-        "age": 24,
+        "age": 25,
         "country": null,
         "college": "Ateneo",
         "headshot": null
@@ -14711,6 +14711,32 @@
   ],
   "news": [
     {
+      "id": "PBA-givenasecondchancebyarellanotmcongotanno",
+      "league": "PBA",
+      "title": "Given a second chance by Arellano, T-Mc Ongotan now reaches for PBA dream",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "T-Mc Ongotan fought back tears as he reflected on the end of his collegiate career, knowing that Arellano University’s 70-81 quarterfinal defeat to José Rizal University in the NCAA Season 102 Seniors Basketball Tournament on Monday was not how he envisioned his final season endi",
+      "published": "2026-11-16T14:43:32.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/NCAA102-Srs-Basketball-Quarterfinals_-JRU-vs-AU_-ONGOTAN-T-MC-02629-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/given-a-second-chance-by-arellano-t-mc-ongotan-now-reaches-for-pba-dream/390093"
+    },
+    {
+      "id": "PBA-asletranchapterclosesuaapreturnawaitsfor",
+      "league": "PBA",
+      "title": "As Letran chapter closes, UAAP return awaits for Ethan Aguas",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "By: Joaquin Cortez With his title defense cut short, Ethan Aguas is already looking ahead to the offseason, although the next chapter of his basketball career remains uncertain. The Gilas Pilipinas Youth standout has yet to decide on his immediate plans after Colegio de San Juan ",
+      "published": "2026-11-16T08:38:22.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/NCAA102-Jrs-Basketball_-LSGH-vs-CSJL_-AGUAS-Ethan-00387-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/as-letran-chapter-closes-uaap-return-awaits-for-ethan-aguas/390073"
+    },
+    {
       "id": "PBA-pbaginebratntnlexconvergesemisatninoyaqu",
       "league": "PBA",
       "title": "PBA: Ginebra-TNT, NLEX-Converge semis at Ninoy Aquino Stadium",
@@ -14724,32 +14750,6 @@
       "url": "https://sports.inquirer.net/706954/pba-ginebra-tnt-nlex-converge-semis-at-ninoy-aquino-stadium"
     },
     {
-      "id": "PBA-gilasfacesnewlooksyria",
-      "league": "PBA",
-      "title": "Gilas faces new-look Syria",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Syria will unveil a new naturalized import D’Angelo Harrison to play against Gilas in the fifth FIBA World Cup Asia qualifying window in Seremban, Malaysia, on Nov. 27 and with only two wins in eight games, it’s not likely to survive the race for seven slots allocated for Asia/Oc",
-      "published": "2026-11-15T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/16/2570367/gilas-faces-new-look-syria"
-    },
-    {
-      "id": "PBA-gilashirayapilipinasaimstogivenewnamemea",
-      "league": "PBA",
-      "title": "Gilas Hiraya Pilipinas aims to give new name meaning beyond rebrand",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Hiraya Pilipinas, the rebranded Philippine women's basketball team previously known as Gilas Women, is embracing a bigger dream, one that stretches beyond the regional stage and all the way to the Olympics.",
-      "published": "2026-11-15T10:58:41.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1009603/gilas-hiraya-pilipinas-aims-to-give-new-name-meaning-beyond-rebrand/story/"
-    },
-    {
       "id": "PBA-deliaoembracesbusyscheduleahead",
       "league": "PBA",
       "title": "De Liaño embraces busy schedule ahead",
@@ -14761,19 +14761,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/Sports1331018-scaled.jpg",
       "url": "https://sports.inquirer.net/707136/de-liano-embraces-busy-schedule-ahead"
-    },
-    {
-      "id": "PBA-gilashirayagivesphwomensbasketballaniden",
-      "league": "PBA",
-      "title": "Gilas Hiraya gives PH women’s basketball an identity of its own",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–The Philippine women’s national basketball team will chart its own path under a new identity after Samahang Basketbol ng Pilipinas and University Athletic Association of the Philippines unveiled Gilas Hiraya on Saturday. Derived from the Filipino word for the ",
-      "published": "2026-11-14T18:16:36.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/IMG_0017_Gilas-Hiraya-press-con-scaled.jpg",
-      "url": "https://sports.inquirer.net/707076/gilas-hiraya-gives-ph-womens-basketball-an-identity-of-its-own"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15265,12 +15252,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-15T20:31:44.876Z",
-    "rosters": "2026-11-15T20:31:44.876Z",
+    "teams": "2026-11-16T15:21:45.726Z",
+    "rosters": "2026-11-16T15:21:45.726Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-15T20:31:44.876Z",
-    "games": "2026-11-15T20:31:44.876Z",
-    "news": "2026-11-15T20:31:44.876Z",
+    "standings": "2026-11-16T15:21:45.726Z",
+    "games": "2026-11-16T15:21:45.726Z",
+    "news": "2026-11-16T15:21:45.726Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
