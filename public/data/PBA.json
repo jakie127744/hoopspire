@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-16T15:21:45.726Z",
+  "fetchedAt": "2026-11-16T23:49:36.597Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,6 +14711,32 @@
   ],
   "news": [
     {
+      "id": "PBA-layingoutsemisbattlegrounds",
+      "league": "PBA",
+      "title": "Laying out semis battlegrounds",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The PBA Governors Cup semifinals will reel off on Dec. 4 at the Ninoy Aquino Stadium with Barangay Ginebra facing defending champion TNT and Converge taking on NLEX in a pair of best-of-five series. But it’s not just PBA that’s gearing for the semis.",
+      "published": "2026-11-16T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/17/2570578/laying-out-semis-battlegrounds"
+    },
+    {
+      "id": "PBA-winthreeorgohome",
+      "league": "PBA",
+      "title": "Win three or go home",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas is poised for an all-out effort in the last two windows of the FIBA World Cup Qualifiers to save its place in next year’s global showpiece.",
+      "published": "2026-11-16T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/17/2570600/win-three-or-go-home"
+    },
+    {
       "id": "PBA-givenasecondchancebyarellanotmcongotanno",
       "league": "PBA",
       "title": "Given a second chance by Arellano, T-Mc Ongotan now reaches for PBA dream",
@@ -14748,19 +14774,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/06/IMG_1678_PBA-50-Commissioners-Cup-Finals-Game-7-Ginebra-TNT_Rey-Nambatac-scaled.jpg",
       "url": "https://sports.inquirer.net/706954/pba-ginebra-tnt-nlex-converge-semis-at-ninoy-aquino-stadium"
-    },
-    {
-      "id": "PBA-deliaoembracesbusyscheduleahead",
-      "league": "PBA",
-      "title": "De Liaño embraces busy schedule ahead",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Juan Gomez de Liaño will be a busy man for the next week—and possibly until the end of the year. With Gilas Pilipinas duties on tap and Converge in the semifinals for the first time, Gomez de Liaño would surely not complain. “Hopefully I can give an impact to the team in my own w",
-      "published": "2026-11-15T05:15:29.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/Sports1331018-scaled.jpg",
-      "url": "https://sports.inquirer.net/707136/de-liano-embraces-busy-schedule-ahead"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15252,12 +15265,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-16T15:21:45.726Z",
-    "rosters": "2026-11-16T15:21:45.726Z",
+    "teams": "2026-11-16T23:49:36.597Z",
+    "rosters": "2026-11-16T23:49:36.597Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-16T15:21:45.726Z",
-    "games": "2026-11-16T15:21:45.726Z",
-    "news": "2026-11-16T15:21:45.726Z",
+    "standings": "2026-11-16T23:49:36.597Z",
+    "games": "2026-11-16T23:49:36.597Z",
+    "news": "2026-11-16T23:49:36.597Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
