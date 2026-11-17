@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-16T23:49:36.597Z",
+  "fetchedAt": "2026-11-17T15:46:33.317Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -1924,7 +1924,7 @@
         "position": "C",
         "height": "6' 10\"",
         "weight": "268 lbs",
-        "age": 36,
+        "age": 37,
         "country": null,
         "college": "Cebu",
         "headshot": null
@@ -1996,7 +1996,7 @@
         "position": "G/F",
         "height": "6' 2\"",
         "weight": "185 lbs",
-        "age": 32,
+        "age": 33,
         "country": null,
         "college": "Lyceum",
         "headshot": null
@@ -14724,58 +14724,6 @@
       "url": "https://www.philstar.com/sports/2026/11/17/2570578/laying-out-semis-battlegrounds"
     },
     {
-      "id": "PBA-winthreeorgohome",
-      "league": "PBA",
-      "title": "Win three or go home",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas is poised for an all-out effort in the last two windows of the FIBA World Cup Qualifiers to save its place in next year’s global showpiece.",
-      "published": "2026-11-16T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/17/2570600/win-three-or-go-home"
-    },
-    {
-      "id": "PBA-givenasecondchancebyarellanotmcongotanno",
-      "league": "PBA",
-      "title": "Given a second chance by Arellano, T-Mc Ongotan now reaches for PBA dream",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "T-Mc Ongotan fought back tears as he reflected on the end of his collegiate career, knowing that Arellano University’s 70-81 quarterfinal defeat to José Rizal University in the NCAA Season 102 Seniors Basketball Tournament on Monday was not how he envisioned his final season endi",
-      "published": "2026-11-16T14:43:32.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/NCAA102-Srs-Basketball-Quarterfinals_-JRU-vs-AU_-ONGOTAN-T-MC-02629-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/given-a-second-chance-by-arellano-t-mc-ongotan-now-reaches-for-pba-dream/390093"
-    },
-    {
-      "id": "PBA-asletranchapterclosesuaapreturnawaitsfor",
-      "league": "PBA",
-      "title": "As Letran chapter closes, UAAP return awaits for Ethan Aguas",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "By: Joaquin Cortez With his title defense cut short, Ethan Aguas is already looking ahead to the offseason, although the next chapter of his basketball career remains uncertain. The Gilas Pilipinas Youth standout has yet to decide on his immediate plans after Colegio de San Juan ",
-      "published": "2026-11-16T08:38:22.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/NCAA102-Jrs-Basketball_-LSGH-vs-CSJL_-AGUAS-Ethan-00387-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/as-letran-chapter-closes-uaap-return-awaits-for-ethan-aguas/390073"
-    },
-    {
-      "id": "PBA-pbaginebratntnlexconvergesemisatninoyaqu",
-      "league": "PBA",
-      "title": "PBA: Ginebra-TNT, NLEX-Converge semis at Ninoy Aquino Stadium",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Ninoy Aquino Stadium will play host to the opener of the 2026 PBA Governors’ Cup semifinals on Dec. 4, with Mall of Asia Arena, Ynares Center in Antipolo and Smart Araneta Coliseum serving as other venues. Barangay Ginebra and TNT open hostilities at 5:15 p.m.",
-      "published": "2026-11-15T16:34:44.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/06/IMG_1678_PBA-50-Commissioners-Cup-Finals-Game-7-Ginebra-TNT_Rey-Nambatac-scaled.jpg",
-      "url": "https://sports.inquirer.net/706954/pba-ginebra-tnt-nlex-converge-semis-at-ninoy-aquino-stadium"
-    },
-    {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
       "league": "PBA",
       "title": "Abando returns to Gilas as debuting Boatwright banners new FIBA roster",
@@ -15265,12 +15213,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-16T23:49:36.597Z",
-    "rosters": "2026-11-16T23:49:36.597Z",
+    "teams": "2026-11-17T15:46:33.317Z",
+    "rosters": "2026-11-17T15:46:33.317Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-16T23:49:36.597Z",
-    "games": "2026-11-16T23:49:36.597Z",
-    "news": "2026-11-16T23:49:36.597Z",
+    "standings": "2026-11-17T15:46:33.317Z",
+    "games": "2026-11-17T15:46:33.317Z",
+    "news": "2026-11-17T15:46:33.317Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

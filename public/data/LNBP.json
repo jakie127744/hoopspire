@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-11-16T15:21:54.051Z",
+  "fetchedAt": "2026-11-17T15:46:38.743Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -14375,8 +14375,8 @@
     {
       "id": 4002,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-11-16T20:15:00-06:00",
@@ -14387,7 +14387,7 @@
         "name": "Astros",
         "abbr": "ASTR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
-        "score": null,
+        "score": 75,
         "linescores": [],
         "leaders": []
       },
@@ -14396,7 +14396,7 @@
         "name": "Soles",
         "abbr": "SOLE",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
-        "score": null,
+        "score": 74,
         "linescores": [],
         "leaders": []
       }
@@ -15719,12 +15719,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-16T15:21:54.051Z",
+    "teams": "2026-11-17T15:46:38.743Z",
     "rosters": "2026-10-06T20:33:41.149Z",
     "playerStats": "2026-10-06T20:33:41.149Z",
-    "standings": "2026-11-16T15:21:54.051Z",
-    "games": "2026-11-16T15:21:54.051Z",
-    "news": "2026-11-16T15:21:54.051Z",
+    "standings": "2026-11-17T15:46:38.743Z",
+    "games": "2026-11-17T15:46:38.743Z",
+    "news": "2026-11-17T15:46:38.743Z",
     "leaders": "2026-10-06T20:33:41.149Z"
   },
   "carriedOver": [
