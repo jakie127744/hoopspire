@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-17T15:46:33.317Z",
+  "fetchedAt": "2026-11-17T23:06:44.464Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,19 +14711,6 @@
   ],
   "news": [
     {
-      "id": "PBA-layingoutsemisbattlegrounds",
-      "league": "PBA",
-      "title": "Laying out semis battlegrounds",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The PBA Governors Cup semifinals will reel off on Dec. 4 at the Ninoy Aquino Stadium with Barangay Ginebra facing defending champion TNT and Converge taking on NLEX in a pair of best-of-five series. But it’s not just PBA that’s gearing for the semis.",
-      "published": "2026-11-16T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/17/2570578/laying-out-semis-battlegrounds"
-    },
-    {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
       "league": "PBA",
       "title": "Abando returns to Gilas as debuting Boatwright banners new FIBA roster",
@@ -15213,12 +15200,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-17T15:46:33.317Z",
-    "rosters": "2026-11-17T15:46:33.317Z",
+    "teams": "2026-11-17T23:06:44.464Z",
+    "rosters": "2026-11-17T23:06:44.464Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-17T15:46:33.317Z",
-    "games": "2026-11-17T15:46:33.317Z",
-    "news": "2026-11-17T15:46:33.317Z",
+    "standings": "2026-11-17T23:06:44.464Z",
+    "games": "2026-11-17T23:06:44.464Z",
+    "news": "2026-11-17T23:06:44.464Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
