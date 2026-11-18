@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-18T15:26:51.533Z",
+  "fetchedAt": "2026-11-18T22:41:34.845Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -580,7 +580,7 @@
         "position": "G",
         "height": "6' 0\"",
         "weight": "163 lbs",
-        "age": 26,
+        "age": 27,
         "country": null,
         "college": "UP",
         "headshot": null
@@ -1004,7 +1004,7 @@
         "position": "G",
         "height": "5' 10\"",
         "weight": "165 lbs",
-        "age": 34,
+        "age": 35,
         "country": null,
         "college": "LIU Brooklyn",
         "headshot": null
@@ -15200,12 +15200,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-18T15:26:51.533Z",
-    "rosters": "2026-11-18T15:26:51.533Z",
+    "teams": "2026-11-18T22:41:34.845Z",
+    "rosters": "2026-11-18T22:41:34.845Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-18T15:26:51.533Z",
-    "games": "2026-11-18T15:26:51.533Z",
-    "news": "2026-11-18T15:26:51.533Z",
+    "standings": "2026-11-18T22:41:34.845Z",
+    "games": "2026-11-18T22:41:34.845Z",
+    "news": "2026-11-18T22:41:34.845Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
