@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-17T23:06:44.464Z",
+  "fetchedAt": "2026-11-18T15:26:51.533Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -398,7 +398,7 @@
         "position": "G",
         "height": "6' 2\"",
         "weight": "190 lbs",
-        "age": 29,
+        "age": 30,
         "country": null,
         "college": "Utah",
         "headshot": null
@@ -2698,7 +2698,7 @@
         "position": "F/C",
         "height": "6' 7\"",
         "weight": "193 lbs",
-        "age": 29,
+        "age": 30,
         "country": null,
         "college": "Letran",
         "headshot": null
@@ -15200,12 +15200,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-17T23:06:44.464Z",
-    "rosters": "2026-11-17T23:06:44.464Z",
+    "teams": "2026-11-18T15:26:51.533Z",
+    "rosters": "2026-11-18T15:26:51.533Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-17T23:06:44.464Z",
-    "games": "2026-11-17T23:06:44.464Z",
-    "news": "2026-11-17T23:06:44.464Z",
+    "standings": "2026-11-18T15:26:51.533Z",
+    "games": "2026-11-18T15:26:51.533Z",
+    "news": "2026-11-18T15:26:51.533Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

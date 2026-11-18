@@ -1,7 +1,7 @@
 {
   "league": "LNBP",
   "season": "2026 Varonil",
-  "fetchedAt": "2026-11-17T15:46:38.743Z",
+  "fetchedAt": "2026-11-18T15:26:59.312Z",
   "sources": [
     {
       "name": "lnbp.mx",
@@ -14404,8 +14404,8 @@
     {
       "id": 4003,
       "league": "LNBP",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-11-17T20:15:00-06:00",
@@ -14416,7 +14416,7 @@
         "name": "Astros",
         "abbr": "ASTR",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/05b8b579d697522d64b615f004b35b81.png",
-        "score": null,
+        "score": 75,
         "linescores": [],
         "leaders": []
       },
@@ -14425,7 +14425,7 @@
         "name": "Soles",
         "abbr": "SOLE",
         "logo": "https://lnbpback.truewisdom.co/uploads/team/logo/f447ed6023ccb2bb15f68773f3cbfea7.png",
-        "score": null,
+        "score": 76,
         "linescores": [],
         "leaders": []
       }
@@ -15100,6 +15100,19 @@
   ],
   "news": [
     {
+      "id": "LNBP-astrosdejaliscoseimponeenunfinaldeinfartoysequedaconeljuegot",
+      "league": "LNBP",
+      "title": "ASTROS DE JALISCO PREVAIL IN A THRILLING FINISH AND WIN GAME THREE OF THE GRAND FINALS!",
+      "originalTitle": "¡ASTROS DE JALISCO SE IMPONE EN UN FINAL DE INFARTO Y SE QUEDA CON EL JUEGO TRES DE LA GRAN FINAL!",
+      "translatedFrom": "es",
+      "description": "The Jalisco team defended their home court and defeated Soles de Mexicali 75–74 at Arena Astros, securing a gritty victory in the battle for the Liga Caliente.mx LNBP 2026 title. The Arena Astros rocked from start to finish! On a night of high-stakes thrills, Ast",
+      "published": "2026-11-17T12:18:49.000Z",
+      "byline": "LNBP",
+      "tag": "Report",
+      "image": "https://lnbpback.truewisdom.co/uploads/news/image/984cf2c514cd3fd94e47e74bf8e8f652.jpg",
+      "url": null
+    },
+    {
       "id": "LNBP-solesganadramticamenteytieneventajade20",
       "league": "LNBP",
       "title": "SUNS WIN DRAMATICALLY AND HAVE A 2-0 LEAD",
@@ -15240,19 +15253,6 @@
       "byline": "LNBP",
       "tag": "Report",
       "image": "https://lnbpback.truewisdom.co/uploads/news/image/5cf2eb234e490da2024bc13d42cf28ba.jpg",
-      "url": null
-    },
-    {
-      "id": "LNBP-solespegaprimeroenlafinaldezona",
-      "league": "LNBP",
-      "title": "Soles hits first in the Zone Final",
-      "originalTitle": "Soles pega primero en la Final de Zona",
-      "translatedFrom": "es",
-      "description": "Soles de Mexicali recovered from a bad start to the match to finally beat the Aguascalientes Panthers 80-76 and thus take the lead in the semifinal series of the Zona Caliente.Mx of the 2026 season of the Liga Caliente.Mx LNBP. An energized PSF Auditorium witnessed d",
-      "published": "2026-10-30T10:20:16.000Z",
-      "byline": "LNBP",
-      "tag": "Report",
-      "image": "https://lnbpback.truewisdom.co/uploads/news/image/e413b072e614b1897a64718a8097eec3.jpg",
       "url": null
     }
   ],
@@ -15719,12 +15719,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-17T15:46:38.743Z",
+    "teams": "2026-11-18T15:26:59.312Z",
     "rosters": "2026-10-06T20:33:41.149Z",
     "playerStats": "2026-10-06T20:33:41.149Z",
-    "standings": "2026-11-17T15:46:38.743Z",
-    "games": "2026-11-17T15:46:38.743Z",
-    "news": "2026-11-17T15:46:38.743Z",
+    "standings": "2026-11-18T15:26:59.312Z",
+    "games": "2026-11-18T15:26:59.312Z",
+    "news": "2026-11-18T15:26:59.312Z",
     "leaders": "2026-10-06T20:33:41.149Z"
   },
   "carriedOver": [
