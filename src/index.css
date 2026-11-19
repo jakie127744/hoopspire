@@ -181,3 +181,15 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* ESPN's phone layout: cards run edge to edge, square-cornered, with grey
+   gaps between them, instead of floating in a margin. Pages opt in with
+   `.bleed` on their column wrapper. */
+@media (max-width: 639px) {
+  .bleed .card {
+    border-radius: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    box-shadow: none;
+  }
+}
