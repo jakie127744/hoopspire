@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-19T15:32:59.970Z",
+  "fetchedAt": "2026-11-19T22:45:38.252Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,6 +14711,19 @@
   ],
   "news": [
     {
+      "id": "PBA-gilasneedsoceaniaassistbutconewantstotak",
+      "league": "PBA",
+      "title": "Gilas needs Oceania assist, but Cone wants to take care of business first",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas would certainly appreciate any help it can get as it tries to gain ground in the race for a spot in next year’s Fiba World Cup. While its goal is to get past Syria and Iran in next week’s fifth window in Seremban, Malaysia, Gilas will also benefit from the results",
+      "published": "2026-11-20T05:15:31.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Sports1332766.png",
+      "url": "https://sports.inquirer.net/707802/gilas-needs-oceania-assist-but-cone-wants-to-take-care-of-business-first"
+    },
+    {
       "id": "PBA-dwightramosgilasgearupformustwinfibaqual",
       "league": "PBA",
       "title": "Dwight Ramos, Gilas gear up for must-win Fiba qualifying games",
@@ -14722,6 +14735,19 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/IMG_2915_PVL-All-Filipino-Conference-Siklab-series-PLDT-Choco-Mucho_Dwight-Ramos-scaled.jpg",
       "url": "https://sports.inquirer.net/707805/dwight-ramos-gilas-gear-up-for-must-win-fiba-qualifying-games"
+    },
+    {
+      "id": "PBA-fourpointshottostay",
+      "league": "PBA",
+      "title": "Four-point shot to stay",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Skeptics are wondering if the four-point shot is in the PBA to stay. No other league in the world has a four-point line.",
+      "published": "2026-11-19T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/20/2571319/four-point-shot-stay"
     },
     {
       "id": "PBA-carltamayoupbeatongilasrostertargetsretu",
@@ -14774,19 +14800,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.philstar.com/sports/2026/11/19/2571251/pagdanganan-eyes-strong-start-lpga-q-series-begins"
-    },
-    {
-      "id": "PBA-tntshollisjeffersonecstaticforpbasemissh",
-      "league": "PBA",
-      "title": "TNT's Hollis-Jefferson ecstatic for PBA semis showdown vs Ginebra",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Last time TNT and Barangay Ginebra faced each other in a best-of-seven series, it went all the way to Game 7.",
-      "published": "2026-11-19T09:34:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/19/2571232/tnts-hollis-jefferson-ecstatic-pba-semis-showdown-vs-ginebra"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15278,12 +15291,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-19T15:32:59.970Z",
-    "rosters": "2026-11-19T15:32:59.970Z",
+    "teams": "2026-11-19T22:45:38.252Z",
+    "rosters": "2026-11-19T22:45:38.252Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-19T15:32:59.970Z",
-    "games": "2026-11-19T15:32:59.970Z",
-    "news": "2026-11-19T15:32:59.970Z",
+    "standings": "2026-11-19T22:45:38.252Z",
+    "games": "2026-11-19T22:45:38.252Z",
+    "news": "2026-11-19T22:45:38.252Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
