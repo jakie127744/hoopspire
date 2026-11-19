@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-18T15:27:46.780Z",
+  "fetchedAt": "2026-11-19T15:33:37.855Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,35 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-18-sesi-fra--caxias-do",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-18T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "caxias-do",
+        "name": "Caxias do",
+        "abbr": "CAX",
+        "logo": null,
+        "score": 62,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-17-unifacisa-botafogo",
       "league": "NBB",
       "status": "final",
@@ -15565,6 +15594,19 @@
   ],
   "news": [
     {
+      "id": "NBB-sele-o-brasileira-de-basquete-convocada-",
+      "league": "NBB",
+      "title": "The Brazilian national basketball team is called up for games that could secure a spot in the World Cup.",
+      "originalTitle": "Seleção brasileira de basquete é convocada para jogos que podem garantir vaga na Copa do Mundo",
+      "translatedFrom": "pt",
+      "description": "Oscar Schmidt honored with Brazilian national basketball team jersey The Brazilian men's national basketball team was announced on Wednesday (18th) for the games against the United States and Mexico in the World Cup Qualifiers, which will take place on November 27th and 30th at the",
+      "published": "2026-11-18T15:43:08.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/4SwlxBQJpDHYwqnMAkHkCi7wDI8=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/S/V/0Ax6XATv6Ey7xOUnaRBA/brasil-convocacao-eliminatorias.webp",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/18/selecao-brasileira-de-basquete-e-convocada-para-jogos-que-podem-garantir-vaga-na-copa-do-mundo.ghtml"
+    },
+    {
       "id": "NBB-amap-ter-cinco-atletas-na-sele-o-brasile",
       "league": "NBB",
       "title": "Amapá will have five athletes on the Brazilian Master Basketball Team competing in Argentina",
@@ -15745,19 +15787,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/nLSjOjlu42FSVeRpuxuhsSkFOYc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/m/V/XpfFHXQUit6e0kVaJkQg/mhc.jpg",
       "url": "https://ge.globo.com/sp/campinas-e-regiao/noticia/2026/11/10/as-duas-mulheres-que-ajudaram-a-construir-a-historia-do-basquete-brasileiro.ghtml"
-    },
-    {
-      "id": "NBB-jimmy-butler-vira-t-cnico-por-um-dia-e-d",
-      "league": "NBB",
-      "title": "Jimmy Butler becomes coach for a day and entertains team with advice: \"Pass the ball to Steph\"",
-      "originalTitle": "Jimmy Butler vira técnico por um dia e diverte equipe com conselho: \"Passem a bola pro Steph\"",
-      "translatedFrom": "pt",
-      "description": "Cooper Flagg reaches historic milestone for an NBA teenager Jimmy Butler went viral on social media while becoming a “coach” for a day at the Golden State Warriors game. In the early hours of Tuesday, the star was on the bench wearing the same outfit as the coaching staff and played at being three",
-      "published": "2026-11-10T13:05:40.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/kGMpp7wG8R1bREpFL3fYB3uE8I4=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/p/j/OBJh09Q4AffIm6lh8IIQ/jimmy-butler-lado-a-lado-1200x800.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/10/jimmy-butler-vira-tecnico-por-um-dia-e-diverte-equipe-com-conselho-passem-a-bola-pro-steph.ghtml"
     }
   ],
   "leaders": {
@@ -16228,8 +16257,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-18T15:27:46.780Z",
-    "news": "2026-11-18T15:27:46.780Z"
+    "games": "2026-11-19T15:33:37.855Z",
+    "news": "2026-11-19T15:33:37.855Z"
   },
   "carriedOver": [
     "teams",

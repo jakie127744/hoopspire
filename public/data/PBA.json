@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-18T22:41:34.845Z",
+  "fetchedAt": "2026-11-19T15:32:59.970Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -2022,7 +2022,7 @@
         "position": "F",
         "height": "6' 4\"",
         "weight": null,
-        "age": 25,
+        "age": 26,
         "country": null,
         "college": "Letran",
         "headshot": null
@@ -14711,6 +14711,84 @@
   ],
   "news": [
     {
+      "id": "PBA-dwightramosgilasgearupformustwinfibaqual",
+      "league": "PBA",
+      "title": "Dwight Ramos, Gilas gear up for must-win Fiba qualifying games",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Dwight Ramos and Gilas Pilipinas are treating the fifth window of the Fiba World Cup 2027 Asian Qualifiers as another “win or go home” situation. The Filipinos are currently at 4-4 in Group E, looking for a top-3 finish and an automatic qualification for next ",
+      "published": "2026-11-19T23:09:35.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/IMG_2915_PVL-All-Filipino-Conference-Siklab-series-PLDT-Choco-Mucho_Dwight-Ramos-scaled.jpg",
+      "url": "https://sports.inquirer.net/707805/dwight-ramos-gilas-gear-up-for-must-win-fiba-qualifying-games"
+    },
+    {
+      "id": "PBA-carltamayoupbeatongilasrostertargetsretu",
+      "league": "PBA",
+      "title": "Carl Tamayo upbeat on Gilas roster, targets return when healthy",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines —Carl Tamayo expressed confidence in Gilas Pilipinas’ 12-man roster for the fifth window of the Fiba World Cup 2027 Asian Qualifiers, even as an injury setback keeps him out of the lineup. The Gilas forward remains sidelined after sustaining another injury whi",
+      "published": "2026-11-19T15:51:10.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/IMG_0416_PVL-All-Filipino-Conference-Siklab-series-Capital1-Galeries_Carl-Tamayo-scaled.jpg",
+      "url": "https://sports.inquirer.net/707664/carl-tamayo-upbeat-on-gilas-roster-targets-return-when-healthy"
+    },
+    {
+      "id": "PBA-dwightramosunfazedbygilaschemistryconcer",
+      "league": "PBA",
+      "title": "Dwight Ramos unfazed by Gilas chemistry concerns ahead of crucial Window 5",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Dwight Ramos is not worried about potential chemistry issues as Gilas Pilipinas prepares for the fifth window of the FIBA Basketball World Cup 2027 Asian Qualifiers this November. The Philippine men’s national basketball team will welcome naturalized player Bennie Boatwright for ",
+      "published": "2026-11-19T14:42:27.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2023/09/FIBA-WC-PHI-vs.-CHN-Rhenz-Abando-0540-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/dwight-ramos-unfazed-by-gilas-chemistry-concerns-ahead-of-crucial-window-5/390387"
+    },
+    {
+      "id": "PBA-rhenzabandosuffersankleinjuryeightdaysbe",
+      "league": "PBA",
+      "title": "Rhenz Abando suffers ankle injury eight days before Gilas’ FIBA window",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Just eight days before Gilas Pilipinas opens its campaign in the fifth window of the FIBA World Cup Asian Qualifiers, Rhenz Abando has suffered a potentially costly injury. Abando sustained an apparent right ankle injury during Anyang Jung Kwan Jang’s game against Busan KCC on Th",
+      "published": "2026-11-19T13:05:50.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": null,
+      "url": "https://tiebreakertimes.com.ph/tbt/rhenz-abando-suffers-ankle-injury-eight-days-before-gilas-fiba-window/390374"
+    },
+    {
+      "id": "PBA-pagdangananeyesstrongstartaslpgaqseriesb",
+      "league": "PBA",
+      "title": "Pagdanganan eyes strong start as LPGA Q-Series begins",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Bianca Pagdanganan faces another demanding test in her quest to regain full LPGA Tour status, opening her campaign Thursday (Friday Manila time) in the grueling five-round Final Qualifying Stage at the Robert Trent Jones Golf Trail at Magnolia Grove in Mobile, Alabama.",
+      "published": "2026-11-19T11:44:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/19/2571251/pagdanganan-eyes-strong-start-lpga-q-series-begins"
+    },
+    {
+      "id": "PBA-tntshollisjeffersonecstaticforpbasemissh",
+      "league": "PBA",
+      "title": "TNT's Hollis-Jefferson ecstatic for PBA semis showdown vs Ginebra",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Last time TNT and Barangay Ginebra faced each other in a best-of-seven series, it went all the way to Game 7.",
+      "published": "2026-11-19T09:34:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/19/2571232/tnts-hollis-jefferson-ecstatic-pba-semis-showdown-vs-ginebra"
+    },
+    {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
       "league": "PBA",
       "title": "Abando returns to Gilas as debuting Boatwright banners new FIBA roster",
@@ -15200,12 +15278,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-18T22:41:34.845Z",
-    "rosters": "2026-11-18T22:41:34.845Z",
+    "teams": "2026-11-19T15:32:59.970Z",
+    "rosters": "2026-11-19T15:32:59.970Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-18T22:41:34.845Z",
-    "games": "2026-11-18T22:41:34.845Z",
-    "news": "2026-11-18T22:41:34.845Z",
+    "standings": "2026-11-19T15:32:59.970Z",
+    "games": "2026-11-19T15:32:59.970Z",
+    "news": "2026-11-19T15:32:59.970Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
