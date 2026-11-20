@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-19T15:33:37.855Z",
+  "fetchedAt": "2026-11-20T15:12:09.875Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,122 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-19-unifacisa-flamengo",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "unifacisa",
+        "name": "UniFacisa",
+        "abbr": "UNI",
+        "logo": null,
+        "score": 102,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "flamengo",
+        "name": "Flamengo",
+        "abbr": "FLA",
+        "logo": null,
+        "score": 79,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-19-pato-corinthi-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-19-pinheiros-cruzeiro",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 88,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cruzeiro",
+        "name": "Cruzeiro",
+        "abbr": "CRU",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-19-osasco-minas",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-19T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "osasco",
+        "name": "Osasco",
+        "abbr": "OSA",
+        "logo": null,
+        "score": 64,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 81,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-18-sesi-fra--caxias-do",
       "league": "NBB",
       "status": "final",
@@ -16257,8 +16373,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-19T15:33:37.855Z",
-    "news": "2026-11-19T15:33:37.855Z"
+    "games": "2026-11-20T15:12:09.875Z",
+    "news": "2026-11-20T15:12:09.875Z"
   },
   "carriedOver": [
     "teams",

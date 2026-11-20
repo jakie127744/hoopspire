@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-19T22:45:38.252Z",
+  "fetchedAt": "2026-11-20T15:11:36.186Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,6 +30,7 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
+    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -2008,215 +2009,9 @@
         "position": "F",
         "height": "6' 5\"",
         "weight": "210 lbs",
-        "age": 35,
+        "age": 36,
         "country": null,
         "college": "Adamson",
-        "headshot": null
-      }
-    ],
-    "terrafirma-dyip": [
-      {
-        "id": "terrafirma-dyip-ira-bataller-fa-",
-        "name": "Ira Bataller (FA)",
-        "jersey": "0",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-juami-tiongson",
-        "name": "Juami Tiongson",
-        "jersey": "3",
-        "position": "G",
-        "height": "5' 10\"",
-        "weight": "175 lbs",
-        "age": 35,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-paul-garcia",
-        "name": "Paul Garcia",
-        "jersey": "4",
-        "position": "G",
-        "height": "5' 11\"",
-        "weight": "170 lbs",
-        "age": 27,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-keith-zaldivar",
-        "name": "Keith Zaldivar",
-        "jersey": "5",
-        "position": "C",
-        "height": "6' 6\"",
-        "weight": null,
-        "age": 30,
-        "country": null,
-        "college": "Adamson",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-louie-sangalang",
-        "name": "Louie Sangalang",
-        "jersey": "6",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "198 lbs",
-        "age": 28,
-        "country": null,
-        "college": "Letran",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-chris-miller",
-        "name": "Chris Miller",
-        "jersey": "8",
-        "position": "G",
-        "height": "6' 2\"",
-        "weight": "180 lbs",
-        "age": 33,
-        "country": null,
-        "college": "Salem",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-cj-catapusan",
-        "name": "CJ Catapusan",
-        "jersey": "9",
-        "position": "F",
-        "height": "6' 3\"",
-        "weight": null,
-        "age": 29,
-        "country": null,
-        "college": "UP",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-aljon-mariano",
-        "name": "Aljon Mariano",
-        "jersey": "10",
-        "position": "F",
-        "height": "6' 3\"",
-        "weight": "175 lbs",
-        "age": 34,
-        "country": null,
-        "college": "UST",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-ben-adamos",
-        "name": "Ben Adamos",
-        "jersey": "11",
-        "position": "C",
-        "height": "6' 7\"",
-        "weight": "200 lbs",
-        "age": 30,
-        "country": null,
-        "college": "UPHSD",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
-        "name": "Maverick Ahanmisi (FA)",
-        "jersey": "13",
-        "position": "G",
-        "height": "6' 2\"",
-        "weight": "190 lbs",
-        "age": 35,
-        "country": null,
-        "college": "Minnesota",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-geo-chiu",
-        "name": "Geo Chiu",
-        "jersey": "18",
-        "position": "C",
-        "height": "6' 10\"",
-        "weight": "249 lbs",
-        "age": 25,
-        "country": null,
-        "college": "Ateneo",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-joseph-eriobu",
-        "name": "Joseph Eriobu",
-        "jersey": "23",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": "198 lbs",
-        "age": 34,
-        "country": null,
-        "college": "Mapúa",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-mark-nonoy",
-        "name": "Mark Nonoy",
-        "jersey": "24",
-        "position": "G",
-        "height": "5' 9\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "De La Salle",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-jm-bravo",
-        "name": "JM Bravo",
-        "jersey": "26",
-        "position": "F",
-        "height": "6' 4\"",
-        "weight": null,
-        "age": 26,
-        "country": null,
-        "college": "Lyceum",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-shawn-umali",
-        "name": "Shawn Umali",
-        "jersey": "28",
-        "position": "F/C",
-        "height": "6' 4\"",
-        "weight": "242 lbs",
-        "age": 25,
-        "country": null,
-        "college": "St. Benilde",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-didat-hanapi",
-        "name": "Didat Hanapi",
-        "jersey": "30",
-        "position": "G/F",
-        "height": "6' 2\"",
-        "weight": null,
-        "age": 25,
-        "country": null,
-        "college": "Adamson",
-        "headshot": null
-      },
-      {
-        "id": "terrafirma-dyip-brent-paraiso",
-        "name": "Brent Paraiso",
-        "jersey": "38",
-        "position": "G",
-        "height": "6' 1\"",
-        "weight": "190 lbs",
-        "age": 28,
-        "country": null,
-        "college": "Letran",
         "headshot": null
       }
     ],
@@ -14711,6 +14506,32 @@
   ],
   "news": [
     {
+      "id": "PBA-troyrosarioreplacesrhenzabandoatgilasfor",
+      "league": "PBA",
+      "title": "Troy Rosario replaces Rhenz Abando at Gilas for Fiba window",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Troy Rosario was tapped as a last-minute replacement for the injured Rhenz Abando to the Gilas Pilipinas roster for the fifth window of the Fiba World Cup 2027 Asian Qualifiers. Coach Tim Cone said Rosario’s familiarity and ability to play multiple positions prompted the decision",
+      "published": "2026-11-20T15:25:16.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/06/IMG_0511_Gilas-Pilipinas-press-con-and-open-practice_Troy-Rosario-scaled.jpg",
+      "url": "https://sports.inquirer.net/707827/troy-rosario-replaces-rhenz-abando-at-gilas-for-fiba-window"
+    },
+    {
+      "id": "PBA-rhenzabandoruledoutofgilasfibawindowwith",
+      "league": "PBA",
+      "title": "Rhenz Abando ruled out of Gilas’ Fiba window with ankle injury",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Rhenz Abando will no longer play for Gilas Pilipinas in the fifth window of the Fiba World Cup 2027 Asian Qualifiers in Seremban, Malaysia, next week due to an ankle injury. Coach Tim Cone on Friday confirmed Abando’s absence from the two games against Syria a",
+      "published": "2026-11-20T14:31:33.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2023/08/IMG_1863_FIBA-world-cup-South-Sudan-vs-Philippines_Rhenz-Abando.jpg",
+      "url": "https://sports.inquirer.net/707824/rhenz-abando-ruled-out-of-gilas-fiba-window-with-ankle-injury"
+    },
+    {
       "id": "PBA-gilasneedsoceaniaassistbutconewantstotak",
       "league": "PBA",
       "title": "Gilas needs Oceania assist, but Cone wants to take care of business first",
@@ -14724,6 +14545,45 @@
       "url": "https://sports.inquirer.net/707802/gilas-needs-oceania-assist-but-cone-wants-to-take-care-of-business-first"
     },
     {
+      "id": "PBA-rhenzabandoruledoutofgilaswindow5campaig",
+      "league": "PBA",
+      "title": "Rhenz Abando ruled out of Gilas Window 5 campaign, Troy Rosario called up",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rhenz Abando has been ruled out of Gilas Pilipinas’ Window 5 campaign in the fast-approaching FIBA Basketball World Cup 2027 Asian Qualifiers due to the ankle injury he suffered just days before the November 26-29 competitions. The Samahang Basketbol ng Pilipinas announced the un",
+      "published": "2026-11-20T04:05:57.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/2026-27-KBL-Anyang-JKJ-vs-Busan-KCC-Rhenz-Abando-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/rhenz-abando-ruled-out-of-gilas-window-5-campaign-troy-rosario-called-up/390394"
+    },
+    {
+      "id": "PBA-rhenzabandoouttroyrosarioinforgilaspilip",
+      "league": "PBA",
+      "title": "Rhenz Abando out, Troy Rosario in for Gilas Pilipinas in FIBA World Cup Qualifiers after injury",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rhenz Abando's much-anticipated return to Gilas Pilipinas has been put on hold after he sustained an apparent injury during a KBL game between his Anyang Jung Kwan Jang Red Boosters and the Busan KCC Egis on Thursday.",
+      "published": "2026-11-20T02:33:47.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1010174/rhenz-abando-out-troy-rosario-in-for-gilas-pilipinas-in-fiba-world-cup-qualifiers-after-injury/story/"
+    },
+    {
+      "id": "PBA-injuredabandooutofgilaslineuprosariostep",
+      "league": "PBA",
+      "title": "Injured Abando out of Gilas lineup; Rosario steps in anew",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Rhenz Abando’s Gilas Pilipinas return will have to wait.",
+      "published": "2026-11-20T02:30:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/20/2571439/injured-abando-out-gilas-lineup-rosario-steps-anew"
+    },
+    {
       "id": "PBA-dwightramosgilasgearupformustwinfibaqual",
       "league": "PBA",
       "title": "Dwight Ramos, Gilas gear up for must-win Fiba qualifying games",
@@ -14735,19 +14595,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/IMG_2915_PVL-All-Filipino-Conference-Siklab-series-PLDT-Choco-Mucho_Dwight-Ramos-scaled.jpg",
       "url": "https://sports.inquirer.net/707805/dwight-ramos-gilas-gear-up-for-must-win-fiba-qualifying-games"
-    },
-    {
-      "id": "PBA-fourpointshottostay",
-      "league": "PBA",
-      "title": "Four-point shot to stay",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Skeptics are wondering if the four-point shot is in the PBA to stay. No other league in the world has a four-point line.",
-      "published": "2026-11-19T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/20/2571319/four-point-shot-stay"
     },
     {
       "id": "PBA-carltamayoupbeatongilasrostertargetsretu",
@@ -14768,38 +14615,12 @@
       "title": "Dwight Ramos unfazed by Gilas chemistry concerns ahead of crucial Window 5",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "Dwight Ramos is not worried about potential chemistry issues as Gilas Pilipinas prepares for the fifth window of the FIBA Basketball World Cup 2027 Asian Qualifiers this November. The Philippine men’s national basketball team will welcome naturalized player Bennie Boatwright for ",
+      "description": "Dwight Ramos is not worrying about potential chemistry issues as Gilas Pilipinas prepares for the fifth window of the FIBA Basketball World Cup 2027 Asian Qualifiers this November. The Philippine men’s national basketball team will welcome naturalized player Bennie Boatwright for",
       "published": "2026-11-19T14:42:27.000Z",
       "byline": "Tiebreaker Times",
       "tag": "Report",
       "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2023/09/FIBA-WC-PHI-vs.-CHN-Rhenz-Abando-0540-150x150.jpg",
       "url": "https://tiebreakertimes.com.ph/tbt/dwight-ramos-unfazed-by-gilas-chemistry-concerns-ahead-of-crucial-window-5/390387"
-    },
-    {
-      "id": "PBA-rhenzabandosuffersankleinjuryeightdaysbe",
-      "league": "PBA",
-      "title": "Rhenz Abando suffers ankle injury eight days before Gilas’ FIBA window",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Just eight days before Gilas Pilipinas opens its campaign in the fifth window of the FIBA World Cup Asian Qualifiers, Rhenz Abando has suffered a potentially costly injury. Abando sustained an apparent right ankle injury during Anyang Jung Kwan Jang’s game against Busan KCC on Th",
-      "published": "2026-11-19T13:05:50.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": null,
-      "url": "https://tiebreakertimes.com.ph/tbt/rhenz-abando-suffers-ankle-injury-eight-days-before-gilas-fiba-window/390374"
-    },
-    {
-      "id": "PBA-pagdangananeyesstrongstartaslpgaqseriesb",
-      "league": "PBA",
-      "title": "Pagdanganan eyes strong start as LPGA Q-Series begins",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Bianca Pagdanganan faces another demanding test in her quest to regain full LPGA Tour status, opening her campaign Thursday (Friday Manila time) in the grueling five-round Final Qualifying Stage at the Robert Trent Jones Golf Trail at Magnolia Grove in Mobile, Alabama.",
-      "published": "2026-11-19T11:44:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/19/2571251/pagdanganan-eyes-strong-start-lpga-q-series-begins"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15291,12 +15112,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-19T22:45:38.252Z",
-    "rosters": "2026-11-19T22:45:38.252Z",
+    "teams": "2026-11-20T15:11:36.186Z",
+    "rosters": "2026-11-20T15:11:36.186Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-19T22:45:38.252Z",
-    "games": "2026-11-19T22:45:38.252Z",
-    "news": "2026-11-19T22:45:38.252Z",
+    "standings": "2026-11-20T15:11:36.186Z",
+    "games": "2026-11-20T15:11:36.186Z",
+    "news": "2026-11-20T15:11:36.186Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
