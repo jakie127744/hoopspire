@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-20T15:11:36.186Z",
+  "fetchedAt": "2026-11-20T22:20:35.188Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14506,6 +14506,97 @@
   ],
   "news": [
     {
+      "id": "PBA-troyrosariowilleasilyfitintogilassystems",
+      "league": "PBA",
+      "title": "Troy Rosario will easily fit into Gilas system, says Tim Cone",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas made one quick change before departing for Malaysia on Saturday to begin preparations for the fifth window of the Fiba World Cup Asian Qualifiers. With Rhenz Abando out with an ankle injury, coach Tim Cone made the decision to tap his Barangay Ginebra big man Troy",
+      "published": "2026-11-21T05:25:22.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/06/IMG_0511_Gilas-Pilipinas-press-con-and-open-practice_Troy-Rosario-scaled.jpg",
+      "url": "https://sports.inquirer.net/707896/troy-rosario-will-easily-fit-into-gilas-system-says-tim-cone"
+    },
+    {
+      "id": "PBA-pjsimonpurefoodslegendandformerpbastardi",
+      "league": "PBA",
+      "title": "PJ Simon, Purefoods legend and former PBA star, dies at 46",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Peter June Simon, who rose from obscurity to become of the cornerstones of the Purefoods franchise for 16 PBA seasons, died Friday night after collapsing while playing basketball in Davao City. Simon, born June 1, 1980 in Makilala, Cotabato, was 46. The Magnol",
+      "published": "2026-11-21T00:59:53.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2018/12/PBA-FINALS-GAME-6-ALASKA-VS-MAGNOLIA-3808.jpg",
+      "url": "https://sports.inquirer.net/707914/pj-simon-purefoods-legend-and-former-pba-star-dies-at-46"
+    },
+    {
+      "id": "PBA-whowaspjsimonrememberingthe8timepbachamp",
+      "league": "PBA",
+      "title": "Who was PJ Simon? Remembering the 8-Time PBA champion",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Former PBA champion Peter June “PJ” Simon passed away on Friday. He was 46.",
+      "published": "2026-11-20T18:24:07.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1010268/who-was-pj-simon-remembering-the-8-time-pba-champion/story/"
+    },
+    {
+      "id": "PBA-expbastarpeterjunesimonpassesawaytribute",
+      "league": "PBA",
+      "title": "Ex-PBA star Peter June Simon passes away; tributes pour in",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Former PBA champion Peter June Simon has passed away, his former PBA team Magnolia confirmed. He was 46.",
+      "published": "2026-11-20T17:27:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/21/2571598/ex-pba-star-peter-june-simon-passes-away-tributes-pour-in"
+    },
+    {
+      "id": "PBA-pbagreatpjsimonthescoringapostlediesat46",
+      "league": "PBA",
+      "title": "PBA great PJ Simon, the ‘Scoring Apostle,’ dies at 46",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Philippine basketball mourns the sudden passing of former PBA star PJ Simon, who died after collapsing during a game",
+      "published": "2026-11-20T16:50:00.000Z",
+      "byline": "Rappler",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.rappler.com/people/obituary/pba-great-pj-simon-dies/"
+    },
+    {
+      "id": "PBA-pjsimonpassesawayat46",
+      "league": "PBA",
+      "title": "PJ Simon passes away at 46",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Former PBA champion Peter June 'PJ\" Simon has passed away on Friday. He was 46.",
+      "published": "2026-11-20T16:43:38.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1010258/pj-simon-passes-away-at-46/story/"
+    },
+    {
+      "id": "PBA-rosariofillsabandovoid",
+      "league": "PBA",
+      "title": "Rosario fills Abando void",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Abando’s awaited Gilas comeback – and first stint under coach Tim Cone – was spoiled by a sprained ankle he sustained while playing for his Korean club Anyang Jung Kwan Jang Red Boosters Thursday.",
+      "published": "2026-11-20T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/21/2571510/rosario-fills-abando-void"
+    },
+    {
       "id": "PBA-troyrosarioreplacesrhenzabandoatgilasfor",
       "league": "PBA",
       "title": "Troy Rosario replaces Rhenz Abando at Gilas for Fiba window",
@@ -14517,6 +14608,19 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/06/IMG_0511_Gilas-Pilipinas-press-con-and-open-practice_Troy-Rosario-scaled.jpg",
       "url": "https://sports.inquirer.net/707827/troy-rosario-replaces-rhenz-abando-at-gilas-for-fiba-window"
+    },
+    {
+      "id": "PBA-magnoliagreatpjsimon46passesaway",
+      "league": "PBA",
+      "title": "Magnolia great PJ Simon, 46, passes away",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Philippine basketball lost one of its most beloved scoring talents as former PBA star Peter June Simon (June 1, 1980-November 20, 2026) passed away on Friday evening. He was 46. Simon reportedly experienced a medical emergency while participating in a 40-and-above basketball leag",
+      "published": "2026-11-20T15:16:34.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2017/07/2017-PBA-Governors-Cup-Star-def-Blackwater-PJ-Simon-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/magnolia-great-pj-simon-46-passes-away/390440"
     },
     {
       "id": "PBA-rhenzabandoruledoutofgilasfibawindowwith",
@@ -14571,19 +14675,6 @@
       "url": "https://www.gmanetwork.com/news/sports/basketball/1010174/rhenz-abando-out-troy-rosario-in-for-gilas-pilipinas-in-fiba-world-cup-qualifiers-after-injury/story/"
     },
     {
-      "id": "PBA-injuredabandooutofgilaslineuprosariostep",
-      "league": "PBA",
-      "title": "Injured Abando out of Gilas lineup; Rosario steps in anew",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Rhenz Abando’s Gilas Pilipinas return will have to wait.",
-      "published": "2026-11-20T02:30:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/20/2571439/injured-abando-out-gilas-lineup-rosario-steps-anew"
-    },
-    {
       "id": "PBA-dwightramosgilasgearupformustwinfibaqual",
       "league": "PBA",
       "title": "Dwight Ramos, Gilas gear up for must-win Fiba qualifying games",
@@ -14610,19 +14701,6 @@
       "url": "https://sports.inquirer.net/707664/carl-tamayo-upbeat-on-gilas-roster-targets-return-when-healthy"
     },
     {
-      "id": "PBA-dwightramosunfazedbygilaschemistryconcer",
-      "league": "PBA",
-      "title": "Dwight Ramos unfazed by Gilas chemistry concerns ahead of crucial Window 5",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Dwight Ramos is not worrying about potential chemistry issues as Gilas Pilipinas prepares for the fifth window of the FIBA Basketball World Cup 2027 Asian Qualifiers this November. The Philippine men’s national basketball team will welcome naturalized player Bennie Boatwright for",
-      "published": "2026-11-19T14:42:27.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2023/09/FIBA-WC-PHI-vs.-CHN-Rhenz-Abando-0540-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/dwight-ramos-unfazed-by-gilas-chemistry-concerns-ahead-of-crucial-window-5/390387"
-    },
-    {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
       "league": "PBA",
       "title": "Abando returns to Gilas as debuting Boatwright banners new FIBA roster",
@@ -14634,19 +14712,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.rappler.com/people/athletes/rhenz-abando-bennie-boatwright-gilas-pilipinas-fiba-lineup-november-2026/"
-    },
-    {
-      "id": "PBA-meeteliasgishthefeurookieturningheadsinu",
-      "league": "PBA",
-      "title": "Meet Elias Gish, the FEU rookie turning heads in UAAP basketball",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Elias Gish, a 6-foot-7 teenager from the Gilas Pilipinas Youth program, steadily stakes his claim for a future takeover of the contending FEU Tamaraws with his no-nonsense, defense-oriented play",
-      "published": "2026-11-08T02:00:00.000Z",
-      "byline": "Rappler",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.rappler.com/people/athletes/elias-gish-feu-tamaraws-rookie-uaap-baketball/"
     }
   ],
   "leaders": {
@@ -15112,12 +15177,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-20T15:11:36.186Z",
-    "rosters": "2026-11-20T15:11:36.186Z",
+    "teams": "2026-11-20T22:20:35.188Z",
+    "rosters": "2026-11-20T22:20:35.188Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-20T15:11:36.186Z",
-    "games": "2026-11-20T15:11:36.186Z",
-    "news": "2026-11-20T15:11:36.186Z",
+    "standings": "2026-11-20T22:20:35.188Z",
+    "games": "2026-11-20T22:20:35.188Z",
+    "news": "2026-11-20T22:20:35.188Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
