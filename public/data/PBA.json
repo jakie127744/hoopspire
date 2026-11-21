@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-20T22:20:35.188Z",
+  "fetchedAt": "2026-11-21T14:28:36.335Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -2012,6 +2011,212 @@
         "age": 36,
         "country": null,
         "college": "Adamson",
+        "headshot": null
+      }
+    ],
+    "terrafirma-dyip": [
+      {
+        "id": "terrafirma-dyip-ira-bataller-fa-",
+        "name": "Ira Bataller (FA)",
+        "jersey": "0",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-juami-tiongson",
+        "name": "Juami Tiongson",
+        "jersey": "3",
+        "position": "G",
+        "height": "5' 10\"",
+        "weight": "175 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-paul-garcia",
+        "name": "Paul Garcia",
+        "jersey": "4",
+        "position": "G",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 27,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-keith-zaldivar",
+        "name": "Keith Zaldivar",
+        "jersey": "5",
+        "position": "C",
+        "height": "6' 6\"",
+        "weight": null,
+        "age": 30,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-louie-sangalang",
+        "name": "Louie Sangalang",
+        "jersey": "6",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-chris-miller",
+        "name": "Chris Miller",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "180 lbs",
+        "age": 33,
+        "country": null,
+        "college": "Salem",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-cj-catapusan",
+        "name": "CJ Catapusan",
+        "jersey": "9",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": null,
+        "age": 29,
+        "country": null,
+        "college": "UP",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-aljon-mariano",
+        "name": "Aljon Mariano",
+        "jersey": "10",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": "175 lbs",
+        "age": 34,
+        "country": null,
+        "college": "UST",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-ben-adamos",
+        "name": "Ben Adamos",
+        "jersey": "11",
+        "position": "C",
+        "height": "6' 7\"",
+        "weight": "200 lbs",
+        "age": 30,
+        "country": null,
+        "college": "UPHSD",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
+        "name": "Maverick Ahanmisi (FA)",
+        "jersey": "13",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Minnesota",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-geo-chiu",
+        "name": "Geo Chiu",
+        "jersey": "18",
+        "position": "C",
+        "height": "6' 10\"",
+        "weight": "249 lbs",
+        "age": 25,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-joseph-eriobu",
+        "name": "Joseph Eriobu",
+        "jersey": "23",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 34,
+        "country": null,
+        "college": "Mapúa",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-mark-nonoy",
+        "name": "Mark Nonoy",
+        "jersey": "24",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "De La Salle",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-jm-bravo",
+        "name": "JM Bravo",
+        "jersey": "26",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Lyceum",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-shawn-umali",
+        "name": "Shawn Umali",
+        "jersey": "28",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "242 lbs",
+        "age": 25,
+        "country": null,
+        "college": "St. Benilde",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-didat-hanapi",
+        "name": "Didat Hanapi",
+        "jersey": "30",
+        "position": "G/F",
+        "height": "6' 2\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-brent-paraiso",
+        "name": "Brent Paraiso",
+        "jersey": "38",
+        "position": "G",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
         "headshot": null
       }
     ],
@@ -14506,6 +14711,32 @@
   ],
   "news": [
     {
+      "id": "PBA-pjsimonrememberedbyteammatesforhumilityh",
+      "league": "PBA",
+      "title": "PJ Simon remembered by teammates for humility, hard work and heart",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "MANILA, Philippines–Former teammates, coaches and opponents paid tribute to Purefoods legend Peter June Simon, sharing their fondest memories of the eight-time PBA champion following his death on Friday. Tributes poured in for Simon, who grew his legend in the PBA with the Purefo",
+      "published": "2026-11-21T16:05:19.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2018/12/PBA-FINALS-GAME-6-ALASKA-VS-MAGNOLIA-2324.jpg",
+      "url": "https://sports.inquirer.net/707956/pj-simon-remembered-by-teammates-for-humility-hard-work-and-heart"
+    },
+    {
+      "id": "PBA-lookpjsimonspenttimewithwifejehzahuelarb",
+      "league": "PBA",
+      "title": "LOOK: PJ Simon spent time with wife Jehza Huelar before his untimely passing",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Before his sudden passing, former PBA star PJ Simon still got to share a special and memorable vacation with his wife, Jehza Huelar.",
+      "published": "2026-11-21T11:39:40.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1010334/look-pj-simon-spends-time-with-wife-jehza-huelar-before-his-untimely-passing/story/"
+    },
+    {
       "id": "PBA-troyrosariowilleasilyfitintogilassystems",
       "league": "PBA",
       "title": "Troy Rosario will easily fit into Gilas system, says Tim Cone",
@@ -14519,30 +14750,56 @@
       "url": "https://sports.inquirer.net/707896/troy-rosario-will-easily-fit-into-gilas-system-says-tim-cone"
     },
     {
+      "id": "PBA-timconeonlatepjsimonwhatahumblemanhewas",
+      "league": "PBA",
+      "title": "Tim Cone on late PJ Simon: 'What a humble man he was'",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Gilas Pilipinas and Barangay Ginebra coach Tim Cone mourned the passing of his former player PJ Simon, whom he described as a humble man.",
+      "published": "2026-11-21T03:13:41.000Z",
+      "byline": "GMA News",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.gmanetwork.com/news/sports/basketball/1010287/tim-cone-on-late-pj-simon-what-a-humble-man-he-was/story/"
+    },
+    {
+      "id": "PBA-pjsimonmicrowavescorerwhocandeliverwhenn",
+      "league": "PBA",
+      "title": "PJ Simon: Microwave scorer who can deliver when needed",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "In the PBA back in the 2000s to 2010s, if you need buckets from local guards, there is no shortage of names who can answer the call.",
+      "published": "2026-11-21T03:09:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/21/2571671/pj-simon-microwave-scorer-who-can-deliver-when-needed"
+    },
+    {
+      "id": "PBA-timconechitovictolerorememberpjsimonashu",
+      "league": "PBA",
+      "title": "Tim Cone, Chito Victolero remember PJ Simon as humble star",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Former coaches Tim Cone and Chito Victolero paid heartfelt tributes to the late PJ Simon, remembering the former PBA star as a humble individual, a dependable teammate, and a player whose journey embodied hard work and perseverance. Simon passed away on Friday evening at the age ",
+      "published": "2026-11-21T01:55:09.000Z",
+      "byline": "Tiebreaker Times",
+      "tag": "Report",
+      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2020/09/PBA-Season-38-Magnolia-def-Ginebra-PJ-Simon-vs-mark-caguioa-150x150.jpg",
+      "url": "https://tiebreakertimes.com.ph/tbt/tim-cone-chito-victolero-remember-pj-simon-as-humble-star/390453"
+    },
+    {
       "id": "PBA-pjsimonpurefoodslegendandformerpbastardi",
       "league": "PBA",
       "title": "PJ Simon, Purefoods legend and former PBA star, dies at 46",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "MANILA, Philippines–Peter June Simon, who rose from obscurity to become of the cornerstones of the Purefoods franchise for 16 PBA seasons, died Friday night after collapsing while playing basketball in Davao City. Simon, born June 1, 1980 in Makilala, Cotabato, was 46. The Magnol",
+      "description": "MANILA, Philippines – Peter June Simon, who rose from obscurity to become one of the cornerstones of the Purefoods franchise for 16 PBA seasons, died Friday night after collapsing while playing basketball in Davao City. Simon, born June 1, 1980 in Makilala, Cotabato, was 46. The ",
       "published": "2026-11-21T00:59:53.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2018/12/PBA-FINALS-GAME-6-ALASKA-VS-MAGNOLIA-3808.jpg",
       "url": "https://sports.inquirer.net/707914/pj-simon-purefoods-legend-and-former-pba-star-dies-at-46"
-    },
-    {
-      "id": "PBA-whowaspjsimonrememberingthe8timepbachamp",
-      "league": "PBA",
-      "title": "Who was PJ Simon? Remembering the 8-Time PBA champion",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Former PBA champion Peter June “PJ” Simon passed away on Friday. He was 46.",
-      "published": "2026-11-20T18:24:07.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1010268/who-was-pj-simon-remembering-the-8-time-pba-champion/story/"
     },
     {
       "id": "PBA-expbastarpeterjunesimonpassesawaytribute",
@@ -14571,32 +14828,6 @@
       "url": "https://www.rappler.com/people/obituary/pba-great-pj-simon-dies/"
     },
     {
-      "id": "PBA-pjsimonpassesawayat46",
-      "league": "PBA",
-      "title": "PJ Simon passes away at 46",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Former PBA champion Peter June 'PJ\" Simon has passed away on Friday. He was 46.",
-      "published": "2026-11-20T16:43:38.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1010258/pj-simon-passes-away-at-46/story/"
-    },
-    {
-      "id": "PBA-rosariofillsabandovoid",
-      "league": "PBA",
-      "title": "Rosario fills Abando void",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Abando’s awaited Gilas comeback – and first stint under coach Tim Cone – was spoiled by a sprained ankle he sustained while playing for his Korean club Anyang Jung Kwan Jang Red Boosters Thursday.",
-      "published": "2026-11-20T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/21/2571510/rosario-fills-abando-void"
-    },
-    {
       "id": "PBA-troyrosarioreplacesrhenzabandoatgilasfor",
       "league": "PBA",
       "title": "Troy Rosario replaces Rhenz Abando at Gilas for Fiba window",
@@ -14610,19 +14841,6 @@
       "url": "https://sports.inquirer.net/707827/troy-rosario-replaces-rhenz-abando-at-gilas-for-fiba-window"
     },
     {
-      "id": "PBA-magnoliagreatpjsimon46passesaway",
-      "league": "PBA",
-      "title": "Magnolia great PJ Simon, 46, passes away",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Philippine basketball lost one of its most beloved scoring talents as former PBA star Peter June Simon (June 1, 1980-November 20, 2026) passed away on Friday evening. He was 46. Simon reportedly experienced a medical emergency while participating in a 40-and-above basketball leag",
-      "published": "2026-11-20T15:16:34.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2017/07/2017-PBA-Governors-Cup-Star-def-Blackwater-PJ-Simon-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/magnolia-great-pj-simon-46-passes-away/390440"
-    },
-    {
       "id": "PBA-rhenzabandoruledoutofgilasfibawindowwith",
       "league": "PBA",
       "title": "Rhenz Abando ruled out of Gilas’ Fiba window with ankle injury",
@@ -14634,71 +14852,6 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2023/08/IMG_1863_FIBA-world-cup-South-Sudan-vs-Philippines_Rhenz-Abando.jpg",
       "url": "https://sports.inquirer.net/707824/rhenz-abando-ruled-out-of-gilas-fiba-window-with-ankle-injury"
-    },
-    {
-      "id": "PBA-gilasneedsoceaniaassistbutconewantstotak",
-      "league": "PBA",
-      "title": "Gilas needs Oceania assist, but Cone wants to take care of business first",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas would certainly appreciate any help it can get as it tries to gain ground in the race for a spot in next year’s Fiba World Cup. While its goal is to get past Syria and Iran in next week’s fifth window in Seremban, Malaysia, Gilas will also benefit from the results",
-      "published": "2026-11-20T05:15:31.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/Sports1332766.png",
-      "url": "https://sports.inquirer.net/707802/gilas-needs-oceania-assist-but-cone-wants-to-take-care-of-business-first"
-    },
-    {
-      "id": "PBA-rhenzabandoruledoutofgilaswindow5campaig",
-      "league": "PBA",
-      "title": "Rhenz Abando ruled out of Gilas Window 5 campaign, Troy Rosario called up",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Rhenz Abando has been ruled out of Gilas Pilipinas’ Window 5 campaign in the fast-approaching FIBA Basketball World Cup 2027 Asian Qualifiers due to the ankle injury he suffered just days before the November 26-29 competitions. The Samahang Basketbol ng Pilipinas announced the un",
-      "published": "2026-11-20T04:05:57.000Z",
-      "byline": "Tiebreaker Times",
-      "tag": "Report",
-      "image": "https://cdn.tiebreakertimes.com.ph/wp-content/uploads/2026/11/2026-27-KBL-Anyang-JKJ-vs-Busan-KCC-Rhenz-Abando-150x150.jpg",
-      "url": "https://tiebreakertimes.com.ph/tbt/rhenz-abando-ruled-out-of-gilas-window-5-campaign-troy-rosario-called-up/390394"
-    },
-    {
-      "id": "PBA-rhenzabandoouttroyrosarioinforgilaspilip",
-      "league": "PBA",
-      "title": "Rhenz Abando out, Troy Rosario in for Gilas Pilipinas in FIBA World Cup Qualifiers after injury",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Rhenz Abando's much-anticipated return to Gilas Pilipinas has been put on hold after he sustained an apparent injury during a KBL game between his Anyang Jung Kwan Jang Red Boosters and the Busan KCC Egis on Thursday.",
-      "published": "2026-11-20T02:33:47.000Z",
-      "byline": "GMA News",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.gmanetwork.com/news/sports/basketball/1010174/rhenz-abando-out-troy-rosario-in-for-gilas-pilipinas-in-fiba-world-cup-qualifiers-after-injury/story/"
-    },
-    {
-      "id": "PBA-dwightramosgilasgearupformustwinfibaqual",
-      "league": "PBA",
-      "title": "Dwight Ramos, Gilas gear up for must-win Fiba qualifying games",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines–Dwight Ramos and Gilas Pilipinas are treating the fifth window of the Fiba World Cup 2027 Asian Qualifiers as another “win or go home” situation. The Filipinos are currently at 4-4 in Group E, looking for a top-3 finish and an automatic qualification for next ",
-      "published": "2026-11-19T23:09:35.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/IMG_2915_PVL-All-Filipino-Conference-Siklab-series-PLDT-Choco-Mucho_Dwight-Ramos-scaled.jpg",
-      "url": "https://sports.inquirer.net/707805/dwight-ramos-gilas-gear-up-for-must-win-fiba-qualifying-games"
-    },
-    {
-      "id": "PBA-carltamayoupbeatongilasrostertargetsretu",
-      "league": "PBA",
-      "title": "Carl Tamayo upbeat on Gilas roster, targets return when healthy",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "MANILA, Philippines —Carl Tamayo expressed confidence in Gilas Pilipinas’ 12-man roster for the fifth window of the Fiba World Cup 2027 Asian Qualifiers, even as an injury setback keeps him out of the lineup. The Gilas forward remains sidelined after sustaining another injury whi",
-      "published": "2026-11-19T15:51:10.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/IMG_0416_PVL-All-Filipino-Conference-Siklab-series-Capital1-Galeries_Carl-Tamayo-scaled.jpg",
-      "url": "https://sports.inquirer.net/707664/carl-tamayo-upbeat-on-gilas-roster-targets-return-when-healthy"
     },
     {
       "id": "PBA-abandoreturnstogilasasdebutingboatwright",
@@ -15177,12 +15330,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-20T22:20:35.188Z",
-    "rosters": "2026-11-20T22:20:35.188Z",
+    "teams": "2026-11-21T14:28:36.335Z",
+    "rosters": "2026-11-21T14:28:36.335Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-20T22:20:35.188Z",
-    "games": "2026-11-20T22:20:35.188Z",
-    "news": "2026-11-20T22:20:35.188Z",
+    "standings": "2026-11-21T14:28:36.335Z",
+    "games": "2026-11-21T14:28:36.335Z",
+    "news": "2026-11-21T14:28:36.335Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [

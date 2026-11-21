@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-11-20T15:09:14.075Z",
+  "fetchedAt": "2026-11-21T14:27:41.704Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -2540,8 +2540,8 @@
         "id": "51000717",
         "name": "Dejon Jarreau",
         "nameLocal": "デジョン・ジャロウ",
-        "jersey": "77",
-        "position": "SG/SF",
+        "jersey": null,
+        "position": null,
         "height": null,
         "weight": null,
         "age": null,
@@ -15721,24 +15721,6 @@
       },
       {
         "team": {
-          "id": "712",
-          "name": "Ibaraki Robots",
-          "nameLocal": "茨城ロボッツ",
-          "abbr": "IBA",
-          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
-        },
-        "wins": 9,
-        "losses": 9,
-        "pct": ".500",
-        "gamesBehind": "6",
-        "pointsFor": 1507,
-        "pointsAgainst": 1436,
-        "diff": "71",
-        "streak": "L1",
-        "seed": 12
-      },
-      {
-        "team": {
           "id": "696",
           "name": "Toyama Grouses",
           "nameLocal": "富山グラウジーズ",
@@ -15753,7 +15735,7 @@
         "pointsAgainst": 1605,
         "diff": "-105",
         "streak": "L2",
-        "seed": 13
+        "seed": 12
       },
       {
         "team": {
@@ -15771,6 +15753,24 @@
         "pointsAgainst": 1495,
         "diff": "18",
         "streak": "L1",
+        "seed": 13
+      },
+      {
+        "team": {
+          "id": "712",
+          "name": "Ibaraki Robots",
+          "nameLocal": "茨城ロボッツ",
+          "abbr": "IBA",
+          "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+        },
+        "wins": 9,
+        "losses": 10,
+        "pct": ".474",
+        "gamesBehind": "6.5",
+        "pointsFor": 1507,
+        "pointsAgainst": 1456,
+        "diff": "51",
+        "streak": "L2",
         "seed": 14
       },
       {
@@ -15907,14 +15907,14 @@
           "abbr": "SHI",
           "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
         },
-        "wins": 6,
+        "wins": 7,
         "losses": 12,
-        "pct": ".333",
-        "gamesBehind": "9",
-        "pointsFor": 1502,
+        "pct": ".368",
+        "gamesBehind": "8.5",
+        "pointsFor": 1522,
         "pointsAgainst": 1553,
-        "diff": "-51",
-        "streak": "L3",
+        "diff": "-31",
+        "streak": "L1",
         "seed": 22
       },
       {
@@ -16087,24 +16087,6 @@
           },
           {
             "team": {
-              "id": "712",
-              "name": "Ibaraki Robots",
-              "nameLocal": "茨城ロボッツ",
-              "abbr": "IBA",
-              "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
-            },
-            "wins": 9,
-            "losses": 9,
-            "pct": ".500",
-            "gamesBehind": "5.5",
-            "pointsFor": 1507,
-            "pointsAgainst": 1436,
-            "diff": "71",
-            "streak": "L1",
-            "seed": 6
-          },
-          {
-            "team": {
               "id": "696",
               "name": "Toyama Grouses",
               "nameLocal": "富山グラウジーズ",
@@ -16119,7 +16101,7 @@
             "pointsAgainst": 1605,
             "diff": "-105",
             "streak": "L2",
-            "seed": 7
+            "seed": 6
           },
           {
             "team": {
@@ -16137,6 +16119,24 @@
             "pointsAgainst": 1906,
             "diff": "-54",
             "streak": "W1",
+            "seed": 7
+          },
+          {
+            "team": {
+              "id": "712",
+              "name": "Ibaraki Robots",
+              "nameLocal": "茨城ロボッツ",
+              "abbr": "IBA",
+              "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
+            },
+            "wins": 9,
+            "losses": 10,
+            "pct": ".474",
+            "gamesBehind": "6",
+            "pointsFor": 1507,
+            "pointsAgainst": 1456,
+            "diff": "51",
+            "streak": "L2",
             "seed": 8
           },
           {
@@ -16405,14 +16405,14 @@
               "abbr": "SHI",
               "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png"
             },
-            "wins": 6,
+            "wins": 7,
             "losses": 12,
-            "pct": ".333",
-            "gamesBehind": "8.5",
-            "pointsFor": 1502,
+            "pct": ".368",
+            "gamesBehind": "8",
+            "pointsFor": 1522,
             "pointsAgainst": 1553,
-            "diff": "-51",
-            "streak": "L3",
+            "diff": "-31",
+            "streak": "L1",
             "seed": 10
           },
           {
@@ -19803,13 +19803,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-20T15:09:14.075Z",
-    "rosters": "2026-11-20T15:09:14.075Z",
-    "playerStats": "2026-11-20T15:09:14.075Z",
-    "standings": "2026-11-20T15:09:14.075Z",
-    "games": "2026-11-20T15:09:14.075Z",
+    "teams": "2026-11-21T14:27:41.704Z",
+    "rosters": "2026-11-21T14:27:41.704Z",
+    "playerStats": "2026-11-21T14:27:41.704Z",
+    "standings": "2026-11-21T14:27:41.704Z",
+    "games": "2026-11-21T14:27:41.704Z",
     "news": "2026-09-22T11:18:19.088Z",
-    "leaders": "2026-11-20T15:09:14.075Z"
+    "leaders": "2026-11-21T14:27:41.704Z"
   },
   "carriedOver": [
     "news"

@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-20T15:12:09.875Z",
+  "fetchedAt": "2026-11-21T14:29:05.953Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,93 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-20-bauru-caxias-do",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "bauru",
+        "name": "Bauru",
+        "abbr": "BAU",
+        "logo": null,
+        "score": 70,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "caxias-do",
+        "name": "Caxias do",
+        "abbr": "CAX",
+        "logo": null,
+        "score": 73,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-20-cearense-botafogo",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
+        "logo": null,
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "botafogo",
+        "name": "Botafogo",
+        "abbr": "BOT",
+        "logo": null,
+        "score": 80,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-20-sesi-fra--u-corinth-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-20T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sesi-fra-",
+        "name": "Sesi/Fra.",
+        "abbr": "SES",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 58,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-19-unifacisa-flamengo",
       "league": "NBB",
       "status": "final",
@@ -16373,8 +16460,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-20T15:12:09.875Z",
-    "news": "2026-11-20T15:12:09.875Z"
+    "games": "2026-11-21T14:29:05.953Z",
+    "news": "2026-11-21T14:29:05.953Z"
   },
   "carriedOver": [
     "teams",

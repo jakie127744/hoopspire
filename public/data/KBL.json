@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-11-20T15:10:04.344Z",
+  "fetchedAt": "2026-11-21T14:27:51.349Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -24,7 +24,8 @@
     "standings from api.kbl.or.kr (2026-2027)",
     "rosters: https://api.kbl.or.kr/player/list?teamCode=seoul-samsung-thunders — HTTP 404",
     "player stats from api.kbl.or.kr (S49G01, 77 games)",
-    "Leaders require at least 6 games played."
+    "Leaders require at least 6 games played.",
+    "Kept the previous run's news — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -9463,12 +9464,15 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-20T15:10:04.344Z",
-    "rosters": "2026-11-20T15:10:04.344Z",
-    "playerStats": "2026-11-20T15:10:04.344Z",
-    "standings": "2026-11-20T15:10:04.344Z",
-    "games": "2026-11-20T15:10:04.344Z",
+    "teams": "2026-11-21T14:27:51.349Z",
+    "rosters": "2026-11-21T14:27:51.349Z",
+    "playerStats": "2026-11-21T14:27:51.349Z",
+    "standings": "2026-11-21T14:27:51.349Z",
+    "games": "2026-11-21T14:27:51.349Z",
     "news": "2026-11-20T15:10:04.344Z",
-    "leaders": "2026-11-20T15:10:04.344Z"
-  }
+    "leaders": "2026-11-21T14:27:51.349Z"
+  },
+  "carriedOver": [
+    "news"
+  ]
 }

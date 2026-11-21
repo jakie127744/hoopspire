@@ -1,7 +1,7 @@
 {
   "league": "CBA",
   "season": "2026",
-  "fetchedAt": "2026-11-20T15:11:53.988Z",
+  "fetchedAt": "2026-11-21T14:28:51.642Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -20,7 +20,7 @@
     "CBA: bot-check page; skipped",
     "CBA 2026: RealGM returned a bot-check page; skipped",
     "CBA 2025: RealGM returned a bot-check page; skipped",
-    "Kept the previous run's teams, rosters, playerStats, leaders, standings — the source returned nothing this time."
+    "Kept the previous run's teams, rosters, playerStats, leaders, standings, news — the source returned nothing this time."
   ],
   "teams": [
     {
@@ -19032,7 +19032,7 @@
     "playerStats": "2026-09-20T00:20:07.377Z",
     "leaders": "2026-09-20T00:20:07.377Z",
     "standings": "2026-09-20T00:20:07.377Z",
-    "games": "2026-11-20T15:11:53.988Z",
+    "games": "2026-11-21T14:28:51.642Z",
     "news": "2026-11-20T15:11:53.988Z"
   },
   "carriedOver": [
@@ -19040,6 +19040,7 @@
     "rosters",
     "playerStats",
     "leaders",
-    "standings"
+    "standings",
+    "news"
   ]
 }
