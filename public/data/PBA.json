@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-22T14:23:42.391Z",
+  "fetchedAt": "2026-11-22T21:11:38.293Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -14711,6 +14711,19 @@
   ],
   "news": [
     {
+      "id": "PBA-allnowaboardgilasboatasbenniearrivesahea",
+      "league": "PBA",
+      "title": "All now aboard Gilas boat as Bennie arrives ahead of schedule to get into groove",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "All hands are now on deck—and healthy—for Gilas Pilipinas in Seremban, Malaysia, for the fifth window of the Fiba World Cup Asian Qualifiers following the arrival of Bennie Boatwright late Saturday night. The country’s latest naturalized player, Boatwright took part in Sunday’s t",
+      "published": "2026-11-23T04:20:07.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Bennie-Boatwright-Gilas-23November2026.jpg",
+      "url": "https://sports.inquirer.net/708219/all-now-aboard-gilas-boat-as-bennie-arrives-ahead-of-schedule-to-get-into-groove"
+    },
+    {
       "id": "PBA-bennieboatwrightjoinsgilaspilipinasbuild",
       "league": "PBA",
       "title": "Bennie Boatwright joins Gilas Pilipinas’ build up in Malaysia",
@@ -14722,6 +14735,19 @@
       "tag": "Report",
       "image": "https://sports.inquirer.net/files/2026/11/gilas-bennie-boatwright.jpg",
       "url": "https://sports.inquirer.net/708154/bennie-boatwright-joins-gilas-pilipinas-build-up-in-malaysia"
+    },
+    {
+      "id": "PBA-conerelishesfullgilas",
+      "league": "PBA",
+      "title": "Cone relishes full Gilas",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Bennie Boatwright has checked in and Gilas Pilipinas coach Tim Cone is relishing having a full complement for the buildup for Friday’s FIBA World Cup Qualifiers fifth-window opener against Syria in Malaysia.",
+      "published": "2026-11-22T16:00:00.000Z",
+      "byline": "PhilStar",
+      "tag": "Report",
+      "image": null,
+      "url": "https://www.philstar.com/sports/2026/11/23/2571965/cone-relishes-full-gilas"
     },
     {
       "id": "PBA-gilashirayaouttochasephilippinewomensbas",
@@ -14763,19 +14789,6 @@
       "url": "https://sports.inquirer.net/707956/pj-simon-remembered-by-teammates-for-humility-hard-work-and-heart"
     },
     {
-      "id": "PBA-gilasfirsttoseremban",
-      "league": "PBA",
-      "title": "Gilas first to Seremban",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas was scheduled to hold its first practice in Seremban, Malaysia, last night in preparation for the fifth FIBA World Cup Asia qualifying window against Syria on Nov. 27 and Iran on Nov. 29. Six teams will see action in Seremban and Gilas was first to arrive yesterday with Que",
-      "published": "2026-11-21T16:00:00.000Z",
-      "byline": "PhilStar",
-      "tag": "Report",
-      "image": null,
-      "url": "https://www.philstar.com/sports/2026/11/22/2571780/gilas-first-seremban"
-    },
-    {
       "id": "PBA-lookpjsimonspenttimewithwifejehzahuelarb",
       "league": "PBA",
       "title": "LOOK: PJ Simon spent time with wife Jehza Huelar before his untimely passing",
@@ -14787,19 +14800,6 @@
       "tag": "Report",
       "image": null,
       "url": "https://www.gmanetwork.com/news/sports/basketball/1010334/look-pj-simon-spends-time-with-wife-jehza-huelar-before-his-untimely-passing/story/"
-    },
-    {
-      "id": "PBA-troyrosariowilleasilyfitintogilassystems",
-      "league": "PBA",
-      "title": "Troy Rosario will easily fit into Gilas system, says Tim Cone",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Gilas Pilipinas made one quick change before departing for Malaysia on Saturday to begin preparations for the fifth window of the Fiba World Cup Asian Qualifiers. With Rhenz Abando out with an ankle injury, coach Tim Cone made the decision to tap his Barangay Ginebra big man Troy",
-      "published": "2026-11-21T05:25:22.000Z",
-      "byline": "Inquirer Sports",
-      "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/06/IMG_0511_Gilas-Pilipinas-press-con-and-open-practice_Troy-Rosario-scaled.jpg",
-      "url": "https://sports.inquirer.net/707896/troy-rosario-will-easily-fit-into-gilas-system-says-tim-cone"
     },
     {
       "id": "PBA-pbagreatpjsimonthescoringapostlediesat46",
@@ -15291,12 +15291,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-22T14:23:42.391Z",
-    "rosters": "2026-11-22T14:23:42.391Z",
+    "teams": "2026-11-22T21:11:38.293Z",
+    "rosters": "2026-11-22T21:11:38.293Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-22T14:23:42.391Z",
-    "games": "2026-11-22T14:23:42.391Z",
-    "news": "2026-11-22T14:23:42.391Z",
+    "standings": "2026-11-22T21:11:38.293Z",
+    "games": "2026-11-22T21:11:38.293Z",
+    "news": "2026-11-22T21:11:38.293Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
