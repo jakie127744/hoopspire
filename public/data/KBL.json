@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-11-21T14:27:51.349Z",
+  "fetchedAt": "2026-11-22T14:22:40.058Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -24,8 +24,7 @@
     "standings from api.kbl.or.kr (2026-2027)",
     "rosters: https://api.kbl.or.kr/player/list?teamCode=seoul-samsung-thunders — HTTP 404",
     "player stats from api.kbl.or.kr (S49G01, 77 games)",
-    "Leaders require at least 6 games played.",
-    "Kept the previous run's news — the source returned nothing this time."
+    "Leaders require at least 6 games played."
   ],
   "teams": [
     {
@@ -7125,96 +7124,6 @@
   },
   "games": [
     {
-      "id": "S49G01N56",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-07T14:00:00+09:00",
-      "venue": "Changwon Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N56/20261107",
-      "home": {
-        "id": "changwon-lg-sakers",
-        "name": "Changwon LG Sakers",
-        "abbr": "CLS",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "goyang-sono-skygunners",
-        "name": "Goyang Sono Skygunners",
-        "abbr": "GSS",
-        "logo": null,
-        "score": 85,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "S49G01N57",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-07T14:00:00+09:00",
-      "venue": "Wonju Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N57/20261107",
-      "home": {
-        "id": "wonju-db-promy",
-        "name": "Wonju DB Promy",
-        "abbr": "WDP",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "seoul-samsung-thunders",
-        "name": "Seoul Samsung Thunders",
-        "abbr": "SST",
-        "logo": null,
-        "score": 76,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "S49G01N58",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-07T16:30:00+09:00",
-      "venue": "Suwon KT Sonicboom Arena",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N58/20261107",
-      "home": {
-        "id": "suwon-kt-sonicboom",
-        "name": "Suwon KT Sonicboom",
-        "abbr": "SKS",
-        "logo": null,
-        "score": 92,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "daegu-korea-gas-corporation",
-        "name": "Daegu Korea Gas Corporation",
-        "abbr": "DKGC",
-        "logo": null,
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "S49G01N59",
       "league": "KBL",
       "status": "final",
@@ -8893,112 +8802,111 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S49G01N96",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-13T14:00:00+09:00",
+      "venue": "Jamsil Student Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N96/20261213",
+      "home": {
+        "id": "seoul-sk-knights",
+        "name": "Seoul SK Knights",
+        "abbr": "SSK",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "anyang-jung-kwan-jang",
+        "name": "Anyang Jung Kwan Jang",
+        "abbr": "AJKJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "S49G01N97",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-13T14:00:00+09:00",
+      "venue": "Dongcheon Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N97/20261213",
+      "home": {
+        "id": "ulsan-hyundai-mobis-phoebus",
+        "name": "Ulsan Hyundai Mobis Phoebus",
+        "abbr": "UHMP",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "suwon-kt-sonicboom",
+        "name": "Suwon KT Sonicboom",
+        "abbr": "SKS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "S49G01N98",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-13T16:30:00+09:00",
+      "venue": "Busan Sajik Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N98/20261213",
+      "home": {
+        "id": "busan-kcc-egis",
+        "name": "Busan KCC Egis",
+        "abbr": "BKE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "daegu-korea-gas-corporation",
+        "name": "Daegu Korea Gas Corporation",
+        "abbr": "DKGC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
     {
-      "id": "KBL-kt1ag33",
+      "id": "KBL-1",
       "league": "KBL",
-      "title": "\"I want to become a legend at KT.\" National team forward Lee Dong-geun honored with the first overall pick in the draft… All members of the Asian Games 3-on-3 gold medal team received high professional draft picks (Comprehensive)",
-      "originalTitle": "\"KT의 레전드 되고 싶다\" 국가대표 포워드 이동근 드래프트 1순위 영광…AG 3대3 금메달 멤버 모두 프로 상위 지명(종합)",
+      "title": "Hyundai Mobis → Seung-woo Kim, Kogas → Joo-young Lee, Samsung → Joo-eon Sim, Sono → Seong-hee Woo. Behind the scenes of the first-round draft. There were shocking rumors and sudden changes.",
+      "originalTitle": "현대모비스→김승우, 가스공사→이주영, 삼성→심주언, 소노→우성희. 1라운드 지명 비하인드. 충격적 소문&급선회 있었다",
       "translatedFrom": "ko",
-      "description": "National team forward Lee Dong-geun (Korea University) was selected as the overall first pick in the professional basketball rookie draft and will wear the uniform of Suwon KT. KT Coach Moon Kyung-eun called out Lee Dong-geun's name with the overall first pick at the \"2026 KBL Rookie Draft\" held at Jamsil Student Gymnasium in Seoul on the 20th. The 1.97-meter forward, Lee Dong-geun, will compete in the men's 3x3 basketball event at the 2026 Aichi-Nagoya Asian Games.",
-      "published": "2026-11-20T12:35:04.000Z",
+      "description": "There were no surprises. The first round went as expected, except for Goyang Sono. The 2026 KBL Rookie Draft was held on the 20th at Jamsil Students' Gymnasium. A record-high 30 players were selected. The first round, which received the most attention, went as expected. Suwon KT selected Dong-geun Lee (Korea University) as the first overall pick. He is a multi-position forward with outstanding athleticism. KT had already",
+      "published": "2026-11-22T05:04:17.000Z",
       "byline": "Chosun",
       "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/MJSDKMBQGAYDMNJQGM4TMODBGM.jpg?auth=abb44e99c7e25bd12e26de51813c8ed5e662c4b40f3eaa9d3f9e87737f3b67fd&smart=true&width=700&height=466",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/GE3GMYZXMEZDCMZXGJSGIMTBGQ/"
-    },
-    {
-      "id": "KBL-sksk",
-      "league": "KBL",
-      "title": "\"My father was an SK power analyst.\" Ko Chan-yu, who started playing basketball after watching Kim Sun-hyung, eventually put on an SK uniform.",
-      "originalTitle": "\"아버지가 SK 전력분석관이셨다\" 김선형 보며 농구 시작한 고찬유, 돌고 돌아 SK 유니폼 입었다",
-      "translatedFrom": "ko",
-      "description": "\"I also had ambitions of being the first overall pick, but I think it was a greater blessing for me to come to SK as the third overall pick.\"Go Chan-yu (Chung-Ang University), who was selected by Seoul SK as the third overall pick in the 2026 KBL Rookie Draft, expressed his anticipation for the professional stage. Go Chan-yu was selected in the first round of the 2026 KBL Rookie Draft held at Jamsil Student Gymnasium in Seoul on the 20th.\"",
-      "published": "2026-11-20T08:53:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/GA3GENTCMQZTSZDCGU3TCZLEME.jpg?auth=b637d2ce4605573a577caf51a41de90757586adddc426f3b3c43b3b5be13b41f&smart=true&width=650&height=433",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/HFRTGOLFMM4TQYZWGEZTOMRVGI/"
-    },
-    {
-      "id": "KBL-4430kbl6821kt",
-      "league": "KBL",
-      "title": "'30 out of 44 players smiled' KBL Rookie Draft selection rate 68.2%... The honor of being the overall No. 1 pick goes to KT's Donggeun Lee",
-      "originalTitle": "'44명 중 30명 웃었다' KBL 신인 드래프트 지명률 68.2%...전체 1순위 영광은 KT 이동근",
-      "translatedFrom": "ko",
-      "description": "With Dong-geun Lee (Korea University) being selected as the overall first pick by Suwon KT, a total of 30 players successfully entered the professional league in the 2026 KBL Rookie Draft. The 2026 KBL Rookie Draft was held at 3 p.m. on the 20th at the Jamsil Students' Gymnasium in Seoul. This draft included 28 players who are expected to graduate from university, 13 early-entry players, and 3 general participants.",
-      "published": "2026-11-20T08:49:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/GQZTEYTEG42GEZTDHEYDIMJXGI.jpg?auth=a5579a347e5292d768e1356512971074b80f70c60a8745b58187e9bc702aed90&smart=true&width=650&height=311",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/GQ2WMOBSMUZWIMJUGMZDMODDMQ/"
-    },
-    {
-      "id": "KBL-2",
-      "league": "KBL",
-      "title": "\"Even being ranked second is amazing, but to be selected for the national team...\" Kim Seung-woo experiences the best day of his life... He joins Hyundai Mobis and also earns the honor of representing South Korea.",
-      "originalTitle": "\"2순위도 놀라운데 국가대표까지\" 김승우, 인생 최고의 하루...현대모비스 입단에 태극마크까지 품었다",
-      "translatedFrom": "ko",
-      "description": "Kim Seung-woo, who was selected by Ulsan Hyundai Mobis as the second overall pick in the 2026 KBL Rookie Draft, expressed his determination to compete in the professional league by leveraging his strength, which is shooting. Kim Seung-woo was selected by Hyundai Mobis as the second overall pick in the 2026 KBL Rookie Draft held at the Jamsil Students' Gymnasium in Seoul on the 20th. After the draft, Kim Seung-woo said, \"I am honored to be selected in this position.\"",
-      "published": "2026-11-20T08:46:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/GQ3TQOJUMZRWKMZYGMZDEZBVGA.jpg?auth=7492079b70c18622c34b90d6362ecd3c8ed7cf2e1129f6aab2408e04eb0c41ab&smart=true&width=650&height=433",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/HAZWIOJQG5RWGOBTGU4TQMZVGM/"
-    },
-    {
-      "id": "KBL-20kt1",
-      "league": "KBL",
-      "title": "KT, which had a 20% chance, secured a national team forward. The overall first pick, Dong-geun Lee, said, \"It is an honor to be able to learn from Coach Kyung-eun Moon.\"",
-      "originalTitle": "'20% 확률 뚫은 KT, 국가대표 포워드 품었다' 전체 1순위 이동근 \"문경은 감독님께 배울 수 있어 영광\"",
-      "translatedFrom": "ko",
-      "description": "\"I want to become a key player for KT by consistently playing in games.\"\"Lee Dong-geun (Korea University), the top overall pick in the 2026 KBL Rookie Draft, expressed his determination to enter the professional stage. Lee Dong-geun was selected as the top overall pick by Suwon KT at the 2026 KBL Rookie Draft held at Jamsil Student Gymnasium in Seoul on the 20th. KT, which was ranked",
-      "published": "2026-11-20T08:45:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/MZTDSY3GGY2GKNBWMMYWMYJUHA.jpg?auth=6988fb3cf5ad2b070f7b5b9e2b35a7bf42781d8f577d42c07f162915d9bf5803&smart=true&width=650&height=634",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/GMZDQYTBMEZDSYZRGRTDONJUGY/"
-    },
-    {
-      "id": "KBL-kbllg",
-      "league": "KBL",
-      "title": "'Another basketball brother duo joins the KBL' – Koo Min-kyo and Koo In-kyo drafted together... The older brother to LG, the younger brother to Jeonggwanjang",
-      "originalTitle": "'KBL에 또 하나의 농구 형제 탄생' 구민교·구인교 나란히 지명...형은 LG, 동생은 정관장",
-      "translatedFrom": "ko",
-      "description": "Brothers Min-gyo Koo and In-gyo Koo, both from Sungkyunkwan University, entered the professional stage together. The 2026 KBL Rookie Draft was held at 3 p.m. on the 20th at Jamsil Student Gymnasium in Seoul. The first player whose name was called was the younger brother, Min-gyo Koo. Anyang Jung Kwan Jang selected Gu Min-gyo with the fourth overall pick in the first round. Standing at 195 cm, Gu Min-gyo boasts strong physicality in the paint and excellent rebounding skills.",
-      "published": "2026-11-20T07:00:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/GQYGKYRSMU3TOZRWGIYDMMBZGU.jpg?auth=50aed5cb89be2a0dc317d6dd93899e370e876db46bb862b84098d644ddf6c596&smart=true&width=650&height=433",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/GBTDENJSG43WMMJSMRSTAMBQGQ/"
-    },
-    {
-      "id": "KBL-kbl1kt23",
-      "league": "KBL",
-      "title": "\"I'll die on the court.\" Donggeun Lee joins KT as the overall first pick in the KBL Draft... Seungwoo Kim as the second pick and Chanyu Ko as the third pick.",
-      "originalTitle": "\"코트에서 죽겠다\" 이동근, KBL 드래프트 전체 1순위로 KT행...김승우 2순위·고찬유 3순위",
-      "translatedFrom": "ko",
-      "description": "The honor of being the overall first pick in the 2026 KBL Rookie Draft went to Dong-geun Lee (Korea University). The 2026 KBL Rookie Draft was held at 3 p.m. on the 20th at Jamsil Student Gymnasium in Seoul. A total of 44 players participated in this draft, including 28 players scheduled to graduate from university, 13 early-entry players, and 3 general participants. In particular, the 2026 Aichi-Nagoya Asian Games",
-      "published": "2026-11-20T06:46:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/MMZTSMBVGJSDCYLFGE2TONTDGE.jpg?auth=c99326d48f895906b1016e05217a9d00040c67689fc180f2f409d4f2795262b9&smart=true&width=650&height=433",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/HAYGKZRUMU4WKMZSGUZWEYZWMI/"
-    },
-    {
-      "id": "KBL-12kt4top5",
-      "league": "KBL",
-      "title": "'National team players swept the first and second picks' Lee Dong-geun to KT and Kim Seung-woo to Hyundai Mobis... The four Asian Games gold medalists monopolized the top five picks.",
-      "originalTitle": "'국가대표가 1·2순위 휩쓸었다' 이동근 KT·김승우 현대모비스행...아시안게임 금메달 4인방 TOP5 독식",
-      "translatedFrom": "ko",
-      "description": "The first round of the 2026 KBL Rookie Draft was completed, with Dong-geun Lee (Korea University) being selected as the overall first pick by Suwon KT. The 2026 KBL Rookie Draft was held at 3 p.m. on the 20th at the Jamsil Student Gymnasium in Seoul. A total of 44 players participated in this draft, including 28 players who are expected to graduate from university, 13 early-entry players, and 3 general participants.",
-      "published": "2026-11-20T06:41:00.000Z",
-      "byline": "Chosun",
-      "tag": "Report",
-      "image": "https://www.chosun.com/resizer/v2/GAZDINTFMMZTGOBUG4YWKYRZMM.jpg?auth=9489b7852e2b829d785760729dc2fc166347e104e40ab0023899773328226dbc&smart=true&width=530&height=795",
-      "url": "https://www.chosun.com/sports/basketball/2026/11/20/GUYGENBZGI4WEYJZGQ3WGY3GGM/"
+      "image": "https://www.chosun.com/resizer/v2/G5TDMYTBGJRWIMRRHE3TMYJXGU.jpg?auth=a75c5c921928a73af4278c0744059cda571da660a36497eb9f6808de8a9b2cef&smart=true&width=700&height=393",
+      "url": "https://www.chosun.com/sports/basketball/2026/11/22/MIYWKZRUMQ4WEZBRGYZWGNZRHE/"
     }
   ],
   "leaders": {
@@ -9464,15 +9372,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-21T14:27:51.349Z",
-    "rosters": "2026-11-21T14:27:51.349Z",
-    "playerStats": "2026-11-21T14:27:51.349Z",
-    "standings": "2026-11-21T14:27:51.349Z",
-    "games": "2026-11-21T14:27:51.349Z",
-    "news": "2026-11-20T15:10:04.344Z",
-    "leaders": "2026-11-21T14:27:51.349Z"
-  },
-  "carriedOver": [
-    "news"
-  ]
+    "teams": "2026-11-22T14:22:40.058Z",
+    "rosters": "2026-11-22T14:22:40.058Z",
+    "playerStats": "2026-11-22T14:22:40.058Z",
+    "standings": "2026-11-22T14:22:40.058Z",
+    "games": "2026-11-22T14:22:40.058Z",
+    "news": "2026-11-22T14:22:40.058Z",
+    "leaders": "2026-11-22T14:22:40.058Z"
+  }
 }

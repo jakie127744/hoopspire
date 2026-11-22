@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-21T14:29:05.953Z",
+  "fetchedAt": "2026-11-22T14:24:12.623Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,64 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-21-osasco-cruzeiro",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "osasco",
+        "name": "Osasco",
+        "abbr": "OSA",
+        "logo": null,
+        "score": 72,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "cruzeiro",
+        "name": "Cruzeiro",
+        "abbr": "CRU",
+        "logo": null,
+        "score": 90,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-21-pinheiros-minas",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-21T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "pinheiros",
+        "name": "Pinheiros",
+        "abbr": "PIN",
+        "logo": null,
+        "score": 57,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "minas",
+        "name": "Minas",
+        "abbr": "MIN",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-20-bauru-caxias-do",
       "league": "NBB",
       "status": "final",
@@ -15706,93 +15764,6 @@
         "linescores": [],
         "leaders": []
       }
-    },
-    {
-      "id": "ab-NBB-2026-10-17-mogi-corinthi-",
-      "league": "NBB",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "mogi",
-        "name": "Mogi",
-        "abbr": "MOG",
-        "logo": null,
-        "score": 84,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "corinthi-",
-        "name": "Corinthi.",
-        "abbr": "COR",
-        "logo": null,
-        "score": 73,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-NBB-2026-10-17-caxias-do-cruzeiro",
-      "league": "NBB",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "caxias-do",
-        "name": "Caxias do",
-        "abbr": "CAX",
-        "logo": null,
-        "score": 61,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "cruzeiro",
-        "name": "Cruzeiro",
-        "abbr": "CRU",
-        "logo": null,
-        "score": 72,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "ab-NBB-2026-10-17-unifacisa-osasco",
-      "league": "NBB",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-10-17T11:00:00.000Z",
-      "venue": null,
-      "city": null,
-      "home": {
-        "id": "unifacisa",
-        "name": "UniFacisa",
-        "abbr": "UNI",
-        "logo": null,
-        "score": 96,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "osasco",
-        "name": "Osasco",
-        "abbr": "OSA",
-        "logo": null,
-        "score": 70,
-        "linescores": [],
-        "leaders": []
-      }
     }
   ],
   "news": [
@@ -16460,8 +16431,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-21T14:29:05.953Z",
-    "news": "2026-11-21T14:29:05.953Z"
+    "games": "2026-11-22T14:24:12.623Z",
+    "news": "2026-11-22T14:24:12.623Z"
   },
   "carriedOver": [
     "teams",
