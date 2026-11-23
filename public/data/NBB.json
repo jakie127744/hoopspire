@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-22T14:24:12.623Z",
+  "fetchedAt": "2026-11-23T17:48:01.702Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -13591,6 +13591,151 @@
   },
   "games": [
     {
+      "id": "ab-NBB-2026-11-22-cearense-flamengo",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "cearense",
+        "name": "Cearense",
+        "abbr": "CEA",
+        "logo": null,
+        "score": 66,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "flamengo",
+        "name": "Flamengo",
+        "abbr": "FLA",
+        "logo": null,
+        "score": 92,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-22-sao-jose-corinthi-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "sao-jose",
+        "name": "Sao Jose",
+        "abbr": "SAO",
+        "logo": null,
+        "score": 67,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "corinthi-",
+        "name": "Corinthi.",
+        "abbr": "COR",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-22-brasilia-pato",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "brasilia",
+        "name": "Brasilia",
+        "abbr": "BRA",
+        "logo": null,
+        "score": 86,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "pato",
+        "name": "Pato",
+        "abbr": "PAT",
+        "logo": null,
+        "score": 74,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-22-mogi-paulist-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "mogi",
+        "name": "Mogi",
+        "abbr": "MOG",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "paulist-",
+        "name": "Paulist.",
+        "abbr": "PAU",
+        "logo": null,
+        "score": 76,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "ab-NBB-2026-11-22-bauru-u-corinth-",
+      "league": "NBB",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-22T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "bauru",
+        "name": "Bauru",
+        "abbr": "BAU",
+        "logo": null,
+        "score": 89,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "u-corinth-",
+        "name": "U.Corinth.",
+        "abbr": "U.C",
+        "logo": null,
+        "score": 94,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-NBB-2026-11-21-osasco-cruzeiro",
       "league": "NBB",
       "status": "final",
@@ -15768,6 +15913,45 @@
   ],
   "news": [
     {
+      "id": "NBB-gui-santos-tem-melhor-partida-da-tempora",
+      "league": "NBB",
+      "title": "Gui Santos tem melhor partida da temporada em vitória acirrada dos Warriors",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Boston Celtics 87 x 88 Golden State Warriors | Melhores Momentos | NBA Gui Santos teve a melhor partida da temporada 2026/27 até o momento. No último domingo, o brasileiro marcou 13 pontos na vitória acirrada do Golden State Warriors sobre o Boston Celtics por 88 a 87. Ganhando espaço na equipe após",
+      "published": "2026-11-23T11:35:46.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/hbOY3miy_0fvL90SUuSgz81fNJ0=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/8/b/dAmC9RTnOgRArhq3Ptvg/2026-11-23t000950z-941309526-mt1usatoday30430624-rtrmadp-3-nba-boston-celtics-at-golden-state-warriors.jpg",
+      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/23/gui-santos-tem-melhor-partida-da-temporada-em-vitoria-acirrada-dos-warriors.ghtml"
+    },
+    {
+      "id": "NBB-com-yago-inspirado-flamengo-supera-o-bas",
+      "league": "NBB",
+      "title": "Com Yago inspirado, Flamengo supera o Basquete Cearense por 92 a 66; veja como foi",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Basquete Cearense 66 x 92 Flamengo | Melhores momentos | NBB 2026/2027 O Flamengo venceu o Basquete Cearense por 92 a 66 neste domingo (22), no Centro de Formação Olímpica, em Fortaleza, pela quinta rodada do NBB 2026/27. Após um primeiro tempo equilibrado, no qual chegou ao intervalo perdendo por 3",
+      "published": "2026-11-22T22:25:10.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/hLop9DdwkCWB2Bq5AdzcvC4zvGY=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/J/OICXIMTXq9a6kbNGWliQ/raf02481.png",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/22/com-yago-inspirado-flamengo-supera-o-basquete-cearense-por-92-a-66.ghtml"
+    },
+    {
+      "id": "NBB-arrasador-no-in-cio-corinthians-vence-s-",
+      "league": "NBB",
+      "title": "Arrasador no início, Corinthians vence São José fora de casa pelo NBB",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "São José 67 x 86 Corinthians | Melhores momentos | NBB 2026/2027 O Corinthians venceu o São José Basketball por 86 a 67 na manhã deste domingo, 22, no ginásio Linneu de Moura, em São José dos Campos, pelo NBB. Foi a quarta vitória seguida do Alvinegro, enquanto os joseenses sofrem a segunda derrota",
+      "published": "2026-11-22T19:57:49.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/TnX9ZSRN3bCFtQAlFHJW07gEQ04=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/y/j/skkdBqTZijGVjHVDDyjg/img-5883-768x512.jpg",
+      "url": "https://ge.globo.com/sp/vale-do-paraiba-regiao/basquete/nbb/noticia/2026/11/22/arrasador-no-inicio-corinthians-vence-sao-jose-fora-de-casa-pelo-nbb.ghtml"
+    },
+    {
       "id": "NBB-sele-o-brasileira-de-basquete-convocada-",
       "league": "NBB",
       "title": "The Brazilian national basketball team is called up for games that could secure a spot in the World Cup.",
@@ -15922,45 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/xR5bw58-oY4fqOwEzUoLhYNPE5c=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/b/U/5Pe7uWRiqvPGvI0109nA/ginasio-oscar-zelaya-botafogo.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/12/botafogo-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
-    },
-    {
-      "id": "NBB-paul-george-perde-a-cabe-a-com-torcedor-",
-      "league": "NBB",
-      "title": "Paul George loses his mind with a fan and makes an obscene gesture in the NBA; see",
-      "originalTitle": "Paul George perde a cabeça com torcedor e faz gesto obsceno na NBA; veja",
-      "translatedFrom": "pt",
-      "description": "Philadelphia 76ers 101 vs. 123 Boston Celtics | Top Moments | NBA 2026/2027 Paul George starred in a controversial scene in the Boston Celtics' 123-101 NBA victory over the Philadelphia 76ers on Tuesday. On his return to Philadelphia, the star scored 36 points, but also drew attention",
-      "published": "2026-11-11T09:45:59.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/40aDUlz6lt-mB5yoVTHX3uG0B84=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/c/A/pdWKhBTXWiRpEBb4gzFw/2026-11-11t030022z-290825088-mt1usatoday30331399-rtrmadp-3-nba-boston-celtics-at-philadelphia-76ers.jpg",
-      "url": "https://ge.globo.com/basquete/nba/noticia/2026/11/11/paul-george-perde-a-cabeca-com-torcedor-e-faz-gesto-obsceno-na-nba-veja.ghtml"
-    },
-    {
-      "id": "NBB-franca-domina-flamengo-no-maracan-zinho-",
-      "league": "NBB",
-      "title": "Franca dominates Flamengo at Maracanãzinho and wins first victory away from home",
-      "originalTitle": "Franca domina Flamengo no Maracanãzinho e conquista primeira vitória fora de casa",
-      "translatedFrom": "pt",
-      "description": "Flamengo 73 x 84 Franca | Best Moments | NBB 2025/26 In the clash that brought together two of the greatest champions of national basketball for the 7th round of the NBB, the visitor won. Entitled to the prominence of Gui Deodato, former Flamengo player, the red-blacks were dominated by Franca, playing at home, in the",
-      "published": "2026-11-11T01:26:19.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/Cgp0oaEnDIc_9Xq8wgP7pnShZ4o=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/r/u/Ib0E94T0euft0J5BB6IA/763908-flamengoxfranca-nbb-maracanazinho-10-11-2026-foto-paulareis-flamengo008a4829.jpg",
-      "url": "https://ge.globo.com/basquete/noticia/2026/11/10/franca-domina-flamengo-dentro-do-maracanazinho-e-conquista-primeira-vitoria-fora-de-casa.ghtml"
-    },
-    {
-      "id": "NBB-as-duas-mulheres-que-ajudaram-a-construi",
-      "league": "NBB",
-      "title": "The two women who helped build the history of Brazilian basketball",
-      "originalTitle": "As duas mulheres que ajudaram a construir a história do basquete brasileiro",
-      "translatedFrom": "pt",
-      "description": "The memories and legacy of the Olympic medal in women's basketball Before the Brazilian women's basketball conquered the world, two women helped to build the path. First, they entered the court as players and defended the Brazilian national team for years. Afterwards, they changed the athletes' uniforms to",
-      "published": "2026-11-10T15:41:10.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/nLSjOjlu42FSVeRpuxuhsSkFOYc=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/m/V/XpfFHXQUit6e0kVaJkQg/mhc.jpg",
-      "url": "https://ge.globo.com/sp/campinas-e-regiao/noticia/2026/11/10/as-duas-mulheres-que-ajudaram-a-construir-a-historia-do-basquete-brasileiro.ghtml"
     }
   ],
   "leaders": {
@@ -16431,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-22T14:24:12.623Z",
-    "news": "2026-11-22T14:24:12.623Z"
+    "games": "2026-11-23T17:48:01.702Z",
+    "news": "2026-11-23T17:48:01.702Z"
   },
   "carriedOver": [
     "teams",

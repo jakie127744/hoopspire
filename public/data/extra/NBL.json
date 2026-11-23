@@ -1,6 +1,6 @@
 {
   "league": "NBL",
-  "fetchedAt": "2026-11-22T14:24:24.042Z",
+  "fetchedAt": "2026-11-23T17:48:12.853Z",
   "sources": [
     {
       "name": "RealGM",
@@ -5263,7 +5263,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-11-22T14:24:24.042Z",
+    "news": "2026-11-23T17:48:12.853Z",
     "leaders": "2026-09-11T01:04:08.847Z",
     "playerStats": "2026-09-11T01:04:08.847Z"
   },
