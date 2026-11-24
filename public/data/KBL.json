@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-11-23T17:46:12.538Z",
+  "fetchedAt": "2026-11-24T17:19:08.314Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -7125,36 +7125,6 @@
   },
   "games": [
     {
-      "id": "S49G01N63",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-10T19:00:00+09:00",
-      "venue": "Dongcheon Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N63/20261110",
-      "home": {
-        "id": "ulsan-hyundai-mobis-phoebus",
-        "name": "Ulsan Hyundai Mobis Phoebus",
-        "abbr": "UHMP",
-        "logo": null,
-        "score": 79,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "goyang-sono-skygunners",
-        "name": "Goyang Sono Skygunners",
-        "abbr": "GSS",
-        "logo": null,
-        "score": 86,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "S49G01N64",
       "league": "KBL",
       "status": "final",
@@ -8893,6 +8863,96 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S50G01N22",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-16T13:00:00+09:00",
+      "venue": "경희대 선승관",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S50G01N22/20261216",
+      "home": {
+        "id": "lg",
+        "name": "LG",
+        "abbr": "36",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "-",
+        "name": "상무",
+        "abbr": "29",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "S50G01N23",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-16T15:00:00+09:00",
+      "venue": "경희대 선승관",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S50G01N23/20261216",
+      "home": {
+        "id": "-",
+        "name": "삼성",
+        "abbr": "26",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "-",
+        "name": "한국가스공사",
+        "abbr": "68",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "S49G01N101",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-16T19:00:00+09:00",
+      "venue": "Busan Sajik Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N101/20261216",
+      "home": {
+        "id": "busan-kcc-egis",
+        "name": "Busan KCC Egis",
+        "abbr": "BKE",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "anyang-jung-kwan-jang",
+        "name": "Anyang Jung Kwan Jang",
+        "abbr": "AJKJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -9373,13 +9433,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-23T17:46:12.538Z",
-    "rosters": "2026-11-23T17:46:12.538Z",
-    "playerStats": "2026-11-23T17:46:12.538Z",
-    "standings": "2026-11-23T17:46:12.538Z",
-    "games": "2026-11-23T17:46:12.538Z",
+    "teams": "2026-11-24T17:19:08.314Z",
+    "rosters": "2026-11-24T17:19:08.314Z",
+    "playerStats": "2026-11-24T17:19:08.314Z",
+    "standings": "2026-11-24T17:19:08.314Z",
+    "games": "2026-11-24T17:19:08.314Z",
     "news": "2026-11-22T14:22:40.058Z",
-    "leaders": "2026-11-23T17:46:12.538Z"
+    "leaders": "2026-11-24T17:19:08.314Z"
   },
   "carriedOver": [
     "news"

@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-23T17:48:01.702Z",
+  "fetchedAt": "2026-11-24T17:21:22.065Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15915,10 +15915,10 @@
     {
       "id": "NBB-gui-santos-tem-melhor-partida-da-tempora",
       "league": "NBB",
-      "title": "Gui Santos tem melhor partida da temporada em vitória acirrada dos Warriors",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Boston Celtics 87 x 88 Golden State Warriors | Melhores Momentos | NBA Gui Santos teve a melhor partida da temporada 2026/27 até o momento. No último domingo, o brasileiro marcou 13 pontos na vitória acirrada do Golden State Warriors sobre o Boston Celtics por 88 a 87. Ganhando espaço na equipe após",
+      "title": "Gui Santos has his best game of the season in a hard-fought Warriors win",
+      "originalTitle": "Gui Santos tem melhor partida da temporada em vitória acirrada dos Warriors",
+      "translatedFrom": "pt",
+      "description": "Boston Celtics 87 - 88 Golden State Warriors | Highlights | NBA Gui Santos had his best game of the 2026/27 season so far. Last Sunday, the Brazilian scored 13 points in the Golden State Warriors' narrow 88-87 victory over the Boston Celtics. Earning a spot on the team after",
       "published": "2026-11-23T11:35:46.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -15928,10 +15928,10 @@
     {
       "id": "NBB-com-yago-inspirado-flamengo-supera-o-bas",
       "league": "NBB",
-      "title": "Com Yago inspirado, Flamengo supera o Basquete Cearense por 92 a 66; veja como foi",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Basquete Cearense 66 x 92 Flamengo | Melhores momentos | NBB 2026/2027 O Flamengo venceu o Basquete Cearense por 92 a 66 neste domingo (22), no Centro de Formação Olímpica, em Fortaleza, pela quinta rodada do NBB 2026/27. Após um primeiro tempo equilibrado, no qual chegou ao intervalo perdendo por 3",
+      "title": "With Yago in top form, Flamengo beat Basquete Cearense 92-66; see how it went down.",
+      "originalTitle": "Com Yago inspirado, Flamengo supera o Basquete Cearense por 92 a 66; veja como foi",
+      "translatedFrom": "pt",
+      "description": "Basquete Cearense 66-92 Flamengo | Highlights | NBB 2026/2027 Flamengo defeated Basquete Cearense 92-66 this Sunday (22) at the Olympic Training Center in Fortaleza in the fifth round of the NBB 2026/27. After an evenly matched first half, in which they went into halftime trailing by 3",
       "published": "2026-11-22T22:25:10.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -15941,10 +15941,10 @@
     {
       "id": "NBB-arrasador-no-in-cio-corinthians-vence-s-",
       "league": "NBB",
-      "title": "Arrasador no início, Corinthians vence São José fora de casa pelo NBB",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "São José 67 x 86 Corinthians | Melhores momentos | NBB 2026/2027 O Corinthians venceu o São José Basketball por 86 a 67 na manhã deste domingo, 22, no ginásio Linneu de Moura, em São José dos Campos, pelo NBB. Foi a quarta vitória seguida do Alvinegro, enquanto os joseenses sofrem a segunda derrota",
+      "title": "Starting strong, Corinthians beat São José away in the NBB",
+      "originalTitle": "Arrasador no início, Corinthians vence São José fora de casa pelo NBB",
+      "translatedFrom": "pt",
+      "description": "São José 67-86 Corinthians | Highlights | NBB 2026/2027 Corinthians beat São José Basketball 86-67 on the morning of Sunday, 22nd, at the Linneu de Moura gymnasium in São José dos Campos, in the NBB. It was Corinthians' fourth consecutive victory, while São José suffered their second defeat.",
       "published": "2026-11-22T19:57:49.000Z",
       "byline": "ge — Globo Esporte",
       "tag": "Report",
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-23T17:48:01.702Z",
-    "news": "2026-11-23T17:48:01.702Z"
+    "games": "2026-11-24T17:21:22.065Z",
+    "news": "2026-11-24T17:21:22.065Z"
   },
   "carriedOver": [
     "teams",

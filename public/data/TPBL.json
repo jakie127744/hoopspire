@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-11-23T17:47:51.840Z",
+  "fetchedAt": "2026-11-24T17:21:04.313Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -4403,11 +4403,37 @@
   ],
   "news": [
     {
+      "id": "TPBL-563",
+      "league": "TPBL",
+      "title": "🥇 PLAYER OF THE WEEK｜Player with the Best Performance of the Week 🔱 Calvin FOR REAL 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🔱 加爾文 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-11-24T06:06:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/563/fNY0W89mobhoRf8XAyLhvQb4rTDRafsjZEllfKrj.jpg?20261124115023",
+      "url": "https://tpbl.basketball/news/563"
+    },
+    {
+      "id": "TPBL-562",
+      "league": "TPBL",
+      "title": "🥇 | Best-performing player in a week ⚡️ Abbasi 🤫",
+      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 ⚡️ 阿巴西 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
+      "translatedFrom": "zh-TW",
+      "description": "",
+      "published": "2026-11-24T06:05:00.000Z",
+      "byline": "TPBL",
+      "tag": "League",
+      "image": "https://assets.tpbl.basketball/production/posts/562/UUBMjNEIHaGRnfEHleJy30LbIBhZMTRMBrgTd8Mr.jpg?20261124114837",
+      "url": "https://tpbl.basketball/news/562"
+    },
+    {
       "id": "TPBL-561",
       "league": "TPBL",
-      "title": "2026.11.23 球員異動",
-      "originalTitle": null,
-      "translatedFrom": null,
+      "title": "11/23/2026 Player Transfers",
+      "originalTitle": "2026.11.23 球員異動",
+      "translatedFrom": "zh-TW",
       "description": "",
       "published": "2026-11-23T07:14:46.000Z",
       "byline": "TPBL",
@@ -4531,32 +4557,6 @@
       "tag": "League",
       "image": "https://assets.tpbl.basketball/production/posts/537/DRtEoPwxYpJnJlKVfo4QIbNDZLQUnmQ5pm0LvfUM.jpg?20261111185517",
       "url": "https://tpbl.basketball/news/551"
-    },
-    {
-      "id": "TPBL-530",
-      "league": "TPBL",
-      "title": "🥇 | Best-performing player in a week | 🦁 Drew 🤫",
-      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 🦁 德魯 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-11-03T09:25:24.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/530/aPD70IRxohvcXB5TElXXi3mdKvdFSfeLjrBm3NbE.jpg?20261103172702",
-      "url": "https://tpbl.basketball/news/530"
-    },
-    {
-      "id": "TPBL-529",
-      "league": "TPBL",
-      "title": "🥇 | Best-performing player in a week ⚡️ Abbasi 🤫",
-      "originalTitle": "🥇 𝐏𝐋𝐀𝐘𝐄𝐑 𝐎𝐅 𝐓𝐇𝐄 𝐖𝐄𝐄𝐊｜單週表現最佳球員 ⚡️ 阿巴西 𝐅𝐎𝐑 𝐑𝐄𝐀𝐋 🤫",
-      "translatedFrom": "zh-TW",
-      "description": "",
-      "published": "2026-11-03T09:17:35.000Z",
-      "byline": "TPBL",
-      "tag": "League",
-      "image": "https://assets.tpbl.basketball/production/posts/529/tLPYUT3yAkNvVQKV7vaULpYJOWKP3v8iBTXxnN60.jpg?20261103172515",
-      "url": "https://tpbl.basketball/news/529"
     }
   ],
   "leaders": {
@@ -5022,12 +5022,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-23T17:47:51.840Z",
-    "rosters": "2026-11-23T17:47:51.840Z",
-    "playerStats": "2026-11-23T17:47:51.840Z",
-    "standings": "2026-11-23T17:47:51.840Z",
-    "games": "2026-11-23T17:47:51.840Z",
-    "news": "2026-11-23T17:47:51.840Z",
-    "leaders": "2026-11-23T17:47:51.840Z"
+    "teams": "2026-11-24T17:21:04.313Z",
+    "rosters": "2026-11-24T17:21:04.313Z",
+    "playerStats": "2026-11-24T17:21:04.313Z",
+    "standings": "2026-11-24T17:21:04.313Z",
+    "games": "2026-11-24T17:21:04.313Z",
+    "news": "2026-11-24T17:21:04.313Z",
+    "leaders": "2026-11-24T17:21:04.313Z"
   }
 }
