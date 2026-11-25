@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-25T17:01:37.437Z",
+  "fetchedAt": "2026-11-25T23:45:48.586Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Titan Ultra Giant Risers: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Titan%20Ultra%20Giant%20Risers — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -2218,6 +2217,236 @@
         "age": 28,
         "country": null,
         "college": "Letran",
+        "headshot": null
+      }
+    ],
+    "titan-ultra-giant-risers": [
+      {
+        "id": "titan-ultra-giant-risers-rr-garcia",
+        "name": "RR Garcia",
+        "jersey": "1",
+        "position": "G",
+        "height": "5' 11\"",
+        "weight": "165 lbs",
+        "age": 36,
+        "country": null,
+        "college": "Far Eastern",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-fran-yu",
+        "name": "Fran Yu",
+        "jersey": "3",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": "154 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-bryan-sajonia",
+        "name": "Bryan Sajonia",
+        "jersey": "4",
+        "position": "G",
+        "height": "6' 0\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "San Beda",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-ato-ular",
+        "name": "Ato Ular",
+        "jersey": "5",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": "196 lbs",
+        "age": 31,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-denzel-wong",
+        "name": "Denzel Wong",
+        "jersey": "8",
+        "position": "G",
+        "height": "5' 8\"",
+        "weight": null,
+        "age": 33,
+        "country": null,
+        "college": "Asia Pacific",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-paolo-javillonar",
+        "name": "Paolo Javillonar",
+        "jersey": "9",
+        "position": "F/C",
+        "height": "6' 6\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-aljun-melecio",
+        "name": "Aljun Melecio",
+        "jersey": "11",
+        "position": "G",
+        "height": "5' 8\"",
+        "weight": "160 lbs",
+        "age": 28,
+        "country": null,
+        "college": "De La Salle",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-roi-sumang",
+        "name": "Roi Sumang",
+        "jersey": "12",
+        "position": "G",
+        "height": "5' 8\"",
+        "weight": "160 lbs",
+        "age": 35,
+        "country": null,
+        "college": "UE",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-john-amores",
+        "name": "John Amores",
+        "jersey": "13",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "178 lbs",
+        "age": 27,
+        "country": null,
+        "college": "José Rizal",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-von-pessumal",
+        "name": "Von Pessumal",
+        "jersey": "19",
+        "position": "G/F",
+        "height": "6' 2\"",
+        "weight": "185 lbs",
+        "age": 33,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-aris-dionisio",
+        "name": "Aris Dionisio",
+        "jersey": "21",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 31,
+        "country": null,
+        "college": "St. Clare",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-cade-flores",
+        "name": "Cade Flores",
+        "jersey": "22",
+        "position": "F",
+        "height": "6' 5\"",
+        "weight": "214 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Arellano",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-mark-omega",
+        "name": "Mark Omega",
+        "jersey": "23",
+        "position": "C",
+        "height": "6' 5\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-joshua-munzon",
+        "name": "Joshua Munzon",
+        "jersey": "24",
+        "position": "G/F",
+        "height": "6' 4\"",
+        "weight": "200 lbs",
+        "age": 31,
+        "country": null,
+        "college": "Cal State LA",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-axel-i-igo",
+        "name": "Axel Iñigo",
+        "jersey": "26",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": null,
+        "age": 32,
+        "country": null,
+        "college": "Far Eastern",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-king-caralipio",
+        "name": "King Caralipio",
+        "jersey": "27",
+        "position": "F",
+        "height": "6' 2\"",
+        "weight": "176 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-mark-sangco",
+        "name": "Mark Sangco",
+        "jersey": "28",
+        "position": "F",
+        "height": "6' 5\"",
+        "weight": null,
+        "age": 27,
+        "country": null,
+        "college": "St. Benilde",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-mario-barasi",
+        "name": "Mario Barasi",
+        "jersey": "–",
+        "position": "C",
+        "height": "6' 8\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "titan-ultra-giant-risers-james-martinez",
+        "name": "James Martinez",
+        "jersey": "–",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": "170 lbs",
+        "age": 39,
+        "country": null,
+        "college": "UE",
         "headshot": null
       }
     ],
@@ -15114,12 +15343,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-25T17:01:37.437Z",
-    "rosters": "2026-11-25T17:01:37.437Z",
+    "teams": "2026-11-25T23:45:48.586Z",
+    "rosters": "2026-11-25T23:45:48.586Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-25T17:01:37.437Z",
-    "games": "2026-11-25T17:01:37.437Z",
-    "news": "2026-11-25T17:01:37.437Z",
+    "standings": "2026-11-25T23:45:48.586Z",
+    "games": "2026-11-25T23:45:48.586Z",
+    "news": "2026-11-25T23:45:48.586Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
