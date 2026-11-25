@@ -1,7 +1,7 @@
 {
   "league": "PBA",
   "season": "2026",
-  "fetchedAt": "2026-11-24T17:20:35.991Z",
+  "fetchedAt": "2026-11-25T00:03:32.681Z",
   "sources": [
     {
       "name": "Wikipedia (CC BY-SA)",
@@ -30,7 +30,6 @@
   ],
   "notes": [
     "pba.ph is behind a Cloudflare bot check; built from Wikipedia instead.",
-    "roster Terrafirma Dyip: https://en.wikipedia.org/w/api.php?action=parse&format=json&prop=text&page=Terrafirma%20Dyip — HTTP 429",
     "PBA results labels left unattributed: Macau BB",
     "PBA standings: 2026 Governors' Cup from Wikipedia's group tables (they cite pba.ph); 13 records re-added from the page's results.",
     "PBA_PH: bot-check page; skipped",
@@ -653,7 +652,7 @@
         "position": "G",
         "height": "6' 0\"",
         "weight": null,
-        "age": 27,
+        "age": 28,
         "country": null,
         "college": "SPCF",
         "headshot": null
@@ -2012,6 +2011,212 @@
         "age": 36,
         "country": null,
         "college": "Adamson",
+        "headshot": null
+      }
+    ],
+    "terrafirma-dyip": [
+      {
+        "id": "terrafirma-dyip-ira-bataller-fa-",
+        "name": "Ira Bataller (FA)",
+        "jersey": "0",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-juami-tiongson",
+        "name": "Juami Tiongson",
+        "jersey": "3",
+        "position": "G",
+        "height": "5' 10\"",
+        "weight": "175 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-paul-garcia",
+        "name": "Paul Garcia",
+        "jersey": "4",
+        "position": "G",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 27,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-keith-zaldivar",
+        "name": "Keith Zaldivar",
+        "jersey": "5",
+        "position": "C",
+        "height": "6' 6\"",
+        "weight": null,
+        "age": 30,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-louie-sangalang",
+        "name": "Louie Sangalang",
+        "jersey": "6",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-chris-miller",
+        "name": "Chris Miller",
+        "jersey": "8",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "180 lbs",
+        "age": 33,
+        "country": null,
+        "college": "Salem",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-cj-catapusan",
+        "name": "CJ Catapusan",
+        "jersey": "9",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": null,
+        "age": 29,
+        "country": null,
+        "college": "UP",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-aljon-mariano",
+        "name": "Aljon Mariano",
+        "jersey": "10",
+        "position": "F",
+        "height": "6' 3\"",
+        "weight": "175 lbs",
+        "age": 34,
+        "country": null,
+        "college": "UST",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-ben-adamos",
+        "name": "Ben Adamos",
+        "jersey": "11",
+        "position": "C",
+        "height": "6' 7\"",
+        "weight": "200 lbs",
+        "age": 30,
+        "country": null,
+        "college": "UPHSD",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-maverick-ahanmisi-fa-",
+        "name": "Maverick Ahanmisi (FA)",
+        "jersey": "13",
+        "position": "G",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 35,
+        "country": null,
+        "college": "Minnesota",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-geo-chiu",
+        "name": "Geo Chiu",
+        "jersey": "18",
+        "position": "C",
+        "height": "6' 10\"",
+        "weight": "249 lbs",
+        "age": 25,
+        "country": null,
+        "college": "Ateneo",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-joseph-eriobu",
+        "name": "Joseph Eriobu",
+        "jersey": "23",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": "198 lbs",
+        "age": 34,
+        "country": null,
+        "college": "Mapúa",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-mark-nonoy",
+        "name": "Mark Nonoy",
+        "jersey": "24",
+        "position": "G",
+        "height": "5' 9\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "De La Salle",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-jm-bravo",
+        "name": "JM Bravo",
+        "jersey": "26",
+        "position": "F",
+        "height": "6' 4\"",
+        "weight": null,
+        "age": 26,
+        "country": null,
+        "college": "Lyceum",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-shawn-umali",
+        "name": "Shawn Umali",
+        "jersey": "28",
+        "position": "F/C",
+        "height": "6' 4\"",
+        "weight": "242 lbs",
+        "age": 25,
+        "country": null,
+        "college": "St. Benilde",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-didat-hanapi",
+        "name": "Didat Hanapi",
+        "jersey": "30",
+        "position": "G/F",
+        "height": "6' 2\"",
+        "weight": null,
+        "age": 25,
+        "country": null,
+        "college": "Adamson",
+        "headshot": null
+      },
+      {
+        "id": "terrafirma-dyip-brent-paraiso",
+        "name": "Brent Paraiso",
+        "jersey": "38",
+        "position": "G",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 28,
+        "country": null,
+        "college": "Letran",
         "headshot": null
       }
     ],
@@ -14506,6 +14711,19 @@
   ],
   "news": [
     {
+      "id": "PBA-mostpowerfulgilassquadnotalockedbetvsdan",
+      "league": "PBA",
+      "title": "‘Most powerful’ Gilas squad not a locked bet vs dangerous foes",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "On paper, Gilas Pilipinas looks well-equipped for another sweep in the Fiba World Cup Asian Qualifiers with the roster it has assembled for the fifth window, which gets going this weekend in Seremban, Malaysia. But coach Tim Cone was quick to warn that having newly naturalized pl",
+      "published": "2026-11-25T04:10:51.000Z",
+      "byline": "Inquirer Sports",
+      "tag": "Report",
+      "image": "https://sports.inquirer.net/files/2026/11/Kai-Sotto-Boatwright-Dwight-Millora-Brown-24November2026.jpg",
+      "url": "https://sports.inquirer.net/708529/most-powerful-gilas-squad-not-a-locked-bet-vs-dangerous-foes"
+    },
+    {
       "id": "PBA-troyrosarioalwaysreadywhengilaspilipinas",
       "league": "PBA",
       "title": "Troy Rosario always ready when Gilas Pilipinas calls",
@@ -15138,12 +15356,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-24T17:20:35.991Z",
-    "rosters": "2026-11-24T17:20:35.991Z",
+    "teams": "2026-11-25T00:03:32.681Z",
+    "rosters": "2026-11-25T00:03:32.681Z",
     "playerStats": "2026-09-20T00:19:42.997Z",
-    "standings": "2026-11-24T17:20:35.991Z",
-    "games": "2026-11-24T17:20:35.991Z",
-    "news": "2026-11-24T17:20:35.991Z",
+    "standings": "2026-11-25T00:03:32.681Z",
+    "games": "2026-11-25T00:03:32.681Z",
+    "news": "2026-11-25T00:03:32.681Z",
     "leaders": "2026-09-20T00:19:42.997Z"
   },
   "carriedOver": [
