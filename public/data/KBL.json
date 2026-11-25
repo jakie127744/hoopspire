@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-11-24T17:19:08.314Z",
+  "fetchedAt": "2026-11-25T16:59:59.590Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -7125,36 +7125,6 @@
   },
   "games": [
     {
-      "id": "S49G01N64",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-11T19:00:00+09:00",
-      "venue": "Changwon Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N64/20261111",
-      "home": {
-        "id": "changwon-lg-sakers",
-        "name": "Changwon LG Sakers",
-        "abbr": "CLS",
-        "logo": null,
-        "score": 101,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "seoul-sk-knights",
-        "name": "Seoul SK Knights",
-        "abbr": "SSK",
-        "logo": null,
-        "score": 72,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "S49G01N65",
       "league": "KBL",
       "status": "final",
@@ -7547,8 +7517,8 @@
     {
       "id": "S50G01N1",
       "league": "KBL",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-11-25T12:00:00+09:00",
@@ -7560,7 +7530,7 @@
         "name": "한국가스공사",
         "abbr": "68",
         "logo": null,
-        "score": null,
+        "score": 62,
         "linescores": [],
         "leaders": []
       },
@@ -7569,7 +7539,7 @@
         "name": "현대모비스",
         "abbr": "31",
         "logo": null,
-        "score": null,
+        "score": 81,
         "linescores": [],
         "leaders": []
       }
@@ -7577,8 +7547,8 @@
     {
       "id": "S50G01N2",
       "league": "KBL",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-11-25T14:00:00+09:00",
@@ -7590,7 +7560,7 @@
         "name": "KCC",
         "abbr": "24",
         "logo": null,
-        "score": null,
+        "score": 68,
         "linescores": [],
         "leaders": []
       },
@@ -7599,7 +7569,7 @@
         "name": "소노",
         "abbr": "67",
         "logo": null,
-        "score": null,
+        "score": 77,
         "linescores": [],
         "leaders": []
       }
@@ -7607,8 +7577,8 @@
     {
       "id": "S50G01N3",
       "league": "KBL",
-      "status": "scheduled",
-      "statusDetail": "Scheduled",
+      "status": "final",
+      "statusDetail": "Final",
       "period": null,
       "clock": null,
       "date": "2026-11-25T16:00:00+09:00",
@@ -7620,7 +7590,7 @@
         "name": "DB",
         "abbr": "28",
         "logo": null,
-        "score": null,
+        "score": 62,
         "linescores": [],
         "leaders": []
       },
@@ -7629,7 +7599,7 @@
         "name": "삼성",
         "abbr": "26",
         "logo": null,
-        "score": null,
+        "score": 71,
         "linescores": [],
         "leaders": []
       }
@@ -8953,6 +8923,36 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S49G01N102",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-17T19:00:00+09:00",
+      "venue": "Dongcheon Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N102/20261217",
+      "home": {
+        "id": "ulsan-hyundai-mobis-phoebus",
+        "name": "Ulsan Hyundai Mobis Phoebus",
+        "abbr": "UHMP",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "wonju-db-promy",
+        "name": "Wonju DB Promy",
+        "abbr": "WDP",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -9433,13 +9433,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-24T17:19:08.314Z",
-    "rosters": "2026-11-24T17:19:08.314Z",
-    "playerStats": "2026-11-24T17:19:08.314Z",
-    "standings": "2026-11-24T17:19:08.314Z",
-    "games": "2026-11-24T17:19:08.314Z",
+    "teams": "2026-11-25T16:59:59.590Z",
+    "rosters": "2026-11-25T16:59:59.590Z",
+    "playerStats": "2026-11-25T16:59:59.590Z",
+    "standings": "2026-11-25T16:59:59.590Z",
+    "games": "2026-11-25T16:59:59.590Z",
     "news": "2026-11-22T14:22:40.058Z",
-    "leaders": "2026-11-24T17:19:08.314Z"
+    "leaders": "2026-11-25T16:59:59.590Z"
   },
   "carriedOver": [
     "news"
