@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-11-25T16:59:59.590Z",
+  "fetchedAt": "2026-11-26T16:40:15.305Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -7125,36 +7125,6 @@
   },
   "games": [
     {
-      "id": "S49G01N65",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-12T19:00:00+09:00",
-      "venue": "Daegue Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N65/20261112",
-      "home": {
-        "id": "daegu-korea-gas-corporation",
-        "name": "Daegu Korea Gas Corporation",
-        "abbr": "DKGC",
-        "logo": null,
-        "score": 87,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "goyang-sono-skygunners",
-        "name": "Goyang Sono Skygunners",
-        "abbr": "GSS",
-        "logo": null,
-        "score": 88,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "S49G01N66",
       "league": "KBL",
       "status": "final",
@@ -8953,6 +8923,36 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S49G01N103",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-18T19:00:00+09:00",
+      "venue": "Jamsil Student Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N103/20261218",
+      "home": {
+        "id": "seoul-samsung-thunders",
+        "name": "Seoul Samsung Thunders",
+        "abbr": "SST",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "goyang-sono-skygunners",
+        "name": "Goyang Sono Skygunners",
+        "abbr": "GSS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -9433,13 +9433,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-25T16:59:59.590Z",
-    "rosters": "2026-11-25T16:59:59.590Z",
-    "playerStats": "2026-11-25T16:59:59.590Z",
-    "standings": "2026-11-25T16:59:59.590Z",
-    "games": "2026-11-25T16:59:59.590Z",
+    "teams": "2026-11-26T16:40:15.305Z",
+    "rosters": "2026-11-26T16:40:15.305Z",
+    "playerStats": "2026-11-26T16:40:15.305Z",
+    "standings": "2026-11-26T16:40:15.305Z",
+    "games": "2026-11-26T16:40:15.305Z",
     "news": "2026-11-22T14:22:40.058Z",
-    "leaders": "2026-11-25T16:59:59.590Z"
+    "leaders": "2026-11-26T16:40:15.305Z"
   },
   "carriedOver": [
     "news"

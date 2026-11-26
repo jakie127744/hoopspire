@@ -1,7 +1,7 @@
 {
   "league": "TPBL",
   "season": "Regular season",
-  "fetchedAt": "2026-11-25T17:01:57.626Z",
+  "fetchedAt": "2026-11-26T16:41:17.888Z",
   "sources": [
     {
       "name": "asia-basket",
@@ -3973,6 +3973,35 @@
   },
   "games": [
     {
+      "id": "ab-TPBL-2026-11-25-dreamers-lioneers",
+      "league": "TPBL",
+      "status": "final",
+      "statusDetail": "Final",
+      "period": null,
+      "clock": null,
+      "date": "2026-11-25T11:00:00.000Z",
+      "venue": null,
+      "city": null,
+      "home": {
+        "id": "3",
+        "name": "Formosa Dreamers",
+        "abbr": "FOR",
+        "logo": null,
+        "score": 78,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "4",
+        "name": "Hsinchu Lioneers",
+        "abbr": "HSI",
+        "logo": null,
+        "score": 83,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
       "id": "ab-TPBL-2026-11-22-dreamers-n-taipei",
       "league": "TPBL",
       "status": "final",
@@ -5058,12 +5087,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-25T17:01:57.626Z",
-    "rosters": "2026-11-25T17:01:57.626Z",
-    "playerStats": "2026-11-25T17:01:57.626Z",
-    "standings": "2026-11-25T17:01:57.626Z",
-    "games": "2026-11-25T17:01:57.626Z",
-    "news": "2026-11-25T17:01:57.626Z",
-    "leaders": "2026-11-25T17:01:57.626Z"
+    "teams": "2026-11-26T16:41:17.888Z",
+    "rosters": "2026-11-26T16:41:17.888Z",
+    "playerStats": "2026-11-26T16:41:17.888Z",
+    "standings": "2026-11-26T16:41:17.888Z",
+    "games": "2026-11-26T16:41:17.888Z",
+    "news": "2026-11-26T16:41:17.888Z",
+    "leaders": "2026-11-26T16:41:17.888Z"
   }
 }

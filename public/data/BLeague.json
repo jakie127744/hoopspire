@@ -1,7 +1,7 @@
 {
   "league": "BLeague",
   "season": "2026",
-  "fetchedAt": "2026-11-25T16:59:48.549Z",
+  "fetchedAt": "2026-11-26T16:40:04.248Z",
   "sources": [
     {
       "name": "bleague.jp",
@@ -21,7 +21,7 @@
     }
   ],
   "notes": [
-    "player stats from bleague.jp (337 players)",
+    "player stats from bleague.jp (338 players)",
     "Leaders require at least 8 games played.",
     "standings from bleague.jp (2026-27)"
   ],
@@ -2334,6 +2334,18 @@
         "name": "Gaku Arao",
         "nameLocal": "荒尾 岳",
         "jersey": "25",
+        "position": "PF",
+        "height": null,
+        "weight": null,
+        "age": null,
+        "country": null,
+        "headshot": "https://bleague.bl.kuroco-img.app/v=1772175992/files/user/common/img/logo/2026/m/cj.png"
+      },
+      {
+        "id": "51000715",
+        "name": "LG Gill",
+        "nameLocal": "エルジー・ギル",
+        "jersey": "26",
         "position": "PF",
         "height": null,
         "weight": null,
@@ -9714,6 +9726,38 @@
     },
     {
       "id": null,
+      "name": "LG Gill",
+      "nameLocal": "エルジー・ギル",
+      "bleaguePlayerId": "51000715",
+      "teamAbbr": "CHI",
+      "teamId": "704",
+      "teamName": "Chiba Jets",
+      "jersey": "26",
+      "position": "PF",
+      "gamesPlayed": 12,
+      "minutes": 19.6,
+      "points": 5.8,
+      "fgMade": 2.5,
+      "fgAttempted": 3.8,
+      "fgPct": 0.652,
+      "threeMade": 0,
+      "threeAttempted": 0.1,
+      "threePct": 0,
+      "ftMade": 0.8,
+      "ftAttempted": 1.5,
+      "ftPct": 0.5,
+      "offRebounds": 1.5,
+      "defRebounds": 2.2,
+      "rebounds": 3.7,
+      "assists": 0.8,
+      "turnovers": 1.3,
+      "steals": 0.3,
+      "blocks": 0.3,
+      "fouls": 3.5,
+      "realgmPlayerId": null
+    },
+    {
+      "id": null,
       "name": "Yutaro Suda",
       "nameLocal": "須田 侑太郎",
       "bleaguePlayerId": "8494",
@@ -16430,126 +16474,6 @@
   },
   "games": [
     {
-      "id": "bl-506575",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-12T19:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506575",
-      "home": {
-        "id": "2486",
-        "name": "Altiri Chiba",
-        "abbr": "ALT",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 75,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "694",
-        "name": "Yokohama B-Corsairs",
-        "abbr": "YOK",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 66,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506576",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-12T19:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506576",
-      "home": {
-        "id": "696",
-        "name": "Toyama Grouses",
-        "abbr": "TOY",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 91,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "700",
-        "name": "Osaka Evessa",
-        "abbr": "OSA",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 77,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506577",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-12T19:05:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506577",
-      "home": {
-        "id": "698",
-        "name": "Shiga Lakes",
-        "abbr": "SHI",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 87,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "704",
-        "name": "Chiba Jets",
-        "abbr": "CHI",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 90,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "bl-506578",
-      "league": "BLeague",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-12T19:35:00+09:00",
-      "venue": null,
-      "city": null,
-      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506578",
-      "home": {
-        "id": "701",
-        "name": "Ryukyu Golden Kings",
-        "abbr": "RYU",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 81,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "726",
-        "name": "SunRockers Shibuya",
-        "abbr": "SUN",
-        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
-        "score": 78,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "bl-506582",
       "league": "BLeague",
       "status": "final",
@@ -19308,21 +19232,171 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "bl-506672",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-18T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506672",
+      "home": {
+        "id": "704",
+        "name": "Chiba Jets",
+        "abbr": "CHI",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "694",
+        "name": "Yokohama B-Corsairs",
+        "abbr": "YOK",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506673",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-18T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506673",
+      "home": {
+        "id": "696",
+        "name": "Toyama Grouses",
+        "abbr": "TOY",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "2488",
+        "name": "Nagasaki Velca",
+        "abbr": "NAG",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506674",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-18T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506674",
+      "home": {
+        "id": "697",
+        "name": "San-en NeoPhoenix",
+        "abbr": "SAN",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "729",
+        "name": "Nagoya Diamond Dolphins",
+        "abbr": "NAG",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506676",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-18T19:05:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506676",
+      "home": {
+        "id": "700",
+        "name": "Osaka Evessa",
+        "abbr": "OSA",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "703",
+        "name": "Utsunomiya Brex",
+        "abbr": "UTS",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "bl-506675",
+      "league": "BLeague",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-18T19:35:00+09:00",
+      "venue": null,
+      "city": null,
+      "url": "https://www.bleague.jp/game_detail/?ScheduleKey=506675",
+      "home": {
+        "id": "728",
+        "name": "SeaHorses Mikawa",
+        "abbr": "SEA",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "720",
+        "name": "Shimane Susanoo Magic",
+        "abbr": "SHI",
+        "logo": "https://www.bleague.jp/files/user/img/ogp_blg.png",
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
     {
-      "id": "BLeague-kaisottoreadyforgilasdutybutexpectssomer",
+      "id": "BLeague-dwightramosleadsasiaallstarsaftertopping",
       "league": "BLeague",
-      "title": "Kai Sotto ready for Gilas duty but expects ‘some restrictions’",
+      "title": "Dwight Ramos leads Asia All-Stars after topping Japan B.League votes",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "SCHEDULE: Gilas Pilipinas at Fiba Asian Qualifiers Window 5 MANILA, Philippines–Kai Sotto assured that he will play for Gilas Pilipinas in the fifth window of the Fiba World Cup Asian Qualifiers amid concerns about his fitness. Sotto missed some of his recent games for his B.Leag",
-      "published": "2026-11-24T21:51:23.000Z",
+      "description": "MANILA, Philippines—Levanga Hokkaido’s Filipino import Dwight Ramos will captain the Asia All-Stars at the 2027 Japan B.League All-Star Week after emerging as the team’s top vote-getter. The B.League announced Thursday that Ramos will lead the Asia All-Stars in the Sports Depo Al",
+      "published": "2026-11-26T16:50:33.000Z",
       "byline": "Inquirer Sports",
       "tag": "Report",
-      "image": "https://sports.inquirer.net/files/2026/11/920047794_18399789655163560_8127222096657683003_n.jpg",
-      "url": "https://sports.inquirer.net/708496/kai-sotto-ready-for-gilas-duty-but-expects-some-restrictions"
+      "image": "https://sports.inquirer.net/files/2026/09/0T1A9797.jpg",
+      "url": "https://sports.inquirer.net/708727/dwight-ramos-leads-asia-all-stars-after-topping-japan-b-league-votes"
     }
   ],
   "leaders": {
@@ -19788,12 +19862,12 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-25T16:59:48.549Z",
-    "rosters": "2026-11-25T16:59:48.549Z",
-    "playerStats": "2026-11-25T16:59:48.549Z",
-    "standings": "2026-11-25T16:59:48.549Z",
-    "games": "2026-11-25T16:59:48.549Z",
-    "news": "2026-11-25T16:59:48.549Z",
-    "leaders": "2026-11-25T16:59:48.549Z"
+    "teams": "2026-11-26T16:40:04.248Z",
+    "rosters": "2026-11-26T16:40:04.248Z",
+    "playerStats": "2026-11-26T16:40:04.248Z",
+    "standings": "2026-11-26T16:40:04.248Z",
+    "games": "2026-11-26T16:40:04.248Z",
+    "news": "2026-11-26T16:40:04.248Z",
+    "leaders": "2026-11-26T16:40:04.248Z"
   }
 }
