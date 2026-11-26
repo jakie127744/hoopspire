@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useAsync } from '../lib/useAsync.js'
-import { getStandings } from '../lib/api.js'
+import { getStandings, getStandingsGrouped } from '../lib/api.js'
 import { LEAGUES } from '../lib/leagues.js'
-import StandingsTable from './StandingsTable.jsx'
+import StandingsTable, { ZoneLegend } from './StandingsTable.jsx'
 
 const FEATURED = 4
 const RECENT_DAYS = 14
@@ -214,9 +214,23 @@ export function StandingsCard({ games, league = null, limit = 8 }) {
   const available = useAvailableTables(games)
   const tables = league ? available.filter((t) => t.league.key === league.key) : available
   const [picked, setPicked] = useState(null)
-  if (!tables.length) return null
+  const [conf, setConf] = useState(0)
   const current = tables.find((t) => t.league.key === picked) || tables[0]
+
+  // Leagues that seed by conference (the NBA) show one conference at a
+  // time, as ESPN's rail does: a single league-wide list mixes East and West
+  // seeds and answers nobody's question.
+  const byConference = current?.league.playoffFormat?.grouping === 'conference'
+  const { data: grouped } = useAsync(
+    () => (byConference ? getStandingsGrouped(current.league.key) : null),
+    [byConference ? current.league.key : ''],
+    null
+  )
+  const conferences = byConference && !grouped?.isPreviousSeason ? grouped?.conferences || [] : []
+
+  if (!current) return null
   const l = current.league
+  const shownConf = conferences[conf] || conferences[0]
   return (
     <section className="card overflow-hidden">
       <div className="card-head">
@@ -247,7 +261,38 @@ export function StandingsCard({ games, league = null, limit = 8 }) {
         {current.standings.seasonLabel && (
           <p className="pt-2 text-xs font-semibold text-ink/45">{current.standings.seasonLabel}</p>
         )}
-        <StandingsTable standings={current.standings} leagueKey={l.key} limit={limit} compact />
+        {conferences.length > 1 && (
+          <div role="tablist" aria-label="Conference" className="mt-2 grid grid-cols-2 rounded-full bg-cream p-0.5">
+            {conferences.map((c, i) => (
+              <button
+                key={c.name}
+                type="button"
+                role="tab"
+                aria-selected={c === shownConf}
+                onClick={() => setConf(i)}
+                className={`rounded-full py-1 text-xs font-bold ${
+                  c === shownConf ? 'bg-paper text-ink shadow-sm' : 'text-ink/55 hover:text-ink'
+                }`}
+              >
+                {c.name.replace(/\s*Conference$/i, '')}
+              </button>
+            ))}
+          </div>
+        )}
+        {shownConf ? (
+          <>
+            <StandingsTable
+              standings={{ rows: shownConf.rows }}
+              leagueKey={l.key}
+              seedFrom="group"
+              zones={l.playoffFormat}
+              compact
+            />
+            <ZoneLegend format={l.playoffFormat} className="pt-2.5" />
+          </>
+        ) : (
+          <StandingsTable standings={current.standings} leagueKey={l.key} limit={limit} compact />
+        )}
       </div>
     </section>
   )

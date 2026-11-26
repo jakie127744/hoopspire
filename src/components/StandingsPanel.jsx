@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import StandingsTable from './StandingsTable.jsx'
+import StandingsTable, { ZoneLegend } from './StandingsTable.jsx'
 import PlayoffPicture from './PlayoffPicture.jsx'
 import { Eyebrow, Loading, Empty } from './Primitives.jsx'
 import { useAsync } from '../lib/useAsync.js'
@@ -99,6 +99,9 @@ export default function StandingsPanel({ league, limit }) {
         <PlayoffPicture picture={picture} leagueKey={league.key} seasonLabel={seasonLabel} />
       )}
 
+      {active === 'conference' && league.playoffFormat && (
+        <ZoneLegend format={league.playoffFormat} className="mb-4" />
+      )}
       {active === 'conference' && (
         <div className="grid gap-10 xl:grid-cols-2">
           {conferences.map((c) => (
@@ -109,6 +112,7 @@ export default function StandingsPanel({ league, limit }) {
                 leagueKey={league.key}
                 limit={limit}
                 seedFrom="group"
+                zones={league.playoffFormat}
               />
             </section>
           ))}
