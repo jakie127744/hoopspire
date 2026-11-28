@@ -1,7 +1,7 @@
 {
   "league": "KBL",
   "season": "2026",
-  "fetchedAt": "2026-11-27T16:26:01.782Z",
+  "fetchedAt": "2026-11-28T15:18:15.936Z",
   "sources": [
     {
       "name": "kbl.or.kr",
@@ -7125,96 +7125,6 @@
   },
   "games": [
     {
-      "id": "S49G01N67",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-14T14:00:00+09:00",
-      "venue": "Busan Sajik Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N67/20261114",
-      "home": {
-        "id": "busan-kcc-egis",
-        "name": "Busan KCC Egis",
-        "abbr": "BKE",
-        "logo": null,
-        "score": 75,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "seoul-sk-knights",
-        "name": "Seoul SK Knights",
-        "abbr": "SSK",
-        "logo": null,
-        "score": 70,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "S49G01N68",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-14T14:00:00+09:00",
-      "venue": "Changwon Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N68/20261114",
-      "home": {
-        "id": "changwon-lg-sakers",
-        "name": "Changwon LG Sakers",
-        "abbr": "CLS",
-        "logo": null,
-        "score": 78,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "ulsan-hyundai-mobis-phoebus",
-        "name": "Ulsan Hyundai Mobis Phoebus",
-        "abbr": "UHMP",
-        "logo": null,
-        "score": 79,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
-      "id": "S49G01N69",
-      "league": "KBL",
-      "status": "final",
-      "statusDetail": "Final",
-      "period": null,
-      "clock": null,
-      "date": "2026-11-14T16:30:00+09:00",
-      "venue": "Jamsil Student Gymnasium",
-      "city": null,
-      "url": "https://www.kbl.or.kr/match/record/S49G01N69/20261114",
-      "home": {
-        "id": "seoul-samsung-thunders",
-        "name": "Seoul Samsung Thunders",
-        "abbr": "SST",
-        "logo": null,
-        "score": 80,
-        "linescores": [],
-        "leaders": []
-      },
-      "away": {
-        "id": "anyang-jung-kwan-jang",
-        "name": "Anyang Jung Kwan Jang",
-        "abbr": "AJKJ",
-        "logo": null,
-        "score": 87,
-        "linescores": [],
-        "leaders": []
-      }
-    },
-    {
       "id": "S49G01N70",
       "league": "KBL",
       "status": "final",
@@ -9013,6 +8923,96 @@
         "linescores": [],
         "leaders": []
       }
+    },
+    {
+      "id": "S49G01N107",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-20T14:00:00+09:00",
+      "venue": "Anyang Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N107/20261220",
+      "home": {
+        "id": "anyang-jung-kwan-jang",
+        "name": "Anyang Jung Kwan Jang",
+        "abbr": "AJKJ",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "daegu-korea-gas-corporation",
+        "name": "Daegu Korea Gas Corporation",
+        "abbr": "DKGC",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "S49G01N108",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-20T16:30:00+09:00",
+      "venue": "GOYANG SONO ARENA",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N108/20261220",
+      "home": {
+        "id": "goyang-sono-skygunners",
+        "name": "Goyang Sono Skygunners",
+        "abbr": "GSS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "seoul-sk-knights",
+        "name": "Seoul SK Knights",
+        "abbr": "SSK",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
+    },
+    {
+      "id": "S49G01N109",
+      "league": "KBL",
+      "status": "scheduled",
+      "statusDetail": "Scheduled",
+      "period": null,
+      "clock": null,
+      "date": "2026-12-20T16:30:00+09:00",
+      "venue": "Jamsil Student Gymnasium",
+      "city": null,
+      "url": "https://www.kbl.or.kr/match/record/S49G01N109/20261220",
+      "home": {
+        "id": "seoul-samsung-thunders",
+        "name": "Seoul Samsung Thunders",
+        "abbr": "SST",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      },
+      "away": {
+        "id": "suwon-kt-sonicboom",
+        "name": "Suwon KT Sonicboom",
+        "abbr": "SKS",
+        "logo": null,
+        "score": null,
+        "linescores": [],
+        "leaders": []
+      }
     }
   ],
   "news": [
@@ -9493,13 +9493,13 @@
     ]
   },
   "sectionsUpdatedAt": {
-    "teams": "2026-11-27T16:26:01.782Z",
-    "rosters": "2026-11-27T16:26:01.782Z",
-    "playerStats": "2026-11-27T16:26:01.782Z",
-    "standings": "2026-11-27T16:26:01.782Z",
-    "games": "2026-11-27T16:26:01.782Z",
+    "teams": "2026-11-28T15:18:15.936Z",
+    "rosters": "2026-11-28T15:18:15.936Z",
+    "playerStats": "2026-11-28T15:18:15.936Z",
+    "standings": "2026-11-28T15:18:15.936Z",
+    "games": "2026-11-28T15:18:15.936Z",
     "news": "2026-11-22T14:22:40.058Z",
-    "leaders": "2026-11-27T16:26:01.782Z"
+    "leaders": "2026-11-28T15:18:15.936Z"
   },
   "carriedOver": [
     "news"

@@ -1,7 +1,7 @@
 {
   "league": "NBB",
   "season": "2026",
-  "fetchedAt": "2026-11-27T16:27:16.631Z",
+  "fetchedAt": "2026-11-28T15:19:38.068Z",
   "sources": [
     {
       "name": "latinbasket",
@@ -15913,6 +15913,19 @@
   ],
   "news": [
     {
+      "id": "NBB-brasil-vence-os-eua-em-ibirapuera-lotado",
+      "league": "NBB",
+      "title": "Brazil beats the U.S. in a packed Ibirapuera and moves closer to a spot in the Basketball World Cup",
+      "originalTitle": "Brasil vence os EUA em Ibirapuera lotado e se aproxima de vaga na Copa do Mundo de basquete",
+      "translatedFrom": "pt",
+      "description": "Brazil 92-88 USA | Highlights | Basketball World Cup Qualifiers The return of the Brazilian men's basketball team to one of the sport's most traditional venues ended in celebration. Back at Ibirapuera for an official game after 42 years, Brazil defeated the United States.",
+      "published": "2026-11-28T01:08:56.000Z",
+      "byline": "ge — Globo Esporte",
+      "tag": "Report",
+      "image": "https://s2-ge.glbimg.com/Y9ZFjMyTEYqyfpgBFvBe2H3toQQ=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/5/4/JYeV2nQ96WBHU0XZZZzQ/061a5125.jpg",
+      "url": "https://ge.globo.com/basquete/noticia/2026/11/27/brasil-vence-os-eua-em-ibirapuera-lotado-e-se-aproxima-de-vaga-na-copa-do-mundo-de-basquete.ghtml"
+    },
+    {
       "id": "NBB-gui-santos-tem-melhor-partida-da-tempora",
       "league": "NBB",
       "title": "Gui Santos has his best game of the season in a hard-fought Warriors win",
@@ -16093,19 +16106,6 @@
       "tag": "Report",
       "image": "https://s2-ge.glbimg.com/CoPYCljvfMweN4BPUTcRli3uP2U=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2026/Q/G/ZrX5jUSEiMhsTUVj21vA/foto-wallacelima-11-3-.jpg",
       "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/12/franca-domina-segundo-tempo-vence-botafogo-e-fecha-sequencia-no-rio-com-100percent.ghtml"
-    },
-    {
-      "id": "NBB-botafogo-x-franca-no-nbb-veja-onde-assis",
-      "league": "NBB",
-      "title": "Botafogo vs. Franca in the NBB: See where to watch live and the kickoff time",
-      "originalTitle": "Botafogo x Franca no NBB: veja onde assistir ao vivo e horário",
-      "translatedFrom": "pt",
-      "description": "In Rio de Janeiro (RJ), Franca beat Flamengo and won their first away game in the NBB. Botafogo and Sesi Franca will face each other this Thursday at 8:00 p.m. at the Oscar Zelaya arena in Rio de Janeiro (RJ). The matchup is part of the Novo Basquete Brasil (NBB) league. Botafogo comes into the matchup having played five games.",
-      "published": "2026-11-12T07:00:00.000Z",
-      "byline": "ge — Globo Esporte",
-      "tag": "Report",
-      "image": "https://s2-ge.glbimg.com/xR5bw58-oY4fqOwEzUoLhYNPE5c=/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2025/b/U/5Pe7uWRiqvPGvI0109nA/ginasio-oscar-zelaya-botafogo.jpg",
-      "url": "https://ge.globo.com/sp/ribeirao-preto-e-regiao/basquete/nbb/noticia/2026/11/12/botafogo-x-franca-no-nbb-veja-onde-assistir-ao-vivo-e-horario.ghtml"
     }
   ],
   "leaders": {
@@ -16576,8 +16576,8 @@
     "playerStats": "2026-09-11T01:04:01.361Z",
     "leaders": "2026-09-11T01:04:01.361Z",
     "standings": "2026-09-11T01:04:01.361Z",
-    "games": "2026-11-27T16:27:16.631Z",
-    "news": "2026-11-27T16:27:16.631Z"
+    "games": "2026-11-28T15:19:38.068Z",
+    "news": "2026-11-28T15:19:38.068Z"
   },
   "carriedOver": [
     "teams",

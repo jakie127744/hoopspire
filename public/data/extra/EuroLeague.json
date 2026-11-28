@@ -1,6 +1,6 @@
 {
   "league": "EuroLeague",
-  "fetchedAt": "2026-11-27T16:27:22.905Z",
+  "fetchedAt": "2026-11-28T15:19:44.981Z",
   "sources": [
     {
       "name": "Eurohoops",
@@ -22,30 +22,69 @@
   ],
   "news": [
     {
-      "id": "EuroLeague-greecedealtinjuryblowasdinosmitoglourule",
+      "id": "EuroLeague-serbiaaddteneuroleagueplayersforitalycla",
       "league": "EuroLeague",
-      "title": "Greece dealt injury blow as Dinos Mitoglou ruled out against Spain",
+      "title": "Serbia add ten EuroLeague players for Italy clash, Lucic named captain",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The Panathinaikos forward suffered a left hamstring strain against Georgia and has already begun a specialized treatment program. L'articolo Greece dealt injury blow as Dinos Mitoglou ruled out against Spain proviene da Sportando .",
-      "published": "2026-11-27T15:15:00.000Z",
+      "description": "Djurisic is ruled out with a hematoma ahead of Sunday’s qualifier in Belgrade L'articolo Serbia add ten EuroLeague players for Italy clash, Lucic named captain proviene da Sportando .",
+      "published": "2026-11-28T13:56:54.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/greece-dealt-injury-blow-as-dinos-mitoglou-ruled-out-against-spain/"
+      "url": "https://sportando.basketball/en/serbia-add-ten-euroleague-players-for-italy-clash-lucic-named-captain/"
     },
     {
-      "id": "EuroLeague-nadirhifinamedeuroleaguemvpofthemonthfor",
+      "id": "EuroLeague-quinonesconfirmsmadridandbarcelonaintere",
       "league": "EuroLeague",
-      "title": "Nadir Hifi named EuroLeague MVP of the Month for November",
+      "title": "Quinones confirms Madrid and Barcelona interest, weighs them against NBA goal",
       "originalTitle": null,
       "translatedFrom": null,
-      "description": "The Paris Basketball guard led his team to a perfect 5-0 month, making history with three consecutive game-winning shots in three straight games. L'articolo Nadir Hifi named EuroLeague MVP of the Month for November proviene da Sportando .",
-      "published": "2026-11-27T15:00:00.000Z",
+      "description": "FC Barcelona and Real Madrid reach out to 26-year-old Lester Quinones, looking to bring him to the EuroLeague The post Quinones confirms Madrid and Barcelona interest, weighs them against NBA goal appeared first on Eurohoops .",
+      "published": "2026-11-28T11:14:19.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/11/73f294d0-lester-quinones-reacts-dominican-republic-at-colombia-world-cup-qualifiers-fiba.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2042247/lester-quinones-confirms-real-madrid-barcelona-interest-euroleague/"
+    },
+    {
+      "id": "EuroLeague-quionesfocusedonthenbabuteuroperemainsan",
+      "league": "EuroLeague",
+      "title": "Quiñones focused on the NBA, but Europe remains an option: “They’ve been calling me for two or three years”",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "The Dominican guard confirms contacts with several EuroLeague clubs, including Real Madrid and Barcelona. He makes no direct mention of Olimpia Milano, who were linked with the player in recent weeks. L'articolo Quiñones focused on the NBA, but Europe remains an option: “They’ve ",
+      "published": "2026-11-28T10:09:39.000Z",
       "byline": "Sportando",
       "tag": "Report",
       "image": null,
-      "url": "https://sportando.basketball/en/nadir-hifi-named-euroleague-mvp-of-the-month-for-november/"
+      "url": "https://sportando.basketball/en/quinones-focused-on-the-nba-but-europe-remains-an-option-theyve-been-calling-me-for-two-or-three-years/"
+    },
+    {
+      "id": "EuroLeague-murciaandholonsecureveteranguardsjoethom",
+      "league": "EuroLeague",
+      "title": "Murcia and Holon secure veteran guards Joe Thomasson and Victor Sanders",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Key additions to Basketball Champions League contenders UCAM Murcia and Hapoel Maoz Daniel Holon The post Murcia and Holon secure veteran guards Joe Thomasson and Victor Sanders appeared first on Eurohoops .",
+      "published": "2026-11-28T09:44:24.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/01/a29ceeca-joe-thomasson-panionios-turk-telekom.jpg",
+      "url": "https://www.eurohoops.net/en/fiba-champions-league/2042227/joe-thomasson-to-murcia-victor-sanders-to-holon-basketball-champions-league/"
+    },
+    {
+      "id": "EuroLeague-panathinaikoshasfiledtwocomplaintsagains",
+      "league": "EuroLeague",
+      "title": "Panathinaikos has filed two complaints against Olympiacos and Bartzokas",
+      "originalTitle": null,
+      "translatedFrom": null,
+      "description": "Panathinaikos filed complaints against Olympiacos and Georgios Bartzokas with the EuroLeague and also ESAKE The post Panathinaikos has filed two complaints against Olympiacos and Bartzokas appeared first on Eurohoops .",
+      "published": "2026-11-27T19:55:38.000Z",
+      "byline": "Eurohoops",
+      "tag": "Report",
+      "image": "https://images.eurohoops.net/2026/11/9a4057b0-giorgos-bartzokas-olympiacos-hapoel-tel-aviv.jpg",
+      "url": "https://www.eurohoops.net/en/euroleague/2042044/panathinaikos-has-filed-two-complaints-against-olympiacos-and-bartzokas/"
     },
     {
       "id": "EuroLeague-parisnadirhifinamedeuroleaguemvpofnovemb",
@@ -59,149 +98,6 @@
       "tag": "Report",
       "image": "https://images.eurohoops.net/2024/12/06b60e7a-nadir-hifi-olympiacos-paris.jpg",
       "url": "https://www.eurohoops.net/en/euroleague/2041828/pariss-nadir-hifi-named-euroleague-mvp-of-november/"
-    },
-    {
-      "id": "EuroLeague-euroleaguesashavezenkovnamedsportandosno",
-      "league": "EuroLeague",
-      "title": "EuroLeague | Sasha Vezenkov named Sportando’s November Player of the Month",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Sasha Vezenkov is Sportando’s choice for November Player of the Month L'articolo EuroLeague | Sasha Vezenkov named Sportando’s November Player of the Month proviene da Sportando .",
-      "published": "2026-11-27T11:22:59.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-sasha-vezenkov-named-sportandos-november-player-of-the-month/"
-    },
-    {
-      "id": "EuroLeague-euroleaguemaximelefevrenamedsportandosno",
-      "league": "EuroLeague",
-      "title": "EuroLeague | Maxime Lefevre named Sportando’s November Coach of the Month",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Five wins in five games: Maxime Lefevre is Sportando’s choice for November Coach of the Month L'articolo EuroLeague | Maxime Lefevre named Sportando’s November Coach of the Month proviene da Sportando .",
-      "published": "2026-11-27T11:18:50.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-maxime-lefevre-named-sportandos-november-coach-of-the-month/"
-    },
-    {
-      "id": "EuroLeague-euroleaguepowerrankingsnovemberupdateval",
-      "league": "EuroLeague",
-      "title": "EuroLeague Power Rankings | November update: Valencia rises, Paris gains ground",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Fourteen rounds reveal meaningful trends without erasing the assessments made before the season. L'articolo EuroLeague Power Rankings | November update: Valencia rises, Paris gains ground proviene da Sportando .",
-      "published": "2026-11-27T11:13:04.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/euroleague-power-rankings-november-update-valencia-rises-paris-gains-ground/"
-    },
-    {
-      "id": "EuroLeague-hifidismissesolympiacosspeculationihaven",
-      "league": "EuroLeague",
-      "title": "Hifi dismisses Olympiacos speculation: “I have no intention to leave Paris”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The guard clarifies his position on social media: “We are on a mission\" L'articolo Hifi dismisses Olympiacos speculation: “I have no intention to leave Paris” proviene da Sportando .",
-      "published": "2026-11-27T09:45:51.000Z",
-      "byline": "Sportando",
-      "tag": "Report",
-      "image": null,
-      "url": "https://sportando.basketball/en/hifi-dismisses-olympiacos-speculation-i-have-no-intention-to-leave-paris/"
-    },
-    {
-      "id": "EuroLeague-fattsrussellmovingfromanadoluefestomaxim",
-      "league": "EuroLeague",
-      "title": "“Fatts” Russell moving from Anadolu Efes to Maxima Roma",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Daron \"Fatts\" Russell is leaving Istanbul for the Italian capital and a EuroCup contender The post “Fatts” Russell moving from Anadolu Efes to Maxima Roma appeared first on Eurohoops .",
-      "published": "2026-11-26T12:42:28.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/10/c409b486-1in_2446_lqnr7oza_20261009100942-950x500.jpg",
-      "url": "https://www.eurohoops.net/en/eurocup/2041266/fatts-russell-moving-from-anadolu-efes-to-maxima-roma/"
-    },
-    {
-      "id": "EuroLeague-asvelextendsjuhannbegarinuntiltheendofth",
-      "league": "EuroLeague",
-      "title": "ASVEL extends Juhann Begarin until the end of the season",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Juhann Begarin is staying with LDLC ASVEL Villeurbanne The post ASVEL extends Juhann Begarin until the end of the season appeared first on Eurohoops .",
-      "published": "2026-11-26T11:38:43.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2024/07/f4c58537-juhann-begarin-france-fiba-basketball-world-cup-2023-european-qualifiers.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2041240/juhann-begarin-contract-extension-asvel-euroleague/"
-    },
-    {
-      "id": "EuroLeague-milansmoseswrightcapturesbacktobackeurol",
-      "league": "EuroLeague",
-      "title": "Milan’s Moses Wright captures back-to-back EuroLeague Round MVP awards",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Another Most Valuable Player of the Round performance by Moses Wright in the 2026–27 EuroLeague Regular Season The post Milan’s Moses Wright captures back-to-back EuroLeague Round MVP awards appeared first on Eurohoops .",
-      "published": "2026-11-26T11:08:43.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/09/3db1533e-moses-wright.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2041044/moses-wright-round-14-mvp-euroleague/"
-    },
-    {
-      "id": "EuroLeague-justinandersonisleavingdubaitoinkblockbu",
-      "league": "EuroLeague",
-      "title": "Justin Anderson is leaving Dubai to ink blockbuster PAOK deal",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "A huge transfer for PAOK with the arrival of 33-year-old Justin Anderson The post Justin Anderson is leaving Dubai to ink blockbuster PAOK deal appeared first on Eurohoops .",
-      "published": "2026-11-26T10:30:15.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/11/3f09ba67-justin-anderson-smiles-dubai-aba.jpg",
-      "url": "https://www.eurohoops.net/en/eurocup/2041207/justin-anderson-to-sign-with-paok-eurocup/"
-    },
-    {
-      "id": "EuroLeague-erginatamandiscussesnbaeuropeplanswherea",
-      "league": "EuroLeague",
-      "title": "Ergin Ataman discusses NBA Europe plans: “Where are the teams?”",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "The future of European basketball concerns Ergin Ataman as he weighs in on the NBA’s readiness versus EuroLeague expansion The post Ergin Ataman discusses NBA Europe plans: “Where are the teams?” appeared first on Eurohoops .",
-      "published": "2026-11-26T09:04:36.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/11/90b10242-ergin-ataman-turkey-world-cup-qualifiers.jpg",
-      "url": "https://www.eurohoops.net/en/nba-news/2041072/ergin-ataman-talks-nba-europe-euroleague/"
-    },
-    {
-      "id": "EuroLeague-hapoeltelavivrelocatesteamoperationsback",
-      "league": "EuroLeague",
-      "title": "Hapoel Tel Aviv relocates team operations back to Israel",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Team operations for Hapoel IBI Tel Aviv return to Israel, while keeping EuroLeague home games in Sofia The post Hapoel Tel Aviv relocates team operations back to Israel appeared first on Eurohoops .",
-      "published": "2026-11-26T07:20:37.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/11/9d3611e8-ish-wainright-shoots-hapoel-at-olympiacos.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2041004/hapoel-tel-aviv-relocates-team-operations-to-israel-euroleague/"
-    },
-    {
-      "id": "EuroLeague-shaqmckissicwillstayatturktelekomdespite",
-      "league": "EuroLeague",
-      "title": "Shaq McKissic will stay at Turk Telekom despite interest from Olympiacos",
-      "originalTitle": null,
-      "translatedFrom": null,
-      "description": "Olympiacos wanted to bring back fan favorite Shaq McKissic, but this will not happen The post Shaq McKissic will stay at Turk Telekom despite interest from Olympiacos appeared first on Eurohoops .",
-      "published": "2026-11-26T06:47:23.000Z",
-      "byline": "Eurohoops",
-      "tag": "Report",
-      "image": "https://images.eurohoops.net/2026/11/58f826bc-shaquielle-mckissic-olympiacos-hapoel-tel-aviv.jpg",
-      "url": "https://www.eurohoops.net/en/euroleague/2040988/shaquielle-mckissic-nearing-olympiacos-return-euroleague/"
     }
   ],
   "leaders": {
@@ -10587,7 +10483,7 @@
     }
   ],
   "sectionsUpdatedAt": {
-    "news": "2026-11-27T16:27:22.905Z",
+    "news": "2026-11-28T15:19:44.981Z",
     "leaders": "2026-09-11T01:04:05.996Z",
     "playerStats": "2026-09-11T01:04:05.996Z"
   },
